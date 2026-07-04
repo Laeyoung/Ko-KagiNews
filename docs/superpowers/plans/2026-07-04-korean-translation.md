@@ -79,7 +79,7 @@ Expected: FAIL with an unresolved-import error naming `$lib/server/db/queries` o
 
 - [ ] **Step 2: Read the file and identify the broken imports and the code paths that use them**
 
-Run: `sed -n '1,80p' src/routes/[batchId=batchId]/[categoryId=categoryId]/+page.server.ts`
+Run: `sed -n '1,80p' "src/routes/[batchId=batchId]/[categoryId=categoryId]/+page.server.ts"` (quote the path — unquoted brackets are a zsh glob and fail with "no matches found")
 Note every symbol imported from the two missing modules and where it's used in `load`.
 
 - [ ] **Step 3: Remove the broken imports and the OG-only code that depends on them**
@@ -573,9 +573,10 @@ TRANSLATIONS_ENABLED=true
 mkdir -p data/translations && touch data/translations/.gitkeep
 git check-ignore .env && echo ".env ignored OK"
 git check-ignore data/translations/foo.json && echo "sidecars ignored OK"
-git log --all --follow -- .env  # confirm no real secret was ever committed; rotate key if so
+# Scan the FULL history diff content (plain `git log` shows metadata only, not the key):
+git log --all -p -- .env | grep -iE 'GEMINI_API_KEY|AIza[0-9A-Za-z_-]{10,}' && echo "SECRET FOUND — rotate + scrub" || echo "no secret in .env history"
 ```
-Expected: `.env ignored OK`, `sidecars ignored OK`, and the log shows only config vars historically (no API key). If a secret was ever committed, stop and rotate the key + scrub history before continuing.
+Expected: `.env ignored OK`, `sidecars ignored OK`, `no secret in .env history`. If the grep matches (or a scanner like `gitleaks`/`trufflehog` flags it), STOP — rotate/revoke the key and scrub history before continuing.
 
 - [ ] **Step 6: Commit**
 
@@ -629,7 +630,7 @@ git commit -m "feat: add translation.config.json"
   - `class TranslationError extends Error { reason: 'blocked' | 'truncated' | 'retry_exhausted' }`
 - Consumes: `Segment` from `../src/lib/translation/translatable` (relative import — scripts are bun).
 
-> This module is network-bound; it is verified via `--dry-run` (Task 7 Step) and the real-API smoke run, not pure unit tests. Keep the block/truncation detection and retry policy exactly as specified.
+> This module is network-bound; it is verified via `--dry-run` (Task 7 Step 5) and the real-API smoke run (Step 6), not pure unit tests. Keep the block/truncation detection and retry policy exactly as specified.
 
 - [ ] **Step 1: Implement the wrapper**
 
@@ -724,7 +725,14 @@ export async function translateSegments(
 			if (finish === 'MAX_TOKENS') {
 				// Single deterministic retry at double budget, then give up.
 				res = await callOnce(segments, opts.model, 32768);
-				if (res.candidates?.[0]?.finishReason === 'MAX_TOKENS')
+				const finish2 = res.candidates?.[0]?.finishReason;
+				// Re-check terminal block/safety on the retry — a story can truncate first,
+				// then get safety-blocked at the larger budget. Without this it would fall
+				// through to `res.text` (undefined) → generic Error → wrongly retried as
+				// non-terminal and misreported as 'retry_exhausted'.
+				if (res.promptFeedback?.blockReason || finish2 === 'SAFETY' || finish2 === 'PROHIBITED_CONTENT' || finish2 === 'RECITATION')
+					throw new TranslationError('blocked', `blocked on retry: ${res.promptFeedback?.blockReason ?? finish2}`);
+				if (finish2 === 'MAX_TOKENS')
 					throw new TranslationError('truncated', 'MAX_TOKENS after doubling');
 			}
 			const text = res.text;
@@ -785,34 +793,109 @@ Create the concurrency lock with the fingerprint logic exactly as specified: loc
    - Idempotency (single source of truth = category sidecar): `done(id) := id ∈ keys(sidecar.stories) ∨ id ∈ {failedStoryIds where reason==='blocked'}`. If all fetched ids are `done` → skip, do not rewrite. Else translate the not-done ids and merge into the existing sidecar; `--force` re-translates all.
    - Per story: `extractSegments` → `translateSegments` → run validators (finishReason STOP, citation multiset, path set, non-empty, length ratio, **HTML tag** §4.7 rule 5); on validator failure treat as retryable (up to `maxRetries`); terminal `blocked`/`truncated` are non-retryable (from `TranslationError`).
    - Record final failures in `stats.failedStoryIds` as `{ id, reason }`.
-   - **Atomic write**: `<categoryUuid>.json.tmp.<pid>` → `rename`. Clean leftover `*.tmp.*` at start.
-4. Chaos: `GET /batches/{batchId}/chaos?lang=en` → translate `chaosDescription` (one call) → write `chaos.json` with upstream `chaosLastUpdated`. Idempotent: skip if `chaos.json` exists and its `chaosLastUpdated` equals the upstream value (unless `--force`).
-5. Update `index.json` (atomic write), print summary (per-category success/fail, token totals, est. cost). Compute story-level failure rate (§4.1): only apply the `> failureThresholdPct` → **exit 3** check when attempted stories ≥ 10; 0 attempted = 0%. Unresolved slugs → **exit 4** (if both apply, exit 3 wins).
+   - **Atomic write**: `<categoryUuid>.json.tmp.<pid>` → `rename`. Clean leftover `*.tmp.*` at start. **On a merge-rewrite** (catch-up / `--force` / `storyLimit` raise), refresh the file-level `model` and `createdAt` to the CURRENT run's values (§4.2 — last-writer-wins; not preserved from first creation).
+4. Chaos: `GET /batches/{batchId}/chaos?lang=en` → translate `chaosDescription` (one call). **Validate before writing** — per §4.2, apply ONLY §4.7's completeness (`finishReason === 'STOP'`), non-empty, and length-ratio (0.25–3.0) checks (no citation-marker check, and **no HTML-tag check** — `chaosDescription` is rendered as plain text, not via `{@html}`, so it has no XSS surface). On failure retry per §4.3, else skip writing chaos.json (English fallback). Write `chaos.json` with upstream `chaosLastUpdated` via atomic `.tmp.<pid>` → `rename` (complete-or-absent). Idempotent: skip if `chaos.json` exists and its `chaosLastUpdated` equals the upstream value (unless `--force`).
+5. Update `index.json` (atomic write per §4.2). **If `index.json` is missing or unparseable, reconstruct it by scanning the batch dir's sidecars and log a warning** (index.json is bookkeeping only — never the idempotency source). Print summary (per-category success/fail, token totals, est. cost). Compute story-level failure rate (§4.1): only apply the `> failureThresholdPct` → **exit 3** check when attempted stories ≥ 10; 0 attempted = 0%. Unresolved slugs → **exit 4** (if both apply, exit 3 wins).
 
 CLI flags: `--batch <id>`, `--category <slug>`, `--force`, `--dry-run`, `--limit <n>`.
 
-- [ ] **Step 3: Add the npm script**
+- [ ] **Step 3: Extract the decision logic into pure, unit-tested helpers**
+
+The orchestration itself is network/fs-bound, but its two most error-prone rules are pure and MUST have test coverage. Put them in `scripts/translate-helpers.ts` and test in `scripts/translate-helpers.test.ts`.
+
+**First extend the unit test config so `scripts/` tests are discovered** — `vitest.config.unit.ts` currently has `include: ['src/**/*.{test,spec}.{js,ts}']`; a CLI path argument only *filters within* already-included files, it does not add out-of-glob files, so a `scripts/` test would silently never run. Add the `scripts/` glob:
+
+```typescript
+// vitest.config.unit.ts
+include: ['src/**/*.{test,spec}.{js,ts}', 'scripts/**/*.{test,spec}.{js,ts}'],
+```
+(This also brings the helper test into CI's `test:unit`.)
+
+```typescript
+// scripts/translate-helpers.ts
+export type FailedStory = { id: string; reason: 'blocked' | 'truncated' | 'retry_exhausted' };
+
+/** §4.3 idempotency: a story is "done" if translated OR terminally blocked. */
+export function isDone(id: string, translatedIds: Set<string>, failed: FailedStory[]): boolean {
+	return translatedIds.has(id) || failed.some((f) => f.id === id && f.reason === 'blocked');
+}
+
+/**
+ * §4.1 story-level failure rate. Returns null when the small-sample guard applies
+ * (attempted < 10) — caller must NOT trip exit 3 in that case.
+ */
+export function failureRatePct(attempted: number, failed: number): number | null {
+	if (attempted === 0) return 0;
+	if (attempted < 10) return null; // small-denominator guard
+	return (failed / attempted) * 100;
+}
+
+/** §4.3 step 5 exit-code resolution (exit 3 wins over exit 4 when both apply). */
+export function resolveExitCode(opts: {
+	ratePct: number | null;
+	thresholdPct: number;
+	hasUnresolvedSlug: boolean;
+}): 0 | 3 | 4 {
+	if (opts.ratePct !== null && opts.ratePct > opts.thresholdPct) return 3;
+	if (opts.hasUnresolvedSlug) return 4;
+	return 0;
+}
+```
+
+```typescript
+// scripts/translate-helpers.test.ts
+import { describe, it, expect } from 'vitest';
+import { isDone, failureRatePct, resolveExitCode } from './translate-helpers';
+
+describe('isDone', () => {
+	it('true when translated or terminally blocked', () => {
+		expect(isDone('a', new Set(['a']), [])).toBe(true);
+		expect(isDone('b', new Set(), [{ id: 'b', reason: 'blocked' }])).toBe(true);
+	});
+	it('false for truncated/retry_exhausted (catch-up retries them)', () => {
+		expect(isDone('c', new Set(), [{ id: 'c', reason: 'truncated' }])).toBe(false);
+	});
+});
+
+describe('failureRatePct', () => {
+	it('0 attempted → 0', () => expect(failureRatePct(0, 0)).toBe(0));
+	it('<10 attempted → null (guard)', () => expect(failureRatePct(1, 1)).toBeNull());
+	it('>=10 attempted → pct', () => expect(failureRatePct(20, 5)).toBe(25));
+});
+
+describe('resolveExitCode', () => {
+	it('exit 3 when over threshold', () => expect(resolveExitCode({ ratePct: 25, thresholdPct: 20, hasUnresolvedSlug: false })).toBe(3));
+	it('exit 4 for unresolved slug when rate ok', () => expect(resolveExitCode({ ratePct: 0, thresholdPct: 20, hasUnresolvedSlug: true })).toBe(4));
+	it('exit 3 wins when both apply', () => expect(resolveExitCode({ ratePct: 25, thresholdPct: 20, hasUnresolvedSlug: true })).toBe(3));
+	it('guard (null rate) never trips exit 3', () => expect(resolveExitCode({ ratePct: null, thresholdPct: 20, hasUnresolvedSlug: false })).toBe(0));
+});
+```
+
+Run (must fail first, then pass after implementing the helpers): `npx vitest run --config vitest.config.unit.ts scripts/translate-helpers.test.ts`
+Expected: FAIL → PASS. Wire `translate-batch.ts` to import and use these helpers (do not duplicate the logic inline).
+
+- [ ] **Step 4: Add the npm script**
 
 In `package.json` `scripts`, add:
 ```json
 "translate:batch": "bun scripts/translate-batch.ts",
 ```
 
-- [ ] **Step 4: Verify `--dry-run` extracts segments and estimates tokens with no API calls**
+- [ ] **Step 5: Verify `--dry-run` extracts segments and estimates tokens with no API calls**
 
 Run: `bun scripts/translate-batch.ts --dry-run --category world --limit 2`
 Expected: prints segment counts + token/cost estimate; makes NO Gemini calls; creates no sidecar; exit 0.
 
-- [ ] **Step 5: Verify a scoped real run (requires `GEMINI_API_KEY` in `.env`)**
+- [ ] **Step 6: Verify a scoped real run (requires `GEMINI_API_KEY` in `.env`)**
 
 Run: `bun scripts/translate-batch.ts --category world --limit 2`
 Expected: creates `data/translations/<batchId>/<worldUuid>.json` with translated fields, citation markers preserved, no injected HTML; a re-run of the same command skips (idempotent, sidecar unchanged); exit 0.
 
-- [ ] **Step 6: Commit**
+- [ ] **Step 7: Commit**
 
 ```bash
 npm run biome:fix
-git add scripts/translate-batch.ts package.json
+git add scripts/translate-batch.ts scripts/translate-helpers.ts scripts/translate-helpers.test.ts vitest.config.unit.ts package.json
 git commit -m "feat: add daily batch translation cron script"
 ```
 
@@ -825,6 +908,8 @@ git commit -m "feat: add daily batch translation cron script"
 **Files:**
 - Modify: `src/lib/types.ts:104-108` (Story interface tail) and `:80` (`user_action_items`)
 - Modify: `src/lib/server/proxy.ts`
+- Modify: `src/lib/components/story/StorySectionManager.svelte:514` (normalize the widened `user_action_items` before passing to the `Array<string>`-typed `StoryActionItems` prop)
+- Modify: `src/lib/utils/citationContext.ts:273-276` (second call site broken by the widening — passes items to `processCitations(text: string)`)
 
 **Interfaces:**
 - Produces:
@@ -845,7 +930,47 @@ Before the closing `}` of `Story` (after line 107 `expanded?: boolean;`), add:
 	translationInfo?: { model: string; translatedAt: string };
 ```
 
-- [ ] **Step 2: Edit `src/lib/server/proxy.ts` — export base + helper**
+- [ ] **Step 2: Write the failing fetch-mocked test for `fetchUpstreamJSON` (§11 — not reproducible via integration tests)**
+
+`fetchUpstreamJSON`'s network-failure and JSON-parse-failure branches are unreachable from the integration suite (which hits a real dev server with default env), so §11 requires covering them with fetch mocking. Write this test FIRST (red), before the Step 3 implementation exists. Create `src/lib/server/__tests__/proxy.test.ts`:
+
+```typescript
+import { describe, it, expect, vi, afterEach } from 'vitest';
+import { fetchUpstreamJSON } from '$lib/server/proxy';
+
+afterEach(() => vi.unstubAllGlobals());
+
+const url = new URL('http://localhost/api/x?lang=ko');
+
+describe('fetchUpstreamJSON', () => {
+	it('ok:false when fetch throws (network failure)', async () => {
+		vi.stubGlobal('fetch', vi.fn().mockRejectedValue(new Error('ECONNREFUSED')));
+		const r = await fetchUpstreamJSON('/batches/latest', {}, url);
+		expect(r.ok).toBe(false);
+	});
+	it('ok:false on non-2xx upstream', async () => {
+		vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: false, status: 404 }));
+		const r = await fetchUpstreamJSON('/batches/latest', {}, url);
+		expect(r.ok).toBe(false);
+		expect(r.status).toBe(404);
+	});
+	it('ok:false when body is not JSON', async () => {
+		vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: true, status: 200, json: () => Promise.reject(new SyntaxError('bad json')) }));
+		const r = await fetchUpstreamJSON('/batches/latest', {}, url);
+		expect(r.ok).toBe(false);
+	});
+	it('ok:true with parsed body on success', async () => {
+		vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: true, status: 200, json: () => Promise.resolve({ id: 'abc' }) }));
+		const r = await fetchUpstreamJSON('/batches/latest', {}, url);
+		expect(r).toEqual({ status: 200, body: { id: 'abc' }, ok: true });
+	});
+});
+```
+
+Run: `npx vitest run --config vitest.config.unit.ts src/lib/server/__tests__/proxy.test.ts`
+Expected: FAIL — `fetchUpstreamJSON` is not exported from `proxy.ts` yet.
+
+- [ ] **Step 3: Implement `KITE_API_BASE` + `fetchUpstreamJSON` in `src/lib/server/proxy.ts`**
 
 Change the top constant to be env-overridable and export it, then add `fetchUpstreamJSON`:
 ```typescript
@@ -874,16 +999,39 @@ export async function fetchUpstreamJSON(
 ```
 Update the existing `createProxy` to reference the exported `KITE_API_BASE` constant instead of the local literal (keep byte-identical proxy behavior otherwise).
 
-- [ ] **Step 3: Verify existing proxy tests + type-check still pass**
+Run: `npx vitest run --config vitest.config.unit.ts src/lib/server/__tests__/proxy.test.ts`
+Expected: PASS (all four cases green).
 
-Run: `npx vitest run --config vitest.config.unit.ts src/lib/services/__tests__/api-check.test.ts && npm run check`
-Expected: PASS / no new type errors.
+- [ ] **Step 4: Normalize `user_action_items` at BOTH its consumers**
 
-- [ ] **Step 4: Commit**
+Widening the type breaks two strict-mode call sites that assume `string` items (`grep -rn user_action_items src/` finds both; the other references — `StorySectionManager.svelte:127` `?.length`, `StoryActionItems.svelte:61` string attr, `storyTextExtractor.ts` which types the story as `Record<string, unknown>` — are unaffected):
+
+1. `StorySectionManager.svelte:514` feeds `actionItems={story.user_action_items}` into `StoryActionItems.svelte`'s `actionItems: Array<string>` prop (line 11). This also fixes a latent runtime bug: the string-only component would render `{text}` object items as `[object Object]`. Change line 514 to:
+
+```svelte
+      actionItems={(story.user_action_items ?? []).map((i) => (typeof i === 'string' ? i : i.text))}
+```
+
+2. `citationContext.ts:273-276` iterates the field into `processCitations(text: string)`. Mirror the same narrowing:
+
+```typescript
+	if (story.user_action_items?.length) {
+		for (const item of story.user_action_items) {
+			processCitations(typeof item === 'string' ? item : item.text);
+		}
+	}
+```
+
+- [ ] **Step 5: Verify tests + type-check pass (no new errors)**
+
+Run: `npx vitest run --config vitest.config.unit.ts src/lib/services/__tests__/api-check.test.ts src/lib/server/__tests__/proxy.test.ts && npm run check`
+Expected: PASS / no new type errors (in particular, no `user_action_items` assignability error at `StorySectionManager.svelte` or `citationContext.ts`).
+
+- [ ] **Step 6: Commit**
 
 ```bash
 npm run biome:fix
-git add src/lib/types.ts src/lib/server/proxy.ts
+git add src/lib/types.ts src/lib/server/proxy.ts src/lib/server/__tests__/proxy.test.ts src/lib/components/story/StorySectionManager.svelte src/lib/utils/citationContext.ts
 git commit -m "feat: export KITE_API_BASE + fetchUpstreamJSON; widen Story types"
 ```
 
@@ -1010,6 +1158,7 @@ Expected: FAIL — module not found.
 ```typescript
 import { readFile, stat } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
+import { env } from '$env/dynamic/private';
 import { applySegments } from '$lib/translation/translatable';
 import type { Story } from '$lib/types';
 
@@ -1033,12 +1182,31 @@ export type ChaosSidecar = {
 	chaosDescription: string;
 };
 
+// Server reads env via $env/dynamic/private (§5.1); `env` proxies process.env at
+// access time, so the test suite's `process.env.TRANSLATIONS_DIR = ...` (set before
+// import) and the dev server's real env are both reflected. (Scripts use process.env.)
 function translationsDir(): string {
-	return process.env.TRANSLATIONS_DIR ?? join(process.cwd(), 'data/translations');
+	return env.TRANSLATIONS_DIR ?? join(process.cwd(), 'data/translations');
+}
+
+// §8.2: on the first sidecar lookup, log the resolved absolute dir (and warn if it
+// doesn't exist) so a cwd/TRANSLATIONS_DIR misconfig surfaces in logs instead of
+// silently serving English forever.
+let dirLogged = false;
+async function logTranslationsDirOnce(): Promise<void> {
+	if (dirLogged) return;
+	dirLogged = true;
+	const abs = resolve(translationsDir());
+	try {
+		await stat(abs);
+		console.log(`[translations] TRANSLATIONS_DIR resolved to ${abs}`);
+	} catch {
+		console.warn(`[translations] TRANSLATIONS_DIR ${abs} does not exist — Korean will fall back to English`);
+	}
 }
 
 export function translationsEnabled(): boolean {
-	return process.env.TRANSLATIONS_ENABLED !== 'false';
+	return env.TRANSLATIONS_ENABLED !== 'false';
 }
 
 export function wantsKorean(langParam: string | null): boolean {
@@ -1077,6 +1245,7 @@ function safeSidecarPath(batchId: string, file: string): string | null {
 }
 
 export async function readSidecar(batchId: string, categoryUuid: string): Promise<Sidecar | null> {
+	await logTranslationsDirOnce();
 	if (!BATCH_ID.test(batchId) || !CATEGORY_UUID.test(categoryUuid)) return null;
 	const abs = safeSidecarPath(batchId, `${categoryUuid}.json`);
 	if (!abs) return null;
@@ -1084,6 +1253,7 @@ export async function readSidecar(batchId: string, categoryUuid: string): Promis
 }
 
 export async function readChaosSidecar(batchId: string): Promise<ChaosSidecar | null> {
+	await logTranslationsDirOnce();
 	if (!BATCH_ID.test(batchId)) return null;
 	const abs = safeSidecarPath(batchId, 'chaos.json');
 	if (!abs) return null;
@@ -1362,6 +1532,34 @@ describe('story overlay', () => {
 		const merged = ko.body.stories.find((s: any) => s.id === first.id);
 		expect(merged.title).toBe('테스트 번역');
 		expect(merged.translationAvailable).toBe(true);
+
+		// §11: a DIFFERENT category with NO sidecar must pass through unchanged for lang=ko.
+		const other = cats.body.categories[1];
+		const otherEn = await getJson(`/api/batches/${batchId}/categories/${other.id}/stories?lang=en`);
+		const otherKo = await getJson(`/api/batches/${batchId}/categories/${other.id}/stories?lang=ko`);
+		expect(otherKo.body.stories[0].title).toBe(otherEn.body.stories[0].title);
+		// Upstream echoes translationAvailable:false (not our overlay's true) for an
+		// English-source category under lang=ko with no sidecar (spec §5.1, live-verified).
+		expect(otherKo.body.stories[0].translationAvailable).not.toBe(true);
+	});
+});
+
+describe('chaos freshness guard', () => {
+	it('matching chaosLastUpdated → Korean; mismatched → English', async () => {
+		const latest = await getJson('/api/batches/latest');
+		const batchId = latest.body.id;
+		const chaosEn = await getJson(`/api/batches/${batchId}/chaos?lang=en`);
+		const dir = join(DIR, batchId);
+		mkdirSync(dir, { recursive: true });
+		written.push(dir);
+		// Matching timestamp → overlay applies.
+		writeFileSync(join(dir, 'chaos.json'), JSON.stringify({ version: 1, batchId, model: 'gemini-3.1-flash-lite', createdAt: '2026-07-01T00:00:00Z', chaosLastUpdated: chaosEn.body.chaosLastUpdated, chaosDescription: '카오스 설명 번역' }));
+		const koMatch = await getJson(`/api/batches/${batchId}/chaos?lang=ko`);
+		expect(koMatch.body.chaosDescription).toBe('카오스 설명 번역');
+		// Stale timestamp → English passthrough.
+		writeFileSync(join(dir, 'chaos.json'), JSON.stringify({ version: 1, batchId, model: 'gemini-3.1-flash-lite', createdAt: '2026-07-01T00:00:00Z', chaosLastUpdated: '1970-01-01T00:00:00.000Z', chaosDescription: '오래된 번역' }));
+		const koStale = await getJson(`/api/batches/${batchId}/chaos?lang=ko`);
+		expect(koStale.body.chaosDescription).toBe(chaosEn.body.chaosDescription);
 	});
 });
 
@@ -1386,7 +1584,7 @@ describe('path traversal defense', () => {
 npm run dev &   # or a preview server on :5173
 npx vitest run --config vitest.config.integration.ts src/lib/server/__tests__/integration/translations.integration.test.ts
 ```
-Expected: PASS. (chaos freshness-guard cases from §11 may be added the same way: read upstream `chaosLastUpdated`, write a matching fixture → Korean; mismatched value → English.)
+Expected: PASS (locale, story overlay + unselected-category passthrough, chaos freshness guard, upstream error passthrough, path-traversal defense).
 
 - [ ] **Step 3: Commit**
 
@@ -1511,6 +1709,8 @@ git commit -m "feat: add ko.json locale and serve it locally"
 
 ## Phase 5 — Korean defaults, content filters, cron deploy
 
+> **⛔ DEPLOY-ORDER GATE (spec §12 P5, required):** Task 20 (crontab deploy + verified same-day sidecars for every configured category) MUST complete and pass its verification **before** the Task 16–19 default-flip changes reach production. Batches are immutable and published daily, so if the default is flipped to Korean before the cron is producing today's sidecars, nearly every new visitor sees English on the very batch meant to prove the feature. Tasks 16–19 are written first only for code locality; **implement Task 20 first (or hold the Task 16–19 commits) and release Tasks 16–20 as a single deploy with the cron already running.** Do not merge/deploy Task 16 standalone.
+
 ### Task 16: Switch language defaults
 
 **Files:**
@@ -1521,7 +1721,7 @@ git commit -m "feat: add ko.json locale and serve it locally"
 
 **Interfaces:**
 - Produces: `settings.language` default `'ko'`, `settings.dataLanguage` default `'ko'`, store fallbacks `'ko'`, SSR bootstrap `{ locale: 'ko', strings: locales.ko }`.
-- Depends on Task 15 (`locales.ko` exists).
+- Depends on Task 15 (`locales.ko` exists) **and on Task 20's cron verification (deploy gate above)** — do not release this flip until today's sidecars exist.
 
 - [ ] **Step 1: Change the settings defaults**
 
@@ -1642,7 +1842,7 @@ git add src/lib/data/contentFilters.json contentFilters.json
 git commit -m "feat: add Korean keywords to content filters"
 ```
 
-### Task 20: Deploy the translation cron (before the default flip is user-visible)
+### Task 20: Deploy the translation cron — GATE for Task 16 (do this before releasing the default flip)
 
 **Files:** none in-repo (ops). Optionally document in README (Task 25).
 
@@ -1802,7 +2002,13 @@ Expected: all PASS.
 
 Confirm: first load is Korean UI (SSR, no FOUC); World-category story bodies Korean with citation chips intact; timeline dates like "7월 12일"; language selector switches to English and back; past batch (time travel) falls back to English.
 
-- [ ] **Step 4: Commit**
+- [ ] **Step 4: Cron soak — verify 2 consecutive stable days before declaring the feature complete (§12 P6 완료 기준)**
+
+After the cron (deployed in Task 20) has run for **≥ 2 consecutive daily cycles**, confirm in `logs/translate.log` that both days ended `exit 0` (or an expected idempotent skip) and that the alert consumer (MAILTO / healthchecks.io) fired **no** failure notifications. Re-confirm each day's processed `batchId.createdAt` is that day's 12:00 UTC publish (guards the §4.3 timezone trap over time, not just on day one).
+Run: `grep -E "exit=|batchId|createdAt" logs/translate.log | tail -40`
+Expected: two successful daily runs, no alerts. Do not mark the feature done until this passes.
+
+- [ ] **Step 5: Commit**
 
 ```bash
 git add README.md
