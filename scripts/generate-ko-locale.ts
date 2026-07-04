@@ -96,13 +96,13 @@ function multisetEqual(a: string[], b: string[]): boolean {
 	return true;
 }
 
-function validatePlaceholders(sourceText: string, translatedText: string): ValidationResult {
+export function validatePlaceholders(sourceText: string, translatedText: string): ValidationResult {
 	return multisetEqual(extractPlaceholders(sourceText), extractPlaceholders(translatedText))
 		? { ok: true }
 		: { ok: false, reason: 'placeholder_mismatch' };
 }
 
-function validateBrandTerms(sourceText: string, translatedText: string): ValidationResult {
+export function validateBrandTerms(sourceText: string, translatedText: string): ValidationResult {
 	const sourceCount = (sourceText.match(BRAND_TERM_REGEX) ?? []).length;
 	if (sourceCount === 0) return { ok: true };
 	const translatedCount = (translatedText.match(BRAND_TERM_REGEX) ?? []).length;
@@ -110,7 +110,7 @@ function validateBrandTerms(sourceText: string, translatedText: string): Validat
 }
 
 /** Runs all §6.1 per-key checks (placeholders, HTML tags, brand terms). */
-function validateLocaleString(sourceText: string, translatedText: string): ValidationResult {
+export function validateLocaleString(sourceText: string, translatedText: string): ValidationResult {
 	const placeholderCheck = validatePlaceholders(sourceText, translatedText);
 	if (!placeholderCheck.ok) return placeholderCheck;
 	// validateHtmlTags (reused from translatable.ts) both enforces tag-multiset
@@ -188,7 +188,7 @@ async function requestTranslation(
 	throw new TranslationError('retry_exhausted', lastErr);
 }
 
-interface ChunkOutcome {
+export interface ChunkOutcome {
 	translated: Record<string, string>;
 	failures: { key: string; reason: string }[];
 }
@@ -223,6 +223,20 @@ async function translateChunkOnce(items: LocaleItem[], model: string, maxRetries
 	return { translated, failures };
 }
 
+/**
+ * Pure merge step of the spec §6.1 "failing keys re-queued ONCE, then reported" rule:
+ * given the first-pass outcome and the second-pass outcome (over just the keys that
+ * failed pass 1), produce the final outcome. A key that fails BOTH passes must end up
+ * only in `failures`, never in `translated` — `second.failures` (not `first.failures`)
+ * is authoritative here since it reports keys that failed twice.
+ */
+export function mergeRequeueOutcomes(first: ChunkOutcome, second: ChunkOutcome): ChunkOutcome {
+	return {
+		translated: { ...first.translated, ...second.translated },
+		failures: second.failures, // final report — only keys that failed twice
+	};
+}
+
 /** Applies the spec §6.1 "failing keys re-queued ONCE, then reported" rule. */
 async function translateChunkWithRequeue(
 	items: LocaleItem[],
@@ -236,10 +250,7 @@ async function translateChunkWithRequeue(
 	const retryItems = items.filter((i) => failedKeys.has(i.key));
 	const second = await translateChunkOnce(retryItems, model, maxRetries);
 
-	return {
-		translated: { ...first.translated, ...second.translated },
-		failures: second.failures, // final report — only keys that failed twice
-	};
+	return mergeRequeueOutcomes(first, second);
 }
 
 // ---------------------------------------------------------------------------
@@ -361,7 +372,13 @@ async function main(): Promise<void> {
 	}
 }
 
-main().catch((err) => {
-	console.error('[generate-ko-locale] unexpected error:', err instanceof Error ? (err.stack ?? err.message) : err);
-	process.exit(1);
-});
+// Guarded like sort-locales.ts/sort-feeds.ts/sort-media.ts: only run when invoked
+// directly as a script (bun scripts/generate-ko-locale.ts), not when imported
+// (e.g. by generate-ko-locale.test.ts), so importing for unit tests doesn't
+// trigger file I/O or a live Gemini call.
+if (import.meta.url === `file://${process.argv[1]}`) {
+	main().catch((err) => {
+		console.error('[generate-ko-locale] unexpected error:', err instanceof Error ? (err.stack ?? err.message) : err);
+		process.exit(1);
+	});
+}
