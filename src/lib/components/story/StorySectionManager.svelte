@@ -13,6 +13,7 @@ function extractDomain(url: string | undefined | null): string {
 		return '';
 	}
 }
+
 import {
 	buildCitationMapping,
 	type CitationMapping,
@@ -511,7 +512,7 @@ const businessAngleCitedArticles = $derived.by(() => {
     />
   {:else if section.id === "actionItems"}
     <StoryActionItems
-      actionItems={story.user_action_items}
+      actionItems={(story.user_action_items ?? []).map((i: string | { text: string }) => (typeof i === "string" ? i : i.text))}
       articles={story.articles}
       {citationMapping}
       {storyLocalizer}

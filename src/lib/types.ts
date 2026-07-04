@@ -77,7 +77,7 @@ export interface Story {
 	technical_details?: string[] | null;
 	business_angle_text?: string | null;
 	business_angle_points?: string[] | null;
-	user_action_items?: string[] | null;
+	user_action_items?: (string | { text: string })[] | null;
 	scientific_significance?: string[] | null;
 	travel_advisory?: string[] | null;
 	destination_highlights?: string | null;
@@ -105,6 +105,8 @@ export interface Story {
 	articles: Article[];
 	domains?: Domain[];
 	expanded?: boolean;
+	translationAvailable?: boolean;
+	translationInfo?: { model: string; translatedAt: string };
 }
 
 export interface Category {
