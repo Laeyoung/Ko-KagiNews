@@ -21,7 +21,14 @@ afterEach(() => rmSync(dir, { recursive: true, force: true }));
 
 // Static import is hoisted; the vi.mock above (also hoisted) guarantees the module
 // under test sees the live-process.env-backed env regardless of import position.
-import { applyTranslations, readSidecar, translationsEnabled, wantsKorean } from '../translations';
+import {
+	applyChaosTranslation,
+	applyTranslations,
+	readChaosSidecar,
+	readSidecar,
+	translationsEnabled,
+	wantsKorean,
+} from '../translations';
 
 describe('wantsKorean', () => {
 	it('true for ko and ko-first comma list', () => {
@@ -130,5 +137,56 @@ describe('readSidecar cache', () => {
 		expect(await readSidecar('../etc', CAT)).toBeNull();
 		expect(await readSidecar(UUID, 'index')).toBeNull();
 		expect(await readSidecar(UUID, '..%2Fescape')).toBeNull();
+	});
+});
+
+function writeChaosSidecar(
+	chaos: Partial<{
+		chaosLastUpdated: string;
+		chaosDescription: string;
+	}>,
+) {
+	mkdirSync(join(dir, UUID), { recursive: true });
+	writeFileSync(
+		join(dir, UUID, 'chaos.json'),
+		JSON.stringify({
+			version: 1,
+			batchId: UUID,
+			model: 'gemini-3.1-flash-lite',
+			createdAt: '2026-07-01T14:03:11Z',
+			chaosLastUpdated: '2026-07-01T14:03:11Z',
+			chaosDescription: '카오스',
+			...chaos,
+		}),
+	);
+}
+
+describe('readChaosSidecar', () => {
+	it('no negative cache: miss then create then hit', async () => {
+		expect(await readChaosSidecar(UUID)).toBeNull();
+		writeChaosSidecar({ chaosDescription: '카오스' });
+		expect((await readChaosSidecar(UUID))?.chaosDescription).toBe('카오스');
+	});
+	it('rejects path-traversal params', async () => {
+		expect(await readChaosSidecar('../etc')).toBeNull();
+		expect(await readChaosSidecar('..%2Fescape')).toBeNull();
+	});
+});
+
+describe('applyChaosTranslation', () => {
+	it('replaces only chaosDescription, leaves other fields untouched', () => {
+		const body = { chaosIndex: 5, chaosDescription: 'English', chaosLastUpdated: 'T' };
+		const sidecar = {
+			version: 1,
+			batchId: UUID,
+			model: 'gemini-3.1-flash-lite',
+			createdAt: '2026-07-01T14:03:11Z',
+			chaosLastUpdated: '2026-07-01T14:03:11Z',
+			chaosDescription: '카오스',
+		};
+		const out = applyChaosTranslation(body, sidecar);
+		expect(out.chaosDescription).toBe('카오스');
+		expect(out.chaosIndex).toBe(5);
+		expect(out.chaosLastUpdated).toBe('T');
 	});
 });

@@ -1,5 +1,5 @@
 import { readFile, stat } from 'node:fs/promises';
-import { join, resolve } from 'node:path';
+import { join, resolve, sep } from 'node:path';
 import { env } from '$env/dynamic/private';
 import { applySegments } from '$lib/translation/translatable';
 import type { BatchStoriesResponse, Story } from '$lib/types';
@@ -97,7 +97,8 @@ async function readJsonWithRevalidation<T>(absPath: string): Promise<T | null> {
 function safeSidecarPath(batchId: string, file: string): string | null {
 	const dir = translationsDir();
 	const abs = resolve(dir, batchId, file);
-	if (!abs.startsWith(resolve(dir))) return null; // defense in depth
+	const base = resolve(dir);
+	if (abs !== base && !abs.startsWith(base + sep)) return null; // defense in depth (separator boundary)
 	return abs;
 }
 
