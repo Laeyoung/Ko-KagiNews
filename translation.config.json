@@ -1,0 +1,7 @@
+{
+	"categories": ["world", "usa", "business", "tech", "science"],
+	"storyLimit": 12,
+	"concurrency": 3,
+	"maxRetries": 3,
+	"failureThresholdPct": 20
+}
