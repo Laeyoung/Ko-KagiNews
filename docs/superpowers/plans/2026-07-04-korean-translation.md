@@ -261,6 +261,22 @@ describe('applySegments', () => {
 		expect(out.suggested_qna?.[0]).toEqual({ question: 'q', answer: 'ans' });
 		expect((out.primary_image as any).url).toBe('http://x/y.png');
 	});
+
+	it('ignores prototype-inherited field-name keys without crashing', () => {
+		// `field` comes from untrusted sidecar keys; a prototype name must no-op, not throw.
+		const story = baseStory({ talking_points: ['a', 'b'] });
+		expect(() =>
+			applySegments(story, {
+				'__proto__[0].text': 'y',
+				'toString[0].content': 'z',
+				'constructor.caption': 'c',
+				'hasOwnProperty[0]': 'h',
+			}),
+		).not.toThrow();
+		const out = applySegments(story, { 'toString[0].content': 'z' }) as Story;
+		expect(out.title).toBe(story.title);
+		expect(out.talking_points).toEqual(['a', 'b']);
+	});
 });
 
 describe('extractCitations', () => {
@@ -424,7 +440,11 @@ function setPath(root: Record<string, unknown>, path: string, value: string): vo
 	}
 
 	// Nested object-array field: `field[i].<subKey>` where subKey is an allowed sub-key.
-	const nestedArrKeys = NESTED_ARRAY_FIELDS[field];
+	// Object.hasOwn guard: `field` is untrusted, so a prototype name ("__proto__",
+	// "toString", "constructor", …) must resolve to undefined here — a plain
+	// `NESTED_ARRAY_FIELDS[field]` would return an inherited value (no `.includes`) and
+	// throw, crashing the overlay on a corrupt/tampered sidecar.
+	const nestedArrKeys = Object.hasOwn(NESTED_ARRAY_FIELDS, field) ? NESTED_ARRAY_FIELDS[field] : undefined;
 	if (nestedArrKeys) {
 		if (!hasIndex || !subKey || !nestedArrKeys.includes(subKey)) return;
 		const arr = root[field];
@@ -437,7 +457,8 @@ function setPath(root: Record<string, unknown>, path: string, value: string): vo
 	}
 
 	// Nested object field: `field.<subKey>` (no index) where subKey is an allowed sub-key.
-	const nestedObjKeys = NESTED_OBJECT_FIELDS[field];
+	// Object.hasOwn guard for the same prototype-key reason as the nested-array lookup above.
+	const nestedObjKeys = Object.hasOwn(NESTED_OBJECT_FIELDS, field) ? NESTED_OBJECT_FIELDS[field] : undefined;
 	if (nestedObjKeys) {
 		if (hasIndex || !subKey || !nestedObjKeys.includes(subKey)) return;
 		const obj = root[field];
