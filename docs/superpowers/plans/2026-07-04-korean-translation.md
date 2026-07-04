@@ -829,7 +829,10 @@ async function callOnce(segments: Segment[], model: string, maxOutputTokens: num
 
 export async function translateSegments(
 	segments: Segment[],
-	opts: { model: string; maxRetries: number },
+	// skipCitationCheck/skipHtmlCheck let the chaos path (plain text, no {@html} sink)
+	// opt out of those two §4.7 checks per spec §4.2 — completeness/non-empty/length/path
+	// still always run. Story translation omits both flags (full validation).
+	opts: { model: string; maxRetries: number; skipCitationCheck?: boolean; skipHtmlCheck?: boolean },
 ): Promise<{ translated: Record<string, string>; tokens: { in: number; out: number } }> {
 	let lastErr = '';
 	// Accumulate tokens across EVERY call actually made (retries + the discarded
@@ -883,11 +886,13 @@ export async function translateSegments(
 			for (const seg of segments) {
 				const ko = translated[seg.path];
 				if (!ko) throw new Error('validation: empty_segment');
-				for (const check of [
-					validateCitations(seg.text, ko),
-					validateHtmlTags(seg.text, ko),
-					validateLengthRatio(seg.text, ko),
-				]) {
+				// citation + HTML checks are skippable (chaos plain-text path, §4.2);
+				// length-ratio (+ the non-empty and path checks above) always run.
+				const checks = [];
+				if (!opts.skipCitationCheck) checks.push(validateCitations(seg.text, ko));
+				if (!opts.skipHtmlCheck) checks.push(validateHtmlTags(seg.text, ko));
+				checks.push(validateLengthRatio(seg.text, ko));
+				for (const check of checks) {
 					if (!check.ok) throw new Error(`validation: ${check.reason}`);
 				}
 			}
@@ -946,7 +951,7 @@ Create the concurrency lock with the fingerprint logic exactly as specified: loc
    - Per story: `extractSegments` → `translateSegments`. `translateSegments` (Task 6) already runs the §4.7 validators (completeness/finishReason STOP, citation multiset, path set, non-empty, length ratio, **HTML tag** rule 5) inside its single retry loop, so the caller does NOT re-validate or re-retry — it just awaits and handles the outcome: success → sidecar entry; `TranslationError` (`blocked`/`truncated`/`retry_exhausted`) → record in `stats.failedStoryIds`. This preserves exactly ONE per-story retry budget with the 2s/8s/30s backoff (spec §4.3), not a nested `(maxRetries+1)²` loop.
    - Record final failures in `stats.failedStoryIds` as `{ id, reason }`.
    - **Atomic write**: `<categoryUuid>.json.tmp.<pid>` → `rename`. Clean leftover `*.tmp.*` at start. **On a merge-rewrite** (catch-up / `--force` / `storyLimit` raise), refresh the file-level `model` and `createdAt` to the CURRENT run's values (§4.2 — last-writer-wins; not preserved from first creation).
-4. Chaos: `GET /batches/{batchId}/chaos?lang=en` → translate `chaosDescription` (one call). **Validate before writing** — per §4.2, apply ONLY §4.7's completeness (`finishReason === 'STOP'`), non-empty, and length-ratio (0.25–3.0) checks (no citation-marker check, and **no HTML-tag check** — `chaosDescription` is rendered as plain text, not via `{@html}`, so it has no XSS surface). On failure retry per §4.3, else skip writing chaos.json (English fallback). Write `chaos.json` with upstream `chaosLastUpdated` via atomic `.tmp.<pid>` → `rename` (complete-or-absent). Idempotent: skip if `chaos.json` exists and its `chaosLastUpdated` equals the upstream value (unless `--force`).
+4. Chaos: `GET /batches/{batchId}/chaos?lang=en` → translate `chaosDescription` (one call, via `translateSegments([{ path: 'chaosDescription', text }], { model, maxRetries, skipCitationCheck: true, skipHtmlCheck: true })`). **Validate before writing** — per §4.2, apply ONLY §4.7's completeness (`finishReason === 'STOP'`), non-empty, and length-ratio (0.25–3.0) checks (no citation-marker check, and **no HTML-tag check** — `chaosDescription` is rendered as plain text, not via `{@html}`, so it has no XSS surface; the `skipCitationCheck`/`skipHtmlCheck` opts turn those two checks off so ordinary editorial brackets like `[sic]` don't force a needless English fallback). On failure retry per §4.3, else skip writing chaos.json (English fallback). Write `chaos.json` with upstream `chaosLastUpdated` via atomic `.tmp.<pid>` → `rename` (complete-or-absent). Idempotent: skip if `chaos.json` exists and its `chaosLastUpdated` equals the upstream value (unless `--force`).
 5. Update `index.json` (atomic write per §4.2). **If `index.json` is missing or unparseable, reconstruct it by scanning the batch dir's sidecars and log a warning** (index.json is bookkeeping only — never the idempotency source). Print summary (per-category success/fail, token totals, est. cost). Compute story-level failure rate (§4.1): only apply the `> failureThresholdPct` → **exit 3** check when attempted stories ≥ 10; 0 attempted = 0%. Unresolved slugs → **exit 4** (if both apply, exit 3 wins).
 
 CLI flags: `--batch <id>`, `--category <slug>`, `--force`, `--dry-run`, `--limit <n>`.
