@@ -83,7 +83,7 @@ async function callOnce(segments: Segment[], model: string, maxOutputTokens: num
 
 export async function translateSegments(
 	segments: Segment[],
-	opts: { model: string; maxRetries: number },
+	opts: { model: string; maxRetries: number; skipCitationCheck?: boolean; skipHtmlCheck?: boolean },
 ): Promise<{ translated: Record<string, string>; tokens: { in: number; out: number } }> {
 	let lastErr = '';
 	let tokensIn = 0;
@@ -137,11 +137,11 @@ export async function translateSegments(
 			for (const seg of segments) {
 				const ko = translated[seg.path];
 				if (!ko) throw new Error('validation: empty_segment');
-				for (const check of [
-					validateCitations(seg.text, ko),
-					validateHtmlTags(seg.text, ko),
-					validateLengthRatio(seg.text, ko),
-				]) {
+				const checks = [];
+				if (!opts.skipCitationCheck) checks.push(validateCitations(seg.text, ko));
+				if (!opts.skipHtmlCheck) checks.push(validateHtmlTags(seg.text, ko));
+				checks.push(validateLengthRatio(seg.text, ko));
+				for (const check of checks) {
 					if (!check.ok) throw new Error(`validation: ${check.reason}`);
 				}
 			}

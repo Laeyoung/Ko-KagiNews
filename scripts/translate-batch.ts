@@ -649,21 +649,17 @@ async function processChaos(p: ProcessChaosParams): Promise<ProcessChaosResult> 
 
 	const segments: Segment[] = [{ path: 'chaosDescription', text: chaos.chaosDescription }];
 	try {
-		// NOTE (deliberate, disclosed deviation): translateSegments is the only
-		// exported Gemini entry point (Task 6) and unconditionally applies §4.7's
-		// citation + HTML-tag multiset checks in addition to completeness/non-empty
-		// /length-ratio. Spec §4.2/§4.3 only *requires* the latter three for chaos
-		// (chaosDescription is plain text, not {@html}-rendered — no XSS surface,
-		// and citation markers aren't expected in it). Reusing translateSegments
-		// here is a strict superset of the required validation: it can only ever
-		// reject MORE than the spec's minimal ruleset, never less, so it is safe,
-		// but it could in theory reject a translation that the narrower chaos-only
-		// ruleset would have accepted (e.g. if chaosDescription contains bracketed
-		// text). Duplicating gemini-client's private call/schema/safety-settings
-		// setup here just to drop two checks was judged worse than this superset.
+		// §4.2: chaos: no citation/HTML checks — plain text, no {@html} sink.
+		// Only completeness (finishReason STOP, enforced above translateSegments'
+		// validation block) + non-empty + length-ratio apply to chaosDescription.
+		// Without this, ordinary editorial brackets (e.g. "[sic]", "[Reuters]")
+		// in chaosDescription would fail validateCitations and needlessly burn
+		// the retry budget down to an English fallback.
 		const { translated, tokens } = await translateSegments(segments, {
 			model: p.modelId,
 			maxRetries: p.maxRetries,
+			skipCitationCheck: true,
+			skipHtmlCheck: true,
 		});
 		const sidecar: ChaosSidecar = {
 			version: 1,
