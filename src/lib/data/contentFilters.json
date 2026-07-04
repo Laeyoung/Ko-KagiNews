@@ -30,6 +30,19 @@
 					"government",
 					"politician"
 				],
+				"ko": [
+					"트럼프",
+					"바이든",
+					"선거",
+					"민주당",
+					"공화당",
+					"의회",
+					"상원",
+					"국회",
+					"장관",
+					"정부",
+					"정치인"
+				],
 				"pt": [
 					"trump",
 					"biden",
@@ -245,6 +258,20 @@
 					"military",
 					"invasion",
 					"bombing"
+				],
+				"ko": [
+					"우크라이나",
+					"러시아",
+					"이스라엘",
+					"가자",
+					"팔레스타인",
+					"전쟁",
+					"분쟁",
+					"미사일",
+					"공격",
+					"군사",
+					"침공",
+					"폭격"
 				],
 				"pt": [
 					"ucrânia",
@@ -464,6 +491,17 @@
 					"quarantine",
 					"lockdown"
 				],
+				"ko": [
+					"코로나",
+					"코로나바이러스",
+					"팬데믹",
+					"백신",
+					"바이러스",
+					"발병",
+					"전염병",
+					"격리",
+					"봉쇄"
+				],
 				"pt": [
 					"covid",
 					"coronavírus",
@@ -617,6 +655,7 @@
 					"stabbing",
 					"assault"
 				],
+				"ko": ["총격", "살해", "살인", "자살", "사망", "사망자수", "학살", "흉기", "폭행"],
 				"pt": [
 					"tiroteio",
 					"morto",
@@ -755,6 +794,14 @@
 					"pagesix.com",
 					"radaronline.com"
 				],
+				"ko": [
+					"dailymail.co.uk",
+					"thesun.co.uk",
+					"mirror.co.uk",
+					"tmz.com",
+					"pagesix.com",
+					"radaronline.com"
+				],
 				"pt": [
 					"dailymail.co.uk",
 					"thesun.co.uk",
@@ -884,6 +931,18 @@
 					"web3",
 					"dogecoin",
 					"binance"
+				],
+				"ko": [
+					"비트코인",
+					"이더리움",
+					"암호화폐",
+					"가상화폐",
+					"블록체인",
+					"nft",
+					"디파이",
+					"웹3",
+					"도지코인",
+					"바이낸스"
 				],
 				"pt": [
 					"bitcoin",
@@ -1069,6 +1128,7 @@
 					"breakup",
 					"scandal"
 				],
+				"ko": ["카다시안", "연예인", "왕실", "할리우드", "가십", "열애", "이별", "스캔들"],
 				"pt": [
 					"kardashian",
 					"celebridade",
@@ -1206,6 +1266,18 @@
 					"world cup",
 					"championship",
 					"league"
+				],
+				"ko": [
+					"축구",
+					"농구",
+					"야구",
+					"테니스",
+					"골프",
+					"올림픽",
+					"월드컵",
+					"챔피언십",
+					"리그",
+					"선수권"
 				],
 				"pt": [
 					"futebol",
@@ -1369,6 +1441,20 @@
 					"gpt-4",
 					"gpt-5",
 					"large language model"
+				],
+				"ko": [
+					"챗gpt",
+					"오픈ai",
+					"인공지능",
+					"머신러닝",
+					"신경망",
+					"딥페이크",
+					"생성형ai",
+					"agi",
+					"llm",
+					"앤트로픽",
+					"클로드",
+					"제미니"
 				],
 				"pt": [
 					"chatgpt",
@@ -1646,6 +1732,17 @@
 					"extinction",
 					"climate emergency"
 				],
+				"ko": [
+					"기후변화",
+					"지구온난화",
+					"탄소배출",
+					"온실가스",
+					"기후위기",
+					"이상기후",
+					"해수면상승",
+					"멸종",
+					"기후비상사태"
+				],
 				"pt": [
 					"mudança climática",
 					"aquecimento global",
@@ -1816,6 +1913,17 @@
 					"molestation",
 					"revenge porn",
 					"pedophile"
+				],
+				"ko": [
+					"성폭행",
+					"성희롱",
+					"강간",
+					"성적학대",
+					"미투",
+					"성추행",
+					"아동성추행",
+					"리벤지포르노",
+					"소아성애자"
 				],
 				"pt": [
 					"agressão sexual",

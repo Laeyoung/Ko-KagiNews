@@ -6,6 +6,7 @@
       "keywords": {
         "default": ["trump", "biden", "election", "democrat", "republican", "congress", "senate", "parliament", "minister", "government", "politician"],
         "en": ["trump", "biden", "election", "democrat", "republican", "congress", "senate", "parliament", "minister", "government", "politician"],
+        "ko": ["트럼프", "바이든", "선거", "민주당", "공화당", "의회", "상원", "국회", "장관", "정부", "정치인"],
         "pt": ["trump", "biden", "eleição", "democrata", "republicano", "congresso", "senado", "parlamento", "ministro", "governo", "político"],
         "it": ["trump", "biden", "elezione", "democratico", "repubblicano", "congresso", "senato", "parlamento", "ministro", "governo", "politico"],
         "fr": ["trump", "biden", "élection", "démocrate", "républicain", "congrès", "sénat", "parlement", "ministre", "gouvernement", "politicien"],
@@ -28,6 +29,7 @@
       "keywords": {
         "default": ["ukraine", "russia", "israel", "gaza", "palestine", "war", "conflict", "missile", "attack", "military", "invasion", "bombing"],
         "en": ["ukraine", "russia", "israel", "gaza", "palestine", "war", "conflict", "missile", "attack", "military", "invasion", "bombing"],
+        "ko": ["우크라이나", "러시아", "이스라엘", "가자", "팔레스타인", "전쟁", "분쟁", "미사일", "공격", "군사", "침공", "폭격"],
         "pt": ["ucrânia", "rússia", "israel", "gaza", "palestina", "guerra", "conflito", "míssil", "ataque", "militar", "invasão", "bombardeio"],
         "it": ["ucraina", "russia", "israele", "gaza", "palestina", "guerra", "conflitto", "missile", "attacco", "militare", "invasione", "bombardamento"],
         "fr": ["ukraine", "russie", "israël", "gaza", "palestine", "guerre", "conflit", "missile", "attaque", "militaire", "invasion", "bombardement"],
@@ -50,6 +52,7 @@
       "keywords": {
         "default": ["covid", "coronavirus", "pandemic", "vaccine", "virus", "outbreak", "epidemic", "quarantine", "lockdown"],
         "en": ["covid", "coronavirus", "pandemic", "vaccine", "virus", "outbreak", "epidemic", "quarantine", "lockdown"],
+        "ko": ["코로나", "코로나바이러스", "팬데믹", "백신", "바이러스", "발병", "전염병", "격리", "봉쇄"],
         "pt": ["covid", "coronavírus", "pandemia", "vacina", "vírus", "surto", "epidemia", "quarentena", "confinamento"],
         "it": ["covid", "coronavirus", "pandemia", "vaccino", "virus", "focolaio", "epidemia", "quarantena", "lockdown"],
         "fr": ["covid", "coronavirus", "pandémie", "vaccin", "virus", "épidémie", "épidémie", "quarantaine", "confinement"],
@@ -72,6 +75,7 @@
       "keywords": {
         "default": ["shooting", "killed", "murder", "suicide", "dead", "death toll", "massacre", "stabbing", "assault"],
         "en": ["shooting", "killed", "murder", "suicide", "dead", "death toll", "massacre", "stabbing", "assault"],
+        "ko": ["총격", "살해", "살인", "자살", "사망", "사망자수", "학살", "흉기", "폭행"],
         "pt": ["tiroteio", "morto", "assassinato", "suicídio", "morto", "número de mortos", "massacre", "esfaqueamento", "agressão"],
         "it": ["sparatoria", "ucciso", "omicidio", "suicidio", "morto", "bilancio morti", "massacro", "accoltellamento", "aggressione"],
         "fr": ["fusillade", "tué", "meurtre", "suicide", "mort", "bilan mortel", "massacre", "agression", "agression"],
@@ -94,6 +98,7 @@
       "keywords": {
         "default": ["dailymail.co.uk", "thesun.co.uk", "mirror.co.uk", "tmz.com", "pagesix.com", "radaronline.com"],
         "en": ["dailymail.co.uk", "thesun.co.uk", "mirror.co.uk", "tmz.com", "pagesix.com", "radaronline.com"],
+        "ko": ["dailymail.co.uk", "thesun.co.uk", "mirror.co.uk", "tmz.com", "pagesix.com", "radaronline.com"],
         "pt": ["dailymail.co.uk", "thesun.co.uk", "mirror.co.uk", "tmz.com", "pagesix.com", "radaronline.com"],
         "it": ["dailymail.co.uk", "thesun.co.uk", "mirror.co.uk", "tmz.com", "pagesix.com", "radaronline.com"],
         "fr": ["dailymail.co.uk", "thesun.co.uk", "mirror.co.uk", "tmz.com", "pagesix.com", "radaronline.com"],
@@ -116,6 +121,7 @@
       "keywords": {
         "default": ["bitcoin", "ethereum", "crypto", "cryptocurrency", "blockchain", "nft", "defi", "web3", "dogecoin", "binance"],
         "en": ["bitcoin", "ethereum", "crypto", "cryptocurrency", "blockchain", "nft", "defi", "web3", "dogecoin", "binance"],
+        "ko": ["비트코인", "이더리움", "암호화폐", "가상화폐", "블록체인", "nft", "디파이", "웹3", "도지코인", "바이낸스"],
         "pt": ["bitcoin", "ethereum", "cripto", "criptomoeda", "blockchain", "nft", "defi", "web3", "dogecoin", "binance"],
         "it": ["bitcoin", "ethereum", "cripto", "criptovaluta", "blockchain", "nft", "defi", "web3", "dogecoin", "binance"],
         "fr": ["bitcoin", "ethereum", "crypto", "cryptomonnaie", "blockchain", "nft", "defi", "web3", "dogecoin", "binance"],
@@ -138,6 +144,7 @@
       "keywords": {
         "default": ["kardashian", "celebrity", "royal family", "hollywood", "gossip", "dating", "breakup", "scandal"],
         "en": ["kardashian", "celebrity", "royal family", "hollywood", "gossip", "dating", "breakup", "scandal"],
+        "ko": ["카다시안", "연예인", "왕실", "할리우드", "가십", "열애", "이별", "스캔들"],
         "pt": ["kardashian", "celebridade", "família real", "hollywood", "fofoca", "namoro", "término", "escândalo"],
         "it": ["kardashian", "celebrità", "famiglia reale", "hollywood", "gossip", "incontri", "rottura", "scandalo"],
         "fr": ["kardashian", "célébrité", "famille royale", "hollywood", "potins", "rencontres", "rupture", "scandale"],
@@ -160,6 +167,7 @@
       "keywords": {
         "default": ["football", "soccer", "basketball", "baseball", "tennis", "golf", "olympics", "world cup", "championship", "league"],
         "en": ["football", "soccer", "basketball", "baseball", "tennis", "golf", "olympics", "world cup", "championship", "league"],
+        "ko": ["축구", "농구", "야구", "테니스", "골프", "올림픽", "월드컵", "챔피언십", "리그", "선수권"],
         "pt": ["futebol", "basquete", "beisebol", "tênis", "golfe", "olimpíadas", "copa do mundo", "campeonato", "liga"],
         "it": ["calcio", "basket", "baseball", "tennis", "golf", "olimpiadi", "coppa del mondo", "campionato", "lega"],
         "fr": ["football", "basketball", "baseball", "tennis", "golf", "jeux olympiques", "coupe du monde", "championnat", "ligue"],
@@ -182,6 +190,7 @@
       "keywords": {
         "default": ["chatgpt", "openai", "artificial intelligence", "ai breakthrough", "machine learning", "neural network", "deepfake", "generative ai", "ai safety", "agi", "llm", "anthropic", "claude", "gemini", "gpt-4", "gpt-5", "large language model"],
         "en": ["chatgpt", "openai", "artificial intelligence", "ai breakthrough", "machine learning", "neural network", "deepfake", "generative ai", "ai safety", "agi", "llm", "anthropic", "claude", "gemini", "gpt-4", "gpt-5", "large language model"],
+        "ko": ["챗gpt", "오픈ai", "인공지능", "머신러닝", "신경망", "딥페이크", "생성형ai", "agi", "llm", "앤트로픽", "클로드", "제미니"],
         "pt": ["chatgpt", "openai", "inteligência artificial", "avanço em ia", "aprendizado de máquina", "rede neural", "deepfake", "ia generativa", "segurança de ia", "agi", "llm", "anthropic", "claude", "gemini", "gpt-4", "gpt-5", "modelo de linguagem grande"],
         "it": ["chatgpt", "openai", "intelligenza artificiale", "svolta nell'ia", "apprendimento automatico", "rete neurale", "deepfake", "ia generativa", "sicurezza ia", "agi", "llm", "anthropic", "claude", "gemini", "gpt-4", "gpt-5", "modello linguistico di grandi dimensioni"],
         "fr": ["chatgpt", "openai", "intelligence artificielle", "percée en ia", "apprentissage automatique", "réseau de neurones", "deepfake", "ia générative", "sécurité de l'ia", "agi", "llm", "anthropic", "claude", "gemini", "gpt-4", "gpt-5", "grand modèle de langage"],
@@ -204,6 +213,7 @@
       "keywords": {
         "default": ["climate change", "global warming", "carbon emissions", "greenhouse gas", "climate crisis", "extreme weather", "sea level rise", "extinction", "climate emergency"],
         "en": ["climate change", "global warming", "carbon emissions", "greenhouse gas", "climate crisis", "extreme weather", "sea level rise", "extinction", "climate emergency"],
+        "ko": ["기후변화", "지구온난화", "탄소배출", "온실가스", "기후위기", "이상기후", "해수면상승", "멸종", "기후비상사태"],
         "pt": ["mudança climática", "aquecimento global", "emissões de carbono", "gases de efeito estufa", "crise climática", "clima extremo", "aumento do nível do mar", "extinção", "emergência climática"],
         "it": ["cambiamento climatico", "riscaldamento globale", "emissioni di carbonio", "gas serra", "crisi climatica", "meteo estremo", "innalzamento del mare", "estinzione", "emergenza climatica"],
         "fr": ["changement climatique", "réchauffement climatique", "émissions de carbone", "gaz à effet de serre", "crise climatique", "météo extrême", "montée des eaux", "extinction", "urgence climatique"],
@@ -226,6 +236,7 @@
       "keywords": {
         "default": ["sexual assault", "sexual harassment", "rape", "sexual abuse", "metoo", "groping", "molestation", "revenge porn", "pedophile"],
         "en": ["sexual assault", "sexual harassment", "rape", "sexual abuse", "metoo", "groping", "molestation", "revenge porn", "pedophile"],
+        "ko": ["성폭행", "성희롱", "강간", "성적학대", "미투", "성추행", "아동성추행", "리벤지포르노", "소아성애자"],
         "pt": ["agressão sexual", "assédio sexual", "estupro", "abuso sexual", "metoo", "aperto/encoxação", "molestação", "pornografia de vingança", "pedófilo"],
         "it": ["violenza sessuale", "molestie sessuali", "stupro", "abuso sessuale", "metoo", "palpeggiamento", "molestia", "revenge porn", "pedofilo"],
         "fr": ["agression sexuelle", "harcèlement sexuel", "viol", "abus sexuel", "metoo", "attouchements", "molestation", "porno vengeance", "pédophile"],
