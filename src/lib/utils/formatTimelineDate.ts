@@ -35,6 +35,15 @@ export function formatTimelineDate(
 			const [year, month] = dateIso.split('-').map(Number);
 			const date = new Date(Date.UTC(year, month - 1, 1));
 			const showYear = year !== batchYear;
+
+			if (isCjk(locale)) {
+				return new Intl.DateTimeFormat(locale, {
+					year: showYear ? 'numeric' : undefined,
+					month: 'long',
+					timeZone: 'UTC',
+				}).format(date);
+			}
+
 			const monthName = new Intl.DateTimeFormat(locale, {
 				month: 'long',
 				timeZone: 'UTC',
@@ -42,10 +51,20 @@ export function formatTimelineDate(
 			return showYear ? `${monthName} ${year}` : monthName;
 		}
 
-		// Full date: YYYY-MM-DD — day-first ordering
+		// Full date: YYYY-MM-DD — day-first ordering (CJK locales use native ordering)
 		const [year, month, day] = dateIso.split('-').map(Number);
 		const date = new Date(Date.UTC(year, month - 1, day));
 		const showYear = year !== batchYear;
+
+		if (isCjk(locale)) {
+			return new Intl.DateTimeFormat(locale, {
+				year: showYear ? 'numeric' : undefined,
+				month: 'long',
+				day: 'numeric',
+				timeZone: 'UTC',
+			}).format(date);
+		}
+
 		const parts = new Intl.DateTimeFormat(locale, {
 			month: 'long',
 			day: 'numeric',
@@ -57,6 +76,10 @@ export function formatTimelineDate(
 	} catch {
 		return originalDate;
 	}
+}
+
+function isCjk(locale: string): boolean {
+	return /^(ko|ja|zh)/.test(locale);
 }
 
 type Precision = 'full' | 'month' | 'year' | null;
