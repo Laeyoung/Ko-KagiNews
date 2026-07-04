@@ -8,6 +8,7 @@ import he from './he.json';
 import hi from './hi.json';
 import it from './it.json';
 import ja from './ja.json';
+import ko from './ko.json';
 import nl from './nl.json';
 import pt from './pt.json';
 import ru from './ru.json';
@@ -25,6 +26,7 @@ export default {
 	hi,
 	it,
 	ja,
+	ko,
 	nl,
 	pt,
 	ru,
