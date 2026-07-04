@@ -2,7 +2,7 @@ import { mkdirSync, rmSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { afterEach, describe, expect, it } from 'vitest';
 
-const BASE = 'http://127.0.0.1:5173';
+const BASE = 'http://localhost:5173';
 const DIR = join(process.cwd(), 'data/translations');
 const written: string[] = [];
 afterEach(() => {
@@ -18,8 +18,15 @@ describe('locale ko', () => {
 	it('serves Korean strings', async () => {
 		const { body } = await getJson('/api/locale/ko');
 		expect(body.locale).toBe('ko');
-		// a known key should not equal its English value
-		expect(typeof body.strings).toBe('object');
+		// NOTE: relies on Task 15 (local ko.json serving) — the /api/locale/ko route serves
+		// Korean only after Task 15; before that it proxies upstream English and this will
+		// (correctly) fail.
+		const strings = body.strings as Record<string, { text?: string } | string> | null;
+		expect(strings && typeof strings === 'object').toBeTruthy();
+		const values = Object.values(strings ?? {}).map((v) =>
+			typeof v === 'string' ? v : (v?.text ?? ''),
+		);
+		expect(values.some((t) => /[가-힣]/.test(t))).toBe(true); // at least one real Korean string
 	});
 });
 
@@ -33,6 +40,7 @@ describe('story overlay', () => {
 		const first = stories.body.stories[0];
 		const dir = join(DIR, batchId);
 		mkdirSync(dir, { recursive: true });
+		written.push(dir);
 		const file = join(dir, `${cat.id}.json`);
 		writeFileSync(
 			file,
@@ -46,7 +54,6 @@ describe('story overlay', () => {
 				stats: {},
 			}),
 		);
-		written.push(dir);
 		const ko = await getJson(`/api/batches/${batchId}/categories/${cat.id}/stories?lang=ko`);
 		const merged = ko.body.stories.find((s: any) => s.id === first.id);
 		expect(merged.title).toBe('테스트 번역');
@@ -112,8 +119,17 @@ describe('upstream error passthrough', () => {
 });
 
 describe('path traversal defense', () => {
-	it('escape sequences do not read outside the dir; upstream passes through', async () => {
-		const { status } = await getJson('/api/batches/..%2F..%2Fetc/categories/index/stories?lang=ko');
+	it('escape sequences in the URL keep the service safe (no crash/overlay leak) for lang=ko', async () => {
+		// The route short-circuits on the upstream 404 before readSidecar; the ACTUAL fs-boundary
+		// rejection (BATCH_ID/CATEGORY_UUID regex + safeSidecarPath separator check) is unit-tested
+		// in src/lib/server/__tests__/translations.test.ts (readSidecar/readChaosSidecar
+		// path-traversal cases). This block only asserts the service stays safe (no 500/crash) on
+		// traversal input.
+		const { status, body } = await getJson(
+			'/api/batches/..%2F..%2Fetc/categories/index/stories?lang=ko',
+		);
 		expect(status).toBeGreaterThanOrEqual(400);
+		expect(status).not.toBe(500);
+		expect(body?.stories).toBeUndefined();
 	});
 });
