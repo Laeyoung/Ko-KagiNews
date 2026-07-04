@@ -6,7 +6,7 @@ import path from 'path';
 export default defineConfig({
   plugins: [sveltekit(), svelteTesting()],
   test: {
-    include: ['src/**/*.{test,spec}.{js,ts}'],
+    include: ['src/**/*.{test,spec}.{js,ts}', 'scripts/**/*.{test,spec}.{js,ts}'],
     exclude: ['src/**/*.integration.test.{js,ts}'],
     environment: 'jsdom',
     globals: true,
