@@ -628,8 +628,12 @@
     "translationContext": "Explanation when main + one additional language. {{mainLang}} and {{additionalLang}} are language names."
   },
   "settings.language.default": {
-    "text": "Default",
-    "translationContext": "Option for default language"
+    "text": "Default (Browser Language)",
+    "translationContext": "Option for default language; clarifies that content is shown/translated based on the user's browser-detected language"
+  },
+  "settings.language.koreanDefault": {
+    "text": "한국어 (기본)",
+    "translationContext": "Option for the Korean-default language preset; the text is already Korean and should be kept as-is (not translated) in every locale, including the ko locale"
   },
   "settings.language.label": {
     "text": "Language",
@@ -658,6 +662,10 @@
   "settings.language.poweredBy": {
     "text": "Translated with Kagi Translate",
     "translationContext": "Text for the Kagi Translate powered by link"
+  },
+  "settings.language.poweredByGemini": {
+    "text": "Translated with Gemini",
+    "translationContext": "Gemini is a brand name, do not translate"
   },
   "settings.language.selectLanguage": {
     "text": "Select a language...",
