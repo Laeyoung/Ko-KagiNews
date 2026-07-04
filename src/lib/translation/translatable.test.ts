@@ -1,6 +1,14 @@
 import { describe, expect, it } from 'vitest';
 import type { Story } from '$lib/types';
-import { applySegments, extractCitations, extractSegments } from './translatable';
+import {
+	applySegments,
+	extractCitations,
+	extractSegments,
+	validateCitations,
+	validateHtmlTags,
+	validateLengthRatio,
+	validatePaths,
+} from './translatable';
 
 function baseStory(overrides: Partial<Story> = {}): Story {
 	return {
@@ -159,5 +167,51 @@ describe('extractCitations', () => {
 	});
 	it('returns [] when none', () => {
 		expect(extractCitations('no markers')).toEqual([]);
+	});
+});
+
+describe('validatePaths', () => {
+	it('ok when sets match regardless of order', () => {
+		expect(validatePaths(['a', 'b'], ['b', 'a']).ok).toBe(true);
+	});
+	it('fails on missing or extra path', () => {
+		expect(validatePaths(['a', 'b'], ['a']).ok).toBe(false);
+		expect(validatePaths(['a'], ['a', 'b']).ok).toBe(false);
+	});
+});
+
+describe('validateCitations', () => {
+	it('ok when marker multiset matches (order may differ)', () => {
+		expect(validateCitations('x [a#1] y [b]', '[b] 와이 [a#1] 엑스').ok).toBe(true);
+	});
+	it('fails when a marker is dropped or duplicated', () => {
+		expect(validateCitations('[a#1] [a#1]', '[a#1]').ok).toBe(false);
+	});
+});
+
+describe('validateHtmlTags', () => {
+	it('ok when neither side has tags', () => {
+		expect(validateHtmlTags('plain', '평문').ok).toBe(true);
+	});
+	it('fails when translation injects a tag absent from source', () => {
+		expect(validateHtmlTags('safe', '<img src=x onerror=alert(1)>').ok).toBe(false);
+	});
+	it('fails on a lone < injected into a source that had none', () => {
+		expect(validateHtmlTags('safe', '5 < 6 attack').ok).toBe(false);
+	});
+	it('ok when the same tag multiset is preserved', () => {
+		expect(validateHtmlTags('<b>x</b>', '<b>엑스</b>').ok).toBe(true);
+	});
+});
+
+describe('validateLengthRatio', () => {
+	it('ok within 0.25..3.0', () => {
+		expect(validateLengthRatio('abcd', 'abcdef').ok).toBe(true);
+	});
+	it('fails when translation is far too long (hallucination)', () => {
+		expect(validateLengthRatio('ab', 'a'.repeat(100)).ok).toBe(false);
+	});
+	it('fails when translation is far too short (omission)', () => {
+		expect(validateLengthRatio('a'.repeat(100), 'ab').ok).toBe(false);
 	});
 });

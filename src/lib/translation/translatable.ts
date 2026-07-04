@@ -202,3 +202,52 @@ function setPath(root: Record<string, unknown>, path: string, value: string): vo
 export function extractCitations(text: string): string[] {
 	return text.match(/\[[^\]]+\]/g) ?? [];
 }
+
+export type ValidationResult = { ok: boolean; reason?: string };
+
+export function extractHtmlTags(text: string): string[] {
+	return text.match(/<[^>]*>/g) ?? [];
+}
+
+function multisetEqual(a: string[], b: string[]): boolean {
+	if (a.length !== b.length) return false;
+	const count = new Map<string, number>();
+	for (const x of a) count.set(x, (count.get(x) ?? 0) + 1);
+	for (const y of b) {
+		const c = count.get(y);
+		if (!c) return false;
+		count.set(y, c - 1);
+	}
+	return true;
+}
+
+export function validatePaths(requested: string[], returned: string[]): ValidationResult {
+	const req = new Set(requested);
+	const ret = new Set(returned);
+	if (req.size !== ret.size) return { ok: false, reason: 'path_set_mismatch' };
+	for (const p of req) if (!ret.has(p)) return { ok: false, reason: 'path_set_mismatch' };
+	return { ok: true };
+}
+
+export function validateCitations(sourceText: string, translatedText: string): ValidationResult {
+	return multisetEqual(extractCitations(sourceText), extractCitations(translatedText))
+		? { ok: true }
+		: { ok: false, reason: 'citation_mismatch' };
+}
+
+export function validateHtmlTags(sourceText: string, translatedText: string): ValidationResult {
+	const srcTags = extractHtmlTags(sourceText);
+	const outTags = extractHtmlTags(translatedText);
+	// If the source had no angle brackets at all, the translation must not introduce any.
+	if (!sourceText.includes('<') && (translatedText.includes('<') || translatedText.includes('>')))
+		return { ok: false, reason: 'html_injected' };
+	return multisetEqual(srcTags, outTags)
+		? { ok: true }
+		: { ok: false, reason: 'html_tag_mismatch' };
+}
+
+export function validateLengthRatio(sourceText: string, translatedText: string): ValidationResult {
+	if (sourceText.length === 0) return { ok: true };
+	const ratio = translatedText.length / sourceText.length;
+	return ratio >= 0.25 && ratio <= 3.0 ? { ok: true } : { ok: false, reason: 'length_ratio' };
+}
