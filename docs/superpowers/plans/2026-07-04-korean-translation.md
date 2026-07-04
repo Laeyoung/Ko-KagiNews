@@ -1710,7 +1710,7 @@ import { describe, it, expect, afterEach } from 'vitest';
 import { writeFileSync, rmSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 
-const BASE = 'http://127.0.0.1:5173';
+const BASE = 'http://localhost:5173'; // matches src/tests/setup.integration.ts; avoids IPv4-only bind conflicts
 const DIR = join(process.cwd(), 'data/translations');
 const written: string[] = [];
 afterEach(() => { for (const p of written.splice(0)) rmSync(p, { recursive: true, force: true }); });
@@ -1722,10 +1722,14 @@ async function getJson(path: string) {
 
 describe('locale ko', () => {
 	it('serves Korean strings', async () => {
+		// NOTE: relies on Task 15 (local ko.json serving) — /api/locale/ko serves Korean
+		// only after Task 15; before that it proxies upstream English and this correctly fails.
 		const { body } = await getJson('/api/locale/ko');
 		expect(body.locale).toBe('ko');
-		// a known key should not equal its English value
-		expect(typeof body.strings).toBe('object');
+		const strings = body.strings as Record<string, { text?: string } | string> | null;
+		expect(strings && typeof strings === 'object').toBeTruthy();
+		const values = Object.values(strings ?? {}).map((v) => (typeof v === 'string' ? v : v?.text ?? ''));
+		expect(values.some((t) => /[가-힣]/.test(t))).toBe(true); // at least one real Korean string
 	});
 });
 
@@ -1785,9 +1789,15 @@ describe('upstream error passthrough', () => {
 });
 
 describe('path traversal defense', () => {
-	it('escape sequences do not read outside the dir; upstream passes through', async () => {
+	it('traversal sequences keep the service safe (no 500/crash, no Korean overlay)', async () => {
+		// The route short-circuits on the upstream 404 before readSidecar; the ACTUAL
+		// fs-boundary rejection (BATCH_ID/CATEGORY_UUID regex + safeSidecarPath separator
+		// check) is unit-tested in src/lib/server/__tests__/translations.test.ts
+		// (readSidecar/readChaosSidecar path-traversal cases). This block only asserts the
+		// service stays safe (a normal upstream 4xx, not an internal error) on traversal input.
 		const { status } = await getJson('/api/batches/..%2F..%2Fetc/categories/index/stories?lang=ko');
 		expect(status).toBeGreaterThanOrEqual(400);
+		expect(status).not.toBe(500);
 	});
 });
 ```
