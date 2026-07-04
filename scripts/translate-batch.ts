@@ -8,7 +8,13 @@ import { execSync } from 'node:child_process';
 import { translateSegments, Semaphore, TranslationError } from './gemini-client';
 import { extractSegments } from '../src/lib/translation/translatable';
 import type { Segment } from '../src/lib/translation/translatable';
-import { isDone, failureRatePct, resolveExitCode } from './translate-helpers';
+import {
+	isDone,
+	failureRatePct,
+	resolveExitCode,
+	lockVerdict as computeLockVerdict,
+	mergeStoryAction,
+} from './translate-helpers';
 import type { FailedStory } from './translate-helpers';
 import type { Story } from '../src/lib/types';
 
@@ -236,20 +242,31 @@ class ConcurrencyLock {
 		}
 		if (!existing || typeof existing.pid !== 'number' || !existing.fingerprint) return 'stale';
 
-		if (!isProcessAlive(existing.pid)) return 'stale'; // dead pid
-
-		let currentFingerprint: string;
-		try {
-			currentFingerprint = getProcessStartFingerprint(existing.pid);
-		} catch {
-			return 'stale'; // identity can't be confirmed
+		// Gather the I/O-derived facts, then hand the pure decision to lockVerdict()
+		// (§4.3 step 0 state machine — see scripts/translate-helpers.ts).
+		const pidAlive = isProcessAlive(existing.pid);
+		let fingerprintKnown = false;
+		let fingerprintMatch = false;
+		if (pidAlive) {
+			try {
+				fingerprintKnown = true;
+				fingerprintMatch = getProcessStartFingerprint(existing.pid) === existing.fingerprint;
+			} catch {
+				fingerprintKnown = false; // identity can't be confirmed
+			}
 		}
-		if (currentFingerprint !== existing.fingerprint) return 'stale'; // pid reuse
-
-		// Confirmed same process — branch strictly on lock age. Never collapse this
-		// to "same process -> exit 0"; the hang guard below must stay reachable.
 		const ageMs = Date.now() - existing.createdAt;
-		if (ageMs <= LOCK_MAX_AGE_MS) {
+
+		const verdict = computeLockVerdict({
+			pidAlive,
+			fingerprintMatch,
+			fingerprintKnown,
+			ageMs,
+			maxAgeMs: LOCK_MAX_AGE_MS,
+		});
+
+		if (verdict === 'stale') return 'stale';
+		if (verdict === 'already_running') {
 			console.log('[translate-batch] already running (lock age within normal range) — exit 0');
 			return 0;
 		}
@@ -553,13 +570,33 @@ async function processCategory(p: ProcessCategoryParams): Promise<ProcessCategor
 		(existing?.stats?.failedStoryIds ?? []).map((f) => [f.id, f]),
 	);
 	for (const id of idsToTranslate) {
-		if (id in newStories) {
-			mergedStories[id] = newStories[id];
-			mergedFailedMap.delete(id);
-		} else if (newFailed.has(id)) {
-			const failure = newFailed.get(id);
-			if (failure) mergedFailedMap.set(id, failure);
-			delete mergedStories[id];
+		const hasNew = id in newStories;
+		const hasFailure = newFailed.has(id);
+		const hadPrior = !!(existing?.stories && id in existing.stories);
+		const action = mergeStoryAction({ hasNew, hasFailure, hadPrior });
+
+		switch (action) {
+			case 'write_new':
+				mergedStories[id] = newStories[id];
+				mergedFailedMap.delete(id);
+				break;
+			case 'record_failure_keep_prior': {
+				// A prior successful translation exists. Under --force a story already
+				// translated in the existing sidecar is re-attempted; if that attempt
+				// fails (block/retry-exhaustion/transient), keep the previously good
+				// Korean rather than regressing the served content to English.
+				const failure = newFailed.get(id);
+				if (failure) mergedFailedMap.set(id, failure);
+				break;
+			}
+			case 'record_failure_drop': {
+				const failure = newFailed.get(id);
+				if (failure) mergedFailedMap.set(id, failure);
+				delete mergedStories[id];
+				break;
+			}
+			case 'noop':
+				break;
 		}
 	}
 	const mergedFailed = [...mergedFailedMap.values()];

@@ -25,3 +25,39 @@ export function resolveExitCode(opts: {
 	if (opts.hasUnresolvedSlug) return 4;
 	return 0;
 }
+
+/** §4.3 step 0 lock state machine: given an existing lock, decide what to do with it. */
+export type LockVerdict = 'stale' | 'already_running' | 'hang';
+
+export function lockVerdict(o: {
+	pidAlive: boolean;
+	fingerprintMatch: boolean;
+	fingerprintKnown: boolean;
+	ageMs: number;
+	maxAgeMs: number;
+}): LockVerdict {
+	// Dead pid, unreadable/unknown fingerprint, or a fingerprint mismatch (pid
+	// reuse) all mean we can't confirm this is the same still-running process.
+	if (!o.pidAlive || !o.fingerprintKnown || !o.fingerprintMatch) return 'stale';
+	// Confirmed same process — branch strictly on lock age. Never collapse this
+	// to "same process -> already_running"; the hang guard must stay reachable.
+	return o.ageMs <= o.maxAgeMs ? 'already_running' : 'hang';
+}
+
+/**
+ * Per-id merge decision for the sidecar rewrite (§4.2/§4.3). A just-applied fix
+ * ensures that under `--force`, a re-translation failure on a story that already
+ * had a good prior translation KEEPS that prior translation instead of deleting
+ * it (no English regression) — 'record_failure_keep_prior' is that guard.
+ */
+export type MergeAction =
+	| 'write_new'
+	| 'record_failure_keep_prior'
+	| 'record_failure_drop'
+	| 'noop';
+
+export function mergeStoryAction(o: { hasNew: boolean; hasFailure: boolean; hadPrior: boolean }): MergeAction {
+	if (o.hasNew) return 'write_new';
+	if (o.hasFailure) return o.hadPrior ? 'record_failure_keep_prior' : 'record_failure_drop';
+	return 'noop';
+}
