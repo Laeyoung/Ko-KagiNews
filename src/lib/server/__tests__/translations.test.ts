@@ -1,4 +1,4 @@
-import { mkdirSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+import { mkdirSync, mkdtempSync, rmSync, utimesSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
@@ -137,6 +137,23 @@ describe('readSidecar cache', () => {
 		expect(await readSidecar('../etc', CAT)).toBeNull();
 		expect(await readSidecar(UUID, 'index')).toBeNull();
 		expect(await readSidecar(UUID, '..%2Fescape')).toBeNull();
+	});
+
+	it('revalidates on cache hit: a rewritten file with new mtime+size is not served stale', async () => {
+		writeSidecar({ s1: { title: '번역A' } });
+		const first = await readSidecar(UUID, CAT);
+		expect(first?.stories.s1.title).toBe('번역A');
+
+		// Rewrite with different content — the new title string has a different length
+		// than '번역A', so file size necessarily changes even if fs mtime granularity
+		// happens to be coarse. Also bump mtime explicitly for extra robustness.
+		writeSidecar({ s1: { title: '번역B-변경됨' } });
+		const path = join(dir, UUID, `${CAT}.json`);
+		const future = new Date(Date.now() + 2000);
+		utimesSync(path, future, future);
+
+		const second = await readSidecar(UUID, CAT);
+		expect(second?.stories.s1.title).toBe('번역B-변경됨');
 	});
 });
 
