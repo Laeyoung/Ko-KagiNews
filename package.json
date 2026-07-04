@@ -34,7 +34,8 @@
 		"test:unit": "vitest run --config vitest.config.unit.ts",
 		"test:integration": "vitest run --config vitest.config.integration.ts",
 		"test:all": "vitest run",
-		"translate:batch": "bun scripts/translate-batch.ts"
+		"translate:batch": "bun scripts/translate-batch.ts",
+		"translate:locale": "bun scripts/generate-ko-locale.ts"
 	},
 	"dependencies": {
 		"@anthropic-ai/sdk": "^0.71.2",
