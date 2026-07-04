@@ -1237,7 +1237,7 @@ afterEach(() => rmSync(dir, { recursive: true, force: true }));
 
 // Static import is hoisted; the vi.mock above (also hoisted) guarantees the module
 // under test sees the live-process.env-backed env regardless of import position.
-import { wantsKorean, translationsEnabled, applyTranslations, readSidecar } from '../translations';
+import { wantsKorean, translationsEnabled, applyTranslations, applyChaosTranslation, readSidecar, readChaosSidecar } from '../translations';
 
 describe('wantsKorean', () => {
 	it('true for ko and ko-first comma list', () => {
@@ -1313,6 +1313,38 @@ describe('readSidecar cache', () => {
 		expect(await readSidecar(UUID, '..%2Fescape')).toBeNull();
 	});
 });
+
+function writeChaosSidecar(chaosDescription: string, chaosLastUpdated = 'T') {
+	mkdirSync(join(dir, UUID), { recursive: true });
+	writeFileSync(
+		join(dir, UUID, 'chaos.json'),
+		JSON.stringify({ version: 1, batchId: UUID, model: 'gemini-3.1-flash-lite', createdAt: '2026-07-01T14:03:11Z', chaosLastUpdated, chaosDescription }),
+	);
+}
+
+describe('readChaosSidecar', () => {
+	it('no negative cache: miss then create then hit', async () => {
+		expect(await readChaosSidecar(UUID)).toBeNull();
+		writeChaosSidecar('카오스');
+		expect((await readChaosSidecar(UUID))?.chaosDescription).toBe('카오스');
+	});
+	it('rejects path-traversal batchId', async () => {
+		expect(await readChaosSidecar('../etc')).toBeNull();
+		expect(await readChaosSidecar('..%2Fescape')).toBeNull();
+	});
+});
+
+describe('applyChaosTranslation', () => {
+	it('replaces only chaosDescription, preserving other upstream fields', async () => {
+		writeChaosSidecar('카오스', 'T');
+		const sidecar = await readChaosSidecar(UUID);
+		const body = { chaosIndex: 5, chaosDescription: 'English', chaosLastUpdated: 'T' } as any;
+		const out = applyChaosTranslation(body, sidecar!);
+		expect(out.chaosDescription).toBe('카오스');
+		expect(out.chaosIndex).toBe(5);
+		expect(out.chaosLastUpdated).toBe('T');
+	});
+});
 ```
 
 - [ ] **Step 2: Run to verify fail**
@@ -1324,7 +1356,7 @@ Expected: FAIL — module not found.
 
 ```typescript
 import { readFile, stat } from 'node:fs/promises';
-import { join, resolve } from 'node:path';
+import { join, resolve, sep } from 'node:path';
 import { env } from '$env/dynamic/private';
 import { applySegments } from '$lib/translation/translatable';
 import type { Story } from '$lib/types';
@@ -1419,7 +1451,10 @@ async function readJsonWithRevalidation<T>(absPath: string): Promise<T | null> {
 function safeSidecarPath(batchId: string, file: string): string | null {
 	const dir = translationsDir();
 	const abs = resolve(dir, batchId, file);
-	if (!abs.startsWith(resolve(dir))) return null; // defense in depth
+	// Defense in depth: require an exact match or a real path-separator boundary so a
+	// sibling dir sharing the string prefix (e.g. `${dir}Evil`) can't slip through.
+	const base = resolve(dir);
+	if (abs !== base && !abs.startsWith(base + sep)) return null;
 	return abs;
 }
 
