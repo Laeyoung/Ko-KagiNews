@@ -170,7 +170,9 @@ function setPath(root: Record<string, unknown>, path: string, value: string): vo
 	}
 
 	// Nested object-array field: `field[i].<subKey>` where subKey is an allowed sub-key.
-	const nestedArrKeys = NESTED_ARRAY_FIELDS[field];
+	const nestedArrKeys = Object.hasOwn(NESTED_ARRAY_FIELDS, field)
+		? NESTED_ARRAY_FIELDS[field]
+		: undefined;
 	if (nestedArrKeys) {
 		if (!hasIndex || !subKey || !nestedArrKeys.includes(subKey)) return;
 		const arr = root[field];
@@ -183,7 +185,9 @@ function setPath(root: Record<string, unknown>, path: string, value: string): vo
 	}
 
 	// Nested object field: `field.<subKey>` (no index) where subKey is an allowed sub-key.
-	const nestedObjKeys = NESTED_OBJECT_FIELDS[field];
+	const nestedObjKeys = Object.hasOwn(NESTED_OBJECT_FIELDS, field)
+		? NESTED_OBJECT_FIELDS[field]
+		: undefined;
 	if (nestedObjKeys) {
 		if (hasIndex || !subKey || !nestedObjKeys.includes(subKey)) return;
 		const obj = root[field];

@@ -136,6 +136,21 @@ describe('applySegments', () => {
 		expect(out.suggested_qna?.[0]).toEqual({ question: 'q', answer: 'ans' });
 		expect((out.primary_image as any).url).toBe('http://x/y.png');
 	});
+
+	it('ignores prototype-inherited field-name keys without crashing', () => {
+		const story = baseStory({ talking_points: ['a', 'b'] });
+		expect(() =>
+			applySegments(story, {
+				'__proto__[0].text': 'y',
+				'toString[0].content': 'z',
+				'constructor.caption': 'c',
+				'hasOwnProperty[0]': 'h',
+			}),
+		).not.toThrow();
+		const out = applySegments(story, { 'toString[0].content': 'z' }) as Story;
+		expect(out.title).toBe(story.title);
+		expect(out.talking_points).toEqual(['a', 'b']);
+	});
 });
 
 describe('extractCitations', () => {
