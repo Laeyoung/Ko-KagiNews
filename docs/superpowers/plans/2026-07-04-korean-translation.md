@@ -113,7 +113,7 @@ git commit -m "fix: stub broken db/opengraph imports to unblock build"
 - Produces:
   - `type Segment = { path: string; text: string }`
   - `extractSegments(story: Story): Segment[]` — walks the §4.6 whitelist; array items indexed `field[i]`, nested `field[i].content`; `user_action_items` items are `user_action_items[i]` (string) or `user_action_items[i].text` (object); unknown array-item shapes are skipped (left English).
-  - `applySegments(base: object, translated: Record<string, string>): object` — deep-clones `base`, sets each `path` to its translated value, preserving item shape (string stays string; `{text}` object keeps siblings). Unknown paths are ignored.
+  - `applySegments(base: object, translated: Record<string, string>): object` — deep-clones `base`, sets each `path` to its translated value, preserving item shape (string stays string; `{text}` object keeps siblings). Unknown paths, non-whitelisted top-level fields, and malformed (non-anchored) paths are ignored — defense in depth so a corrupt/tampered sidecar can never mutate an arbitrary Story property.
   - `extractCitations(text: string): string[]` — `text.match(/\[[^\]]+\]/g) ?? []`.
 - Consumes: `Story` from `$lib/types` (import type only). **No Svelte imports.**
 
@@ -219,6 +219,48 @@ describe('applySegments', () => {
 		const out = applySegments(story, { 'does.not.exist[3]': 'x' }) as Story;
 		expect(out.title).toBe(story.title);
 	});
+
+	it('never writes a real-but-non-whitelisted field or a garbage-prefixed path', () => {
+		const story = baseStory({ emoji: '🌍', articles: [{ link: 'http://x/y' } as any] });
+		const out = applySegments(story, {
+			emoji: '지구', // excluded field must not be overwritten
+			'articles[0].link': 'http://evil', // excluded nested field
+			'1title': '접두사쓰레기', // anchored regex rejects garbage prefix
+		}) as Story;
+		expect(out.emoji).toBe('🌍');
+		expect((out.articles?.[0] as any).link).toBe('http://x/y');
+		expect(out.title).toBe(story.title);
+	});
+
+	it('never scalar-clobbers an array/object container via a bare (indexless) path', () => {
+		const story = baseStory({
+			talking_points: ['a', 'b'],
+			primary_image: { url: 'http://x/y.png', caption: 'cap' },
+		});
+		const out = applySegments(story, {
+			talking_points: 'x', // bare path for an array field must be ignored (would break .map/.length)
+			primary_image: 'y', // bare path for an object field must be ignored
+		}) as Story;
+		expect(out.talking_points).toEqual(['a', 'b']);
+		expect(out.primary_image).toEqual({ url: 'http://x/y.png', caption: 'cap' });
+	});
+
+	it('never clobbers a nested-array item or writes a non-allowed sub-key', () => {
+		const story = baseStory({
+			timeline: [{ content: 'c0', date: '2026-01-01', date_iso: '2026-01-01' } as any],
+			suggested_qna: [{ question: 'q', answer: 'ans' } as any],
+			primary_image: { url: 'http://x/y.png', caption: 'cap' },
+		});
+		const out = applySegments(story, {
+			'timeline[0]': 'x', // bare-index into an object-array must not replace the item
+			'timeline[0].date_iso': '침범', // non-translatable sibling must not be written
+			'suggested_qna[0]': 'y', // bare-index into an object-array must not replace the item
+			'primary_image.url': 'http://evil', // non-allowed sub-key must not be written
+		}) as Story;
+		expect(out.timeline?.[0]).toEqual({ content: 'c0', date: '2026-01-01', date_iso: '2026-01-01' });
+		expect(out.suggested_qna?.[0]).toEqual({ question: 'q', answer: 'ans' });
+		expect((out.primary_image as any).url).toBe('http://x/y.png');
+	});
 });
 
 describe('extractCitations', () => {
@@ -316,7 +358,22 @@ export function extractSegments(story: Story): Segment[] {
 	return segments;
 }
 
-const PATH_TOKEN = /([a-z_]+)(?:\[(\d+)\])?(?:\.([a-z_]+))?/i;
+// Anchored (^...$) so a garbage-prefixed path like "1talking_points[0]" or a
+// trailing-junk path does NOT partial-match a real field. Combined with the
+// whitelist guard below, a malformed or non-translatable path in the sidecar
+// can never mutate an arbitrary Story property (defense in depth on the apply side —
+// validatePaths already guards the write side, but applySegments is shared and
+// reads sidecar files from disk).
+const PATH_TOKEN = /^([a-z_]+)(?:\[(\d+)\])?(?:\.([a-z_]+))?$/i;
+
+// setPath validates a path's FULL SHAPE against the field's declared kind, not just the
+// top-level name. Each kind accepts exactly one path shape; anything else is a no-op. This
+// guarantees a corrupt/tampered sidecar can never scalar-clobber a container (e.g. bare
+// "talking_points" or "timeline[0]") nor overwrite a non-translatable sibling (e.g.
+// "primary_image.url", "timeline[0].date_iso") — both would break `.map()`/`.length`/date
+// consumers and violate the "translation layer must never cause a service failure" constraint.
+const SIMPLE_STRING_FIELD_SET = new Set<string>(SIMPLE_STRING_FIELDS);
+const STRING_ARRAY_FIELD_SET = new Set<string>(STRING_ARRAY_FIELDS);
 
 export function applySegments(base: object, translated: Record<string, string>): object {
 	const clone = structuredClone(base) as Record<string, unknown>;
@@ -330,32 +387,65 @@ function setPath(root: Record<string, unknown>, path: string, value: string): vo
 	const m = PATH_TOKEN.exec(path);
 	if (!m) return;
 	const [, field, indexStr, subKey] = m;
-	if (indexStr === undefined) {
-		// simple field or object.caption
-		if (subKey) {
-			const obj = root[field];
-			if (obj && typeof obj === 'object') (obj as Record<string, unknown>)[subKey] = value;
-		} else {
-			root[field] = value;
+	const hasIndex = indexStr !== undefined;
+
+	// Simple string field: bare `field` only.
+	if (SIMPLE_STRING_FIELD_SET.has(field)) {
+		if (hasIndex || subKey) return;
+		root[field] = value;
+		return;
+	}
+
+	// String array field: `field[i]`, no subKey.
+	if (STRING_ARRAY_FIELD_SET.has(field)) {
+		if (!hasIndex || subKey) return;
+		const arr = root[field];
+		if (!Array.isArray(arr)) return;
+		const idx = Number(indexStr);
+		if (idx < 0 || idx >= arr.length) return;
+		arr[idx] = value;
+		return;
+	}
+
+	// Mixed array: `user_action_items[i]` (string item) or `user_action_items[i].text` (object item).
+	if (field === 'user_action_items') {
+		if (!hasIndex || (subKey && subKey !== 'text')) return;
+		const arr = root[field];
+		if (!Array.isArray(arr)) return;
+		const idx = Number(indexStr);
+		if (idx < 0 || idx >= arr.length) return;
+		const item = arr[idx];
+		if (item && typeof item === 'object') {
+			(item as Record<string, unknown>).text = value; // preserve {text} object shape (with or without .text in path)
+		} else if (!subKey) {
+			arr[idx] = value; // string item — reject a `.text` path against a string item
 		}
 		return;
 	}
-	const arr = root[field];
-	if (!Array.isArray(arr)) return;
-	const idx = Number(indexStr);
-	if (idx < 0 || idx >= arr.length) return;
-	if (subKey) {
+
+	// Nested object-array field: `field[i].<subKey>` where subKey is an allowed sub-key.
+	const nestedArrKeys = NESTED_ARRAY_FIELDS[field];
+	if (nestedArrKeys) {
+		if (!hasIndex || !subKey || !nestedArrKeys.includes(subKey)) return;
+		const arr = root[field];
+		if (!Array.isArray(arr)) return;
+		const idx = Number(indexStr);
+		if (idx < 0 || idx >= arr.length) return;
 		const item = arr[idx];
 		if (item && typeof item === 'object') (item as Record<string, unknown>)[subKey] = value;
-	} else {
-		// string array item, OR mixed {text} object item -> preserve object shape
-		const item = arr[idx];
-		if (item && typeof item === 'object' && 'text' in (item as object)) {
-			(item as Record<string, unknown>).text = value;
-		} else {
-			arr[idx] = value;
-		}
+		return;
 	}
+
+	// Nested object field: `field.<subKey>` (no index) where subKey is an allowed sub-key.
+	const nestedObjKeys = NESTED_OBJECT_FIELDS[field];
+	if (nestedObjKeys) {
+		if (hasIndex || !subKey || !nestedObjKeys.includes(subKey)) return;
+		const obj = root[field];
+		if (obj && typeof obj === 'object' && !Array.isArray(obj)) (obj as Record<string, unknown>)[subKey] = value;
+		return;
+	}
+
+	// Unknown/non-whitelisted field — ignore.
 }
 
 export function extractCitations(text: string): string[] {
@@ -573,8 +663,9 @@ TRANSLATIONS_ENABLED=true
 mkdir -p data/translations && touch data/translations/.gitkeep
 git check-ignore .env && echo ".env ignored OK"
 git check-ignore data/translations/foo.json && echo "sidecars ignored OK"
-# Scan the FULL history diff content (plain `git log` shows metadata only, not the key):
-git log --all -p -- .env | grep -iE 'GEMINI_API_KEY|AIza[0-9A-Za-z_-]{10,}' && echo "SECRET FOUND — rotate + scrub" || echo "no secret in .env history"
+# Scan the FULL history diff content (plain `git log` shows metadata only, not the key).
+# `--follow` (per spec §8.2) also scans across any earlier rename of the .env path:
+git log --all --follow -p -- .env | grep -iE 'GEMINI_API_KEY|AIza[0-9A-Za-z_-]{10,}' && echo "SECRET FOUND — rotate + scrub" || echo "no secret in .env history"
 ```
 Expected: `.env ignored OK`, `sidecars ignored OK`, `no secret in .env history`. If the grep matches (or a scanner like `gitleaks`/`trufflehog` flags it), STOP — rotate/revoke the key and scrub history before continuing.
 
@@ -625,10 +716,10 @@ git commit -m "feat: add translation.config.json"
 **Interfaces:**
 - Produces:
   - `const TRANSLATION_PROMPT: string` (system prompt per §4.5, versioned comment).
-  - `async function translateSegments(segments: Segment[], opts: { model: string; maxRetries: number }): Promise<{ translated: Record<string, string>; tokens: { in: number; out: number } }>` — one Gemini call, schema-forced `{path, ko}[]`, returns flat map. Throws `TranslationError` with `reason: 'blocked' | 'truncated' | 'retry_exhausted'` on terminal failure.
+  - `async function translateSegments(segments: Segment[], opts: { model: string; maxRetries: number }): Promise<{ translated: Record<string, string>; tokens: { in: number; out: number } }>` — one Gemini call per attempt, schema-forced `{path, ko}[]`, returns flat map. **Runs the §4.7 domain validators (path set, non-empty, citation multiset, HTML tags, length ratio) internally** and treats a validation failure as retryable within the SAME `maxRetries` budget + 2s/8s/30s backoff as network/parse failures — so the entire per-story retry policy is ONE loop (no nested outer retry, no `(maxRetries+1)²` blowup). Throws `TranslationError` with `reason: 'blocked' | 'truncated' | 'retry_exhausted'` on terminal failure (completeness/finishReason is enforced here: blocked/truncated throw before returning).
   - `class Semaphore { constructor(max: number); run<T>(fn: () => Promise<T>): Promise<T> }`
   - `class TranslationError extends Error { reason: 'blocked' | 'truncated' | 'retry_exhausted' }`
-- Consumes: `Segment` from `../src/lib/translation/translatable` (relative import — scripts are bun).
+- Consumes: `Segment` and the §4.7 validators (`validatePaths`/`validateCitations`/`validateHtmlTags`/`validateLengthRatio`) from `../src/lib/translation/translatable` (relative import — scripts are bun).
 
 > This module is network-bound; it is verified via `--dry-run` (Task 7 Step 5) and the real-API smoke run (Step 6), not pure unit tests. Keep the block/truncation detection and retry policy exactly as specified.
 
@@ -637,6 +728,12 @@ git commit -m "feat: add translation.config.json"
 ```typescript
 import { GoogleGenAI, HarmBlockThreshold, HarmCategory, Type } from '@google/genai';
 import type { Segment } from '../src/lib/translation/translatable';
+import {
+	validatePaths,
+	validateCitations,
+	validateHtmlTags,
+	validateLengthRatio,
+} from '../src/lib/translation/translatable';
 
 // TRANSLATION_PROMPT v1 — see docs/korean-translation-spec.md §4.5
 export const TRANSLATION_PROMPT = `You are a professional Korean news translator. Translate each segment's "text" into Korean and return an array of {path, ko}.
@@ -740,6 +837,29 @@ export async function translateSegments(
 			const arr = JSON.parse(text) as { path: string; ko: string }[];
 			const translated: Record<string, string> = {};
 			for (const { path, ko } of arr) translated[path] = ko;
+
+			// §4.7 domain validation runs HERE, inside the single retry loop, so a
+			// validation failure (path set / non-empty / citation / HTML / length) shares
+			// ONE maxRetries budget and the SAME 2s/8s/30s backoff as network/parse
+			// failures (spec §4.3 lists "인용 마커 검증 실패" among retryable failures).
+			// Throwing a plain Error (not a terminal TranslationError) routes it to the
+			// catch → backoff → retry. Completeness (§4.7 rule 0, finishReason STOP) is
+			// already enforced above: SAFETY/PROHIBITED/RECITATION/MAX_TOKENS throw a
+			// terminal TranslationError before reaching this point.
+			const pathCheck = validatePaths(segments.map((s) => s.path), Object.keys(translated));
+			if (!pathCheck.ok) throw new Error(`validation: ${pathCheck.reason}`);
+			for (const seg of segments) {
+				const ko = translated[seg.path];
+				if (!ko) throw new Error('validation: empty_segment');
+				for (const check of [
+					validateCitations(seg.text, ko),
+					validateHtmlTags(seg.text, ko),
+					validateLengthRatio(seg.text, ko),
+				]) {
+					if (!check.ok) throw new Error(`validation: ${check.reason}`);
+				}
+			}
+
 			const usage = res.usageMetadata;
 			return {
 				translated,
@@ -757,8 +877,9 @@ export async function translateSegments(
 
 - [ ] **Step 2: Type-check compiles**
 
-Run: `npx tsc --noEmit scripts/gemini-client.ts 2>&1 | head` (informational; project uses svelte-check for app code)
-Expected: no import/type errors from this file (SDK enum names may need adjusting to the installed `@google/genai` version — verify against `node_modules/@google/genai`).
+Run: `npx svelte-check --tsconfig ./tsconfig.svelte-check.json` (this is the config whose `include` lists `scripts/**/*` and resolves the `$lib` alias — it is the one CI's `ci.yml` uses).
+Do NOT use `npm run check` (it runs svelte-check against `./tsconfig.json`, whose inherited `include` is only `src/**`/`tests/**` — `scripts/gemini-client.ts` is neither a root file nor imported by `src/**`, so it is never pulled into that program and svelte-check reports zero diagnostics for it regardless of real errors → a false PASS). Also do NOT run `npx tsc --noEmit scripts/gemini-client.ts` — an explicit file argument makes tsc ignore tsconfig (and its `$lib` alias), producing a bogus "Cannot find module '$lib/types'".
+Expected: no import/type errors attributable to this file (SDK enum names may need adjusting to the installed `@google/genai` version — verify against `node_modules/@google/genai`).
 
 - [ ] **Step 3: Commit**
 
@@ -775,7 +896,7 @@ git commit -m "feat: add Gemini client wrapper with retry and block detection"
 - Modify: `package.json` (add `translate:batch`)
 
 **Interfaces:**
-- Consumes: `translation.config.json`, `translateSegments`/`Semaphore`/`TranslationError` (Task 6), `extractSegments` + validators (Tasks 2–3).
+- Consumes: `translation.config.json`, `extractSegments` (Task 2), `translateSegments`/`Semaphore`/`TranslationError` (Task 6 — `translateSegments` runs the Task 3 §4.7 validators internally, so this script does not re-validate).
 - Produces: sidecar files `data/translations/<batchId>/<categoryUuid>.json` and `chaos.json` (§4.2 schema), `index.json`; process exit codes 0–4 (§4.3 table).
 
 Implement the full flow from §4.3. Because this is orchestration over network + fs, verify via `--dry-run` and a scoped real-API run rather than pure unit tests.
@@ -786,12 +907,12 @@ Create the concurrency lock with the fingerprint logic exactly as specified: loc
 
 - [ ] **Step 2: Implement the main flow (§4.3 steps 1–5)**
 
-1. `GET {KITE_API_BASE}/batches/latest` → `batchId`; if `createdAt` > 26h old → exit 2.
+1. `GET {KITE_API_BASE}/batches/latest` → `batchId`. **Immediately emit a stdout line identifying the resolved batch and its publish time — `console.log(\`[translate-batch] batchId=${batchId} createdAt=${createdAt}\`)` — before any category processing.** This exact line is what Task 20 Step 2 and Task 24 Step 4 grep from `logs/translate.log` to catch the §4.3 KST/UTC timezone trap (the processed `createdAt` must be today's 12:00 UTC publish); without it the deploy-order gate's own verification has nothing to check. Then, if `createdAt` > 26h old → exit 2.
 2. `GET /batches/{batchId}/categories?lang=en`; resolve config slugs → UUIDs; **exclude any category whose `sourceLanguage === 'ko'`** (log only); collect unresolved slugs.
 3. Per category (categories sequential; stories parallel via `Semaphore(concurrency)`):
    - `GET .../stories?limit={storyLimit}&lang=en` first (needed for idempotency).
    - Idempotency (single source of truth = category sidecar): `done(id) := id ∈ keys(sidecar.stories) ∨ id ∈ {failedStoryIds where reason==='blocked'}`. If all fetched ids are `done` → skip, do not rewrite. Else translate the not-done ids and merge into the existing sidecar; `--force` re-translates all.
-   - Per story: `extractSegments` → `translateSegments` → run validators (finishReason STOP, citation multiset, path set, non-empty, length ratio, **HTML tag** §4.7 rule 5); on validator failure treat as retryable (up to `maxRetries`); terminal `blocked`/`truncated` are non-retryable (from `TranslationError`).
+   - Per story: `extractSegments` → `translateSegments`. `translateSegments` (Task 6) already runs the §4.7 validators (completeness/finishReason STOP, citation multiset, path set, non-empty, length ratio, **HTML tag** rule 5) inside its single retry loop, so the caller does NOT re-validate or re-retry — it just awaits and handles the outcome: success → sidecar entry; `TranslationError` (`blocked`/`truncated`/`retry_exhausted`) → record in `stats.failedStoryIds`. This preserves exactly ONE per-story retry budget with the 2s/8s/30s backoff (spec §4.3), not a nested `(maxRetries+1)²` loop.
    - Record final failures in `stats.failedStoryIds` as `{ id, reason }`.
    - **Atomic write**: `<categoryUuid>.json.tmp.<pid>` → `rename`. Clean leftover `*.tmp.*` at start. **On a merge-rewrite** (catch-up / `--force` / `storyLimit` raise), refresh the file-level `model` and `createdAt` to the CURRENT run's values (§4.2 — last-writer-wins; not preserved from first creation).
 4. Chaos: `GET /batches/{batchId}/chaos?lang=en` → translate `chaosDescription` (one call). **Validate before writing** — per §4.2, apply ONLY §4.7's completeness (`finishReason === 'STOP'`), non-empty, and length-ratio (0.25–3.0) checks (no citation-marker check, and **no HTML-tag check** — `chaosDescription` is rendered as plain text, not via `{@html}`, so it has no XSS surface). On failure retry per §4.3, else skip writing chaos.json (English fallback). Write `chaos.json` with upstream `chaosLastUpdated` via atomic `.tmp.<pid>` → `rename` (complete-or-absent). Idempotent: skip if `chaos.json` exists and its `chaosLastUpdated` equals the upstream value (unless `--force`).
@@ -1057,10 +1178,19 @@ git commit -m "feat: export KITE_API_BASE + fetchUpstreamJSON; widen Story types
 - [ ] **Step 1: Write failing tests (pure logic + fs cache via tmp dir)**
 
 ```typescript
-import { describe, it, expect, beforeEach, afterEach } from 'vitest';
+import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
 import { mkdtempSync, writeFileSync, rmSync, mkdirSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
+
+// translations.ts reads env via `$env/dynamic/private` (spec §5.1). The sveltekit()
+// vite plugin makes that virtual module resolvable in the unit config, but it
+// SNAPSHOTS process.env at module-load time — and since static `import`s are hoisted
+// above beforeEach, the per-test `process.env.TRANSLATIONS_DIR = ...` write would not
+// be reflected. Mock it to a LIVE view of process.env (vi.mock is hoisted above the
+// static import) so late `env.TRANSLATIONS_DIR`/`env.TRANSLATIONS_ENABLED` reads in
+// translations.ts pick up each test's mutation.
+vi.mock('$env/dynamic/private', () => ({ env: process.env }));
 
 let dir: string;
 beforeEach(() => {
@@ -1069,7 +1199,8 @@ beforeEach(() => {
 });
 afterEach(() => rmSync(dir, { recursive: true, force: true }));
 
-// import AFTER env set
+// Static import is hoisted; the vi.mock above (also hoisted) guarantees the module
+// under test sees the live-process.env-backed env regardless of import position.
 import { wantsKorean, translationsEnabled, applyTranslations, readSidecar } from '../translations';
 
 describe('wantsKorean', () => {
@@ -1182,9 +1313,11 @@ export type ChaosSidecar = {
 	chaosDescription: string;
 };
 
-// Server reads env via $env/dynamic/private (§5.1); `env` proxies process.env at
-// access time, so the test suite's `process.env.TRANSLATIONS_DIR = ...` (set before
-// import) and the dev server's real env are both reflected. (Scripts use process.env.)
+// Server reads env via $env/dynamic/private (§5.1). At runtime (`node build`) that
+// module is dynamic — it reflects the process's real env. Under the unit test config
+// the same module snapshots process.env at import time, so the Task 9 test mocks it to
+// a live process.env view (see the `vi.mock('$env/dynamic/private', ...)` in the test)
+// to make per-test env writes visible. (Scripts read process.env directly.)
 function translationsDir(): string {
 	return env.TRANSLATIONS_DIR ?? join(process.cwd(), 'data/translations');
 }
@@ -1226,10 +1359,20 @@ async function readJsonWithRevalidation<T>(absPath: string): Promise<T | null> {
 		return null; // missing — do NOT negative-cache
 	}
 	const hit = cache.get(absPath);
-	if (hit && hit.mtimeMs === st.mtimeMs && hit.size === st.size) return hit.data as T;
+	if (hit && hit.mtimeMs === st.mtimeMs && hit.size === st.size) {
+		// LRU: refresh recency so a hot sidecar is never evicted ahead of a cold one.
+		// (Map.get does not reorder; delete+set moves this key to the MRU end.)
+		cache.delete(absPath);
+		cache.set(absPath, hit);
+		return hit.data as T;
+	}
 	try {
 		const data = JSON.parse(await readFile(absPath, 'utf8'));
+		// delete-then-set so a re-read of an existing (stale) key also lands at the MRU
+		// end — plain Map.set on an existing key keeps its original insertion position.
+		cache.delete(absPath);
 		cache.set(absPath, { mtimeMs: st.mtimeMs, size: st.size, data });
+		// Evict the least-recently-used entry (Map iteration order = LRU→MRU).
 		if (cache.size > MAX_CACHE) cache.delete(cache.keys().next().value as string);
 		return data as T;
 	} catch {
@@ -1723,6 +1866,10 @@ git commit -m "feat: add ko.json locale and serve it locally"
 - Produces: `settings.language` default `'ko'`, `settings.dataLanguage` default `'ko'`, store fallbacks `'ko'`, SSR bootstrap `{ locale: 'ko', strings: locales.ko }`.
 - Depends on Task 15 (`locales.ko` exists) **and on Task 20's cron verification (deploy gate above)** — do not release this flip until today's sidecars exist.
 
+- [ ] **Step 0: ⛔ GATE — verify Task 20 is complete before doing ANY of Task 16–19 (blocking)**
+
+Do not check this box (or start Step 1) until Task 20's Step 2 has passed: the crontab is deployed and its scheduled run has produced same-day sidecars for **every** configured category, with the processed `batchId.createdAt` confirmed to be today's 12:00 UTC publish. This checkbox exists so an executor working the list top-to-bottom cannot commit the Task 16–19 default flip ahead of the cron — the prose DEPLOY-ORDER GATE banner above is not self-enforcing. If Task 20 is not yet verified, STOP here and complete Task 20 first (Tasks 16–19 are ordered before it only for code locality). Confirm: `ls data/translations/<today-batchId>/` shows one sidecar per configured category.
+
 - [ ] **Step 1: Change the settings defaults**
 
 In `settings.svelte.ts`: line 63 `language` Setting default `'en'` → `'ko'`; lines 66–71 `dataLanguage` Setting default `'default'` → `'ko'`.
@@ -1865,7 +2012,7 @@ If cron lacks `CRON_TZ`, convert to host TZ (Asia/Seoul: `0 23` and `0 1`). Set 
 Check `logs/translate.log`: the processed `batchId`'s `createdAt` is today's 12:00 UTC publish (guards the §4.3 timezone trap), and `data/translations/<batchId>/` has a sidecar per configured category. Ensure server `TRANSLATIONS_DIR` (absolute path) matches the cron's write dir.
 Expected: sidecars present for all configured categories; exit 0.
 
-- [ ] **Step 3: (No commit — ops step.)** Record the chosen alert method to include in README (Task 25).
+- [ ] **Step 3: (No commit — ops step.)** Record the chosen alert method to include in README (Task 24).
 
 ---
 
