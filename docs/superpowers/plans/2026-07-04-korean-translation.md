@@ -832,9 +832,19 @@ export async function translateSegments(
 	opts: { model: string; maxRetries: number },
 ): Promise<{ translated: Record<string, string>; tokens: { in: number; out: number } }> {
 	let lastErr = '';
+	// Accumulate tokens across EVERY call actually made (retries + the discarded
+	// MAX_TOKENS call before doubling), so the returned total matches real billing
+	// and §4.2's token accounting — not just the final successful call's usage.
+	let tokensIn = 0;
+	let tokensOut = 0;
+	const addUsage = (r: Awaited<ReturnType<typeof callOnce>>) => {
+		tokensIn += r.usageMetadata?.promptTokenCount ?? 0;
+		tokensOut += r.usageMetadata?.candidatesTokenCount ?? 0;
+	};
 	for (let attempt = 0; attempt <= opts.maxRetries; attempt++) {
 		try {
 			let res = await callOnce(segments, opts.model, 16384);
+			addUsage(res);
 			const finish = res.candidates?.[0]?.finishReason;
 			const block = res.promptFeedback?.blockReason;
 			// Terminal (deterministic) failures — no backoff retry.
@@ -843,6 +853,7 @@ export async function translateSegments(
 			if (finish === 'MAX_TOKENS') {
 				// Single deterministic retry at double budget, then give up.
 				res = await callOnce(segments, opts.model, 32768);
+				addUsage(res);
 				const finish2 = res.candidates?.[0]?.finishReason;
 				// Re-check terminal block/safety on the retry — a story can truncate first,
 				// then get safety-blocked at the larger budget. Without this it would fall
@@ -881,10 +892,9 @@ export async function translateSegments(
 				}
 			}
 
-			const usage = res.usageMetadata;
 			return {
 				translated,
-				tokens: { in: usage?.promptTokenCount ?? 0, out: usage?.candidatesTokenCount ?? 0 },
+				tokens: { in: tokensIn, out: tokensOut },
 			};
 		} catch (err) {
 			if (err instanceof TranslationError && err.reason !== 'retry_exhausted') throw err; // terminal
