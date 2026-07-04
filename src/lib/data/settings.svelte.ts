@@ -60,12 +60,12 @@ export const settings = {
 	theme: new Setting<Theme>('theme', 'system', 'when_not_default', 'appearance'),
 
 	// Language Settings
-	language: new Setting<SupportedLanguage>('kiteLanguage', 'en', 'when_not_default', 'language'),
+	language: new Setting<SupportedLanguage>('kiteLanguage', 'ko', 'when_not_default', 'language'),
 	// Translation mode: 'default' | 'source' | 'custom' | specific language code
 	// Controls how content should be translated/displayed
 	dataLanguage: new Setting<SupportedLanguage>(
 		'dataLanguage',
-		'default',
+		'ko',
 		'when_not_default',
 		'language',
 	),
