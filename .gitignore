@@ -29,3 +29,13 @@ coverage
 .vite
 .svelte-kit
 __pycache__/
+
+# Translation sidecars (generated, not versioned)
+data/translations/*
+!data/translations/.gitkeep
+
+# Secrets
+.env
+.env.*
+!.env.example
+!.env.development
