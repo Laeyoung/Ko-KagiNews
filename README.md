@@ -167,6 +167,59 @@ When adding or modifying filters:
 
 Feel free to add new filter categories or improve existing ones by adding relevant keywords in multiple languages.
 
+## Korean translation
+
+This fork (`Laeyoung/Ko-KagiNews`) adds Korean as a supported content and UI language. Korean is served by **default** for new visitors; users can switch back to English (or any other supported language) at any time via the language selector. Full design rationale lives in `docs/korean-translation-spec.md`.
+
+### How it works
+
+Kagi News publishes one immutable batch per day (12:00 UTC). Korean content is **pre-translated ahead of time and overlaid at serve time** — there is no on-demand/live translation:
+
+1. A nightly cron script (`scripts/translate-batch.ts`, run via `npm run translate:batch` / `bun scripts/translate-batch.ts`) fetches the latest batch from `kite.kagi.com`, translates the configured categories' stories with Gemini, and writes one JSON **sidecar** file per category to `TRANSLATIONS_DIR/<batchId>/`.
+2. The SvelteKit Node server intercepts the story/chaos API proxy routes: for `lang=ko` requests it fetches the same upstream English JSON it always would, then overlays the translated fields by `story.id` from the sidecar. Citation chips (`[1]`, `[2]`, ...) are preserved as-is.
+3. If no sidecar exists yet for a given batch/category (e.g. the cron hasn't run yet, or a very old/time-traveled batch), the server silently falls back to the English original — there's no error, just English content.
+4. UI strings are translated separately and shipped as a static locale file, `src/lib/locales/ko.json`, regenerated with `npm run translate:locale` (`bun scripts/generate-ko-locale.ts`) whenever `en.json` changes.
+
+A shared, framework-free module (`src/lib/translation/translatable.ts`) implements segment extraction/merging and validation, and is used by both the cron script and the server overlay so the two stay in sync.
+
+### Running the translation cron
+
+Deploy `scripts/translate-batch.ts` as a cron job anchored to **UTC**, since the daily batch publishes at 12:00 UTC and cron interprets schedule times in the daemon's local timezone. The target schedule is **KST 23:00 (= 14:00 UTC)** for the main run, plus a **16:00 UTC** idempotent catch-up in case the main run misses a fresh batch:
+
+```cron
+CRON_TZ=UTC
+MAILTO=ops@example.com
+0 14 * * * cd /opt/ko-kaginews && mkdir -p logs && { /usr/local/bin/bun scripts/translate-batch.ts >> logs/translate.log 2>&1 || echo "translate-batch failed exit=$? — check logs/translate.log"; }
+0 16 * * * cd /opt/ko-kaginews && mkdir -p logs && { /usr/local/bin/bun scripts/translate-batch.ts >> logs/translate.log 2>&1 || echo "translate-batch (catch-up) failed exit=$? — check logs/translate.log"; }
+```
+
+If your cron daemon doesn't support `CRON_TZ`, convert the times to the host's local timezone instead (e.g. Asia/Seoul → `0 23 * * *` and `0 1 * * *`). Getting this wrong doesn't fail loudly: on a KST host running the UTC times unconverted, the script would still exit 0 every day (because the previous day's batch is still "fresh" and already translated) while today's batch translation quietly lags by ~17 hours — always verify the first run's log shows a `createdAt` matching today's 12:00 UTC publish.
+
+Other operational notes:
+
+- `logs/` is gitignored and does not exist on a fresh checkout — the `mkdir -p logs` above is required, otherwise the shell can't open the log file and the script silently never runs (and since sidecar absence falls back to English with no error, this failure mode is invisible in the app).
+- `logs/translate.log` grows without bound; configure `logrotate` for it in production.
+- The script's exit code drives alerting: `0` = success (including idempotent no-op skips), `1` = unexpected error, `2` = no fresh upstream batch, `3` = failure rate over threshold, `4` = config error (e.g. unknown category slug). The crontab example above emails via `MAILTO` only on non-zero exit. A `healthchecks.io`-style approach (ping on success, alert on missed ping) works too — **at least one alert consumer must be wired up** before relying on the cron in production.
+- A one-off manual `bun scripts/translate-batch.ts` run only backfills the current batch; it does **not** replace the cron. Without the cron running daily, the next day's freshly published batch has zero sidecars and visitors fall back to English again.
+
+### Environment variables
+
+| Variable | Default | Purpose |
+|---|---|---|
+| `GEMINI_API_KEY` | *(required for cron/scripts)* | Gemini API key. Not needed by the server at runtime. |
+| `GEMINI_MODEL` | `gemini-3.1-flash-lite` | Model id override (reconfirm current id/pricing before relying on it). |
+| `TRANSLATIONS_DIR` | `./data/translations` | Sidecar storage path, shared by the cron and the server. **Must be an absolute path in production** — see below. |
+| `KITE_API_BASE` | `https://kite.kagi.com/api` | Upstream override (used in tests). |
+| `TRANSLATIONS_ENABLED` | `true` | Serving kill switch. Set to `'false'` to force all content to English regardless of sidecar availability — no file deletion or code revert needed, just an env change + restart. Does not affect the cron/scripts. |
+
+**`.env` is not auto-loaded by the production server.** `@sveltejs/adapter-node`'s build (`node build`) does not load `.env` automatically. In production, either run `node -r dotenv/config build`, or inject the environment via systemd `EnvironmentFile=` (or your container platform's env injection). The `bun` cron scripts do auto-load a `.env` in their working directory, so as long as the crontab `cd`'s into the app directory first (as in the example above), no extra step is needed there.
+
+**`TRANSLATIONS_DIR` cwd trap:** the default value is resolved relative to `process.cwd()`, so if the cron and the server process have different working directories, they can silently disagree on where sidecars live — e.g. a systemd unit without `WorkingDirectory=` runs with cwd `/`, so the server looks for `./data/translations` under `/` while the cron writes elsewhere. Because a missing sidecar is a silent, logless fallback to English by design, this manifests only as "`lang=ko` requests keep returning English" with nothing obviously wrong in the logs. To avoid this: always set `TRANSLATIONS_DIR` to an **absolute path** in production, and if using systemd, set both `EnvironmentFile=` and `WorkingDirectory=` on the unit so the cron and server resolve the same path.
+
+### Regenerating the UI locale file
+
+Run `npm run translate:locale` (`bun scripts/generate-ko-locale.ts`) after changing `src/lib/locales/en.json` to regenerate `src/lib/locales/ko.json` via Gemini. This is a separate, on-demand script from the daily news-content cron.
+
 ## Custom front-ends
 
 ### Raycast
