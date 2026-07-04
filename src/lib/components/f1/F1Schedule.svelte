@@ -8,6 +8,7 @@ import {
 } from '@tabler/icons-svelte';
 import { onMount } from 'svelte';
 import { s } from '$lib/client/localization.svelte';
+import { language } from '$lib/stores/language.svelte.js';
 
 interface Race {
 	round: number;
@@ -65,7 +66,7 @@ async function handleRefresh() {
 
 function formatDate(dateStr: string): string {
 	const date = new Date(dateStr);
-	return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+	return date.toLocaleDateString(language.currentLocale, { month: 'short', day: 'numeric' });
 }
 
 function getDaysUntil(dateStr: string, timeStr?: string): number {

@@ -3735,6 +3735,10 @@
     "text": "일시적으로 이용 불가",
     "translationContext": "Small label shown with a clock icon when a core category has no stories, indicating the update schedule"
   },
+  "story.aiTranslated": {
+    "text": "AI 번역됨",
+    "translationContext": "Small badge shown on stories that were machine-translated by Gemini (a Google AI product/brand name — keep 'Gemini' as a proper noun/brand name, do not translate it)"
+  },
   "story.assistant.placeholder": {
     "text": "이 기사에 대해 질문하기...",
     "translationContext": "Placeholder text in the assistant question input field"

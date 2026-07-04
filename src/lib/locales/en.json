@@ -3735,6 +3735,10 @@
     "text": "Temporarily unavailable",
     "translationContext": "Small label shown with a clock icon when a core category has no stories, indicating the update schedule"
   },
+  "story.aiTranslated": {
+    "text": "AI translated",
+    "translationContext": "Small badge shown on stories that were machine-translated by Gemini (a Google AI product/brand name — keep 'Gemini' as a proper noun/brand name, do not translate it)"
+  },
   "story.assistant.placeholder": {
     "text": "Ask about this story...",
     "translationContext": "Placeholder text in the assistant question input field"
