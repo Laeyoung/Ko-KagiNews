@@ -7,7 +7,7 @@ on:
     - cron: '0 14 * * *'
     - cron: '0 16 * * *'
   workflow_dispatch:
-  # TEMPORARY: branch-scoped push trigger for pre-merge E2E testing —
+  # TEMPORARY: branch-scoped push trigger for pre-merge E2E testing (run 2) —
   # remove before merging to main (workflow_dispatch needs the file on main).
   push:
     branches: [claude/kaginews-korean-translation-bdwkbe]
