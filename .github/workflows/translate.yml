@@ -7,11 +7,6 @@ on:
     - cron: '0 14 * * *'
     - cron: '0 16 * * *'
   workflow_dispatch:
-  # TEMPORARY: branch-scoped push trigger for pre-merge E2E testing (run 2) —
-  # remove before merging to main (workflow_dispatch needs the file on main).
-  push:
-    branches: [claude/kaginews-korean-translation-bdwkbe]
-    paths: ['.github/workflows/translate.yml']
 
 concurrency:
   group: translate
@@ -48,8 +43,13 @@ jobs:
           git add data/translations
           if git diff --cached --quiet; then
             echo "No sidecar changes to commit"
-          else
+          elif git diff --cached --name-only | grep -qv '/index\.json$'; then
             git commit -m "chore(translations): daily sidecars $(date -u +%F)"
             git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
             git push origin "HEAD:${GITHUB_REF_NAME}"
+          else
+            # An idempotent skip run only touches index.json bookkeeping
+            # (updatedAt/status) — committing it would redeploy for nothing.
+            echo "Only index.json bookkeeping changed — skipping commit"
+            git reset -q
           fi
