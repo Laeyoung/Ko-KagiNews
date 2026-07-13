@@ -3,6 +3,7 @@ import { join, resolve, sep } from 'node:path';
 import { env } from '$env/dynamic/private';
 import { applySegments } from '$lib/translation/translatable';
 import type { BatchStoriesResponse, Story } from '$lib/types';
+import { bundledSidecars } from './bundledSidecars';
 
 const BATCH_ID =
 	/^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$|^\d{4}-\d{2}-\d{2}(\.\d+)?$/i;
@@ -102,20 +103,34 @@ function safeSidecarPath(batchId: string, file: string): string | null {
 	return abs;
 }
 
+// Serverless fallback: sidecars committed to the repo are bundled at build
+// time (see bundledSidecars.ts) because the deployed function has no
+// data/translations on disk. Exact-key lookup, so no traversal concerns.
+export async function readBundledSidecar<T>(batchId: string, file: string): Promise<T | null> {
+	const loader = bundledSidecars[`/data/translations/${batchId}/${file}`];
+	if (!loader) return null;
+	try {
+		return (await loader()) as T;
+	} catch {
+		return null;
+	}
+}
+
 export async function readSidecar(batchId: string, categoryUuid: string): Promise<Sidecar | null> {
 	await logTranslationsDirOnce();
 	if (!BATCH_ID.test(batchId) || !CATEGORY_UUID.test(categoryUuid)) return null;
-	const abs = safeSidecarPath(batchId, `${categoryUuid}.json`);
-	if (!abs) return null;
-	return readJsonWithRevalidation<Sidecar>(abs);
+	const file = `${categoryUuid}.json`;
+	const abs = safeSidecarPath(batchId, file);
+	const fromFs = abs ? await readJsonWithRevalidation<Sidecar>(abs) : null;
+	return fromFs ?? readBundledSidecar<Sidecar>(batchId, file);
 }
 
 export async function readChaosSidecar(batchId: string): Promise<ChaosSidecar | null> {
 	await logTranslationsDirOnce();
 	if (!BATCH_ID.test(batchId)) return null;
 	const abs = safeSidecarPath(batchId, 'chaos.json');
-	if (!abs) return null;
-	return readJsonWithRevalidation<ChaosSidecar>(abs);
+	const fromFs = abs ? await readJsonWithRevalidation<ChaosSidecar>(abs) : null;
+	return fromFs ?? readBundledSidecar<ChaosSidecar>(batchId, 'chaos.json');
 }
 
 export function applyTranslations(

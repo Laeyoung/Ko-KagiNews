@@ -12,6 +12,26 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 // translations.ts pick up each test's mutation.
 vi.mock('$env/dynamic/private', () => ({ env: process.env }));
 
+// The bundled glob map is build-time state (import.meta.glob over the repo's
+// committed sidecars); mock it so the serverless fallback path is testable.
+const BUNDLED_BATCH = '2026-07-13.1';
+const BUNDLED_CAT = '11111111-2222-3333-4444-555555555555';
+vi.mock('../bundledSidecars', () => ({
+	bundledSidecars: {
+		'/data/translations/2026-07-13.1/11111111-2222-3333-4444-555555555555.json': async () => ({
+			version: 1,
+			batchId: '2026-07-13.1',
+			categoryUuid: '11111111-2222-3333-4444-555555555555',
+			model: 'test-model',
+			createdAt: '2026-07-13T14:00:00Z',
+			stories: { s1: { title: '번들 제목' } },
+		}),
+		'/data/translations/2026-07-13.1/broken.json': async () => {
+			throw new Error('chunk load failed');
+		},
+	},
+}));
+
 let dir: string;
 beforeEach(() => {
 	dir = mkdtempSync(join(tmpdir(), 'trans-'));
@@ -24,6 +44,7 @@ afterEach(() => rmSync(dir, { recursive: true, force: true }));
 import {
 	applyChaosTranslation,
 	applyTranslations,
+	readBundledSidecar,
 	readChaosSidecar,
 	readSidecar,
 	translationsEnabled,
@@ -187,6 +208,39 @@ describe('readChaosSidecar', () => {
 	it('rejects path-traversal params', async () => {
 		expect(await readChaosSidecar('../etc')).toBeNull();
 		expect(await readChaosSidecar('..%2Fescape')).toBeNull();
+	});
+});
+
+describe('bundled sidecar fallback', () => {
+	it('falls back to the bundled map when the file is not on disk', async () => {
+		const sidecar = await readSidecar(BUNDLED_BATCH, BUNDLED_CAT);
+		expect(sidecar?.stories.s1.title).toBe('번들 제목');
+	});
+
+	it('returns null when neither fs nor bundle has the sidecar', async () => {
+		const sidecar = await readSidecar(BUNDLED_BATCH, '99999999-9999-9999-9999-999999999999');
+		expect(sidecar).toBeNull();
+	});
+
+	it('prefers the fs copy over the bundled copy', async () => {
+		mkdirSync(join(dir, BUNDLED_BATCH), { recursive: true });
+		writeFileSync(
+			join(dir, BUNDLED_BATCH, `${BUNDLED_CAT}.json`),
+			JSON.stringify({
+				version: 1,
+				batchId: BUNDLED_BATCH,
+				categoryUuid: BUNDLED_CAT,
+				model: 'gemini-3.1-flash-lite',
+				createdAt: '2026-07-13T14:00:00Z',
+				stories: { s1: { title: 'fs 제목' } },
+			}),
+		);
+		const sidecar = await readSidecar(BUNDLED_BATCH, BUNDLED_CAT);
+		expect(sidecar?.stories.s1.title).toBe('fs 제목');
+	});
+
+	it('readBundledSidecar returns null when the loader throws', async () => {
+		await expect(readBundledSidecar(BUNDLED_BATCH, 'broken.json')).resolves.toBeNull();
 	});
 });
 
