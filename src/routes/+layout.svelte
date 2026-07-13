@@ -23,10 +23,18 @@ import { useOverlayScrollbars } from 'overlayscrollbars-svelte';
 import type { PageData } from './$types';
 import 'overlayscrollbars/overlayscrollbars.css';
 import { onMount, type Snippet, setContext } from 'svelte';
-import { deepMerge, MetaTags } from 'svelte-meta-tags';
+import { deepMerge, MetaTags, type MetaTagsProps } from 'svelte-meta-tags';
 
 // Props from layout load
-let { data, children }: { data: PageData; children: Snippet } = $props();
+// `session`/`baseMetaTags` are provided by upstream loads and may be absent in
+// this fork's simplified layout load, so they are typed as optional.
+let {
+	data,
+	children,
+}: {
+	data: PageData & { session?: Session | null; baseMetaTags?: MetaTagsProps };
+	children: Snippet;
+} = $props();
 
 // Set session context for child components
 // svelte-ignore state_referenced_locally - session context is set once at initialization
