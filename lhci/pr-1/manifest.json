@@ -2,8 +2,8 @@
   {
     "url": "http://127.0.0.1:5173/?skip_intro=1",
     "isRepresentativeRun": true,
-    "htmlPath": "/home/runner/work/Ko-KagiNews/Ko-KagiNews/.lighthouseci/127_0_0_1--2026_07_13_09_53_27.report.html",
-    "jsonPath": "/home/runner/work/Ko-KagiNews/Ko-KagiNews/.lighthouseci/127_0_0_1--2026_07_13_09_53_27.report.json",
+    "htmlPath": "/home/runner/work/Ko-KagiNews/Ko-KagiNews/.lighthouseci/127_0_0_1--2026_07_13_09_59_26.report.html",
+    "jsonPath": "/home/runner/work/Ko-KagiNews/Ko-KagiNews/.lighthouseci/127_0_0_1--2026_07_13_09_59_26.report.json",
     "summary": {
       "performance": 0.51,
       "accessibility": 0.85,
@@ -14,10 +14,10 @@
   {
     "url": "http://127.0.0.1:5173/latest?skip_intro=1",
     "isRepresentativeRun": true,
-    "htmlPath": "/home/runner/work/Ko-KagiNews/Ko-KagiNews/.lighthouseci/127_0_0_1-latest-2026_07_13_09_53_52.report.html",
-    "jsonPath": "/home/runner/work/Ko-KagiNews/Ko-KagiNews/.lighthouseci/127_0_0_1-latest-2026_07_13_09_53_52.report.json",
+    "htmlPath": "/home/runner/work/Ko-KagiNews/Ko-KagiNews/.lighthouseci/127_0_0_1-latest-2026_07_13_09_59_52.report.html",
+    "jsonPath": "/home/runner/work/Ko-KagiNews/Ko-KagiNews/.lighthouseci/127_0_0_1-latest-2026_07_13_09_59_52.report.json",
     "summary": {
-      "performance": 0.6,
+      "performance": 0.61,
       "accessibility": 0.85,
       "best-practices": 0.96,
       "seo": 0.83
