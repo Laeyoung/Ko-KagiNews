@@ -3,11 +3,11 @@ import { IconCards, IconDownload, IconSparkles, IconVolume } from '@tabler/icons
 import { getContext } from 'svelte';
 import { s } from '$lib/client/localization.svelte';
 import { experimental } from '$lib/stores/experimental.svelte.js';
-import { sections } from '$lib/stores/sections.svelte.js';
 import { language } from '$lib/stores/language.svelte';
+import { sections } from '$lib/stores/sections.svelte.js';
 import { type CitationMapping, replaceWithNumberedCitations } from '$lib/utils/citationContext';
-import { containsCJK } from '$lib/utils/textUtils';
 import { extractStoryText } from '$lib/utils/storyTextExtractor';
+import { containsCJK } from '$lib/utils/textUtils';
 import Tooltip from '../Tooltip.svelte';
 
 // Props
@@ -194,6 +194,15 @@ const isCJKStory = $derived(containsCJK(story.title));
           {story.category}
         </span>
       </div>
+
+      {#if story.translationAvailable}
+        <span
+          class="inline-flex items-center rounded bg-purple-100 px-1.5 py-0.5 text-xs font-medium text-purple-800 dark:bg-purple-900 dark:text-purple-200"
+          title={s('story.aiTranslated')}
+        >
+          {s('story.aiTranslated')}
+        </span>
+      {/if}
 
       <!-- AI Tools - Only show when expanded and user is subscriber -->
       {#if isExpanded && isSubscriber}

@@ -12,6 +12,7 @@ import ContributeFeedStep from '$lib/components/contribute/ContributeFeedStep.sv
 import ContributeHistory from '$lib/components/contribute/ContributeHistory.svelte';
 import ContributeOnboarding from '$lib/components/contribute/ContributeOnboarding.svelte';
 import ContributeSubmitStep from '$lib/components/contribute/ContributeSubmitStep.svelte';
+import type { ContributionItem } from '$lib/types';
 import {
 	deduplicateFeeds,
 	type FeedCheckResult,
@@ -21,13 +22,23 @@ import {
 	parseCoreFeedsPy,
 	parseFeedUrls,
 } from '$lib/utils/feedContribution';
+import type { PageData } from './$types';
 
 const FEEDS_URL = 'https://raw.githubusercontent.com/kagisearch/kite-public/main/kite_feeds.json';
 const CORE_FEEDS_URL =
 	'https://raw.githubusercontent.com/kagisearch/kite-public/main/core_feeds.py';
 
-// Props from +page.server.ts
-let { data } = $props();
+// Props from +page.server.ts. These fields come from the upstream contribute
+// server load and may be absent in this fork, so they are typed as optional.
+let {
+	data,
+}: {
+	data: PageData & {
+		hasSeenOnboarding?: boolean;
+		githubMode?: 'auto' | 'manual';
+		contributions?: ContributionItem[];
+	};
+} = $props();
 
 // State: onboarding (SSR-safe via cookie)
 let showOnboarding = $state(!data.hasSeenOnboarding);
@@ -407,7 +418,7 @@ function resetForm() {
 		</header>
 
 		<main class="max-w-3xl mx-auto px-4 py-8 space-y-6">
-			{#if data.contributions?.length > 0}
+			{#if data.contributions && data.contributions.length > 0}
 				<ContributeHistory contributions={data.contributions} />
 			{/if}
 

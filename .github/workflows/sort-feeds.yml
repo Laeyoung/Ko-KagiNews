@@ -145,7 +145,9 @@ jobs:
     - name: Check for changes
       id: verify-changed-files
       run: |
-        if [ -n "$(git status --porcelain)" ]; then
+        # Only consider the tracked data files this workflow sorts; ignore scratch
+        # outputs (e.g. all-issues.json, *-issues.json) left in the workspace.
+        if [ -n "$(git status --porcelain -- kite_feeds.json core_feeds.py media_data.json src/lib/locales/*.json)" ]; then
           echo "changed=true" >> $GITHUB_OUTPUT
         else
           echo "changed=false" >> $GITHUB_OUTPUT
@@ -159,6 +161,10 @@ jobs:
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add kite_feeds.json core_feeds.py media_data.json src/lib/locales/*.json
+        if git diff --cached --quiet; then
+          echo "No sorting changes to commit"
+          exit 0
+        fi
         git commit -m "$(cat <<'EOF'
         chore: auto-sort and deduplicate feeds
 
@@ -184,6 +190,10 @@ jobs:
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add kite_feeds.json core_feeds.py media_data.json src/lib/locales/*.json
+        if git diff --cached --quiet; then
+          echo "No sorting changes to commit"
+          exit 0
+        fi
         git commit -m "$(cat <<'EOF'
         chore: auto-sort and deduplicate feeds
 

@@ -71,6 +71,9 @@ jobs:
 
       - name: Analyze bundle size
         uses: preactjs/compressed-size-action@v2
+        # Informational size report; it also builds the PR base branch, which
+        # can fail for reasons unrelated to this PR (e.g. a broken base build).
+        continue-on-error: true
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           pattern: './build/**/*.{js,css,html}'
@@ -85,7 +88,10 @@ jobs:
     needs: changes
     if: needs.changes.outputs['app'] == 'true'
     permissions:
-      contents: read
+      # write: the Lighthouse-report step pushes previews to gh-pages and
+      # comments the preview link on the PR
+      contents: write
+      pull-requests: write
       id-token: write
     steps:
       - name: Checkout repository
@@ -108,8 +114,11 @@ jobs:
       - name: SvelteKit sync
         run: bunx --yes svelte-kit sync
 
-      - name: Run unit tests with coverage
-        run: npx --yes vitest run --config vitest.config.unit.ts --coverage
+      # No --coverage: this repo's vitest setup (ssr.noExternal) breaks both
+      # coverage providers (v8 reports 0% / crashes the CI inspector, istanbul
+      # fails to load), and nothing consumes the report.
+      - name: Run unit tests
+        run: npx --yes vitest run --config vitest.config.unit.ts
 
       - name: Build for preview server
         run: bun run build

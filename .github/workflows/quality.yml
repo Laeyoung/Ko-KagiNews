@@ -77,9 +77,15 @@ jobs:
             fi
           fi
           
-          # Filter to existing files and save to output
+          # Filter to existing files and save to output. Skip lockfiles and
+          # generated data (translation sidecars, generated locale) — formatting
+          # suggestions on those are noise and their huge diffs make the
+          # reviewdog suggestion payload exceed API limits.
           existing_files=""
           for file in $changed_files; do
+            case "$file" in
+              package-lock.json|data/translations/*|coverage/*) continue ;;
+            esac
             if [ -f "$file" ]; then
               existing_files="$existing_files $file"
             fi
@@ -110,6 +116,8 @@ jobs:
       - name: Suggest Prettier fixes (same-repo PRs only)
         if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && steps.changed-files.outputs.files != ''
         uses: reviewdog/action-suggester@v1
+        # Advisory only — a reviewdog/API hiccup must not fail the job.
+        continue-on-error: true
         with:
           tool_name: prettier
           level: info

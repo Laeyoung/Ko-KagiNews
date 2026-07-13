@@ -2,7 +2,11 @@
 import type { Writable } from 'svelte/store';
 import type { Story } from '$lib/types';
 
-// src/app.d.ts
+// Global ambient declarations for the app.
+// NOTE: this file is intentionally named `globals.d.ts` rather than `app.d.ts`
+// because a sibling `src/app.ts` (the test mock for `$app/*`) would shadow an
+// `app.d.ts` file, silently dropping every declaration below.
+
 declare global {
 	namespace App {
 		// interface Error {}
@@ -10,7 +14,7 @@ declare global {
 			session: Session | null;
 		}
 		interface PageData {
-			session: Session | null;
+			session?: Session | null;
 			locale?: string;
 			strings?: Record<string, string>;
 		}
@@ -77,10 +81,6 @@ declare global {
 			enablePreloadingTab: () => void;
 			disablePreloadingTab: () => void;
 		};
-	}
-
-	interface globalThis {
-		session?: Session;
 	}
 
 	type SessionContext = Writable<Session | null>;

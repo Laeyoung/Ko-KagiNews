@@ -71,7 +71,9 @@ describe('BatchService Integration Tests', () => {
 			expect(batchService.getCurrentBatchId()).toBe(null);
 
 			const testBatchId = 'test-batch-123';
-			batchService.setTimeTravelBatch(testBatchId);
+			// Time travel mode is driven by the `isHistorical` flag (the store's source
+			// of truth), not merely by a batchId being set.
+			batchService.setTimeTravelBatch(testBatchId, null, null, true);
 
 			expect(batchService.isTimeTravelMode()).toBe(true);
 			expect(batchService.getCurrentBatchId()).toBe(testBatchId);

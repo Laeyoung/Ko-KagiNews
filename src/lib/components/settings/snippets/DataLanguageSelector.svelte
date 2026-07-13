@@ -25,6 +25,10 @@ let {
 // Data Language options - only show default, source, and custom
 const dataLanguageOptions = $derived([
 	{
+		value: 'ko',
+		label: s('settings.language.koreanDefault') || '한국어 (기본)',
+	},
+	{
 		value: 'default',
 		label: s('settings.language.default') || 'Default',
 	},
@@ -319,21 +323,27 @@ let selectedLanguageToAdd = $state<string>('');
     <div
       class="mt-1 flex items-center justify-end text-xs text-gray-500 dark:text-gray-400"
     >
-      <a
-        href="https://kagi.com/translate"
-        target="_blank"
-        class="flex items-center hover:text-gray-700 dark:hover:text-gray-300"
-      >
-        <span
-          >{s("settings.language.poweredBy") ||
-            "Translated with Kagi Translate"}</span
+      {#if languageSettings.data === "ko"}
+        <span class="flex items-center">
+          {s("settings.language.poweredByGemini") || "Translated with Gemini"}
+        </span>
+      {:else}
+        <a
+          href="https://kagi.com/translate"
+          target="_blank"
+          class="flex items-center hover:text-gray-700 dark:hover:text-gray-300"
         >
-        <img
-          src="/svg/translate.svg"
-          alt="Kagi Translate"
-          class="ms-1 h-3 w-3"
-        />
-      </a>
+          <span
+            >{s("settings.language.poweredBy") ||
+              "Translated with Kagi Translate"}</span
+          >
+          <img
+            src="/svg/translate.svg"
+            alt="Kagi Translate"
+            class="ms-1 h-3 w-3"
+          />
+        </a>
+      {/if}
     </div>
   {/if}
 </div>

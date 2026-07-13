@@ -272,7 +272,7 @@ export function buildCitationMapping(story: Story, articles: Article[]): Citatio
 
 	if (story.user_action_items?.length) {
 		for (const item of story.user_action_items) {
-			processCitations(item);
+			processCitations(typeof item === 'string' ? item : item.text);
 		}
 	}
 

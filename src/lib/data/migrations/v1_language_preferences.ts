@@ -28,6 +28,7 @@
  * @see https://github.com/kagisearch/kite/pull/XXX
  */
 
+import { safeGetItem } from '$lib/client/utils/safe-storage';
 import type { SupportedLanguage } from '../settings.svelte';
 import { settings } from '../settings.svelte';
 import type { Migration } from './types';
@@ -41,10 +42,19 @@ export const v1_language_preferences: Migration = {
 		const contentLangs = settings.contentLanguages.currentValue;
 
 		// Only migrate if:
-		// 1. dataLanguage is set to a specific language (not 'default', 'source', or 'custom')
-		// 2. contentLanguages is empty (indicating this hasn't been migrated yet)
+		// 1. A dataLanguage value was actually stored in localStorage (i.e. the user
+		//    previously chose a language). Without this guard, a brand-new visitor who
+		//    never set anything would inherit the current default (e.g. 'ko') and get
+		//    silently converted to dataLanguage='custom', contentLanguages=['ko'] — see
+		//    docs/korean-translation-spec.md §7 note 3.
+		// 2. dataLanguage is set to a specific language (not 'default', 'source', or 'custom')
+		// 3. contentLanguages is empty (indicating this hasn't been migrated yet)
+		const storedDataLang = safeGetItem(settings.dataLanguage.key);
 		const isSpecificLanguage =
-			dataLang !== 'default' && dataLang !== 'source' && dataLang !== 'custom';
+			storedDataLang !== null &&
+			dataLang !== 'default' &&
+			dataLang !== 'source' &&
+			dataLang !== 'custom';
 
 		if (isSpecificLanguage && contentLangs.length === 0) {
 			console.log('[Migration] Running v1_language_preferences', {

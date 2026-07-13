@@ -1,0 +1,14 @@
+{
+  "loop": "dev-review-loop",
+  "scope": { "branch": "claude/kaginews-korean-translation-bdwkbe", "base": "main" },
+  "started_at_epoch": 1783194329,
+  "started_at_iso": "2026-07-05T00:45:29Z",
+  "last_iteration_at_epoch": 1783196233,
+  "iteration": 3,
+  "counter": 2,
+  "threshold": 88,
+  "dimensions": ["correctness", "security", "error-handling", "test-coverage"],
+  "fixed_running_total": { "critical": 2, "major": 3, "minor": 0 },
+  "agent_failures_last_iter": [],
+  "status": "completed-clean"
+}

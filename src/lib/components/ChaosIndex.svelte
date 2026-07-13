@@ -264,6 +264,8 @@ function createChart() {
 	const isDark = document.documentElement.classList.contains('dark');
 	const ctx = chartCanvas.getContext('2d')!;
 	const scores = historicalData.map((d) => d.score);
+	// Mirrors the locale resolution used in +page.svelte for batch dates.
+	const chartLocale = languageSettings.ui === 'default' ? undefined : languageSettings.ui;
 
 	chartInstance = new Chart(chartCanvas, {
 		type: 'line',
@@ -312,7 +314,7 @@ function createChart() {
 							const timestamp = context[0].parsed.x;
 							if (timestamp === null) return '';
 							const date = new Date(timestamp);
-							return date.toLocaleDateString('en-US', {
+							return date.toLocaleDateString(chartLocale, {
 								month: 'short',
 								day: 'numeric',
 								year: 'numeric',
@@ -330,9 +332,6 @@ function createChart() {
 					type: 'time',
 					time: {
 						unit: 'day',
-						displayFormats: {
-							day: 'MMM d',
-						},
 					},
 					grid: {
 						display: false,
@@ -341,6 +340,12 @@ function createChart() {
 						color: isDark ? '#6b7280' : '#9ca3af',
 						maxRotation: 0,
 						font: { size: 10 },
+						// Locale-aware label (overrides time.displayFormats), mirrors +page.svelte's date locale handling.
+						callback: (value) =>
+							new Date(value).toLocaleDateString(chartLocale, {
+								month: 'short',
+								day: 'numeric',
+							}),
 					},
 					border: {
 						display: false,
@@ -501,7 +506,7 @@ function toggleExplanation() {
               </div>
               <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
                 {s("worldTension.updated") || "Updated"}
-                {new Date(lastUpdated).toLocaleDateString("en-US", {
+                {new Date(lastUpdated).toLocaleDateString(languageSettings.ui === "default" ? undefined : languageSettings.ui, {
                   month: "short",
                   day: "numeric",
                   hour: "numeric",

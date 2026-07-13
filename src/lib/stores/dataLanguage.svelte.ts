@@ -1,6 +1,5 @@
 import { browser } from '$app/environment';
 import { syncManager } from '$lib/client/sync-manager';
-import { detectUserLanguage } from '$lib/utils/languageDetection';
 import type { SupportedLanguage } from './language.svelte';
 
 interface DataLanguageState {
@@ -33,8 +32,8 @@ function loadDataLanguage(): SupportedLanguage {
 		return stored;
 	}
 
-	// Otherwise, detect from browser and use if supported
-	return detectUserLanguage();
+	// Otherwise, default to Korean
+	return 'ko';
 }
 
 // Data language store API

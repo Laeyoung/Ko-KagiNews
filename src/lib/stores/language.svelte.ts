@@ -64,12 +64,12 @@ function saveLanguage(language: SupportedLanguage) {
 }
 
 function loadLanguage(): SupportedLanguage {
-	if (!browser) return 'default';
+	if (!browser) return 'ko';
 
 	const stored = localStorage.getItem('kiteLanguage') as SupportedLanguage;
 
-	// Return stored language or "default" as fallback
-	return stored || 'default';
+	// Return stored language or "ko" as fallback
+	return stored || 'ko';
 }
 
 // Load locale data from API
@@ -158,7 +158,7 @@ export const language = {
 			// For "default", keep using server-provided strings
 			if (lang === 'default') {
 				languageState.currentStrings = initialStrings;
-				languageState.currentLocale = 'en';
+				languageState.currentLocale = 'ko';
 				return;
 			}
 

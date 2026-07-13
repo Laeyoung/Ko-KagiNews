@@ -31,17 +31,12 @@ function handleAboutClick() {
 	if (onShowAbout) onShowAbout();
 }
 
-// Get RSS feed URL - uses the language currently loaded for stories
+// Get RSS feed URL
+// Kagi's backend only publishes RSS feeds in English (no localized `_xx.xml`
+// variants), so always point at the `en` feed regardless of the UI/content
+// language to avoid linking to a feed that doesn't exist.
 function getRSSFeedUrl(): string {
 	const categoryLower = currentCategory.toLowerCase();
-
-	// Get the language from the first story (all stories in a category use the same language)
-	const selectedLanguage = stories[0]?.selectedLanguage;
-
-	// Use the selected language for RSS feed
-	if (selectedLanguage && selectedLanguage !== 'en') {
-		return `/${categoryLower}_${selectedLanguage}.xml`;
-	}
 
 	return `/${categoryLower}.xml`;
 }

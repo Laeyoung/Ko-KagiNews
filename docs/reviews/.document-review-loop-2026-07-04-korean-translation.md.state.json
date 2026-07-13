@@ -1,0 +1,14 @@
+{
+  "loop": "document-review-loop",
+  "scope": { "target": "/Users/laeyoung/Documents/personal/Ko-KagiNews/docs/superpowers/plans/2026-07-04-korean-translation.md", "reference": "/Users/laeyoung/Documents/personal/Ko-KagiNews/docs/korean-translation-spec.md" },
+  "started_at_epoch": 1783150842,
+  "started_at_iso": "2026-07-04T07:40:42Z",
+  "last_iteration_at_epoch": 1783162024,
+  "iteration": 5,
+  "counter": 2,
+  "threshold": 92,
+  "dimensions": ["spec-parity", "code-correctness", "task-executability", "rollout-ops-security"],
+  "fixed_running_total": { "critical": 1, "major": 9, "minor": 4 },
+  "agent_failures_last_iter": [],
+  "status": "completed-clean"
+}
