@@ -71,6 +71,9 @@ jobs:
 
       - name: Analyze bundle size
         uses: preactjs/compressed-size-action@v2
+        # Informational size report; it also builds the PR base branch, which
+        # can fail for reasons unrelated to this PR (e.g. a broken base build).
+        continue-on-error: true
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           pattern: './build/**/*.{js,css,html}'
@@ -93,6 +96,13 @@ jobs:
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
+
+      # Pin Node for vitest: the runner's default Node crashes
+      # @vitest/coverage-v8 with ERR_INSPECTOR_NOT_CONNECTED.
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
 
       - name: Cache dependencies
         uses: actions/cache@v4
