@@ -15,7 +15,9 @@ describe('BatchService', () => {
 		it('should set and check time travel mode', () => {
 			expect(batchService.isTimeTravelMode()).toBe(false);
 
-			batchService.setTimeTravelBatch('batch-123');
+			// Time travel mode is driven by the `isHistorical` flag (the store's source
+			// of truth), not merely by a batchId being set.
+			batchService.setTimeTravelBatch('batch-123', null, null, true);
 			expect(batchService.isTimeTravelMode()).toBe(true);
 			expect(batchService.getCurrentBatchId()).toBe('batch-123');
 
@@ -68,6 +70,8 @@ describe('BatchService', () => {
 
 			expect(result).toEqual({
 				batchId: 'latest-batch',
+				batchCreatedAt: '2024-01-01T12:00:00Z',
+				dateSlug: undefined,
 				categories: [
 					{ id: 'world', name: 'World' },
 					{ id: 'tech', name: 'Technology' },
@@ -82,6 +86,7 @@ describe('BatchService', () => {
 				chaosIndex: 42,
 				chaosDescription: 'Moderate turbulence',
 				chaosLastUpdated: '2024-01-01T12:00:00Z',
+				totalReadCount: 0,
 			});
 		});
 
