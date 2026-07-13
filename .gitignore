@@ -30,9 +30,9 @@ coverage
 .svelte-kit
 __pycache__/
 
-# Translation sidecars (generated, not versioned)
-data/translations/*
-!data/translations/.gitkeep
+# Translation sidecars are versioned (Vercel bundling) — ignore only cron runtime files
+data/translations/.lock
+data/translations/**/*.tmp.*
 
 # Secrets
 .env
