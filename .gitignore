@@ -39,3 +39,6 @@ data/translations/**/*.tmp.*
 .env.*
 !.env.example
 !.env.development
+
+# Vercel project link
+.vercel
