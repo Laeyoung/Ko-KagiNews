@@ -88,7 +88,8 @@ jobs:
     needs: changes
     if: needs.changes.outputs['app'] == 'true'
     permissions:
-      contents: read
+      # write: the Lighthouse-report step pushes previews to gh-pages
+      contents: write
       id-token: write
     steps:
       - name: Checkout repository
