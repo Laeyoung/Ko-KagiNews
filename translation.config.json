@@ -1,5 +1,5 @@
 {
-	"categories": ["world", "usa", "business", "tech", "science"],
+	"categories": ["world", "usa", "business", "tech", "science", "ai"],
 	"storyLimit": 12,
 	"concurrency": 3,
 	"maxRetries": 3,
