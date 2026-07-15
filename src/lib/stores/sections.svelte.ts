@@ -22,13 +22,6 @@ function getInitialSections(): SectionConfig[] {
 					const section = storedSection as Partial<SectionConfig>;
 					const defaultSection = DEFAULT_SECTIONS.find((d) => d.id === section.id);
 
-					// Migration: Always enable sources section
-					if (section.id === 'sources') {
-						return defaultSection
-							? { ...defaultSection, ...section, enabled: true }
-							: { ...section, enabled: true };
-					}
-
 					// Merge default values with stored values (stored takes precedence)
 					return defaultSection ? { ...defaultSection, ...section } : section;
 				}) as SectionConfig[];
@@ -116,9 +109,6 @@ export const sections = {
 	},
 
 	toggleSection(sectionId: string) {
-		// Sources section cannot be disabled
-		if (sectionId === 'sources') return;
-
 		const section = sectionsState.find((s) => s.id === sectionId);
 		if (section) {
 			section.enabled = !section.enabled;

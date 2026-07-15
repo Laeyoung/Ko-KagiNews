@@ -2,7 +2,6 @@
 import { flip } from 'svelte/animate';
 import { dragHandle, dragHandleZone } from 'svelte-dnd-action';
 import { s } from '$lib/client/localization.svelte';
-import Tooltip from '$lib/components/Tooltip.svelte';
 import type { SectionConfig } from '$lib/constants/sections';
 import { sections } from '$lib/stores/sections.svelte.js';
 
@@ -138,27 +137,6 @@ function getSectionName(id: string): string {
           </div>
 
           <!-- Toggle Switch -->
-          {#if section.id === "sources"}
-            <div class="flex items-center gap-2">
-              <Tooltip
-                text={s("settings.sections.sourcesRequired") ||
-                  "Sources are always shown to maintain transparency and credibility"}
-                position="left"
-              >
-                <button
-                  class="focus-visible-ring relative inline-flex h-6 w-11 items-center rounded-full transition-colors bg-blue-600 opacity-60 cursor-not-allowed"
-                  role="switch"
-                  aria-checked={true}
-                  aria-label={`${getSectionName(section.id)} (always enabled)`}
-                  disabled
-                >
-                  <span
-                    class="inline-block h-4 w-4 transform rounded-full bg-white transition ltr:translate-x-6 rtl:-translate-x-6"
-                  ></span>
-                </button>
-              </Tooltip>
-            </div>
-          {:else}
             <button
               onclick={() => toggleSection(section.id)}
               class="focus-visible-ring relative inline-flex h-6 w-11 items-center rounded-full transition-colors"
@@ -177,7 +155,6 @@ function getSectionName(id: string): string {
                 class:rtl:-translate-x-1={!section.enabled}
               ></span>
             </button>
-          {/if}
         </div>
       {/each}
     </div>
