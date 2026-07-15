@@ -98,7 +98,7 @@ export function useCategoryManager(options: () => CategoryManagerOptions) {
 			pageMetadata.title = displayName;
 
 			if (browser && document) {
-				document.title = `${displayName} | Kagi News`;
+				document.title = `${displayName} | 코-Kagi 뉴스`;
 			}
 		}
 	}

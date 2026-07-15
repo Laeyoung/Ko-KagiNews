@@ -118,7 +118,7 @@ async function handleShare() {
 
 			try {
 				// Format the shared text nicely
-				const shareTitle = `${title} - Kagi News`;
+				const shareTitle = `${title} - 코-Kagi 뉴스`;
 				const shareText = description
 					? `${description}\n\nRead more on Kagi:`
 					: `${title}\n\nRead more on Kagi:`;
