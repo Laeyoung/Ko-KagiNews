@@ -7,9 +7,13 @@ on:
     # is therefore wait-mode ticks scheduled BEFORE publish: each starts a
     # runner that polls /batches/latest and translates the moment the new batch
     # appears (translate-batch.ts --wait-minutes, spec §4.3 wait mode). Several
-    # staggered ticks guard against dropped deliveries; the concurrency group
-    # collapses overlaps (later ticks no-op idempotently). 14:00/16:00 remain
-    # plain idempotent catch-ups. Off-hour minutes dodge peak-load delay.
+    # staggered ticks guard against dropped deliveries. The concurrency group
+    # keeps one running + one pending run: while a tick is running, each newer
+    # tick replaces the pending slot and the evicted ones are CANCELLED (never
+    # run) — that's fine, because if the running tick dies the pending one takes
+    # over immediately, and the survivor that runs after a successful translate
+    # no-ops idempotently. 14:00/16:00 remain plain idempotent catch-ups.
+    # Off-hour minutes dodge peak-load delay.
     # NOTE: schedule only fires on the default branch (after merge to main).
     - cron: '3 10 * * *'   # wait tick
     - cron: '33 10 * * *'  # wait tick

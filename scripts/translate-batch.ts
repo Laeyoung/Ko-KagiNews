@@ -15,6 +15,7 @@ import {
 	lockVerdict as computeLockVerdict,
 	mergeStoryAction,
 	waitDecision,
+	resolvePollIntervalMs,
 } from './translate-helpers';
 import type { FailedStory } from './translate-helpers';
 import type { Story } from '../src/lib/types';
@@ -43,14 +44,13 @@ const FRESHNESS_MAX_AGE_MS = 26 * 60 * 60 * 1000; // §4.3 step 1
 // 12h splits the daily cycle: pre-publish ticks see yesterday's batch at
 // 22-26h, while even a wildly delayed post-publish tick sees today's at < 12h.
 const WAIT_FRESH_AGE_MS = 12 * 60 * 60 * 1000;
-const WAIT_POLL_INTERVAL_MS = (() => {
-	const raw = process.env.WAIT_POLL_INTERVAL_MS;
-	if (raw === undefined) return 30_000;
-	const n = Number(raw);
-	if (Number.isFinite(n) && n > 0) return n;
-	console.warn(`[translate-batch] invalid WAIT_POLL_INTERVAL_MS "${raw}" — using 30000`);
-	return 30_000;
-})();
+const pollInterval = resolvePollIntervalMs(process.env.WAIT_POLL_INTERVAL_MS, 30_000);
+if (pollInterval.invalid) {
+	console.warn(
+		`[translate-batch] invalid WAIT_POLL_INTERVAL_MS "${process.env.WAIT_POLL_INTERVAL_MS}" — using 30000`,
+	);
+}
+const WAIT_POLL_INTERVAL_MS = pollInterval.ms;
 
 // Illustrative Flash-Lite-class pricing (spec §10) — reconfirm against Google's
 // current price list before relying on this for real budgeting.
@@ -769,17 +769,22 @@ async function waitForNewBatch(waitMinutes: number): Promise<LatestBatchResponse
 			);
 		}
 		if (latest) {
+			const hasLocalDir = fs.existsSync(path.join(TRANSLATIONS_DIR, latest.id));
 			const verdict = waitDecision({
 				waitMinutes,
-				hasLocalDir: fs.existsSync(path.join(TRANSLATIONS_DIR, latest.id)),
+				hasLocalDir,
 				ageMs: Date.now() - new Date(latest.createdAt).getTime(),
 				freshAgeMs: WAIT_FRESH_AGE_MS,
 			});
 			if (verdict === 'proceed') {
-				if (waiting) {
+				// The latency line is this feature's success metric — emit it on the
+				// immediate-proceed path (tick started after publish) too, not just
+				// after polling. Skip it only for an already-translated fresh batch,
+				// where "latency" would be meaningless.
+				if (waiting || !hasLocalDir) {
 					const latencyS = (Date.now() - new Date(latest.createdAt).getTime()) / 1000;
 					console.log(
-						`[translate-batch] new batch detected: ${latest.id} — publish→translate-start latency ${latencyS.toFixed(0)}s`,
+						`[translate-batch] new batch detected: ${latest.id} (${waiting ? 'polled' : 'immediate'}) — publish→translate-start latency ${latencyS.toFixed(0)}s`,
 					);
 				}
 				return latest;

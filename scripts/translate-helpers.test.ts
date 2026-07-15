@@ -6,6 +6,7 @@ import {
 	lockVerdict,
 	mergeStoryAction,
 	waitDecision,
+	resolvePollIntervalMs,
 } from './translate-helpers';
 
 describe('isDone', () => {
@@ -72,6 +73,23 @@ describe('waitDecision', () => {
 	});
 	it('boundary: age exactly at freshAgeMs → wait', () => {
 		expect(waitDecision({ ...base, ageMs: TWELVE_H })).toBe('wait');
+	});
+});
+
+describe('resolvePollIntervalMs', () => {
+	it('unset env → fallback, not flagged invalid', () => {
+		expect(resolvePollIntervalMs(undefined, 30_000)).toEqual({ ms: 30_000, invalid: false });
+	});
+	it('valid positive number → parsed', () => {
+		expect(resolvePollIntervalMs('5000', 30_000)).toEqual({ ms: 5000, invalid: false });
+	});
+	it('garbage → fallback + invalid (caller warns instead of NaN timer/busy-poll)', () => {
+		expect(resolvePollIntervalMs('banana', 30_000)).toEqual({ ms: 30_000, invalid: true });
+	});
+	it('zero/negative/empty → fallback + invalid', () => {
+		expect(resolvePollIntervalMs('0', 30_000)).toEqual({ ms: 30_000, invalid: true });
+		expect(resolvePollIntervalMs('-3', 30_000)).toEqual({ ms: 30_000, invalid: true });
+		expect(resolvePollIntervalMs('', 30_000)).toEqual({ ms: 30_000, invalid: true });
 	});
 });
 

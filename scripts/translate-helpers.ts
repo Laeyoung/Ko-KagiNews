@@ -73,6 +73,21 @@ export function waitDecision(o: {
 }
 
 /**
+ * §4.3 wait mode: WAIT_POLL_INTERVAL_MS env parsing. Unset → fallback silently;
+ * set-but-garbage (NaN, <= 0) → fallback with `invalid: true` so the caller can
+ * warn instead of crashing the timer or busy-polling.
+ */
+export function resolvePollIntervalMs(
+	raw: string | undefined,
+	fallbackMs: number,
+): { ms: number; invalid: boolean } {
+	if (raw === undefined) return { ms: fallbackMs, invalid: false };
+	const n = Number(raw);
+	if (Number.isFinite(n) && n > 0) return { ms: n, invalid: false };
+	return { ms: fallbackMs, invalid: true };
+}
+
+/**
  * Per-id merge decision for the sidecar rewrite (§4.2/§4.3). A just-applied fix
  * ensures that under `--force`, a re-translation failure on a story that already
  * had a good prior translation KEEPS that prior translation instead of deleting
