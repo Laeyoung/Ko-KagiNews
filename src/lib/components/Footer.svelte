@@ -47,7 +47,7 @@ function getRSSFeedUrl(): string {
     class="container mx-auto flex {getContainerWidthClass()} items-center justify-center space-x-3 sm:space-x-6 px-4"
   >
     <a
-      href="https://github.com/kagisearch/kite-public"
+      href="https://github.com/Laeyoung/Ko-KagiNews"
       target="_blank"
       title={s("footer.contribute") || "Contribute to Kagi News"}
       class="flex items-center space-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
