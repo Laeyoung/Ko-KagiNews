@@ -844,7 +844,6 @@ if (browser && typeof window !== 'undefined') {
         currentCategory={state.currentCategory}
         categories={state.categories}
         stories={state.stories}
-        onShowAbout={() => { displaySettings.showIntro = true; }}
       />
     </div>
   </main>

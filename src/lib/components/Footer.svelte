@@ -19,26 +19,18 @@ interface Props {
 	currentCategory?: string;
 	categories?: Category[];
 	stories?: Story[];
-	onShowAbout?: () => void;
 }
 
-let { currentCategory = 'World', categories = [], stories = [], onShowAbout }: Props = $props();
-
-// Handle about click
-function handleAboutClick() {
-	// Push /about to the URL
-	window.history.pushState({}, '', '/about');
-	if (onShowAbout) onShowAbout();
-}
+let { currentCategory = 'World', categories = [], stories = [] }: Props = $props();
 
 // Get RSS feed URL
-// Kagi's backend only publishes RSS feeds in English (no localized `_xx.xml`
-// variants), so always point at the `en` feed regardless of the UI/content
-// language to avoid linking to a feed that doesn't exist.
+// RSS feeds are published by the original Kagi News (this fork doesn't serve
+// them), and only in English (no localized `_xx.xml` variants) — so always
+// point at the upstream `en` feed regardless of the UI/content language.
 function getRSSFeedUrl(): string {
 	const categoryLower = currentCategory.toLowerCase();
 
-	return `/${categoryLower}.xml`;
+	return `https://news.kagi.com/${categoryLower}.xml`;
 }
 </script>
 
@@ -67,8 +59,9 @@ function getRSSFeedUrl(): string {
       >
     </a>
 
-    <button
-      onclick={handleAboutClick}
+    <a
+      href="https://news.kagi.com/about"
+      target="_blank"
       class="flex items-center space-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
       title={s("footer.about") || "About Kagi News"}
     >
@@ -83,7 +76,7 @@ function getRSSFeedUrl(): string {
           >{s("footer.about") || "About Kagi News"}</span
         >
       </span>
-    </button>
+    </a>
 
     <a
       href={getRSSFeedUrl()}
