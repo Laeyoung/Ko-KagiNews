@@ -1,7 +1,7 @@
 {
   "version": 1,
   "batchId": "70ac5cb0-c763-42be-b42f-37bad6f5277d",
-  "updatedAt": "2026-07-15T15:34:28.915Z",
+  "updatedAt": "2026-07-15T17:10:36.011Z",
   "categories": {
     "5ec6366e-7d62-4c17-b010-699c9cda83c0": {
       "slug": "tech",
@@ -49,7 +49,7 @@
     },
     "bcb03159-7c84-4fc2-b060-81baf7d02812": {
       "slug": "usa",
-      "status": "ok",
+      "status": "skipped",
       "storyCount": 12,
       "translated": 12,
       "failed": 0,
@@ -60,7 +60,7 @@
     },
     "3d610202-af36-4187-a65a-3d5605d9bdd7": {
       "slug": "ai",
-      "status": "ok",
+      "status": "skipped",
       "storyCount": 12,
       "translated": 12,
       "failed": 0,
@@ -71,12 +71,12 @@
     }
   },
   "chaos": {
-    "status": "ok"
+    "status": "skipped"
   },
   "run": {
-    "attempted": 72,
+    "attempted": 4,
     "failed": 4,
-    "failureRatePct": 5.555555555555555,
+    "failureRatePct": null,
     "unresolvedSlugs": []
   }
 }
