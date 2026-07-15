@@ -23,6 +23,8 @@ describe('failureRatePct', () => {
 	it('0 attempted → 0', () => expect(failureRatePct(0, 0)).toBe(0));
 	it('<10 attempted → null (guard)', () => expect(failureRatePct(1, 1)).toBeNull());
 	it('>=10 attempted → pct', () => expect(failureRatePct(20, 5)).toBe(25));
+	it('exactly 10 attempted → computed pct, not the small-sample guard (boundary)', () =>
+		expect(failureRatePct(10, 5)).toBe(50));
 });
 
 describe('resolveExitCode', () => {
@@ -30,6 +32,10 @@ describe('resolveExitCode', () => {
 	it('exit 4 for unresolved slug when rate ok', () => expect(resolveExitCode({ ratePct: 0, thresholdPct: 20, hasUnresolvedSlug: true })).toBe(4));
 	it('exit 3 wins when both apply', () => expect(resolveExitCode({ ratePct: 25, thresholdPct: 20, hasUnresolvedSlug: true })).toBe(3));
 	it('guard (null rate) never trips exit 3', () => expect(resolveExitCode({ ratePct: null, thresholdPct: 20, hasUnresolvedSlug: false })).toBe(0));
+	it('rate exactly at threshold does NOT trip exit 3 (§4.1 strict > comparison)', () =>
+		expect(resolveExitCode({ ratePct: 20, thresholdPct: 20, hasUnresolvedSlug: false })).toBe(0));
+	it('guard (null rate) + unresolved slug still surfaces exit 4 (§4.1 config error not masked)', () =>
+		expect(resolveExitCode({ ratePct: null, thresholdPct: 20, hasUnresolvedSlug: true })).toBe(4));
 });
 
 describe('lockVerdict', () => {

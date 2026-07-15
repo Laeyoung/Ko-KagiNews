@@ -763,11 +763,26 @@ function sleep(ms: number): Promise<void> {
  * skip) decides what to do with it. Throws only if `latest` could never be
  * fetched within the entire window (systemic outage → exit 1 alert).
  */
+const WAIT_HEARTBEAT_INTERVAL_MS = 10 * 60 * 1000;
+
 async function waitForNewBatch(waitMinutes: number): Promise<LatestBatchResponse> {
-	const deadline = Date.now() + waitMinutes * 60_000;
+	const startedAt = Date.now();
+	const deadline = startedAt + waitMinutes * 60_000;
 	let latest: LatestBatchResponse | undefined;
 	let waiting = false;
+	let polls = 0;
+	let lastHeartbeat = startedAt;
 	while (true) {
+		// Heartbeat so a 2h+ CI log distinguishes "still polling" from "hung" —
+		// the happy path (same old batch each poll) otherwise prints nothing
+		// between the first "wait mode" line and the final outcome.
+		if (waiting && Date.now() - lastHeartbeat >= WAIT_HEARTBEAT_INTERVAL_MS) {
+			lastHeartbeat = Date.now();
+			console.log(
+				`[translate-batch] wait mode: still polling (${polls} polls, ${Math.round((Date.now() - startedAt) / 60_000)}min elapsed, ${Math.max(0, Math.round((deadline - Date.now()) / 60_000))}min remaining)`,
+			);
+		}
+		polls++;
 		try {
 			latest = await apiGet<LatestBatchResponse>('/batches/latest');
 		} catch (err) {
