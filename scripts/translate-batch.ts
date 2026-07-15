@@ -154,8 +154,16 @@ function cleanupStaleTmpFiles(dir: string): void {
 	}
 }
 
+// Per-request cap so a stalled connection surfaces as a catchable error instead
+// of freezing the wait loop's poll cadence/deadline checks (worst case: silently
+// eating the whole wait budget until the workflow-level timeout kills the job,
+// bypassing the exit-code alert contract).
+const API_FETCH_TIMEOUT_MS = 15_000;
+
 async function apiGet<T>(pathAndQuery: string): Promise<T> {
-	const res = await fetch(`${KITE_API_BASE}${pathAndQuery}`);
+	const res = await fetch(`${KITE_API_BASE}${pathAndQuery}`, {
+		signal: AbortSignal.timeout(API_FETCH_TIMEOUT_MS),
+	});
 	if (!res.ok) throw new Error(`GET ${pathAndQuery} failed: ${res.status} ${res.statusText}`);
 	return (await res.json()) as T;
 }
