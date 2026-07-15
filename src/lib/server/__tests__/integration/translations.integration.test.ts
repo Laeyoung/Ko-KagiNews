@@ -60,10 +60,16 @@ describe('story overlay', () => {
 		expect(merged.translationAvailable).toBe(true);
 
 		// §11: a DIFFERENT category with NO sidecar must pass through unchanged for lang=ko.
+		// Compare against the upstream lang=ko response directly — comparing to lang=en is
+		// wrong for non-English-source stories (upstream returns the source language for ko).
 		const other = cats.body.categories[1];
-		const otherEn = await getJson(`/api/batches/${batchId}/categories/${other.id}/stories?lang=en`);
+		const upstreamKo = (await (
+			await fetch(
+				`https://kite.kagi.com/api/batches/${batchId}/categories/${other.id}/stories?lang=ko`,
+			)
+		).json()) as { stories: Array<{ title: string }> };
 		const otherKo = await getJson(`/api/batches/${batchId}/categories/${other.id}/stories?lang=ko`);
-		expect(otherKo.body.stories[0].title).toBe(otherEn.body.stories[0].title);
+		expect(otherKo.body.stories[0].title).toBe(upstreamKo.stories[0].title);
 		// Upstream echoes translationAvailable:false (not our overlay's true) for an
 		// English-source category under lang=ko with no sidecar (spec §5.1, live-verified).
 		expect(otherKo.body.stories[0].translationAvailable).not.toBe(true);
