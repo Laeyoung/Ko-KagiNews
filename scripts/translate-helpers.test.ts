@@ -1,5 +1,12 @@
 import { describe, it, expect } from 'vitest';
-import { isDone, failureRatePct, resolveExitCode, lockVerdict, mergeStoryAction } from './translate-helpers';
+import {
+	isDone,
+	failureRatePct,
+	resolveExitCode,
+	lockVerdict,
+	mergeStoryAction,
+	waitDecision,
+} from './translate-helpers';
 
 describe('isDone', () => {
 	it('true when translated or terminally blocked', () => {
@@ -44,6 +51,27 @@ describe('lockVerdict', () => {
 	});
 	it('alive + match + exactly at max age → already_running (boundary)', () => {
 		expect(lockVerdict({ ...base, ageMs: 21_600_000 })).toBe('already_running');
+	});
+});
+
+describe('waitDecision', () => {
+	const TWELVE_H = 12 * 60 * 60 * 1000;
+	const base = { waitMinutes: 140, hasLocalDir: true, ageMs: 23 * 3_600_000, freshAgeMs: TWELVE_H };
+
+	it('wait mode off (0 minutes) → proceed', () => {
+		expect(waitDecision({ ...base, waitMinutes: 0 })).toBe('proceed');
+	});
+	it('no local sidecar dir for latest → proceed (untranslated batch available now)', () => {
+		expect(waitDecision({ ...base, hasLocalDir: false })).toBe('proceed');
+	});
+	it('local dir exists + batch fresh → proceed (today already handled; idempotent verify)', () => {
+		expect(waitDecision({ ...base, ageMs: 40 * 60_000 })).toBe('proceed');
+	});
+	it('local dir exists + batch old → wait (pre-publish tick, poll for the new batch)', () => {
+		expect(waitDecision(base)).toBe('wait');
+	});
+	it('boundary: age exactly at freshAgeMs → wait', () => {
+		expect(waitDecision({ ...base, ageMs: TWELVE_H })).toBe('wait');
 	});
 });
 

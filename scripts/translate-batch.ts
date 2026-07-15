@@ -14,6 +14,7 @@ import {
 	resolveExitCode,
 	lockVerdict as computeLockVerdict,
 	mergeStoryAction,
+	waitDecision,
 } from './translate-helpers';
 import type { FailedStory } from './translate-helpers';
 import type { Story } from '../src/lib/types';
@@ -37,6 +38,12 @@ const GEMINI_MODEL = process.env.GEMINI_MODEL ?? 'gemini-3.1-flash-lite';
 
 const LOCK_MAX_AGE_MS = 6 * 60 * 60 * 1000; // §4.3 step 0 — hang guard
 const FRESHNESS_MAX_AGE_MS = 26 * 60 * 60 * 1000; // §4.3 step 1
+// §4.3 wait mode: a latest batch younger than this is "today's" (already
+// handled if its sidecar dir exists) — anything older means we're pre-publish.
+// 12h splits the daily cycle: pre-publish ticks see yesterday's batch at
+// 22-26h, while even a wildly delayed post-publish tick sees today's at < 12h.
+const WAIT_FRESH_AGE_MS = 12 * 60 * 60 * 1000;
+const WAIT_POLL_INTERVAL_MS = Number(process.env.WAIT_POLL_INTERVAL_MS ?? 30_000);
 
 // Illustrative Flash-Lite-class pricing (spec §10) — reconfirm against Google's
 // current price list before relying on this for real budgeting.
@@ -74,10 +81,11 @@ interface CliArgs {
 	force: boolean;
 	dryRun: boolean;
 	limit?: number;
+	waitMinutes: number;
 }
 
 function parseArgs(argv: string[]): CliArgs {
-	const args: CliArgs = { force: false, dryRun: false };
+	const args: CliArgs = { force: false, dryRun: false, waitMinutes: 0 };
 	for (let i = 0; i < argv.length; i++) {
 		switch (argv[i]) {
 			case '--batch':
@@ -95,6 +103,11 @@ function parseArgs(argv: string[]): CliArgs {
 			case '--limit': {
 				const n = Number(argv[++i]);
 				if (Number.isFinite(n) && n > 0) args.limit = Math.floor(n);
+				break;
+			}
+			case '--wait-minutes': {
+				const n = Number(argv[++i]);
+				if (Number.isFinite(n) && n > 0) args.waitMinutes = Math.floor(n);
 				break;
 			}
 		}
@@ -719,6 +732,66 @@ async function processChaos(p: ProcessChaosParams): Promise<ProcessChaosResult> 
 }
 
 // ---------------------------------------------------------------------------
+// Step 1a: wait mode (§4.3) — poll `latest` until a new batch appears
+// ---------------------------------------------------------------------------
+
+function sleep(ms: number): Promise<void> {
+	return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+/**
+ * Pre-publish ticks call this to idle until the ~12:00 UTC batch shows up.
+ * Returns the batch to process; on timeout returns the current latest so the
+ * normal run (freshness gate + idempotent skip) decides what to do with it.
+ */
+async function waitForNewBatch(
+	initial: LatestBatchResponse,
+	waitMinutes: number,
+): Promise<LatestBatchResponse> {
+	const deadline = Date.now() + waitMinutes * 60_000;
+	let latest = initial;
+	let waiting = false;
+	while (true) {
+		const verdict = waitDecision({
+			waitMinutes,
+			hasLocalDir: fs.existsSync(path.join(TRANSLATIONS_DIR, latest.id)),
+			ageMs: Date.now() - new Date(latest.createdAt).getTime(),
+			freshAgeMs: WAIT_FRESH_AGE_MS,
+		});
+		if (verdict === 'proceed') {
+			if (waiting) {
+				const latencyS = (Date.now() - new Date(latest.createdAt).getTime()) / 1000;
+				console.log(
+					`[translate-batch] new batch detected: ${latest.id} — publish→translate-start latency ${latencyS.toFixed(0)}s`,
+				);
+			}
+			return latest;
+		}
+		if (Date.now() >= deadline) {
+			console.warn(
+				`[translate-batch] wait mode: no new batch within ${waitMinutes}min — proceeding with current latest (idempotent run)`,
+			);
+			return latest;
+		}
+		if (!waiting) {
+			waiting = true;
+			console.log(
+				`[translate-batch] wait mode: latest ${latest.id} already handled and > 12h old (pre-publish) — polling every ${Math.round(WAIT_POLL_INTERVAL_MS / 1000)}s for the new batch (max ${waitMinutes}min)`,
+			);
+		}
+		await sleep(WAIT_POLL_INTERVAL_MS);
+		try {
+			latest = await apiGet<LatestBatchResponse>('/batches/latest');
+		} catch (err) {
+			// Transient upstream/network failure — keep polling until the deadline.
+			console.warn(
+				`[translate-batch] wait mode: poll failed (${err instanceof Error ? err.message : err}) — will retry`,
+			);
+		}
+	}
+}
+
+// ---------------------------------------------------------------------------
 // Steps 1-5 orchestration
 // ---------------------------------------------------------------------------
 
@@ -736,7 +809,10 @@ async function run(args: CliArgs, config: TranslateConfig): Promise<number> {
 		createdAt = batch.createdAt;
 		enforceFreshness = false;
 	} else {
-		const latest = await apiGet<LatestBatchResponse>('/batches/latest');
+		let latest = await apiGet<LatestBatchResponse>('/batches/latest');
+		if (args.waitMinutes > 0) {
+			latest = await waitForNewBatch(latest, args.waitMinutes);
+		}
 		batchId = latest.id;
 		createdAt = latest.createdAt;
 	}
