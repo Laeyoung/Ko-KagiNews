@@ -1,7 +1,85 @@
-# Kagi News - News. Elevated.
+# 코-Kagi 뉴스 (Ko-KagiNews)
+
+> [!IMPORTANT]
+> **This is an unofficial fork of [kagisearch/kite-public](https://github.com/kagisearch/kite-public), the open-source front-end of [Kagi News](https://kite.kagi.com) developed by [Kagi](https://kagi.com).**
+> All news data and the original application are produced by Kagi — this fork only adds a Korean-language layer on top. It is **not affiliated with or endorsed by Kagi**. If you are looking for the official project, use the upstream repository.
+>
+> **이 저장소는 Kagi가 만든 [Kagi News](https://kite.kagi.com) 오픈소스 프론트엔드([kagisearch/kite-public](https://github.com/kagisearch/kite-public))의 비공식 포크입니다.** 뉴스 데이터와 원본 앱은 모두 Kagi가 제작하며, 이 포크는 그 위에 한국어 레이어를 얹은 것뿐입니다. Kagi와는 무관한 개인 프로젝트입니다.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+**Live: <https://ko-kaginews.vercel.app>** — Kagi News, in Korean by default.
+
+Kagi News publishes one immutable news batch per day (12:00 UTC), curated from community RSS feeds and summarized by language models. This fork serves that same content **in Korean**: stories are pre-translated with Gemini shortly after each batch publishes and overlaid at serve time, so Korean readers get the daily digest without waiting on live translation.
+
+## What this fork adds
+
+- **Korean by default** — new visitors get Korean UI and Korean content; the language selector still switches to English or any other supported language at any time.
+- **Pre-translated daily content** — the `world`, `usa`, `business`, `tech`, `science`, and `ai` categories are translated to Korean every day by an automated pipeline (details below). Untranslated categories and batches gracefully fall back to the English original.
+- **Fast translation after publish** — wait-mode cron ticks start polling *before* the 12:00 UTC publish, so translation begins within seconds of the new batch appearing instead of hours later.
+- **코-Kagi 뉴스 branding** — a distinct wordmark, favicon, and app icons so the fork is never mistaken for the official Kagi News app.
+- **Korean UI locale** — `src/lib/locales/ko.json`, generated from `en.json` (upstream had 16 UI languages but no Korean).
+- **Hideable Sources section** — the 출처 (Sources) section can be toggled off in settings like any other section (it was hard-pinned on upstream).
+
+Full design rationale lives in [`docs/korean-translation-spec.md`](docs/korean-translation-spec.md).
+
+## How the Korean translation works
+
+There is no on-demand/live translation. Content is translated ahead of time and overlaid at serve time:
+
+1. **Translate** — [`scripts/translate-batch.ts`](scripts/translate-batch.ts) (`npm run translate:batch`) fetches the latest batch from `kite.kagi.com`, translates the configured categories' stories with Gemini, and writes one JSON **sidecar** file per category to `data/translations/<batchId>/`. Sidecars are committed to this repository.
+2. **Serve** — the SvelteKit server intercepts the story/chaos API proxy routes: for `lang=ko` requests it fetches the same upstream English JSON it always would, then overlays the translated fields by `story.id` from the sidecar. Citation chips (`[1]`, `[2]`, …) are preserved as-is.
+3. **Fall back** — if no sidecar exists for a batch/category (cron hasn't run yet, an untranslated category, or a time-traveled old batch), the server silently serves the English original. No errors, just English content.
+4. **UI strings** — translated separately as a static locale file (`src/lib/locales/ko.json`), regenerated with `npm run translate:locale` whenever `en.json` changes.
+
+A shared, framework-free module ([`src/lib/translation/translatable.ts`](src/lib/translation/translatable.ts)) implements segment extraction/merging and validation, and is used by both the translation script and the server overlay so the two stay in sync.
+
+### The translation pipeline (GitHub Actions)
+
+Production runs entirely on GitHub Actions — see [`.github/workflows/translate.yml`](.github/workflows/translate.yml):
+
+- **Wait ticks** at 10:03, 10:33, 11:03, 11:33, and 12:03 UTC each start a runner that polls `/batches/latest` (via `--wait-minutes`) and translates the moment the new 12:00 UTC batch appears. Multiple staggered ticks compensate for GitHub's scheduled-run delivery delays (60–90+ min in practice); a concurrency group collapses them so only one effectively runs.
+- **Catch-up runs** at 14:00 and 16:00 UTC are plain idempotent re-runs in case every wait tick was dropped.
+- Finished sidecars are **committed to `data/translations/`** and pushed, which triggers a Vercel redeploy — that's how translations reach production. Old batches are pruned to the newest 7 (`scripts/prune-translations.ts`).
+- The only required secret is `GEMINI_API_KEY`. Exit codes: `0` success (including idempotent no-op), `1` unexpected error, `2` no fresh upstream batch, `3` failure rate over threshold, `4` config error.
+
+### Environment variables
+
+| Variable | Default | Purpose |
+|---|---|---|
+| `GEMINI_API_KEY` | *(required for scripts)* | Gemini API key. Not needed by the server at runtime. |
+| `GEMINI_MODEL` | `gemini-3.1-flash-lite` | Model id override. |
+| `TRANSLATIONS_DIR` | `./data/translations` | Sidecar storage path, shared by the scripts and the server. |
+| `KITE_API_BASE` | `https://kite.kagi.com/api` | Upstream override (used in tests). |
+| `TRANSLATIONS_ENABLED` | `true` | Serving kill switch. Set to `'false'` to force all content to English regardless of sidecar availability — no file deletion or code revert needed. Does not affect the scripts. |
+
+### Self-hosting notes
+
+If you deploy outside Vercel/GitHub Actions (e.g. your own node server + crontab), two silent failure modes are worth knowing — both manifest only as "`lang=ko` keeps returning English" with clean logs, because missing sidecars fall back to English by design:
+
+- **`.env` is not auto-loaded by the production server.** `@sveltejs/adapter-node`'s build (`node build`) doesn't load `.env`; run `node -r dotenv/config build` or inject env via systemd `EnvironmentFile=`. The `bun` scripts *do* auto-load `.env` from their working directory.
+- **`TRANSLATIONS_DIR` is resolved relative to `process.cwd()`.** If the cron and the server run with different working directories they silently disagree on where sidecars live. Always set `TRANSLATIONS_DIR` to an absolute path in production, and pin `WorkingDirectory=` on systemd units.
+- Cron schedules should be anchored to **UTC** (the batch publishes at 12:00 UTC); wire up at least one alert consumer (`MAILTO`, healthchecks.io, …) before relying on a cron in production.
+
+## Run this fork locally
+
+```bash
+git clone https://github.com/Laeyoung/Ko-KagiNews.git
+cd Ko-KagiNews
+
+# Node.js LTS for the app, bun for the standalone scripts/*.ts utilities
+npm install
+npm run dev
+```
+
+Recent translated batches are committed under `data/translations/`, so `lang=ko` content works out of the box for those batches — no API key needed unless you want to generate new translations.
+
+---
+
+# Original README — Kagi News: News. Elevated.
+
+*The remainder of this document is the upstream [kagisearch/kite-public](https://github.com/kagisearch/kite-public) README, kept for reference. Contributions to feeds, media data, and content filters should generally go upstream so the whole community benefits.*
 
 This repository contains public files for [Kagi News](https://kite.kagi.com), news app for people who want a healthy news diet, developed by [Kagi](https://kagi.com).
 
@@ -166,59 +244,6 @@ When adding or modifying filters:
 - Test that keywords accurately match the intended topic
 
 Feel free to add new filter categories or improve existing ones by adding relevant keywords in multiple languages.
-
-## Korean translation
-
-This fork (`Laeyoung/Ko-KagiNews`) adds Korean as a supported content and UI language. Korean is served by **default** for new visitors; users can switch back to English (or any other supported language) at any time via the language selector. Full design rationale lives in `docs/korean-translation-spec.md`.
-
-### How it works
-
-Kagi News publishes one immutable batch per day (12:00 UTC). Korean content is **pre-translated ahead of time and overlaid at serve time** — there is no on-demand/live translation:
-
-1. A nightly cron script (`scripts/translate-batch.ts`, run via `npm run translate:batch` / `bun scripts/translate-batch.ts`) fetches the latest batch from `kite.kagi.com`, translates the configured categories' stories with Gemini, and writes one JSON **sidecar** file per category to `TRANSLATIONS_DIR/<batchId>/`.
-2. The SvelteKit Node server intercepts the story/chaos API proxy routes: for `lang=ko` requests it fetches the same upstream English JSON it always would, then overlays the translated fields by `story.id` from the sidecar. Citation chips (`[1]`, `[2]`, ...) are preserved as-is.
-3. If no sidecar exists yet for a given batch/category (e.g. the cron hasn't run yet, or a very old/time-traveled batch), the server silently falls back to the English original — there's no error, just English content.
-4. UI strings are translated separately and shipped as a static locale file, `src/lib/locales/ko.json`, regenerated with `npm run translate:locale` (`bun scripts/generate-ko-locale.ts`) whenever `en.json` changes.
-
-A shared, framework-free module (`src/lib/translation/translatable.ts`) implements segment extraction/merging and validation, and is used by both the cron script and the server overlay so the two stay in sync.
-
-### Running the translation cron
-
-Deploy `scripts/translate-batch.ts` as a cron job anchored to **UTC**, since the daily batch publishes at 12:00 UTC and cron interprets schedule times in the daemon's local timezone. The target schedule is **KST 23:00 (= 14:00 UTC)** for the main run, plus a **16:00 UTC** idempotent catch-up in case the main run misses a fresh batch:
-
-```cron
-CRON_TZ=UTC
-MAILTO=ops@example.com
-0 14 * * * cd /opt/ko-kaginews && mkdir -p logs && { /usr/local/bin/bun scripts/translate-batch.ts >> logs/translate.log 2>&1 || echo "translate-batch failed exit=$? — check logs/translate.log"; }
-0 16 * * * cd /opt/ko-kaginews && mkdir -p logs && { /usr/local/bin/bun scripts/translate-batch.ts >> logs/translate.log 2>&1 || echo "translate-batch (catch-up) failed exit=$? — check logs/translate.log"; }
-```
-
-If your cron daemon doesn't support `CRON_TZ`, convert the times to the host's local timezone instead (e.g. Asia/Seoul → `0 23 * * *` and `0 1 * * *`). Getting this wrong doesn't fail loudly: on a KST host running the UTC times unconverted, the script would still exit 0 every day (because the previous day's batch is still "fresh" and already translated) while today's batch translation quietly lags by ~17 hours — always verify the first run's log shows a `createdAt` matching today's 12:00 UTC publish.
-
-Other operational notes:
-
-- `logs/` is gitignored and does not exist on a fresh checkout — the `mkdir -p logs` above is required, otherwise the shell can't open the log file and the script silently never runs (and since sidecar absence falls back to English with no error, this failure mode is invisible in the app).
-- `logs/translate.log` grows without bound; configure `logrotate` for it in production.
-- The script's exit code drives alerting: `0` = success (including idempotent no-op skips), `1` = unexpected error, `2` = no fresh upstream batch, `3` = failure rate over threshold, `4` = config error (e.g. unknown category slug). The crontab example above emails via `MAILTO` only on non-zero exit. A `healthchecks.io`-style approach (ping on success, alert on missed ping) works too — **at least one alert consumer must be wired up** before relying on the cron in production.
-- A one-off manual `bun scripts/translate-batch.ts` run only backfills the current batch; it does **not** replace the cron. Without the cron running daily, the next day's freshly published batch has zero sidecars and visitors fall back to English again.
-
-### Environment variables
-
-| Variable | Default | Purpose |
-|---|---|---|
-| `GEMINI_API_KEY` | *(required for cron/scripts)* | Gemini API key. Not needed by the server at runtime. |
-| `GEMINI_MODEL` | `gemini-3.1-flash-lite` | Model id override (reconfirm current id/pricing before relying on it). |
-| `TRANSLATIONS_DIR` | `./data/translations` | Sidecar storage path, shared by the cron and the server. **Must be an absolute path in production** — see below. |
-| `KITE_API_BASE` | `https://kite.kagi.com/api` | Upstream override (used in tests). |
-| `TRANSLATIONS_ENABLED` | `true` | Serving kill switch. Set to `'false'` to force all content to English regardless of sidecar availability — no file deletion or code revert needed, just an env change + restart. Does not affect the cron/scripts. |
-
-**`.env` is not auto-loaded by the production server.** `@sveltejs/adapter-node`'s build (`node build`) does not load `.env` automatically. In production, either run `node -r dotenv/config build`, or inject the environment via systemd `EnvironmentFile=` (or your container platform's env injection). The `bun` cron scripts do auto-load a `.env` in their working directory, so as long as the crontab `cd`'s into the app directory first (as in the example above), no extra step is needed there.
-
-**`TRANSLATIONS_DIR` cwd trap:** the default value is resolved relative to `process.cwd()`, so if the cron and the server process have different working directories, they can silently disagree on where sidecars live — e.g. a systemd unit without `WorkingDirectory=` runs with cwd `/`, so the server looks for `./data/translations` under `/` while the cron writes elsewhere. Because a missing sidecar is a silent, logless fallback to English by design, this manifests only as "`lang=ko` requests keep returning English" with nothing obviously wrong in the logs. To avoid this: always set `TRANSLATIONS_DIR` to an **absolute path** in production, and if using systemd, set both `EnvironmentFile=` and `WorkingDirectory=` on the unit so the cron and server resolve the same path.
-
-### Regenerating the UI locale file
-
-Run `npm run translate:locale` (`bun scripts/generate-ko-locale.ts`) after changing `src/lib/locales/en.json` to regenerate `src/lib/locales/ko.json` via Gemini. This is a separate, on-demand script from the daily news-content cron.
 
 ## Custom front-ends
 
