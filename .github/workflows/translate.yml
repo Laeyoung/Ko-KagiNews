@@ -73,10 +73,18 @@ jobs:
           esac
 
       - name: Translate latest batch
+        id: translate
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TRANSLATIONS_DIR: ./data/translations
-        run: bun scripts/translate-batch.ts --wait-minutes "${{ steps.wait.outputs.minutes }}"
+        # Capture the exit code instead of failing here: exit 3/4 (and a crash
+        # after partial progress) still leave valid, paid-for sidecars on disk —
+        # commit them first, then surface the failure in the final step. Sidecar
+        # writes are atomic (tmp+rename), so whatever exists is safe to commit.
+        run: |
+          set +e
+          bun scripts/translate-batch.ts --wait-minutes "${{ steps.wait.outputs.minutes }}"
+          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
 
       - name: Prune batches older than the newest 7
         run: bun scripts/prune-translations.ts
@@ -98,3 +106,9 @@ jobs:
             echo "Only index.json bookkeeping changed — skipping commit"
             git reset -q
           fi
+
+      - name: Surface translate exit code
+        if: ${{ steps.translate.outputs.exit_code != '0' }}
+        run: |
+          echo "translate-batch exited ${{ steps.translate.outputs.exit_code }} — see 'Translate latest batch' log (partial sidecars, if any, were committed above)"
+          exit 1
