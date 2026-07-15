@@ -21,7 +21,7 @@ on:
   workflow_dispatch:
     inputs:
       wait_minutes:
-        description: 'Poll up to N minutes for a new batch before translating (0 = translate current latest)'
+        description: 'Poll up to N minutes for a new batch before translating (0 = translate current latest; clamped to 140 so the job timeout cannot kill the wait)'
         required: false
         default: '0'
 
@@ -58,7 +58,12 @@ jobs:
             "3 10 * * *"|"33 10 * * *"|"3 11 * * *"|"33 11 * * *"|"3 12 * * *")
               echo "minutes=140" >> "$GITHUB_OUTPUT" ;;
             "")
-              echo "minutes=${INPUT_WAIT:-0}" >> "$GITHUB_OUTPUT" ;;
+              # Manual dispatch: sanitize to digits and clamp to 140 so the
+              # wait deadline always fires before the 170-min job timeout.
+              M="${INPUT_WAIT:-0}"
+              case "$M" in *[!0-9]*|"") M=0 ;; esac
+              if [ "$M" -gt 140 ]; then M=140; fi
+              echo "minutes=$M" >> "$GITHUB_OUTPUT" ;;
             *)
               echo "minutes=0" >> "$GITHUB_OUTPUT" ;;
           esac
