@@ -482,10 +482,10 @@ $effect(() => {
             >
               <img
                 src={themeSettings.isDark
-                  ? "/svg/kagi_news_compact_dark.svg"
-                  : "/svg/kagi_news_compact.svg"}
-                alt={s("app.logo.newsAlt") || "Kite News"}
-                class="w-[90px] h-auto logo z-modal-backdrop"
+                  ? "/svg/ko_kagi_news_compact_dark.svg"
+                  : "/svg/ko_kagi_news_compact.svg"}
+                alt={s("app.logo.newsAlt") || "코-Kagi 뉴스"}
+                class="w-[130px] h-auto logo z-modal-backdrop"
                 style="isolation: isolate;"
               />
             </button>
@@ -549,10 +549,10 @@ $effect(() => {
       >
         <img
           src={themeSettings.isDark
-            ? "/svg/kagi_news_compact_dark.svg"
-            : "/svg/kagi_news_compact.svg"}
-          alt={s("app.logo.newsAlt") || "Kite News"}
-          class="w-[90px] h-auto logo relative z-modal-backdrop"
+            ? "/svg/ko_kagi_news_compact_dark.svg"
+            : "/svg/ko_kagi_news_compact.svg"}
+          alt={s("app.logo.newsAlt") || "코-Kagi 뉴스"}
+          class="w-[130px] h-auto logo relative z-modal-backdrop"
           style="isolation: isolate;"
         />
       </button>

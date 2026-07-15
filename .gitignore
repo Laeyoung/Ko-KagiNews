@@ -50,3 +50,4 @@ reviewdog-input.json
 
 # Vercel project link
 .vercel
+.gstack/

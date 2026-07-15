@@ -1,5 +1,5 @@
-<svg width="29.309025" height="29.307241" viewBox="0 0 29.309025 29.307241" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
-
+<svg width="170" height="41" viewBox="0 0 170 41" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+<g transform="translate(0,5.85)">
   <defs
      id="defs14" />
   
@@ -7,33 +7,38 @@
      d="m 18.068023,26.941442 h -7.068 c -4.7140004,0 -7.0711004,0 -8.5355004,-1.4644 -1.4645,-1.4645 -1.4645,-3.8215 -1.4645,-8.5356 V 6.3129315 l 0.4648,0.42394 c 0.69,0.62948 1.5446,1.05018 2.4643,1.21318 v 0 c 0.2843,0.05039 0.5724,0.07572 0.8611,0.07572 h 5.9231004 4.1354 2.1368 c 4.5065,0 6.7595,0 8.2015,1.34787 0.082,0.0764 0.161,0.1555 0.237,0.2371 1.348,1.4415005 1.348,3.6949005 1.348,8.2015005 v 0"
      stroke="#18181a"
      stroke-width="2"
-     id="path6" />
+     id="path6"
+     style="stroke:#f2f2f2;stroke-opacity:1" />
   <path
      d="M 4.7132226,13.115042 H 16.253423"
      stroke="#18181a"
      stroke-width="2"
      stroke-linecap="round"
      stroke-linejoin="round"
-     id="path7" />
+     id="path7"
+     style="stroke:#f2f2f2;stroke-opacity:1" />
   <path
      d="M 4.7133226,17.167442 H 11.261423"
      stroke="#18181a"
      stroke-width="2"
      stroke-linecap="round"
      stroke-linejoin="round"
-     id="path8" />
+     id="path8"
+     style="stroke:#f2f2f2;stroke-opacity:1" />
   <path
      d="M 4.7133226,21.219942 H 11.261423"
      stroke="#18181a"
      stroke-width="2"
      stroke-linecap="round"
      stroke-linejoin="round"
-     id="path9" />
+     id="path9"
+     style="stroke:#f2f2f2;stroke-opacity:1" />
   <path
      d="m 1.0000226,4.5130915 c 0,-1.93999 1.5727,-3.51266 3.5127,-3.51266 h 6.9419004 c 1.1411,0 1.7117,0 2.182,0.11559 1.4457,0.35529 2.5745,1.48407 2.9298,2.92978 0.1156,0.47032 0.1156,1.04086 0.1156,2.18195 v 1.79801 H 4.5127226 c -1.94,0 -3.5127,-1.57267 -3.5127,-3.51267 z"
      stroke="#18181a"
      stroke-width="2"
-     id="path10" />
+     id="path10"
+     style="fill:none;stroke:#f2f2f2;stroke-opacity:1" />
   <path
      d="m 28.309023,21.816142 c 0,0.0585 0,0.1168 -0.002,0.1749 -0.093,3.5041 -2.962,6.3162 -6.489,6.3162 -0.308,0 -0.611,-0.0215 -0.908,-0.0631 -3.155,-0.4416 -5.5828,-3.1513 -5.5828,-6.428 0,-0.0585 7e-4,-0.1168 0.0023,-0.1749 0.0926,-3.5041 2.9625,-6.3162 6.4885,-6.3162 0.308,0 0.612,0.0215 0.908,0.063 3.155,0.4416 5.583,3.1513 5.583,6.4281 z"
      fill="#ffb319"
@@ -54,10 +59,8 @@
      d="m 28.307023,21.991042 c 0.002,-0.0581 0.002,-0.1164 0.002,-0.1749 0,-3.2768 -2.428,-5.9865 -5.583,-6.4281 m 5.581,6.603 c -0.093,3.5041 -2.962,6.3162 -6.489,6.3162 -0.308,0 -0.611,-0.0215 -0.908,-0.0631 m 7.397,-6.2531 c -0.297,-0.0415 -0.6,-0.063 -0.908,-0.063 -3.527,0 -6.396,2.8121 -6.489,6.3161 m 0,0 c -3.155,-0.4416 -5.5828,-3.1513 -5.5828,-6.428 0,-0.0585 7e-4,-0.1168 0.0023,-0.1749 m 0,0 c 0.0926,-3.5041 2.9625,-6.3162 6.4885,-6.3162 0.308,0 0.612,0.0215 0.908,0.063 m -7.3965,6.2532 c 0.2967,0.0416 0.5998,0.063 0.908,0.063 3.5265,0 6.3965,-2.8121 6.4885,-6.3162"
      stroke="#18181a"
      stroke-width="2"
-     id="path14" />
-
-<g>
-<rect x="16.2" y="0" width="13.1" height="11.6" rx="3" fill="#ffb319" stroke="#18181a" stroke-width="1.3"/>
-<text x="22.75" y="8.9" text-anchor="middle" font-family="'Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="8.6" font-weight="800" fill="#18181a">코</text>
+     id="path14"
+     style="stroke:#0a0a0a;stroke-opacity:1" />
 </g>
+<text x="36" y="28.8" font-family="'Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="21" font-weight="800" letter-spacing="-0.5" fill="#FFFFFF">코-Kagi 뉴스</text>
 </svg>

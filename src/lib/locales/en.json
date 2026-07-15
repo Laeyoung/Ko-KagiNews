@@ -1312,7 +1312,7 @@
     "translationContext": "Reminder to verify information, goes after 'Summaries are AI/LLM-generated and Kagi News can make mistakes.'"
   },
   "app.logo.alt": {
-    "text": "Kagi News Logo",
+    "text": "Ko-Kagi News logo",
     "translationContext": "Alt text for the Kagi News logo image, Kagi News should not be translated as it's a brand name"
   },
   "app.logo.clickToReset": {
@@ -1320,11 +1320,11 @@
     "translationContext": "Aria label for the logo button that resets the view to the home page"
   },
   "app.logo.iconAlt": {
-    "text": "Kagi News icon",
+    "text": "Ko-Kagi News icon",
     "translationContext": "Alt text for the Kagi News icon image, Kagi News should not be translated as it's a brand name"
   },
   "app.logo.newsAlt": {
-    "text": "Kagi News News Logo",
+    "text": "Ko-Kagi News logo",
     "translationContext": "Alt text for the Kagi News News logo image in header, Kagi News should not be translated as it's a brand name"
   },
   "app.motto": {
@@ -1336,7 +1336,7 @@
     "translationContext": "Notice shown when a user accesses a shared link for a category they haven't enabled."
   },
   "app.title": {
-    "text": "Kagi News",
+    "text": "Ko-Kagi News",
     "translationContext": "Title of the app, should not be translated"
   },
   "article.closeStory": {

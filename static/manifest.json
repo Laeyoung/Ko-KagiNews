@@ -1,7 +1,7 @@
 {
-  "name": "Kagi News",
-  "short_name": "Kagi News",
-  "description": "News. Elevated.",
+  "name": "코-Kagi 뉴스",
+  "short_name": "코-Kagi 뉴스",
+  "description": "뉴스. 한국어로.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -26,7 +26,9 @@
       "purpose": "maskable"
     }
   ],
-  "categories": ["news"],
+  "categories": [
+    "news"
+  ],
   "orientation": "portrait",
   "prefer_related_applications": true,
   "related_applications": [
