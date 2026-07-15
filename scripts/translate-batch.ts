@@ -14,6 +14,8 @@ import {
 	resolveExitCode,
 	lockVerdict as computeLockVerdict,
 	mergeStoryAction,
+	waitDecision,
+	resolvePollIntervalMs,
 } from './translate-helpers';
 import type { FailedStory } from './translate-helpers';
 import type { Story } from '../src/lib/types';
@@ -37,6 +39,18 @@ const GEMINI_MODEL = process.env.GEMINI_MODEL ?? 'gemini-3.1-flash-lite';
 
 const LOCK_MAX_AGE_MS = 6 * 60 * 60 * 1000; // §4.3 step 0 — hang guard
 const FRESHNESS_MAX_AGE_MS = 26 * 60 * 60 * 1000; // §4.3 step 1
+// §4.3 wait mode: a latest batch younger than this is "today's" (already
+// handled if its sidecar dir exists) — anything older means we're pre-publish.
+// 12h splits the daily cycle: pre-publish ticks see yesterday's batch at
+// 22-26h, while even a wildly delayed post-publish tick sees today's at < 12h.
+const WAIT_FRESH_AGE_MS = 12 * 60 * 60 * 1000;
+const pollInterval = resolvePollIntervalMs(process.env.WAIT_POLL_INTERVAL_MS, 30_000);
+if (pollInterval.invalid) {
+	console.warn(
+		`[translate-batch] invalid WAIT_POLL_INTERVAL_MS "${process.env.WAIT_POLL_INTERVAL_MS}" — using 30000`,
+	);
+}
+const WAIT_POLL_INTERVAL_MS = pollInterval.ms;
 
 // Illustrative Flash-Lite-class pricing (spec §10) — reconfirm against Google's
 // current price list before relying on this for real budgeting.
@@ -74,10 +88,11 @@ interface CliArgs {
 	force: boolean;
 	dryRun: boolean;
 	limit?: number;
+	waitMinutes: number;
 }
 
 function parseArgs(argv: string[]): CliArgs {
-	const args: CliArgs = { force: false, dryRun: false };
+	const args: CliArgs = { force: false, dryRun: false, waitMinutes: 0 };
 	for (let i = 0; i < argv.length; i++) {
 		switch (argv[i]) {
 			case '--batch':
@@ -95,6 +110,11 @@ function parseArgs(argv: string[]): CliArgs {
 			case '--limit': {
 				const n = Number(argv[++i]);
 				if (Number.isFinite(n) && n > 0) args.limit = Math.floor(n);
+				break;
+			}
+			case '--wait-minutes': {
+				const n = Number(argv[++i]);
+				if (Number.isFinite(n) && n > 0) args.waitMinutes = Math.floor(n);
 				break;
 			}
 		}
@@ -134,8 +154,16 @@ function cleanupStaleTmpFiles(dir: string): void {
 	}
 }
 
+// Per-request cap so a stalled connection surfaces as a catchable error instead
+// of freezing the wait loop's poll cadence/deadline checks (worst case: silently
+// eating the whole wait budget until the workflow-level timeout kills the job,
+// bypassing the exit-code alert contract).
+const API_FETCH_TIMEOUT_MS = 15_000;
+
 async function apiGet<T>(pathAndQuery: string): Promise<T> {
-	const res = await fetch(`${KITE_API_BASE}${pathAndQuery}`);
+	const res = await fetch(`${KITE_API_BASE}${pathAndQuery}`, {
+		signal: AbortSignal.timeout(API_FETCH_TIMEOUT_MS),
+	});
 	if (!res.ok) throw new Error(`GET ${pathAndQuery} failed: ${res.status} ${res.statusText}`);
 	return (await res.json()) as T;
 }
@@ -719,6 +747,92 @@ async function processChaos(p: ProcessChaosParams): Promise<ProcessChaosResult> 
 }
 
 // ---------------------------------------------------------------------------
+// Step 1a: wait mode (§4.3) — poll `latest` until a new batch appears
+// ---------------------------------------------------------------------------
+
+function sleep(ms: number): Promise<void> {
+	return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+/**
+ * Pre-publish ticks call this to idle until the ~12:00 UTC batch shows up.
+ * Does its own `latest` fetching so the seed fetch shares the poll loop's
+ * tolerance for transient failures (a one-off blip at tick start must not
+ * forfeit the whole wait window). Returns the batch to process; on timeout
+ * returns the current latest so the normal run (freshness gate + idempotent
+ * skip) decides what to do with it. Throws only if `latest` could never be
+ * fetched within the entire window (systemic outage → exit 1 alert).
+ */
+const WAIT_HEARTBEAT_INTERVAL_MS = 10 * 60 * 1000;
+
+async function waitForNewBatch(waitMinutes: number): Promise<LatestBatchResponse> {
+	const startedAt = Date.now();
+	const deadline = startedAt + waitMinutes * 60_000;
+	let latest: LatestBatchResponse | undefined;
+	let waiting = false;
+	let polls = 0;
+	let lastHeartbeat = startedAt;
+	while (true) {
+		// Heartbeat so a 2h+ CI log distinguishes "still polling" from "hung" —
+		// the happy path (same old batch each poll) otherwise prints nothing
+		// between the first "wait mode" line and the final outcome.
+		if (waiting && Date.now() - lastHeartbeat >= WAIT_HEARTBEAT_INTERVAL_MS) {
+			lastHeartbeat = Date.now();
+			console.log(
+				`[translate-batch] wait mode: still polling (${polls} polls, ${Math.round((Date.now() - startedAt) / 60_000)}min elapsed, ${Math.max(0, Math.round((deadline - Date.now()) / 60_000))}min remaining)`,
+			);
+		}
+		polls++;
+		try {
+			latest = await apiGet<LatestBatchResponse>('/batches/latest');
+		} catch (err) {
+			// Transient upstream/network failure — keep polling until the deadline.
+			console.warn(
+				`[translate-batch] wait mode: latest fetch failed (${err instanceof Error ? err.message : err}) — will retry`,
+			);
+		}
+		if (latest) {
+			const hasLocalDir = fs.existsSync(path.join(TRANSLATIONS_DIR, latest.id));
+			const verdict = waitDecision({
+				waitMinutes,
+				hasLocalDir,
+				ageMs: Date.now() - new Date(latest.createdAt).getTime(),
+				freshAgeMs: WAIT_FRESH_AGE_MS,
+			});
+			if (verdict === 'proceed') {
+				// The latency line is this feature's success metric — emit it on the
+				// immediate-proceed path (tick started after publish) too, not just
+				// after polling. Skip it only for an already-translated fresh batch,
+				// where "latency" would be meaningless.
+				if (waiting || !hasLocalDir) {
+					const latencyS = (Date.now() - new Date(latest.createdAt).getTime()) / 1000;
+					console.log(
+						`[translate-batch] new batch detected: ${latest.id} (${waiting ? 'polled' : 'immediate'}) — publish→translate-start latency ${latencyS.toFixed(0)}s`,
+					);
+				}
+				return latest;
+			}
+			if (!waiting) {
+				waiting = true;
+				console.log(
+					`[translate-batch] wait mode: latest ${latest.id} already handled and > 12h old (pre-publish) — polling every ${Math.round(WAIT_POLL_INTERVAL_MS / 1000)}s for the new batch (max ${waitMinutes}min)`,
+				);
+			}
+		}
+		if (Date.now() >= deadline) {
+			if (latest) {
+				console.warn(
+					`[translate-batch] wait mode: no new batch within ${waitMinutes}min — proceeding with current latest (idempotent run)`,
+				);
+				return latest;
+			}
+			throw new Error(`wait mode: could not fetch /batches/latest at all within ${waitMinutes}min`);
+		}
+		await sleep(WAIT_POLL_INTERVAL_MS);
+	}
+}
+
+// ---------------------------------------------------------------------------
 // Steps 1-5 orchestration
 // ---------------------------------------------------------------------------
 
@@ -736,7 +850,10 @@ async function run(args: CliArgs, config: TranslateConfig): Promise<number> {
 		createdAt = batch.createdAt;
 		enforceFreshness = false;
 	} else {
-		const latest = await apiGet<LatestBatchResponse>('/batches/latest');
+		const latest =
+			args.waitMinutes > 0
+				? await waitForNewBatch(args.waitMinutes)
+				: await apiGet<LatestBatchResponse>('/batches/latest');
 		batchId = latest.id;
 		createdAt = latest.createdAt;
 	}

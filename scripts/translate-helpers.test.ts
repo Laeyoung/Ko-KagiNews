@@ -1,5 +1,13 @@
 import { describe, it, expect } from 'vitest';
-import { isDone, failureRatePct, resolveExitCode, lockVerdict, mergeStoryAction } from './translate-helpers';
+import {
+	isDone,
+	failureRatePct,
+	resolveExitCode,
+	lockVerdict,
+	mergeStoryAction,
+	waitDecision,
+	resolvePollIntervalMs,
+} from './translate-helpers';
 
 describe('isDone', () => {
 	it('true when translated or terminally blocked', () => {
@@ -15,6 +23,8 @@ describe('failureRatePct', () => {
 	it('0 attempted → 0', () => expect(failureRatePct(0, 0)).toBe(0));
 	it('<10 attempted → null (guard)', () => expect(failureRatePct(1, 1)).toBeNull());
 	it('>=10 attempted → pct', () => expect(failureRatePct(20, 5)).toBe(25));
+	it('exactly 10 attempted → computed pct, not the small-sample guard (boundary)', () =>
+		expect(failureRatePct(10, 5)).toBe(50));
 });
 
 describe('resolveExitCode', () => {
@@ -22,6 +32,10 @@ describe('resolveExitCode', () => {
 	it('exit 4 for unresolved slug when rate ok', () => expect(resolveExitCode({ ratePct: 0, thresholdPct: 20, hasUnresolvedSlug: true })).toBe(4));
 	it('exit 3 wins when both apply', () => expect(resolveExitCode({ ratePct: 25, thresholdPct: 20, hasUnresolvedSlug: true })).toBe(3));
 	it('guard (null rate) never trips exit 3', () => expect(resolveExitCode({ ratePct: null, thresholdPct: 20, hasUnresolvedSlug: false })).toBe(0));
+	it('rate exactly at threshold does NOT trip exit 3 (§4.1 strict > comparison)', () =>
+		expect(resolveExitCode({ ratePct: 20, thresholdPct: 20, hasUnresolvedSlug: false })).toBe(0));
+	it('guard (null rate) + unresolved slug still surfaces exit 4 (§4.1 config error not masked)', () =>
+		expect(resolveExitCode({ ratePct: null, thresholdPct: 20, hasUnresolvedSlug: true })).toBe(4));
 });
 
 describe('lockVerdict', () => {
@@ -44,6 +58,44 @@ describe('lockVerdict', () => {
 	});
 	it('alive + match + exactly at max age → already_running (boundary)', () => {
 		expect(lockVerdict({ ...base, ageMs: 21_600_000 })).toBe('already_running');
+	});
+});
+
+describe('waitDecision', () => {
+	const TWELVE_H = 12 * 60 * 60 * 1000;
+	const base = { waitMinutes: 140, hasLocalDir: true, ageMs: 23 * 3_600_000, freshAgeMs: TWELVE_H };
+
+	it('wait mode off (0 minutes) → proceed', () => {
+		expect(waitDecision({ ...base, waitMinutes: 0 })).toBe('proceed');
+	});
+	it('no local sidecar dir for latest → proceed (untranslated batch available now)', () => {
+		expect(waitDecision({ ...base, hasLocalDir: false })).toBe('proceed');
+	});
+	it('local dir exists + batch fresh → proceed (today already handled; idempotent verify)', () => {
+		expect(waitDecision({ ...base, ageMs: 40 * 60_000 })).toBe('proceed');
+	});
+	it('local dir exists + batch old → wait (pre-publish tick, poll for the new batch)', () => {
+		expect(waitDecision(base)).toBe('wait');
+	});
+	it('boundary: age exactly at freshAgeMs → wait', () => {
+		expect(waitDecision({ ...base, ageMs: TWELVE_H })).toBe('wait');
+	});
+});
+
+describe('resolvePollIntervalMs', () => {
+	it('unset env → fallback, not flagged invalid', () => {
+		expect(resolvePollIntervalMs(undefined, 30_000)).toEqual({ ms: 30_000, invalid: false });
+	});
+	it('valid positive number → parsed', () => {
+		expect(resolvePollIntervalMs('5000', 30_000)).toEqual({ ms: 5000, invalid: false });
+	});
+	it('garbage → fallback + invalid (caller warns instead of NaN timer/busy-poll)', () => {
+		expect(resolvePollIntervalMs('banana', 30_000)).toEqual({ ms: 30_000, invalid: true });
+	});
+	it('zero/negative/empty → fallback + invalid', () => {
+		expect(resolvePollIntervalMs('0', 30_000)).toEqual({ ms: 30_000, invalid: true });
+		expect(resolvePollIntervalMs('-3', 30_000)).toEqual({ ms: 30_000, invalid: true });
+		expect(resolvePollIntervalMs('', 30_000)).toEqual({ ms: 30_000, invalid: true });
 	});
 });
 

@@ -45,6 +45,49 @@ export function lockVerdict(o: {
 }
 
 /**
+ * §4.3 wait mode ("발행 대기") — decides at run start whether to poll for a new
+ * batch instead of proceeding with the resolved `latest`.
+ *
+ * GitHub Actions cron delivery is 60–90+ min late in practice, so wait-mode
+ * ticks are scheduled well BEFORE the 12:00 UTC publish and then poll until the
+ * new batch appears. The three proceed cases:
+ * - wait mode off (waitMinutes <= 0): plain run (catch-up ticks).
+ * - no local sidecar dir for latest: an untranslated batch is available NOW.
+ * - local dir exists but the batch is fresh (< freshAgeMs): today's batch was
+ *   already handled — don't sit waiting for tomorrow's; run the idempotent
+ *   verify pass and exit.
+ * Otherwise (dir exists + batch old = pre-publish morning): wait.
+ */
+export type WaitVerdict = 'proceed' | 'wait';
+
+export function waitDecision(o: {
+	waitMinutes: number;
+	hasLocalDir: boolean;
+	ageMs: number;
+	freshAgeMs: number;
+}): WaitVerdict {
+	if (o.waitMinutes <= 0) return 'proceed';
+	if (!o.hasLocalDir) return 'proceed';
+	if (o.ageMs < o.freshAgeMs) return 'proceed';
+	return 'wait';
+}
+
+/**
+ * §4.3 wait mode: WAIT_POLL_INTERVAL_MS env parsing. Unset → fallback silently;
+ * set-but-garbage (NaN, <= 0) → fallback with `invalid: true` so the caller can
+ * warn instead of crashing the timer or busy-polling.
+ */
+export function resolvePollIntervalMs(
+	raw: string | undefined,
+	fallbackMs: number,
+): { ms: number; invalid: boolean } {
+	if (raw === undefined) return { ms: fallbackMs, invalid: false };
+	const n = Number(raw);
+	if (Number.isFinite(n) && n > 0) return { ms: n, invalid: false };
+	return { ms: fallbackMs, invalid: true };
+}
+
+/**
  * Per-id merge decision for the sidecar rewrite (§4.2/§4.3). A just-applied fix
  * ensures that under `--force`, a re-translation failure on a story that already
  * had a good prior translation KEEPS that prior translation instead of deleting

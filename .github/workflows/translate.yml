@@ -2,11 +2,32 @@ name: Translate daily batch
 
 on:
   schedule:
-    # Batch publishes 12:00 UTC; main run 14:00, catch-up 16:00 (spec §4.3).
+    # Batch publishes 12:00 UTC sharp (observed createdAt 12:00:07–11), but
+    # GitHub delivers scheduled runs 60–90+ min late in practice. The fast path
+    # is therefore wait-mode ticks scheduled BEFORE publish: each starts a
+    # runner that polls /batches/latest and translates the moment the new batch
+    # appears (translate-batch.ts --wait-minutes, spec §4.3 wait mode). Several
+    # staggered ticks guard against dropped deliveries. The concurrency group
+    # keeps one running + one pending run: while a tick is running, each newer
+    # tick replaces the pending slot and the evicted ones are CANCELLED (never
+    # run) — that's fine, because if the running tick dies the pending one takes
+    # over immediately, and the survivor that runs after a successful translate
+    # no-ops idempotently. 14:00/16:00 remain plain idempotent catch-ups.
+    # Off-hour minutes dodge peak-load delay.
     # NOTE: schedule only fires on the default branch (after merge to main).
-    - cron: '0 14 * * *'
-    - cron: '0 16 * * *'
+    - cron: '3 10 * * *'   # wait tick
+    - cron: '33 10 * * *'  # wait tick
+    - cron: '3 11 * * *'   # wait tick
+    - cron: '33 11 * * *'  # wait tick
+    - cron: '3 12 * * *'   # wait tick (also nets a late upstream publish)
+    - cron: '0 14 * * *'   # catch-up
+    - cron: '0 16 * * *'   # catch-up
   workflow_dispatch:
+    inputs:
+      wait_minutes:
+        description: 'Poll up to N minutes for a new batch before translating (0 = translate current latest; clamped to 140 so the job timeout cannot kill the wait)'
+        required: false
+        default: '0'
 
 concurrency:
   group: translate
@@ -18,7 +39,9 @@ permissions:
 jobs:
   translate:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # Wait ticks idle up to WAIT_MINUTES before the ~15-min translate+commit;
+    # catch-ups keep the old tight 30-min hang cap.
+    timeout-minutes: ${{ (github.event.schedule == '0 14 * * *' || github.event.schedule == '0 16 * * *') && 30 || 170 }}
     steps:
       - uses: actions/checkout@v4
 
@@ -27,11 +50,41 @@ jobs:
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
+      - name: Resolve wait mode
+        id: wait
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+          INPUT_WAIT: ${{ inputs.wait_minutes }}
+        # Wait ticks poll long enough that even the earliest tick (10:03,
+        # delivered on time) is still polling at ~12:23, past the 12:00 publish.
+        run: |
+          case "$SCHEDULE" in
+            "3 10 * * *"|"33 10 * * *"|"3 11 * * *"|"33 11 * * *"|"3 12 * * *")
+              echo "minutes=140" >> "$GITHUB_OUTPUT" ;;
+            "")
+              # Manual dispatch: sanitize to digits and clamp to 140 so the
+              # wait deadline always fires before the 170-min job timeout.
+              M="${INPUT_WAIT:-0}"
+              case "$M" in *[!0-9]*|"") M=0 ;; esac
+              if [ "$M" -gt 140 ]; then M=140; fi
+              echo "minutes=$M" >> "$GITHUB_OUTPUT" ;;
+            *)
+              echo "minutes=0" >> "$GITHUB_OUTPUT" ;;
+          esac
+
       - name: Translate latest batch
+        id: translate
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TRANSLATIONS_DIR: ./data/translations
-        run: bun scripts/translate-batch.ts
+        # Capture the exit code instead of failing here: exit 3/4 (and a crash
+        # after partial progress) still leave valid, paid-for sidecars on disk —
+        # commit them first, then surface the failure in the final step. Sidecar
+        # writes are atomic (tmp+rename), so whatever exists is safe to commit.
+        run: |
+          set +e
+          bun scripts/translate-batch.ts --wait-minutes "${{ steps.wait.outputs.minutes }}"
+          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
 
       - name: Prune batches older than the newest 7
         run: bun scripts/prune-translations.ts
@@ -53,3 +106,9 @@ jobs:
             echo "Only index.json bookkeeping changed — skipping commit"
             git reset -q
           fi
+
+      - name: Surface translate exit code
+        if: ${{ steps.translate.outputs.exit_code != '0' }}
+        run: |
+          echo "translate-batch exited ${{ steps.translate.outputs.exit_code }} — see 'Translate latest batch' log (partial sidecars, if any, were committed above)"
+          exit 1
