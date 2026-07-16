@@ -1,7 +1,7 @@
 {
   "version": 1,
   "batchId": "6d9101e4-0597-49b6-b6f4-343b27ae1028",
-  "updatedAt": "2026-07-16T12:28:09.559Z",
+  "updatedAt": "2026-07-16T13:01:58.718Z",
   "categories": {
     "e9c2c12d-ad36-490b-8b64-f04552b39208": {
       "slug": "business",
@@ -74,7 +74,7 @@
     "status": "skipped"
   },
   "run": {
-    "attempted": 4,
+    "attempted": 3,
     "failed": 3,
     "failureRatePct": null,
     "unresolvedSlugs": []
