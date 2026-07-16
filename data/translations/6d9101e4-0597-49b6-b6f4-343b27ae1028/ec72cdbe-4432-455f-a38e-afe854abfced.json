@@ -4,7 +4,7 @@
   "categoryUuid": "ec72cdbe-4432-455f-a38e-afe854abfced",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-07-16T12:06:40.815Z",
+  "createdAt": "2026-07-16T12:28:09.372Z",
   "stories": {
     "3cf28526-8c40-4bdf-8992-45fe63a3bada": {
       "title": "애플, 중국서 알리바바·바이두 모델 탑재한 '애플 인텔리전스' 승인 획득",
@@ -254,24 +254,51 @@
       "timeline[2].content": "애플, 7월 초 영업 비밀 소송 제기 [fastcompany.com#1][biznis.rs#1]",
       "timeline[3].content": "OpenAI가 올해 기기를 공개할 수 있다는 보도 [pcmag.com#1][ifun.de#1]",
       "timeline[4].content": "2027년 상업적 출시 계획 [fastcompany.com#1][lefigaro.fr#1]"
+    },
+    "e7c10a45-8780-4a81-aadc-d1d776f5b7e1": {
+      "title": "마이크로소프트, 570개 보안 취약점 패치… 일부 델 PC 업데이트 차단",
+      "short_summary": "마이크로소프트(Microsoft)는 2026년 7월 '패치 화요일(Patch Tuesday)' 업데이트를 통해 윈도우, 오피스 및 기타 제품군에서 역대 최대 규모인 570개의 보안 취약점을 해결했다. 여기에는 3개의 제로데이 취약점과 공격자가 이미 악용한 2개의 취약점이 포함되어 있다 [slashdot.org#1][ghacks.net#1][techrepublic.com#1][techcrunch.com#2][zdnet.com#1][windowsreport.com#1]. 여러 보안 매체는 패치 화요일 외에 별도로 배포된 수정 사항을 포함하면 이달의 총 마이크로소프트 CVE(공통 취약점 노출) 수가 600개를 넘어서며, 멀웨어바이트(Malwarebytes)와 하이제(Heise)는 622개로 집계했다고 보도했다 [pcworld.com#3][malwarebytes.com#1][heise.de#1][computerbase.de#1]. 마이크로소프트는 7월 9일 파반 다불루리(Pavan Davuluri) 윈도우 부문 책임자가 AI를 통해 더 많은 문제를 신속하게 발견하고 분석할 수 있게 되었다고 밝힌 이후, 이러한 패치 물량 증가가 AI 기반 취약점 탐지 덕분이라고 설명했다 [slashdot.org#1][techcrunch.com#2][habr.com#1]. 7월 릴리스에는 원격 코드 실행, 권한 상승, 정보 유출, 서비스 거부, 보안 우회 및 스푸핑 등 치명적인 문제들에 대한 수정 사항이 포함되었다. 기핵스(Ghacks)는 570개의 취약점 중 254개의 권한 상승 문제와 145개의 원격 코드 실행 문제가 포함된 것으로 집계했다 [ghacks.net#1][habr.com#1]. 악용된 취약점으로는 액티브 디렉토리 페더레이션 서비스(Active Directory Federation Services)의 CVE-2026-56155와 셰어포인트(SharePoint)의 CVE-2026-56164가 있으며, 비트락커(BitLocker)의 CVE-2026-50661은 공개적으로 알려졌으나 실제 악용 사례는 없다고 마이크로소프트는 밝혔다 [slashdot.org#1][ghacks.net#1][techcrunch.com#2][malwarebytes.com#1]. 또한 마이크로소프트는 일부 델(Dell) 기기에서 예기치 않은 종료, 성능 저하, 발열 및 배터리 소모 문제가 보고됨에 따라 윈도우 11 KB5101650 업데이트를 차단했다. 이는 인텔(Intel) 이노베이션 플랫폼 프레임워크 프로세서 참여자 드라이버와 6월 23일 KB5095093 미리 보기 업데이트에 도입된 윈도우 USB-C 연결 관리자 인터페이스 간의 충돌로 인한 것이다 [bleepingcomputer.com#1][theregister.com#1][windowslatest.com#2][windowscentral.com#1]. 마이크로소프트는 델과 협력하여 며칠 내로 영향을 받는 기기에 대한 수정 패치를 배포할 예정이라고 밝혔다 [bleepingcomputer.com#1][computerbase.de#2].",
+      "historical_background": "마이크로소프트의 2026년 6월 패치 화요일은 약 200~206개의 수정 사항으로 이전 기록을 세웠으나, 7월 릴리스가 이를 경신했다 [slashdot.org#1][pcworld.com#3][malwarebytes.com#1].",
+      "business_angle_text": "마이크로소프트의 AI 기반 버그 탐지는 윈도우 기기군을 관리하는 기업 고객의 패치 업무량을 증가시킬 수 있다 [common]. 파반 다불루리 윈도우 부문 책임자는 7월 9일 AI를 통해 더 많은 문제를 신속하게 발견하고 분석할 수 있게 되었다고 밝혔으며, 컴퓨터 위클리(Computer Weekly)는 7월의 방대한 패치 물량이 관리 환경 전반에서 수정 사항을 분류하고 테스트해야 하는 보안 담당자들에게 과부하를 줄 수 있다고 지적했다 [slashdot.org#1][techcrunch.com#2][computerweekly.com#1]. 마이크로소프트는 드라이버 충돌로 인한 예기치 않은 종료, 성능 저하, 발열 및 배터리 소모 보고에 따라 영향을 받는 델 기기에서 KB5101650 업데이트를 차단했다 [bleepingcomputer.com#1][theregister.com#1][windowscentral.com#1]. 이번 업데이트 보류는 윈도우 보안 업데이트 배포가 마이크로소프트와 델 간의 하드웨어 및 드라이버 조정에 의존하고 있음을 보여준다.",
+      "talking_points[0]": "패치 규모: PC월드(PCWorld)는 마이크로소프트가 2026년에만 총 1,380개의 취약점을 패치했으며, 이는 2020년 기록된 1,250개의 수정 사항을 이미 넘어선 수치라고 보도했다 [pcworld.com#3][itc.ua#1].",
+      "talking_points[1]": "치명적 취약점 수: 기핵스는 48개의 원격 코드 실행 취약점, 9개의 권한 상승 취약점, 1개의 보안 우회 취약점, 1개의 스푸핑 취약점을 포함해 총 59개의 치명적 취약점이 존재한다고 집계했다 [ghacks.net#1].",
+      "talking_points[2]": "윈도우 빌드: 윈도우 레이티스트(Windows Latest)는 KB5101650 업데이트를 통해 윈도우 11 25H2는 빌드 26200.8875로, 윈도우 11 24H2는 빌드 26100.8875로 업데이트된다고 전했다 [windowslatest.com#1][makeuseof.com#1].",
+      "talking_points[3]": "복구 기능: KB5101650은 4~24시간마다 시스템 스냅샷을 저장하고 최대 72시간 동안 보관하는 '시점 복구(Point-in-Time Restore)' 기능을 추가했다 [pcworld.com#2].",
+      "talking_points[4]": "저장 공간 수정: 마이크로소프트의 7월 업데이트는 최대 500GB의 저장 공간을 점유할 수 있는 윈도우 11의 'CapabilityAccessManager.db-wal' 버그를 수정했으나, PC월드는 이미 비대해진 파일은 수동으로 삭제해야 할 수도 있다고 언급했다 [pcworld.com#1].",
+      "technical_details[0]": "MDASH 파이프라인: 마이크로소프트의 MDASH 시스템은 여러 AI 에이전트와 언어 모델을 사용하여 윈도우 코드를 스캔하고, 의심되는 취약점을 자동화된 검증 파이프라인으로 보낸 뒤, 확인된 보고서를 인간 엔지니어에게 전달하여 수정하도록 한다 [pcmag.com#1][habr.com#1].",
+      "technical_details[1]": "RDP 강화: 윈도우 10 KB5099539 업데이트는 원격 데스크톱 파일에 대한 SHA-2 인증서 지문을 추가하고 .rdp 파일을 열기 위한 그룹 정책 제어를 도입했다. 앱인(Appinn)은 이 변경 사항이 위조된 원격 데스크톱 연결 파일로 인한 피싱 위험을 줄이기 위한 것이라고 설명했다 [appinn.com#1].",
+      "business_angle_points[0]": "마이크로소프트는 AI가 보안 문제를 더 빠르고 정확하게 발견하고 분석하도록 돕고 있다고 밝혔으며, 컴퓨터 위클리는 수백 개의 수정 사항이 포함된 월간 업데이트가 기업의 테스트 및 배포 부담을 가중시킬 수 있다고 지적했다 [slashdot.org#1][techcrunch.com#2][computerweekly.com#1][common].",
+      "business_angle_points[1]": "마이크로소프트의 델 기기 업데이트 차단은 드라이버와 USB-C 관리자 간의 충돌에 따른 조치로, 펌웨어, 드라이버 및 OS 전원 관리 변경 사항이 교차하는 지점에서 발생하는 하드웨어 호환성 위험을 보여준다 [bleepingcomputer.com#1][theregister.com#1][windowscentral.com#1].",
+      "business_angle_points[2]": "컴퓨터 위클리는 7월의 패치 물량이 수정 사항을 분류하고 테스트해야 하는 보안 담당자들에게 과부하를 줄 수 있다고 보도했으며, 마이크로소프트의 델 업데이트 차단 사례는 관리되는 PC 환경에서도 업데이트 안정성 문제가 발생할 수 있음을 시사한다 [computerweekly.com#1][bleepingcomputer.com#1][common].",
+      "industry_impact[0]": "기업 IT 운영: 컴퓨터 위클리는 7월 패치 화요일의 업데이트 규모가 광범위한 집계 기준으로는 600개를 넘어서며, 관리 환경 전반에서 수정 사항을 분류하고 테스트해야 하는 보안 담당자들에게 과부하를 줄 위험이 있다고 보도했다 [computerweekly.com#1].",
+      "industry_impact[1]": "게임 보안: 마이크로소프트는 '에이지 오브 엠파이어 II: 디피니티브 에디션(Age of Empires II: Definitive Edition)'의 CVE-2026-50663 취약점도 수정했다. 연구원들은 악의적인 게임 초대장이 원격 코드 실행으로 이어질 수 있다고 경고했으나, 테크크런치(TechCrunch)는 실제 악용 사례는 보고되지 않았다고 전했다 [techcrunch.com#1].",
+      "user_action_items[0]": "윈도우 업데이트 상태 확인: 설정에서 윈도우 업데이트를 선택하고 '업데이트 확인'을 클릭한 뒤, 사용 가능한 업데이트를 설치하고 메시지가 나타나면 재부팅한다 [malwarebytes.com#1][zdnet.com#1].",
+      "user_action_items[1]": "윈도우 11 빌드 확인: KB5101650 설치 후, 시스템이 사용 중인 윈도우 11 버전에 맞는 올바른 빌드인지 확인한다 [windowslatest.com#1][makeuseof.com#1].",
+      "user_action_items[2]": "델 드라이버 경고 확인: 델 PC 사용자는 장치 관리자에서 '인텔 이노베이션 플랫폼 프레임워크 프로세서 참여자' 드라이버 옆에 노란색 느낌표가 있는지 확인하고, KB5101650이 차단된 경우 마이크로소프트의 수정 패치를 기다린다 [bleepingcomputer.com#1][computerbase.de#2].",
+      "perspectives[0].text": "미국 사이버보안 및 인프라 보안국(CISA): CISA는 해커들이 셰어포인트 취약점을 적극적으로 악용하여 조직을 공격하고 있다고 경고했다.",
+      "perspectives[1].text": "래피드7(Rapid7) 연구원: 래피드7은 에이지 오브 엠파이어 II의 취약점이 공격 성공 시 공격자가 피해자의 컴퓨터에 악성 파일을 배치할 수 있게 할 수 있다고 밝혔다.",
+      "timeline[0].content": "6월 패치 화요일, 약 200개의 수정 사항으로 이전 기록 수립 [slashdot.org#1][pcworld.com#3].",
+      "timeline[1].content": "KB5095093 미리 보기 업데이트, 이후 델 문제와 연관된 USB-C 관리자 변경 사항 도입 [bleepingcomputer.com#1].",
+      "timeline[2].content": "다불루리, AI가 보안 업데이트 물량을 증가시킬 것이라고 경고 [slashdot.org#1][techcrunch.com#2].",
+      "timeline[3].content": "마이크로소프트, 7월 패치 화요일 보안 업데이트 배포 시작 [windowslatest.com#1][lesnumeriques.com#1].",
+      "timeline[4].content": "마이크로소프트, 영향을 받는 델 기기에서 KB5101650 업데이트 차단 [bleepingcomputer.com#1][theregister.com#1].",
+      "timeline[5].content": "다음 패치 화요일은 8월 11일로 예정 [pcworld.com#3].",
+      "primary_image.caption": "윈도우 업데이트 화면에 표시된 윈도우 11 2026년 7월 보안 업데이트 KB5101650",
+      "secondary_image.caption": "대기 중인 윈도우 업데이트가 표시된 게이밍 모니터"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
+    "translated": 11,
     "failedStoryIds": [
       {
         "id": "93aed5b1-a950-47ed-8d88-d13683e3b9d0",
         "reason": "retry_exhausted"
-      },
-      {
-        "id": "e7c10a45-8780-4a81-aadc-d1d776f5b7e1",
-        "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 19156,
-      "out": 24492
+      "in": 24144,
+      "out": 31326
     }
   }
 }
