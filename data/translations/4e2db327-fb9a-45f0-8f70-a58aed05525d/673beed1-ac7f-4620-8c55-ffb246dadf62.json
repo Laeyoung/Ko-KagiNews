@@ -4,7 +4,7 @@
   "categoryUuid": "673beed1-ac7f-4620-8c55-ffb246dadf62",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-07-17T12:05:35.556Z",
+  "createdAt": "2026-07-17T12:18:09.183Z",
   "stories": {
     "efb66f6c-518a-446b-9b18-e2a0271b8e43": {
       "title": "트럼프 미디어, 유료 트루스 소셜 트레이딩 피드 출시",
@@ -312,20 +312,52 @@
       "timeline[2].content": "제122조 글로벌 관세 만료 [abcnews.com#1][seattletimes.com#1][infomoney.com.br#1]",
       "timeline[3].content": "중간선거, 물가 우려에 직면한 의원들 시험대 [abcnews.com#1][seattletimes.com#1][infomoney.com.br#1]",
       "primary_image.caption": "2025년 4월 17일, 중국 남부 광둥성 광저우항에서 운송을 대기 중인 컨테이너들."
+    },
+    "0cbf66d4-a824-47ab-a613-41714e0a052d": {
+      "title": "호르무즈 해협 유조선 통행 감소 속 유가 상승",
+      "short_summary": "미국이 이란 항구에 대한 해상 봉쇄를 재개하고 걸프 해협 인근에서 미·이란 간 교전이 격화되면서 호르무즈 해협을 통한 상업적 통행이 극도로 제한된 상태가 지속되고 있다. 전쟁 전 이곳은 전 세계 석유 및 가스 수송량의 약 5분의 1을 담당하던 곳이다 [arynews.tv#1][egyptindependent.com#1][deccanchronicle.com#1]. 로이터가 인용한 케플러(Kpler) 데이터에 따르면 수요일에 총 7척의 선박이 해협을 통과했으나 대부분 이란 항로였으며, 초대형 원유 운반선(VLCC)이나 액화천연가스(LNG) 운반선은 단 한 척도 통과하지 않았다 [arynews.tv#1]. 유가는 걸프 지역과 홍해의 물류 차질 위험이 시장에 반영되면서 금요일 상승했다. 브렌트유는 배럴당 약 84.93달러, 미국 서부 텍사스산 원유(WTI)는 약 79.76달러에 거래되었으며, 두 벤치마크 모두 한 주 동안 12% 가까이 상승했다 [myjoyonline.com#1][newsis.com#1][brecorder.com#2]. 파티 비롤(Fatih Birol) 국제에너지기구(IEA) 사무총장은 미국 외교협회(CFR) 행사에서 에너지 안보가 여전히 중요한 문제라고 언급하며, 해협이 수개월이 아닌 수주 내에 재개방되어야 한다고 경고했다 [brecorder.com#2][borsen.dk#1][energyconnects.com#1]. 로이터는 이란이 미국이 이란의 전력 인프라를 타격할 경우 홍해 석유 항로를 폐쇄할 준비를 하라고 예멘 후티 반군에 지시했다고 보도했다 [thenews.com.pk#1][vg.hu#1][brecorder.com#2][myjoyonline.com#1]. 미 중부사령부는 이란의 군사 능력을 약화하기 위해 6일 연속 공습을 단행했다고 밝혔으며, 테헤란은 이에 대응해 역내 미국 관련 시설에 미사일 및 드론 공격을 가했다. 카타르는 금요일 새벽 이란의 미사일 공격을 요격했다고 밝혔으며, 요격 과정에서 발생한 파편으로 어린이 1명이 부상을 입었다고 보고했다 [brecorder.com#2][myjoyonline.com#1][gulfnews.com#1].",
+      "did_you_know": "덴마크는 1429년부터 1857년까지 외레순 해협을 통과하는 선박에 통행세를 징수했는데, 이는 한 국가가 자연 해상 항로 통행에 대해 요금을 부과한 드문 역사적 사례이다 [lidovky.cz#1].",
+      "quote_attribution": "에너지 커넥츠(Energy Connects)",
+      "historical_background": "아부 무사 섬과 대·소 툰브 섬은 1971년 이란이 아랍에미리트(UAE)가 될 지역으로부터 강제 점령했으며, 이 섬들의 소유권은 여전히 분쟁 중이다 [abcnews.com#1]. 세 섬의 총면적은 약 10제곱마일이지만, 페르시아만과 해협 사이를 이동하는 선박들이 이용하는 심해 항로 인근에 위치해 있다 [abcnews.com#1]. 이란은 이 섬들을 호르무즈 해협에 대한 통제력을 투사하는 주둔지로 활용하고 있다 [abcnews.com#1].",
+      "business_angle_text": "석유 생산국들은 유가 상승으로 이익을 얻을 수 있지만, 걸프 지역 수출에 의존하는 기업들은 호르무즈 해협을 통해 화물을 이동시킬 수 없거나 홍해의 위협으로 차질이 확대될 경우 물동량 위험에 직면하게 된다 [arynews.tv#1][brecorder.com#2][myjoyonline.com#1]. 운송 위험, 보험 비용, 연료비에 노출된 기업들은 이러한 비용이 높은 수준으로 유지될 경우 압박을 받게 된다. 이라크, 셰브론(Chevron) 등이 참여하는 파이프라인 우회 계획과 지중해 접근로 확보는 병목 구간에 대한 의존도를 줄이는 프로젝트로 자본을 유도할 수 있으나, 이러한 프로젝트는 수년간의 시간과 허가, 보안 조치, 대규모 초기 비용이 필요하다 [ltn.com.tw#1][vg.hu#2][semafor.com#1][common]. 수익률이 낮은 고레버리지 운영사들은 연료비, 보험료, 운송비 상승을 감당할 여력이 부족하다 [common].",
+      "talking_points[0]": "해운 물동량: 케플러(Kpler)가 로이터에 제공한 데이터에 따르면 수요일에 빈 선박 4척이 걸프 지역으로 진입했고, 액화석유가스(LPG), 석탄, 연료유를 실은 선박 3척이 출항했다 [arynews.tv#1].",
+      "talking_points[1]": "대체 항로: 셰브론(Chevron)은 TI 캐피털(TI Capital) 및 알 카야트(Al-Khayyat) 관련 그룹 등 파트너들과 시리아를 경유하는 이라크-지중해 파이프라인 노선을 논의 중이며, 이라크는 바스라 석유 공사(Basra Oil Company)와 KBR에 수출 파이프라인 옵션 검토를 승인했다 [ltn.com.tw#1][vg.hu#2][semafor.com#1].",
+      "talking_points[2]": "겨울철 가스: 파이낸셜 타임스(FT)는 호르무즈 긴장이 재고조될 경우 시장 공급 부족 시 아시아와 유럽이 추운 계절 동안 LNG 화물을 확보하기 위해 경쟁해야 할 수도 있다고 보도했다 [ft.com#2].",
+      "talking_points[3]": "지역 수출: 골드만삭스(Goldman Sachs)는 7개의 지역 프로젝트를 통해 2027년 말까지 걸프 지역 에너지 수출의 거의 절반을 향후 발생할 호르무즈 충격으로부터 보호할 수 있을 것으로 추산했다 [semafor.com#1].",
+      "international_reactions[0]": "🇶🇦 카타르: 카타르는 이란에 대한 군사 행동에 동의했다는 보도를 부인했다 [gulfnews.com#1].",
+      "international_reactions[1]": "🇵🇰 파키스탄: 파키스탄 외무부는 이슬라마바드가 중재 노력을 중단했다는 주장을 일축하며, 당사자들이 결국 협상으로 돌아와야 할 것이라고 밝혔다 [koreatimes.co.kr#1].",
+      "international_reactions[2]": "🇺🇳 국제해사기구(IMO): 국제해사기구는 에너지 커넥츠(Energy Connects)가 보도한 블룸버그 기사에 따르면 해당 수로가 상업용 선박이 통과하기에는 여전히 너무 위험한 상태라고 밝혔다 [energyconnects.com#1].",
+      "business_angle_points[0]": "석유 생산국들은 유가 상승으로 이득을 볼 수 있으나, 화물이 걸프 지역을 떠나지 못할 경우 선적 제한으로 인해 실제 매출은 감소할 수 있다 [brecorder.com#2][arynews.tv#1].",
+      "business_angle_points[1]": "고객들이 최저 운송 비용이 아닌 중복성(redundancy)에 비용을 지불할 때 파이프라인 및 저장 인프라의 가치는 더욱 높아질 수 있다 [ltn.com.tw#1][vg.hu#2][common].",
+      "business_angle_points[2]": "항공사, 트럭 운송업체, 석유화학 사용자 및 수입 의존도가 높은 경제권은 연료 및 원자재 비용 상승분을 가격에 전가하는 속도보다 비용 상승 속도가 빠를 경우 마진 압박에 직면한다 [common][manilatimes.net#1].",
+      "business_angle_points[3]": "하팍로이드(Hapag-Lloyd)는 호르무즈 해협 차질 기간 동안 제다(Jeddah), 담맘(Dammam), 코르파칸(Khorfakkan)을 대체 항구로 언급했다 [nos.nl#1].",
+      "travel_advisory[0]": "쿠웨이트는 비상 조치를 발동했으며 바레인은 경보 사이렌을 울렸다 [gulfnews.com#1]. 걸프 지역 여행 전 항공 및 항만 운항 중단 공지를 확인해야 한다.",
+      "industry_impact[0]": "컨테이너 해운: 하팍로이드(Hapag-Lloyd)는 대형 선박들이 당분간 호르무즈 해협을 통과하지 않을 것이며 직항 서비스가 중단되었다고 밝혔다. 또한 페르시아만 지역으로 이동하는 컨테이너 물량이 평소보다 60%에서 80% 감소한 것으로 추산했다 [nos.nl#1].",
+      "industry_impact[1]": "연료 소매: 필리핀 업계 관계자들은 이번 주 디젤과 가솔린 가격이 각각 리터당 4.60페소와 1페소 인상된 데 이어, 다음 주에는 디젤이 약 9.50~10.50페소, 가솔린이 약 3.50~4.50페소 추가 인상될 수 있다고 추산했다 [manilatimes.net#1].",
+      "industry_impact[2]": "이라크 수출: 하루 400만 배럴 이상을 생산하며 석유 수익에 크게 의존하는 이라크는 호르무즈 해협 폐쇄로 인해 생산량이 절반 이상 감소한 것으로 알려지자 지중해로 연결되는 파이프라인 접근권을 논의 중이다 [ltn.com.tw#1][vg.hu#2].",
+      "industry_impact[3]": "보험 및 인수: 에너지 커넥츠(Energy Connects)는 물류 흐름 회복은 해운 컨소시엄, 보험사, 생산자 및 국가 구매자들의 수정된 위험 계산에 부분적으로 달려 있다고 밝혔다 [energyconnects.com#2].",
+      "user_action_items[0]": "연료 관련 예산 점검: 선단이나 연료 소비가 많은 사업체를 운영하는 경우, 이번 주 벤치마크 원유 가격이 12% 가까이 상승했으므로 현재 공급업체 견적을 사용하여 디젤 및 가솔린 비용 가정을 업데이트해야 한다 [brecorder.com#2][myjoyonline.com#1].",
+      "user_action_items[1]": "물류 경로 재검토: 화물 운송업체에 하팍로이드(Hapag-Lloyd)가 호르무즈 해협 차질 기간의 대체 경로로 언급한 제다, 담맘, 코르파칸을 통해 화물을 이동시킬 수 있는지 문의해야 한다 [nos.nl#1].",
+      "perspectives[0].text": "국제에너지기구(IEA): 파티 비롤 사무총장은 이번 차질이 걸프 지역의 석유 및 가스 수송에 크게 의존하는 개발도상국과 아시아에 가장 큰 타격을 줄 것이라고 경고했다.",
+      "perspectives[1].text": "이란 군부: 모하마드 아크라미니아(Mohammad Akraminia) 준장은 호르무즈 해협을 '레드라인'으로 규정하며, 이란은 해안이나 섬뿐만 아니라 영토 내 모든 지점에서 해협에 대한 통제력을 행사할 수 있다고 밝혔다.",
+      "perspectives[2].text": "백악관: 카린 장-피에르(Karine Jean-Pierre) 대변인은 이란이 미국과 계속 대화하고 있다고 밝혔으나, 트럼프 대통령은 해협에서 선박이 공격받는 상황을 좌시하지 않을 것이라고 덧붙였다.",
+      "perspectives[3].text": "KCM 트레이드: 팀 워터러(Tim Waterer) 수석 시장 분석가는 홍해가 또 다른 주요 차질 지점이 될 가능성이 석유 전망을 복잡하게 만들고 있으며 유가에 지정학적 프리미엄을 유지시키고 있다고 말했다.",
+      "timeline[0].content": "미국과 이스라엘이 이란에 대한 전쟁을 시작했다 [deccanchronicle.com#1][irishnews.com#1].",
+      "timeline[1].content": "작전 중단 및 호르무즈 재개방을 위한 임시 각서가 추진되었다 [military.com#1].",
+      "timeline[2].content": "이란은 토요일 늦게 호르무즈 해협을 폐쇄했다고 밝혔다 [arynews.tv#1].",
+      "timeline[3].content": "미국이 이란 해안 인근에서 두 차례의 대규모 공습을 단행했다 [myjoyonline.com#1][brecorder.com#2].",
+      "timeline[4].content": "카타르가 이란의 미사일 공격을 요격했으며, 쿠웨이트는 비상 조치를 발동하고 바레인은 경보 사이렌을 울렸다 [myjoyonline.com#1][gulfnews.com#1].",
+      "primary_image.caption": "목요일 오만 무산담에서 바라본 호르무즈 해협의 선박 모습.",
+      "secondary_image.caption": "이란 반다르아바스 앞바다에서 선박들이 정박한 가운데 두 남성이 호르무즈 해협 물속을 걷고 있다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "0cbf66d4-a824-47ab-a613-41714e0a052d",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 23480,
-      "out": 30734
+      "in": 33704,
+      "out": 45316
     }
   }
 }
