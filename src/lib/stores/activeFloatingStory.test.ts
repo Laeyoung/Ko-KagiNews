@@ -2,6 +2,7 @@ import { afterEach, beforeEach, describe, expect, it } from 'vitest';
 import {
 	activeFloatingStoryId,
 	claimFloatingStoryIfFree,
+	floatingOpenGeneration,
 	nextFloatingStoryId,
 	registerFloatingCandidate,
 	releaseFloatingStory,
@@ -78,5 +79,36 @@ describe('activeFloatingStory hand-off on release', () => {
 		registerFloatingCandidate('a', () => true); // only candidate is the releasing card
 		releaseFloatingStory('a');
 		expect(activeFloatingStoryId()).toBeNull();
+	});
+
+	it('skips invisible candidates and picks the first visible one', () => {
+		setActiveFloatingStory('a');
+		registerFloatingCandidate('a', () => true);
+		registerFloatingCandidate('b', () => false); // off-screen — skipped
+		registerFloatingCandidate('c', () => true); // first visible sibling
+		releaseFloatingStory('a');
+		expect(activeFloatingStoryId()).toBe('c');
+	});
+});
+
+describe('floatingOpenGeneration', () => {
+	it('bumps on claim but not on set or release', () => {
+		const g0 = floatingOpenGeneration();
+		claimFloatingStoryIfFree('a');
+		const g1 = floatingOpenGeneration();
+		expect(g1).toBe(g0 + 1);
+		setActiveFloatingStory('b'); // observer-driven re-activation → no bump
+		expect(floatingOpenGeneration()).toBe(g1);
+		releaseFloatingStory('b'); // clear/hand-off → no bump
+		expect(floatingOpenGeneration()).toBe(g1);
+	});
+
+	it('bumps even when the claim is a no-op (already occupied)', () => {
+		setActiveFloatingStory('a');
+		const g = floatingOpenGeneration();
+		claimFloatingStoryIfFree('b'); // occupied → state unchanged, generation still bumps
+		expect(floatingOpenGeneration()).toBe(g + 1);
+		expect(activeFloatingStoryId()).toBe('a');
+		releaseFloatingStory('a');
 	});
 });

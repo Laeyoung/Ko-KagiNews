@@ -31,6 +31,21 @@ export function unregisterFloatingCandidate(id: string): void {
 	candidates.delete(id);
 }
 
+/**
+ * Bumped every time a card enters the expanded state and claims (genuine
+ * user-driven open/re-open). NOT bumped by observer-driven re-activation
+ * (`setActiveFloatingStory`) or by hand-off (`releaseFloatingStory`). Lets the
+ * close-scroll distinguish "user opened another story" from "a sibling merely
+ * inherited the button", so the scroll-back to the closed story's header is
+ * only skipped for the former.
+ */
+let openGeneration = 0;
+
+/** Current open generation (see `openGeneration`). */
+export function floatingOpenGeneration(): number {
+	return openGeneration;
+}
+
 /** Reactive read for templates/$derived. */
 export function activeFloatingStoryId(): string | null {
 	return state.activeId;
@@ -38,6 +53,7 @@ export function activeFloatingStoryId(): string | null {
 
 /** Claim active only if currently free (null). First-expand short-content fallback. */
 export function claimFloatingStoryIfFree(id: string): void {
+	openGeneration += 1;
 	if (state.activeId === null) state.activeId = id;
 }
 

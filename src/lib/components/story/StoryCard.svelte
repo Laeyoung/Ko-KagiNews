@@ -12,6 +12,7 @@ import { useStoryTTS } from '$lib/hooks/useStoryTTS.svelte';
 import {
 	activeFloatingStoryId,
 	claimFloatingStoryIfFree,
+	floatingOpenGeneration,
 	nextFloatingStoryId,
 	registerFloatingCandidate,
 	releaseFloatingStory,
@@ -186,6 +187,10 @@ function handleStoryClick() {
 function handleFloatingClose() {
 	// Compute the scroll target BEFORE collapsing, while .category-label is still in place.
 	const target = browser ? computeCategoryScrollTop(storyElement) : null;
+	// Snapshot the open generation so the delayed scroll can tell "user opened
+	// another story" (generation bumps) from "a sibling inherited the button via
+	// hand-off" (generation unchanged) — only the former should cancel the scroll.
+	const openGenAtClose = floatingOpenGeneration();
 
 	// Reuse the existing close path (TTS/simplification/flashcards cleanup + toggle + URL).
 	handleStoryClick();
@@ -200,9 +205,9 @@ function handleFloatingClose() {
 	if (closeScrollTimer) clearTimeout(closeScrollTimer);
 	closeScrollTimer = setTimeout(() => {
 		closeScrollTimer = undefined;
-		// Skip if another story became active meanwhile (user opened something else):
-		// closing released our id → active is null unless a new card claimed it.
-		if (target !== null && activeFloatingStoryId() === null) {
+		// Skip only if the user opened/re-opened a story in the meantime (a genuine
+		// expand bumps the open generation); a sibling inheriting the button does not.
+		if (target !== null && floatingOpenGeneration() === openGenAtClose) {
 			window.scrollTo({ top: target, behavior: 'smooth' });
 		}
 	}, 150);
