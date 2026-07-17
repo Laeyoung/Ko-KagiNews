@@ -13,8 +13,10 @@ import {
 	activeFloatingStoryId,
 	claimFloatingStoryIfFree,
 	nextFloatingStoryId,
+	registerFloatingCandidate,
 	releaseFloatingStory,
 	setActiveFloatingStory,
+	unregisterFloatingCandidate,
 } from '$lib/stores/activeFloatingStory.svelte';
 import { computeCategoryScrollTop } from '$lib/utils/storyScroll';
 import StoryActions from './StoryActions.svelte';
@@ -247,6 +249,19 @@ $effect(() => {
 
 	const el = storyElement;
 
+	// Register as a hand-off candidate: reports whether this card is visible
+	// enough to own the button right now (crosses the viewport centerline or is
+	// fully on screen). Lets releaseFloatingStory hand off to a visible sibling
+	// immediately on close, without waiting for a scroll to re-fire observers.
+	registerFloatingCandidate(floatingId, () => {
+		const rect = el.getBoundingClientRect();
+		const vh = window.innerHeight;
+		const center = vh / 2;
+		const crossesCenter = rect.top < center && rect.bottom > center;
+		const fullyVisible = rect.top >= 0 && rect.bottom <= vh;
+		return crossesCenter || fullyVisible;
+	});
+
 	// 1) Centerline crossing (works regardless of article height).
 	const centerObserver = new IntersectionObserver(
 		(entries) => {
@@ -273,7 +288,9 @@ $effect(() => {
 	return () => {
 		centerObserver.disconnect();
 		fullObserver.disconnect();
-		// Release only if we still hold it (untracked so this effect never depends on the rune).
+		// Stop being a hand-off candidate before releasing, then release only if
+		// we still hold it (untracked so this effect never depends on the rune).
+		unregisterFloatingCandidate(floatingId);
 		untrack(() => releaseFloatingStory(floatingId));
 	};
 });
