@@ -397,7 +397,7 @@ onDestroy(() => {
     <button
       type="button"
       onclick={handleFloatingClose}
-      aria-label={ss("article.closeStory.aria") || "Close story and return to category list"}
+      aria-label={ss("article.closeStory") || "Close story"}
       class="hidden max-[768px]:flex fixed left-1/2 -translate-x-1/2 z-fixed size-12 items-center justify-center rounded-full bg-black text-white shadow-lg transition-colors duration-200 hover:bg-gray-800 focus-visible-ring {displaySettings.categoryHeaderPosition === 'bottom' ? 'bottom-[calc(5rem+env(safe-area-inset-bottom))]' : 'bottom-[calc(1.5rem+env(safe-area-inset-bottom))]'}"
     >
       <IconX class="size-6" aria-hidden="true" />
