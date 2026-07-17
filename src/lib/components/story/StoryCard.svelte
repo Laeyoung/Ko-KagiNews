@@ -7,6 +7,7 @@ import { useHoverPreloading, useViewportPreloading } from '$lib/hooks/useImagePr
 import { useStoryFlashcards } from '$lib/hooks/useStoryFlashcards.svelte';
 import { useStorySimplification } from '$lib/hooks/useStorySimplification.svelte';
 import { useStoryTTS } from '$lib/hooks/useStoryTTS.svelte';
+import { computeCategoryScrollTop } from '$lib/utils/storyScroll';
 import StoryActions from './StoryActions.svelte';
 import StoryContentSkeleton from './StoryContentSkeleton.svelte';
 import StoryHeader from './StoryHeader.svelte';
@@ -164,43 +165,24 @@ function handleReadClick(e: Event) {
 // Scroll to story when expanded
 $effect(() => {
 	if (isExpanded && browser && storyElement && shouldAutoScroll) {
-		// Small delay to ensure the content is rendered
 		setTimeout(() => {
-			// Calculate dynamic header height and offsets
-			const headerEl = document.querySelector('header') || document.querySelector('nav');
-			const headerHeight = headerEl ? headerEl.offsetHeight : 60;
+			const categoryElement = storyElement.querySelector('.category-label');
+			if (!categoryElement) return;
 
-			// Mobile vs desktop offsets - smaller offset for more precise positioning
+			const headerEl = document.querySelector('header') || document.querySelector('nav');
+			const headerHeight = headerEl ? (headerEl as HTMLElement).offsetHeight : 60;
 			const isMobile = window.innerWidth <= 768;
 			const extraOffset = isMobile ? 8 : 12;
 
-			// Find the category element within this story for precise positioning
-			const categoryElement = storyElement.querySelector('.category-label');
-
-			let rect: DOMRect;
-			let elementTop: number;
-
-			if (categoryElement) {
-				// Use the category element directly for most precise positioning
-				rect = categoryElement.getBoundingClientRect();
-				elementTop = window.pageYOffset + rect.top - 28;
-			} else throw new Error('Category element not found');
-
-			// Calculate the ideal scroll position to show the category nicely below the header
-			const idealScrollPosition = elementTop - headerHeight - extraOffset;
-
-			// Check if the category is properly positioned below the header
+			// Skip if the category is already correctly positioned below the header.
+			const rect = categoryElement.getBoundingClientRect();
 			const requiredMargin = headerHeight + extraOffset;
 			const isProperlyVisible = rect.top >= requiredMargin && rect.top <= requiredMargin + 20;
+			if (isProperlyVisible) return;
 
-			// Only scroll if not properly positioned
-			if (!isProperlyVisible) {
-				const finalScrollPosition = Math.max(0, idealScrollPosition);
-
-				window.scrollTo({
-					top: finalScrollPosition,
-					behavior: 'smooth',
-				});
+			const target = computeCategoryScrollTop(storyElement);
+			if (target !== null) {
+				window.scrollTo({ top: target, behavior: 'smooth' });
 			}
 		}, 150);
 	}
