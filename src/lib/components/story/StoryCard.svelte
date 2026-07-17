@@ -1,12 +1,21 @@
 <script lang="ts">
+import { IconX } from '@tabler/icons-svelte';
+import { onDestroy, untrack } from 'svelte';
 import { browser } from '$app/environment';
 import { s } from '$lib/client/localization.svelte';
 import { createStoryLocalizer } from '$lib/client/storyLocalization.svelte';
-import { readingLevelSettings } from '$lib/data/settings.svelte';
+import { displaySettings, readingLevelSettings } from '$lib/data/settings.svelte';
 import { useHoverPreloading, useViewportPreloading } from '$lib/hooks/useImagePreloading.svelte';
 import { useStoryFlashcards } from '$lib/hooks/useStoryFlashcards.svelte';
 import { useStorySimplification } from '$lib/hooks/useStorySimplification.svelte';
 import { useStoryTTS } from '$lib/hooks/useStoryTTS.svelte';
+import {
+	activeFloatingStoryId,
+	claimFloatingStoryIfFree,
+	nextFloatingStoryId,
+	releaseFloatingStory,
+	setActiveFloatingStory,
+} from '$lib/stores/activeFloatingStory.svelte';
 import { computeCategoryScrollTop } from '$lib/utils/storyScroll';
 import StoryActions from './StoryActions.svelte';
 import StoryContentSkeleton from './StoryContentSkeleton.svelte';
@@ -65,12 +74,27 @@ let {
 // Story element reference
 let storyElement: HTMLElement = undefined!; // Assigned via bind:this
 
+// Mobile floating close button — unique per instance so duplicate titles never collide.
+const floatingId = nextFloatingStoryId();
+let closeScrollTimer: ReturnType<typeof setTimeout> | undefined;
+
 // Blur state - re-check filtering in real-time
 // Track if blurred state should be synced with isFiltered prop
 const isFilteredProp = $derived(isFiltered);
 let isBlurred = $state(false);
 // Track if we're actively revealing (for transition)
 let isRevealing = $state(false);
+
+// Reactive: does this card currently own the (single) floating close button?
+// (Declared after isBlurred so TS's TDZ analysis doesn't flag a use-before-declaration —
+// the $derived callback only runs once the whole script has finished initializing.)
+const showFloatingClose = $derived(
+	isExpanded &&
+		!isBlurred &&
+		!isSharedView &&
+		!showSourceOverlay &&
+		activeFloatingStoryId() === floatingId,
+);
 
 // Sync blur state with filter prop when it changes
 $effect(() => {
@@ -156,6 +180,32 @@ function handleStoryClick() {
 	if (onToggle) onToggle();
 }
 
+// Mobile floating close: close from anywhere, then scroll back to the story header.
+function handleFloatingClose() {
+	// Compute the scroll target BEFORE collapsing, while .category-label is still in place.
+	const target = browser ? computeCategoryScrollTop(storyElement) : null;
+
+	// Reuse the existing close path (TTS/simplification/flashcards cleanup + toggle + URL).
+	handleStoryClick();
+
+	// Keep keyboard focus on the story's title toggle (the floating button unmounts on close).
+	// preventScroll avoids a native focus jump fighting the smooth scroll below.
+	storyElement
+		?.querySelector<HTMLElement>('[data-story-title-button]')
+		?.focus({ preventScroll: true });
+
+	// After layout settles, smooth-scroll to the closed story's header.
+	if (closeScrollTimer) clearTimeout(closeScrollTimer);
+	closeScrollTimer = setTimeout(() => {
+		closeScrollTimer = undefined;
+		// Skip if another story became active meanwhile (user opened something else):
+		// closing released our id → active is null unless a new card claimed it.
+		if (target !== null && activeFloatingStoryId() === null) {
+			window.scrollTo({ top: target, behavior: 'smooth' });
+		}
+	}, 150);
+}
+
 // Handle read toggle click
 function handleReadClick(e: Event) {
 	e.stopPropagation();
@@ -186,6 +236,53 @@ $effect(() => {
 			}
 		}, 150);
 	}
+});
+
+// Decide which expanded card owns the floating close button.
+$effect(() => {
+	if (!isExpanded || !browser || !storyElement) return;
+
+	// First-expand fallback: take over only if no card is active yet.
+	untrack(() => claimFloatingStoryIfFree(floatingId));
+
+	const el = storyElement;
+
+	// 1) Centerline crossing (works regardless of article height).
+	const centerObserver = new IntersectionObserver(
+		(entries) => {
+			for (const entry of entries) {
+				if (entry.isIntersecting) setActiveFloatingStory(floatingId);
+			}
+		},
+		{ root: null, rootMargin: '-50% 0px -50% 0px', threshold: 0 },
+	);
+
+	// 2) Full visibility (short-content handoff when another long card is active).
+	const fullObserver = new IntersectionObserver(
+		(entries) => {
+			for (const entry of entries) {
+				if (entry.intersectionRatio >= 1) setActiveFloatingStory(floatingId);
+			}
+		},
+		{ root: null, threshold: [0, 1] },
+	);
+
+	centerObserver.observe(el);
+	fullObserver.observe(el);
+
+	return () => {
+		centerObserver.disconnect();
+		fullObserver.disconnect();
+		// Release only if we still hold it (untracked so this effect never depends on the rune).
+		untrack(() => releaseFloatingStory(floatingId));
+	};
+});
+
+// Unmount-only cleanup for the delayed close-scroll timer.
+// NOTE: do NOT clear this timer in the effect cleanup above — closing flips
+// isExpanded, which runs that cleanup and would cancel the close's own scroll.
+onDestroy(() => {
+	if (closeScrollTimer) clearTimeout(closeScrollTimer);
 });
 </script>
 
@@ -273,6 +370,17 @@ $effect(() => {
       </div>
     {/if}
   </div>
+
+  {#if showFloatingClose}
+    <button
+      type="button"
+      onclick={handleFloatingClose}
+      aria-label={ss("article.closeStory.aria") || "Close story and return to category list"}
+      class="hidden max-[768px]:flex fixed left-1/2 -translate-x-1/2 z-fixed size-12 items-center justify-center rounded-full bg-black text-white shadow-lg transition-colors duration-200 hover:bg-gray-800 focus-visible-ring {displaySettings.categoryHeaderPosition === 'bottom' ? 'bottom-[calc(5rem+env(safe-area-inset-bottom))]' : 'bottom-[calc(1.5rem+env(safe-area-inset-bottom))]'}"
+    >
+      <IconX class="size-6" aria-hidden="true" />
+    </button>
+  {/if}
 
   <!-- Blur Warning Overlay -->
   {#if isBlurred && filterKeywords && filterKeywords.length > 0}
