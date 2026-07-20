@@ -8,6 +8,11 @@ import { cacheControlFor } from '$lib/server/cachePolicy';
 export const handle: Handle = async ({ event, resolve }) => {
 	const response = await resolve(event);
 	if (response.status !== 200 || response.headers.has('set-cookie')) return response;
+	// createProxy forwards all request headers upstream, so a request carrying
+	// credentials may get a personalized response back (session-cookie requests
+	// usually do NOT re-issue set-cookie). Never make those shared-cacheable.
+	const reqHeaders = event.request.headers;
+	if (reqHeaders.has('cookie') || reqHeaders.has('authorization')) return response;
 	const policy = cacheControlFor(event.request.method, event.url.pathname);
 	if (policy) response.headers.set('cache-control', policy);
 	return response;

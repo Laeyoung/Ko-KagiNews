@@ -26,7 +26,11 @@ export function cacheControlFor(method: string, pathname: string): string | null
 		if (pathname === '/api/image-proxy' || pathname === '/api/favicon-proxy') {
 			return PROXIED_ASSET;
 		}
-		if (pathname === '/api/batches' || pathname.startsWith('/api/batches/latest')) {
+		if (
+			pathname === '/api/batches' ||
+			pathname === '/api/batches/latest' ||
+			pathname.startsWith('/api/batches/latest/')
+		) {
 			return FIVE_MIN;
 		}
 		if (pathname.startsWith('/api/batches/')) {

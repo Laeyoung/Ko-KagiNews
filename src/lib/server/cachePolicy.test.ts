@@ -49,6 +49,13 @@ describe('cacheControlFor', () => {
 	it('caches batch chaos briefly because the chaos index updates intra-day', () => {
 		expect(sMaxAge(cacheControlFor('GET', '/api/batches/2026-07-19.1/chaos'))).toBe(300);
 		expect(sMaxAge(cacheControlFor('GET', '/api/chaos/history'))).toBe(300);
+		// Suffix-only rule: a path merely containing "chaos" stays batch-scoped.
+		expect(sMaxAge(cacheControlFor('GET', '/api/batches/2026-07-19.1/chaosindex'))).toBe(3600);
+	});
+
+	it('treats "latest" as a path segment, not a string prefix', () => {
+		// Not routable today, but locks the segment-boundary behavior.
+		expect(sMaxAge(cacheControlFor('GET', '/api/batches/latestx'))).toBe(3600);
 	});
 
 	it('caches slow-moving metadata for an hour', () => {
