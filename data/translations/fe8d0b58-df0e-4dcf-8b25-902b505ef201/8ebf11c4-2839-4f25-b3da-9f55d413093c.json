@@ -4,7 +4,7 @@
   "categoryUuid": "8ebf11c4-2839-4f25-b3da-9f55d413093c",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-07-20T12:26:32.508Z",
+  "createdAt": "2026-07-20T12:37:49.222Z",
   "stories": {
     "f3b50973-12f8-4c7f-bc67-75896c9428f0": {
       "title": "놀란의 '오디세이', 전 세계 2억 6,410만 달러 수익으로 개봉",
@@ -177,16 +177,43 @@
       "timeline[1].content": "기술주 약세가 주도한 A주의 변동성 장세[cnyes.com#1]",
       "timeline[2].content": "중국국신홀딩스, 500억 위안 이상의 주식 매입 공개[cnyes.com#1]",
       "timeline[3].content": "CSRC, 자본시장 참여자들과 시장 안정성 논의 계획[scmp.com#1][cnyes.com#1]"
+    },
+    "f814e6b5-22ff-4be3-9b41-ad2f4211dcca": {
+      "title": "미-이란 충돌 격화에 브렌트유 90달러 돌파",
+      "short_summary": "미국과 이란 간의 적대 행위로 호르무즈 해협을 통한 에너지 수송이 제한되면서 월요일 브렌트유가 배럴당 90달러를 넘어 6월 11일 이후 최고치를 기록했다[nytimes.com#1][cnbc.com#1][arynews.tv#1][boereport.com#1][brecorder.com#1]. 브렌트유 선물은 0612 GMT 기준 2.77달러(3.14%) 상승한 90.87달러를 기록했으며, 미국 서부 텍사스산 원유(WTI)는 2.35달러(2.85%) 오른 84.84달러를 기록했다. 두 지표 모두 지난주 약 16% 상승한 바 있다[brecorder.com#1]. 이번 가격 변동은 9일 연속 이어진 미국의 이란 타격과 미국 동맹국인 쿠웨이트 및 바레인이 보고한 새로운 이란의 공격 이후 발생했다[cnbc.com#1][theguardian.com#2][brecorder.com#1][aawsat.com#3]. 미 중부사령부는 이번 공격이 이란의 군사 지휘 센터, 방공 및 해안 감시 시설, 해상 역량, 미사일 및 드론 발사대, 통신망을 표적으로 삼았으며, 이는 호르무즈 해협을 통과하는 상선과 민간 선원들에 대한 이란의 공격 능력을 약화하기 위한 것이라고 밝혔다[pakobserver.net#1][dailypakistan.com.pk#1][irishnews.com#1]. 이란 이슬람 혁명수비대는 호르무즈 해협의 안전하지 않은 남부 항로를 이용하려던 유조선 2척이 폭발해 기동 불능 상태가 되었다고 주장했으나, 로이터 통신은 이를 즉각 확인할 수 없다고 전했다[arynews.tv#1][brecorder.com#1][abc.net.au#1]. 영국 해군 해사무역기구(UKMTO) 또한 오만 쿰자르 북서쪽에서 선박 한 척에 화재가 발생했다고 보고했으나 원인은 밝히지 않았다[boereport.com#1][bolnews.com#1][malaymail.com#1].",
+      "historical_background": "호르무즈 해협은 페르시아만과 오만만을 연결하며 오랫동안 세계 주요 원유 수송로 중 하나로 자리 잡았다[common]. 현재의 긴장 고조는 지난 7월 미국과 이란이 다시 공격을 주고받으면서 6월에 체결된 전투 종식 목적의 잠정 합의가 결렬된 이후 발생했다[businessinsider.com#2][lemonde.fr#1][humenglish.com#1].",
+      "humanitarian_impact": "이번 분쟁으로 시작 이후 최소 17명의 미군이 사망했으며, 최근 보도에 따르면 교량, 해수담수화 시설, 전력망 등 민간 기반 시설도 피해를 입었다[fortune.com#1][theguardian.com#3][businessinsider.com#1].",
+      "talking_points[0]": "시장 파급 효과: 유가 상승과 함께 아시아 증시는 하락했으며, 인도 센섹스(Sensex) 지수는 600포인트 이상 하락했고 은행주가 하락세를 주도했다[firstpost.com#1][ndtv.com#1].",
+      "talking_points[1]": "해운 둔화: LSEG 데이터에 따르면 일요일 호르무즈 해협을 통과한 선박은 4척으로, 전날의 8척에서 감소했다[boereport.com#1][bolnews.com#1].",
+      "talking_points[2]": "연료 부족: PVM 오일 어소시에이츠(PVM Oil Associates)는 폭염으로 인한 전력망 수요 증가로 유럽이 완제품 연료 부족에 특히 취약하다고 분석했다[theguardian.com#1]. 모건스탠리는 유럽 내 디젤 공급 부족을 경고했다[theguardian.com#1].",
+      "talking_points[3]": "인플레이션 압력: 원유 가격 상승으로 에너지 비용이 인플레이션을 높게 유지하고 금리 인하를 복잡하게 만들 수 있다는 우려가 되살아났으며, 금 거래자들 또한 미 연방준비제도(Fed)의 금리 인상 가능성을 저울질하고 있다[bloomberg.com#8][japantoday.com#1].",
+      "international_reactions[0]": "🇰🇼 쿠웨이트: 쿠웨이트는 이란의 드론 및 미사일 공격에 대응하고 있다고 밝혔으며, 쿠웨이트 부처는 이틀 사이 두 번째로 전력 및 담수화 플랜트가 타격을 입었다고 전했다[graphic.com.gh#1][euronews.com#1].",
+      "international_reactions[1]": "🇧🇭 바레인: 바레인은 미 해군 제5함대가 주둔하는 지역을 포함해 걸프 지역을 겨냥한 이란의 공격으로 폭발음과 사이렌 소리가 들렸다고 보고했다[irishnews.com#1][euronews.com#1].",
+      "international_reactions[2]": "🇮🇱 이스라엘: 이스라엘은 요르단을 향해 발사된 미사일이 이스라엘 영토로 불길을 번지게 할 수 있다고 경고했다[fortune.com#1][koreatimes.co.kr#1].",
+      "technical_details[0]": "가스오일-브렌트유 크랙 스프레드: 이 정제 마진 스프레드는 원유 대비 가스오일의 프리미엄을 측정한다. PVM은 지난주 이 수치가 배럴당 거의 10달러, 6월 중순 이후로는 거의 25달러 급등했다며, 이는 원유 공급뿐만 아니라 완제품 연료 공급에 스트레스가 있음을 시사한다고 밝혔다[theguardian.com#1].",
+      "technical_details[1]": "초대형 원유 운반선(VLCC) 통행: LSEG 데이터에 따르면 금요일 이후 원유 적재를 위해 호르무즈 해협에 진입한 초대형 원유 운반선은 1척으로, 이는 장거리 수출 물량이 여전히 이 병목 구간을 통과하고 있는지 추적하는 지표로 사용된다[bolnews.com#1].",
+      "travel_advisory[0]": "안전: 주요르단 미국 대사관은 구체적이고 신뢰할 만한 위협으로 인해 미국인들에게 아카바 공항과 항구 이용을 자제할 것을 촉구했다[france24.com#2].",
+      "industry_impact[0]": "항공사: 라이언에어(Ryanair)는 올여름 항공권 가격 하락을 예측했으나, 같은 비즈니스 실시간 보도에서는 브렌트유가 90달러를 넘어서고 유럽의 연료 공급 부족 사태를 추적했다[theguardian.com#1].",
+      "industry_impact[1]": "미국 소비자: 미국 여름 휴가철을 맞아 원유 가격이 상승하면서 일요일 기준 AAA 전국 평균 휘발유 가격은 갤런당 3.998달러를 기록했다[businessinsider.com#2].",
+      "user_action_items[0]": "연료 민감 자산 검토: 항공, 물류, 화학 및 운송 비용 비중이 높은 소비재 기업에 대한 노출도를 확인하고, 최신 공시를 통해 연료 헤징 및 가격 결정력을 비교할 것[common].",
+      "user_action_items[1]": "공식 해상 경보 모니터링: 걸프 지역 내 선박 운항이나 여행 결정 시, 호르무즈 해협 인근으로 선박이나 직원을 보내기 전에 영국 해군 해사무역기구(UKMTO) 및 국가별 권고 사항을 따를 것[malaymail.com#1].",
+      "perspectives[0].text": "ING 분석가들은 브렌트유의 90달러 돌파가 걸프 지역의 지속적인 긴장 고조를 반영한 것이라며, 통제되지 않는 전투가 계속될 경우 걸프 전역에 걸친 대규모 공격 사태로 돌아갈 수 있다고 경고했다.",
+      "perspectives[1].text": "크리스 라이트(Chris Wright) 미국 에너지부 장관은 행정부의 기조가 이란의 원유 흐름 협조를 구하는 것에서 테헤란의 협조 여부와 관계없이 원유, 가스 및 기타 제품이 호르무즈를 통과할 수 있도록 보장하는 것으로 전환되었다고 밝혔다.",
+      "perspectives[2].text": "마크 워너(Mark Warner) 상원의원은 이번 분쟁을 '선택에 의한 전쟁'이라 칭하며, 행정부가 의회에 명확한 전략을 설명하지 못했다고 비판했다.",
+      "perspectives[3].text": "RBC 캐피털 마켓의 헬리마 크로프트(Helima Croft)는 호르무즈 해협 상황이 '정상화와는 거리가 멀다'고 평가했다.",
+      "timeline[0].content": "미국과 이스라엘이 이란을 타격했다[dailysignal.com#1]",
+      "timeline[1].content": "전투 종식을 위한 잠정 합의가 추진되었다[lemonde.fr#1]",
+      "timeline[2].content": "요르단 공격으로 미군 2명이 사망했다[businessinsider.com#1]",
+      "timeline[3].content": "드론 폭발로 미군 1명이 사망했다[businessinsider.com#1]",
+      "timeline[4].content": "9일간의 타격 이후 브렌트유가 90달러를 넘어 거래되었다[brecorder.com#1]",
+      "primary_image.caption": "미 중부사령부가 진행 중인 정밀 타격의 일환이라고 밝힌 가운데, 미군이 이란의 전략적 시설을 타격하고 있다.",
+      "secondary_image.caption": "미 중부사령부가 이란을 겨냥했다고 밝힌 타격 과정에서 미상의 장소에 폭발로 인한 연기가 피어오르고 있다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 9,
+    "translated": 10,
     "failedStoryIds": [
-      {
-        "id": "f814e6b5-22ff-4be3-9b41-ad2f4211dcca",
-        "reason": "retry_exhausted"
-      },
       {
         "id": "0f392ee3-90ec-462f-8a89-33a2c39f4811",
         "reason": "retry_exhausted"
@@ -197,8 +224,8 @@
       }
     ],
     "tokens": {
-      "in": 12514,
-      "out": 15659
+      "in": 14620,
+      "out": 18458
     }
   }
 }
