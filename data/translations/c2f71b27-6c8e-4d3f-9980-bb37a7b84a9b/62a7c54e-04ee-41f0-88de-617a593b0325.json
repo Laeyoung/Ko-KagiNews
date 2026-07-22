@@ -4,7 +4,7 @@
   "categoryUuid": "62a7c54e-04ee-41f0-88de-617a593b0325",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-07-22T14:19:05.602Z",
+  "createdAt": "2026-07-22T15:45:18.958Z",
   "stories": {
     "ae3a16a6-a66c-4785-b368-c635739d8334": {
       "title": "젤렌스키, 시위 여파로 우크라이나군 총사령관 교체",
@@ -268,24 +268,44 @@
       "timeline[2].content": "트럼프 대통령, 미국-레바논 직항 노선 복구 지시 [dw.com#1]",
       "primary_image.caption": "도널드 트럼프 미국 대통령이 화요일 백악관에서 조셉 아운 레바논 대통령과 만나고 있다.",
       "secondary_image.caption": "조셉 아운 레바논 대통령이 2026년 7월 21일 화요일 워싱턴 백악관 오벌 오피스에서 도널드 트럼프 대통령과 회담하며 발언하고 있다."
+    },
+    "6b3b6e39-9af6-4352-9234-36b83e4ca66f": {
+      "title": "헤그세스, 이란 전쟁 비용 375억 달러로 추산",
+      "short_summary": "피트 헤그세스(Pete Hegseth) 미국 국방장관은 화요일 상원 세출위원회에 출석해 이란과의 전쟁에 지금까지 375억 달러가 소요되었으며, 이는 기존 공개 추정치보다 약 80억 달러 많고 9월 30일까지의 예상 비용 일부가 포함된 금액이라고 밝혔다[bbc.co.uk#1][al-monitor.com#1][boereport.com#1][alarabiya.net#1][geo.tv#1]. 헤그세스 장관은 댄 케인(Dan Caine) 합참의장과 함께 수백억 달러 규모의 추가 국방부 예산 증액 요청을 방어하기 위해 출석했으며, 여러 자료에 따르면 중동 작전 관련 예산은 약 670억 달러, 전체 긴급 예산 요청액은 약 870억~876억 달러에 달한다[bbc.co.uk#1][pbs.org#1][theguardian.com#2][airforcetimes.com#1][wcvb.com#1]. 이번 청문회는 11일 연속 이어진 미국의 공습과 이에 대한 이란의 미국 및 동맹국 표적 보복 공격 등 미-이란 간 교전이 재개된 가운데 열렸다[bbc.co.uk#1][dw.com#1][theguardian.com#1][t-online.de#1]. 상원의원들은 행정부의 전략과 자금 필요성에 대해 의문을 제기했으며, 반전 시위대가 헤그세스 장관의 모두발언을 수차례 중단시키기도 했다[boston.com#1][abc7news.com#1][pbs.org#2][coloradopolitics.com#1]. 국방부는 며칠 전 미군 장병 3명이 추가로 사망해 7월 초 이후 사망자가 17명으로 늘었고 부상자는 100명이 넘는다고 발표했다[boston.com#1][abc7news.com#1][pbs.org#2][coloradopolitics.com#1].",
+      "location": "미국 워싱턴 DC",
+      "historical_background": "1973년 제정된 전쟁권한법(War Powers Resolution)은 대통령이 미군을 적대 행위에 투입한 후 의회에 통보하도록 규정하고 있으며, 의회의 승인 없이 군을 배치할 수 있는 한계를 설정하고 있다[common].",
+      "humanitarian_impact": "라이 뉴스(Rai News)에 따르면 이란 보건부는 지난 3주간 미국의 공격으로 50명이 사망하고 500명 이상이 부상당했다고 밝혔다[rainews.it#1]. 또한 라이 뉴스는 이번 분쟁으로 인해 주로 이란과 레바논에서 수천 명이 사망했다고 보도했다[rainews.it#1].",
+      "business_angle_text": "당면한 비즈니스 이슈는 이미 지출된 375억 달러 외에 이번 분쟁이 군수품, 드론, 위성 및 대체 장비에 대해 얼마나 지속적인 수요를 창출할 것인가이다. 추가 예산 요청안에 포함된 군수품, 드론 및 기술 관련 항목은 방산 업체들의 매출 가시성을 높여주지만, 의회의 반대와 전쟁 전략에 대한 의문은 예산 편성의 시기와 규모에 정치적 위험을 초래하고 있다[thenationalnews.com#1][airforcetimes.com#1]. 에너지 민감 기업들은 별도의 위험에 직면해 있다. 알자지라(Al Jazeera)는 무디스 애널리틱스(Moody’s Analytics)의 분석을 인용해 미국 내 에너지 가격 상승분을 고려할 경우 국내 비용이 최대 1,500억 달러에 이를 수 있다고 보도했으며, 유가는 계속 상승하고 있다[aljazeera.com#2][theguardian.com#1]. 연료 및 물류 비중이 높은 기업들은 에너지 가격 상승세가 지속될 경우 마진 압박을 받을 수 있다[common].",
+      "talking_points[0]": "비용 범위: 국방부는 375억 달러라는 수치를 어떻게 산출했는지 공개적으로 상세히 밝히지 않았으며, 로이터 관련 보도에 따르면 3월 추정치에서는 전쟁 초기 6일간 최소 113억 달러가 소요된 것으로 나타났다[boereport.com#1][humenglish.com#1][geo.tv#1].",
+      "talking_points[1]": "미집행 자금: 상원의원들은 국방부가 지난해 예산 조정법에 따라 750억 달러의 미집행 자금을 여전히 보유하고 있다는 점을 들어 긴급 예산 요청에 의문을 제기했으며, 일부 의원들은 추가 자금의 필요성에 대해 회의적인 입장을 표명했다[airforcetimes.com#1].",
+      "talking_points[2]": "격렬한 설전: 청문회는 헤그세스 장관과 게리 피터스(Gary Peters) 상원의원 간의 고성 섞인 말다툼으로 끝났으며, 피터스 의원이 헤그세스 장관을 실패자라고 부르자 헤그세스 장관은 그에게 '트럼프 증후군(Trump Derangement Syndrome)'이 있다고 비난했다[bbc.co.uk#1][thewrap.com#1].",
+      "industry_impact[0]": "방산 업체: 추가 예산 요청안에 포함된 210억 달러 규모의 고성능 미사일 및 군수품과 116억 달러 규모의 드론, 위성 및 기술 예산은 승인될 경우 무기 및 방산 기술 생산 업체들에 대규모 지출이 집중될 것임을 시사한다[thenationalnews.com#1].",
+      "industry_impact[1]": "에너지 시장: 가디언(The Guardian)은 브렌트유가 배럴당 92달러를 넘어섰다고 보도했으며, 실시간 보도를 통해 후티 반군의 행동이 또 다른 해상 요충지에서 사우디아라비아의 원유 수출을 방해할 수 있다는 우려를 제기했다[theguardian.com#1].",
+      "industry_impact[2]": "상업용 해운: CBS 뉴스는 이란이 호르무즈 해협에서 여러 상선을 공격했으며, 이러한 공격을 미-이란 휴전 종료와 연관 지어 보도했다[cbsnews.com#1].",
+      "perspectives[0].text": "피트 헤그세스: 헤그세스 장관은 상원의원들에게 이번 추가 예산 요청이 '시급하고 필수적'이라며, 예산이 확보되지 않으면 국방부가 장병 급여 지급, 장비 및 군수품 보충, 작전 유지에 어려움을 겪을 수 있다고 말했다.",
+      "perspectives[1].text": "패티 머레이(Patty Murray) 상원의원: 머레이 의원은 위원회가 '이 전쟁을 지원하기 위한 예산 요청에 무조건 도장을 찍어주지는 않을 것'이라며, 요청안의 일부는 이란 문제를 넘어선 국방부의 우선순위를 포함하고 있어 정규 예산 절차를 거쳐야 한다고 말했다.",
+      "perspectives[2].text": "리사 머코스키(Lisa Murkowski) 상원의원: 머코스키 의원은 1999년 법무부 법률 의견을 인용하며, 행정부가 추후 추가 예산 승인을 지속적인 적대 행위에 대한 의회의 승인으로 간주할 수 있는지 헤그세스 장관에게 추궁했다.",
+      "timeline[0].content": "미국과 이스라엘의 합동 이란 공습이 시작되었다[humenglish.com#1][jns.org#1][rt.com#1].",
+      "timeline[1].content": "전쟁 초기 6일간 최소 113억 달러가 소요되었다는 추정치가 나왔다[boereport.com#1][humenglish.com#1].",
+      "timeline[2].content": "이전의 공개된 비용 추정치는 약 290억 달러였다[ndtv.com#1][middleeasteye.net#1].",
+      "timeline[3].content": "DW 보도에 따르면 미-이란 휴전이 결렬되었다[dw.com#1].",
+      "timeline[4].content": "헤그세스 장관이 케인 합참의장과 함께 상원 세출위원회에 출석해 증언했다[pbs.org#2][airforcetimes.com#1].",
+      "timeline[5].content": "국방부의 추정치에는 이 날짜까지의 예상 지출액이 포함되어 있다[al-monitor.com#2][alarabiya.net#1].",
+      "primary_image.caption": "피트 헤그세스 국방장관이 2026년 7월 21일 도널드 트럼프 대통령의 국방부 추가 예산 요청과 관련한 상원 세출위원회 청문회에서 증언하고 있다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
+    "translated": 11,
     "failedStoryIds": [
-      {
-        "id": "6b3b6e39-9af6-4352-9234-36b83e4ca66f",
-        "reason": "retry_exhausted"
-      },
       {
         "id": "8c347d2c-b763-4e86-8a0a-1be8e26e97fd",
         "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 18391,
-      "out": 23837
+      "in": 22151,
+      "out": 28653
     }
   }
 }
