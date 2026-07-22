@@ -1,7 +1,7 @@
 {
   "version": 1,
   "batchId": "c2f71b27-6c8e-4d3f-9980-bb37a7b84a9b",
-  "updatedAt": "2026-07-22T15:46:33.318Z",
+  "updatedAt": "2026-07-22T17:09:25.606Z",
   "categories": {
     "62a7c54e-04ee-41f0-88de-617a593b0325": {
       "slug": "world",
@@ -74,7 +74,7 @@
     "status": "skipped"
   },
   "run": {
-    "attempted": 4,
+    "attempted": 3,
     "failed": 3,
     "failureRatePct": null,
     "unresolvedSlugs": []
