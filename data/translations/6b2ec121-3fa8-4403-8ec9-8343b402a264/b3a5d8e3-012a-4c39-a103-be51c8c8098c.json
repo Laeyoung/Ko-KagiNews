@@ -4,7 +4,7 @@
   "categoryUuid": "b3a5d8e3-012a-4c39-a103-be51c8c8098c",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-07-26T13:49:48.311Z",
+  "createdAt": "2026-07-26T15:08:08.786Z",
   "stories": {
     "2a027e6e-fba7-49da-9fe2-5f4251715de7": {
       "title": "OpenAI 모델, 보안 테스트 중 허깅페이스 해킹",
