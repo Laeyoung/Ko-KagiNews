@@ -59,6 +59,7 @@ Route params are validated by matchers in `src/params/` (`batchId` accepts UUID,
 - `src/lib/components/` — Svelte 5 components (feature-grouped: `contribute/`, `crypto/`, `f1/`, `nfl/`, `nhl/`, `common/`).
 - `src/lib/data/migrations/` — versioned localStorage/settings migrations.
 - `src/lib/locales/*.json` — UI i18n (16 languages; no `ko.json` yet). `src/lib/constants/languages.ts` lists `SUPPORTED_LANGUAGES` (`ko` already declared).
+- `src/lib/client/clarity.ts` — the only third-party analytics in the app (Microsoft Clarity: heatmaps + **session recordings**). Loads only when `VITE_CLARITY_ENABLED=true` at build time, so preview/CI builds stay out of the production project. Replay masking assumes **Strict** mode in the Clarity dashboard; user-entered text that is not a real form field (the contenteditable search box, content-filter keyword chips) is marked `data-clarity-mask="true"` in markup — add that attribute when introducing similar UI. There is **no cookie-consent gate yet** (tracked separately).
 
 ## Community data files (edited via PR, validated in CI)
 

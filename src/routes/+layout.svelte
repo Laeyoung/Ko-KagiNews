@@ -80,9 +80,6 @@ $effect(() => {
 });
 
 onMount(async () => {
-	// Analytics (no-op in dev)
-	initClarity();
-
 	// Load all settings from localStorage
 	const isLoggedIn = !!data.session?.loggedIn;
 	loadAllSettings({ isLoggedIn });
@@ -123,6 +120,14 @@ onMount(async () => {
 
 		// Initialize OverlayScrollbars on the body
 		scrollbarsInitializer(document.body);
+	}
+
+	// Analytics goes last and only when the main thread is idle — it must never
+	// compete with hydration or app init. No-op unless VITE_CLARITY_ENABLED=true.
+	if (typeof requestIdleCallback === 'function') {
+		requestIdleCallback(() => initClarity(), { timeout: 3000 });
+	} else {
+		setTimeout(() => initClarity(), 1000);
 	}
 });
 
