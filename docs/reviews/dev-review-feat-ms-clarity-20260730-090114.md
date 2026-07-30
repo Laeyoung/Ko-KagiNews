@@ -1,5 +1,7 @@
 # dev-review report
 
+> **스냅샷 노트 (사후 추가)** — 이 리포트는 커밋 `c342ce8` 시점의 코드를 검토한 결과이며, 본문은 원문 그대로 보존합니다. 이후 `feat/ms-clarity` 브랜치에서 다음 **4건을 제외한 전 항목이 반영**되었습니다: 동의 게이트(CRITICAL), CSP(MAJOR), 레이아웃 배선 테스트(MINOR), 개인정보 고지/PIPA Art.30(MINOR). 따라서 아래의 "수정 미적용", 라인 번호, 그리고 `$env/static/public` / `PUBLIC_CLARITY_PROJECT_ID` 권고(실제 채택은 `VITE_CLARITY_*`)는 현재 코드와 일치하지 않습니다. 미조치 항목의 최신 상태는 PR #6 본문의 "후속 작업" 절을 보세요.
+
 - Branch: feat/ms-clarity ← main
 - Date: 2026-07-30T09:01:14Z
 - Min severity: minor

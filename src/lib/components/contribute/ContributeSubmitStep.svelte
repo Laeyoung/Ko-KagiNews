@@ -122,7 +122,8 @@ async function handleCopy(text: string) {
 						{#if snippet.isNew}
 							<li>{s('contribute.manual.step2New', { fileName: snippet.fileName })}</li>
 						{:else}
-							<li>{s('contribute.manual.step2Existing', { category: activeCategoryName, fileName: snippet.fileName })}</li>
+							<!-- data-clarity-mask: interpolates the user's custom category name. -->
+							<li data-clarity-mask="true">{s('contribute.manual.step2Existing', { category: activeCategoryName, fileName: snippet.fileName })}</li>
 						{/if}
 					{/if}
 					<li>{s('contribute.manual.step3')}</li>
@@ -152,7 +153,10 @@ async function handleCopy(text: string) {
 						{/if}
 					</button>
 				</div>
-				<pre class="bg-primary-100 dark:bg-primary-800 border border-primary-200 rounded-lg p-3 text-xs text-primary font-mono overflow-x-auto overflow-y-auto whitespace-pre-wrap break-all max-h-96">{snippet.content}</pre>
+				<!-- data-clarity-mask: embeds the user's feed URLs and custom category name. -->
+				<pre
+					class="bg-primary-100 dark:bg-primary-800 border border-primary-200 rounded-lg p-3 text-xs text-primary font-mono overflow-x-auto overflow-y-auto whitespace-pre-wrap break-all max-h-96"
+					data-clarity-mask="true">{snippet.content}</pre>
 			</div>
 
 			<!-- Edit on GitHub button -->
@@ -189,7 +193,8 @@ async function handleCopy(text: string) {
 
 	{#if !submitResult || submitResult.type === 'error'}
 		<!-- Summary -->
-		<div class="text-sm text-primary-600 mb-4">
+		<!-- data-clarity-mask: activeCategoryName is the user's typed custom name in 'new' mode. -->
+		<div class="text-sm text-primary-600 mb-4" data-clarity-mask="true">
 			{#if mode === 'new'}
 				{s('contribute.summaryNew', { category: activeCategoryName, count: String(submittableFeeds.length) })}
 			{:else}

@@ -54,6 +54,15 @@ describe('initClarity', () => {
 		expect(scripts).toHaveLength(1);
 		expect(scripts[0].src).toBe(`https://www.clarity.ms/tag/${CLARITY_PROJECT_ID}`);
 		expect(scripts[0].async).toBe(true);
+		expect(document.head.contains(scripts[0])).toBe(true);
+	});
+
+	it('uses an explicitly passed project id', async () => {
+		const { initClarity } = await loadClarity({ projectId: 'fromEnv' });
+
+		initClarity('explicit123');
+
+		expect(clarityScripts()[0].src).toBe('https://www.clarity.ms/tag/explicit123');
 	});
 
 	it('prefers VITE_CLARITY_PROJECT_ID over the built-in default', async () => {
@@ -105,13 +114,16 @@ describe('initClarity', () => {
 		expect(window.clarity?.q?.[0]).toEqual(['set', 'page', 'home']);
 	});
 
-	it('caps the pre-load queue', async () => {
+	it('caps the pre-load queue by dropping new calls, not evicting old ones', async () => {
 		const { initClarity } = await loadClarity();
 
 		initClarity();
 		for (let i = 0; i < 150; i++) window.clarity?.('event', i);
 
 		expect(window.clarity?.q).toHaveLength(100);
+		// FIFO eviction would leave calls 50..149 instead.
+		expect(window.clarity?.q?.[0]).toEqual(['event', 0]);
+		expect(window.clarity?.q?.[99]).toEqual(['event', 99]);
 	});
 
 	it('drops script and stub when the tag fails to load', async () => {
@@ -122,6 +134,42 @@ describe('initClarity', () => {
 
 		expect(clarityScripts()).toHaveLength(0);
 		expect(window.clarity).toBeUndefined();
+	});
+
+	it('leaves the global alone when the tag took over before the error fired', async () => {
+		const { initClarity } = await loadClarity();
+
+		initClarity();
+		// Real ordering: our stub is installed first, then the tag executes and
+		// replaces `window.clarity` with its own implementation. A late error
+		// event must not tear that down. (Setting the global *before*
+		// `initClarity()` would leave `stub` undefined and short-circuit the
+		// identity check instead of exercising it.)
+		const vendor = vi.fn() as unknown as NonNullable<Window['clarity']>;
+		window.clarity = vendor;
+		clarityScripts()[0].dispatchEvent(new Event('error'));
+
+		expect(window.clarity).toBe(vendor);
+	});
+
+	it('leaves a pre-existing vendor global alone when the tag fails to load', async () => {
+		const { initClarity } = await loadClarity();
+		const vendor = vi.fn() as unknown as NonNullable<Window['clarity']>;
+		window.clarity = vendor;
+
+		initClarity();
+		clarityScripts()[0].dispatchEvent(new Event('error'));
+
+		expect(clarityScripts()).toHaveLength(0);
+		expect(window.clarity).toBe(vendor);
+	});
+
+	it('falls back to the default id when VITE_CLARITY_PROJECT_ID is empty', async () => {
+		const { CLARITY_PROJECT_ID, initClarity } = await loadClarity({ projectId: '' });
+
+		initClarity();
+
+		expect(clarityScripts()[0].src).toBe(`https://www.clarity.ms/tag/${CLARITY_PROJECT_ID}`);
 	});
 
 	it('does nothing in dev', async () => {
