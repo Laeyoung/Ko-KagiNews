@@ -1,6 +1,7 @@
 <script lang="ts">
 import { browser } from '$app/environment';
 import { page } from '$app/state';
+import { initClarity } from '$lib/client/clarity';
 import { isRtlLocale } from '$lib/client/rtl-detection';
 import { syncManager } from '$lib/client/sync-manager';
 import '../app.css';
@@ -79,6 +80,9 @@ $effect(() => {
 });
 
 onMount(async () => {
+	// Analytics (no-op in dev)
+	initClarity();
+
 	// Load all settings from localStorage
 	const isLoggedIn = !!data.session?.loggedIn;
 	loadAllSettings({ isLoggedIn });
