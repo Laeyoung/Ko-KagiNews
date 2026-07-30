@@ -4,7 +4,7 @@
   "categoryUuid": "d4549457-4769-4880-bccf-16b47b5b9d74",
   "categorySlug": "ai",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-07-30T12:51:14.485Z",
+  "createdAt": "2026-07-30T13:06:07.330Z",
   "stories": {
     "f4fcc6ee-c2fb-443f-a7ef-9f4e29375765": {
       "title": "AI 개발자들, 검증 가능한 LLM 워크플로우 도구 공개",
