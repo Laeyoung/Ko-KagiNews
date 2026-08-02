@@ -4,7 +4,7 @@
   "categoryUuid": "da7aab54-f130-4dfc-830c-0e362683cbce",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-08-02T15:04:39.144Z",
+  "createdAt": "2026-08-02T16:46:48.922Z",
   "stories": {
     "ebc42985-f989-4b93-8884-9bf1cabecc73": {
       "title": "트럼프 미디어, 10만 달러 상당의 트루스 소셜 데이터 서비스 출시",
@@ -240,20 +240,34 @@
       "timeline[2].content": "Anthropic이 테스트 중 발생한 3건의 Claude 관련 침해 사고를 공개함 [wsvn.com#1][arynews.tv#1].",
       "timeline[3].content": "EU 관계자들이 기업 보고 내용과 향후 가능한 후속 조치를 논의함 [arynews.tv#1].",
       "timeline[4].content": "EU AI 법 의무 사항이 발효됨 [arynews.tv#1]."
+    },
+    "b96344cb-8ef2-4179-9052-13a908f8e6a3": {
+      "title": "은퇴 자문가들, 미국 저축자들의 장수 리스크 경고",
+      "short_summary": "8월 1일과 2일에 발행된 개인 금융 기사들은 미국인의 기대 수명 연장에 따른 은퇴 설계 리스크를 집중 조명했다. 마켓워치(MarketWatch)는 미국 은퇴 시스템이 수명 연장으로 인한 압박에 직면해 있으며, 많은 가구가 재정적으로 준비되지 않은 상태라고 경고했다[marketwatch.com#1]. 관련 기사들은 수십 년간 저축한 자산을 은퇴 후 소비하는 것의 어려움을 다뤘는데, 여기에는 은퇴 자금이 100만 달러 밑으로 떨어지는 것을 두려워하는 75세 독자의 사례가 포함되었다[marketwatch.com#2]. 기사들은 은퇴 설계를 단순히 하나의 저축 목표액으로만 보지 말아야 한다고 강조했다. 고뱅킹레이츠(GOBankingRates)는 75세 이후 예산이 어떻게 변하는지, 부실한 계획과 예상치 못한 비용이 어떻게 은퇴자를 빈곤으로 내몰 수 있는지, 그리고 은퇴가 가까워지는 50세 이후 포트폴리오 조정이 왜 필요한지를 강조했다[gobankingrates.com#1][gobankingrates.com#2][gobankingrates.com#5]. 스톰미디어(Storm Media) 기사는 일본의 재무 설계사 나가오 요시히로(Yoshihiro Nagao)의 주장을 인용하며, 은퇴 준비는 일본에서 널리 회자되는 2,000만 엔과 같은 고정된 목표치가 아니라 가구의 월 소득 부족분에서 시작해야 한다고 지적했다[storm.mg#1].",
+      "did_you_know": "스톰미디어는 일본에서 널리 인용되는 2,000만 엔 은퇴 자금 수치가, 기존의 5만 5,000엔 가정 대신 새로운 월간 부족분 추정치인 약 4만 3,000엔을 적용했을 때 약 1,548만 엔으로 감소했다고 보도했다[storm.mg#1].",
+      "historical_background": "미국 은퇴 설계에서 65세를 표준 은퇴 연령으로 보는 인식은 여전히 일반적이지만, 고뱅킹레이츠는 많은 미국인이 더 일찍 은퇴하기를 원한다고 지적했다[gobankingrates.com#3]. 일본에서는 2019년 금융청 보고서가 30년간 월 5만 5,000엔의 부족분을 가정하여 은퇴자에게 2,000만 엔이 필요하다는 인식을 확산시켰다[storm.mg#1].",
+      "business_angle_text": "기사들은 가구들이 더 길어진 수명에 맞춰 저축을 지속 가능한 소비 계획으로 전환하려 함에 따라 은퇴 소득 상품, 재무 자문, 자산 배분 도구 및 장수 설계 서비스에 대한 수요가 발생하고 있다고 설명했다[marketwatch.com#1][marketwatch.com#2]. 또한 신뢰 및 적합성 리스크도 언급했는데, 스톰미디어는 공포심에 기반한 고비용 변액연금 가입이 가계 재정에 부담을 줄 수 있으며, 조기 해지 시 손실을 초래할 수 있다고 경고했다[storm.mg#1]. 가치 투자자들에게 이 분야는 투명한 가격 책정, 지속적인 자문 관계, 가계 현금 흐름 격차와 연계된 상품을 통해 고령 고객에게 서비스를 제공하는 기업들을 포함한다[common]. 측정 가능한 계획 가치보다는 공포 마케팅에 의존하는 기업들은 시간이 지남에 따라 평판 및 규제 리스크에 직면할 수 있다[common].",
+      "talking_points[0]": "75세 이후 소비: 고뱅킹레이츠는 여행, 교통 및 라이프스타일 관련 지출은 75세 이후 감소하는 경향이 있는 반면, 다른 비용들은 더 큰 예산 항목이 될 수 있다고 보도했다[gobankingrates.com#1].",
+      "talking_points[1]": "조기 은퇴: 고뱅킹레이츠의 한 사례 연구는 60세 은퇴를 목표로 하는 50세 전후의 가상 부부를 모델링하여, 물가 상승과 이를 따라가지 못하는 임금 상승률을 고려한 조기 은퇴의 현실을 조명했다[gobankingrates.com#3].",
+      "talking_points[2]": "베이비붐 세대 물결: 고뱅킹레이츠는 '라이프타임 인컴 연합(Alliance for Lifetime Income)'의 설명을 인용하여 2024년을 '피크 65 존(Peak 65 Zone)'의 시작으로 규정했으며, 2025년 기준 베이비붐 세대의 연령대는 61세에서 79세에 해당한다고 전했다[gobankingrates.com#4].",
+      "business_angle_points[0]": "생애 주기별 예산 수립을 돕는 기업들은 일률적인 저축 목표액을 판매하는 제공업체보다 유리한 위치를 점할 수 있다[gobankingrates.com#1][storm.mg#1].",
+      "business_angle_points[1]": "은퇴 콘텐츠 및 자문 플랫폼은 저축 목표액, 조기 은퇴, 50세 이후 포트폴리오 배분에 대한 높은 검색 수요로부터 혜택을 얻을 수 있다[google.com#1][gobankingrates.com#3][gobankingrates.com#5].",
+      "industry_impact[0]": "재무 자문: 고뱅킹레이츠가 인용한 자문가들은 고정된 저축 임계값이 아닌 맞춤형 은퇴 설계를 강조하며, 단계별 소비, 빈곤 리스크, 50세 이후의 포트폴리오 조정에 집중했다[gobankingrates.com#1][gobankingrates.com#2][gobankingrates.com#5].",
+      "industry_impact[1]": "은퇴 미디어: 구글 뉴스 요약은 24/7 월스트리트(24/7 Wall St.), 배런스(Barron’s), 야후 파이낸스(Yahoo Finance), 더 모틀리 풀(The Motley Fool), AOL.com 등에서 다룬 은퇴 단계, 95세 가정, 120만 달러의 안락한 은퇴 자금, 그리고 25만 달러, 50만 달러, 100만 달러 포트폴리오에서 발생하는 소득에 관한 기사들을 조명했다[google.com#1].",
+      "user_action_items[0]": "75세 이후 지출 검토: 여행이나 교통비처럼 감소할 가능성이 있는 비용과 75세 이후에도 지속되거나 증가할 수 있는 비용을 분리하여 파악해야 한다[gobankingrates.com#1].",
+      "timeline[0].content": "일본 보고서가 2,000만 엔 은퇴 자금 부족설을 대중화했다[storm.mg#1].",
+      "timeline[1].content": "라이프타임 인컴 연합이 '피크 65 존'의 시작을 알렸다[gobankingrates.com#4].",
+      "timeline[2].content": "마켓워치가 미국 은퇴 시스템에 대한 장수 리스크 경고를 발표했다[marketwatch.com#1].",
+      "timeline[3].content": "스톰미디어가 나가오의 부족분 기반 은퇴 공식을 상세히 보도했다[storm.mg#1]."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "b96344cb-8ef2-4179-9052-13a908f8e6a3",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 17409,
-      "out": 22097
+      "in": 22065,
+      "out": 27917
     }
   }
 }
