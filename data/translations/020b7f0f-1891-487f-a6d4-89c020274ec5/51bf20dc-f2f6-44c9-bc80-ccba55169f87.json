@@ -4,7 +4,7 @@
   "categoryUuid": "51bf20dc-f2f6-44c9-bc80-ccba55169f87",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-08-04T14:38:58.781Z",
+  "createdAt": "2026-08-04T16:16:56.679Z",
   "stories": {
     "f7bd0405-60aa-4747-ae27-5df30023082e": {
       "title": "구글 헬스, 버전 5.05에서 애플 헬스 동기화 추가",
