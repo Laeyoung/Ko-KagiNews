@@ -1,7 +1,7 @@
 {
   "version": 1,
   "batchId": "020b7f0f-1891-487f-a6d4-89c020274ec5",
-  "updatedAt": "2026-08-04T12:31:30.903Z",
+  "updatedAt": "2026-08-04T13:09:18.073Z",
   "categories": {
     "ce29a747-2523-414f-9f3d-d694521c8fca": {
       "slug": "usa",
@@ -16,7 +16,7 @@
     },
     "367c264d-0b63-4332-ae90-1fd0f2d98a18": {
       "slug": "ai",
-      "status": "ok",
+      "status": "skipped",
       "storyCount": 12,
       "translated": 12,
       "failed": 0,
@@ -74,7 +74,7 @@
     "status": "skipped"
   },
   "run": {
-    "attempted": 5,
+    "attempted": 4,
     "failed": 4,
     "failureRatePct": null,
     "unresolvedSlugs": []
