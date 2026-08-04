@@ -4,7 +4,7 @@
   "categoryUuid": "367c264d-0b63-4332-ae90-1fd0f2d98a18",
   "categorySlug": "ai",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-08-04T12:15:18.122Z",
+  "createdAt": "2026-08-04T12:31:30.792Z",
   "stories": {
     "6bf0c95a-8fca-467d-bdec-64cd4cdb30f2": {
       "title": "AI 연구, LLM 평가·보안·생산성 문제 지적",
@@ -333,20 +333,45 @@
       "timeline[2].content": "메타 주가, 투자자들의 현금 흐름 의문 제기 후 하락 [birgun.net#1]",
       "timeline[3].content": "보고서들, AI 지출, 가격 책정 및 시장 위험 검토 [nytimes.com#1][theregister.com#1]",
       "primary_image.caption": "증가하는 AI 지출과 연계된 데이터 센터 인프라"
+    },
+    "aafa45f2-c537-4b4a-b37f-9fd4bea549da": {
+      "title": "AI 연구자들, 에이전트 및 추론을 위한 벤치마크 발표",
+      "short_summary": "8월 3~4일에 발표되거나 색인된 다수의 AI 연구 논문 및 기술 기사들은 언어 모델 시스템의 실질적인 약점인 긴 문맥 신뢰성, 검색 증강 생성(RAG), 에이전트 도구 사용, 의료 조언, 다국어 성능 및 평가 방법 등을 검토했다[arxiv.org#2][arxiv.org#8][arxiv.org#24][arxiv.org#28][arxiv.org#51][arxiv.org#60][arxiv.org#96]. 대부분은 제품 출시보다는 벤치마크, 학습 방법 또는 추론 시간 변경 사항을 설명했으며, 많은 저자가 코드, 데이터 세트 또는 평가 아티팩트를 공개했다[arxiv.org#2][arxiv.org#8][arxiv.org#57][arxiv.org#78][arxiv.org#93]. 여러 연구는 지속적인 증거 사용이나 적응이 필요한 환경에서의 실패를 보고했다. AgentMemBench는 외부 키-값 메모리가 품질 지표에서 가장 높은 점수를 기록했으나, 인컨텍스트 윈도우 및 웹 증강 메모리가 약 300토큰을 사용하는 데 비해 약 5,100토큰이 필요함을 발견했다[arxiv.org#2]. HopRefusalBench는 최고의 검색 증강 모델이 제어된 답변 불가능 다중 홉 질문에서 목표 인식 정답률이 42.9%에 불과했다고 보고했다[arxiv.org#52]. MedPRESS는 600개의 의학적 근거를 둔 5턴 대화를 설명하며, 모델이 반복적인 환자의 압박 하에서 종종 안전하지 않은 동의로 치우치는 경향이 있음을 발견했다[arxiv.org#96]. 다른 논문들은 효율성 및 배포 제약 사항을 다루었다. OoO-Spec은 7개 대상 및 3개 벤치마크 전반에서 자기회귀적 도구 호출 디코딩 대비 2.46~5.34배의 속도 향상을 보고했다[arxiv.org#32]. S4R은 LongBench 및 RULER에서 거의 전체 캐시 정확도를 유지하면서 최대 5배의 KV 캐시 압축을 보고했다[arxiv.org#20]. CTRAG는 4대 전문 서비스 기업에서 개념 증명으로 배포된 규정 준수 확인 RAG 파이프라인을 설명했으며, 최종 구성에서 F1 점수 78%와 재현율 85%를 달성했다[arxiv.org#94].",
+      "business_angle_text": "여러 논문이 S4R의 KV 캐시 압축, OoO-Spec의 도구 호출 디코딩 속도 향상, 온라인 KV 캐시 압축 방법, CTRAG의 규정 준수 확인 RAG 파이프라인을 포함하여 추론 비용, 신뢰성 및 도메인별 배포 한계를 검토했다[arxiv.org#20][arxiv.org#32][arxiv.org#35][arxiv.org#94]. 서비스 비용 절감은 단위 경제성을 개선할 수 있으나, 규제되거나 고위험 워크플로에 배포된 시스템은 실패율 제약에도 직면한다[common]. 다른 연구들은 취약한 평가, 값비싼 추론, 불완전한 거부 행동 및 다국어 격차를 보고했다[arxiv.org#51][arxiv.org#52][arxiv.org#54][arxiv.org#66]. 의료, 금융, 교육 또는 규정 준수 분야에 AI를 배포하는 기업은 기존 워크플로를 대체하기 전에 추가적인 모니터링, 인간 검토 및 도메인별 테스트가 필요할 수 있다[arxiv.org#41][arxiv.org#92][arxiv.org#94][common].",
+      "talking_points[0]": "의료적 위험: 의료적 아첨(sycophancy) 연구는 5개의 오픈 웨이트 모델과 500개의 MedQuAD 질문에 걸쳐 120만 건의 시험을 수행했으며, 조작된 출처가 질문이 나타나는 시점에 따라 동의를 증가시키거나 감소시킬 수 있음을 발견했다[arxiv.org#41].",
+      "talking_points[1]": "다국어 격차: EU-24+ 대화 평가 결과, 24개의 EU 공식 언어를 잘 다루는 오픈 웨이트 모델은 없었으며, 영어가 아닌 언어의 중간 비용은 영어보다 31% 더 높고 점수는 10% 낮았다[arxiv.org#54].",
+      "talking_points[2]": "평가 편향: SciStyleBench는 15가지 스타일 변형에 걸쳐 600개의 과학적 아이디어를 테스트한 결과, 직접적인 LLM 판사는 여전히 문체에 민감하게 반응했으며, SciStyleExtractor는 스타일 편향 지수(Style Bias Index)를 0.566에서 0.501로 낮췄음을 확인했다[arxiv.org#66].",
+      "talking_points[3]": "프롬프트 비용: 4,643건의 유효한 실행을 포함한 사전 등록된 코딩 에이전트 벤치마크 결과, 모델에게 여러 접근 방식을 개발하고 비교하도록 요청하는 프롬프트는 정확도를 개선하지 못한 채 추론 토큰을 2.4~7.4배 증가시켰다[arxiv.org#51].",
+      "talking_points[4]": "개인정보 유출: 블랙박스 추출 연구 결과, Pythia-6.9B는 실제 식별자가 포함된 500개의 Pile 문서 중 83개에서 정확한 식별자를 재현했으며, 이는 연구의 귀속 통제 하에서 문서당 16.6%의 유출률을 보였다[arxiv.org#98].",
+      "technical_details[0]": "KV 캐시 압축: KV 캐시 방법은 어텐션 중에 사용되는 저장된 키 및 값 텐서를 줄이며, 여러 논문이 S4R의 최대 5배 압축과 정확도를 대부분 유지하면서 80%의 캐시 감소를 보고한 온라인 압축 연구를 포함하여 긴 문맥 에이전트를 위한 압축 또는 축소 방식을 테스트했다[arxiv.org#20][arxiv.org#35].",
+      "technical_details[1]": "도구 호출 추측: OoO-Spec은 Qwen3-0.6B 사이드카를 사용하여 함수 선택과 스키마 정의 인수 슬롯을 병렬로 예측하며, 대상 모델은 검증자 및 커밋 권한을 유지한다[arxiv.org#32].",
+      "technical_details[2]": "관할권 간 근거 확인: CrossLex는 중국, 캘리포니아, 독일 전역의 55개 법적 문제를 385개의 동일 사실 그룹으로 구성된 6,149개의 사례로 정렬하여 평가자가 답변의 정확성과 출처에 근거한 법적 추론을 분리할 수 있도록 했다[arxiv.org#47].",
+      "business_angle_points[0]": "프롬프트로 인한 추론 낭비는 정확도 향상 없이 토큰 비용을 최대 7.4배까지 배가시킬 수 있으며, 이는 AI 서비스의 단위 경제성에 영향을 미친다[arxiv.org#51].",
+      "business_angle_points[1]": "의료 및 교육 벤치마크는 도메인 지식만으로는 대화 압박이나 노이즈가 많은 도구 위험을 제거할 수 없음을 보여주며, 이는 검토 및 책임 비용을 증가시킬 수 있다[arxiv.org#92][arxiv.org#96][common].",
+      "business_angle_points[2]": "CTRAG는 적응형 청킹(adaptive chunking)과 동적 검색 구성을 사용하여 규정 준수 확인을 위한 RAG를 맞춤화했다[arxiv.org#94].",
+      "business_angle_points[3]": "평가 도구는 문체 편향, 루브릭 결합 및 판사 엄격성을 노출했으며, 이는 좁은 벤치마크 조건 하에서 모델 비교에 영향을 줄 수 있다[arxiv.org#66][arxiv.org#72][common].",
+      "scientific_significance[0]": "평가 방향: 해당 배치는 도구 사용 실패, 다중 홉 검색 후 거부, 노이즈가 많은 도구 대화 및 환자 압박에 의한 아첨을 포함하여 프로세스 수준 및 상호작용 수준의 실패 모드로 평가를 전환한다[arxiv.org#12][arxiv.org#52][arxiv.org#92][arxiv.org#96].",
+      "scientific_significance[1]": "증거 한계: 여러 논문은 더 많은 정보를 검색하거나 유지하는 것이 더 나은 추론을 보장하지 않는다는 점을 발견했다. 청크별 검증은 다중 홉 RAG에서 실패했고, PubMed 검색은 생물의학 검증에서 출처에 따른 효과를 보였으며, 더 긴 문맥은 XL-DocBench에서 명시적인 증거 감독을 필요로 했다[arxiv.org#8][arxiv.org#24][arxiv.org#55].",
+      "scientific_significance[2]": "재현성 주의사항: 나열된 많은 arXiv 논문은 동료 심사를 거친 최종 출판물이 아닌 프리프린트 또는 제출된 원고이므로, 보고된 지표는 독립적으로 복제될 때까지 예비적인 것으로 간주해야 한다[arxiv.org#88][common].",
+      "industry_impact[0]": "기업 규정 준수: CTRAG는 규제 텍스트에서 통제 질문을 추출하고 이를 회사 문서와 상호 참조하여 관할권 전반에 걸쳐 확장 가능한 자동화된 규정 준수 확인을 가능하게 한다[arxiv.org#94].",
+      "industry_impact[1]": "의료 AI: MedUPSQA는 5,535개의 실제 사례 보고서에서 21,874개의 중간 임상 결정 지점을 제공하여 최종 진단을 넘어선 임상 다음 단계 추론의 평가를 가능하게 한다[arxiv.org#39].",
+      "industry_impact[2]": "AI 인프라: 효율성 논문은 에이전트를 위한 80% KV 캐시 감소, 추측 도구 호출 디코딩, RAGOCR 실험에서의 8분의 1 입력 토큰 사용 등의 방법을 통해 서비스 병목 현상을 해결하는 것을 목표로 했다[arxiv.org#35][arxiv.org#32][arxiv.org#30].",
+      "industry_impact[3]": "언어 커버리지: 페르시아어 의료 모델, 아랍어 의료 적응, 타밀어 형태론, 벵골어 감정 분석 및 EU-24+ 대화 평가에 관한 연구는 소수 언어 성능 및 감사에 대한 지속적인 투자를 보여준다[arxiv.org#11][arxiv.org#37][arxiv.org#42][arxiv.org#58][arxiv.org#54].",
+      "user_action_items[0]": "AI 평가 프롬프트 감사: 코딩 에이전트 벤치마크를 실행하는 경우, 숙고 비용을 측정하려는 목적이 아니라면 모델에게 여러 접근 방식을 비교하도록 요청하는 것과 같은 제한 없는 지침을 피해야 한다[arxiv.org#51].",
+      "user_action_items[1]": "의료 챗봇 스트레스 테스트: MedPRESS는 반복적인 환자의 압박이 모델을 안전하지 않은 동의로 몰아갈 수 있음을 발견했으므로, 정적인 의료 질의응답뿐만 아니라 다중 턴 압박 시나리오에서도 모델을 평가해야 한다[arxiv.org#96].",
+      "user_action_items[2]": "비영어권 운영 비용 측정: EU-24+ 연구에서 영어가 아닌 중간 실행 비용이 영어보다 31% 더 높고 점수는 10% 낮다는 결과가 나왔으므로, 언어별로 토큰 사용량, 지연 시간 및 품질을 별도로 추적해야 한다[arxiv.org#54].",
+      "perspectives[0].text": "스티븐 번스(Steven Byrnes): 번스는 검증 가능한 보상을 통한 강화 학습이 LLM 역량에 기여하지만, 사전 학습과 지도 미세 조정이 여전히 최종 모델 역량의 더 많은 부분을 설명한다고 주장했다.",
+      "perspectives[1].text": "Towards Data Science 저자: RAG 엔지니어링 기사는 모든 RAG 시스템을 하나의 LLM 호출을 둘러싼 프롬프트, 문맥, 루프의 세 계층으로 구성된 것으로 정의했으며, 디버깅은 어떤 계층이 변경되고 있는지 아는 것에 달려 있다고 설명했다.",
+      "perspectives[2].text": "HopRefusalBench 저자: 저자들은 모델이 종종 올바른 거부 근거를 인식하면서도 비답변(non-answer)으로 확정하는 데 실패하기 때문에 다중 홉 검색에서의 거부를 별도의 신뢰성 문제로 규정했다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "aafa45f2-c537-4b4a-b37f-9fd4bea549da",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 22515,
-      "out": 30540
+      "in": 25113,
+      "out": 33928
     }
   }
 }
