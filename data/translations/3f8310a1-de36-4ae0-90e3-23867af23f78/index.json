@@ -1,11 +1,11 @@
 {
   "version": 1,
   "batchId": "3f8310a1-de36-4ae0-90e3-23867af23f78",
-  "updatedAt": "2026-08-18T14:37:41.053Z",
+  "updatedAt": "2026-08-18T16:22:06.584Z",
   "categories": {
     "384b8d40-c284-41bb-bde7-d9b0b81d2270": {
       "slug": "tech",
-      "status": "ok",
+      "status": "skipped",
       "storyCount": 12,
       "translated": 12,
       "failed": 0,
@@ -74,7 +74,7 @@
     "status": "skipped"
   },
   "run": {
-    "attempted": 3,
+    "attempted": 2,
     "failed": 2,
     "failureRatePct": null,
     "unresolvedSlugs": []
