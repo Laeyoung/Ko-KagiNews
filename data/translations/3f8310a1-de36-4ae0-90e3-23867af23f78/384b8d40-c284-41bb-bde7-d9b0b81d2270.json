@@ -4,7 +4,7 @@
   "categoryUuid": "384b8d40-c284-41bb-bde7-d9b0b81d2270",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-08-18T13:06:26.536Z",
+  "createdAt": "2026-08-18T14:37:40.728Z",
   "stories": {
     "daaf679d-9550-477f-a92d-2d7abe3485ce": {
       "title": "미국 주 정부들, 아동 안전 문제로 메타 상대 재판 돌입",
@@ -275,20 +275,40 @@
       "timeline[1].content": "NC 월렛 디지털 신분증 설정 시작 예정[macrumors.com#1][engadget.com#1][slashdot.org#1]",
       "timeline[2].content": "애플, 구글, 삼성 월렛 지원 조기 예상[digitaltrends.com#1][macrumors.com#1][engadget.com#1]",
       "primary_image.caption": "아이폰에 표시된 애플 월렛 운전면허증 기능."
+    },
+    "23b16756-c96e-4bb5-afca-0b1a48427d52": {
+      "title": "애플, EU 앱 추적 알림 방식 변경 합의",
+      "short_summary": "독일 연방카르텔청(Bundeskartellamt)이 애플의 앱 추적 투명성(ATT) 동의 알림 시스템이 자사 앱에는 유리하고 타사 개발자 앱에는 불리하게 설계되어 경쟁법을 위반할 가능성이 있다고 판단함에 따라, 애플은 아이폰 및 아이패드 사용자를 위한 해당 알림 방식을 변경하기로 합의했다 [macrumors.com#1][engadget.com#1][macdailynews.com#1][aawsat.com#1][stheadline.com#1]. 당국은 애플의 약속을 법적 구속력이 있는 것으로 확정하고 수년간 이어진 조사를 종결했다 [macobserver.com#1][aawsat.com#1][computerbase.de#1]. 이번 약속에 따라 애플은 동의 알림의 내용, 문구, 레이아웃을 중립적으로 구성해야 하며, 타사 요청 시 잠재적으로 거부감을 줄 수 있는 기호나 문구를 제거해야 한다. 또한 앱 게시자가 데이터 보호법에 따라 요구되는 알림과 애플의 동의 요청을 결합할 수 있도록 더 많은 유연성을 제공해야 한다 [macrumors.com#1][engadget.com#1][pxlnv.com#1][macerkopf.de#1]. 애플은 결정문이 공식 송달된 후 4개월 이내에 이러한 변경 사항을 이행해야 한다. 이 약속은 7년간 유지되며 독립적인 수탁 기관의 감시를 받게 된다 [engadget.com#1][macdailynews.com#1][aawsat.com#1][stheadline.com#1]. 애플은 이번 변경 사항이 거의 모든 EU 국가에 적용될 것이며, 독일 당국의 요청에 따라 동의 알림의 텍스트와 디자인을 조정했다고 밝혔다 [macdailynews.com#1][aawsat.com#1][stheadline.com#1][derstandard.at#1]. 애플은 ATT가 사용자 개인정보를 보호하고 독일 경쟁법을 준수한다고 주장해 온 반면, 광고주와 게시자들은 이 기능이 타겟 광고에 사용되는 데이터 접근을 제한한다고 지적해 왔다 [macrumors.com#1][macdailynews.com#1][aawsat.com#2].",
+      "historical_background": "애플은 2021년 4월 iOS 14.5를 통해 앱 추적 투명성(ATT)을 도입했으며, 앱이 다른 회사의 앱이나 웹사이트에서 사용자를 추적하여 광고에 활용하기 전에 반드시 허가를 받도록 했다 [macrumors.com#1][maclife.de#1][computerworld.dk#1]. 이후 악셀 슈프링어(Axel Springer)를 포함한 독일 게시자들은 애플이 자사 서비스를 우대한다고 연방카르텔청에 불만을 제기했고, 당국은 2022년 경쟁법 절차를 개시했다 [macwelt.de#1][netzpolitik.org#1]. 2023년 연방카르텔청은 애플이 시장 전반에 걸쳐 경쟁에 중요한 영향을 미친다고 판단했으며, 2025년 초에는 ATT 설계에 대한 예비적 우려를 제기했다 [macwelt.de#1][iphone-ticker.de#1].",
+      "business_angle_text": "독일 경쟁 당국은 애플이 iOS 내 ATT 동의 알림 방식을 변경하겠다는 법적 구속력이 있는 약속을 수용함에 따라 사건을 종결했다 [engadget.com#1][macdailynews.com#1][aawsat.com#1]. 애플은 하드웨어, 운영체제, 그리고 사용자와의 앱스토어 관계를 통제하고 있다 [common]. 이번 약속에 따라 애플은 자사 앱과 타사 개발자 앱에 동의 알림을 더욱 균등하게 적용해야 하며, 프랑스와 이탈리아는 앞서 ATT와 관련해 애플에 과징금을 부과한 바 있다 [macdailynews.com#1][stheadline.com#1].",
+      "talking_points[0]": "알림 디자인: 새로운 요청 알림은 추적 허용 또는 거부와 같은 중립적인 선택지를 제공하며, 애플과 타사 알림 모두 동일한 순서로 표시된다 [computerbase.de#1].",
+      "talking_points[1]": "법적 초점: 당국은 애플이 법적 최소 요건을 상회하는 개인정보 보호 조치를 제공하는 것 자체를 금지하기보다는 경쟁법 위반 여부에 초점을 맞춰 사건을 다뤘다 [macerkopf.de#1][iphone-ticker.de#1].",
+      "talking_points[2]": "광고 영향: 더 버지(The Verge)는 앱 추적 투명성 도입 당시 소셜 미디어 앱들이 약 100억 달러의 손실을 입었다는 추정치를 인용했다 [theverge.com#1].",
+      "talking_points[3]": "애플의 입장: 애플은 자사 광고 알림의 구조가 다른 이유는 자사 서비스가 ATT가 통제하고자 하는 타사 간 추적을 수행하지 않기 때문이라고 설명했다 [9to5mac.com#1][iphone-ticker.de#1].",
+      "international_reactions[0]": "🇫🇷 프랑스: 프랑스 규제 당국은 앞서 애플의 앱 추적 투명성 프레임워크와 관련하여 1억 5천만 유로의 과징금을 부과했다 [macdailynews.com#1][stheadline.com#1].",
+      "international_reactions[1]": "🇮🇹 이탈리아: 이탈리아 규제 당국은 동일한 프레임워크와 관련하여 9,860만 유로의 과징금을 부과했다 [macdailynews.com#1][stheadline.com#1].",
+      "international_reactions[2]": "🇪🇺 유럽연합: 애플은 유럽연합 집행위원회와 프랑스, 이탈리아, 폴란드 등 EU 국가들로부터 앱 추적 투명성과 관련하여 유사한 압박을 받아왔다 [macrumors.com#1].",
+      "business_angle_points[0]": "이번 변경은 유럽 내 반독점 리스크를 줄이고, 애플이 자사 광고 제품과 타사 광고 네트워크를 차별화하기 위해 개인정보 보호 알림을 설계하는 방식을 제한한다 [macdailynews.com#1][aawsat.com#1].",
+      "business_angle_points[1]": "개인 맞춤형 광고에 의존하는 개발자와 게시자들은 사용자가 결정하기 전에 자신의 비즈니스 모델을 설명할 수 있는 더 많은 여지를 얻게 되며, 이는 동의율과 광고 수익에 영향을 미칠 수 있다 [macrumors.com#1][pxlnv.com#1][macerkopf.de#1].",
+      "business_angle_points[2]": "법적 구속력이 있는 약속과 감시 기간으로 인해 애플은 7년간 규정을 준수해야 하며, 이는 ATT가 유럽에서 지속적인 규제 의무가 됨을 의미한다 [engadget.com#1][computerbase.de#1][common].",
+      "perspectives[0].text": "독일 광고 및 미디어 그룹: 독일 광고 및 미디어 협회들은 애플이 자사 서비스에 특혜를 주고 있다고 판단하여 연방카르텔청에 불만을 제기했다.",
+      "perspectives[1].text": "디지털 권리 비평가: 네츠폴리티크(Netzpolitik)는 이번 변경으로 인해 타사들이 추적과 개인 맞춤형 광고의 필요성을 주장할 공간이 넓어짐에 따라, 사용자에게 동의 요청이 더 길고 복잡해질 것이라고 보도했다.",
+      "timeline[0].content": "애플, iOS 14.5와 함께 ATT 도입 [macrumors.com#1][maclife.de#1].",
+      "timeline[1].content": "연방카르텔청, ATT에 대한 경쟁법 절차 개시 [netzpolitik.org#1].",
+      "timeline[2].content": "연방카르텔청, 애플이 시장 전반에 걸쳐 경쟁에 중요한 영향을 미친다고 판단 [macwelt.de#1].",
+      "timeline[3].content": "가능한 iOS 변경 사항에 대한 시장 테스트 시작 [macwelt.de#1].",
+      "timeline[4].content": "독일 당국, 애플의 법적 구속력이 있는 약속 수용 [macobserver.com#1][computerbase.de#1].",
+      "primary_image.caption": "애플의 앱 추적 투명성 기능과 관련된 아이폰 앱 추적 알림 예시.",
+      "secondary_image.caption": "애플의 추적 알림에 대한 독일 당국의 결정 보도에 사용된 스마트폰 이미지."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "23b16756-c96e-4bb5-afca-0b1a48427d52",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 20759,
-      "out": 26510
+      "in": 22639,
+      "out": 28859
     }
   }
 }
