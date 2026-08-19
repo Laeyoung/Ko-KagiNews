@@ -4,7 +4,7 @@
   "categoryUuid": "09061053-7f14-49bf-81bf-6337c184ddb9",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-08-19T12:05:15.640Z",
+  "createdAt": "2026-08-19T13:03:27.844Z",
   "stories": {
     "14747db1-0c04-4aeb-9cef-f0eeb688f0dc": {
       "title": "트럼프, 캐나다산 관세 50% 부과 3일간 유예",
@@ -299,20 +299,40 @@
       "timeline[3].content": "오프젬이 10월~12월 적용될 상한선 수준을 발표할 예정이다[irishnews.com#2].",
       "primary_image.caption": "공식 통계에 따르면 이란 전쟁으로 인한 에너지 가격 급등으로 영국 물가상승률이 지난 3월 이후 최고치로 치솟았다.",
       "secondary_image.caption": "에너지 가격 상승으로 인해 영국 물가상승률이 급등할 것으로 예상된다."
+    },
+    "88a8e1ee-db4c-49ce-9f64-3571b39be798": {
+      "title": "글로벌 채권 매도세에 차입 비용 2007년 이후 최고치 기록",
+      "short_summary": "주요 경제국들의 장기 국채 차입 비용이 상승한 가운데, 화요일 미국 30년 만기 국채 금리가 2007년 이후 최고치인 5.33%~5.34%를 기록했다 [bbc.co.uk#1][euronews.com#1][theguardian.com#1][eleconomista.com.mx#1][krdo.com#1]. 영국 장기 국채 금리는 약 5.85%에 도달했으며, 독일, 프랑스, 일본 또한 투자자들이 장기 채권을 매도하면서 수년 만에 최고치를 기록했다 [bbc.co.uk#1][euronews.com#1][huxiu.com#1][etoday.co.kr#1][delfi.lv#1]. 투자자들은 인플레이션 우려 재점화, 높은 공공 부채, 인공지능(AI) 투자와 관련된 막대한 자금 조달 수요로 인해 더 높은 수익률을 요구했다 [ft.com#1][nytimes.com#1][bbc.co.uk#1][huxiu.com#1][web.nhk#1]. 이란과 호르무즈 해협을 둘러싼 긴장이 고조되면서 브렌트유 가격은 배럴당 90달러를 넘어 91달러에 육박했다 [bbc.co.uk#1][euronews.com#1][theguardian.com#1][myjoyonline.com#1].",
+      "historical_background": "미국 30년 만기 국채 금리가 이 수준에서 거래된 것은 미국 주택 시장의 위기가 금융 시스템 전반으로 확산되었던 2007~2008년 글로벌 금융 위기 이전이 마지막이었다 [common][eleconomista.com.mx#1].",
+      "business_angle_text": "장기 금리 상승은 잦은 차환, 장기 프로젝트, 또는 부채를 통한 AI 인프라 구축에 의존하는 기업들의 자금 조달 문턱을 높인다. 재무 구조가 탄탄하고 안정적인 잉여 현금 흐름을 창출하는 기업들은 레버리지가 높은 차입자들에 비해 차환 위험이 적다 [huxiu.com#1][ltn.com.tw#1][common]. 또한 국채 금리 상승은 투자자들이 국채를 통해 더 높은 수익을 얻을 수 있게 됨에 따라 주식 시장과 직접적인 경쟁 관계를 형성한다 [common]. 이번 매도세는 레버리지가 높은 기업, 주택 담보 대출에 민감한 부문, 자본 집약적인 기술 인프라 계획에 영향을 미치고 있으며, 전문가들은 정부 재정 적자, 유가 상승으로 인한 인플레이션 위험, AI 관련 채권 발행을 동시다발적인 원인으로 지목했다 [bbc.co.uk#1][huxiu.com#1][web.nhk#1].",
+      "talking_points[0]": "소비자 신용: 채권 금리는 주택 담보 대출, 자동차 대출, 신용카드 및 기업 차입에 영향을 미치므로, 금리 상승은 가계와 기업의 자금 조달 비용을 증가시킬 수 있다 [bbc.co.uk#1][krdo.com#1].",
+      "talking_points[1]": "ECB 금리 전망: 유로뉴스(Euronews)가 인용한 트레이딩 이코노믹스(Trading Economics) 데이터에 따르면, 투자자들은 유럽중앙은행(ECB)이 9월에 금리를 인상할 확률을 90%로 가격에 반영했으며, 예금 금리는 현재 2.25%에서 2027년 3월 2.76%가 될 것으로 예상된다 [euronews.com#1].",
+      "talking_points[2]": "AI 채권 발행: 후슈(Huxiu)가 인용한 골드만삭스(Goldman Sachs) 수치에 따르면, 올해 AI 관련 채권 발행액은 4,890억 달러로, 기존 연간 전망치인 3,220억 달러를 상회했다 [huxiu.com#1].",
+      "talking_points[3]": "미국 부채: 이번 회계연도 들어 미국의 공공 부채 이자 비용은 15% 증가한 1조 1,700억 달러에 달했으며, 연간 재정 적자는 2조 달러에 육박하고 총 국가 부채는 40조 달러에 근접했다 [huxiu.com#1].",
+      "technical_details[0]": "기간 프리미엄: 바클레이즈(Barclays)는 지난 10년간 매수자 기반의 변화로 인해 미국 30년 만기 국채의 기간 프리미엄이 약 90bp(베이시스 포인트) 상승했다고 추정했다 [huxiu.com#1].",
+      "technical_details[1]": "실질 금리: 후슈(Huxiu)는 주요 시장의 장기 기대 인플레이션율(breakeven inflation rates)이 비교적 안정적으로 유지되었으며, 이는 이번 매도세가 인플레이션 보상보다는 실질 금리에 의해 주도되었음을 시사한다고 보도했다 [huxiu.com#1].",
+      "technical_details[2]": "듀레이션 공급: BMO 캐피털 마켓(BMO Capital Markets)은 기록적인 수준의 회사채 발행이 미국 채권 시장의 듀레이션 공급을 증가시켜 금리 수준, 수익률 곡선 형태, 기간 프리미엄에 영향을 미치고 있다고 밝혔다 [ltn.com.tw#1].",
+      "business_angle_points[0]": "기업들은 AI 투자를 위해 기록적인 규모의 채권을 발행함에 따라 AI 인프라 지출에 대해 더 엄격한 수익성 검증에 직면할 수 있다 [huxiu.com#1].",
+      "industry_impact[0]": "기술 금융: AI 투자로 인한 자본 수요가 증가하면서 올해 미국 회사채 발행액은 작년 동기 대비 27% 증가한 약 1조 7,000억 달러에 달했다 [ltn.com.tw#1].",
+      "industry_impact[1]": "국채 발행: 영국은 장기 자금 조달 비용 상승에 직면함에 따라 계획된 대부분의 장기 국채(gilt) 발행을 일시 중단하고 단기물 발행으로 전환했다 [huxiu.com#1].",
+      "industry_impact[2]": "한국 채권: 한국의 30년 및 50년 만기 국채 금리는 미국 금리 및 유가 상승의 영향으로 각각 4.751%와 4.661%를 기록하며 사상 최고치를 경신했다 [yna.co.kr#1].",
+      "perspectives[0].text": "골드만삭스 트레이딩 데스크의 리치 프리보로츠키(Rich Privorotsky)는 채권 공급 압력이 연방준비제도(Fed)로 하여금 경제 데이터가 약화되더라도 수익률 곡선을 평탄화하고 장기 금리를 다시 고정하기 위해 금리를 인상하게 만들 수 있다고 적었다.",
+      "perspectives[1].text": "바클레이즈 캐피털(Barclays Capital)의 안슐 프라단(Anshul Pradhan)은 장기 금리에 대한 압력이 점진적으로 형성되었으며, 여러 경제 지표가 둔화되는 상황에서도 이를 압도할 만큼 강력하다고 말했다.",
+      "perspectives[2].text": "TCW의 제이미 패튼(Jamie Patton)은 미래 인플레이션 불확실성이 증가했기 때문에 투자자들이 30년 만기 명목 채권에 자금을 투입하기 위해서는 추가적인 보상이 필요하다고 말했다.",
+      "perspectives[3].text": "야데니 리서치(Yardeni Research)의 에드 야데니(Ed Yardeni) 전략팀은 현재 공황 상태는 아니지만, '채권 자경단(bond vigilantes)'이 공황 상태에 빠질지 여부를 주시하고 있다고 밝혔다.",
+      "timeline[0].content": "미국과 이스라엘의 이란 폭격 이후 10년 만기 국채 금리가 상승했다 [eleconomista.com.mx#1].",
+      "timeline[1].content": "미국 30년 만기 국채 금리가 약 40bp 상승하기 시작했다 [huxiu.com#1][ltn.com.tw#1].",
+      "timeline[2].content": "미국 30년 만기 국채 금리가 약 5.33%~5.34% 수준에 도달했다 [bbc.co.uk#1][krdo.com#1].",
+      "primary_image.caption": "워싱턴에 위치한 미국 재무부 건물."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "88a8e1ee-db4c-49ce-9f64-3571b39be798",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 21032,
-      "out": 27418
+      "in": 24738,
+      "out": 32163
     }
   }
 }
