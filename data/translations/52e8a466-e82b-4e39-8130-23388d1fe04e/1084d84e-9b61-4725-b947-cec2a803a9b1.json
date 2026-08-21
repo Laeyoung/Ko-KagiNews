@@ -4,7 +4,7 @@
   "categoryUuid": "1084d84e-9b61-4725-b947-cec2a803a9b1",
   "categorySlug": "ai",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-08-21T14:41:42.545Z",
+  "createdAt": "2026-08-21T16:25:06.405Z",
   "stories": {
     "bcca700f-fbd3-42da-9c00-c28c567918d8": {
       "title": "AI 연구, 에이전트의 안전성·메모리·비용을 탐구하다",
