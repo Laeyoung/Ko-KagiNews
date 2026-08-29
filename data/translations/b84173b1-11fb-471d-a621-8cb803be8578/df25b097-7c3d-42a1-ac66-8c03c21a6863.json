@@ -4,7 +4,7 @@
   "categoryUuid": "df25b097-7c3d-42a1-ac66-8c03c21a6863",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-08-29T15:45:46.991Z",
+  "createdAt": "2026-08-29T16:40:59.991Z",
   "stories": {
     "c9d9dbec-1880-4ccf-a13a-c66916664ef4": {
       "title": "미 법원, 앤스로픽에 대한 펜타곤의 블랙리스트 지정 차단",
@@ -253,20 +253,36 @@
       "timeline[3].content": "탄니엔(Thanh Nien), 울트라 CAD 렌더링 변경 사항 요약 [thanhnien.vn#1]",
       "primary_image.caption": "루머 속 갤럭시 S27 프로와 갤럭시 S27 울트라의 유출 렌더링 비교.",
       "secondary_image.caption": "갤럭시 S27 울트라의 더 부드러워진 프레임을 보여주는 유출 비교 이미지."
+    },
+    "ec4262a4-21ff-49aa-bfb9-8ba0ef43c958": {
+      "title": "항소법원, 네바다주의 칼시(Kalshi) 스포츠 계약 규제 허용",
+      "short_summary": "미국 제9연방항소법원은 8월 28일, 네바다주가 칼시의 스포츠 관련 이벤트 계약에 대해 주 도박법을 집행할 수 있다고 판결하며, 연방 상품 규제만으로 운영을 지속하려던 해당 기업의 시도를 기각했다[nytimes.com#1][arstechnica.com#1][cbsnews.com#1][thenevadaindependent.com#1][cnbc.com#1]. 3명의 판사로 구성된 재판부는 만장일치로 해당 계약들이 연방 규제를 받는 스왑(swap)이 아닌 스포츠 도박이라고 판단했으며, 네바다주 게임 규제 당국이 칼시를 상대로 조치를 취하지 못하도록 막았던 하급심의 가처분 명령을 파기하는 판결을 확정했다[arstechnica.com#1][mashable.com#1][cbsnews.com#1][crypto.news#1]. 칼시는 자신들이 상품선물거래위원회(CFTC)의 규제를 받는 지정계약시장(DCM)으로서 해당 상품에 대해 CFTC의 독점적 권한이 있다고 주장했으나, 라이언 넬슨(Ryan Nelson) 판사는 상품거래법(Commodity Exchange Act)이 스포츠 계약에 대한 네바다주의 도박법 적용을 우선하지 않는다고 판시했다[cbsnews.com#1][thenevadaindependent.com#1][crypto.news#1]. 이번 판결은 칼시의 연방 규제 우선 주장을 지지했던 지난 4월 제3연방항소법원의 결정과 배치되며, 연방 규제 당국은 이러한 판결의 엇갈림으로 인해 대법원의 최종 판단이 필요해졌다고 밝혔다[nytimes.com#1][cbsnews.com#1][coindesk.com#1][cnbc.com#1]. 트럼프 행정부는 예측 시장이 연방 규제를 받는 금융 거래소로 운영되는 것을 지지해 온 반면, 주 당국자들은 스포츠 이벤트 계약이 주 도박법과 세법을 따라야 한다고 주장해 왔다[arstechnica.com#1][krdo.com#1]. 칼시의 대변인 대니 레버(Dani Lever)는 회사가 여전히 CFTC 규정이 스포츠 계약을 금지하지 않는다고 믿고 있으며 추가적인 검토를 요청할 것이라고 밝혔다[slashdot.org#1].",
+      "quote": "칼시의 지정계약시장에서 제공되는 스포츠 이벤트 계약의 본질은 칼시가 이를 스왑이라 부르는지 여부와 관계없이 스포츠 도박이다",
+      "quote_attribution": "매셔블(Mashable)",
+      "historical_background": "상품거래법은 1936년에 제정되어 상품 선물 거래를 규제하며, 칼시가 네바다주와의 분쟁에서 근거로 삼은 연방 법적 틀을 마련했다[cbsnews.com#1]. 2018년 미국 대법원 판결은 주 정부에 스포츠 도박을 규제할 권한을 부여했으며, 네바다주는 이를 근거로 스포츠 이벤트 계약에 대한 자사의 감독권을 방어했다[thenevadaindependent.com#1]. 마이크 드레이처(Mike Dreitzer) 네바다주 게임통제위원회 위원장은 네바다주가 70년 넘게 스포츠 도박을 규제해 왔다고 언급했다[thenevadaindependent.com#1].",
+      "business_angle_text": "이번 판결로 인해 대법원이 제9연방항소법원의 논리를 뒤집지 않는 한, 스포츠 중심의 예측 시장들은 주 정부의 면허를 취득하고 주 세법을 준수하며 도박법 통제를 따라야 할 가능성이 커졌다[cbsnews.com#1][thenevadaindependent.com#1][cnbc.com#1]. 면허를 보유한 스포츠북 운영사들은 이미 주 정부의 면허 시스템 하에서 운영되고 있다. 드래프트킹스(DraftKings)와 플러터 엔터테인먼트(Flutter Entertainment)의 주가는 투자자들이 이번 판결을 주 면허 없이 스포츠 베팅 시장으로 확장하려는 예측 시장 경쟁자들에 대한 제동으로 해석하면서 상승했다[beijingtimes.com#1].",
+      "talking_points[0]": "마케팅 증거: 재판부는 칼시가 자사 상품이 스포츠 도박이 아니라는 주장을 기각하면서, 칼시 스스로가 자사를 “50개 주 전체에서 합법적인 스포츠 베팅을 위한 첫 번째 앱”이라고 광고한 점을 인용했다[arstechnica.com#1][mashable.com#1][slashdot.org#1].",
+      "talking_points[1]": "선거 계약: 칼시의 선거 관련 계약에 대한 네바다주의 이의 제기는 제9연방항소법원의 스포츠 계약 판결로 해결되는 것이 아니라 지방법원으로 환송될 예정이다[crypto.news#1].",
+      "talking_points[2]": "더 넓은 피고들: 네바다주 규제 당국은 이번 판결이 크립토닷컴(Crypto.com)과 로빈후드(Robinhood)가 제공하는 스포츠 이벤트 계약과 관련된 유사한 우선 적용 주장 또한 기각했다고 밝혔다[arstechnica.com#1][8newsnow.com#1][coingape.com#1].",
+      "technical_details[0]": "스포츠 결과 구분: 재판부는 스포츠 이벤트 발생 여부에 대한 계약과 어느 팀이 승리할지에 대한 계약을 구분하여, 후자를 이벤트 발생 스왑이 아닌 결과 내기(outcome wager)로 취급했다[crypto.news#1].",
+      "technical_details[1]": "지정계약시장: 칼시의 거래는 CFTC 규제를 받는 지정계약시장에서 이루어졌으나, 재판부는 해당 계약들이 위험 헤지나 이전이 아닌 스포츠 이벤트 결과에 대한 내기를 포함하고 있기 때문에 스왑이 아니라고 판단했다[crypto.news#1].",
+      "technical_details[2]": "CFTC의 게임 금지: 재판부는 또한 CFTC 규정이 현재 예측 시장에서 게임과 관련된 계약 제공을 금지하고 있다는 점을 지적하며, 해당 스포츠 계약이 승인된 스왑이 아니라는 결론을 뒷받침했다[thenevadaindependent.com#1].",
+      "industry_impact[0]": "예측 시장: 칼시, 폴리마켓(Polymarket), 크립토닷컴, 로빈후드를 포함한 플랫폼들은 스포츠, 선거 및 기타 결과와 연계된 이벤트 계약에 대해 주 정부의 강화된 감시를 받게 되었다[krdo.com#1][arstechnica.com#1][8newsnow.com#1].",
+      "perspectives[0].text": "네바다주 게임통제위원회: 위원회는 제9연방항소법원이 연방 상품거래법이 네바다주의 도박법을 스포츠 이벤트 계약에 적용하는 것을 막는다는 주장을 “단호하게 기각(emphatically reject[ed])”했다고 밝혔다.",
+      "perspectives[1].text": "더스틴 고커(Dustin Gouker): 독립 예측 산업 전문 기자는 이번 판결을 칼시에 불리한 최초의 항소심 판결로 평가하며, 이번 분쟁이 대법원 사건으로 이어질 가능성이 높아졌다고 말했다.",
+      "timeline[0].content": "네바다주가 칼시에 중단 명령 서한을 발송했다[mashable.com#1].",
+      "timeline[1].content": "제3연방항소법원이 칼시의 손을 들어주는 다른 결론을 내렸다[cbsnews.com#1].",
+      "timeline[2].content": "제9연방항소법원이 네바다주가 스포츠 계약에 대해 자국 법을 집행할 수 있도록 허용했다[crypto.news#1].",
+      "primary_image.caption": "2026년 3월 19일 목요일, 워싱턴 DC의 버스 정류장에 게시된 칼시 광고."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "ec4262a4-21ff-49aa-bfb9-8ba0ef43c958",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 18294,
-      "out": 22989
+      "in": 21662,
+      "out": 27182
     }
   }
 }
