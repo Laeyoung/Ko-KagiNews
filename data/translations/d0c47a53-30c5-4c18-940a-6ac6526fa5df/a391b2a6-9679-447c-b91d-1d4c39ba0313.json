@@ -4,7 +4,7 @@
   "categoryUuid": "a391b2a6-9679-447c-b91d-1d4c39ba0313",
   "categorySlug": "ai",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-03T14:32:00.463Z",
+  "createdAt": "2026-09-03T14:46:32.182Z",
   "stories": {
     "b1f4e0dc-686f-4d85-80b1-a45d988985ad": {
       "title": "AI 연구진, 더 안전한 언어 모델을 위한 벤치마크 발표",
@@ -281,20 +281,31 @@
       "timeline[3].content": "앤스로픽, 엔터프라이즈 프런티어 세이프가드 단계적 도입 계획[testingcatalog.com#1].",
       "primary_image.caption": "클로드 페이블 및 미토스 5.1 보도와 함께 제공된 벤치마크 그래픽.",
       "secondary_image.caption": "클로드 페이블 5.1 및 미토스 5.1에 대한 카날테크(Canaltech)의 보도에 사용된 이미지."
+    },
+    "b49a903f-6e62-44c3-a113-b60ac963c69e": {
+      "title": "AI 스타트업 원더풀(Wonderful), 5억 5천만 달러 규모 시리즈 C 투자 유치",
+      "short_summary": "이스라엘-네덜란드 합작 엔터프라이즈 AI 스타트업 원더풀이 50억 달러의 기업 가치를 인정받으며 5억 5천만 달러 규모의 시리즈 C 투자를 유치했다. 이는 약 6개월 전 투자 당시 기록한 20억 달러의 기업 가치에서 두 배 이상 증가한 수치다 [techcrunch.com#1]. 이번 라운드는 인사이트 파트너스(Insight Partners)가 주도했으며, 세일즈포스(Salesforce)가 신규 투자자로 합류했고 인덱스 벤처스(Index Ventures), IVP, 바인 벤처스(Vine Ventures), 9야즈(9Yards), 베세머 벤처 파트너스(Bessemer Venture Partners)가 재참여했다 [testingcatalog.com#1][techcrunch.com#1][netokracija.com#1][nedeljnik.rs#1]. 이 회사는 음성, 채팅, 이메일, 인앱 채널 전반의 고객 상담과 내부 시스템 내 직원 요청, 데이터 조정 및 프로세스 추진 등 백오피스 업무를 사람의 개입 없이 처리하는 엔터프라이즈 AI 에이전트 플랫폼을 판매한다 [testingcatalog.com#1]. 원더풀은 2025년 초 출범 이후 35개 이상의 시장 및 국가에서 운영 중이며, 고객 서비스 에이전트에서 에이전트, 워크플로우, AI 애플리케이션, 기업 데이터 및 통합을 조정하도록 설계된 더 광범위한 '원더풀 AI OS'로 확장했다고 밝혔다 [techcrunch.com#1][netokracija.com#1][nedeljnik.rs#1]. 원더풀은 이번 투자금을 현지 시장 배포, 통합, 규정 준수 검토 및 지속적인 튜닝을 포함해 고객 환경 내부에서 작업하는 풀스택 엔지니어링 팀을 위해 사용할 계획이다 [testingcatalog.com#1][techcrunch.com#1]. 네토크라치아(Netokracija)와 네델리니크(Nedeljnik)가 인용한 회사 성명에 따르면, 원더풀은 2026년 3월 시리즈 B 이후 650명 이상의 직원 규모로 성장했다 [netokracija.com#1][nedeljnik.rs#1].",
+      "historical_background": "원더풀은 2025년 초 설립되었으며, 비영어권 시장에 최적화된 고객 서비스 AI 에이전트로 초기 시장 점유율을 확보했다 [techcrunch.com#1].",
+      "business_angle_text": "원더풀은 고객 환경에 내재된 풀스택 엔지니어링 팀에 의존하면서 50억 달러의 기업 가치로 투자를 유치했다. 회사 측은 해당 팀들이 현지 시장 배포, 통합, 규정 준수 검토 및 지속적인 튜닝을 담당한다고 설명한다 [testingcatalog.com#1][techcrunch.com#1]. 또한 원더풀은 고객이 구축한 결과물에 대한 소유권을 유지할 수 있으며, 단일 공급업체를 사용하는 대신 워크로드별로 모델을 선택할 수 있다고 밝혔다. 회사는 자사의 AI OS가 에이전트, 워크플로우, AI 애플리케이션, 기업 데이터 및 통합을 연결한다고 강조한다 [techcrunch.com#1][nedeljnik.rs#1][common].",
+      "technical_details[0]": "모델 애그노스틱(Model-agnostic) 오케스트레이션: 원더풀은 자사의 AI OS가 모든 AI 모델 및 기존 기술 스택과 호환되며, 기업이 단일 공급업체에 의존하는 대신 워크로드에 따라 서로 다른 모델을 선택할 수 있도록 지원한다고 밝혔다 [techcrunch.com#1][nedeljnik.rs#1].",
+      "technical_details[1]": "감사 추적: 이 플랫폼은 에이전트 작업에 대한 전체 추론 과정을 기록하여, 고객이 감사 시 에이전트가 무엇을 왜 수행했는지 검토할 수 있도록 한다 [testingcatalog.com#1].",
+      "technical_details[2]": "API 및 MCP 통합: 팀은 API나 MCP를 통해 에이전트를 기록 시스템에 연결한 다음, 출시 전 변형 모델들을 나란히 놓고 테스트할 수 있다 [testingcatalog.com#1].",
+      "perspectives[0].text": "바 윙클러(Bar Winkler) 원더풀 CEO는 기업이 의존할수록 가치가 커지는 공통 AI 기반이 필요하다고 언급하며, AI 운영 체제를 기업 인프라로서의 클라우드 플랫폼에 비유했다.",
+      "perspectives[1].text": "로이 라라자르(Roey Lalazar) 원더풀 CTO는 고객 통제권을 강조하며, 기업이 플랫폼의 일부를 선택적으로 도입하고 기존 시스템을 통합하며 워크로드별로 모델을 선택하고 구축한 결과물에 대한 소유권을 유지할 수 있다고 말했다.",
+      "perspectives[2].text": "원더풀은 엔터프라이즈 AI 데모를 실제 운영 시스템으로 전환하려면 핵심 시스템 통합, 현지화, 규정 준수 점검 및 지속적인 튜닝이 필수적이라고 밝혔다.",
+      "timeline[0].content": "원더풀, 바 윙클러와 로이 라라자르가 공동 창업 [netokracija.com#1]",
+      "timeline[1].content": "시리즈 B 투자 유치, 원더풀 기업 가치 20억 달러 평가 [techcrunch.com#1]",
+      "timeline[2].content": "시리즈 C 투자 완료, 기업 가치 50억 달러 기록 [testingcatalog.com#1][techcrunch.com#1]",
+      "primary_image.caption": "원더풀 공동 창업자 바 윙클러와 로이 라라자르."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "b49a903f-6e62-44c3-a113-b60ac963c69e",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 19577,
-      "out": 26144
+      "in": 20824,
+      "out": 27702
     }
   }
 }
