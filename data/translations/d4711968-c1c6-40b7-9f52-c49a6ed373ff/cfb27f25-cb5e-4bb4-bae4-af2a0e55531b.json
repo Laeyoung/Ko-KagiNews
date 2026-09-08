@@ -4,7 +4,7 @@
   "categoryUuid": "cfb27f25-cb5e-4bb4-bae4-af2a0e55531b",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-08T14:26:53.080Z",
+  "createdAt": "2026-09-08T14:46:20.541Z",
   "stories": {
     "5e0e4ed8-f67b-4df3-9224-6e131fc1ce80": {
       "title": "캐나다, 미국산 제품에 200억 달러 규모 관세 부과",
@@ -301,20 +301,38 @@
       "timeline[1].content": "고용항소심판소, 기본급 관련 판결 뒤집음 [bbc.co.uk#1][theguardian.com#1]",
       "timeline[2].content": "리 데이, 이번 결정에 항소할 것이라고 밝힘 [bbc.co.uk#1]",
       "primary_image.caption": "넥스트의 동일 임금 항소 관련 보도에 사용된 넥스트 매장 사진."
+    },
+    "8b645585-d230-48a8-90ea-e5241f9fda34": {
+      "title": "중국, 은행 및 보험사에 540억 달러 투입",
+      "short_summary": "중국 재무부가 8개 국영 은행 및 보험사에 3,600억 위안(536억 달러, 461억 유로) 규모의 자본을 투입한다고 일요일 발표된 기업 공시와 신화통신 보도를 통해 밝혔다 [euronews.com#1][myjoyonline.com#1][scmp.com#2]. 이번 패키지는 3개 주요 대출 기관에 약 2,900억 위안을, 나머지 5개 보험사에 잔액을 배정한다. 이는 금융 시스템을 강화하고 대출 부진, 저금리, 부동산 침체, 인구 고령화, 미국과의 무역 및 기술 경쟁에 직면한 경제를 지원하기 위한 조치이다 [euronews.com#1][myjoyonline.com#1][beijingbulletin.com#1]. 이번 계획에는 중국농업은행(Agricultural Bank of China), 중국공상은행(ICBC), 중국수출입은행(Export-Import Bank of China) 등 은행과 중국생명보험(China Life), 중국인민보험공사(PICC), 중국수출신용보험공사(Sinosure), 중국태평양보험(China Taiping), 중국재보험(China Reinsurance) 등 보험사가 포함되었다 [euronews.com#1][hojemacau.com.mo#1]. 신화통신은 이번 자본 투입이 해당 기관들의 운영 역량과 리스크 대응 능력, 실물 경제 지원 능력을 향상할 것이라고 전했다. CNBC와 니케이(Nikkei)는 발표 이후 국영 은행과 보험사의 주가가 하락했다고 보도했다 [euronews.com#1][cnbc.com#1][nikkei.com#1].",
+      "historical_background": "이번 조치는 2025년에 시작되어 주로 은행에 집중되었던 자본 확충 드라이브를 보험사 및 기타 금융 기관으로 확대한 것이다 [scmp.com#1]. 마이조이온라인(MyJoyOnline)이 보도한 BBC 자료에 따르면, 시진핑 주석은 금융 안정을 국가 안보의 일부로 간주해 왔다 [myjoyonline.com#1].",
+      "business_angle_text": "가치 투자자들에게 이번 자본 확충은 수익성 개선의 증거가 아닌 대차대조표 지원책이다. 정부는 대출 부진과 저금리로 압박받는 기관들에 자본을 추가하고 있다. 사모 발행은 규제 완충 장치를 강화할 수 있으나, 신주 발행 시 주당 소유 지분이 희석될 수 있다 [common]. 장기적인 수익은 은행이 수익성 있게 대출할 수 있는지, 그리고 보험사가 저수익 정책 과제에 의존하지 않고 지급여력을 재건할 수 있는지에 달려 있다 [common][beijingbulletin.com#1].",
+      "talking_points[0]": "은행 배정: 중국농업은행은 사모 A주 발행을 통해 최대 1,600억 위안, 중국공상은행은 최대 1,000억 위안을 조달할 계획이며, 중국수출입은행은 300억 위안을 지원받을 예정이다 [euronews.com#1][scmp.com#2].",
+      "talking_points[1]": "보험사 자금 지원: 중국생명보험은 350억 위안, 중국태평양보험은 70억 위안을 지원받으며, 중국인민보험공사는 최대 150억 위안, 중국수출신용보험공사는 100억 위안, 중국재보험은 30억 위안을 조달할 계획이다 [beijingbulletin.com#1].",
+      "talking_points[2]": "자본 격차: S&P는 앞서 중국 4대 은행이 위기 시 공적 구제금융 없이 국제 손실 흡수 요건을 충족하려면 5,510억 달러 이상의 추가 자본이 필요할 것으로 추산한 바 있다 [hojemacau.com.mo#1].",
+      "talking_points[3]": "신용 수요: 사우스차이나모닝포스트(SCMP)가 인용한 분석가들은 신용 수요를 되살리고 새로운 자본이 더 효과적으로 사용되도록 보장하기 위해 추가적인 재정 지원이 필요하다고 지적했다 [scmp.com#1].",
+      "business_angle_points[0]": "분석가들은 재무부가 이 정도 규모의 자본을 투입하는 경우는 드물다고 평가했다 [hojemacau.com.mo#1].",
+      "business_angle_points[1]": "대출 부진과 저금리는 수익에 부담을 줄 수 있으므로, 투자자들은 단순히 투입 규모만 볼 것이 아니라 순이자마진, 신용 수요, 자산 건전성을 추적해야 한다 [euronews.com#1][common].",
+      "business_angle_points[2]": "당국은 국영 보험사들에 중장기 자금으로 주식 시장을 지원하도록 지시했으며, 이는 금융 기업들을 순수 수익 중심의 비즈니스가 아닌 정부 목표에 묶어둘 수 있다 [beijingbulletin.com#1][common].",
+      "industry_impact[0]": "은행 대출: 이번 자본 투입은 은행들이 더 엄격한 자본 요건을 충족하고 기술 및 친환경 에너지와 같은 전략적 부문에 대한 대출을 지원하는 데 도움이 될 것으로 예상된다 [beijingbulletin.com#1].",
+      "industry_impact[1]": "보험 부문: 이번 조치는 일부 소규모 보험사들 사이에서 지급여력 비율이 약화됨에 따라, 국영 보험사들이 규제 당국을 도와 소규모 고위험 보험사를 관리하는 역할을 맡게 할 수 있다 [beijingbulletin.com#1].",
+      "industry_impact[2]": "주식 시장: 국영 보험사들은 주식 시장을 안정시키기 위한 광범위한 노력의 일환으로 중장기 자금을 투입해 주식 시장을 지원하라는 지시를 받았다 [beijingbulletin.com#1].",
+      "perspectives[0].text": "사우스차이나모닝포스트가 인용한 분석가들은 재무부가 이 정도 규모의 자본을 투입하는 경우는 드물다고 언급하며, 이번 조치를 중국을 '금융 초강대국'으로 만들겠다는 베이징의 야망의 일부로 묘사했다.",
+      "perspectives[1].text": "샹송 앤 코(Chanson & Co.)의 선멍(Shen Meng)은 최근 고위급 회의에서 성장 압력에 대응하기 위해 보다 적극적인 재정 정책으로 방향을 틀었다고 말했다. 그는 이번 자본 투입을 해당 정책 도구의 일부로 설명했다.",
+      "perspectives[2].text": "CNBC가 인용한 분석가들은 더 큰 자본 완충 장치가 마련되면 당국이 금융 기관들에 자본 시장에서 자원을 동원하기 위해 더 많은 역할을 하도록 요구할 수도 있다고 말했다.",
+      "timeline[0].content": "자본 확충 드라이브 시작, 주로 은행에 집중 [scmp.com#1]",
+      "timeline[1].content": "기업들이 패키지 발표, 일요일 신화통신이 상세 내용 보도 [euronews.com#1][myjoyonline.com#1]",
+      "timeline[2].content": "니케이, 국영 은행 및 보험사 주가 하락 보도 [nikkei.com#1]",
+      "primary_image.caption": "중국공상은행(Industrial and Commercial Bank of China)"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "8b645585-d230-48a8-90ea-e5241f9fda34",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 21082,
-      "out": 27225
+      "in": 25981,
+      "out": 33332
     }
   }
 }
