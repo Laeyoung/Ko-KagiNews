@@ -4,7 +4,7 @@
   "categoryUuid": "d06043e9-b4c8-4ec9-8880-279da76573b1",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-13T14:17:20.792Z",
+  "createdAt": "2026-09-13T14:38:59.845Z",
   "stories": {
     "150c6cd4-ecdc-4e82-a88e-caff580d0554": {
       "title": "오픈AI, 안전 우려로 IPO 2026년 이후로 연기",
@@ -156,24 +156,30 @@
       "user_action_items[0]": "의견 제출: 시장 참여자들은 제안된 결제 가격 및 CAS 변경 사항에 대한 의견을 10월 3일까지 SEBI에 제출해야 한다 [indiatimes.com#2][indiatimes.com#3].",
       "primary_image.caption": "SEBI 관련 시장 규제 이미지",
       "secondary_image.caption": "SEBI의 파생상품 결제 제안 보도와 관련된 이미지"
+    },
+    "749a92a1-52c0-4456-bbd2-29d8728ee16b": {
+      "title": "캐나다, 1조 달러 투자 유치 추진… 카니 총리 투자 서밋 개최",
+      "short_summary": "캐나다가 미국에 대한 경제 의존도를 낮추기 위한 계획의 일환으로 투자 유치에 나선 가운데, 마크 카니(Mark Carney) 총리가 토론토에서 투자 서밋을 개최할 예정이다 [ft.com#1][google.com#1]. 다음 주 열리는 이번 서밋에는 글로벌 금융 기업의 고위 임원들이 참석할 예정이다 [ft.com#1][google.com#1]. 카니 총리는 도널드 트럼프(Donald Trump) 대통령 하의 미국을 대체할 투자처로 캐나다를 제시하고 있다. 캐나다 정부는 이번 자금 조달 목표를 외국 자본 유치와 캐나다의 경제적 입지 강화를 위한 광범위한 자본 의제와 연결하고 있다 [ft.com#1][google.com#1].",
+      "location": "캐나다 토론토",
+      "business_angle_text": "1조 달러라는 수치는 확정된 자금이 아닌 투자 목표액이다. 카니 정부는 캐나다 기업에 대한 생산적 투자를 위해 외국 자본 유치를 추진하고 있다 [ft.com#1][google.com#1]. 카니 총리의 계획은 다른 출처로부터 투자를 유치함으로써 캐나다의 미국에 대한 경제적 의존도를 줄이는 것을 목표로 한다 [ft.com#1].",
+      "talking_points[0]": "임원 참석: 약 200명의 주요 금융권 임원들이 이번 서밋을 위해 토론토에 모일 것으로 예상된다 [reddit.com#1][google.com#1].",
+      "talking_points[1]": "투자 제안: 카니 총리는 미국 시장의 변동성에 대비한 헤지 수단으로 투자자들에게 캐나다에 대한 투자 비중을 1% 늘릴 것을 요청하고 있다 [reddit.com#1].",
+      "talking_points[2]": "서밋의 의미: 이번 행사는 캐나다에서 열리는 최초의 투자 서밋으로 홍보되고 있다 [google.com#1].",
+      "talking_points[3]": "외국인 투자 유입: 최근 캐나다에 대한 외국인 투자에는 상당한 규모의 미국 자금이 포함되어 있다 [google.com#1]."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
+    "translated": 11,
     "failedStoryIds": [
       {
         "id": "f24d0ad6-462e-497b-ac4c-dc6c7e5d5776",
         "reason": "retry_exhausted"
-      },
-      {
-        "id": "749a92a1-52c0-4456-bbd2-29d8728ee16b",
-        "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 10216,
-      "out": 11420
+      "in": 13100,
+      "out": 14011
     }
   }
 }
