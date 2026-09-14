@@ -1,7 +1,7 @@
 {
   "version": 1,
   "batchId": "49f0f05f-29ef-4305-95f4-80ff479ef154",
-  "updatedAt": "2026-09-14T16:58:33.822Z",
+  "updatedAt": "2026-09-14T17:06:23.035Z",
   "categories": {
     "27fd987a-5341-4dfd-8449-fbc4ce998c54": {
       "slug": "business",
@@ -49,7 +49,7 @@
     },
     "93f2ac1c-e631-4609-888b-39d21ad8b980": {
       "slug": "world",
-      "status": "ok",
+      "status": "skipped",
       "storyCount": 12,
       "translated": 12,
       "failed": 0,
@@ -60,7 +60,7 @@
     },
     "67e5b545-b055-4202-92b8-c74152912619": {
       "slug": "science",
-      "status": "ok",
+      "status": "skipped",
       "storyCount": 12,
       "translated": 12,
       "failed": 0,
@@ -74,7 +74,7 @@
     "status": "skipped"
   },
   "run": {
-    "attempted": 9,
+    "attempted": 4,
     "failed": 4,
     "failureRatePct": null,
     "unresolvedSlugs": []
