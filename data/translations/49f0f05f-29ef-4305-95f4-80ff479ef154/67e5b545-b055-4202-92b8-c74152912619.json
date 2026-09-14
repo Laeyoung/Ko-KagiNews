@@ -4,7 +4,7 @@
   "categoryUuid": "67e5b545-b055-4202-92b8-c74152912619",
   "categorySlug": "science",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-14T16:29:14.003Z",
+  "createdAt": "2026-09-14T16:57:37.108Z",
   "stories": {
     "9e5e634d-11b8-41d1-a7da-150168677997": {
       "title": "트럼프 행정부 EPA, 발전소 탄소 배출 기준 폐지 추진",
@@ -148,24 +148,32 @@
     "f1e64e33-7f04-4c8f-838f-998a68337bde": {
       "title": "천문학자들, 초신성 사칭 천체 정체 밝혀내",
       "short_summary": "약 10년간 폭발적인 분출을 일으켜 온 먼 별을 연구 중인 천문학자들은 이 별이 초신성 폭발에 임박했다는 기존 견해에 의문을 제기하는 새로운 연구 결과를 발표했다. 연구진은 대신 이전에 관측되지 않았던 동반성이 이러한 현상의 원인일 수 있다고 시사했다 [phys.org#1]. 별도의 연구에서는 중력파 데이터를 활용해 특이한 병합 현상이 두 개의 블랙홀이 아닌 이질적인 밀집 천체 간의 병합이었는지 확인하고 있다. 연구진은 블랙홀 간의 병합이 다른 밀집 천체 병합 신호와 유사한 시공간 파동을 생성할 수 있어, 관련 천체를 식별하는 데 어려움을 겪고 있다고 밝혔다 [phys.org#2][google.com#1]."
+    },
+    "ea22eeda-ddbd-44c1-b9e6-7f9eb8068d49": {
+      "title": "AI 도구, 나노 스케일 현미경 관찰 지원 및 세포막 매핑 자동화",
+      "short_summary": "연구진이 현미경 관련 작업 흐름을 위한 두 가지 AI 시스템을 보고했다 [phys.org#1][phys.org#2]. 미국 에너지부 산하 오크리지 국립연구소(Oak Ridge National Laboratory)의 과학자들은 원자간력 현미경이 중요한 나노 스케일 특징을 식별하고 시료에서 가장 정보 가치가 높은 영역을 자율적으로 정밀 조사하도록 유도하는 프레임워크를 개발했다 [phys.org#1]. 헬름홀츠 뮌헨(Helmholtz Munich), 뮌헨 공과대학교(Technical University of Munich), 바젤 대학교(University of Basel)의 별도 연구팀은 세포막과 그 단백질의 3차원 매핑을 자동화하기 위해 'MemBrain v2'를 개발했다. 네이처 메소드(Nature Methods) 연구에 따르면, 이 도구는 분석 시간을 수주에서 수시간으로 단축했으며 수동 분석과 일치하는 결과를 도출했다 [phys.org#2][google.com#1].",
+      "talking_points[0]": "세포막 생물학: 세포막과 그 내부의 단백질은 많은 생명 유지 과정을 제어한다 [phys.org#2]",
+      "scientific_significance[0]": "검증 한계: 해당 기사는 수동 분석과의 비교에 대한 표본 크기, 오차율 또는 독립적인 재현 세부 정보를 제공하지 않는다 [phys.org#2]"
+    },
+    "5663d793-39e1-4b82-8bce-ae4d83ac6400": {
+      "title": "스페이스X, 700번째 팰컨 임무로 O3b mPOWER 위성 3기 발사",
+      "short_summary": "스페이스X는 9월 13일 SES를 위한 통신 위성 3기를 발사하며 O3b mPOWER 위성군 배치를 완료했고, 팰컨 로켓 700번째 발사라는 기록을 세웠다. 팰컨 9 로켓은 플로리다주 케이프커내버럴 우주군 기지의 40번 발사대에서 오후 2시 49분(EDT 기준, 1849 UTC)에 이륙했다[space.com#1][spaceflightnow.com#1]. O3b mPOWER-F 임무는 F11, F12, F13 위성을 중궤도로 운송했다. 보잉(Boeing)이 해당 우주선을 제작했으며, SES는 스페이스X의 가장 오래된 상업 고객이다[spaceflightnow.com#1].",
+      "did_you_know": "700회의 팰컨 발사 중 팰컨 헤비 임무는 13회에 불과하며, 나머지 687회는 팰컨 9 로켓을 사용했다[spaceflightnow.com#1].",
+      "quote": "오늘 아침 기상 모델에 따르면 일요일 오후 주요 발사 창구로 이어지는 조향 흐름은 여전히 약하지만, 더 뚜렷한 해안 방향 성분을 보일 것으로 예상된다",
+      "quote_attribution": "제45기상대대 발사 기상 담당관, 스페이스플라이트 나우(Spaceflight Now)를 통해",
+      "location": "미국 플로리다주 케이프커내버럴",
+      "talking_points[0]": "날씨: 제45기상대대는 발사 창구가 열릴 때 기상 조건이 양호할 확률을 60%로 예보했으나, 창구가 닫힐 무렵에는 40%로 낮아질 것으로 전망했다[spaceflightnow.com#1].",
+      "perspectives[0].text": "제45기상대대: 발사 창구 초반에는 우주항 인근의 소나기와 폭풍이 여전히 위험 요소로 남아 있었다.",
+      "primary_image.caption": "스페이스X 팰컨 9이 플로리다에서 O3b mPOWER-F 임무를 수행하며 발사되고 있다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
-    "failedStoryIds": [
-      {
-        "id": "ea22eeda-ddbd-44c1-b9e6-7f9eb8068d49",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "5663d793-39e1-4b82-8bce-ae4d83ac6400",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 9554,
-      "out": 10640
+      "in": 10793,
+      "out": 11756
     }
   }
 }

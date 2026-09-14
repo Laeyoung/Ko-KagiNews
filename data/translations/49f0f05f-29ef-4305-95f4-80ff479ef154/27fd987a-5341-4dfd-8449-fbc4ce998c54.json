@@ -4,7 +4,7 @@
   "categoryUuid": "27fd987a-5341-4dfd-8449-fbc4ce998c54",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-14T16:21:24.216Z",
+  "createdAt": "2026-09-14T16:56:07.033Z",
   "stories": {
     "97d36a93-a21c-4091-a52e-4ae8e1eaed4d": {
       "title": "트럼프, AI 개발 속도 조절론 일축… 기술 업계 리스크 경고에도 강행",
@@ -184,28 +184,61 @@
       "timeline[2].content": "아마존이 21 에어의 운항 중단을 발표했다[bbc.co.uk#1][aawsat.com#1].",
       "primary_image.caption": "마이애미 활주로 이탈 사고 후 아마존 화물기 인근의 잔해와 차량들",
       "secondary_image.caption": "마이애미 국제공항에서 발생한 사고 이후의 아마존 화물기"
+    },
+    "09dde33b-c311-40b1-b10f-04d724ca0a24": {
+      "title": "앤스로픽, 2조 달러 기업가치로 나스닥 상장 추진",
+      "short_summary": "비즈니스 인사이더와 로이터가 인용한 소식통에 따르면, 앤스로픽(Anthropic)은 이르면 10월을 목표로 나스닥(Nasdaq) 상장을 추진하기로 했다. 클로드(Claude) 개발사인 앤스로픽은 예비 상장 서류를 제출했으나, 시장 상황과 규제 당국의 검토에 따라 주가와 주식 수, 최종 일정은 아직 확정되지 않았다[businessinsider.com#1][bursa.ro#1][stirileprotv.ro#1][business-standard.com#1]. 앤스로픽은 약 2조 달러의 기업가치로 최대 1,000억 달러 규모의 자금 조달을 고려하고 있으나, 두 수치 모두 확정된 것은 아니다. 소식통에 따르면 엔비디아(Nvidia)가 최대 100억 달러 규모의 앵커 투자자로 참여하는 방안을 논의 중이며, 앤스로픽은 잠재적 투자자들과도 접촉하고 있으나 이 내용은 변경될 수 있다[bursa.ro#1][stirileprotv.ro#1][manilatimes.net#1]. CNBC는 다리오 아모데이(Dario Amodei) 최고경영자(CEO)가 상장을 준비하는 동안 AI 개발 속도를 조절하려 한다고 보도했다[cnbc.com#1].",
+      "historical_background": "2012년 페이스북(Facebook) 상장 첫날 나스닥 시스템에 오류가 발생했던 전례는, 거래소가 대규모 기술 기업의 상장을 준비할 때 여전히 중요한 고려 사항으로 남아 있다[thenextweb.com#1].",
+      "business_angle_text": "엔비디아의 잠재적 투자는 자금 지원과 함께 앤스로픽과의 상업적 유대를 강화할 수 있으며, 이번 상장은 전략적 관계가 프런티어 AI 자금 조달에 어떤 영향을 미치는지 가늠하는 시험대가 될 전망이다[manilatimes.net#1]. 보도된 기업가치와 자금 조달 목표액은 확정된 기업 가치가 아닌 거래 시나리오에 해당한다[businessinsider.com#1][bursa.ro#1].",
+      "talking_points[0]": "나스닥 경쟁: 나스닥은 2026년 초 스페이스X(SpaceX)의 상장도 유치했으며, 당시 기업가치는 1조 7,500억 달러로 보고되었다. 이로써 나스닥은 올해 가장 큰 기술 기업 상장 두 건을 모두 확보하게 되었다[businessinsider.com#1][thenextweb.com#1].",
+      "talking_points[1]": "IPO 시장 활동: 비즈니스 인사이더가 인용한 LSEG 데이터에 따르면, 9월 10일까지 전 세계 IPO 규모는 2,060억 달러로 전년 동기 대비 183% 증가했다[bursa.ro#1][stirileprotv.ro#1].",
+      "talking_points[2]": "오픈AI와의 차이: 샘 올트먼(Sam Altman) 오픈AI(OpenAI) CEO는 현재 상장 계획이 없다고 밝힌 반면, 앤스로픽은 10월 상장을 추진 중이다[businessinsider.com#1][thenextweb.com#1].",
+      "talking_points[3]": "수익 공개: 아이케이블(i-Cable)이 전한 파이낸셜 타임스(Financial Times) 정보에 따르면, 앤스로픽은 일부 주주들에게 2분기 연속 조정 영업이익을 보고할 계획이라고 밝혔다[i-cable.com#1].",
+      "business_angle_points[0]": "가치 평가 리스크: 보도된 수준의 목표치는 최종 가격이 결정되기 전까지 향후 매출 성장과 마진에 대해 매우 높은 기준을 제시하게 된다[bursa.ro#1][manilatimes.net#1].",
+      "business_angle_points[1]": "자본 집약도: 클로드에 대한 수요가 가용 컴퓨팅 자원을 압박하고 있으며, 이러한 제약은 회사의 확장 능력에 영향을 미칠 수 있다[manilatimes.net#1].",
+      "perspectives[0].text": "나스닥과 뉴욕증권거래소(NYSE): 거래소 선택이 앤스로픽 주가 흐름에 실질적인 영향을 미칠 가능성은 낮다. 미국 내 특정 거래소에 상장된 기업이 다른 곳보다 성과가 좋다는 설득력 있는 증거는 없다[thenextweb.com#1].",
+      "timeline[0].content": "앤스로픽, IPO를 위해 나스닥을 선택한 것으로 보도됨[businessinsider.com#1][thenextweb.com#1]",
+      "timeline[1].content": "1,000억 달러 규모의 자금 조달 및 10월 상장 가능성 보도[bursa.ro#1][business-standard.com#1]",
+      "timeline[2].content": "앤스로픽, 이르면 10월 나스닥 상장 목표[cnbc.com#1][business-standard.com#1]"
+    },
+    "51beb85a-60a0-4633-bf5e-2f6f3e05cbab": {
+      "title": "워시 의장의 금리 인상 결정 앞두고 연준 압박하는 트럼프",
+      "short_summary": "도널드 트럼프 대통령은 9월 13일 연방준비제도(Fed·연준)의 데이터와 관계없이 미국이 세계에서 가장 낮은 차입 비용을 유지해야 한다며 금리 인하 요구를 재확인했다. 그는 연준의 9월 15~16일 정책 회의를 며칠 앞두고 아일랜드 둔베그에서 기자들에게 이같이 발언했으며, 시장 투자자들은 이번 회의에서 금리 인상 가능성을 86%로 점치고 있다. [semafor.com#1][bloomberg.com#3][jornaldenegocios.pt#1][stheadline.com#1] 트럼프 대통령의 요구는 긴축 정책을 가리키는 인플레이션 데이터와 충돌한다. 트럼프 대통령이 임명하고 지난 5월 취임식에서 치켜세웠던 케빈 워시(Kevin Warsh) 연준 의장은 8월 소비자 물가가 전년 대비 3.4%, 근원 물가가 2.4% 상승한 상황에서 금리 결정이라는 과제를 안게 됐다. 에너지 비용과 미국의 관세 정책이 인플레이션 위험을 가중하고 있다. 골드만삭스와 JP모건은 9월 금리 인상을 예상하고 있으며, 일부 보도에서는 이를 약 3년 만의 첫 금리 인상으로 보고 있다. [etoday.co.kr#2][kurier.at#1][vietnamplus.vn#1][malaymail.com#1][cnyes.com#1][google.com#1]",
+      "did_you_know": "트럼프 대통령의 9월 금리 인하 요구는 대미 무역 흑자국과의 교역을 중단하겠다고 위협하며 통화 정책을 무역 수지와 결부시켰다. [cna.com.tw#1][etoday.co.kr#2]",
+      "quote": "완전히 독립적인",
+      "quote_attribution": "블룸버그",
+      "location": "아일랜드 클레어주 둔베그",
+      "talking_points[0]": "고용 데이터: 8월 비농업 부문 고용은 16만 2,000명 증가해 경제학자들의 평균 전망치인 5만 5,000명을 상회했으며, 이는 즉각적인 금리 인하에 반대하는 근거를 강화했다. [kurier.at#1][cash.ch#1]",
+      "talking_points[1]": "연말 금리 전망: 금리 시장은 최근 인플레이션 데이터 발표 이후 2026년 말까지 연준이 두 차례 금리를 인상할 것으로 가격을 책정하고 있다. [semafor.com#1][cnyes.com#1][gazeteoksijen.com#1]",
+      "talking_points[2]": "트럼프의 전망: 다가오는 회의에서 연준이 금리를 인상할 것인지 묻는 질문에 트럼프 대통령은 알지 못한다고 답했다. [etoday.co.kr#1][cna.com.tw#1]",
+      "talking_points[3]": "인플레이션 측정 논란: 케빈 해싯(Kevin Hassett)은 연간 인플레이션이 약 1%라고 언급했는데, 이는 월간 수치를 연율로 환산한 것을 지칭한 것으로 보인다. [etoday.co.kr#2]",
+      "technical_details[0]": "근원 소비자물가지수(CPI): 8월 근원 CPI는 전월 대비 0.3%, 전년 대비 2.4% 상승했다. 월간 상승률은 예상치를 소폭 상회했으며, 연간 상승률은 연준의 목표치인 2%를 웃돌았다. [etoday.co.kr#2]",
+      "technical_details[1]": "시장 확률: 페드워치(FedWatch) 가격 책정에 따르면 회의 전 9월 금리 인상 확률은 86.2%였다. 이 수치는 시장이 내재한 추정치일 뿐 정책 결과를 보장하는 것은 아니다. [stheadline.com#1]",
+      "technical_details[2]": "정책 배경: 연방준비제도는 경제 상황을 평가하는 동안 2026년 1월부터 정책 금리를 유지해 왔다. [malaymail.com#1]",
+      "perspectives[0].text": "도널드 트럼프 대통령: 트럼프 대통령은 미국이 세계 최고의 신용을 가지고 있음에도 다른 나라들을 부유하게 만들고 있다며, \"우리는 이 모든 것을 2분 안에 중단시킬 수 있다\"고 말했다. [cnyes.com#1]",
+      "perspectives[1].text": "케빈 해싯 백악관 국가경제위원회(NEC) 위원장: 해싯 위원장은 연준의 독립성을 공개적으로 지지하면서도 즉각적인 금리 인상에는 반대했다. 그는 트럼프 대통령이 워시 의장의 결정을 존중할 것이지만, 금리가 훨씬 더 낮아질 수 있다는 확신은 변함없다고 밝혔다. [etoday.co.kr#2][etoday.co.kr#1]",
+      "perspectives[2].text": "모리스 옵스펠드(Maurice Obstfeld) 피터슨국제경제연구소 선임연구원: 옵스펠드는 금리를 동결할 경우 시장 신뢰를 훼손하고 향후 인플레이션의 결과를 악화시킬 수 있으며, 금리를 인상할 경우 대통령의 반발을 초래할 것이라고 지적했다. [stheadline.com#1]",
+      "perspectives[3].text": "패트릭 하커(Patrick Harker) 전 필라델피아 연방준비은행 총재: 하커 전 총재는 금리 인상이 시장의 인플레이션 기대치를 낮추고 장기 국채 수익률의 추가 상승을 막아 주택 담보 대출 및 기업 자금 조달 비용을 잠재적으로 낮출 수 있다고 말했다. [stheadline.com#1]",
+      "timeline[0].content": "워시 의장이 백악관 취임식을 통해 연준 의장직을 시작했다. [bloomberg.com#2][jornaldenegocios.pt#1]",
+      "timeline[1].content": "8월 CPI 데이터에서 근원 인플레이션이 4개월 연속 최대 상승폭을 기록했다. [cna.com.tw#1][folha.com.br#1]",
+      "timeline[2].content": "트럼프 대통령이 아일랜드 방문 중 세계에서 가장 낮은 금리를 요구했다. [semafor.com#1][globo.com#1]",
+      "timeline[3].content": "연준이 통화 정책을 결정하기 위한 이틀간의 연방공개시장위원회(FOMC) 회의를 시작한다. [etoday.co.kr#1][jornaldenegocios.pt#1]",
+      "timeline[4].content": "시장은 연준이 수요일에 금리 인상을 발표할 것으로 예상하고 있다. [jornaldenegocios.pt#1][semafor.com#1]",
+      "primary_image.caption": "도널드 트럼프 대통령이 케빈 워시 연준 의장의 취임식에서 그와 대화를 나누고 있다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 9,
+    "translated": 11,
     "failedStoryIds": [
       {
         "id": "38666959-b7ba-4566-938c-06d1ba150ee2",
         "reason": "retry_exhausted"
-      },
-      {
-        "id": "09dde33b-c311-40b1-b10f-04d724ca0a24",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "51beb85a-60a0-4633-bf5e-2f6f3e05cbab",
-        "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 13334,
-      "out": 16450
+      "in": 16103,
+      "out": 19882
     }
   }
 }

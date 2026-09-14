@@ -4,7 +4,7 @@
   "categoryUuid": "93f2ac1c-e631-4609-888b-39d21ad8b980",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-14T16:19:27.751Z",
+  "createdAt": "2026-09-14T16:55:09.001Z",
   "stories": {
     "000e71c7-667a-4e59-9bc0-64cfb2ac3d66": {
       "title": "스웨덴 총선, 극우 퇴조 속 야권 근소한 우위",
@@ -263,20 +263,36 @@
       "timeline[2].content": "트럼프 대통령이 아일랜드에서 에어포스 원을 타고 돌아오는 길에 해당 의혹에 대해 언급했다 [dw.com#1].",
       "timeline[3].content": "트럼프 대통령과 시 주석이 백악관에서 회담할 것으로 예상된다 [dw.com#1][middleeasteye.net#1].",
       "primary_image.caption": "2026년 9월 13일, 아일랜드에서 돌아오는 에어포스 원 기내에서 도널드 트럼프 대통령이 기자들의 질문에 답하고 있다."
+    },
+    "d9c9b02f-b5c0-4ff5-abb1-3252b4b8ddd5": {
+      "title": "이스라엘 장관, 가자지구 다큐 감독들의 시민권 박탈 추진",
+      "short_summary": "미키 조하르(Miki Zohar) 이스라엘 문화부 장관은 다큐멘터리 'NAZA'가 9월 12일 토요일 베니스 국제 영화제에서 심사위원 특별상을 수상한 직후, 유발 아브라함(Yuval Abraham)과 레이첼 조르(Rachel Szor) 감독의 시민권을 즉각 박탈하겠다고 밝혔다. 조하르 장관은 해당 영화를 '비열하다'고 비난하며, 이들이 반유대주의자들의 박수를 받기 위해 이스라엘을 해치고 있다며 반역 혐의를 제기했다[aljazeera.com#1][newarab.com#1][theguardian.com#1]. 이타마르 벤-그비르(Itamar Ben-Gvir) 국가안보부 장관 또한 이들을 공격하며 이스라엘을 떠나라고 요구했다[newarab.com#1][israelnationalnews.com#1]. 가디언 기자들과 공동 제작한 80분 분량의 이 다큐멘터리는 이스라엘 군 및 정보기관 관계자 24명의 익명 증언을 통해 가자지구 내 감시, 표적 선정, AI 지원 공격 의혹 등을 다룬다. 영화 제목은 공습으로 사망할 것으로 예상되는 민간인 수를 뜻하는 이스라엘 군사 약어에서 따왔다. 이스라엘은 영화의 주장을 부인하며 익명 취재원 사용을 비판했다[theguardian.com#1][pmo.ee#1][politiken.dk#1]. 아브라함과 조르는 앞서 2025년 오스카 장편 다큐멘터리상을 수상한 '노 아더 랜드(No Other Land)'를 공동 연출한 바 있다[newarab.com#1][thewrap.com#1].",
+      "did_you_know": "제작 보고에 따르면, 'NAZA'는 3년에 걸쳐 밤마다 텔아비브의 옥상에서 비밀리에 촬영되었다[pmo.ee#1][cumhuriyet.com.tr#1].",
+      "quote": "범죄를 부정하는 것이야말로 범죄가 지속되게 만드는 원인이며, 그렇기에 이스라엘인들이 이 영화를 보는 것이 우리에게는 중요하다.",
+      "quote_attribution": "더 내셔널(The National)",
+      "location": "이탈리아 베니스",
+      "historical_background": "이스라엘에서 시민권 박탈은 법적으로 가능하지만 거의 사용되지 않는다. 대법원은 2022년 간첩 행위나 테러와 관련된 일부 사례에 대해 이 조치를 적용할 수 있다고 확인한 바 있다[orf.at#1].",
+      "talking_points[0]": "법적 지위: 조하르 장관의 반역 혐의는 사법 절차를 통해 입증된 바 없으며, 문화부 장관에게는 시민권을 직접 박탈할 권한이 없다[heraldcorp.com#1].",
+      "talking_points[1]": "영화 반응: 'NAZA'는 베니스 영화제 시사회에서 약 25분간 기립박수를 받았으며 이후 심사위원 특별상을 수상했다[pmo.ee#1][thenationalnews.com#1].",
+      "talking_points[2]": "감독들의 배경: 논란에 관한 보도에 따르면 아브라함과 조르는 탐사 보도 기자들이다[digi24.ro#1].",
+      "talking_points[3]": "자금 지원 논란: 조하르 장관은 이스라엘 납세자들의 세금이 군인이나 국가를 해치는 작품에 지원되어서는 안 된다며, 이번 위협을 자신의 영화 자금 지원 개혁안과 결부시켰다[thewrap.com#1][notizie-italia.it#1].",
+      "technical_details[0]": "익명 증언: 다큐멘터리는 24명의 군 및 정보기관 관계자를 보호하기 위해 인터뷰 대상자의 얼굴과 목소리를 디지털로 변조하고 이름을 공개하지 않았다[pmo.ee#2][yna.co.kr#1].",
+      "technical_details[1]": "표적 공격 의혹: 한 인터뷰 대상자는 하마스 대원 한 명을 제거하기 위해 민간인 500명이 사망할 것으로 예상되는 공격이 승인되었다고 증언했다[bosnainfo.ba#1].",
+      "industry_impact[0]": "이스라엘 영화 자금 지원: 조하르 장관은 이스라엘 군인이나 국가를 해친다고 판단되는 작품에 공적 자금이 지원되는 것을 막기 위한 영화 자금 지원 개혁안과 이번 논란을 연결 지었다[thewrap.com#1][notizie-italia.it#1].",
+      "industry_impact[1]": "영화 배급: 아브라함은 이스라엘 내 배급사는 확보하지 못했으나, 이스라엘과 미국, 독일에서 다큐멘터리가 상영되기를 원한다고 밝혔다[heraldcorp.com#1].",
+      "perspectives[0].text": "이스라엘 정부: 벤-그비르 장관은 감독들의 친구들, 즉 이스라엘의 적인 하마스가 가자지구에서 그들을 환영할 것이라고 확신한다고 말했다[rtp.pt#1].",
+      "perspectives[1].text": "NAZA 감독들: 아브라함은 영화에 출연한 이스라엘 정보기관 관계자들이 대량 살상을 체계적인 것으로 묘사했으며, 이는 팔레스타인인을 비인간화하는 정책에 기반하고 있다고 전했다[middleeasteye.net#1].",
+      "primary_image.caption": "베니스 국제 영화제에서 'NAZA'가 심사위원 특별상을 받은 후의 유발 아브라함과 레이첼 조르.",
+      "secondary_image.caption": "베니스 국제 영화제 폐막식 레드카펫 위의 'NAZA' 감독들."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "d9c9b02f-b5c0-4ff5-abb1-3252b4b8ddd5",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 15522,
-      "out": 19656
+      "in": 16837,
+      "out": 21313
     }
   }
 }
