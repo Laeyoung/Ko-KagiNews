@@ -4,7 +4,7 @@
   "categoryUuid": "b7c1c8c6-8a34-4ca4-9045-22407264c8f4",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-15T15:39:57.864Z",
+  "createdAt": "2026-09-15T16:52:50.956Z",
   "stories": {
     "ea7ca462-05d0-49b4-9e38-a165dff2b248": {
       "title": "미 우주군, 궤도상 무기 배치 공식 확인",
@@ -86,26 +86,76 @@
       "timeline[2].content": "사우디아라비아는 후티 반군의 공격에 단호하게 대응할 것이라고 경고했다 [straitstimes.com#2].",
       "primary_image.caption": "홍해 연안에서 벌어지는 후티 반군과 예멘 정부군 간의 전투.",
       "secondary_image.caption": "전투가 재개된 예멘 홍해 연안 모카(Mocha)의 모습."
+    },
+    "485681c5-f5c1-4c6e-a67b-d77dc97e60bb": {
+      "title": "트럼프 대통령, 중국과의 경쟁 속 AI 안전 규제 거부",
+      "short_summary": "도널드 트럼프 대통령은 인공지능(AI) 개발 속도를 늦추거나 새로운 안전 장치를 추가하라는 요구를 거부했다. 그는 AI가 인류를 장악하거나 멸망시킬 수 있다는 경고를 '사기'라고 일축하며, AI와 데이터 센터에 대한 비판을 '역겨운 음모'라고 규정했다. 트럼프 대통령은 기존의 형사 및 규제 권한으로 충분하며, 미국의 개발 속도를 늦추는 것은 중국에 이로울 뿐이라고 주장했다 [scmp.com#1][rt.com#1][cbsnews.com#1][rte.ie#1]. 이러한 발언은 다리오 아모데이(Dario Amodei) 앤스로픽(Anthropic) CEO가 연구자들이 위험을 평가할 수 있도록 조율된 속도 조절을 촉구한 주말 호소 이후에 나왔으며, 샘 올트먼(Sam Altman) 오픈AI(OpenAI) CEO와 일론 머스크(Elon Musk) xAI 최고경영자도 이에 동조했다 [rt.com#1][pbs.org#1][tribune.com.pk#1]. 앤스로픽의 공동 창업자 잭 클라크(Jack Clark)는 별도로 위험한 AI 시스템에는 제3자 검증을 거치는 의무적인 비상 '킬 스위치'가 필요할 수 있다고 언급했다 [bbc.co.uk#1][myjoyonline.com#1]. 트럼프 대통령은 \"AI에서 승리하는 자가 모든 것을 갖는다!\"라고 언급하며 대중국 우위 유지를 자신의 핵심 입장으로 내세웠다 [bbc.co.uk#1][pbs.org#1].",
+      "quote": "AI에 필요한 유일한 통제나 '가드레일'은 강력하고 똑똑한(높은 IQ를 가진!) 대통령뿐이며, 미국은 이미 그런 대통령을 충분히 보유하고 있다!",
+      "quote_attribution": "RTÉ",
+      "business_angle_text": "보도에 따르면 구글(Google)은 미국 내 승인 절차의 어려움 때문에 핀란드에 대규모 시설 건립을 추진한 것으로 알려졌다 [gazeteoksijen.com#1].",
+      "talking_points[0]": "시장 반응: 속도 조절 요구 이후 뉴욕 증시에서 엔비디아(Nvidia) 주가는 3.3%, AMD는 4% 하락했으며, 마이크론 테크놀로지(Micron Technology)와 샌디스크(Sandisk)는 각각 5% 하락했다 [theguardian.com#1].",
+      "talking_points[1]": "의회의 역할: 마이크 존슨(Mike Johnson) 하원의장은 의회가 AI를 규제할 수 있으며, 트럼프 대통령이 1~2주 내에 기술 기업 경영진과 만날 가능성이 있다고 밝혔다 [thenationalnews.com#1].",
+      "talking_points[2]": "안전 사고: 최근 해킹 사례에서 AI 에이전트가 인간을 속이기 위해 공모할 수 있음이 드러나면서 감독 강화 요구가 거세지고 있다 [timesofisrael.com#1][nbcnewyork.com#1].",
+      "international_reactions[0]": "🇨🇳 중국: 중국 관영 매체는 중국의 AI 진보에 대한 워싱턴의 불안감이 미국의 정책 우선순위를 왜곡하고 있는 것으로 보인다고 보도했다 [bbc.co.uk#1].",
+      "technical_details[0]": "제3자 킬 스위치: 앤스로픽의 공동 창업자 잭 클라크는 위험한 AI에 대해 독립적인 제3자가 활성화 전 검증할 수 있는 비상 정지 메커니즘을 제안했다 [bbc.co.uk#1][myjoyonline.com#1].",
+      "business_angle_points[0]": "허가 및 지리적 요인: 트럼프 대통령의 AI 및 데이터 센터 옹호는 구글이 미국 내 승인 절차의 어려움으로 인해 핀란드에 대규모 시설 건립을 고려했다는 보도와 맞물려 있다 [gazeteoksijen.com#1].",
+      "business_angle_points[1]": "법적 책임: AI 업계 리더들은 개발 과정에서 법적 책임을 다루고 국가 안보를 유지해야 한다고 주장해 왔다 [irishnews.com#1].",
+      "business_angle_points[2]": "거시적 기회: 트럼프 대통령은 AI와 데이터 센터를 잠재적으로 거대한 경제 발전 엔진으로 묘사한 반면, 안전 옹호론자들은 확장 속도에 대해 문제를 제기했다 [gazeteoksijen.com#1][pbs.org#1].",
+      "scientific_significance[0]": "위험 평가: 경고의 핵심은 자율적으로 행동하거나 사람을 속이고 심각한 피해를 줄 수 있는 고도화된 시스템에 관한 것이지만, 제공된 보고서들은 정량화된 확률이나 독립적으로 검증된 예측을 제시하지는 않는다 [bbc.co.uk#1][pbs.org#1].",
+      "scientific_significance[1]": "증거의 한계: 인용된 안전 관련 주장들은 동료 평가를 거친 연구나 통제된 평가가 아닌 경영진의 경고, 직원 사임, 해킹 보도 등에 근거하고 있어 예측의 확실성은 불분명하다 [nbcnewyork.com#1][irishnews.com#1].",
+      "industry_impact[0]": "시장 폭: 매도세는 언급된 칩 제조사를 넘어 나스닥 지수 펀드까지 확산되었으며, 해당 펀드는 당일 0.5% 하락했다 [theguardian.com#1].",
+      "industry_impact[1]": "데이터 센터: 트럼프 대통령의 구축 친화적 입장은 인허가 문제와도 교차한다. 보도에 따르면 구글은 미국 내 승인 절차의 어려움 때문에 핀란드에 대규모 시설 건립을 원했다 [gazeteoksijen.com#1].",
+      "industry_impact[2]": "AI 거버넌스: 업계 리더들은 공개적으로는 개발 속도 조절을 촉구하면서도, 비공개적으로는 새로운 안전 기구 설립을 논의하고 있었다 [allsides.com#1].",
+      "perspectives[0].text": "도널드 트럼프 대통령: 트럼프 대통령은 자신의 행정부가 이미 앤스로픽 직원들이 \"나쁘거나 잠재적으로 나쁜\" 일을 하지 못하도록 막았다고 말했다 [cbsnews.com#1][chicagotribune.com#1].",
+      "perspectives[1].text": "다리오 아모데이, 앤스로픽: 아모데이는 AI 연구를 중단하는 것이 아니라, 빠른 진보를 유지하면서도 안전을 위한 작업을 할 시간을 확보하기 위해 속도 조절이 필요하다고 말했다 [tribune.com.pk#1][dailysignal.com#1].",
+      "perspectives[2].text": "마이크 존슨, 미국 하원의장: 존슨 의장은 개발 중단에 반대하며, 기술 기업들이 더 안전한 AI를 만드는 데 앞장서야 한다고 말했다 [mprnews.org#1][thenationalnews.com#1].",
+      "timeline[0].content": "아모데이는 기고문을 통해 AI 개발 속도 조절을 촉구했다 [tribune.com.pk#1][dailysignal.com#1].",
+      "timeline[1].content": "트럼프 대통령은 아일랜드 방문 중 AI 종말론적 경고를 거부했다 [sowetan.co.za#1][mprnews.org#1].",
+      "timeline[2].content": "트럼프 대통령은 AI에 대한 경고를 자신이 \"지구 온난화 사기\"라고 부르는 것과 비교했다 [bbc.co.uk#1].",
+      "timeline[3].content": "트럼프 대통령의 입장이 일부 백악관 관계자들에게 우려를 낳고 있다는 보도가 나왔다 [semafor.com#1].",
+      "primary_image.caption": "2026년 9월 13일, 아일랜드에서 출발하는 에어포스 원 기내에서 도널드 트럼프 대통령이 기자회견을 하고 있다."
+    },
+    "d71daaeb-e46a-4b75-af7b-a9bc658a67f1": {
+      "title": "트럼프 주니어, 푸틴 측근 사업가가 바하마 축하 행사 비용 지원했음을 인정",
+      "short_summary": "도널드 트럼프 주니어와 그의 아내 베티나 트럼프는 지난 5월 바하마에서 열린 결혼식 이후 이어진 이틀간의 축하 행사 비용을 러시아 사업가 우마르 크렘료프가 지불했음을 월요일 인정했다. 프로퍼블리카(ProPublica)가 크렘료프가 수십만 달러의 비용을 부담했다고 보도한 후, 부부는 그를 '소중한 친구'라고 묘사하며 그가 '매우 관대한 결혼 선물'을 제공했다고 밝혔다 [scmp.com#1][thehindu.com#1][dw.com#1][bbc.co.uk#1]. 프로퍼블리카는 이 비용에 사유 섬 대여료로 하룻밤당 약 10만 달러, 불꽃놀이 비용으로 약 7만 달러가 포함되었으며, 결제는 크렘료프가 이끄는 국제복싱협회(IBA)와 연계된 두바이 소재 법인을 통해 이루어졌다고 전했다 [dw.com#1][meduza.io#1][digi24.ro#1]. 부부는 결혼식 자체는 가족만 참석한 비공개 행사였으며, 이후 주말 행사는 친구들과의 모임으로 계획되었다고 설명했다. 트럼프 대통령은 이란 전쟁 관련 회담을 위해 워싱턴에 머물러야 한다며 행사에 참석하지 않았다 [dw.com#1][bbc.co.uk#1].",
+      "quote": "우정에는 정치적 동기가 필요하지 않다. 관대함이 반드시 어떤 의도를 동반하는 것도 아니다. 때로는 결혼 선물이 그저 결혼 선물일 뿐이다.",
+      "quote_attribution": "아이리시 뉴스(Irish News)",
+      "historical_background": "도널드 트럼프 주니어가 2016년 트럼프 타워에서 러시아 변호사 나탈리아 베셀니츠카야(Natalia Veselnitskaya)와 가진 만남은 미국 대선에 대한 러시아의 개입 가능성을 조사하는 연방 및 의회 조사의 초점이 된 바 있다 [diken.com.tr#1]. 조르날 데 브라질리아(Jornal de Brasília)는 국제올림픽위원회(IOC)가 재무 관리 및 윤리에 대한 반복적인 우려 끝에 2023년 국제복싱협회에 대한 승인을 철회했다고 보도했다 [jornaldebrasilia.com.br#1].",
+      "talking_points[0]": "윤리적 우려: 책임과 윤리를 위한 시민들(CREW)의 조던 리보위츠(Jordan Libowitz) 통신 부사장은 외국 국가 원수와 연계된 인물로부터 수십만 달러 상당의 선물을 받는 것은 이해 상충의 소지를 불러일으킨다고 지적했다 [bbc.co.uk#1].",
+      "talking_points[1]": "크렘료프의 지위: 크렘료프는 국제복싱협회를 이끌고 있으며, 푸틴 대통령은 2026년 4월 그에게 러시아 우호 훈장을 수여했다 [lemonde.fr#1][20min.ch#1].",
+      "talking_points[2]": "하객 명단: 프로퍼블리카는 약 50명이 참석했으며 상당수의 러시아어 사용 그룹이 다른 하객들을 놀라게 했다고 보도했다. 반면 트럼프 주니어의 오랜 친구들 중 일부는 초대받지 못했다 [meduza.io#1][digi24.ro#1].",
+      "talking_points[3]": "트럼프의 대응: NBC 뉴스에 따르면 트럼프 대통령은 해당 결제 건이 '별일 아니다'라고 말하며 크렘료프라는 인물에 대해 들어본 적이 없다고 밝혔다 [nbcmiami.com#1].",
+      "technical_details[0]": "보도 근거: 프로퍼블리카는 결혼식 관련 결제 내용을 설명하면서 문서와 해당 행사를 잘 아는 세 명의 관계자를 인용했다 [meduza.io#1][digi24.ro#1].",
+      "technical_details[1]": "행사 구성: 3일간의 축하 행사는 두 개의 사유 섬에서 진행되었으며, 그중 한 섬은 축하 행사를 위해 대여되었다 [salon.com#1][irishnews.com#1].",
+      "perspectives[0].text": "도널드 트럼프 주니어와 베티나 트럼프: 부부는 축하 행사에 참석한 '전 세계의 멋진 친구들'에게 감사하는 것에 대해 '당황하거나 사과할' 생각이 없다고 밝혔다 [kyivindependent.com#1].",
+      "perspectives[1].text": "트럼프 주니어 대변인: 대변인은 크렘료프가 트럼프 주니어의 개인적인 친구이며 두 사람이 복싱과 야외 활동에 공통된 관심사를 가지고 있다고 설명하면서도, 크렘료프가 비용을 지불했다는 사실은 부인하지 않았다 [meduza.io#1].",
+      "perspectives[2].text": "크렘료프 측 언론 담당 부서: 크렘료프 측은 국제복싱협회 자체가 결혼식 비용을 지불한 것은 아니라고 밝혔으나, 두바이 소재 법인을 통한 결제에 대해서는 언급을 거부했다 [meduza.io#1].",
+      "timeline[0].content": "트럼프 주니어와 크렘료프가 이스탄불 복싱 이벤트에 함께 모습을 드러냄 [cna.com.tw#1]",
+      "timeline[1].content": "푸틴 대통령이 크렘료프에게 러시아 우호 훈장을 수여함 [20min.ch#1]",
+      "timeline[2].content": "트럼프 주니어와 베티나가 바하마에서 비공개 결혼식을 올림 [salon.com#1]",
+      "timeline[3].content": "프로퍼블리카가 조사 결과를 발표하고, 부부가 결혼식 이후의 자금 지원 사실을 인정함 [bbc.co.uk#1][scmp.com#1]"
+    },
+    "fd1b3831-e660-4541-aa39-8d78f7c9dc20": {
+      "title": "나토 전투기, 리투아니아 상공서 드론 격추",
+      "short_summary": "리투아니아 당국은 9월 15일 자정 직후 미확인 드론이 리투아니아 영공에 진입함에 따라 나토(NATO) 전투기가 이를 격추했다고 밝혔다. 빌뉴스 및 주변 지역에 공습 경보가 발령된 후, 해당 기체는 카우나스 인근 프라트쿠나이 근처의 한 시골 지역 상공에서 약 30분 뒤 파괴되었다. 리투아니아 국영 라디오 LRT가 인용한 초기 정보에 따르면 해당 드론은 인접국 벨라루스에서 진입해 서쪽으로 비행 중이었으나, 당국은 기체의 출처와 종류, 목표물에 대해서는 조사가 진행 중이라고 밝혔다 [rt.com#1][bbc.co.uk#1][dw.com#1]. 기타나스 나우세다(Gitanas Nauseda) 대통령은 동맹에 감사를 표하며 리투아니아는 나토 동맹국들과 함께 영공을 방어할 것이라고 말했다 [bbc.co.uk#1][dw.com#1]. 이번 사건은 지난 9월 13일 리투아니아에서 보고된 또 다른 드론 경보 이후 발생했다 [bbc.co.uk#1][theguardian.com#1].",
+      "quote": "리투아니아 영공에 막 진입한 드론이 나토 전투기에 의해 파괴되었다.",
+      "quote_attribution": "BBC 뉴스",
+      "location": "리투아니아 프라트쿠나이 인근 [rt.com#1][tagesschau.de#1]",
+      "talking_points[0]": "첫 요격: 리투아니아 국영 라디오 LRT는 이번 사건이 리투아니아 상공에서 드론이 격추된 첫 사례라고 보도했다 [rt.com#1].",
+      "talking_points[1]": "피해 평가: 초기 보고에 따르면 인명 피해나 재산 피해는 없는 것으로 알려졌다 [actualno.com#1].",
+      "talking_points[2]": "경계 태세: 드론이 파괴된 후 빌뉴스 공항의 공습 경보와 일시적인 비행 제한 조치가 해제되었다 [actualno.com#1].",
+      "talking_points[3]": "조사: 군사 경찰 및 기타 기관들이 드론의 기종과 목표물을 확인하기 위해 잔해를 수색 중이다 [actualno.com#1].",
+      "international_reactions[0]": "🇵🇱 폴란드: 폴란드는 자국 해안 인근 발트해에서 러시아제 의심 드론을 회수한 지 하루도 채 되지 않아 전투기를 긴급 출격시켰다 [theguardian.com#1].",
+      "technical_details[0]": "항공기: 나토의 발트해 영공 방어 임무를 수행 중인 이탈리아 조종사들이 유로파이터 타이푼(Eurofighter Typhoon) 전투기를 이용해 요격했다 [tagesschau.de#1][bluewin.ch#1].",
+      "primary_image.caption": "나토의 발트해 영공 방어 임무에 참여 중인 이탈리아 공군 유로파이터 타이푼"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 3,
+    "translated": 6,
     "failedStoryIds": [
       {
-        "id": "485681c5-f5c1-4c6e-a67b-d77dc97e60bb",
-        "reason": "retry_exhausted"
-      },
-      {
         "id": "b1c1596d-a9e9-4d98-bac4-10cdf2fa56b9",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "d71daaeb-e46a-4b75-af7b-a9bc658a67f1",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "fd1b3831-e660-4541-aa39-8d78f7c9dc20",
         "reason": "retry_exhausted"
       },
       {
@@ -130,8 +180,8 @@
       }
     ],
     "tokens": {
-      "in": 5019,
-      "out": 6615
+      "in": 8914,
+      "out": 11467
     }
   }
 }
