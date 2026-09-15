@@ -4,7 +4,7 @@
   "categoryUuid": "3aff7b42-760f-426b-af20-b2b74fe95235",
   "categorySlug": "science",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-15T18:12:07.155Z",
+  "createdAt": "2026-09-15T19:33:21.542Z",
   "stories": {
     "f427bb11-3197-4496-99e4-95b790e48275": {
       "title": "과학자들, 물 부족이 지속 가능한 달 도시 건설의 제약 요인이 될 수 있다고 경고",
@@ -24,11 +24,25 @@
       "timeline[2].content": "달의 물 매장량에 대한 낮은 추정치를 상세히 다룬 추가 분석이 발표됨[libertaddigital.com#1]",
       "primary_image.caption": "건설 중인 달 기지의 예술가 상상도.",
       "secondary_image.caption": "달 남극 근처의 섀클턴 분화구(Shackleton Crater), 영구 음영 지역이 물 얼음을 보존할 수 있는 곳이다."
+    },
+    "9f6c1293-9c4f-4388-a7b6-194c0b045b70": {
+      "title": "성간 혜성 3I/ATLAS, 차갑고 질소가 풍부한 지역에서 형성",
+      "short_summary": "천문학자들은 성간 혜성 3I/ATLAS가 모항성에서 멀리 떨어진 극도로 차갑고 질소가 풍부한 지역에서 형성되었을 가능성이 높다고 밝혔다. 이 물체는 태양계에서 확인된 세 번째 성간 방문객이다. 이 혜성의 이례적으로 높은 질소 함량은 질소가 혜성 얼음에 갇힐 수 있을 만큼 낮은 30켈빈 이하의 온도에서 형성되었음을 시사한다 [sci.news#1][space.com#1][wp.pl#1][benchmark.pl#1]. 연구진은 2025년 11월 30일과 12월 2일, 태양에 가장 근접한 후 스페인 윌리엄 허셜 망원경(William Herschel Telescope)의 WEAVE Large-IFU 장비를 사용하여 혜성의 플라즈마 꼬리를 조사했다. 이들은 질소, 일산화탄소, 이산화탄소, 물, 메틸리딘과 관련된 이온을 식별한 뒤, 태양계 혜성들의 질소 대 일산화탄소 비율과 비교했다. 그 결과는 차갑고 먼 형성 조건과 관련된 중수소 및 기타 동위원소 신호의 이전 증거와 일치한다 [sci.news#1][mediaindonesia.com#1][wp.pl#1].",
+      "did_you_know": "이번 연구는 성간 혜성의 꼬리에 있는 하전 입자를 분석한 최초의 사례이다 [mediaindonesia.com#1].",
+      "quote": "질소가 매우 풍부하다는 사실은 이 혜성이 모항성에서 멀리 떨어진 극도로 차가운 환경에서 형성되었을 가능성이 높다는 것을 알려준다.",
+      "quote_attribution": "Sci.News",
+      "scientific_significance[0]": "온도와 위치는 혜성의 탄생지에서 직접 측정한 것이 아니라 꼬리의 화학 성분과 동위원소 신호를 통해 추론한 것이다 [sci.news#1][wp.pl#1].",
+      "perspectives[0].text": "레아 페렐렉(Léa Ferellec)과 동료들은 이 물체가 우리 태양계가 아닌 다른 행성계에서 형성된 물질을 연구하고 다른 별 주변의 행성 형성을 조사할 드문 기회를 제공한다고 말했다.",
+      "timeline[0].content": "허블 우주 망원경이 지구에서 2억 7,700만 마일 떨어진 3I/ATLAS를 촬영함 [space.com#1]",
+      "timeline[1].content": "WEAVE가 태양을 통과한 혜성의 플라즈마 꼬리를 관측함 [sci.news#1]",
+      "timeline[2].content": "천문학자들이 두 번째 플라즈마 꼬리 관측을 완료함 [sci.news#1]",
+      "timeline[3].content": "연구진이 차갑고 질소가 풍부한 형성 조건의 증거를 보고함 [sci.news#1][space.com#1]",
+      "primary_image.caption": "2025년 7월 21일 허블이 촬영한 성간 혜성 3I/ATLAS의 모습으로, 얼음 핵 주변의 물방울 모양 먼지 고치를 보여준다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 1,
+    "translated": 2,
     "failedStoryIds": [
       {
         "id": "63e679d1-6b83-42f9-9dd3-dde018395072",
@@ -36,10 +50,6 @@
       },
       {
         "id": "6a41b7ad-36dc-4a33-9087-5025abd8e8fe",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "9f6c1293-9c4f-4388-a7b6-194c0b045b70",
         "reason": "retry_exhausted"
       },
       {
@@ -76,8 +86,8 @@
       }
     ],
     "tokens": {
-      "in": 1206,
-      "out": 1510
+      "in": 2116,
+      "out": 2475
     }
   }
 }

@@ -4,7 +4,7 @@
   "categoryUuid": "b7c1c8c6-8a34-4ca4-9045-22407264c8f4",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-15T18:01:06.013Z",
+  "createdAt": "2026-09-15T19:22:42.138Z",
   "stories": {
     "ea7ca462-05d0-49b4-9e38-a165dff2b248": {
       "title": "미 우주군, 궤도상 무기 배치 공식 확인",
@@ -190,22 +190,59 @@
       "timeline[3].content": "미 국방부 감찰관, 의회에 첫 의무 보고서 제출 [cbsnews.com#1][aawsat.com#1]",
       "primary_image.caption": "2026년 5월 29일, 중동 지역의 항공모함에서 미군 F-18 전투기가 이륙을 준비하고 있다.",
       "secondary_image.caption": "2026년 3월 14일, 바그다드에서 미 대사관 관계자들이 폭격 피해 현장을 조사하고 있다."
+    },
+    "b1c1596d-a9e9-4d98-bac4-10cdf2fa56b9": {
+      "title": "트럼프, 러시아와 우크라이나의 에너지 시설 타격 중단 합의 주장",
+      "short_summary": "도널드 트럼프 대통령은 9월 14일 러시아와 우크라이나가 서로의 에너지 목표물을 공격하지 않기로 합의했다고 밝혔으나, 키이우와 모스크바 모두 합의 사실을 확인하지 않았다. 트럼프는 볼로디미르 젤렌스키 대통령에게 우크라이나의 러시아 정유시설 공격을 중단할 것을 촉구한 뒤 트루스 소셜(Truth Social)을 통해 이같이 주장했으며, 디젤 가격 상승의 원인으로 우크라이나의 공격을 지목했다. 그는 전 세계 디젤 가격 상승이 이란과의 전쟁보다는 주로 러시아-우크라이나 전쟁으로 인해 발생했다고 말했다 [dw.com#1][rt.com#1][euronews.com#1][aawsat.com#1]. 젤렌스키는 미국과 다른 파트너들이 러시아의 우크라이나 전력, 에너지 시설, 핵심 인프라 및 식량 공급 경로에 대한 공격 중단이라는 진정성 있고 신뢰할 수 있는 장기적 약속을 확보한다면 우크라이나도 상응하는 긴장 완화 조치를 취할 준비가 되어 있다고 밝혔다. 그는 키이우가 구체적인 내용을 기다리고 있으며 모스크바가 합의를 이행할 의지가 있는지 의문을 제기했다. 드미트리 페스코프 크렘린궁 대변인은 우크라이나가 러시아의 민간 경제 인프라 타격을 중단해야 한다는 요구를 환영했으나 러시아가 상응 조치를 취할지 여부에 대해서는 언급을 피했다 [meduza.io#1][meduza.io#3][rferl.org#1].",
+      "quote": "우크라이나는 러시아의 에너지 목표물을 타격하지 않기로 합의했다. 러시아도 마찬가지로 합의했다!",
+      "quote_attribution": "RT",
+      "historical_background": "러시아는 2014년부터 크림반도와 도네츠크, 루한스크 일부를 점령한 데 이어 2022년 2월 24일 우크라이나를 전면 침공했다 [nrk.no#1]. 우크라이나의 전력 및 에너지 인프라를 겨냥한 러시아의 공세와 이후 이어진 우크라이나의 러시아 정유시설 공격은 이번 제안된 중단 조치가 다루고자 하는 상호 인프라 타격으로 이어졌다 [japantoday.com#1][zdfheute.de#1].",
+      "business_angle_text": "검증 가능한 타격 중단은 추가적인 정유시설 피해를 막을 수 있으나 이미 손실된 생산 능력을 즉각 회복시키지는 못할 것이다. 걸프 해운 경로 주변의 혼란은 정유시설 타격이 중단되더라도 가격 하락 효과를 제한할 수 있다 [energyconnects.com#1].",
+      "talking_points[0]": "합의 조건 부재: 트럼프는 어떤 시설이 보호 대상인지, 중단이 언제 시작되어 얼마나 지속될지, 또는 준수 여부가 어떻게 감시될지에 대해 명시하지 않았다 [bb.lv#1][novinite.com#1].",
+      "talking_points[1]": "키이우 측 인지 부족: 우크라이나의 한 고위 에너지 관리는 트럼프의 발표 당시 에너지 휴전 소식을 듣지 못했다고 키이우 인디펜던트(Kyiv Independent)에 전했다 [kyivindependent.com#1].",
+      "talking_points[2]": "러시아의 추가 타격 가능성: 러시아 당국은 트럼프의 발표 이후 사마라 지역의 산업 시설과 주거용 건물이 드론 공격으로 피해를 입었으며 사망자는 없다고 밝혔다. 우크라이나 측 보도는 해당 시설을 정유공장으로 지목했다 [mainwelle.de#1].",
+      "business_angle_points[0]": "디젤 선물 가격은 트럼프의 게시물 이후 상승폭을 줄였으나 장중 약 1% 높은 수준을 유지했다 [energyconnects.com#1].",
+      "business_angle_points[1]": "러시아가 자국 정유 인프라 공격에 대응해 도입한 디젤 수출 금지 조치 연장은 투자자들이 주시해야 할 별도의 공급 리스크이다 [rts.ch#1].",
+      "business_angle_points[2]": "타격 중단은 새로운 피해를 막을 수는 있지만 이미 손실된 정유시설 생산 능력을 즉각 복구하지는 못할 것이다 [energyconnects.com#1].",
+      "industry_impact[0]": "연료 시장: 미국 소매 가격은 장중 기록적인 수준을 유지했다 [energyconnects.com#1].",
+      "industry_impact[1]": "우크라이나 인프라: 우크라이나는 러시아의 공격이 전력 시설, 항구, 물류 거점, 식량 및 의약품 창고를 겨냥해 왔으며, 이는 인프라 타격 중단 합의의 잠재적 범위를 확대하는 요소라고 밝혔다 [birgun.net#1][dnoticias.pt#1].",
+      "perspectives[0].text": "도널드 트럼프 대통령: 미국이 중재한 협상은 사실상 교착 상태에 빠져 있었다. 파이낸셜 타임스(Financial Times)가 인용한 관계자들에 따르면 에너지 타격 중단은 수개월간 논의되어 왔으나, 모스크바는 이전의 제안들을 거부했고 겨울 전 합의에 반대해 왔다 [meduza.io#2].",
+      "perspectives[1].text": "볼로디미르 젤렌스키 대통령: 젤렌스키는 핵심 인프라에 대한 상호 타격 중단을 평화를 향한 첫걸음이 될 수 있다고 설명하면서, 러시아 선거 이후 붕괴할 수 있는 합의에 대해 경고했다 [meduza.io#4].",
+      "perspectives[2].text": "크렘린궁: 페스코프의 발언은 러시아의 민간 경제 인프라 타격을 중단하라는 트럼프의 별도 요구에 대한 것이었으며, 트럼프가 발표한 상호 합의를 확인한 것은 아니었다 [meduza.io#1].",
+      "timeline[0].content": "트럼프, 젤렌스키에게 러시아 디젤 인프라 타격 중단 촉구 [rt.com#1][euronews.com#1].",
+      "timeline[1].content": "트럼프, 확인되지 않은 에너지 타격 상호 중단 발표 [dw.com#1][aawsat.com#1].",
+      "timeline[2].content": "젤렌스키, 러시아의 보증과 파트너들의 세부 사항 확인을 전제로 상호 조치 제안 [meduza.io#3][rferl.org#1].",
+      "timeline[3].content": "러시아 산업 시설의 피해 보도 [mainwelle.de#1]."
+    },
+    "d6d154b6-9391-4aa2-99f7-024d3d31aab8": {
+      "title": "미 연방법원, 트럼프 행정부의 학생·언론인 비자 제한 조치 제동",
+      "short_summary": "보스턴 연방법원 판사는 월요일, 외국인 유학생과 교환 방문자, 언론인이 체류 연장 신청 없이 미국에 머물 수 있는 기간을 제한하려던 트럼프 행정부의 새 규정 시행을 일시적으로 중단시켰다. 이번 예비적 금지명령은 국토안보부(DHS)의 규정 시행을 하루 앞두고 내려졌으며, 이로써 소송이 진행되는 동안 기존 체류 시스템이 유지된다 [thehindu.com#1][lemonde.fr#1][deccanchronicle.com#1][france24.com#1]. 제안된 정책은 일반적으로 유학생과 교환 방문자의 체류 기간을 4년으로, 외국 언론인의 체류 기간을 240일로 제한하고 연장 신청을 허용하는 내용을 담고 있었다. 중국 언론인의 경우 90일로 제한될 예정이었다. F. 데니스 세일러 4세(F. Dennis Saylor IV) 지방법원 판사는 국토안보부가 국가 안보와 비자 사기를 근거로 내세운 제한 조치의 논리가 \"극히 취약\"하며, 대중의 우려나 덜 부담스러운 대안을 충분히 고려하지 않았다고 지적했다 [arynews.tv#1][channelstv.com#1][cna.com.tw#1]. 세일러 판사는 본안 판결은 내리지 않았으며, 10월 2일에 추가 심리를 열기로 했다 [deccanchronicle.com#1][rts.ch#1].",
+      "did_you_know": "2023-24 학년도 기준, 미국은 전 세계에서 가장 많은 110만 명 이상의 유학생을 유치했다 [cna.com.tw#1].",
+      "quote": "학생 비자로 들어와서 한 학기에 수업 하나만 들으면서 수십 년을 머무는 것",
+      "quote_attribution": "로이터(Reuters), ARY 뉴스 재인용",
+      "location": "미국 매사추세츠주 보스턴",
+      "historical_background": "외국인 유학생의 체류 기간 보장 관행은 약 50년간 유지되어 왔으며, 이번 제안은 기존의 오랜 시스템에서 크게 벗어난 것이다 [deccanchronicle.com#1][diepresse.com#1].",
+      "talking_points[0]": "원고 연합: 대학, 교사, 언론인 노조와 고등교육 단체들이 이번 소송을 제기했다 [deccanchronicle.com#1][nationalheraldindia.com#1].",
+      "talking_points[1]": "영향 범위: 이번 규정은 해당 비자 프로그램의 적용을 받는 미국 내 1만 3천 명 이상의 한국인에게 영향을 미칠 것으로 예상되었다 [yna.co.kr#1][koreatimes.co.kr#1].",
+      "talking_points[2]": "법원의 우려: 세일러 판사는 제안된 시스템 하에서 체류 연장 거부는 전적으로 재량에 달려 있으며, 외국 언론인을 포함해 이에 대해 항소할 수 없다는 점을 지적했다 [deccanchronicle.com#1][cna.com.tw#1].",
+      "industry_impact[0]": "고등교육: 원고 측은 약 600개의 공립 및 사립 교육기관을 대표한다. 판사는 구제 대상을 이들 기관으로만 제한할 경우 5천 개 이상의 미국 교육기관이 일관성 없는 규제 체계에 놓일 수 있다고 언급했다 [business-standard.com#1][freepressjournal.in#1].",
+      "industry_impact[1]": "연구 및 혁신: 세일러 판사는 기존 시스템이 수천만 명의 외국인 학생과 연구자들이 과학, 의학, 기술 분야에 기여할 수 있도록 했다고 적었다. 그는 제안된 대체안이 학생, 연구자, 교수의 전체 수를 실질적으로 제한할 것이라고 밝혔다 [deccanchronicle.com#1][channelstv.com#1].",
+      "industry_impact[2]": "국제 언론: 기존에 외국 언론인은 미국에 최대 5년까지 체류할 수 있었으나, 제안된 시스템은 이를 반복적인 연장 결정 방식으로 대체하려 했다 [deccanchronicle.com#1].",
+      "perspectives[0].text": "F. 데니스 세일러 4세 판사는 국토안보부가 비자 남용 방지와 도입한 제한 조치 사이에 합리적인 연관성을 입증하지 못했다고 밝혔다 [asahi.com#1].",
+      "timeline[0].content": "국토안보부, 연방 관보에 비자 제한 제안 공고 [cna.com.tw#1][letemps.ch#1][aristeguinoticias.com#1]",
+      "timeline[1].content": "보스턴 법원, 시행 마감일 앞두고 금지명령 발령 [deccanchronicle.com#1][france24.com#1]",
+      "timeline[2].content": "새 비자 규정 전국적 시행 예정 [thehindu.com#1][lemonde.fr#1]",
+      "timeline[3].content": "법원, 소송 지속에 따라 추가 심리 일정 지정 [deccanchronicle.com#1][rts.ch#1]",
+      "primary_image.caption": "2026년 8월 25일 멕시코시티에서 촬영된 미국 여권 내 비자 상세 모습.",
+      "secondary_image.caption": "작년 하버드 대학교에서 열린 유학생 지지 집회."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 8,
+    "translated": 10,
     "failedStoryIds": [
       {
-        "id": "b1c1596d-a9e9-4d98-bac4-10cdf2fa56b9",
-        "reason": "retry_exhausted"
-      },
-      {
         "id": "fb2deebd-2315-43fe-bde2-27e2653c0ced",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "d6d154b6-9391-4aa2-99f7-024d3d31aab8",
         "reason": "retry_exhausted"
       },
       {
@@ -214,8 +251,8 @@
       }
     ],
     "tokens": {
-      "in": 11726,
-      "out": 14942
+      "in": 14540,
+      "out": 18445
     }
   }
 }

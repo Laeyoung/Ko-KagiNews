@@ -4,7 +4,7 @@
   "categoryUuid": "9228960b-74fb-47c0-b4e1-2879604b9f63",
   "categorySlug": "usa",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-15T18:03:51.380Z",
+  "createdAt": "2026-09-15T19:24:55.669Z",
   "stories": {
     "d1607fbb-2ff1-45bc-a4d7-0483cfc82f32": {
       "title": "러시아 사업가, 트럼프 주니어 바하마 결혼식 파티 비용 지원",
@@ -52,11 +52,36 @@
       "timeline[5].content": "민족주의 정당 지도자들이 카디프에서 자결권에 대해 회동함 [elfinanciero.com.mx#1]",
       "primary_image.caption": "아일랜드 방문 중 둔베그의 골프장에 있는 도널드 트럼프 대통령",
       "secondary_image.caption": "더블린에서 만난 미홀 마틴 아일랜드 총리와 도널드 트럼프 대통령"
+    },
+    "7afe09d6-77ed-467d-a866-f4af6fc7022c": {
+      "title": "Widow’s Bay, 에미상 코미디 부문 14관왕 신기록 달성",
+      "short_summary": "제78회 프라임타임 에미상 시상식이 9월 14일 월요일 로스앤젤레스 피콕 극장에서 마리스카 하지테이(Mariska Hargitay)의 사회로 개최되었다. 애플 TV의 호러 코미디 'Widow’s Bay'가 최우수 코미디 시리즈상을 포함해 총 14개 부문을 석권하며 시상식을 주도했고, HBO 맥스의 의학 드라마 'The Pitt'는 2년 연속 최우수 드라마 시리즈상을 수상했다. 매튜 리스(Matthew Rhys)는 'Widow’s Bay'로 코미디 부문 남우주연상을, 'The Beast in Me'로 리미티드 시리즈 부문 남우주연상을 각각 수상하며 한 시상식에서 두 개의 주연상을 거머쥔 최초의 인물이 되었다[aljazeera.com#1][thewrap.com#1][abc7ny.com#1]. 진 스마트(Jean Smart)는 5번째 시즌으로 막을 내린 'Hacks'를 통해 코미디 부문 여우주연상을 5년 연속 수상했다. 이로써 스마트는 한 시리즈의 모든 시즌에서 해당 부문을 수상한 최초의 배우가 되었으며, 통산 8번째 에미상 연기상을 수상해 클로리스 리치먼(Cloris Leachman) 및 줄리아 루이스 드레이퍼스(Julia Louis-Dreyfus)와 함께 최다 수상 기록을 세웠다. 앨리슨 제니(Allison Janney) 또한 'The Diplomat'로 드라마 부문 여우조연상을 수상하며 통산 8번째 연기상 수상 기록에 도달했다[theatlantic.com#2][dailymaverick.co.za#1][inquirer.net#1].",
+      "quote": "정말 대단한 여정이었다!",
+      "quote_attribution": "로이터(Reuters)",
+      "location": "미국 캘리포니아주 로스앤젤레스",
+      "historical_background": "2020년 'Schitt’s Creek'이 9관왕으로 코미디 시리즈 에미상 기록을 세운 이후, 'The Bear'가 10관왕과 11관왕을 기록했고, 2025년에는 'The Studio'가 13관왕을 차지한 바 있다[thewrap.com#1]. 노아 와일리(Noah Wyle)는 'The Pitt'로 다시 한번 드라마 부문 남우주연상을 수상했다[inquirer.net#1][deseret.com#1].",
+      "talking_points[0]": "드라마 부문 수상자: 레아 시혼(Rhea Seehorn)이 'Pluribus'로 여우주연상을, 톰 페리(Tom Pelphrey)가 'Task'로 남우조연상을, 사울 메츠스타인(Saul Metzstein)이 'Slow Horses'로 감독상을 각각 수상했다[tribuneindia.com#1][lanacion.com.ar#1].",
+      "talking_points[1]": "리미티드 시리즈 부문: 'DTF St. Louis'가 최우수 리미티드 또는 앤솔러지 시리즈상을 수상했으며, 샐리 필드(Sally Field)가 'Remarkably Bright Creatures'로 여우주연상을 수상했다[lanacion.com.ar#1][deseret.com#1].",
+      "talking_points[2]": "버라이어티 부문: 'The Late Show with Stephen Colbert'가 최우수 버라이어티 시리즈상을 수상하며 2016년부터 이 부문을 독식해온 'Last Week Tonight with John Oliver'의 연승을 저지했다[ign.com#1].",
+      "talking_points[3]": "시상식 헌정 무대: 리바 매킨타이어(Reba McEntire)가 돌리 파튼(Dolly Parton) 헌정 공연을 펼쳤고, 매컬리 컬킨(Macaulay Culkin)은 영화 '나 홀로 집에'에 함께 출연했던 캐서린 오하라(Catherine O’Hara)를 기리는 추모 영상에 등장했다[wral.com#1][ign.com#1].",
+      "talking_points[4]": "심사 대상 기간: 이번 시상식은 2025년 6월 1일부터 2026년 5월 31일 사이에 방영된 프라임타임 프로그램을 대상으로 했다[lanacion.com.ar#1].",
+      "industry_impact[0]": "스트리밍 경쟁: 애플 TV의 'Widow’s Bay'가 'Hacks', 'Only Murders in the Building' 등의 후보를 제치고 코미디 시리즈상을 수상했으며, HBO 맥스 작품들이 드라마 및 리미티드 시리즈 부문을 석권했다[pagesix.com#1][lanacion.com.ar#1].",
+      "industry_impact[1]": "수상 집중 현상: 'The Pitt'는 드라마 부문에서 25개 후보에 올라 최다 노미네이트를 기록했고, 'Hacks'는 코미디 부문에서 24개 후보에 올랐다. 'Widow’s Bay'는 크리에이티브 아츠 에미상에서 8관왕을 차지한 데 이어 본 시상식에서도 후보에 오른 6개 부문을 모두 수상했다[koreatimes.co.kr#1][delfi.lv#1].",
+      "perspectives[0].text": "진 스마트: 스마트는 시상식 의상의 불편함을 농담으로 언급하며 남성 참석자들에게는 기립을, 여성들에게는 착석을 요청한 뒤 자신의 수상 기록에 대해 소감을 밝혔다[theatlantic.com#2].",
+      "perspectives[1].text": "마리스카 하지테이: 하지테이는 'I Love Rock ’n’ Roll'을 개사한 뮤지컬 패러디로 시상식의 문을 열었으며, 15년 만에 에미상 시상식의 첫 여성 단독 사회자가 된 점을 강조했다[wral.com#1][jamaicaobserver.com#1].",
+      "perspectives[2].text": "버라이어티 평론가: 버라이어티는 작년 시상식의 사회자 선정에 대한 비판을 뒤로하고, 이번 시상식이 효율적이고 축제다운 본연의 모습을 되찾았다고 평가했다[variety.com#1].",
+      "perspectives[3].text": "데드라인 평론가: 데드라인은 시상식의 콩트와 대본, 테일러 스위프트(Taylor Swift)의 카메오 출연을 비판하며, 로스앤젤레스와 뉴욕을 오가는 구성으로 인해 전체적인 연출의 일관성이 결여되었다고 지적했다[deadline.com#1].",
+      "timeline[0].content": "텔레비전 아카데미가 에미상 후보를 발표했으며, 'The Pitt'가 최다 후보에 올랐다[usmagazine.com#1].",
+      "timeline[1].content": "크리에이티브 아츠 에미상에서 기술 부문 및 게스트 연기상 트로피가 수여되었다[usmagazine.com#1].",
+      "timeline[2].content": "피콕 극장에서 프라임타임 에미상 본 시상식이 개최되었다[aljazeera.com#1].",
+      "timeline[3].content": "해외 언론들이 주요 기록과 전체 수상자 명단을 보도했다[philstar.com#1].",
+      "primary_image.caption": "노아 와일리가 'The Pitt'로 드라마 시리즈 부문 남우주연상을 수상하고 있다.",
+      "secondary_image.caption": "로스앤젤레스에서 열린 제78회 프라임타임 에미상 시상식에 참석한 TV 스타들."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 2,
+    "translated": 3,
     "failedStoryIds": [
       {
         "id": "a04c59b2-103e-4d10-912b-f5fc050192cd",
@@ -93,15 +118,11 @@
       {
         "id": "b5605f4f-78b4-4d2a-bcd3-fe55cc382420",
         "reason": "retry_exhausted"
-      },
-      {
-        "id": "7afe09d6-77ed-467d-a866-f4af6fc7022c",
-        "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 2776,
-      "out": 3500
+      "in": 4358,
+      "out": 5625
     }
   }
 }
