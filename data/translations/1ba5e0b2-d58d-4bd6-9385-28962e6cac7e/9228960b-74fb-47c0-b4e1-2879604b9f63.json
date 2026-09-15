@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "batchId": "1ba5e0b2-d58d-4bd6-9385-28962e6cac7e",
+  "categoryUuid": "9228960b-74fb-47c0-b4e1-2879604b9f63",
+  "categorySlug": "usa",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-09-15T15:01:17.718Z",
+  "stories": {
+    "d1607fbb-2ff1-45bc-a4d7-0483cfc82f32": {
+      "title": "러시아 사업가, 트럼프 주니어 바하마 결혼식 파티 비용 지원",
+      "short_summary": "도널드 트럼프 주니어와 그의 아내 베티나 트럼프는 블라디미르 푸틴 대통령의 측근으로 알려진 러시아 사업가 우마르 크렘료프가 지난 5월 바하마에서 열린 자신들의 결혼식 이후 이틀간의 축하 행사를 주최했음을 월요일 확인했다. 부부는 인스타그램 공동 성명을 통해 그에게 감사를 표했다. 프로퍼블리카(ProPublica)의 조사에 따르면 크렘료프는 개인 섬 대여와 불꽃놀이를 포함해 수십만 달러의 비용을 지불했다[cbsnews.com#1][salon.com#1][pbs.org#1]. 부부는 가족만 참석한 가운데 비공개로 결혼식을 올렸으며, 이후 결혼 계획이 변경되기 전부터 계획되었던 주말 행사에 친구들과 합류했다고 밝혔다[cbsnews.com#1][japantoday.com#1]. 국제복싱협회(IBA)를 이끄는 크렘료프는 올해 초 푸틴으로부터 러시아 우호 훈장을 받았다[dw.com#1][cna.com.tw#1]. 감시 단체인 CREW의 조던 리보위츠 대변인은 외국 국가 원수와 관련된 인물로부터 호화로운 선물을 받는 것은 이해 상충의 소지를 불러일으킨다고 지적했다. 트럼프 주니어는 민간인 신분이며, BBC는 이러한 선물을 받는 것이 불법은 아니라고 보도했다[bbc.co.uk#1][myjoyonline.com#1].",
+      "did_you_know": "보도에 따르면 크렘료프는 푸틴의 중국 방문 당시 러시아 대표단의 일원으로 동행했다[asiatimes.com#1].",
+      "quote": "우리의 소중한 친구 우마르는 결혼식 이후 우리를 위해 두 번의 놀라운 축하의 밤을 매우 관대하게 주최해 주었습니다. 그것은 친구로부터 받은 매우 관대한 결혼 선물이었으며, 우리는 이에 대해 매우 감사하게 생각하고 있습니다.",
+      "quote_attribution": "CBS 뉴스",
+      "historical_background": "도널드 트럼프 주니어와 러시아 인사들의 접촉은 2016년 미국 대선 당시 트럼프 타워에서 러시아 변호사 나탈리아 베셀니츠카야를 만난 일을 포함해 과거에도 조사를 받은 바 있다[evrensel.net#1]. 국제복싱협회는 러시아 에너지 대기업 가즈프롬(Gazprom)의 자금 지원을 받는 것으로 보도된 바 있다[sicnoticias.pt#1].",
+      "talking_points[0]": "행사 세부 정보: 보도에서 인용된 기록과 인터뷰에 따르면, 3일간의 축하 행사에는 헬리콥터, 수상 비행기, 해변 빌라를 이용한 약 50명의 하객이 두 개의 개인 섬에서 시간을 보냈다[salon.com#1][swedenherald.com#1].",
+      "talking_points[1]": "비용 내역: 도이체벨레(DW)가 인용한 프로퍼블리카 보도에 따르면 섬 대여 비용은 1박당 약 10만 달러, 불꽃놀이 비용은 약 7만 달러였다[dw.com#1][pmo.ee#1].",
+      "talking_points[2]": "하객 구성: 보도에 따르면 상당수의 러시아어 사용 그룹이 참석해 다른 초대객들을 놀라게 했다. 트럼프 주니어의 오랜 친구 중 일부는 초대받지 못한 것으로 알려졌다[pmo.ee#1].",
+      "talking_points[3]": "정치적 반응: 민주당 로버트 가르시아 하원의원은 크렘료프가 대통령의 아들에게 수십만 달러를 지출한 대가로 무엇을 얻었는지 질문했다[swedenherald.com#1].",
+      "technical_details[0]": "결제 구조: 보도된 비용은 크렘료프 개인이 아닌, 국제복싱협회와 연계된 두바이 기반의 법인이 지불했다[t-online.de#1].",
+      "perspectives[0].text": "베티나 트럼프와 도널드 트럼프 주니어: 부부는 우정에 정치적 동기가 필요한 것은 아니며 관대함에 반드시 의도가 담긴 것은 아니라고 주장하며, 선물을 받은 것에 대해 당황하거나 사과해야 한다는 의견을 일축했다[thehindu.com#1][kyivindependent.com#1].",
+      "perspectives[1].text": "워싱턴 책임 및 윤리 시민 모임(CREW): 조던 리보위츠 CREW 커뮤니케이션 부사장은 사람들은 일반적으로 아무런 대가 없이 우연한 지인에게 수십만 달러를 주지 않는다고 말했다[bbc.co.uk#1].",
+      "perspectives[2].text": "도널드 트럼프 주니어 대변인: 대변인은 크렘료프를 트럼프 주니어의 개인적인 친구라고 설명하며, 두 사람이 사냥 커뮤니티의 지인을 통해 만났다고 밝혔다[t-online.de#1].",
+      "perspectives[3].text": "국제올림픽위원회(IOC): IOC는 재무 관리 및 윤리적 문제에 대한 반복적인 경고 끝에 국제복싱협회와의 관계를 단절했다[jornaldebrasilia.com.br#1].",
+      "timeline[0].content": "트럼프 주니어와 베티나가 바하마에서 결혼 축하 행사를 개최함[salon.com#1][cbsnews.com#1]",
+      "timeline[1].content": "프로퍼블리카가 크렘료프의 결혼식 비용 지불에 관한 조사 결과를 발표함[pbs.org#1][salon.com#1]",
+      "timeline[2].content": "부부가 크렘료프가 결혼식 후 이틀간의 축하 행사를 주최했음을 확인함[cbsnews.com#1][bbc.co.uk#1]",
+      "timeline[3].content": "국제 언론들이 크렘료프의 푸틴 연계 스포츠 리더십을 상세히 보도함[dw.com#1][cna.com.tw#1]",
+      "primary_image.caption": "도널드 트럼프 주니어와 결혼 축하 행사와 관련된 선물을 제공한 것으로 알려진 우마르 크렘료프."
+    },
+    "353e3108-88c6-463b-a05a-c05f27869b20": {
+      "title": "트럼프 대통령, 아일랜드 2일 방문 중 아일랜드 통일 지지 표명",
+      "short_summary": "도널드 트럼프(Donald Trump) 대통령은 아일랜드 2일 방문 기간 중 아일랜드의 통일을 \"보고 싶다\"며 재통일은 \"결국 일어날 일\"이라고 말했다. 그는 일요일 둔베그(Doonbeg)에 위치한 자신의 골프장에서 이 입장을 재차 밝히며 이를 \"역사상 가장 자연스러운 일 중 하나\"라고 표현했다. 이러한 발언은 북아일랜드의 헌법적 지위에 대해 입장을 밝히지 않아 온 미국 대통령들의 오랜 관례에서 벗어난 것이다 [time.com#1][pbs.org#1][osvnews.com#1]. 이 발언은 연합주의 정치인들의 비판을 샀으며 영국과 아일랜드 정치인들로부터 의문을 자아냈다. 미홀 마틴(Micheál Martin) 아일랜드 총리는 트럼프 대통령에게 '굿 프라이데이 협정(Good Friday Agreement)'의 절차를 설명했다며 \"과잉 반응\"을 자제할 것을 촉구했다. 해당 협정에 따르면 재통일은 북아일랜드와 아일랜드 양측의 국민투표를 통한 동의가 필요하며, 영국 정부는 여론이 바뀌지 않는 한 이 사안은 \"논의 대상이 아니다\"라는 입장을 밝혔다 [theweek.com#1][npr.org#1].",
+      "did_you_know": "2014년 스코틀랜드 독립 국민투표는 영국과 스코틀랜드 정부 간의 구체적인 합의를 통해 승인되었으나, 영국 대법원은 2022년 기존 권한 하에서는 스코틀랜드가 독자적으로 또 다른 국민투표를 입법할 수 없다고 판결했다 [newsbeast.gr#1].",
+      "quote": "그 일이 일어난다면 모두에게 큰 자랑거리가 될 것이라고 생각한다. 결국 일어날 일이다.",
+      "quote_attribution": "OSV 뉴스",
+      "location": "아일랜드 둔베그",
+      "business_angle_text": "보도된 10% 관세는 유럽연합(EU)산 와인 및 증류주 수출품에 대한 미국 관세의 일부이다 [dailymaverick.co.za#1].",
+      "talking_points[0]": "정치적 동기: 로빈슨(Robinson)은 해당 발언이 트럼프의 중동 정책으로부터 관심을 돌리기 위한 것이며 미국 중간선거의 영향을 받았을 수 있다고 말했다 [bbc.co.uk#1]",
+      "talking_points[1]": "법적 의미: 카디프(Cardiff) 각서는 각 국가의 자결권을 주장했으나 국민투표를 승인하거나 헌법 개정을 규율하는 법적 규칙을 변경하지는 않았다 [newsbeast.gr#1]",
+      "business_angle_points[0]": "관세 실행이 발표보다 중요함: 투자자들은 공식적인 미국 조치와 그 발효일을 확인해야 한다 [dailymaverick.co.za#1]",
+      "business_angle_points[1]": "면제가 시행될 경우 아일랜드 위스키 수출업체들은 여전히 유사한 미국 관세에 직면한 공급업체들에 비해 상대적인 이득을 얻을 수 있다 [dailymaverick.co.za#1]",
+      "perspectives[0].text": "미홀 마틴 아일랜드 총리: 마틴 총리는 아일랜드 통일을 지지하지만 \"일정에는 관심이 없다\"고 밝혔다. 그는 트럼프 대통령이 이전에 합병이 곧 일어날 것인지 물어본 적이 있다고 말했다 [thejournal.ie#1].",
+      "perspectives[1].text": "민주연합당(DUP): 개빈 로빈슨(Gavin Robinson)은 DUP가 어떤 정치인에게도 \"편승\"하지 않으며, 당은 소수만을 신뢰하고 독립적으로 행동한다고 말했다 [bbc.co.uk#1].",
+      "perspectives[2].text": "북아일랜드 행정부: 미셸 오닐(Michelle O’Neill) 수석장관은 트럼프의 발언이 아일랜드 내에서 헌법 변화에 대해 커지고 있는 국내적 대화를 반영한 것이라고 말했다 [arabtimesonline.com#1].",
+      "perspectives[3].text": "피아나 팔(Fianna Fáil) 소속 배리 앤드루스(Barry Andrews) 유럽의회 의원: 앤드루스는 유럽의회 토론 중 트럼프의 개입에 대해 \"무슨 일이 잘못될 수 있겠는가?\"라고 반문하며 대응했다 [rte.ie#1].",
+      "timeline[0].content": "아일랜드 정부법(Government of Ireland Act)이 섬의 헌법적 행정을 분할함 [osvnews.com#1]",
+      "timeline[1].content": "영-아일랜드 조약(Anglo-Irish Treaty)으로 북아일랜드가 영국에 잔류함 [osvnews.com#1]",
+      "timeline[2].content": "굿 프라이데이 협정이 분쟁을 종식하고 헌법 변화를 위한 틀을 마련함 [pbs.org#1][osvnews.com#1]",
+      "timeline[3].content": "트럼프 대통령이 더블린 회담 중 마틴 총리와 아일랜드 통일에 대해 논의함 [osvnews.com#1][thejournal.ie#1]",
+      "timeline[4].content": "트럼프 대통령이 둔베그에서 열린 아일랜드 오픈에서 지지 입장을 재차 밝힘 [pbs.org#1][time.com#1]",
+      "timeline[5].content": "민족주의 정당 지도자들이 카디프에서 자결권에 대해 회동함 [elfinanciero.com.mx#1]",
+      "primary_image.caption": "아일랜드 방문 중 둔베그의 골프장에 있는 도널드 트럼프 대통령",
+      "secondary_image.caption": "더블린에서 만난 미홀 마틴 아일랜드 총리와 도널드 트럼프 대통령"
+    }
+  },
+  "stats": {
+    "storyCount": 12,
+    "translated": 2,
+    "failedStoryIds": [
+      {
+        "id": "a04c59b2-103e-4d10-912b-f5fc050192cd",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "cd36ffac-8846-402d-a1e4-dada63fab9e8",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "82ac685c-b1bc-44ef-878b-d0a4af0f5610",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "6e3bd452-3cef-4e40-9032-224008692590",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "7b701773-592d-42f5-98c4-3c7e77ba116b",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "0c75393e-4199-4d60-b49a-0bd8beee0162",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "8da2ff99-170e-4bd1-ae60-449d68e95f48",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "94e8feec-43c3-4cf6-8ab0-f0f961a24093",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "b5605f4f-78b4-4d2a-bcd3-fe55cc382420",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "7afe09d6-77ed-467d-a866-f4af6fc7022c",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 2776,
+      "out": 3500
+    }
+  }
+}
