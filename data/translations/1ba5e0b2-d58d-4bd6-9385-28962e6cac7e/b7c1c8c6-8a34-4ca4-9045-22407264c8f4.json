@@ -4,7 +4,7 @@
   "categoryUuid": "b7c1c8c6-8a34-4ca4-9045-22407264c8f4",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-15T16:52:50.956Z",
+  "createdAt": "2026-09-15T18:01:06.013Z",
   "stories": {
     "ea7ca462-05d0-49b4-9e38-a165dff2b248": {
       "title": "미 우주군, 궤도상 무기 배치 공식 확인",
@@ -148,22 +148,56 @@
       "international_reactions[0]": "🇵🇱 폴란드: 폴란드는 자국 해안 인근 발트해에서 러시아제 의심 드론을 회수한 지 하루도 채 되지 않아 전투기를 긴급 출격시켰다 [theguardian.com#1].",
       "technical_details[0]": "항공기: 나토의 발트해 영공 방어 임무를 수행 중인 이탈리아 조종사들이 유로파이터 타이푼(Eurofighter Typhoon) 전투기를 이용해 요격했다 [tagesschau.de#1][bluewin.ch#1].",
       "primary_image.caption": "나토의 발트해 영공 방어 임무에 참여 중인 이탈리아 공군 유로파이터 타이푼"
+    },
+    "92433eb6-896c-4749-a30c-d0a6973f4306": {
+      "title": "이스라엘, 가자지구 다큐멘터리 'NAZA' 법적 검토 명령",
+      "short_summary": "이스라엘군 참모총장인 에얄 자미르(Eyal Zamir) 중장은 9월 14일 군 검찰에 이스라엘의 가자지구 내 행위를 다룬 80분 분량의 다큐멘터리 'NAZA'의 제작자와 출연진에 대한 법적 조치 가능성을 검토하라고 지시했다. 이스라엘 언론인 유발 아브라함(Yuval Abraham)과 레이첼 조르(Rachel Szor)가 감독한 이 영화는 24명의 이스라엘 군 및 정보기관 관계자들의 익명 인터뷰를 통해 AI 보조 시스템을 포함한 표적 설정 절차와 공습으로 인한 예상 민간인 사상자 규모 등을 다루고 있다. 이스라엘 방위군(IDF)은 500명의 민간인 사망이 예상되는 공격을 승인했다는 주장을 포함해 영화의 의혹들을 '완전히 거짓'이라며 일축했다 [scmp.com#1][bbc.co.uk#1][theguardian.com#1][jpost.com#2]. 이번 명령은 제83회 베니스국제영화제에서 'NAZA'가 심사위원 특별상을 수상하고 시사회에서 약 25분간 기립박수를 받은 뒤 내려졌다. 미키 조하르(Miki Zohar) 문화부 장관은 당국에 영화 제작 자료의 입수 경위와 제작 및 배포 과정이 적을 이롭게 했는지 조사할 것을 요청했다. 그는 또한 반역죄를 근거로 제작자들의 시민권 박탈을 요구했다. 베냐민 네타냐후(Benjamin Netanyahu) 총리는 이 영화를 전 세계적인 반유대주의 선동의 일환으로 규정하며, 이스라엘군을 전쟁 범죄자로 묘사했다고 비판했다 [aljazeera.com#1][aawsat.com#1][thejournal.ie#1].",
+      "did_you_know": "'NAZA'는 제83회 베니스국제영화제 경쟁 부문에 초청된 유일한 다큐멘터리였다 [berliner-zeitung.de#1].",
+      "quote": "범죄를 부정하는 것이 범죄를 지속하게 만드는 원인이며, 그렇기에 이스라엘인들이 이 영화를 보는 것이 우리에게는 중요하다",
+      "quote_attribution": "더 내셔널(The National)",
+      "location": "이탈리아 베니스",
+      "historical_background": "가자지구 전쟁은 2023년 10월 7일 하마스가 주도한 이스라엘 공격으로 시작되었으며, 당시 약 1,200명이 사망하고 251명이 인질로 잡혔다 [bbc.co.uk#1]. 아브라함과 조르는 앞서 2025년 아카데미 장편 다큐멘터리상을 수상한 '노 아더 랜드(No Other Land)'를 공동 연출한 바 있다 [bbc.co.uk#1][theguardian.com#1].",
+      "humanitarian_impact": "가자지구 하마스 보건부에 따르면 전쟁 시작 이후 73,000명 이상의 팔레스타인인이 사망했으며, 이 중 20,000명 이상이 어린이이다. 유엔은 이 수치를 신뢰할 수 있는 것으로 간주한다 [bbc.co.uk#1].",
+      "talking_points[0]": "외교적 대응: 이스라엘 외무부, IDF, 국가공공외교국은 국제적으로 영화의 주장에 대응하기 위한 디지털 캠페인을 준비 중이다 [ynetnews.com#1].",
+      "talking_points[1]": "제작진의 언론 대응: 아브라함은 'NAZA'에 10월 7일 공격과 이스라엘 인질에 대한 논의가 포함되어 있다고 밝히며, 왜 이스라엘 방송사들이 해당 내용을 방영하지 않았는지 반문했다 [khan.co.kr#1][timesofisrael.com#1].",
+      "talking_points[2]": "국내 반발: 200명 이상의 이스라엘 영화인들은 예술과 저널리즘이 이스라엘 사회를 비판적으로 검토해야 한다고 주장하며 아브라함과 조르를 지지하는 청원에 서명했다 [aa.com.tr#1].",
+      "talking_points[3]": "법적 한계: 문화부 장관이 직접 시민권을 박탈할 수는 없다. 이스라엘 법상 내무부 절차와 법원의 개입이 필요하며, 해당 조치는 거의 사용되지 않는다 [is.fi#1][svoboda.org#1].",
+      "perspectives[0].text": "이스라엘 방위군: 법적 조치가 발표되었을 당시 군 관계자들은 영화 전체를 시청하지 않은 상태였다. 군은 또한 제작 과정에서 사용된 기밀 자료의 무단 유출 가능성에 대한 조사도 명령했다 [hollywoodreporter.com#1][ynetnews.com#2].",
+      "perspectives[1].text": "이스라엘 정부: 미키 조하르 문화부 장관은 당국에 'NAZA'에 출연한 익명의 군 및 정보기관 관계자들의 신원을 파악할 것을 요청했다 [bbc.co.uk#1][aawsat.com#1].",
+      "perspectives[2].text": "NAZA 감독들: 아브라함은 민간인에 대한 고의적 가해라는 영화 속 익명의 주장들이 검증된 내용이라고 밝혔다 [khan.co.kr#1][jpost.com#3].",
+      "perspectives[3].text": "이스라엘 야권 인사들: 나프탈리 베넷(Naftali Bennett), 간츠 아이젠코트(Gadi Eisenkot), 아비그도르 리베르만(Avigdor Lieberman) 등이 영화를 비난하는 데 동참했다. 베넷은 이를 '피의 중상모략'이라 불렀고, 리베르만은 반역죄로 기소할 것을 촉구했다 [haaretz.com#3][alquds.com#3].",
+      "timeline[0].content": "'NAZA'는 전시 중 비밀리에 제작된 후 베니스국제영화제에서 최초 공개되었다 [albawaba.com#1].",
+      "timeline[1].content": "'NAZA'는 베니스국제영화제 심사위원 특별상을 수상했다. 시사회에서는 25분간의 기립박수가 이어졌다 [theguardian.com#1][albawaba.com#1].",
+      "timeline[2].content": "자미르 참모총장은 법적 검토와 기밀 자료 유출에 대한 조사를 명령했다 [scmp.com#1][ynetnews.com#2].",
+      "timeline[3].content": "정부의 위협 속에서 이스라엘 영화인들이 감독들을 지지하는 청원에 서명했다 [aa.com.tr#1].",
+      "primary_image.caption": "베니스국제영화제에서 'NAZA'로 심사위원 특별상을 수상한 이스라엘 감독 레이첼 조르와 유발 아브라함.",
+      "secondary_image.caption": "베니스국제영화제 폐막식에 참석한 레이첼 조르와 유발 아브라함."
+    },
+    "974e0f64-bbab-4eae-9c78-bd34037ee3b2": {
+      "title": "미 국방부 감찰관, 이란전 이후 탄약 부족 보고",
+      "short_summary": "월요일 발표된 미 국방부 감찰관 보고서에 따르면, 미국의 이란 군사 작전으로 인해 전략 탄약이 부족해졌으며 첨단 무기 보충을 위한 방위 산업의 생산 병목 현상이 드러났다 [scmp.com#1][thehindu.com#1][france24.com#1]. '에픽 퓨리(Operation Epic Fury)' 작전에는 2월 28일부터 6월 30일까지 약 334억 달러가 소요되었으며, 여기에는 탄약 소모 비용 223억 달러, 장비 손실 37억 달러, 기타 비용 74억 달러가 포함되었다 [dawn.com#1][straitstimes.com#1][cbsnews.com#1]. 이 추산치에는 파손된 시설의 수리, 항공기 교체, 무기 재고 보충 비용은 제외되었다 [dawn.com#1][fortune.com#1]. 보고서는 또한 쿠웨이트, 바레인, 카타르, 아랍에미리트(UAE), 사우디아라비아, 이라크, 오만, 요르단에 위치한 미군 기지의 건물과 구조물 수백 채가 이란의 공격으로 파손되거나 파괴된 사실을 기록했다 [krdo.com#1][fortune.com#1]. 손실 목록에는 F-15 전투기 4대 파괴, F-35 전투기 1대 파손, KC-135 급유기 7대 파손, MQ-9 리퍼 드론 최대 30대 파괴가 포함되었다 [aawsat.com#1][cbsnews.com#1]. 이러한 조사 결과는 미군의 탄약 공급이 사실상 무제한이라는 도널드 트럼프 대통령의 반복된 주장과 상충한다. 보고서는 국방부가 조달 및 생산을 가속하기 위해 노력하고 있다고 밝혔다 [france24.com#1][tribune.com.pk#1].",
+      "quote_attribution": "CBS 뉴스",
+      "talking_points[0]": "외교적 피해: 이라크, 쿠웨이트, 사우디아라비아, UAE 내 미국 외교 시설에 발생한 피해액은 1억 8,400만 달러로 추산되었다 [fortune.com#1][scmp.com#1][timesofisrael.com#1]",
+      "talking_points[1]": "병력 참여: 2월 28일 시작된 이번 작전에는 5만 명 이상의 미군이 참여했다 [dawn.com#1][skynewsarabia.com#1]",
+      "technical_details[0]": "산업 병목 현상: 보고서는 고체 로켓 모터 생산, 고성급 폭약 및 추진제, 숙련된 제조 인력 부족이 생산 확대의 지속적인 제약 요인이라고 지적했다 [tribune.com.pk#1][arabtimesonline.com#1].",
+      "technical_details[1]": "검토 범위: 수석 감찰관 보고서는 4월 1일부터 6월 30일까지를 다루고 있으며, 작전 비용 추산은 2월 28일부터 6월 30일까지를 포함한다 [tribune.com.pk#1][arabtimesonline.com#1].",
+      "perspectives[0].text": "미 국방부 감찰관: 이번 검토에는 국방부, 국무부, 미국 국제개발처(USAID) 감찰관들의 정보가 통합되었다 [fortune.com#1].",
+      "perspectives[1].text": "도널드 트럼프 대통령: 트럼프 대통령은 미국이 역사상 그 어느 때보다 많은 첨단 무기를 생산하고 있다고 언급하며 재고 고갈에 대한 우려를 계속해서 일축했다 [cbsnews.com#1].",
+      "perspectives[2].text": "미 국방부 획득 담당 관리들: 관리들은 국방부가 향후 비상사태에 대비해 핵심 자재, 부품 및 선별된 탄약을 비축하고 있다고 밝혔다 [tribune.com.pk#1].",
+      "timeline[0].content": "미국과 이스라엘의 공격으로 이란을 상대로 한 '에픽 퓨리' 작전 개시 [dawn.com#1][cbsnews.com#1]",
+      "timeline[1].content": "감찰관의 비용 및 피해 검토 기간 종료 [dawn.com#1][cbsnews.com#1]",
+      "timeline[2].content": "피트 헤그세스(Pete Hegseth) 국방장관, 의회에 비용이 375억 달러에 달했다고 보고 [dawn.com#1][fortune.com#1]",
+      "timeline[3].content": "미 국방부 감찰관, 의회에 첫 의무 보고서 제출 [cbsnews.com#1][aawsat.com#1]",
+      "primary_image.caption": "2026년 5월 29일, 중동 지역의 항공모함에서 미군 F-18 전투기가 이륙을 준비하고 있다.",
+      "secondary_image.caption": "2026년 3월 14일, 바그다드에서 미 대사관 관계자들이 폭격 피해 현장을 조사하고 있다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 6,
+    "translated": 8,
     "failedStoryIds": [
       {
         "id": "b1c1596d-a9e9-4d98-bac4-10cdf2fa56b9",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "92433eb6-896c-4749-a30c-d0a6973f4306",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "974e0f64-bbab-4eae-9c78-bd34037ee3b2",
         "reason": "retry_exhausted"
       },
       {
@@ -180,8 +214,8 @@
       }
     ],
     "tokens": {
-      "in": 8914,
-      "out": 11467
+      "in": 11726,
+      "out": 14942
     }
   }
 }
