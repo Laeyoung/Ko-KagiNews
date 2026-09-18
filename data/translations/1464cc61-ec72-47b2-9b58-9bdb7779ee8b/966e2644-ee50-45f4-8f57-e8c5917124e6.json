@@ -4,7 +4,7 @@
   "categoryUuid": "966e2644-ee50-45f4-8f57-e8c5917124e6",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-18T14:54:59.552Z",
+  "createdAt": "2026-09-18T15:06:12.856Z",
   "stories": {
     "cc4fafb7-0db4-4a85-9927-a4021022e94c": {
       "title": "트럼프 행정부, 243억 달러 규모 사우디 F-35 판매 추진",
@@ -243,24 +243,43 @@
       "timeline[1].content": "나이저주 광산 지역에서 추가 체포가 이루어졌다 [allafrica.com#5][naijanews.com#2].",
       "timeline[2].content": "관계자들이 구금자들의 사망을 확인하고 경찰이 수사에 착수했다. 모하메드 우마루 바고 주지사는 3일간의 애도 기간을 선포하고 1월 선거 운동을 연기했다 [pmnewsnigeria.com#1][allafrica.com#4][dw.com#1][bbc.co.uk#1].",
       "primary_image.caption": "2013년 6월 23일, 나이지리아 나이저주 미나의 금광으로 추정되는 곳에서 일하는 노동자들."
+    },
+    "e60e25bc-d6cf-4daf-b48c-445ee5391c85": {
+      "title": "러시아·중국, 미국의 이란 제재 감시단 연장안 거부권 행사",
+      "short_summary": "러시아와 중국은 9월 17일 이란에 대한 제재를 감시하는 독립 전문가 패널의 임기를 1년 연장하려던 미국 주도의 유엔 안전보장이사회 결의안에 거부권을 행사했다. 해당 결의안은 11개국의 찬성을 얻었으나 러시아와 중국이 반대하고 파키스탄과 소말리아가 기권하면서 다수의 지지에도 불구하고 채택이 무산되었다 [euronews.com#1][dawn.com#1][thehindu.com#1]. 이번 거부권 행사로 9월 26일 만료 예정이었던 패널의 권한 갱신은 불발되었으나, 제재 자체가 해제된 것은 아니다. 핵 합의의 '스냅백(제재 자동 복원)' 메커니즘을 둘러싼 논란 속에서도 이란의 해외 자산 동결, 대이란 무기 거래 제한, 탄도미사일 프로그램 개발 제재 등의 조치는 여전히 유효하다 [euronews.com#1][japantoday.com#1][firstpost.com#1]. 안보리는 회원국 간 임명 합의가 이루어지지 않아 약 1년간 전문가 그룹 없이 운영되어 왔다 [thenationalnews.com#1].",
+      "did_you_know": "국제원자력기구(IAEA) 이사회는 이란의 핵 안전조치 의무 불이행 문제를 유엔 안보리와 유엔 총회에 회부했으며, 이는 20년 만에 처음 있는 일이다 [thenationalnews.com#1].",
+      "quote_attribution": "돈(Dawn)",
+      "location": "미국 뉴욕주 뉴욕",
+      "historical_background": "유엔 안보리 결의 2231호는 2015년 포괄적공동행동계획(JCPOA)을 승인했으며, 여기에는 당사국이 이란의 중대한 불이행을 주장할 경우 제재를 복원하는 스냅백 조항이 포함되어 있었다 [dawn.com#1][urdupoint.com#1]. 프랑스, 독일, 영국은 2025년 9월 27일 해당 메커니즘을 발동하여 제재 위원회를 복원하고 전문가 감시 권한을 부여했으나, 이란은 핵무기 개발 의도를 부인하고 있다 [euronews.com#1][japantoday.com#1].",
+      "business_angle_text": "독립적인 보고 체계가 사라짐에 따라 제재 심사 결정은 국가 당국과 민간 조사에 더 크게 의존하게 될 가능성이 있다 [thenationalnews.com#1].",
+      "talking_points[0]": "임기 세부 사항: 제안된 연장안은 2027년 9월까지 유효하며, 안보리에 분기별 보고서와 연례 보고서를 제출하도록 규정하고 있었다 [dawn.com#1].",
+      "talking_points[1]": "법적 분쟁: 러시아와 중국은 핵 합의 및 관련 안보리 체제가 만료되었기 때문에 스냅백 메커니즘은 법적 효력이 없다고 주장하는 반면, 서방 정부들은 제재가 여전히 구속력을 갖는다고 보고 있다 [dawn.com#1][rtvi.com#1].",
+      "international_reactions[0]": "🇺🇸 미국: 워싱턴은 패널 운영이 중단되면 감시 공백이 발생하여 제재 회피 행위를 적발하기 어려워질 것이라고 주장했다 [euronews.com#1][alquds.com#1].",
+      "business_angle_points[0]": "패널이 없더라도 제재 위험은 여전히 유효하므로 이란과 거래하는 기업들은 규제 준수 및 자산 동결 위험에 직면해 있다 [euronews.com#1].",
+      "industry_impact[0]": "디지털 금융: 미국은 디지털 화폐 네트워크를 통해 제재 대상인 이란 기관들의 국제 금융 시스템 접근을 도운 혐의로 2개 기업과 3명의 개인을 별도로 제재했다 [euronews.com#1][japantoday.com#1].",
+      "perspectives[0].text": "러시아: 바실리 네벤자(Vasily Nebenzia) 유엔 주재 러시아 대사는 이란 핵 프로그램을 둘러싼 이견을 정치적·외교적 노력을 통해 해결해야 한다고 촉구했다 [thenationalnews.com#1][ltn.com.tw#1].",
+      "perspectives[1].text": "이란: 유엔 주재 이란 대표부는 미국이 안보리를 정치적 목적으로 이용하려는 또 다른 시도를 저지해 준 러시아와 중국에 감사를 표했다 [thehindu.com#1][irna.ir#2].",
+      "perspectives[2].text": "파키스탄: 파키스탄 대사는 안보리가 결의 2231호의 협력 정신에서 멀어졌다며, 각 당사국이 이슬라마바드 각서를 존중하고 IAEA의 안전조치 역할을 지지하며 협상을 재개할 것을 촉구했다 [pakobserver.net#1][geo.tv#1].",
+      "timeline[0].content": "JCPOA 및 결의 2231호로 이란 핵 체제 수립 [dawn.com#1][urdupoint.com#1]",
+      "timeline[1].content": "유럽 강대국들의 스냅백 발동으로 유엔 제재 복원 [euronews.com#1][japantoday.com#1]",
+      "timeline[2].content": "러시아와 중국, 패널 연장 결의안에 거부권 행사 [euronews.com#1][dawn.com#1]",
+      "timeline[3].content": "기존 전문가 패널 임기 만료 예정 [firstpost.com#1]",
+      "primary_image.caption": "이란 제재 감시 결의안을 둘러싼 논쟁 중인 바실리 네벤자 유엔 주재 러시아 대사.",
+      "secondary_image.caption": "2026년 외교 회의에서 발언 중인 아심 이프티카르 아마드(Asim Iftikhar Ahmad) 유엔 주재 파키스탄 대사."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
+    "translated": 11,
     "failedStoryIds": [
-      {
-        "id": "e60e25bc-d6cf-4daf-b48c-445ee5391c85",
-        "reason": "retry_exhausted"
-      },
       {
         "id": "ad711a8d-7b5b-42e2-98b6-9cbe77292dce",
         "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 16074,
-      "out": 20105
+      "in": 18986,
+      "out": 23598
     }
   }
 }

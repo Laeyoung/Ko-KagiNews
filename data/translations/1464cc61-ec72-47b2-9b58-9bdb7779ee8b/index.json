@@ -1,7 +1,7 @@
 {
   "version": 1,
   "batchId": "1464cc61-ec72-47b2-9b58-9bdb7779ee8b",
-  "updatedAt": "2026-09-18T14:57:31.237Z",
+  "updatedAt": "2026-09-18T15:09:52.858Z",
   "categories": {
     "50ce6fcb-3c4b-47ca-aeca-c46a02a6d659": {
       "slug": "usa",
@@ -40,11 +40,11 @@
       "slug": "world",
       "status": "ok",
       "storyCount": 12,
-      "translated": 10,
-      "failed": 2,
+      "translated": 11,
+      "failed": 1,
       "tokens": {
-        "in": 16074,
-        "out": 20105
+        "in": 18986,
+        "out": 23598
       }
     },
     "a3615f0f-d3d7-4d2d-b1e8-2ce947568aed": {
@@ -75,7 +75,7 @@
   },
   "run": {
     "attempted": 4,
-    "failed": 4,
+    "failed": 3,
     "failureRatePct": null,
     "unresolvedSlugs": []
   }
