@@ -4,7 +4,7 @@
   "categoryUuid": "f19d971e-05e6-4ddf-a18b-3713067a9ad0",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-21T16:40:34.433Z",
+  "createdAt": "2026-09-21T16:57:49.200Z",
   "stories": {
     "8fd73aa5-bdeb-4afa-91f5-66f16b731608": {
       "title": "아이픽스잇(iFixit), 아이폰 18 프로 디스플레이 수리 위험성 발견",
@@ -198,24 +198,31 @@
       "timeline[5].content": "게임 엔진이 아직 선정되지 않았다는 보도가 나왔다 [thegamer.com#1].",
       "primary_image.caption": "소니의 피진트 투자 철회에 대해 인터뷰하는 코지마 히데오",
       "secondary_image.caption": "코지마 히데오, 피진트 아트워크 및 Xbox 로고"
+    },
+    "d9c23d23-44b3-4579-9214-85f81c8d4cd6": {
+      "title": "중국 CXMT, 5세대 D램 양산 돌입",
+      "short_summary": "중국 메모리 반도체 제조사 창신메모리테크놀로지(CXMT)는 9월 20일 자사의 5세대 D램 기술 플랫폼인 'G5'가 양산에 들어갔다고 밝혔다. 이 회사는 허페이에서 열린 2026 세계제조업컨벤션에서 스마트폰 및 휴대용 가전기기용 24기가비트 LPDDR5X 제품 2종을 공개했으며, 이번 플랫폼을 통해 삼성전자와 SK하이닉스 등 글로벌 선도 기업들이 사용하는 최첨단 양산 노드에 제조 역량을 한층 더 근접시켰다고 설명했다 [scmp.com#1][technode.com#1][digitimes.com#1]. CXMT는 G5가 이전 세대 대비 웨이퍼당 다이(die) 생산량을 최소 50% 이상 증가시켰으며, 전력 소비와 비용을 절감하도록 설계되었다고 밝혔다. G5는 쿼드러플 패터닝(quadruple patterning) 기술을 사용하여 11.95나노미터의 활성 영역 하프 피치(active-area half-pitch)를 구현한다. 해당 LPDDR5X 제품 2종은 이미 496볼 및 245볼 패키지로 양산 중이다 [scmp.com#1][mbn.co.kr#1][techinasia.com#1][technode.com#1][vnexpress.net#1].",
+      "location": "중국 허페이 [technode.com#1]",
+      "business_angle_text": "CXMT는 이전 세대 대비 웨이퍼당 다이 생산량이 50% 증가했다고 보고했으며, LPDDR5X 부품 2종이 양산에 들어갔다고 밝혔다 [scmp.com#1][technode.com#1]. 애플(Apple)이 CXMT의 메모리를 평가한 것으로 알려졌으나, 애플이 해당 부품을 승인했거나 구매했는지 여부는 불분명하다 [theregister.com#1].",
+      "technical_details[0]": "쿼드러플 패터닝: G5는 쿼드러플 패터닝 기술을 사용하여 메모리 어레이에서 11.95나노미터의 활성 영역 하프 피치를 구현한다 [techinasia.com#1][technode.com#1].",
+      "technical_details[1]": "커패시터 형상: CXMT는 45:1의 커패시터 종횡비(aspect ratio)를 보고했다 [technode.com#1].",
+      "technical_details[2]": "패키지 변형: 24기가비트 LPDDR5X 부품 2종은 스마트폰 및 휴대용 가전기기를 위해 496볼 및 245볼 패키지를 사용한다 [technode.com#1].",
+      "perspectives[0].text": "CXMT: CXMT는 자사의 G5 플랫폼이 저장 밀도 측면에서 '양자 도약(quantum leap)'을 의미한다고 밝혔다 [scmp.com#1].",
+      "primary_image.caption": "CXMT의 5세대 메모리 플랫폼에 관한 명보(Mingpao) 보도에 첨부된 이미지"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
+    "translated": 11,
     "failedStoryIds": [
-      {
-        "id": "d9c23d23-44b3-4579-9214-85f81c8d4cd6",
-        "reason": "retry_exhausted"
-      },
       {
         "id": "e95ca974-e6e2-43b6-b6c7-1e709eed7d71",
         "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 11885,
-      "out": 14362
+      "in": 12790,
+      "out": 15256
     }
   }
 }

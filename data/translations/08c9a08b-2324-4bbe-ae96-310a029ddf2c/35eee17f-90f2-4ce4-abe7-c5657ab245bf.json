@@ -4,7 +4,7 @@
   "categoryUuid": "35eee17f-90f2-4ce4-abe7-c5657ab245bf",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-21T16:29:42.784Z",
+  "createdAt": "2026-09-21T16:56:22.271Z",
   "stories": {
     "9ce66e34-3f79-4a08-837e-318e10148f2c": {
       "title": "독일 AfD 주 선거 승리, 메르츠 총리 개혁 의지 표명",
@@ -250,20 +250,33 @@
       "timeline[2].content": "북한, 3시간 간격으로 단거리 탄도미사일 2발 발사[yna.co.kr#2]",
       "timeline[3].content": "유엔 총회 일반 토의 시작, 트럼프 연설 예정[yna.co.kr#14]",
       "timeline[4].content": "워싱턴에서 트럼프-시진핑 정상회담 예정, 북한 문제가 주요 의제로 다뤄질 전망[yna.co.kr#2]"
+    },
+    "3371877d-659a-45d3-b32d-b50768e1d223": {
+      "title": "파키스탄, 9월 27일 행진 앞두고 임란 칸 자매 구금",
+      "short_summary": "파키스탄 당국은 9월 20일 라호르에서 수감 중인 임란 칸(Imran Khan) 전 총리의 자매 알리마 칸(Aleema Khan)을 구금하고 콧 라크파트(Kot Lakhpat) 교도소에 30일간 수감할 것을 명령했다. 라호르 부위원장의 명령서에 따르면 알리마 칸은 소셜 미디어와 공개 집회를 통해 칸의 지지자들을 결집했으며, 그녀의 공개 활동이 공공 안전을 위협할 수 있다고 명시되었다. 경찰은 구금 사실을 확인했으나, 칸이 이끄는 파키스탄 정의운동(PTI)은 이를 불법이라고 규정했다[bbc.co.uk#1][reuters.com#1][dawn.com#1][arabtimesonline.com#1]. 파키스탄 언론과 가족 소식통에 따르면 당국은 9월 21일 또 다른 자매인 노린 니아지(Noreen Niazi)와 우즈마 칸(Uzma Khan)을 추가로 구금하고, 공공질서 유지 명령에 따라 30일간 같은 교도소로 이송했다. 이번 구금은 임란 칸의 석방과 당이 주장하는 헌법적 우위 확보를 위해 9월 27일 이슬라마바드로 향하는 PTI 주도 행진을 앞두고 이루어졌다. 당국은 이슬라마바드 일부 지역에 선적 컨테이너를 배치했으며, 모신 나크비(Mohsin Naqvi) 내무장관은 행진을 막기 위한 조치를 취할 것이라고 밝혔다[dawn.com#2][geo.tv#1][aaj.tv#1][asiaone.com#1][dailypakistan.com.pk#1].",
+      "quote": "왜 그렇게 두려워하며 여성들까지 체포하는지 모르겠다",
+      "quote_attribution": "더 힌두(The Hindu)",
+      "location": "파키스탄 라호르",
+      "historical_background": "이번 구금 명령은 공공질서를 위협한다고 판단되는 인물을 행정 당국이 구금할 수 있도록 하는 예방적 구금 체계인 '1960년 펀자브 공공질서 유지 조례'를 근거로 한다[dawn.com#1][arynews.tv#1]. 클릭스(Klix) 보도에 따르면 임란 칸은 2023년부터 수감된 상태로 100건 이상의 사건에 연루되어 있으며, 그와 측근들은 이러한 혐의가 정치적 동기에 의한 것이라고 반박하고 있다[klix.ba#1].",
+      "travel_advisory[0]": "안전: 9월 27일 행진을 앞두고 이슬라마바드 진입로에 참호와 방어 진지가 구축되고 있다는 보도가 있었다[dailypakistan.com.pk#1]. 시위 경로를 피하고 이슬라마바드 여행 전 현지 보안 지침을 확인해야 한다.",
+      "perspectives[0].text": "파키스탄 정의운동(PTI): PTI 의장인 고하르 알리 칸(Gohar Ali Khan) 변호사는 9월 27일 시위가 평화적이고 정치적인 성격으로 진행될 것이며, 대결보다는 헌법적 수단을 통해 당의 요구를 관철할 것이라고 밝혔다[dailytimes.com.pk#1].",
+      "perspectives[1].text": "라호르 지방 행정부: 노린과 우즈마에 대한 명령서에는 이들이 '공공 안전과 공공질서 유지에 해롭다'고 기술되어 있으며, 이들을 콧 라크파트 교도소장의 관리하에 두었다[dawn.com#2][tribune.com.pk#2].",
+      "perspectives[2].text": "칸 가족: 알리마 칸의 아들 샤레즈 칸(Shahrez Khan)은 가족들이 그녀와 연락이 닿지 않으며 행방에 대한 정보도 없다고 밝혔다. 그는 정부에 그녀의 위치를 공개하고 안전한 귀환을 보장할 것을 요구했다[bbc.co.uk#1][dawn.com#1].",
+      "timeline[0].content": "당국, 5월 9일 시위 및 재산 피해 혐의 언급[tribune.com.pk#2][dawn.com#2]",
+      "timeline[1].content": "라호르 부위원장, 알리마 칸에 대한 30일 구금 명령[dawn.com#1][bbc.co.uk#1]",
+      "timeline[2].content": "노린과 우즈마, 콧 라크파트 교도소로 이송[dawn.com#2][geo.tv#1]",
+      "timeline[3].content": "PTI, 전국적인 시위 및 이슬라마바드 행진 계획[bbc.co.uk#1][ft.com#1]",
+      "primary_image.caption": "2023년 이슬라마바드 고등법원에 도착한 알리마 칸과 우즈마 칸.",
+      "secondary_image.caption": "2025년 라왈핀디에서 경찰 바리케이드 앞에 앉아 있는 알리마 칸."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "3371877d-659a-45d3-b32d-b50768e1d223",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 15400,
-      "out": 19079
+      "in": 16612,
+      "out": 20541
     }
   }
 }

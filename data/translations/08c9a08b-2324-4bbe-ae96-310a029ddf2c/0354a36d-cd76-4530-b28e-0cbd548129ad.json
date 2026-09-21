@@ -4,7 +4,7 @@
   "categoryUuid": "0354a36d-cd76-4530-b28e-0cbd548129ad",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-21T16:34:39.002Z",
+  "createdAt": "2026-09-21T16:56:38.397Z",
   "stories": {
     "275819e4-a0f8-439f-95b1-68bbaf439a79": {
       "title": "엔비디아 CEO, AI 개발 속도 조절 요구 일축",
@@ -131,24 +131,45 @@
       "talking_points[0]": "금리 전망: 금리 선물 시장은 2026년 말 정책 금리가 4.00%에서 4.25% 사이가 될 확률을 약 3분의 2로 보고 있으며, 2027년 중반까지 추가 인상이 이루어질 가능성이 높다고 보고 있다 [humenglish.com#1].",
       "talking_points[1]": "정책적 한계: 그는 금리 인상이 호르무즈 해협을 다시 열거나 유가를 직접적으로 낮출 수는 없으며, 이는 갈등으로 인한 에너지 충격을 상쇄하는 데 있어 통화 정책의 능력을 제한한다고 말했다 [humenglish.com#1][vietnamplus.vn#1].",
       "perspectives[0].text": "미 재무부: 카시카리는 국채 시장 관리 책임은 연방준비제도가 아닌 재무부에 있다고 말했다 [aawsat.com#1]."
+    },
+    "a2791239-70e9-4b8b-95f4-8e6a2d6a8c53": {
+      "title": "EU 동맹 진전 속 캐나다-프랑스 관계 강화",
+      "short_summary": "마크 카니(Mark Carney) 캐나다 총리는 9월 20일 뉴펀들랜드 인근 프랑스령 생피에르 미클롱에서 에마뉘엘 마크롱(Emmanuel Macron) 프랑스 대통령과 회담을 갖고 에너지, 국방, 우주, 통신, 기후 회복력 및 비즈니스 분야의 협력을 확대하기로 합의했다. 이번 회담은 미국과의 무역 관계 악화로 대안을 모색 중인 캐나다에 대해 유럽연합(EU) 집행위원회가 캐나다의 첫 EU 준회원국 가입을 제안한 가운데 이루어졌다 [abcnews.com#1][pbs.org#1][dw.com#1]. 마크롱 대통령은 캐나다와 EU의 긴밀한 관계를 지지했으며, 카니 총리는 캐나다와 유럽이 특정 국가의 경제적 압박에 대한 취약성을 줄이는 동맹을 구축해야 한다고 밝혔다. 캐나다와 프랑스는 양국 우주국과 국방부에 공동 발사 및 위성 데이터 수신 인프라 개발을 지시했다. 마크롱 대통령은 캐나다의 액화천연가스(LNG) 프로젝트가 유럽에 새로운 기회를 창출할 수 있다고 언급했으며, 프랑수아-필립 샹파뉴(François-Philippe Champagne) 캐나다 재무장관은 영국에 캐나다-유럽 경제 동맹 제안에 동참할 것을 촉구했다 [wxii12.com#1][boereport.com#1][bbc.co.uk#1].",
+      "did_you_know": "생피에르 미클롱은 북미에 남아 있는 프랑스의 유일한 영토이다 [perthnow.com.au#1].",
+      "location": "프랑스 생피에르 미클롱, 생피에르 [abcnews.com#1]",
+      "historical_background": "생피에르 미클롱은 1941년 12월 자유 프랑스군에 의해 비시 정권으로부터 평화적으로 해방되었으며, 양국 정상은 헌화식에서 이 역사를 되새겼다 [sootoday.com#1].",
+      "business_angle_text": "이번 발표는 완성된 상업적 합의가 아닌 협력의 틀을 제공한다. 캐나다의 LNG, 핵심 광물, 항공우주 인프라, 통신 및 청정 에너지 공급망에서의 잠재적 기회를 확인했으나, 계약, 자금 조달 및 아직 정의되지 않은 EU 준회원국 모델은 여전히 해결 과제로 남아 있다 [boereport.com#1][euronews.com#2][today.it#1]. 캐나다가 제안받은 EU 지위는 확립된 조약 근거가 없으며, 양자 무역 체계는 여전히 개발 단계에 있다 [perspektive-online.net#1][today.it#1].",
+      "talking_points[0]": "AI 협력: 카니 총리는 프랑스, 캐나다, 미국, 중국이 AI의 안전성과 효율성을 개선하기 위해 협력할 것을 제안했다 [euronews.com#1][franceinfo.fr#2].",
+      "talking_points[1]": "핵심 공급망: 카니 총리는 반도체, 핵심 광물, 결제 시스템, 청정 에너지 기술, 백신 및 우주 기반 통신에 대한 안전한 접근을 국가 주권의 구성 요소로 규정했다 [thenews.com.pk#1][lapresse.ca#1].",
+      "talking_points[2]": "비즈니스 연계: 프랑스와 캐나다 상공회의소는 양국 비즈니스 커뮤니티를 더욱 가깝게 만들기 위해 수주 내에 협약을 체결할 계획이다 [sootoday.com#1].",
+      "talking_points[3]": "EU 불확실성: 제안된 준회원국 지위는 정의된 법적 형태가 없다. EU 가입은 유럽 국가로 제한되기 때문에 캐나다의 완전한 EU 가입을 위해서는 조약 개정이 필요하다 [perspektive-online.net#1][today.it#1].",
+      "international_reactions[0]": "🇬🇧 영국: 프랑수아-필립 샹파뉴 캐나다 재무장관은 캐나다와 영국이 가치를 공유하며 세계를 바라보는 시각이 유사하다고 말했다 [bbc.co.uk#1].",
+      "perspectives[0].text": "에마뉘엘 마크롱: 마크롱 대통령은 민주주의, 법치주의, 국제법 및 자유 무역이 프랑스, 캐나다, 유럽이 공유하는 원칙임을 강조했다 [dw.com#1].",
+      "perspectives[1].text": "마크 카니: 카니 총리의 이번 방문은 캐나다 총리로서는 생피에르 미클롱에 대한 첫 공식 방문이었다 [thenews.com.pk#1].",
+      "perspectives[2].text": "프랑수아-필립 샹파뉴: 샹파뉴 장관은 캐나다-미국 무역 협정이 결렬된 후 캐나다가 관세를 부과한 것은 자국 산업과 노동자, 국가를 지키기 위한 조치였다고 주장했다 [bbc.co.uk#1].",
+      "perspectives[3].text": "유럽연합: 안토니우 코스타(António Costa) 유럽연합 정상회의 상임의장은 EU가 국방, 안보, AI 투자 및 양자 기술 분야를 포함해 캐나다와 가능한 한 긴밀히 협력하기를 원한다고 밝혔다 [antaranews.com#1].",
+      "timeline[0].content": "폰데어라이엔(Von der Leyen) 위원장이 캐나다에 EU 준회원국 가입을 제안했다 [perspektive-online.net#1][forbes.cz#1].",
+      "timeline[1].content": "카니 총리와 마크롱 대통령이 생피에르에서 양자 협력 확대를 발표했다 [abcnews.com#1][pbs.org#1].",
+      "timeline[2].content": "샹파뉴 장관이 영국에 캐나다-유럽 동맹 계획 동참을 촉구했다 [bbc.co.uk#1].",
+      "primary_image.caption": "2026년 9월 20일 생피에르에서 공동 성명을 발표하는 에마뉘엘 마크롱과 마크 카니.",
+      "secondary_image.caption": "생피에르 미클롱 생피에르에서 발언 후 포옹하는 마크롱과 카니."
+    },
+    "cb443cb4-9d67-4969-baed-b521f81dd24c": {
+      "title": "해고된 고령 노동자, 일자리와 보험 공백에 직면하다",
+      "short_summary": "피터 웨이드(Peter Wade)는 가디언(The Guardian) 기고를 통해 자신이 61세이며 2년 넘게 실직 상태로 구직 활동을 중단했다고 밝혔다[theguardian.com#1]. 그는 고용 정책이 청년 실업자뿐만 아니라 국가 연금 수령 연령에 가까워져 일자리를 잃은 사람들을 위한 대책도 마련해야 한다고 주장한다[theguardian.com#1]. 미국에서는 메디케어(Medicare) 수급 자격에 도달하지 못한 고령의 해고 노동자들이 65세 이전에 건강보험을 확보하는 데 어려움을 겪을 수 있다[nytimes.com#1]. 가디언의 독자 투고란에서는 여성의 국가 연금 수령 연령이 상향 조정되면서 연금 수급까지의 기간이 늘어남에 따라, 육체적으로 힘든 업무를 지속하기 어려워진 여성들의 사례도 언급되었다[theguardian.com#1].",
+      "quote": "일자리가 필요한 것은 청년들만이 아니다",
+      "quote_attribution": "가디언(The Guardian)",
+      "perspectives[0].text": "피터 웨이드: 웨이드는 자신의 경력 대부분을 부채, 주거, 에너지 상담 전문 상담원으로 일했다고 밝혔다. 그의 투고에는 병원 청소부로 일했던 50대 후반 여성 고객의 경험담도 담겨 있다[theguardian.com#1].",
+      "primary_image.caption": "은퇴를 앞둔 해고 노동자들에 관한 기사에 실린 삽화"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
-    "failedStoryIds": [
-      {
-        "id": "a2791239-70e9-4b8b-95f4-8e6a2d6a8c53",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "cb443cb4-9d67-4969-baed-b521f81dd24c",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 8849,
-      "out": 9066
+      "in": 10863,
+      "out": 11345
     }
   }
 }
