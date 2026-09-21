@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "batchId": "08c9a08b-2324-4bbe-ae96-310a029ddf2c",
+  "categoryUuid": "0354a36d-cd76-4530-b28e-0cbd548129ad",
+  "categorySlug": "business",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-09-21T16:34:39.002Z",
+  "stories": {
+    "275819e4-a0f8-439f-95b1-68bbaf439a79": {
+      "title": "엔비디아 CEO, AI 개발 속도 조절 요구 일축",
+      "short_summary": "젠슨 황(Jensen Huang) 엔비디아 최고경영자(CEO)는 9월 20일 방영된 CBS 뉴스 인터뷰에서 인공지능(AI)이 2030년까지 인류 멸종을 초래할 수 있다는 경고를 '종말론적 서사'라고 일축했다. 황 CEO는 2030년이 세상의 종말이 될 확률은 0%라고 말하며, 그러한 예측은 과학적 근거가 없다고 주장했다 [bbc.co.uk#1][cbsnews.com#1][theguardian.com#1]. 또한 황 CEO는 AI 개발 속도를 늦추라는 요구에 반대하며, 미국은 준비되지 않았거나 안전하지 않은 제품 출시를 피하면서 가능한 한 빠르게 움직여야 한다고 말했다. 그는 기존의 제조물 책임법과 사이버 보안법을 대체하거나 약화하기보다는 이를 적용해야 한다고 언급했으며, 개발 속도 조절을 요구하는 일부 기업들은 법적 책임으로부터 보호받으려 하는 것일 수 있다고 시사했다 [bbc.co.uk#1][cbsnews.com#1][etoday.co.kr#1]. 그의 발언은 제이콥 콕슨(Jacob Coxon) 전 앤스로픽(Anthropic) 연구원의 경고와 다리오 아모데이(Dario Amodei) 앤스로픽 CEO 및 샘 올트먼(Sam Altman) 오픈AI(OpenAI) CEO의 속도 조절 요구에 뒤이어 나왔다 [bbc.co.uk#1][theguardian.com#1].",
+      "quote": "2030년은 세상의 종말이 되지 않을 것이다. 그때가 세상의 종말이 될 확률은 0%다.",
+      "quote_attribution": "CBS 뉴스",
+      "business_angle_text": "엔비디아는 주요 모델 개발업체들이 사용하는 칩을 공급하며 5.3조 달러 규모의 기업 가치를 기록하고 있다 [heraldcorp.com#1][hankyung.com#1]. 안전 사고, 책임 소송 또는 규제는 AI 도입을 늦추고 고객사의 자본 지출을 감소시킬 수 있다. 황 CEO는 미국이 AI를 가능한 한 빠르게 개발해야 하지만, 준비되지 않았거나 안전하지 않은 제품을 출시해서는 안 된다고 말했다 [bbc.co.uk#1].",
+      "talking_points[0]": "콕슨의 이력: 그는 2023년부터 2026년 중반까지 오픈AI의 기술진으로 근무한 뒤 앤스로픽에서 몇 달간 재직했다 [hankyung.com#1].",
+      "talking_points[1]": "데이터 센터에 대한 대응: 황 CEO는 기술 기업들이 데이터 센터와 관련해 지역 사회와 더 일찍 소통하지 못한 점에 대해 사과했으며, 최신 시설은 더 적은 에너지와 물을 사용하면서 지역 일자리를 창출한다고 말했다 [blognone.com#1].",
+      "perspectives[0].text": "제이콥 콕슨: 전 앤스로픽 연구원은 9월 8일 소셜 미디어 게시물을 통해 오픈AI와 앤스로픽 모두 책임감 있게 행동하지 않고 있으며, 공공의 안전을 담보로 도박을 하고 있다고 비난했다 [dailysignal.com#1][hankyung.com#1].",
+      "perspectives[1].text": "도널드 트럼프 대통령: 9월 14일 통화에서 트럼프 대통령은 AI 개발 속도 조절 요구를 비판하며 관련 우려를 사기극이라고 묘사했다 [cna.com.tw#1].",
+      "timeline[0].content": "콕슨이 앤스로픽을 사임하고 AI 안전 우려를 제기함 [dailysignal.com#1][hankyung.com#1]",
+      "timeline[1].content": "아모데이 앤스로픽 CEO가 AI 개발 속도 조절을 촉구함 [heraldcorp.com#1]",
+      "timeline[2].content": "트럼프 대통령과 황 CEO가 AI 종말론을 공개적으로 일축함 [cna.com.tw#1][heraldcorp.com#1]",
+      "timeline[3].content": "CBS가 멸종 예측을 거부한 황 CEO의 인터뷰를 방송함 [cbsnews.com#1]",
+      "primary_image.caption": "젠슨 황 엔비디아 CEO"
+    },
+    "37007c50-6973-4292-82cd-c8dee55f6f28": {
+      "title": "미·중, 정상회담 앞두고 무역 및 AI 회담 진전",
+      "short_summary": "미국과 중국은 일요일 맨해튼의 JP모건 체이스 본사에서 약 8시간 동안 경제 및 무역 협의를 진행했다. 스콧 베센트(Scott Bessent) 재무장관, 허리펑(He Lifeng) 중국 부총리, 제이미슨 그리어(Jamieson Greer) 미국 무역대표부(USTR) 대표는 도널드 트럼프 대통령과 시진핑 주석의 9월 24일 백악관 회담을 앞두고 무역, 투자, 인공지능(AI), 핵심 광물 공급 문제를 논의했다 [bbc.co.uk#1][dawn.com#1][iraqinews.com#1][thehindu.com#1]. 베센트 장관은 워싱턴이 국가 안보 우려를 야기하는 AI 사고에 대한 통보 메커니즘을 제안했으며 양측이 AI 대화를 지속하기로 합의했다고 밝혔다. 또한 양측은 비민감 품목에 대한 관세 논의를 위해 양자 간 무역위원회 절차를 가동할 계획이라고 발표했다. 중국 관영 통신사는 이번 회담이 “솔직하고 심도 있으며 건설적”이었다고 평가했으나 AI 메커니즘에 대한 세부 사항은 밝히지 않았다 [bbc.co.uk#1][nationalheraldindia.com#1][cbsnews.com#1][scmp.com#1]. 현재 미·중 관세 휴전은 11월 10일 만료될 예정이다 [tribune.com.pk#1].",
+      "quote": "우리는 다른 모든 국경 간 활동과 마찬가지로, 세계 1위와 2위의 AI 강국 사이에서 불투명성을 해소하고 투명성을 높이는 것이 매우 중요하다고 생각한다.",
+      "quote_attribution": "BBC 뉴스",
+      "location": "미국 뉴욕주 뉴욕",
+      "talking_points[0]": "농업 약속: 이번 회담에서는 이전의 농산물 구매 약속에 대한 검토도 이루어질 것으로 예상되었다 [thenews.com.pk#1].",
+      "talking_points[1]": "AI 시스템: 이번 논의에서는 양국 AI 생태계의 분열을 방지하고 오픈 및 클로즈드 웨이트 모델에서 발생하는 공유 위험을 관리하는 방안도 다루어졌다 [thenews.com.pk#1].",
+      "business_angle_points[0]": "제안된 AI 통보 채널은 트럼프 대통령과 시진핑 주석의 정상회담에서 논의될 예정이며, 양국 정상의 대응은 기술 기업들에 단기적인 정책 신호가 될 전망이다 [thenews.com.pk#2].",
+      "business_angle_points[1]": "베센트 장관과 허리펑 부총리는 4개월 전 트럼프 대통령의 5월 베이징 방문 전 서울 인근에서 대면 회담을 가진 바 있어, 이번 뉴욕 회담은 기존의 협상 채널을 이어간 것이다 [energyconnects.com#1].",
+      "business_angle_points[2]": "이란 전쟁과 관련된 에너지 공급 차질은 양국 정상의 의제에서 다루어질 것으로 예상되는 광범위한 압박 요인 중 하나로, 관세를 넘어선 지정학적 위험을 가중시키고 있다 [energyconnects.com#1].",
+      "perspectives[0].text": "스콧 베센트 미 재무장관: 베센트 장관은 이번 뉴욕 회담이 앞서 베이징에서 열린 회의에서 미완으로 남았던 과제들을 이어가는 자리였다고 말했다 [pts.org.tw#1].",
+      "perspectives[1].text": "중국 관영 신화통신: 신화통신은 이번 회담이 이전의 경제적 이해를 이행하고 상호 존중, 평화 공존, 상생 협력의 원칙에 따라 양국 무역과 투자를 촉진하는 데 중점을 두었다고 보도했다 [nationalheraldindia.com#1][business-standard.com#1].",
+      "perspectives[2].text": "제이미슨 그리어 미국 무역대표부 대표: 그리어 대표는 양국 간의 협력이 필수적이라고 강조했다 [iraqinews.com#1][michaelwest.com.au#1].",
+      "perspectives[3].text": "애나 애슈턴(Anna Ashton), 애슈턴 인텔리전스: 애슈턴은 양국 정부가 주로 갈등 고조를 피하려 하기 때문에 획기적인 합의보다는 제한적인 성과가 나올 가능성이 가장 높다고 분석했다 [tribune.com.pk#1].",
+      "timeline[0].content": "트럼프 대통령과 시진핑 주석, 베이징에서 AI 관련 협의 가능성 논의 [michaelwest.com.au#1]",
+      "timeline[1].content": "베센트 장관, 허리펑 부총리, 그리어 대표, 뉴욕에서 8시간 동안 협의 진행 [iraqinews.com#1][malaymail.com#1]",
+      "timeline[2].content": "트럼프 대통령과 시진핑 주석, 백악관에서 회담 예정 [thehindu.com#1][thehindubusinessline.com#1]",
+      "timeline[3].content": "현재 미·중 관세 휴전 만료 예정 [bbc.co.uk#1][tribune.com.pk#1]",
+      "primary_image.caption": "스콧 베센트 재무장관이 뉴욕에서 허리펑 중국 부총리와 회담을 마친 후 발언하고 있다."
+    },
+    "08063290-f63c-4896-a218-5e8cad5673a9": {
+      "title": "미국 차입 비용 고공행진 속 연준, 기준금리 인상",
+      "short_summary": "인플레이션이 여전히 높게 유지되고 경제 성장이 꾸준히 이어지며 일부 가속화 조짐까지 보이자 연방준비제도(Fed·연준)가 수요일 기준금리를 인상했다. 도널드 트럼프 대통령은 결정 직후 중앙은행에 대한 비판을 재개했으나, 경제학자들은 강력한 소비 및 기업 지출, 공급 병목 현상, 대규모 연방 재정 적자, 데이터 센터를 위한 기술 분야의 대규모 차입 등 광범위한 요인들로 인해 연준의 정책과 관계없이 장기 차입 비용이 높은 수준을 유지할 수 있다고 지적했다 [google.com#1][abcnews.com#1][pbs.org#1]. 대침체 이후 약 15년간 인플레이션과 금리는 낮은 수준을 유지했다. 지난주 평균 30년 만기 주택담보대출 금리는 6.95%를 기록하며 1년 6개월 만에 최고치를 경신했는데, 이는 2010년대 3%대였던 금리가 코로나19 팬데믹 기간에는 더 낮아졌던 것과 대조적이다 [abcnews.com#1][pbs.org#1].",
+      "location": "미국 워싱턴 DC",
+      "primary_image.caption": "케빈 워시(Kevin Warsh) 연방준비제도 이사회 의장이 2026년 9월 16일 워싱턴 연방준비제도에서 열린 기자회견에서 발언하고 있다."
+    },
+    "eb6aad91-7ad1-4e4c-bfd2-a4b820e3bf13": {
+      "title": "한국은행, 외국인 투자자 대상 24시간 원화 결제망 시범 운영",
+      "short_summary": "한국은행은 외국인 투자자가 한국의 정규 은행 영업시간 외에도 원화 거래를 완료할 수 있도록 하는 24시간 원화 결제망의 시범 운영을 9월 21일 시작했다[bloomberg.com#1][cointelegraph.com#1][koreatimes.co.kr#1]. 'BOK 원화 국제 결제망(BOK Won International Wire Network)'은 KB국민은행, 우리은행, 하나은행, 신한은행과 함께 테스트 중이며 2027년 1월 전면 도입될 예정이다[cointelegraph.com#1][36kr.com#1][koreatimes.co.kr#1]. 이 결제망은 영업일 오전 9시부터 다음 날 오전 9시까지 운영되며 주말과 공휴일에는 운영되지 않는다[koreatimes.co.kr#1]. 외국인 투자자는 국내 금융기관에 직접 계좌를 개설하지 않고도 자국 내 '원화 결제 업무를 수행하는 등록 외국 금융기관(Registered Foreign Institutions for KRW Business)'에 보유한 계좌를 통해 원화를 결제할 수 있게 된다[cointelegraph.com#1][koreatimes.co.kr#1]. 한국은행은 이번 시스템이 원화 결제 인프라에 대한 접근성을 개선하고 원화의 국제적 위상을 강화하기 위한 것이라고 밝혔다[bloomberg.com#1][cointelegraph.com#1].",
+      "business_angle_text": "해외 은행들은 초기 시범 운영 기간보다는 공식 출시 이후 결제망에 참여할 것으로 예상된다[cointelegraph.com#1][koreatimes.co.kr#1].",
+      "talking_points[0]": "외국 은행 참여: 해외 은행들은 결제망의 초기 시범 운영 기간보다는 공식 출시 이후에 참여할 것으로 예상된다[cointelegraph.com#1][koreatimes.co.kr#1]."
+    },
+    "bb6f62a0-21d8-4762-af85-d0cc5d036c84": {
+      "title": "타타 가문 내분, 법적 공방으로 격화",
+      "short_summary": "인도 언론 보도에 따르면 타타 가문의 원로인 노엘 타타(Noel Tata)가 N. 찬드라세카란(N. Chandrasekaran) 타타 선즈(Tata Sons) 회장의 재선임에 이의를 제기할 준비를 하고 있다. 타타 선즈와 타타 트러스트(Tata Trusts) 간의 이번 분쟁은 지배구조와 경영권을 둘러싼 법정 다툼으로 번질 가능성이 있다 [indiatoday.in#1][tribuneindia.com#1]. 이번 갈등은 그룹 지주회사인 타타 선즈의 상장 여부와도 관련이 있다. 파이낸셜 타임스(Financial Times)는 노엘 타타가 상장을 막으려 한다고 보도했다. 비즈니스 타임스(Business Times)에 따르면, 양측 진영은 인도 법원과 나렌드라 모디(Narendra Modi) 정부까지 개입할 수 있는 법적 공방을 준비 중이다 [ft.com#1][businesstimes.com.sg#1][bloomberg.com#1].",
+      "user_action_items[0]": "공식 서류 추적: 경쟁 진영에 대한 보도에만 의존하기보다 인도 법원 기록과 타타 선즈의 공식 공시를 검토하여 확정된 주장, 이사회 결정, 심리 일정을 확인해야 한다 [indiatoday.in#1][businesstimes.com.sg#1].",
+      "user_action_items[1]": "노출 유형 구분: 타타 관련 투자를 평가할 때 상장된 운영 기업과 비상장 지주회사인 타타 선즈의 분쟁을 구분해야 한다 [ft.com#1][indiatoday.in#1].",
+      "perspectives[0].text": "노엘 타타: 파이낸셜 타임스는 노엘 타타가 뉴델리에서 타타 그룹 회장 및 그 측근들과 대립하고 있다고 보도했다 [ft.com#1].",
+      "perspectives[1].text": "타타 경쟁 진영: 양측 진영은 잠재적인 법적 공방에 대비해 변호사를 선임했다 [google.com#1]."
+    },
+    "9a9a66e9-5a86-4be6-b7bd-f0fbc4608d37": {
+      "title": "트럼프, 시 주석 방문 앞두고 'AI 부대' 창설 발표",
+      "short_summary": "트럼프 대통령은 미국이 첨단 기술 분야에서 중국을 앞서나가기 위한 노력의 일환으로 연방 'AI 부대(AI Force)'를 창설하고, 흔히 'AI 차르'로 불리는 인공지능 자문관을 임명할 계획이라고 발표했다. 그는 자신의 행정부가 업계의 성장을 저해하지 않을 것이라고 밝혔다 [beijingbulletin.com#1][scmp.com#1][thenews.com.pk#1]. 이번 발표는 시진핑 중국 국가주석의 이번 주 미국 국빈 방문을 앞두고 나왔으며, 양국 정상 간 회담에서 인공지능이 주요 의제로 다뤄질 것으로 예상된다. 미국과 중국은 AI 주도권을 두고 경쟁하는 한편, 상대국이 보유한 AI가 국가 안보에 미칠 영향에 대해 우려를 표명하고 있다 [abcnews.com#1][nytimes.com#1].",
+      "quote": "우리는 이 놀라운 산업의 성장을 어떤 방식으로든 방해하거나 억압하지 않을 것이다.",
+      "quote_attribution": "MyJoyOnline",
+      "location": "미국 워싱턴 D.C.",
+      "historical_background": "새로운 임명에 관한 보도에 따르면 데이비드 색스(David Sacks) 전 AI 자문관이 지난 3월 해당 직책에서 물러났다 [aktuality.sk#1].",
+      "talking_points[0]": "규제 접근 방식: 트럼프는 AI의 유해한 사용에 대해 새로운 개발 제한을 두기보다는 기존의 민사 및 형사 사법 시스템을 통해 대응할 것이라고 밝혔다 [myjoyonline.com#1][thenews.com.pk#1].",
+      "talking_points[1]": "경제적 논쟁: 중국 국가 기구와 가까운 경제학자들은 AI 투자가 일자리를 거의 창출하지 못하는 반면, 자원은 더 광범위한 경제 지원으로부터 분산되고 있다고 경고했다 [nzherald.co.nz#1].",
+      "talking_points[2]": "소비자 채택: 모건스탠리(Morgan Stanley)는 중국이 소비자 AI 채택 측면에서 미국을 앞서고 있다고 분석했다 [google.com#1].",
+      "talking_points[3]": "중국의 정책 대응: 베이징은 AI 개발 속도를 늦추라는 요구에 저항하면서도 정치적 안정과 사회 질서를 목표로 하는 국가 차원의 지침을 마련하고 있다 [hani.co.kr#2].",
+      "technical_details[0]": "사건 통보: 제안된 메커니즘은 워싱턴과 베이징이 국가 안보에 영향을 미칠 수 있는 AI 사건에 대해 서로 통보할 수 있도록 한다. 당국은 보고 기준, 검증 절차 또는 집행 권한에 대해서는 공개하지 않았다 [abcnews.com#1][nytimes.com#2].",
+      "technical_details[1]": "제도적 설계: AI 부대의 지휘 체계, 예산, 민간 또는 군사적 성격, 운영 범위는 아직 구체화되지 않았다. 이 부대가 정책, 연구 또는 산업 지원을 조정할지 여부는 불분명하다 [scmp.com#1][lexpress.fr#1].",
+      "technical_details[2]": "시장 집중도: 모건스탠리는 AI가 '판도를 재설정하기보다는 승자를 증폭시킨다'며, 더우인(Douyin)과 타오바오 티몰(Taobao Tmall)이 시장 점유율을 확대하고 텐센트(Tencent)와 메이퇀(Meituan)이 폐쇄형 거래 생태계에서 혜택을 보고 있다고 밝혔다 [google.com#1].",
+      "business_angle_points[0]": "전략적 역할: 전문가들은 제안된 AI 부대가 베이징에 AI 안전 대화를 위한 명확한 상대역을 제공할 수 있지만, 동시에 중국을 겨냥한 기술 봉쇄 및 수출 통제의 도구가 될 수도 있다고 경고했다 [scmp.com#1].",
+      "business_angle_points[1]": "미국의 모델 및 데이터 센터 기업들은 개발 제약이 줄어들어 혜택을 볼 수 있지만, 국가 안보 관련 사건이 발생할 경우 새로운 통제나 책임 문제가 불거질 수 있다 [myjoyonline.com#1][abcnews.com#1].",
+      "perspectives[0].text": "도널드 트럼프 대통령: 트럼프는 제안된 부대를 자신의 첫 임기 중 창설된 우주군(Space Force)에 비유하며 조만간 AI 차르를 발표할 것이라고 말했다 [beijingbulletin.com#1][mbn.co.kr#2].",
+      "perspectives[1].text": "미국 및 중국 당국자: 스콧 베센트(Scott Bessent) 재무장관과 허리펑(He Lifeng) 부총리는 상설 AI 대화와 국가 안보 관련 사건에 대한 통보 절차를 논의했으며, 이를 정상 회담 의제로 올렸다 [abcnews.com#1][nytimes.com#2].",
+      "perspectives[2].text": "스콧 싱어(Scott Singer), 카네기 국제평화재단(Carnegie Endowment): 싱어는 미·중 관계 전반의 변동성이 양국 간 AI 대화의 틀을 형성하고 있으며, 공유된 안전 체계를 구축하려는 노력을 복잡하게 만들고 있다고 말했다 [abcnews.com#1].",
+      "perspectives[3].text": "중국 국가안전부: 천이신(Chen Yixin) 부장은 딥페이크와 자동화된 댓글 네트워크로 인한 정치적 안보 위험은 물론, 사이버 공격, 정보 유출, 사회 통제 위험 및 군사적 이용 등을 주요 위험 요소로 지목했다 [hani.co.kr#2].",
+      "timeline[0].content": "중국과 트럼프는 AI 개발 속도를 늦추라는 요구를 거부했다 [hani.co.kr#1].",
+      "timeline[1].content": "트럼프는 트루스 소셜(Truth Social)을 통해 AI 부대 창설을 발표했다 [beijingbulletin.com#1][elclarin.cl#1].",
+      "timeline[2].content": "당국은 AI 국가 안보 사건 통보 메커니즘을 제안했다 [abcnews.com#1][nytimes.com#2].",
+      "timeline[3].content": "시 주석의 예정된 미국 국빈 방문에 AI 논의가 포함될 것으로 예상되었다 [abcnews.com#1][nytimes.com#1].",
+      "primary_image.caption": "도널드 트럼프 미국 대통령과 시진핑 중국 국가주석이 시 주석의 국빈 방문 기간 중 인공지능에 대해 논의할 것으로 예상된다.",
+      "secondary_image.caption": "한 방문객이 상하이에서 열린 세계인공지능대회(WAIC)에서 알리바바(Alibaba)의 큐원(Qwen) AI 안경을 체험하고 있다."
+    },
+    "39b5185b-b23c-472b-8f15-ae1e48eee59a": {
+      "title": "미국 디젤 가격, 전쟁으로 인한 연료 공급난에 6.50달러 돌파",
+      "short_summary": "미국 자동차협회(AAA)에 따르면 미국 내 소매 디젤 가격이 토요일 갤런당 평균 6.505달러를 기록하며 사상 최고치를 경신했다. 블룸버그는 디젤 가격이 처음으로 6.50달러를 넘어섰다고 보도했다[thehindubusinessline.com#1][bloomberg.com#1]. 이번 가격 상승은 일주일 만에 42센트가 급등한 결과로, 이란과의 전쟁으로 인한 혼란과 전 세계 정제 능력 부족, 연료 공급 압박이 반영된 것이다[thehill.com#1][isna.ir#1]. 디젤은 트럭 운송, 철도, 농업, 건설, 제조업, 난방 및 소비재 운송에 사용된다. 지속적인 고유가는 화물 운송비, 생산비 및 식품 가격 상승으로 이어질 수 있다[reddit.com#1][detafour.com#1]. 디젤과 난방유를 포함한 미국의 증류유 재고는 계절적으로 이례적인 낮은 수준으로 떨어졌으며, 북반구의 난방 시즌이 다가오고 중동 및 러시아의 연료 공급 차질이 겹치면서 가용 제품에 대한 경쟁이 심화되고 있다[detafour.com#1].",
+      "talking_points[0]": "연간 상승폭: 9월 보고서에 따르면 미국 디젤 평균 가격은 갤런당 6달러를 넘어섰으며, 이는 1년 전 약 3.70달러와 비교되는 수치이다[detafour.com#1].",
+      "talking_points[1]": "인플레이션 위험: 마켓워치(MarketWatch)는 지속적인 디젤 고유가가 인플레이션에 계속해서 상승 압력을 가할 수 있다고 전했다[marketwatch.com#1].",
+      "talking_points[2]": "시장 노출: 이번 가격 충격으로 인해 운송 관련 기업들과 디젤 의존도가 높은 운영을 하는 주식 시장 부문의 취약성이 드러나고 있다[marketwatch.com#1].",
+      "talking_points[3]": "정치적 압박: 더 힐(The Hill)은 에너지 비용 상승이 미국 중간선거를 45일 앞두고 공화당의 경제적 상황을 악화시켰다고 보도했다[thehill.com#1]."
+    },
+    "02724cd9-1b30-41dd-b798-b2f6b8926169": {
+      "title": "프랑스, 2027년 GDP 대비 부채 비율 120% 상회 전망",
+      "short_summary": "프랑스 재무부에 따르면 프랑스의 공공부채는 2026년 국내총생산(GDP)의 119.3%, 2027년에는 121.7%에 달해 1978년 이후 최고치를 기록할 것으로 전망된다. 재무부는 이러한 증가세의 원인으로 여전히 높은 수준의 재정 적자를 꼽았다. 프랑스는 그리스와 이탈리아에 이어 유로존에서 세 번째로 부채가 많은 국가이다 [euronews.com#1][euractiv.com#1][leparisien.fr#1]. 정부는 공공 재정 건전화 압박에 직면함에 따라 내년 540억 유로 규모의 지출 삭감안을 준비 중이다 [euronews.com#1][euronews.com#2].",
+      "quote": "여전히 높은 수준을 유지하는 재정 적자의 결과",
+      "quote_attribution": "유로뉴스(Euronews)",
+      "location": "프랑스 파리",
+      "talking_points[0]": "투자자 압박: 조즈남(Zoznam)이 인용한 투자자 보고에 따르면 지난주 후반 프랑스와 독일의 10년 만기 국채 금리 차이가 1%포인트를 넘어섰다 [zoznam.sk#1].",
+      "talking_points[1]": "국가별 비교: 스페인의 부채 비율은 7월 GDP 대비 100% 아래로 떨어졌으며, 포르투갈은 2025년 90% 미만으로 하락했다 [euronews.com#1][euronews.com#2].",
+      "talking_points[2]": "부채 이력: 공공부채는 이번 전망치 상승 이전인 2025년 GDP 대비 115.7%를 기록했다 [zoznam.sk#1].",
+      "perspectives[0].text": "공공재정고등위원회: 프랑스 재무부는 예산안 초안의 세입 및 세출 추정치를 평가하는 보고서를 통해 최신 부채 전망치를 발표했다 [zoznam.sk#1].",
+      "timeline[0].content": "프랑스 공공부채, GDP 대비 115.7% 기록 [zoznam.sk#1]",
+      "timeline[1].content": "재무부, 2026년 부채 비율 GDP 대비 119.3%로 전망 [euronews.com#1][euronews.com#2]",
+      "timeline[2].content": "부채 비율 GDP 대비 121.7%에 달할 것으로 예측 [euronews.com#1][leparisien.fr#1]",
+      "primary_image.caption": "프랑스의 공공부채 증가 보도와 함께 실린 파리 전경"
+    },
+    "b4c19135-7db9-48f0-9a8c-7533fd3780cb": {
+      "title": "미국 기업들, 관세·연료비·금리 인상으로 비용 부담 가중",
+      "short_summary": "미국 기업들이 관세, 연료비 상승, 금리 인상, 공급망 차질, 기상 이변 등으로 인해 원자재, 운송, 금융 비용이 증가하면서 제조업체, 자동차 부품업체, 소매업체, 운송업체들이 압박을 받고 있다 [cnbc.com#1][cnn.com#1][newsbomb.gr#1]. 인터뷰에 응한 사업주들은 현재 상황이 코로나19 공급망 위기 때보다 관리하기 더 어렵다고 토로했으며, 소비자들은 추가적인 가격 인상에 저항하고 있다 [google.com#1][cnn.com#1][newsbomb.gr#1]. 미국 공급관리협회(ISM)의 월간 조사와 기업 임원들의 증언에 따르면 기업들은 재고를 줄이고 있으며 중기 계획 수립에 더 큰 어려움을 겪고 있다 [rtvi.com#1][newsbomb.gr#1].",
+      "business_angle_text": "가격 결정력이 낮거나 운송 의존도가 높고, 단기적인 자금 재조달이 필요한 기업들은 공급망을 확보하고 변동성을 흡수할 수 있는 기업들보다 더 큰 수익 위험에 직면해 있다 [cnbc.com#1][newsbomb.gr#1].",
+      "talking_points[0]": "해상 경로 공격: 해상 경로에 대한 공격이 공급망 차질의 원인으로 지목되고 있다 [newsbomb.gr#1].",
+      "industry_impact[0]": "제조업: 전미제조업협회(NAM)는 상승하는 투입 비용을 가장 큰 우려 사항으로 꼽고 있다 [google.com#1].",
+      "perspectives[0].text": "제프 보이타(Jeff Vojta): 롤리(Raleigh) 소재 딜워스 커피(Dilworth Coffee)의 최고경영자(CEO) 제프 보이타는 현재의 경제적 압박에 직면한 사업주 중 한 명이다 [reddit.com#1].",
+      "perspectives[1].text": "잭 버핑턴(Jack Buffington): 덴버 대학교(University of Denver) 공급망 물류 프로그램 디렉터인 잭 버핑턴은 현재 상황을 코로나19 위기의 재현이 아닌 에너지 문제로 규정했다 [rtvi.com#1].",
+      "perspectives[2].text": "트럼프 대통령: 트럼프 대통령은 트루스 소셜(Truth Social)을 통해 호르무즈 해협에 영향을 미치는 갈등이 해결되면 유가가 급격하고 빠르게 하락할 것이라고 언급했다 [rtvi.com#1]."
+    },
+    "44870b59-4395-4f9d-9a9c-93cd125a4741": {
+      "title": "미 연준 관계자, 미국 경제 전반에 걸쳐 인플레이션 여전하다고 언급",
+      "short_summary": "닐 카시카리(Neel Kashkari) 미니애폴리스 연방준비은행 총재는 변동성이 큰 에너지와 식료품 가격을 제외하더라도 미국 경제 전반의 인플레이션이 여전히 너무 높다고 말했다. 그는 인플레이션이 중동 지역의 갈등 격화와 관련된 유가 충격을 넘어 확산되었으며, 연방준비제도(Fed)의 과제는 인플레이션을 2% 목표치로 되돌리는 것이라고 밝혔다 [bloomberg.com#1][humenglish.com#1][vietnamplus.vn#1][aawsat.com#1]. 카시카리는 지난주 연방공개시장위원회(FOMC)가 정책 금리를 0.25%포인트 인상해 3.75%~4.00% 범위로 조정한 만장일치 결정을 지지했다. 그는 대부분의 정책 입안자가 금리를 동결했던 이전 회의에서 금리 인상을 지지했던 3명의 위원 중 한 명이었으며, 이번 결정과 함께 발표된 전망치에 따르면 2명을 제외한 모든 위원이 올해 최소 한 차례 이상의 0.25%포인트 추가 인상을 예상했다 [humenglish.com#1][globo.com#1].",
+      "quote": "따라서 변동성이 매우 큰 에너지와 식료품을 제외하더라도, 이들이 경제에 미치는 영향은 매우 크며 경제의 향방 측면에서 볼 때 인플레이션은 여전히 너무 높습니다.",
+      "quote_attribution": "HUM English",
+      "talking_points[0]": "금리 전망: 금리 선물 시장은 2026년 말 정책 금리가 4.00%에서 4.25% 사이가 될 확률을 약 3분의 2로 보고 있으며, 2027년 중반까지 추가 인상이 이루어질 가능성이 높다고 보고 있다 [humenglish.com#1].",
+      "talking_points[1]": "정책적 한계: 그는 금리 인상이 호르무즈 해협을 다시 열거나 유가를 직접적으로 낮출 수는 없으며, 이는 갈등으로 인한 에너지 충격을 상쇄하는 데 있어 통화 정책의 능력을 제한한다고 말했다 [humenglish.com#1][vietnamplus.vn#1].",
+      "perspectives[0].text": "미 재무부: 카시카리는 국채 시장 관리 책임은 연방준비제도가 아닌 재무부에 있다고 말했다 [aawsat.com#1]."
+    }
+  },
+  "stats": {
+    "storyCount": 12,
+    "translated": 10,
+    "failedStoryIds": [
+      {
+        "id": "a2791239-70e9-4b8b-95f4-8e6a2d6a8c53",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "cb443cb4-9d67-4969-baed-b521f81dd24c",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 8849,
+      "out": 9066
+    }
+  }
+}
