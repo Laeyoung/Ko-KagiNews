@@ -4,7 +4,7 @@
   "categoryUuid": "4837e2ce-8090-41b4-9df7-db1b81bfa5fc",
   "categorySlug": "ai",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-22T14:55:41.651Z",
+  "createdAt": "2026-09-22T15:15:59.020Z",
   "stories": {
     "098ecf7a-53c1-4d8b-9c79-4532ece0e8c4": {
       "title": "오픈AI, 미국·중국 AI 경보 논의 속 글로벌 AI 표준 촉구",
@@ -229,24 +229,37 @@
       "timeline[1].content": "재단, 대표성 있는 AI 언어 데이터셋을 위한 연합체 출범 [abcnews.com#1][techxplore.com#1]",
       "timeline[2].content": "가나 비즈니스 뉴스(Ghana Business News), 2026년 골키퍼스 보고서 세부 내용 보도 [ghanabusinessnews.com#1]",
       "primary_image.caption": "마크 수즈먼 게이츠 재단 CEO 겸 이사가 2025년 9월 24일 뉴욕에서 열린 클린턴 글로벌 이니셔티브(Clinton Global Initiative)에서 발언하고 있다."
+    },
+    "4590e9cb-07af-42c4-b75f-e5b6f9fc9218": {
+      "title": "엔비디아 CEO, 2030년 이전 AI 인류 멸종 경고 일축",
+      "short_summary": "젠슨 황(Jensen Huang) 엔비디아 최고경영자(CEO)는 인공지능(AI)이 2030년까지 인류를 멸종시킬 수 있다는 예측을 '종말론적 서사'라고 일축하며, 그해에 세상이 끝날 확률은 0%라고 밝혔다. 황 CEO는 CBS 뉴스와의 인터뷰에서 전 앤스로픽(Anthropic) 연구원 제이콥 콕슨(Jacob Coxon)과 다른 AI 연구자들의 경고에 대해 이같이 답했다 [theguardian.com#1][bbc.co.uk#1][futurism.com#1]. 황 CEO는 이러한 전망이 과학적 근거가 부족하며 대중에게 공포를 조장하는 것은 불필요하고 무책임한 처사라고 말했다. AI 연구자들과 업계 경영진들은 최첨단 AI 개발 속도와 안전 규정 시행 방식을 두고 의견이 엇갈리고 있다 [bbc.co.uk#1][vnexpress.net#1][canaltech.com.br#1].",
+      "did_you_know": "황 CEO의 발언을 다룬 보도에서 엔비디아는 5조 달러 규모의 AI 칩 제조사로 묘사되었다 [theguardian.com#1].",
+      "quote": "2030년은 세상의 종말이 아닐 것이다. 그때 세상이 끝날 확률은 0%다.",
+      "quote_attribution": "가디언(The Guardian)",
+      "talking_points[0]": "위험 추정: 앤스로픽의 연구원 에반 허빙거(Evan Hubinger)는 AI가 향후 10년 내에 인류를 멸종시킬 확률이 10% 이상이라고 공개적으로 추정한 바 있다. 그는 이를 과학적 합의가 아닌 개인적인 평가라고 설명했다 [akhbarona.com#1].",
+      "talking_points[1]": "규제 논쟁: 황 CEO는 개발 속도 조절을 요구하는 기업들이 자사 제품으로 인한 피해에 대한 법적 책임으로부터 보호받으려 하는 것일 수 있다고 말했다 [cna.com.tw#1].",
+      "business_angle_points[0]": "엔비디아의 수익 기회는 AI 도입과 여전히 밀접하게 연관되어 있으며, 안전 실패는 고객의 채택을 약화하고 하류 사용자들을 법적 비용 위험에 노출할 수 있다 [fortune.com#1][bbc.co.uk#1].",
+      "business_angle_points[1]": "개발 속도 조절 요구는 단기적인 컴퓨팅 용량 수요를 감소시키는 한편, 검증 및 안전 엔지니어링의 가치를 높일 수 있다 [canaltech.com.br#1][fortune.com#1].",
+      "business_angle_points[2]": "황 CEO의 전망은 모델 신뢰성에 관한 측정 가능한 증거와는 차이가 있으며, 엔비디아는 지속적인 AI 확장을 통해 재정적 이익을 얻는다 [theguardian.com#1][fortune.com#1].",
+      "industry_impact[0]": "사이버 보안 및 오용: 앤스로픽은 범죄 집단, 국가 지원 행위자, 스파이웨어 업체, 과학자 및 선동가들이 무기 개발, 위험한 병원체 생성, 감시 활동을 위해 고급 모델을 사용하려는 시도를 문서화했다 [theguardian.com#1][biznis.rs#1].",
+      "perspectives[0].text": "젠슨 황: 엔비디아 CEO는 회사의 성공이 자사 제품과 서비스의 안전한 배포에 달려 있으며, 해당 기준을 유지하지 못할 경우 회사의 가치가 하락할 것이라고 말했다 [bbc.co.uk#1].",
+      "perspectives[1].text": "도널드 트럼프와 엔비디아: 트럼프와 엔비디아는 과도한 AI 규제가 특히 중국과의 경쟁에서 미국의 기술적 경쟁력을 약화할 수 있다고 언급했다 [finchannel.com#1].",
+      "perspectives[2].text": "AI 안전 연구자들: 전 앤스로픽 연구원 제이콥 콕슨은 일부 AI 개발자들이 이 기술이 10년 말까지 모든 사람을 죽일 수 있다고 믿고 있다고 말했다. 전 구글 딥마인드(Google DeepMind) 연구원 빌랄 추타이(Bilal Chughtai)는 AI가 잠재적으로 모든 인류를 죽일 수 있다고 경고했다 [finchannel.com#1].",
+      "primary_image.caption": "젠슨 황 엔비디아 CEO"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
+    "translated": 11,
     "failedStoryIds": [
       {
         "id": "9f63d22c-67e9-4959-8e61-8d32fa17f0f4",
         "reason": "retry_exhausted"
-      },
-      {
-        "id": "4590e9cb-07af-42c4-b75f-e5b6f9fc9218",
-        "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 13584,
-      "out": 17109
+      "in": 14665,
+      "out": 18391
     }
   }
 }

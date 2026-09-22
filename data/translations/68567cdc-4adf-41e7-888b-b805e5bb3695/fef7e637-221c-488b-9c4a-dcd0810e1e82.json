@@ -4,7 +4,7 @@
   "categoryUuid": "fef7e637-221c-488b-9c4a-dcd0810e1e82",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-22T14:48:58.779Z",
+  "createdAt": "2026-09-22T15:12:46.714Z",
   "stories": {
     "c80f9ce6-3143-40f0-9c26-520caebea1ab": {
       "title": "FAA, 백업 케이블 절단으로 미 북동부 항공편 운항 차질",
@@ -116,18 +116,64 @@
       "timeline[3].content": "폰테스, 점진적 확장 후 완전 구현 예상 [coindesk.com#2]",
       "timeline[4].content": "ECB, 소매용 디지털 유로 출시 희망 [ft.com#1]",
       "primary_image.caption": "프랑크푸르트에 위치한 유럽중앙은행(ECB) 본부"
+    },
+    "344400c8-cb30-4ac0-a1b5-4448331303c4": {
+      "title": "트럼프, 언론사 출입 금지 조치에 소송 및 TV 공동 취재단 보이콧 직면",
+      "short_summary": "CNN, MS NOW, 폴리티코(Politico)는 백악관이 자사 기자들의 출입을 금지하고 출입증을 회수하자 9월 21일 워싱턴 D.C. 연방법원에 트럼프 행정부를 상대로 소송을 제기했다. 이들 언론사는 행정부가 마음에 들지 않는 보도에 대한 대응으로 출입 금지 조치를 내린 것은 수정헌법 제1조와 적법 절차 보호 원칙을 위반한 것이라며 임시 접근 금지 명령을 요구하고 있다 [latimes.com#1][npr.org#1][scmp.com#1]. 트럼프 대통령은 해당 언론사들이 누적된 부정적 보도나 이른바 '가짜 뉴스'를 생산했기 때문에 출입을 금지했다고 밝혔다. 그는 이후 이러한 제한 조치가 언론의 자유가 아닌 '가짜 뉴스'를 겨냥한 것이라고 주장했다 [cnbc.com#1][time.com#1][cbsnews.com#1]. 이번 분쟁으로 ABC, CBS, NBC, 폭스 뉴스(Fox News), CNN이 유엔 총회 참석을 위한 뉴욕 방문 등 트럼프 대통령 관련 행사에 대한 순번제 공동 취재단(pool) 업무를 중단하면서 대통령 TV 보도에 차질이 빚어졌다. 방송사들은 대중이 정부에 관한 정확하고 독립적인 정보를 알 권리가 있다고 강조했다 [businessinsider.com#1][pbs.org#1].",
+      "quote": "TV 공동 취재단은 대통령의 공동 취재 지정 행사를 취재하지 않을 것이다",
+      "quote_attribution": "비즈니스 인사이더(Business Insider)",
+      "location": "미국 워싱턴 D.C.",
+      "historical_background": "백악관 출입 기자단은 전통적으로 백악관 출입기자협회(White House Correspondents’ Association)가 관리해 왔으나, 트럼프 행정부는 2026년 2월 순번제 취재단에 대한 접근 권한을 직접 통제하겠다고 발표했다 [yahoo.com#1]. 2025년 2월에도 행정부는 AP 통신(Associated Press)이 행정부가 선호하는 명칭 대신 '멕시코만(Gulf of Mexico)'이라는 용어를 사용했다는 이유로 특정 대통령 행사에서 해당 언론사 기자들의 접근을 제한했으며, 이 사건은 여전히 소송이 진행 중이다 [yahoo.com#1].",
+      "talking_points[0]": "법원 심리: 언론사 출입 금지에 관한 연방법원 심리가 수요일로 예정되어 있으며, 해당 언론사들은 접근 권한 복구를 위한 긴급 구제 조치를 요청하고 있다 [cnbc.com#1][scmp.com#1].",
+      "talking_points[1]": "담당 판사 배정: 티모시 켈리(Timothy Kelly) 연방 지방법원 판사가 사건을 배정받았으며, 그는 트럼프 대통령의 첫 임기 중 지명된 인물이다 [wxyz.com#1].",
+      "talking_points[2]": "보도 공백: 취재단은 트럼프 대통령의 뉴욕 행사 취재를 위한 대체 인력을 배치하지 않았으며, 이로 인해 주요 대통령 공식 일정의 일반적인 공동 TV 영상 송출이 중단되었다 [pbs.org#1][nytimes.com#3].",
+      "talking_points[3]": "대안 채널: 백악관은 방송사들이 공동 취재를 중단한 이후 '트럼프 TV(Trump TV)'라는 스트리밍 채널을 개설했다 [bbc.co.uk#1].",
+      "industry_impact[0]": "방송 운영: 이번 보이콧으로 5개 방송사가 비용, 인력, 현장 물류를 분담하던 대통령 행사 공동 제작 시스템이 중단되었다 [cnbc.com#2][nytimes.com#1].",
+      "industry_impact[1]": "사진 보도: AP 통신, AFP 통신(Agence France-Presse), 워싱턴 포스트(The Washington Post), 뉴욕 타임스(The New York Times) 또한 대통령 행사 사진을 보도하지 않겠다고 밝혔다 [stheadline.com#1].",
+      "perspectives[0].text": "CNN, MS NOW, 폴리티코: 이들 3개 언론사는 트럼프 대통령이 단순히 보도 내용이 마음에 들지 않는다는 이유로 우호적인 보도를 하는 언론사에만 대통령 행사 취재를 허용할 수는 없다고 주장했다 [geo.tv#1].",
+      "perspectives[1].text": "트럼프 행정부: J.D. 밴스(J.D. Vance) 부통령은 이번 조치가 언론사 출입 금지가 아니라 특별 접근 권한을 철회한 것이라고 설명하며, 해당 언론사들이 여전히 트럼프 대통령을 취재하고 관계자들과 대화할 수 있다고 말했다 [pts.org.tw#1].",
+      "perspectives[2].text": "트럼프 대통령: 트럼프 대통령은 다른 언론사들도 추가로 출입 금지 대상이 될 수 있다고 경고하며 뉴욕 타임스와 워싱턴 포스트를 '가짜 뉴스' 매체로 지목했다 [yahoo.com#1].",
+      "perspectives[3].text": "조란 맘다니(Zohran Mamdani) 뉴욕 시장: 맘다니 시장은 뉴욕에서 열리는 잔디밭 기자회견에 언론사의 견해나 비판 여부와 관계없이 모든 언론인의 참석을 허용하겠다고 밝혔다 [fortune.com#1].",
+      "timeline[0].content": "트럼프 대통령, 3개 언론사에 대한 즉각적인 백악관 출입 금지 발표 [pts.org.tw#1][stheadline.com#1].",
+      "timeline[1].content": "기자들의 백악관 출입이 차단되고 비밀경호국(Secret Service)에 의해 출입증이 압수됨 [politico.com#1][dw.com#2].",
+      "timeline[2].content": "3개 언론사, 접근 권한 복구를 요구하는 연방 소송 제기 [npr.org#1][politico.com#1].",
+      "timeline[3].content": "5개 TV 방송사, 트럼프 관련 공동 취재 업무 중단 [businessinsider.com#1][nytimes.com#3].",
+      "timeline[4].content": "긴급 접근 권한 구제 요청에 대한 연방법원 심리 예정 [cnbc.com#1][scmp.com#1].",
+      "primary_image.caption": "CNN, MS NOW, 폴리티코의 출입이 금지된 후 백악관 밖에 설치된 TV 뉴스 방송 부스들.",
+      "secondary_image.caption": "백악관이 출입증을 압수한 후 빈 출입증 홀더를 들고 있는 CNN 기자."
+    },
+    "13e99d69-f21e-4bf5-a272-c6e3d37b3a19": {
+      "title": "글로벌 공급난 심화로 미국 디젤 가격 6.51달러 기록",
+      "short_summary": "미국자동차협회(AAA)에 따르면 9월 21일 기준 미국 전국 디젤 평균 가격은 갤런당 6.5107달러를 기록하며 사상 최고치를 경신했다. 이는 일주일 전 6.23달러, 한 달 전 5.58달러에서 상승한 수치다. 이란과 우크라이나 전쟁으로 인한 원유 및 정제 연료 흐름 차질과 정유 시설 피해로 인해 가격은 1년 전보다 약 76% 급등했다 [rt.com#1][koaa.com#1][newsvirginian.com#1]. 이러한 공급 부족은 2027년까지 지속될 것으로 예상된다. 9월 11일 기준 미국 디젤 재고는 1억 790만 배럴로 1982년 미국 에너지정보청(EIA) 기록 시작 이래 해당 시점 기준 최저치를 기록했으며, EIA 전망에 따르면 중간 유분 재고는 9월 중 1억 배럴 아래로 떨어져 2027년 대부분 기간 동안 5년 내 최저치를 밑돌 것으로 보인다 [yahoo.com#1][energy-policy.ru#1]. 중동의 디젤 수출량은 3월부터 8월까지 일평균 80만 배럴로, 전년 동기 대비 절반 수준에 그쳤다 [humenglish.com#1].",
+      "did_you_know": "캘리포니아주의 디젤 가격은 갤런당 10달러를 넘어섰으며, 일부 주유기 디스플레이는 네 자릿수 가격을 완전히 표시하지 못할 정도로 가격이 치솟았다 [thenationalnews.com#1].",
+      "quote": "핵심 문제는 전 세계 많은 정유 시설이 이미 최대 가동 능력에 도달해 있다는 점이다",
+      "quote_attribution": "HUM English",
+      "business_angle_text": "정유 시설은 높은 가동률을 유지하고 있으나 재고는 이례적으로 낮은 수준이다. 정유 시설 가동 중단 기간과 공급망 복구 속도가 단기적인 주유소 가격 변동보다 디젤 공급에 더 큰 영향을 미칠 것이다 [humenglish.com#1][deccanchronicle.com#1]. 원유 및 정제 연료 흐름이 회복되면 시장 상황은 빠르게 반전될 수 있으나, 추가적인 정유 시설 가동 중단이나 해상 운송 차질이 발생할 경우 공급 부족은 장기화될 수 있다 [thesouthafrican.com#1][humenglish.com#1].",
+      "talking_points[0]": "정유 시설 제약: 미국 정유 시설들은 8월 말 기준 8년 만에 가장 높은 가동률을 기록했다 [humenglish.com#1].",
+      "talking_points[1]": "저장 시설 신호: 북미와 카리브해 지역의 임대 가능한 디젤 저장 용량은 6월 1,100만 배럴에서 10월 1,300만 배럴로 증가했으나, 탱크를 채울 수 있는 가용 연료는 여전히 제한적이다 [yahoo.com#1].",
+      "talking_points[2]": "정책 논쟁: 한 분석가는 미국의 디젤 수출 금지가 국제 시장에서 공급을 제거하여 글로벌 공급난을 악화시킬 것이라고 경고했다 [thenationalnews.com#1].",
+      "technical_details[0]": "중간 유분 재고: EIA의 중간 유분(distillate) 분류에는 디젤과 기타 난방 연료가 포함된다. 재고가 1억 배럴 미만으로 떨어질 것이라는 전망은 단순히 소매용 트럭 연료뿐만 아니라 더 넓은 범위의 중간 유분 시장 전반에 압박이 가해지고 있음을 나타낸다 [yahoo.com#1].",
+      "technical_details[1]": "해상 운송 병목 현상: 이란의 호르무즈 해협 봉쇄로 일일 약 2,000만 배럴의 원유 공급이 차단되면서 해상 접근성이 공급 충격의 주요 요인이 되었다 [geo.tv#1].",
+      "technical_details[2]": "해상 운송 위험: 사우디아라비아가 대부분의 디젤을 선적하는 홍해 지역으로까지 차질이 확산되면서 정유 시설 용량과는 별개의 물류 제약이 추가되었다 [humenglish.com#1].",
+      "business_angle_points[0]": "미국 디젤 가격은 7월에서 8월 사이 한 달 만에 3.9% 상승했으며, 이러한 속도는 연료 관련 수익과 비용에 급격한 변화를 초래할 수 있다 [koaa.com#1].",
+      "business_angle_points[1]": "EIA는 미국 전역에서 디젤 가격이 갤런당 최소 6달러를 기록했다고 보고했으며, 이는 가격 충격으로부터 지리적 안전지대가 없음을 의미한다 [meatingplace.com#1].",
+      "business_angle_points[2]": "고속도로용 디젤 가격은 1월 갤런당 3.477달러에서 9월 중순 6.285달러로 81% 상승했다 [meatingplace.com#1].",
+      "perspectives[0].text": "도널드 트럼프 대통령: 트럼프 대통령은 가격 상승의 주된 원인을 러시아-우크라이나 전쟁으로 돌리며 볼로디미르 젤렌스키 우크라이나 대통령에게 러시아 정유 시설에 대한 공격을 중단할 것을 압박했다. 또한 그는 이란에 대해 군사적, 경제적, 외교적 대응 방안을 고려하고 있다고 밝혔다 [rt.com#1][thenationalnews.com#1].",
+      "perspectives[1].text": "척 그래슬리(Chuck Grassley) 상원의원: 아이오와주 공화당 소속인 그래슬리 의원은 높은 연료비가 농가 소득에 타격을 주고 있다고 주장하며 미국 디젤 수출 금지를 촉구하고 트럼프 대통령에게 조치를 취할 것을 요구했다 [meatingplace.com#1].",
+      "perspectives[2].text": "백악관: 백악관 관계자는 스크립스 뉴스(Scripps News)에 현재 행정부가 디젤 수출 금지나 기타 제한 조치를 고려하고 있지 않다고 밝혔다 [koaa.com#1].",
+      "timeline[0].content": "미국 디젤 재고 1억 790만 배럴 기록 [yahoo.com#1][energy-policy.ru#1]",
+      "timeline[1].content": "AAA, 전국 디젤 평균 가격 갤런당 6.5107달러 기록 [rt.com#1]",
+      "timeline[2].content": "백악관, 수출 금지 조치를 고려하지 않고 있다고 발표 [koaa.com#1]",
+      "primary_image.caption": "미국 전역에서 디젤 가격이 사상 최고치를 기록했다.",
+      "secondary_image.caption": "척 그래슬리 상원의원이 미국 디젤 수출 금지를 촉구했다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 5,
+    "translated": 7,
     "failedStoryIds": [
       {
         "id": "c7f35f49-84f4-4628-a206-33943bbdaabc",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "344400c8-cb30-4ac0-a1b5-4448331303c4",
         "reason": "retry_exhausted"
       },
       {
@@ -136,10 +182,6 @@
       },
       {
         "id": "db3ae7a6-7d9a-4505-923f-edaa973a3336",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "13e99d69-f21e-4bf5-a272-c6e3d37b3a19",
         "reason": "retry_exhausted"
       },
       {
@@ -152,8 +194,8 @@
       }
     ],
     "tokens": {
-      "in": 6958,
-      "out": 8598
+      "in": 9975,
+      "out": 12501
     }
   }
 }

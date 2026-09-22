@@ -4,7 +4,7 @@
   "categoryUuid": "cb640dd9-84d1-480e-a066-eaae44e77715",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-22T14:52:08.903Z",
+  "createdAt": "2026-09-22T15:13:57.471Z",
   "stories": {
     "d5f462f4-5996-4610-a502-a41a6a42b67b": {
       "title": "구글, 899달러부터 시작하는 안드로이드 기반 '구글북' 노트북 출시",
@@ -141,40 +141,116 @@
       "business_angle_points[0]": "근거 부족: 소식통들이 매출, 마진, 판매량 전망치를 제공하지 않아 비전 프로가 장기적으로 매력적인 수익을 창출할지는 판단할 수 없다.",
       "perspectives[0].text": "애플 월드 투데이는 한 보고서를 인용해 터너스가 당초 이 프로젝트를 너무 크고 비싸다고 평가했으나, 공개적인 옹호 발언에서는 이 내용을 언급하지 않았다고 보도했다 [appleworld.today#1].",
       "primary_image.caption": "애플 비전 프로 헤드셋"
+    },
+    "36d6f4dc-8c62-41a6-9df8-8124ef56ef89": {
+      "title": "애플, M6 맥 미니와 M5 맥스 및 M5 울트라 맥 스튜디오 출시",
+      "short_summary": "애플의 신형 맥 미니와 맥 스튜디오가 8월 25일 발표 이후 9월 22일 화요일부터 판매를 시작했다. 맥 미니는 2024년에 도입된 소형 섀시를 유지하며 M6 칩 또는 M5 프로를 탑재했고, 맥 스튜디오는 M5 맥스 또는 M5 울트라 프로세서를 제공한다. 애플은 두 시스템 모두 로컬 인공지능(AI) 처리를 포함한 고사양 작업에 적합하도록 설계했다. 맥 미니는 899달러부터, 맥 스튜디오는 M5 맥스 모델이 2,499달러, M5 울트라 모델이 5,499달러부터 시작한다 [cultofmac.com#1][macrumors.com#3][macworld.com#2][macworld.com#4]. 초기 리뷰에서는 상당한 성능 향상을 확인했으나, 더 높은 가격과 고가의 메모리 및 저장장치 업그레이드 비용에 대해서는 비판이 제기되었다. M6 맥 미니는 동일한 기본 메모리와 저장장치를 갖춘 2024년형 M4 모델보다 300달러 더 비싸며, 리뷰어들은 맥 스튜디오의 더 빠른 내장 SSD를 가장 눈에 띄는 개선 사항 중 하나로 꼽았다. M5 울트라는 최대 256GB의 통합 메모리로 대규모 AI 모델을 로컬에서 구동할 수 있지만, 일부 비교에서는 그래픽 성능이 엔비디아(Nvidia)의 플래그십 외장 GPU에 미치지 못하는 것으로 나타났다 [arstechnica.com#1][tomshardware.com#1][macrumors.com#1][macrumors.com#2][pcmag.com#1].",
+      "quote": "이 컴퓨터는 추가적인 클라우드 비용 없이 로컬 모델 기반의 개인 비서를 뛰어난 성능으로 구동할 수 있게 해준다.",
+      "quote_attribution": "MacStories",
+      "historical_background": "식스 컬러즈(Six Colors)에 따르면 맥 미니는 2005년 499달러에 처음 출시되었으며, 이는 2026년 가치로 환산하면 약 855달러에 해당한다 [sixcolors.com#1].",
+      "business_angle_text": "M6 맥 미니는 동일한 기본 메모리 및 저장장치 사양의 2024년형 M4 모델보다 300달러 더 비싸다. M5 울트라 구성 역시 메모리와 저장장치 업그레이드 비용이 고가이다 [arstechnica.com#1][techrepublic.com#1][bug.hr#1]. 애플은 M5 맥스 또는 M5 울트라 프로세서를 탑재한 맥 스튜디오를 제공한다. M5 울트라 모델은 대규모 AI 모델을 로컬에서 구동하기 위해 최대 256GB의 통합 메모리를 지원한다 [macworld.com#2].",
+      "talking_points[0]": "네트워크 업그레이드: 신형 맥 미니는 Wi-Fi 7, 블루투스 6, 2.5Gbps 이더넷을 기본으로 탑재했으며, M5 프로 버전은 썬더볼트 5를 추가했다 [iphoneincanada.ca#1][lesnumeriques.com#1].",
+      "talking_points[1]": "저장장치 속도: 맥월드(Macworld)는 M5 맥스 맥 스튜디오의 SSD 읽기 속도가 이전 모델 대비 약 2.6배, 쓰기 속도는 2.1배 빠르다고 측정했다 [macrumors.com#2].",
+      "talking_points[2]": "칩 아키텍처: M5 울트라는 두 개의 M5 맥스 다이를 결합하여 36개의 CPU 코어와 80개의 GPU 코어를 구현했다 [bug.hr#1][tomshardware.com#1].",
+      "talking_points[3]": "AI 벤치마크: 초기 긱벤치(Geekbench) 결과에 따르면 M5 울트라는 메탈(Metal) 점수에서 약 35만~36만 점을 기록해 M3 울트라의 249,564점과 비교되지만, API 차이로 인해 직접적인 GPU 비교에는 한계가 있다 [androidheadlines.com#1].",
+      "talking_points[4]": "맥 스튜디오 연결성: 신형 모델에는 썬더볼트 5 포트와 10Gbps 이더넷이 추가되었다 [iphoneincanada.ca#1][pcmag.com#1].",
+      "technical_details[0]": "M6 코어 설계: M6는 12코어 CPU와 12코어 GPU를 탑재했으며, 이는 M4의 10코어 CPU 및 10코어 GPU와 비교된다 [lesnumeriques.com#1].",
+      "technical_details[1]": "통합 메모리 대역폭: M5 울트라는 1.2TB/s의 메모리 대역폭을 제공한다 [tomshardware.com#1][bug.hr#1].",
+      "user_action_items[0]": "총 시스템 비용 비교: 맥 미니를 윈도우 미니 PC 대안과 비교하기 전에 모니터, 키보드, 마우스 가격과 필요한 메모리 또는 저장장치 업그레이드 비용을 모두 포함해야 한다 [9to5mac.com#1][techrepublic.com#1].",
+      "user_action_items[1]": "오디오 호환성 확인: 특히 M5 맥스나 M5 울트라 시스템을 구매하기 전, 인터페이스, 플러그인 및 기타 음악 제작 도구가 macOS 27을 지원하는지 확인해야 한다 [soundonsound.com#1].",
+      "perspectives[0].text": "애플: 애플은 맥 미니의 가격 인상이 RAM과 저장장치 칩의 비용 상승 때문이라고 설명했다 [macrumors.com#1].",
+      "perspectives[1].text": "맥 미니 리뷰어: 톰스 하드웨어(Tom’s Hardware)는 M6의 향상된 저장장치 성능과 강력한 단일 및 다중 스레드 결과를 언급했다 [tomshardware.com#2].",
+      "perspectives[2].text": "맥 스튜디오 리뷰어: PCMag은 M5 울트라의 CPU 성능과 로컬 AI를 위한 대용량 메모리 옵션을 높이 평가하며 에디터스 초이스(Editors’ Choice)로 선정했다 [pcmag.com#1].",
+      "timeline[0].content": "애플이 신형 맥 미니와 맥 스튜디오 모델을 발표했다 [macrumors.com#3][macworld.com#2].",
+      "timeline[1].content": "두 데스크톱 맥 제품군에 대한 리뷰 엠바고가 해제되었다 [macrumors.com#1][macrumors.com#2].",
+      "timeline[2].content": "맥 미니와 맥 스튜디오가 배송을 시작하고 소매 판매에 들어갔다 [macrumors.com#3][macobserver.com#2].",
+      "timeline[3].content": "512GB 통합 메모리를 탑재한 맥 스튜디오 구성은 10월 중 출시될 예정이다 [bug.hr#1].",
+      "primary_image.caption": "애플의 신형 맥 미니 및 맥 스튜디오 데스크톱 컴퓨터",
+      "secondary_image.caption": "2026년형 맥 스튜디오 상단 모습"
+    },
+    "77dd9ba9-5509-4029-a606-ce0c57e5bc4d": {
+      "title": "아마존, 메타의 AI 에이전트 '뮤즈' 쇼핑 사이트 접속 차단",
+      "short_summary": "아마존은 메타(Meta)의 개인용 AI 에이전트 '뮤즈(Muse)'가 아마존닷컴에서 상품을 검색하고 구매하는 행위를 차단했다. 이는 사용자들이 '승인되지 않은 AI 에이전트'의 접근이 아마존의 이용 약관을 위반했다는 안내문을 확인하기 시작한 데 따른 조치다. 아마존은 메타가 뮤즈의 마켓플레이스 접근 사실을 사전에 알리지 않았으며, 뮤즈가 브라우징 시 스스로를 식별하지 않고 고객의 자격 증명을 수집 및 저장하는 것으로 보인다고 밝혔다 [geekwire.com#1][techcrunch.com#1][pcmag.com#1]. 메타는 9월 8일 웹사이트 탐색, 쇼핑, 여행 예약, 이메일 작성 등의 작업을 수행할 수 있는 에이전트로 뮤즈를 출시했다. 메타는 뮤즈가 사용자의 원본 비밀번호나 결제 정보를 볼 수 없으며, 자격 증명을 안전하게 저장하고 가상 머신 내에서 작동하며 민감한 작업 시 확인을 요청한다고 설명했다 [cnet.com#1][digitaltrends.com#1][geekwire.com#1]. 아마존은 메타에 뮤즈에서 자사 마켓플레이스를 제외해 달라고 요청했으나 합의에 이르지 못했다고 밝혔다. 아마존은 제3자 구매 에이전트를 배달 앱이나 온라인 여행사에 비유하며, 이들은 투명하게 운영되어야 하고 서비스 제공자의 참여 결정권을 존중해야 한다고 주장했다 [thenextweb.com#1][gizmodo.com#1].",
+      "did_you_know": "긱파크(GeekPark)에 따르면 아마존은 뮤즈를 차단하기 전, 로봇 배제 표준(robots.txt) 제한을 확대하여 47개의 AI 크롤러를 차단했다 [geekpark.net#1].",
+      "quote": "고객을 대신해 다른 기업의 상품을 구매하겠다고 제안하는 제3자 애플리케이션은 투명하게 운영되어야 하며, 서비스 제공자의 참여 여부 결정을 존중해야 한다는 점은 매우 명확하다고 생각한다.",
+      "quote_attribution": "긱와이어(GeekWire)",
+      "historical_background": "아마존과 AI 쇼핑 에이전트 간의 갈등은 뮤즈 이전부터 존재했다. 아마존은 2025년 퍼플렉시티(Perplexity)의 '코멧(Comet)' 브라우저가 아마존 계정에 자동화된 방식으로 접근했다며 소송을 제기한 바 있다 [yna.co.kr#1][geekpark.net#1]. 이후 연방 항소법원은 연방 해킹 방지법상 해당 사이트에 접근한 주체는 퍼플렉시티가 아닌 최종 사용자라고 판결했으며, 이에 따라 계약 및 서비스 약관 위반 여부에 대한 논쟁은 여전히 남아 있다 [geekpark.net#1].",
+      "business_angle_text": "쇼피파이(Shopify)는 자사의 '에이전트 스토어프런트(Agentic Storefronts)' 이니셔티브에 메타를 추가한 반면, 아마존은 뮤즈의 마켓플레이스 접근을 차단했다 [geekpark.net#1][yna.co.kr#1]. 대부분의 소비자는 아직 AI 도구를 구매 승인보다는 상품 조사 용도로 사용하고 있어, 아마존에 미치는 즉각적인 재무적 영향은 제한적이다 [yna.co.kr#1].",
+      "talking_points[0]": "결제: 비자(Visa)와 마스터카드(Mastercard)는 자동 구매를 위한 인프라를 도입했다 [cnet.com#1].",
+      "talking_points[1]": "판매자 유통: 쇼피파이는 뮤즈 출시 당일 자사의 에이전트 스토어프런트 이니셔티브에 메타를 추가했다. 이후 숍 페이(Shop Pay) 파트너십에 대한 세부 사항이 알려졌다 [geekpark.net#1].",
+      "talking_points[2]": "플랫폼 경쟁: 아마존은 자체 파운데이션 모델과 베드록(Bedrock) 추론 플랫폼을 운영하고 있다 [techcrunch.com#1].",
+      "talking_points[3]": "사용자 채택: 긱파크가 인용한 센서타워(Sensor Tower) 데이터에 따르면 뮤즈는 출시 첫 13일 동안 250만 건 이상의 다운로드를 기록했다. 해당 앱은 9월 18일 미국 앱스토어 무료 앱 차트에서 1위를 차지했다 [geekpark.net#1].",
+      "business_angle_points[0]": "아마존은 자체 에이전트 쇼핑 옵션인 '바이 포 미(Buy for Me)'를 운영하고 있어, 이번 갈등은 단순한 마켓플레이스 접근 문제를 넘어 경쟁적 차원을 내포하고 있다 [cnet.com#1].",
+      "business_angle_points[1]": "쇼피파이의 '유니버설 커머스 프로토콜(Universal Commerce Protocol)'은 에이전트와 판매자 간의 상품 발견, 거래 조건 및 결제 방식을 정의한다 [geekpark.net#1].",
+      "industry_impact[0]": "온라인 마켓플레이스: 이번 분쟁으로 인해 마켓플레이스들은 자동 구매 에이전트가 일반 웹사이트를 이용하도록 허용할지, 아니면 승인된 통합 방식을 통해서만 연결하도록 강제할지 결정해야 하는 상황에 놓였다 [digitaltrends.com#1][cnet.com#1].",
+      "industry_impact[1]": "디지털 광고: 에이전트 주도의 구매는 쇼핑 경로에서 검색 및 스폰서 광고 노출을 우회할 수 있어, 브라우징 행동을 수익화하는 기존 광고 모델에 도전이 되고 있다 [geekpark.net#1].",
+      "industry_impact[2]": "결제: 쇼피파이는 참여 판매자를 대상으로 뮤즈와 숍 페이를 연결하여 아마존 마켓플레이스 외부에서 에이전트가 시작하는 결제 경로를 제공하고 있다 [yna.co.kr#1].",
+      "perspectives[0].text": "아마존: 아마존은 뮤즈가 지시에 따라 계정 페이지와 주문 내역에 접근할 수 있으며, 이는 승인되지 않은 제3자가 민감한 데이터를 처리하는 것에 대한 우려를 낳는다고 밝혔다 [digitaltrends.com#1].",
+      "perspectives[1].text": "메타: 메타는 모니터링 에이전트인 '센티넬(Sentinel)'이 뮤즈의 온라인 활동을 감독하고 있다고 밝혔다 [digitaltrends.com#1][geekwire.com#1].",
+      "timeline[0].content": "메타, 개인용 AI 에이전트로 뮤즈 출시 [cnet.com#1][digitaltrends.com#1]",
+      "timeline[1].content": "뮤즈, 미국 앱스토어 무료 앱 차트 1위 달성 [geekpark.net#1]",
+      "timeline[2].content": "아마존, 일요일 저녁부터 뮤즈의 쇼핑 접근 차단 시작 [techcrunch.com#1][geekwire.com#1]",
+      "timeline[3].content": "아마존, 투명성 및 고객 자격 증명에 대한 우려 공개 [geekwire.com#1][pcmag.com#1]",
+      "timeline[4].content": "아마존의 차단 조치와 함께 쇼피파이 파트너십 세부 내용 공개 [yna.co.kr#1]",
+      "primary_image.caption": "유모차를 비교하고 주문 전 승인을 요청하는 뮤즈의 모습을 담은 메타 홍보 이미지",
+      "secondary_image.caption": "메타의 뮤즈 에이전트를 통해 쇼핑을 시도하는 사용자에게 표시된 아마존 안내문"
+    },
+    "b0c43d56-d5ca-4de0-a7b4-428c0c93cf52": {
+      "title": "유출 정보, 더 커진 아이폰 20 프로 디스플레이 시사",
+      "short_summary": "애플이 아이폰 출시 20주년을 맞는 2027년에 선보일 아이폰 20 프로 및 아이폰 20 프로 맥스를 위해 더 커진 디스플레이와 대폭 재설계된 전면 패널을 테스트 중인 것으로 알려졌다. 웨이보(Weibo)의 유출자 디지털 챗 스테이션(Digital Chat Station)은 프로토타입의 대각선 길이가 각각 6.41인치와 6.96인치라고 밝혔는데, 이는 아이폰 18 프로 모델의 6.3인치 및 6.9인치와 비교되는 수치다 [9to5mac.com#1][cnet.com#1][macrumors.com#1]. 이번 루머 속 라인업은 아이폰 19라는 명칭을 건너뛸 가능성이 있다 [mashable.com#1][macerkopf.de#1]. 동일한 유출 정보에 따르면, 기기는 네 모서리가 모두 약간 휘어진 베젤리스 쿼드 커브드 디스플레이를 탑재하며 펀치홀 컷아웃은 더 작아질 전망이다. 다이내믹 아일랜드(Dynamic Island)가 완전히 대체될지, 아니면 축소된 형태로 유지될지에 대해서는 보도마다 의견이 갈린다 [itavisen.no#1][canaltech.com.br#1][androidheadlines.com#1]. 해당 기기들은 여전히 개발 단계에 있으며, 애플은 사양을 확정하지 않았다 [cnet.com#1][canaltech.com.br#1].",
+      "talking_points[0]": "디스플레이 해상도: 유출된 아이폰 20 프로 및 프로 맥스 패널의 해상도는 각각 약 2,686 × 1,236 픽셀과 2,912 × 1,340 픽셀로 보고되었다 [macrumors.com#1][mashable.com#1].",
+      "talking_points[1]": "현재 기준 해상도: 아이폰 18 프로 및 프로 맥스의 해상도는 각각 2,622 × 1,206 픽셀과 2,868 × 1,320 픽셀로 기재되어 있다 [macrumors.com#1].",
+      "talking_points[2]": "반올림 전 기본 대각선 길이: 아이폰 18 프로 패널의 실제 측정값은 6.27인치와 6.86인치이며, 애플은 이를 6.3인치와 6.9인치로 마케팅하고 있다 [9to5mac.com#1].",
+      "technical_details[0]": "둥근 모서리 측정: 보고된 대각선 수치는 표준 직사각형을 기준으로 하며, 둥근 모서리로 인해 실제 시청 가능한 영역은 명목상 측정값보다 작다 [macrumors.com#1].",
+      "technical_details[1]": "해상도 스케일링: 루머로 제기된 2,686 × 1,236 및 2,912 × 1,340 패널은 더 커진 물리적 크기에 맞춰 스케일링되며, 약 460 ppi에 가까운 밀도를 유지한다 [macrumors.com#1].",
+      "technical_details[2]": "디스플레이 하단 센서: 일부 보도에 따르면 페이스 ID(Face ID) 구성 요소는 패널 아래로 이동하고 전면 카메라는 작은 원형 구멍을 통해 노출되는 방식이 제안되고 있으나, 구현 여부는 확정되지 않았다 [itavisen.no#1][canaltech.com.br#1].",
+      "timeline[0].content": "애플, 예상되었던 아이폰 9 대신 아이폰 X 출시 [macerkopf.de#1]",
+      "timeline[1].content": "아이폰 16 프로 모델, 더 얇아진 베젤을 통해 디스플레이 크기 확대 [macrumors.com#1]",
+      "timeline[2].content": "디지털 챗 스테이션, 아이폰 20 디스플레이 사양 루머 공개 [macrumors.com#1][9to5mac.com#1]",
+      "primary_image.caption": "루머로 제기된 아이폰 20 프로의 화면 중심 디자인을 묘사한 콘셉트 이미지"
+    },
+    "1d71e981-c67d-4e89-8277-d56d61a9e81b": {
+      "title": "비보(vivo), 영상 촬영 기능 강화한 플래그십 스마트폰 X500 시리즈 공개",
+      "short_summary": "비보(vivo)가 중국에서 X500, X500 프로, X500 프로 맥스 스마트폰을 출시했으며, 프로 모델들은 모바일 영상 제작에 초점을 맞췄다. X500 프로 맥스는 소니 LYTIA L910 메인 센서와 2억 화소 자이스(ZEISS) 망원 카메라를 탑재했다. 비보는 17스톱의 다이내믹 레인지, 초당 240프레임의 4K 촬영, 옵션으로 제공되는 400mm 환산 자이스 망원 익스텐더 지원을 내세웠다[androidauthority.com#1][intomobile.com#1][theverge.com#1]. 비보는 9월 21일 상하이에서 이 제품들을 공개했으며, 9월 24일부터 중국에서 X500 프로 맥스 판매를 시작할 계획이다[techradar.com#1][technode.com#1]. X500 프로와 프로 맥스에는 비보가 2나노미터 플래그십 칩셋이라고 설명하는 미디어텍(MediaTek)의 디멘시티 9600 프로가 탑재되었다. 기본 모델인 X500은 3나노미터 디멘시티 9600M을 사용한다[intomobile.com#1][technode.com#1]. 또한 비보는 자동 구도 설정, 시뮬레이션 회전 카메라 무빙, 듀얼 카메라 녹화 및 영화 스타일 필터 기능을 추가했다. 글로벌 출시 여부와 가격은 여러 시장에서 아직 확정되지 않았다[androidauthority.com#1][nextapple.com#1].",
+      "did_you_know": "프로 맥스의 메인 카메라는 24mm 환산 초점 거리를 지원하여, X300 울트라의 35mm 대비 여행이나 일상 촬영 시 더 넓은 화각을 제공한다[nextapple.com#1].",
+      "location": "중국 상하이[nextapple.com#1]",
+      "historical_background": "비보의 X300 울트라는 대형 메인 카메라와 장거리 렌즈 부착물을 결합한 형태였다[androidauthority.com#1].",
+      "business_angle_text": "프로 맥스는 특수 카메라 하드웨어, 옵션형 망원 익스텐더, 그리고 프로세서 속도 경쟁 위주의 모델들과 차별화되는 영상 기능을 갖췄다. 중국 외 지역의 가격, 유통 및 통신사 지원 여부는 아직 미정이다[androidauthority.com#1][techradar.com#1]. 이 스마트폰들은 대용량 배터리, 외부 렌즈 지원, 이미지 처리 하드웨어를 포함한다. 가용한 소스들은 유럽 시장 확대에 대한 출하량 전망이나 수익 마진 추정치를 제공하지 않는다[intomobile.com#1][xataka.com#1].",
+      "talking_points[0]": "중국 가격: X500 프로 시리즈는 6,499위안부터 시작한다[technode.com#1]",
+      "talking_points[1]": "배터리 용량: 테크노드(TechNode)는 프로 모델에 6,510mAh, 프로 맥스에 8,000mAh 배터리가 탑재되었다고 명시한 반면, 넥스트애플(NextApple)은 프로 맥스에 7,800mAh가 탑재되었다고 보도했다. 두 소스 모두 90W 유선 및 40W 무선 충전을 지원한다고 전했다[technode.com#1][nextapple.com#1]",
+      "talking_points[2]": "디스플레이 하드웨어: 두 프로 모델 모두 최대 144Hz의 가변 주사율을 지원하며, 프로 맥스는 6.85인치 패널을 탑재했다[technode.com#1]",
+      "talking_points[3]": "지역별 출시: 싱가포르에는 기본형 X500과 X500 프로 맥스가 출시될 예정이나, X500 프로는 제외된다[hardwarezone.com.sg#1]",
+      "technical_details[0]": "LOFIC 센서 설계: 소니 LYTIA L910은 다중 프레임 HDR에만 의존하는 대신 LOFIC 기술을 사용하여 센서 수준에서 색조 표현력을 높였다. 이 설계는 움직이는 피사체 촬영 시 하이라이트 클리핑 현상을 줄일 수 있다[theverge.com#1][benchmark.pl#1].",
+      "technical_details[1]": "손떨림 보정 시스템: 프로 맥스는 CIPA 7.0 인증 수준의 손떨림 보정과 핸드헬드 촬영을 위한 3D AI 보정 기능을 결합했다[nextapple.com#1].",
+      "technical_details[2]": "슬로우 모션 파이프라인: 프로 모델들은 초당 240프레임의 4K 녹화를 지원하며, 프로 맥스의 망원 카메라는 초당 60프레임의 피사체 추적 영상을 지원한다[androidauthority.com#1][nextapple.com#1].",
+      "user_action_items[0]": "직구 전 지역 호환성 확인: 현지 주파수 대역, 보증 범위, 액세서리 호환성, 특히 망원 추가 장비와의 호환 여부를 확인해야 한다[androidauthority.com#1][hardwarezone.com.sg#1].",
+      "user_action_items[1]": "프로 모델별 영상 촬영 요구사항 비교: 고급 슬로우 모션 녹화나 외부 망원 시스템을 사용할 계획이라면 저장 공간, 배터리 및 액세서리 필요 사항을 검토해야 한다[androidauthority.com#1][nextapple.com#1].",
+      "perspectives[0].text": "비보는 X500 시리즈의 듀얼 카메라 모드가 콘서트나 여행 브이로그를 위해 설계되었으며, 사용자가 공연 장면과 자신의 반응을 동시에 녹화할 수 있다고 설명한다[nextapple.com#1].",
+      "perspectives[1].text": "벤치마크(Benchmark.pl): 폴란드에는 기본형 X500 대신 X500 프로와 X500 프로 맥스만 출시될 예정이다[benchmark.pl#1].",
+      "timeline[0].content": "비보, 상하이 출시 행사에서 X500 스마트폰 3종 공개[techradar.com#1][nextapple.com#1]",
+      "timeline[1].content": "중국에서 X500 프로 시리즈 사전 예약 시작[technode.com#1]",
+      "timeline[2].content": "중국에서 X500 프로 맥스 판매 시작, 이후 프로 모델 판매 개시[androidauthority.com#1][technode.com#1]",
+      "timeline[3].content": "X500 프로 및 프로 맥스 모델의 유럽 출시 계획[benchmark.pl#1][xataka.com#1]",
+      "primary_image.caption": "출시 행사에서 공개된 비보 X500 프로 맥스.",
+      "secondary_image.caption": "비보 X500 프로 시리즈 출시 이미지."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 6,
+    "translated": 10,
     "failedStoryIds": [
-      {
-        "id": "36d6f4dc-8c62-41a6-9df8-8124ef56ef89",
-        "reason": "retry_exhausted"
-      },
       {
         "id": "a3230b0d-e63f-4fe2-8d94-37e1521fa2d1",
         "reason": "retry_exhausted"
       },
       {
-        "id": "77dd9ba9-5509-4029-a606-ce0c57e5bc4d",
-        "reason": "retry_exhausted"
-      },
-      {
         "id": "a262c319-1d93-4131-af52-6d200d8a8c4b",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "b0c43d56-d5ca-4de0-a7b4-428c0c93cf52",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "1d71e981-c67d-4e89-8277-d56d61a9e81b",
         "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 9186,
-      "out": 11229
+      "in": 15223,
+      "out": 18693
     }
   }
 }

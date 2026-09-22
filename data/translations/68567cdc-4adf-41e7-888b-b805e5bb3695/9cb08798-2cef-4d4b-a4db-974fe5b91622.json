@@ -4,7 +4,7 @@
   "categoryUuid": "9cb08798-2cef-4d4b-a4db-974fe5b91622",
   "categorySlug": "usa",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-22T14:46:00.733Z",
+  "createdAt": "2026-09-22T15:10:42.801Z",
   "stories": {
     "303a7e57-14a5-4bd6-a9fd-039b0952993a": {
       "title": "트럼프, 3개 언론사 백악관 출입 금지 후 소송 직면",
@@ -249,24 +249,28 @@
       "timeline[3].content": "유엔 산하 패널이 AI 안전장치에 관한 첫 번째 주제별 경고를 발표함 [thehill.com#1][techxplore.com#1]",
       "primary_image.caption": "트럼프 대통령이 행정부의 AI 계획을 논의하던 중 기자를 가리키고 있다",
       "secondary_image.caption": "초지능 AI에 반대하는 시위대"
+    },
+    "47482c56-ec84-4fe8-ace3-954f91aa9d57": {
+      "title": "유권자들의 경제 불만으로 공화당 상원 격전지 확대",
+      "short_summary": "공화당 상원의원들과 내부 관계자들은 선거일을 6주 앞두고 캔자스와 네브래스카를 포함한 전통적인 공화당 강세 지역까지 2026년 상원 격전지가 확대되었다고 밝혔다. 이들은 에너지 가격 상승과 지난 2월 의회의 사전 승인 없이 시작된 트럼프 대통령의 대이란 전쟁으로 인한 비용 증가에 대한 유권자들의 분노가 공화당 후보들의 입지를 약화시키는 요인이라고 지적했다 [alternet.org#1][allsides.com#1]. 더 힐(The Hill)이 요약한 보도에 따르면 메인, 오하이오, 아이오와, 텍사스, 알래스카에서는 여론조사가 접전을 이루고 있으며, 노스캐롤라이나에서는 민주당 후보가 앞서고 있다. 캔자스에서 민주당이 승리할 경우 거의 1세기 만에 첫 민주당 상원의원을 배출하게 된다. 한 공화당 상원의원은 더 힐에 유권자들이 전쟁과 에너지 가격, 그리고 소고기 및 농업 관련 우려에 대해 불만을 품고 있다고 전했다 [alternet.org#1][allsides.com#1].",
+      "talking_points[0]": "캔자스 여론조사: 캔자스주 상원 선거에서 민주당 후보가 근소하게 앞서고 있다 [alternet.org#1].",
+      "talking_points[1]": "주지사 선거: 내셔널 리뷰(National Review)는 주지사 선거 판세가 상원 선거 지도만큼 일률적이지는 않지만 전반적으로 공화당에 불리하다고 평가했다 [nationalreview.com#1].",
+      "primary_image.caption": "2020년 캔자스주 엠포리아에서 지지자들에게 연설하는 공화당 상원의원 후보 로저 마셜(Roger Marshall)",
+      "secondary_image.caption": "그렉 애벗(Greg Abbott) 텍사스 주지사, 조 롬바르도(Joe Lombardo) 네바다 주지사, 조시 샤피로(Josh Shapiro) 펜실베이니아 주지사, 케이티 홉스(Katie Hobbs) 애리조나 주지사의 모습"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
+    "translated": 11,
     "failedStoryIds": [
       {
         "id": "eae61a7e-2258-4a7f-8c5d-ef4a234f9c87",
         "reason": "retry_exhausted"
-      },
-      {
-        "id": "47482c56-ec84-4fe8-ace3-954f91aa9d57",
-        "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 14804,
-      "out": 19097
+      "in": 15431,
+      "out": 19733
     }
   }
 }

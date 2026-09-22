@@ -1,17 +1,17 @@
 {
   "version": 1,
   "batchId": "68567cdc-4adf-41e7-888b-b805e5bb3695",
-  "updatedAt": "2026-09-22T14:55:46.750Z",
+  "updatedAt": "2026-09-22T15:15:59.083Z",
   "categories": {
     "fef7e637-221c-488b-9c4a-dcd0810e1e82": {
       "slug": "business",
       "status": "ok",
       "storyCount": 12,
-      "translated": 5,
-      "failed": 7,
+      "translated": 7,
+      "failed": 5,
       "tokens": {
-        "in": 6958,
-        "out": 8598
+        "in": 9975,
+        "out": 12501
       }
     },
     "59652709-06eb-4e93-99fd-8845a3d26df5": {
@@ -29,22 +29,22 @@
       "slug": "ai",
       "status": "ok",
       "storyCount": 12,
-      "translated": 10,
-      "failed": 2,
+      "translated": 11,
+      "failed": 1,
       "tokens": {
-        "in": 13584,
-        "out": 17109
+        "in": 14665,
+        "out": 18391
       }
     },
     "9cb08798-2cef-4d4b-a4db-974fe5b91622": {
       "slug": "usa",
       "status": "ok",
       "storyCount": 12,
-      "translated": 10,
-      "failed": 2,
+      "translated": 11,
+      "failed": 1,
       "tokens": {
-        "in": 14804,
-        "out": 19097
+        "in": 15431,
+        "out": 19733
       }
     },
     "4a9167d2-3838-4c85-9063-4cea76d81683": {
@@ -62,21 +62,21 @@
       "slug": "tech",
       "status": "ok",
       "storyCount": 12,
-      "translated": 6,
-      "failed": 6,
+      "translated": 10,
+      "failed": 2,
       "tokens": {
-        "in": 9186,
-        "out": 11229
+        "in": 15223,
+        "out": 18693
       }
     }
   },
   "chaos": {
-    "status": "ok"
+    "status": "skipped"
   },
   "run": {
-    "attempted": 72,
-    "failed": 21,
-    "failureRatePct": 29.166666666666668,
+    "attempted": 21,
+    "failed": 13,
+    "failureRatePct": 61.904761904761905,
     "unresolvedSlugs": []
   }
 }
