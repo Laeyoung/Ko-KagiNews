@@ -4,7 +4,7 @@
   "categoryUuid": "59652709-06eb-4e93-99fd-8845a3d26df5",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-22T15:09:38.579Z",
+  "createdAt": "2026-09-22T15:29:23.484Z",
   "stories": {
     "feb93199-6bc4-45c9-88f2-b0576ce80cc3": {
       "title": "메르츠 독일 총리, 선거 패배 후에도 사퇴 거부",
@@ -227,18 +227,36 @@
       "timeline[2].content": "러시아가 우크라이나 산업 시설을 타격했고, 우크라이나는 사마라 정유소를 공격했다[straitstimes.com#1][meduza.io#2].",
       "primary_image.caption": "모스크바에서 우크라이나의 드론 공격으로 보고된 정유소 화재 현장에서 연기가 피어오르고 있다.",
       "secondary_image.caption": "러시아의 공격 이후 자포리자의 파손된 건물에서 구조대원이 화재를 진압하고 있다."
+    },
+    "4987eda8-6156-4dea-96d9-e547ff52c24e": {
+      "title": "영국, 사우디 전투기 방어용 공중급유 지원 승인",
+      "short_summary": "영국은 예멘의 이란 지원 후티 반군이 가하는 미사일 및 드론 공격에 대응하는 사우디아라비아 전투기에 방어용 공중급유를 제공하기 위해 영국 공군(RAF) 보이저(Voyager) 급유기를 배치하는 등 제한적인 군사 지원을 제공할 예정이다. 앤디 번햄(Andy Burnham) 총리는 수일 내 시작될 것으로 예상되는 이번 임무가 초기에는 수주간 지속될 것이며 계속 검토될 것이라고 밝혔다. 영국 당국은 이번 지원이 후티 반군 거점을 공격하는 것이 아니라 사우디 영공을 방어하는 사우디 항공기를 지원하기 위한 것이라고 설명했다 [theguardian.com#1][bbc.co.uk#1][dw.com#1]. 사우디아라비아는 후티 반군과 사우디가 지원하는 예멘 정부 간의 교전이 재개된 후 지원을 요청했다. 후티 반군은 리야드를 겨냥한 미사일 및 드론 공격을 감행했으나 요격당했다. 이들은 또한 사우디 관련 선박과 에너지 시설을 공격하고 홍해의 요충지인 바브엘만데브 해협으로 진격했다. 번햄 총리는 이번 결정이 영국과 지역의 이익을 보호하고 석유 수송로를 유지하기 위한 것이며, 뉴욕에서 열리는 회담에서 도널드 트럼프(Donald Trump) 대통령에게 이란과의 광범위한 갈등을 완화할 것을 촉구할 것이라고 밝혔다 [aljazeera.com#1][abcnews.com#1][irishnews.com#1][business-standard.com#1].",
+      "quote": "우리는 사우디아라비아 왕국으로부터 군사 지원 요청을 받았으며, 국방장관과 외무장관의 조언에 따라 어젯밤 방어용 공중급유 지원 요청을 승인했다",
+      "quote_attribution": "알자지라(Al Jazeera)",
+      "location": "뉴욕으로 향하는 영국 총리 전용기 내",
+      "historical_background": "예멘 내전은 2014년 후티 반군이 사나와 기타 지역을 장악하면서 격화되었으며, 사우디아라비아는 예멘의 국제적으로 승인된 정부를 지원해 왔다 [euronews.al#1]. 사우디아라비아는 2015년부터 해당 정부를 지지하는 연합군을 이끌고 있다 [lanacion.com.ar#1].",
+      "talking_points[0]": "장관급 조언: 번햄 총리는 웨스 스트리팅(Wes Streeting) 국방장관과 에드 밀리밴드(Ed Miliband) 외무장관의 조언을 거쳐 사우디아라비아의 요청을 승인했다고 밝혔다 [bbc.co.uk#1][irishnews.com#1].",
+      "talking_points[1]": "항공기 기지: 이번 작전에는 키프로스의 RAF 아크로티리(Akrotiri) 기지에 배치된 보이저 급유기 1대가 사용될 예정이다 [bbc.co.uk#1][peopledaily.digital#1].",
+      "talking_points[2]": "해상 요충지: 후티 반군은 9월 초 모카와 홍해의 주요 섬들을 장악하여 바브엘만데브 인근 해상 감시 능력을 강화했다 [abcnews.com#1][business-standard.com#1].",
+      "international_reactions[0]": "🌐 G7: 캐나다, 프랑스, 독일, 이탈리아, 일본, 영국, 미국은 사우디아라비아에 대한 후티 반군의 공격을 규탄하고 이란에 해당 단체에 대한 지원을 중단할 것을 촉구했다 [suomenmaa.fi#1].",
+      "international_reactions[1]": "🇺🇸 미국: 트럼프 대통령은 사우디와 예멘 지도부의 지원 요청 이후 직접적인 군사 행동에는 선을 긋고 있으며, 미국의 지원은 정보 및 표적 정보 제공과 같은 비공격적 형태에 집중되어 있다 [al-monitor.com#2][khan.co.kr#1].",
+      "international_reactions[2]": "🇸🇦 사우디아라비아: 사우디아라비아는 공격이 지속됨에 따라 영국, 프랑스, 파키스탄, 이집트에 방공 지원을 요청했으며, 이 중 영국이 공개적으로 지원 계획을 밝힌 첫 번째 국가가 되었다 [khan.co.kr#1].",
+      "technical_details[0]": "공중급유: 급유기가 비행 중 전투기에 연료를 공급함으로써 사우디 전투기가 미사일 및 드론 요격을 위해 더 오랜 시간 공중에 머물 수 있게 한다 [bbc.co.uk#1][dw.com#1].",
+      "technical_details[1]": "스카이 세이버(Sky Sabre) 통합: 보이저 급유기 임무는 이미 배치된 영국의 스카이 세이버 방공 시스템과 함께 운용될 예정이며, 당국은 이를 사우디아라비아의 위협 방어 체계의 일부라고 설명한다 [dw.com#1][euronews.al#1].",
+      "perspectives[0].text": "후티 반군: 이 단체는 예멘의 인구 밀집 지역을 통제하고 있다. 사우디아라비아에 대한 이들의 공격 강화는 2월 말 미국과 이스라엘의 이란 타격으로 시작된 광범위한 전쟁의 새로운 전선을 형성했다 [al-monitor.com#2].",
+      "timeline[0].content": "후티 반군, 모카와 홍해의 섬들 장악 [abcnews.com#1]",
+      "timeline[1].content": "리야드를 겨냥한 후티 반군의 공격 요격 [abcnews.com#1]",
+      "timeline[2].content": "번햄 총리, 기간 한정 방어용 공중급유 지원 승인 [theguardian.com#1]",
+      "timeline[3].content": "영국 당국, 수일 내 배치 시작 예정 발표 [bbc.co.uk#1]",
+      "primary_image.caption": "영국 공군 보이저 공중급유기 조종석 내부."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 9,
+    "translated": 10,
     "failedStoryIds": [
       {
         "id": "30e82fed-9c6c-4f45-9dd0-6d040c7b3f8e",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "4987eda8-6156-4dea-96d9-e547ff52c24e",
         "reason": "retry_exhausted"
       },
       {
@@ -247,8 +265,8 @@
       }
     ],
     "tokens": {
-      "in": 13572,
-      "out": 17391
+      "in": 14972,
+      "out": 19131
     }
   }
 }

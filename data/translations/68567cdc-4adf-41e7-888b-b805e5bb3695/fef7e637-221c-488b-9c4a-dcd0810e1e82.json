@@ -4,7 +4,7 @@
   "categoryUuid": "fef7e637-221c-488b-9c4a-dcd0810e1e82",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-22T15:12:46.714Z",
+  "createdAt": "2026-09-22T15:30:56.574Z",
   "stories": {
     "c80f9ce6-3143-40f0-9c26-520caebea1ab": {
       "title": "FAA, 백업 케이블 절단으로 미 북동부 항공편 운항 차질",
@@ -166,16 +166,68 @@
       "timeline[2].content": "백악관, 수출 금지 조치를 고려하지 않고 있다고 발표 [koaa.com#1]",
       "primary_image.caption": "미국 전역에서 디젤 가격이 사상 최고치를 기록했다.",
       "secondary_image.caption": "척 그래슬리 상원의원이 미국 디젤 수출 금지를 촉구했다."
+    },
+    "c7f35f49-84f4-4628-a206-33943bbdaabc": {
+      "title": "파라마운트, 주 정부 소송 합의…워너 브라더스 합병 길 열려",
+      "short_summary": "파라마운트 스카이댄스(Paramount Skydance)가 미국 12개 주와 미국작가조합(WGA)이 제기한 소송에 합의하며 워너 브라더스 디스커버리(Warner Bros. Discovery) 인수를 가로막던 주요 법적 걸림돌을 제거했다. 소식통들은 이번 거래 규모를 810억 달러에서 1,110억 달러 사이로 추산했다. 합병이 완료되면 파라마운트 픽처스와 워너 브라더스, CBS와 CNN, 그리고 파라마운트+(Paramount+)와 HBO 맥스(HBO Max) 스트리밍 서비스가 통합된다. 데이비드 엘리슨(David Ellison) 파라마운트 최고경영자(CEO)는 회사가 “완전한 승인”을 받았으며 약 2주 내에 거래를 마무리할 계획이라고 밝혔다 [businessinsider.com#1][businessinsider.com#2][bbc.co.uk#1][abcnews.com#2]. 주 정부와의 합의에 따라 파라마운트는 향후 5년간 매년 최소 3억 달러를 미국 내 제작에 추가 투입해야 하며, 첫 2년간은 매년 30편, 이후 3년간은 매년 32편의 영화를 개봉하고 CBS 뉴스 및 CNN에 대한 독립적 감독 기구를 설립해야 한다. 또한 이번 합의는 5년간 케이블 패키지 협상을 별도로 진행할 것을 요구한다. 영화 개봉 목표를 달성하지 못할 경우 편당 3,000만 달러의 벌금이 부과될 수 있으며, 추가적인 미준수 시 미라맥스(Miramax) 매각 가능성도 있다 [businessinsider.com#2][cbsnews.com#1][thewrap.com#1][parade.com#1]. 이 합의안은 법원의 승인을 거쳐야 한다 [abcnews.com#1][abcnews.com#2].",
+      "did_you_know": "8월 말 기준, 워너 브라더스는 2027년 개봉 예정작 20편을, 파라마운트는 11편을 계획하고 있어 추가 작품 없이도 첫해 30편 개봉 요건을 충족할 수 있는 상태다 [parade.com#1].",
+      "quote": "이번 합의가 합병에 대한 지지를 의미하는 것은 아니다",
+      "quote_attribution": "BBC 뉴스",
+      "location": "미국 캘리포니아주 로스앤젤레스 [nbcboston.com#1]",
+      "historical_background": "워너 브라더스 디스커버리는 2022년 워너미디어(WarnerMedia)와 디스커버리(Discovery)가 합병하며 출범했다 [hn.cz#1].",
+      "business_angle_text": "이번 합의에 따라 파라마운트는 향후 5년간 매년 최소 3억 달러를 미국 내 제작에 추가 투입하고, 영화 개봉 목표를 준수하며, CBS 뉴스와 CNN을 위한 독립적 감독 기구를 설립해야 한다 [thewrap.com#1]. 또한 5년간 케이블 패키지 협상을 별도로 진행해야 한다 [thewrap.com#1]. 거래 완료 후 파라마운트는 워너 브라더스 디스커버리의 사업 부문을 통합할 예정이다 [cnbc.com#1].",
+      "talking_points[0]": "영화 요건: 합의 조건에 따라 필수 개봉 영화 중 최소 20%는 5,000만 달러 이상의 제작비가 투입된 대작(tentpole)이어야 하며, 와이드 릴리즈 영화는 최소 2,000개 이상의 극장에서 상영되어야 한다 [businessinsider.com#2][cbsnews.com#1].",
+      "talking_points[1]": "뉴스 감독: 제안된 편집 위원회는 상당한 저널리즘 경력을 갖춘 현직 또는 은퇴 언론인 5명으로 구성되며, CNN과 CBS 뉴스의 편집 독립성을 감시하게 된다 [thewrap.com#1].",
+      "talking_points[2]": "근로자 보호: 이번 합의에는 합병으로 인해 일자리를 잃은 근로자를 지원하기 위한 기금이 포함되어 있다 [abcnews.com#2].",
+      "technical_details[0]": "독립 영화 쿼터: 합의 조건에 따라 매년 최소 4편의 독립 영화를 제작해야 한다 [thewrap.com#1].",
+      "technical_details[1]": "연방 세액 공제 조건: 의회가 연방 영화 세액 공제 법안을 통과시킬 경우, 첫 2년간은 영화 제작의 20%, 이후 3년간은 30%를 미국 내에서 진행해야 한다 [thewrap.com#1].",
+      "technical_details[2]": "제휴 수수료 기밀 유지: 케이블 보호 조항은 제휴 수수료 협상 중 기밀 정보 공유를 제한한다 [thewrap.com#1].",
+      "business_angle_points[0]": "소송 부담: 합의 이전, 주 정부들의 소송은 2027년 3월 재판으로 이어질 예정이었으나 이번 합의로 명확한 소송 이정표가 제거되었다 [wrestleview.com#1][koaa.com#1].",
+      "business_angle_points[1]": "라인업 경제성: 대작 영화 기준액이 물가 상승률에 따라 조정되기 때문에, 의무화된 블록버스터 비중은 명목상 고정된 수치가 아니다 [businessinsider.com#2].",
+      "business_angle_points[2]": "가격 결정력의 불확실성: 합병 회사의 거대 자산 기반은 규모의 경제를 창출할 수 있으나, 시장 집중도에 대한 우려로 인해 소비자 가격 인상 능력은 제한될 수 있다 [abcnews.com#1][abcnews.com#2].",
+      "industry_impact[0]": "캘리포니아 사업 운영: 이번 합의로 파라마운트가 캘리포니아를 떠날 가능성이 차단되면서 지역 정치인과 노조의 우려가 완화되었다 [semafor.com#1].",
+      "industry_impact[1]": "프랜차이즈 포트폴리오: 이번 합병으로 파라마운트는 DC 및 해리포터 유니버스를 포함한 주요 지식재산권(IP)에 대한 통제권을 확보하게 된다 [engadget.com#1].",
+      "perspectives[0].text": "롭 본타(Rob Bonta) 캘리포니아주 법무장관: 소송 연합을 이끈 본타 장관은 이번 합의가 경쟁 관련 우려를 해소하고 법적 강제력이 있는 약속을 이행하도록 했다고 밝혔다 [bbc.co.uk#1][abcnews.com#2].",
+      "perspectives[1].text": "데이비드 엘리슨 파라마운트 CEO: 엘리슨 CEO는 직원 메모를 통해 합병 후 회사가 플루토 TV(Pluto TV)와 TNT, TruTV, MTV 등의 네트워크를 비롯해 스튜디오, 뉴스 매체, 스트리밍 서비스를 소유하게 될 것이라고 설명했다 [businessinsider.com#1].",
+      "perspectives[2].text": "합병 반대 측: 비판론자들은 이번 결합이 할리우드 일자리를 줄이고 연간 영화 제작 편수를 감소시킬 수 있다고 경고했으며, 언론 단체들은 CNN의 편집 독립성이 훼손될 것을 우려했다 [abc.net.au#1].",
+      "timeline[0].content": "파라마운트와 워너 브라더스 디스커버리가 합병에 합의했다 [hn.cz#1][abc.net.au#1].",
+      "timeline[1].content": "미 법무부가 사업 조건 변경 없이 합병을 승인했다 [theguardian.com#1][abc.net.au#1].",
+      "timeline[2].content": "12개 주가 거래를 저지하기 위해 소송을 제기했다 [theguardian.com#1][abcnews.com#2].",
+      "timeline[3].content": "주 정부들과 WGA가 합병 저지 소송에 합의했다 [bbc.co.uk#1][abcnews.com#2].",
+      "timeline[4].content": "파라마운트는 10월 초 거래가 완료될 것으로 예상한다 [semafor.com#1][engadget.com#1].",
+      "primary_image.caption": "2026년 2월 23일, 캘리포니아주 버뱅크에 위치한 워너 브라더스 스튜디오 급수탑."
+    },
+    "74199fc8-3de3-4755-b1ff-62e2b396c2af": {
+      "title": "기술주 강세가 금리 우려 상쇄하며 아시아 증시 상승",
+      "short_summary": "9월 22일 화요일, 월스트리트의 기술주 주도 랠리에 힘입어 아시아 증시가 상승했다. 유가 하락과 미국 국채 금리 안정세 또한 투자 심리를 뒷받침했다. 투자자들은 이번 주 후반 워싱턴에서 열릴 도널드 트럼프 대통령과 시진핑 중국 국가주석 간의 회담을 주시하고 있으며, 여기에는 인공지능(AI) 분야의 협력과 무역 휴전 연장 가능성 등이 포함되어 있다[seekingalpha.com#1][perthnow.com.au#1][channelnewsasia.com#1]. 연방준비제도(Fed)가 인플레이션을 억제하기 위해 금리를 추가 인상할 것이라는 전망이 달러화 가치를 지지하는 가운데 주가 상승이 나타났다. 일본을 제외한 MSCI 아시아태평양 지수는 장 초반 1% 이상 상승했고, 한국 증시는 2% 가까이, 대만 증시는 1.3% 올랐다. 일본 증시는 공휴일로 휴장했다[perthnow.com.au#1][borsen.dk#1]. 브렌트유는 전 거래일 3% 이상 하락한 후 배럴당 100.22달러에서 안정세를 보였다[perthnow.com.au#1][rthk.hk#1].",
+      "quote": "유가 하락이 큰 요인이다",
+      "quote_attribution": "로이터(Reuters)",
+      "business_angle_text": "소식통에 따르면 이번 장세는 기술주 수요와 거시경제적 기대감이 견인했으며, 기업 실적이 전반적으로 개선되었다는 새로운 증거는 제시되지 않았다[seekingalpha.com#1][perthnow.com.au#1]. 계획된 트럼프-시진핑 회담이 공급망과 시장 접근성에 영향을 미칠 수는 있으나, 양측이 최종 합의에 도달했는지는 확인되지 않았다[channelnewsasia.com#1][perthnow.com.au#1].",
+      "talking_points[0]": "월스트리트 동향: 월요일 나스닥 지수는 2.3% 상승하며 사상 최고치로 마감했고, S&P 500 지수는 1.5%, 다우존스 지수는 0.7% 각각 상승했다[capital.gr#1].",
+      "talking_points[1]": "반도체주 강세: 한국의 삼성전자(Samsung Electronics)는 1%, SK하이닉스(SK Hynix)는 0.73% 상승했다[capital.gr#1].",
+      "talking_points[2]": "개별 종목 동향: 월스트리트에서 메타 플랫폼스(Meta Platforms)는 11% 급등했고, 어드밴스트 마이크로 디바이시스(AMD)는 10% 가까이 상승했다[capital.gr#1].",
+      "talking_points[3]": "지정학적 배경: 트럼프 대통령이 마수드 페제시키안(Masoud Pezeshkian) 이란 대통령과의 회담 가능성을 열어두면서 투자자들은 미국과 이란 간의 대화 가능성도 주시하고 있다[perthnow.com.au#1].",
+      "business_angle_points[0]": "유가 민감도: 브렌트유는 주요 심리적 저항선인 100달러 아래로 잠시 떨어졌다가 다시 안정세를 찾았으며, 이는 시장이 여전히 해당 가격대에 민감하게 반응하고 있음을 보여준다[perthnow.com.au#1][rthk.hk#1].",
+      "performance_statistics[0]": "MSCI 아시아태평양(일본 제외) 지수: 장 초반 1% 이상 상승[perthnow.com.au#1].",
+      "performance_statistics[1]": "한국 증시: 2% 가까이 상승[perthnow.com.au#1].",
+      "performance_statistics[2]": "대만 증시: 1.3% 상승[perthnow.com.au#1].",
+      "performance_statistics[3]": "나스닥 종합지수: 2.3% 상승하며 사상 최고치로 마감[capital.gr#1].",
+      "industry_impact[0]": "인터넷 플랫폼: 알리바바(Alibaba), 바이두(Baidu), 텐센트(Tencent) 등 중국 기술주들도 상승하며 반도체주를 넘어 상승세가 확산되었다[capital.gr#1].",
+      "industry_impact[1]": "에너지 및 운송: 원유 가격 하락으로 석유 소비 기업들의 단기 비용이 절감되었으나, 전반적인 거시경제적 압박은 여전하다[perthnow.com.au#1][rthk.hk#1].",
+      "perspectives[0].text": "닉 트와이데일(Nick Twidale) ATFX 글로벌 시장 전략가는 투자자들이 올해 반복적으로 그래왔듯 다시 인공지능 관련주로 돌아오고 있다고 분석했다[perthnow.com.au#1].",
+      "perspectives[1].text": "스콧 베센트(Scott Bessent) 미국 재무장관은 미·중 당국자들이 인공지능 문제에 대해 소통할 채널을 구축하는 방안을 논의했으며, 이를 잠재적인 '미·중 AI 대화'라고 설명했다.",
+      "perspectives[2].text": "중국 관영 매체는 이번 논의를 '솔직하고 심도 있으며 건설적'이라고 묘사했다.",
+      "timeline[0].content": "미국과 중국 당국자들, 무역 및 AI 관련 논의 진행[channelnewsasia.com#1]",
+      "timeline[1].content": "월스트리트의 기술주 랠리에 힘입어 아시아 증시 상승[perthnow.com.au#1][rthk.hk#1]",
+      "timeline[2].content": "시진핑 주석, 워싱턴 도착 예정[perthnow.com.au#1][rthk.hk#1]",
+      "timeline[3].content": "트럼프 대통령과 시진핑 주석, 워싱턴에서 회담 예정[channelnewsasia.com#1][capital.gr#1]",
+      "primary_image.caption": "아시아 증시가 상승하는 가운데 한국 금융시장 데이터를 보여주는 화면."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 7,
+    "translated": 9,
     "failedStoryIds": [
-      {
-        "id": "c7f35f49-84f4-4628-a206-33943bbdaabc",
-        "reason": "retry_exhausted"
-      },
       {
         "id": "bf67fc81-b682-4595-8d8b-4c2e1fb7ca64",
         "reason": "retry_exhausted"
@@ -187,15 +239,11 @@
       {
         "id": "2edfc2ed-c23e-44db-afbf-c12bcf3faa2b",
         "reason": "retry_exhausted"
-      },
-      {
-        "id": "74199fc8-3de3-4755-b1ff-62e2b396c2af",
-        "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 9975,
-      "out": 12501
+      "in": 13252,
+      "out": 16766
     }
   }
 }

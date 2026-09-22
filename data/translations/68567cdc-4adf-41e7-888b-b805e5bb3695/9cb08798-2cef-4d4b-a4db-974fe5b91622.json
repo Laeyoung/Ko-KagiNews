@@ -4,7 +4,7 @@
   "categoryUuid": "9cb08798-2cef-4d4b-a4db-974fe5b91622",
   "categorySlug": "usa",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-22T15:10:42.801Z",
+  "createdAt": "2026-09-22T15:29:29.787Z",
   "stories": {
     "303a7e57-14a5-4bd6-a9fd-039b0952993a": {
       "title": "트럼프, 3개 언론사 백악관 출입 금지 후 소송 직면",
@@ -257,20 +257,34 @@
       "talking_points[1]": "주지사 선거: 내셔널 리뷰(National Review)는 주지사 선거 판세가 상원 선거 지도만큼 일률적이지는 않지만 전반적으로 공화당에 불리하다고 평가했다 [nationalreview.com#1].",
       "primary_image.caption": "2020년 캔자스주 엠포리아에서 지지자들에게 연설하는 공화당 상원의원 후보 로저 마셜(Roger Marshall)",
       "secondary_image.caption": "그렉 애벗(Greg Abbott) 텍사스 주지사, 조 롬바르도(Joe Lombardo) 네바다 주지사, 조시 샤피로(Josh Shapiro) 펜실베이니아 주지사, 케이티 홉스(Katie Hobbs) 애리조나 주지사의 모습"
+    },
+    "eae61a7e-2258-4a7f-8c5d-ef4a234f9c87": {
+      "title": "메인주 민주당 의원, 경합지 공화당 마이크 롤러 지지 선언",
+      "short_summary": "재선에 도전하지 않는 메인주 민주당 소속 재러드 골든(Jared Golden) 하원의원이 9월 21일, 뉴욕 허드슨 밸리에서 재선을 노리는 공화당 마이크 롤러(Mike Lawler) 하원의원을 지지했다. 골든 의원은 이달 초 하원을 통과한 '북동부 바닷가재잡이 보호법(Northeast Lobsterman Protection Act)'을 함께 추진한 점을 지지 이유로 꼽았다[nypost.com#1][dailysignal.com#1][nytimes.com#1]. 롤러 의원의 지역구인 제17선거구는 민주당이 탈환을 노리는 핵심 지역으로, 인사이드 일렉션스(Inside Elections)는 이곳을 초접전지로 분류하고 있다. 또한 이곳은 2024년 대선에서 카멀라 해리스(Kamala Harris)가 승리한 몇 안 되는 공화당 의석 지역이기도 하다[krdo.com#1]. 하킴 제프리스(Hakeem Jeffries) 민주당 하원 원내대표는 골든 의원의 지지를 두고 400마일 이상 떨어진 지역구 의원이 내린 '막판 지지'라고 평가하며, 웨스트체스터와 하드슨 밸리 하부 지역 유권자들이 선거 결과를 결정할 것이라고 말했다[krdo.com#1].",
+      "quote": "마이크 롤러는 나에게 진정한 파트너이자, 자신이 대표하지 않을 어업 종사자 가족들에게도 친구 같은 존재였다. 나는 그를 강력히 지지한다.",
+      "quote_attribution": "뉴욕 포스트(New York Post)",
+      "location": "미국 뉴욕주 허드슨 밸리",
+      "historical_background": "북동부 바닷가재잡이 보호법은 바닷가재잡이에 영향을 미치는 조항의 시행을 2035년까지 유예하는 내용을 담고 있다[nypost.com#1].",
+      "talking_points[0]": "민주당의 지출: 더 데일리 시그널(The Daily Signal)에 따르면, 민주당 단체들은 롤러 의원을 낙선시키기 위한 케이트 콘리(Cait Conley)의 선거 운동에 수백만 달러를 투입했다[dailysignal.com#1].",
+      "talking_points[1]": "골든 의원의 입장: 골든 의원은 동료 미국인과 선출직 지도자들을 국가의 가장 큰 위협으로 묘사하는 후보들은 공포의 정치를 펼치고 있으며, 자신은 경력 내내 이러한 정치를 거부해 왔다고 밝혔다[krdo.com#1].",
+      "talking_points[2]": "선거의 판세: 이번 선거는 하원 권력의 균형을 결정짓는 데 기여할 수 있다[nypost.com#1].",
+      "talking_points[3]": "최근 투표 행보: KRDO가 보도한 CNN 기사에 따르면, 골든 의원의 이번 지지는 그가 최근 절차적 문제와 관련해 공화당과 뜻을 같이한 두 차례의 투표 이후에 나왔다[krdo.com#1].",
+      "perspectives[0].text": "재러드 골든: 골든 의원은 이번 선거를 의회를 일터로 여기는 의원과 의회를 무대로 여기는 의원 사이의 선택으로 규정하며, 전국 유권자들에게 상대 당과 협력해 법안을 통과시키는 의원들을 재선시켜 줄 것을 촉구했다[nypost.com#1].",
+      "perspectives[1].text": "마이크 롤러: 롤러 의원은 골든 의원이 초당적 타협을 이끌어내는 과정에서 신뢰할 수 있는 파트너였다고 평가하며, 이번 지지를 친구이자 동료로부터 받은 지원이라고 설명했다[dailysignal.com#1].",
+      "timeline[0].content": "골든 의원, 재선 불출마 선언[nypost.com#1]",
+      "timeline[1].content": "하원, 롤러 의원이 지지한 바닷가재 보호 법안 통과[nypost.com#1]",
+      "timeline[2].content": "골든 의원, 뉴욕 지역 오피니언 기고문을 통해 롤러 의원 지지 선언[nypost.com#1][dailysignal.com#1]",
+      "timeline[3].content": "CNN, 골든 의원의 지지에 대한 민주당 내 비판 보도[krdo.com#1]",
+      "primary_image.caption": "마이크 롤러 하원의원이 뉴욕주 경합 선거구에서 민주당 후보 케이트 콘리를 상대로 재선에 도전하고 있다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "eae61a7e-2258-4a7f-8c5d-ef4a234f9c87",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 15431,
-      "out": 19733
+      "in": 16499,
+      "out": 21105
     }
   }
 }
