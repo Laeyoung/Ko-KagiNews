@@ -1,7 +1,7 @@
 {
   "version": 1,
   "batchId": "68567cdc-4adf-41e7-888b-b805e5bb3695",
-  "updatedAt": "2026-09-22T15:33:47.417Z",
+  "updatedAt": "2026-09-22T15:39:07.493Z",
   "categories": {
     "fef7e637-221c-488b-9c4a-dcd0810e1e82": {
       "slug": "business",
@@ -38,7 +38,7 @@
     },
     "9cb08798-2cef-4d4b-a4db-974fe5b91622": {
       "slug": "usa",
-      "status": "ok",
+      "status": "skipped",
       "storyCount": 12,
       "translated": 12,
       "failed": 0,
@@ -74,9 +74,9 @@
     "status": "skipped"
   },
   "run": {
-    "attempted": 13,
+    "attempted": 8,
     "failed": 8,
-    "failureRatePct": 61.53846153846154,
+    "failureRatePct": null,
     "unresolvedSlugs": []
   }
 }
