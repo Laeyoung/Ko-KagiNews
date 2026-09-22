@@ -1,0 +1,172 @@
+{
+  "version": 1,
+  "batchId": "68567cdc-4adf-41e7-888b-b805e5bb3695",
+  "categoryUuid": "4a9167d2-3838-4c85-9063-4cea76d81683",
+  "categorySlug": "science",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-09-22T14:53:13.239Z",
+  "stories": {
+    "b1811b94-9022-42a3-bad0-e248daf7b7a9": {
+      "title": "돼지 대상 실험서 삼킬 수 있는 종이 배터리로 의료기기 구동 성공",
+      "short_summary": "연구진은 위장관 내 일시적 의료기기에 전력을 공급하기 위해 삼킬 수 있는 마그네슘과 삼산화몰리브덴 기반의 소형 배터리를 개발했다. 돼지를 대상으로 한 실험에서 이 배터리는 최대 1.84볼트의 전압을 생성했으며, 1.5미터 떨어진 수신기로 신호를 보내는 무선 인후 태그와 20분간 위장에 전기 자극을 주는 캡슐을 최대 3일간 작동시켰다[scimex.org#1][livescience.com#1]. 이 배터리는 사용 후 체내에서 분해되도록 설계된 재료를 사용하여, 일시적 섭취형 기기에서 기존 배터리를 회수해야 하는 번거로움을 없앨 가능성을 제시한다. 다만 이번 연구는 초기 동물 실험 단계에 머물러 있다. 연구진은 소수의 돼지를 대상으로 실험했으며, 회로 기판은 완전히 분해되지 않고 동물의 대변으로 배출되었다[scimex.org#1]. 매사추세츠공과대학교(MIT)는 연구진이 약물 전달, 센싱 및 기타 용도로 활용 가능한 7.5밀리미터 원형 디스크와 24밀리미터 직사각형 막대 형태의 두 가지 버전을 제작했다고 밝혔다[mit.edu#1].",
+      "quote_attribution": "라이브 사이언스(Live Science)",
+      "talking_points[0]": "캡슐 호환성: 배터리 버전 중 하나는 보충제 등에 사용되는 일반적인 젤 캡슐에 들어갈 만큼 작다[livescience.com#1].",
+      "technical_details[0]": "전기화학적 쌍: 이 배터리는 마그네슘과 삼산화몰리브덴 전극을 사용하며, 최대 1.84볼트의 전압을 생성하는 것으로 보고되었다[scimex.org#1].",
+      "technical_details[1]": "무선 작동: 돼지 실험에서 이 전원은 1.5미터 떨어진 수신기와 통신하는 인후 부착 무선 태그를 구동했다[scimex.org#1].",
+      "scientific_significance[0]": "동물 실험 결과, 이 배터리는 돼지 체내에서 내부 센서와 전기 자극을 전달하는 캡슐에 전력을 공급할 수 있음이 확인되었다[scimex.org#1].",
+      "perspectives[0].text": "MIT 연구진: 연구팀은 배터리 재료가 인체 섭취에 안전하다고 설명한다[mit.edu#1].",
+      "perspectives[1].text": "레자 고드시(Reza Ghodssi): 이번 연구에 참여하지 않은 메릴랜드대학교 공학자인 그는 섭취형 기기에서 배터리가 차지하는 공간이 크다는 점을 지적하며, 더 작은 캡슐로의 발전 가능성에 주목했다[livescience.com#1].",
+      "primary_image.caption": "새로 설계된 배터리 버전 중 하나는 일반적인 젤 캡슐에 들어갈 만큼 작다."
+    },
+    "3c4bbeb3-74e1-45d3-8d6e-3928ca1311c8": {
+      "title": "천문학자들, 외계행성 베타 픽토리스 b에서 오로라 전파 신호 포착",
+      "short_summary": "천문학자들이 지구에서 약 63.4광년 떨어진 가스 거대 외계행성 '베타 픽토리스 b(Beta Pictoris b)'에서 직접 방출되는 전파를 포착했다. 목성 질량의 약 10배에 달하는 이 행성은 남아프리카공화국의 미어캣(MeerKAT) 전파 망원경 배열에 의해 감지된 짧고 반복적인 폭발과 지속적인 전파 신호를 방출했다. 연구진은 이것이 모항성이 아닌 외계행성에서 발생한 것으로 명확히 확인된 최초의 전파 탐지 사례라고 밝혔다 [sciencenews.org#1][sciencealert.com#1][mediafax.ro#1][skai.gr#1]. 이번 관측은 0.85~3.5기가헤르츠(GHz) 주파수 대역을 다루었으며, 오로라 전파 방출과 관련된 패턴인 강한 원형 편광을 보였다. 유력한 메커니즘은 대전 입자가 행성의 자기장 및 대기와 상호작용할 때 발생하는 전자 사이클로트론 메이저 불안정성(electron cyclotron maser instability)이다 [sciencenews.org#1][mediafax.ro#1][index.hr#1][hvg.hu#1].",
+      "did_you_know": "베타 픽토리스 b의 추정 자전 주기는 8~9시간으로, 약 10시간인 목성의 하루와 비교된다 [skai.gr#1][sciencenews.org#1].",
+      "talking_points[0]": "연구팀: 하버드-스미소니언 천체물리학 센터(Center for Astrophysics | Harvard & Smithsonian)와 오리건 대학교 연구진이 이번 탐지 결과를 보고했다 [mediafax.ro#1].",
+      "scientific_significance[0]": "자기장 측정: 오로라 전파 방출은 자기장 내 대전 입자의 운동에 의존하기 때문에, 이번 탐지는 먼 거대 행성의 자기장을 연구할 수 있는 간접적인 방법을 제공한다 [mediafax.ro#1][index.hr#1].",
+      "perspectives[0].text": "연구팀: 연구진은 전파원의 위치가 베타 픽토리스(Beta Pictoris)가 아닌 행성 자체임을 확인하기 위해 먼 퀘이사(quasar)를 고정된 위치 측정 기준점으로 활용했다 [mediafax.ro#1].",
+      "perspectives[1].text": "사이언스 뉴스(Science News): 해당 간행물은 이 신호를 지구보다 수천 배 강한 자기장을 가진 가스 거대 행성에서 나타난 오로라의 증거라고 설명한다 [sciencenews.org#1].",
+      "perspectives[2].text": "인덱스(Index.hr)가 인용한 연구진은 이 전파 신호가 외계 지적 생명체의 통신이 아닌 자연적인 오로라 현상에 의한 것이라고 밝혔다 [index.hr#1].",
+      "primary_image.caption": "외계행성 베타 픽토리스 b에서 감지된 전파를 나타낸 삽화"
+    },
+    "73337bd5-f83a-4604-acdd-d5c07ed5a354": {
+      "title": "판사, 텍사스주 스페이스X 야생동물 보호구역 토지 교환 허용",
+      "short_summary": "연방 판사는 9월 21일 트럼프 행정부가 계획한 텍사스 남부 로어 리오그란데 밸리 국립 야생동물 보호구역(Lower Rio Grande Valley National Wildlife Refuge) 내 700에이커 이상의 토지를 스페이스X(SpaceX)로 이전하는 계획을 일시적으로 중단해 달라는 요청을 거부했다. 이번 교환을 통해 스페이스X는 자사가 소유한 683에이커의 토지를 내주는 대신 스타베이스(Starbase) 발사장과 더 가까운 연방 보호구역 토지를 확보하게 된다. 10만 3천 에이커 규모의 이 보호구역은 텍사스주 4개 카운티에 걸쳐 있으며 야생동물 서식지와 역사적 유적지를 포함하고 있다 [theguardian.com#1][business-standard.com#1][abcnews.com#1]. 페르난도 로드리게스 주니어(Fernando Rodriguez Jr.) 연방 지방법원 판사는 원고 측이 소송이 진행되는 동안 이번 토지 교환이 생태학적 위험을 악화시킬 것이라는 점을 입증하지 못했다고 밝혔다. 미국 어류·야생동물관리국(U.S. Fish and Wildlife Service)은 지난 6월 이 거래를 승인했으며, 생물다양성센터(Center for Biological Diversity)와 부족 단체 및 기타 반대 측은 계속해서 이의를 제기할 것이라고 밝혔다. 이번 판결로 토지 이전 절차는 계속 진행될 수 있게 되었으며, 환경 단체들은 이르면 다음 주부터 공사가 시작될 수 있다고 전했다 [theguardian.com#1][wcvb.com#1][storm.mg#1].",
+      "location": "미국 텍사스주 맥앨런",
+      "historical_background": "스페이스X는 10여 년 전 텍사스 부지 개발을 시작했으며 이후 운영 규모를 확장해 왔다. 작년 직원들은 스타베이스라는 이름의 자치 도시를 설립하기로 투표했다 [storm.mg#1].",
+      "talking_points[0]": "기관 평가: 어류·야생동물관리국의 최종 환경 평가에 따르면 이번 교환은 텍사스 남부 보호구역 간의 서식지 연결성을 개선함으로써 '순 보전 이익'을 창출할 것으로 예상된다 [storm.mg#1].",
+      "talking_points[1]": "법원 판단 근거: 로드리게스 판사는 가처분 명령이 내려질 경우 스페이스X가 확립된 이정표와 계약상 의무를 이행하는 데 어려움을 겪을 수 있다고 적시했다 [storm.mg#1].",
+      "talking_points[2]": "기존 영향: 반대 측은 스페이스X의 텍사스 운영 확장이 공공 해변 접근성 감소 및 로켓 폭발 우려와 관련이 있다고 지적해 왔다. 관련 보고서에서는 인근 주택 수십 채가 피해를 입었다는 내용이 언급되었다 [storm.mg#1][wcvb.com#1].",
+      "perspectives[0].text": "생물다양성센터: 레이컨 조달(Laiken Jordahl) 대변인은 이번 판결이 최종 결정이 아니라고 밝히며, 해당 보호구역은 텍사스 남부 주민과 야생동물에게 대체 불가능한 영적, 역사적, 보전적 가치를 지닌다고 주장했다 [storm.mg#1].",
+      "perspectives[1].text": "미국 연방 지방법원: 페르난도 로드리게스 주니어 판사는 소송이 진행되는 동안 해당 토지가 미학적, 환경적, 문화적 또는 역사적으로 훼손될 것이라는 점을 원고 측이 입증하지 못했다고 판단했다 [storm.mg#1].",
+      "perspectives[2].text": "미국 어류·야생동물관리국: 해당 기관의 환경 검토 결과, 연방 정부의 토지 취득이 장기적인 보전 가치를 제공하고 경관 규모의 서식지 연결성을 개선할 것이라는 결론이 내려졌다 [storm.mg#1].",
+      "perspectives[3].text": "스페이스X: 검토된 보고서에 따르면 스페이스X는 이번 판결에 대한 공식 입장을 내놓지 않았다 [storm.mg#1].",
+      "primary_image.caption": "인근 야생동물 보호구역으로부터 700에이커 이상의 토지를 확보하려는 텍사스주 스페이스X 스타베이스 단지.",
+      "secondary_image.caption": "2026년 7월 시험 비행 중 텍사스 스타베이스에서 이륙하는 스페이스X의 스타십(Starship)."
+    },
+    "3414e91a-eef5-4414-92d1-fd4db19fa6fb": {
+      "title": "블랙홀의 섭식, 제트, 모은하에 관한 연구",
+      "short_summary": "천문학자들은 초대질량 블랙홀이 주변 환경에 미치는 영향과 우주 시간에 따른 진화 과정에 관한 두 가지 연구 결과를 발표했다. 한 연구는 태양 질량의 약 10배에서 초대질량 규모에 이르는 블랙홀들이 섭식 주기 중 동일한 시점에 강력한 제트를 방출한다는 증거를 발견했다 [sciencedaily.com#1]. 또 다른 연구에서는 제임스 웹 우주 망원경(James Webb Space Telescope)을 사용하여 우주 나이가 10억 년 미만이었던 초기 우주 속 초대질량 블랙홀 씨앗으로 추정되는 천체들의 환경을 조사했다. 연구진은 높은 적색편이 상태에서 이러한 후보 씨앗을 품고 있는 은하들이 풍부하다는 사실을 확인했으며, 최초의 초대질량 블랙홀이 형성된 환경을 측정했다 [phys.org#1].",
+      "technical_details[0]": "에딩턴 한계: 제트 연구는 항성 질량 블랙홀과 초대질량 블랙홀 모두 에딩턴 한계의 약 2%에 해당하는 섭식률에서 제트를 방출한다는 점을 확인했다 [sciencedaily.com#1].",
+      "technical_details[1]": "조석 파괴 시점: 초대질량 블랙홀의 경우, 별이 파괴된 직후 제트가 나타날 수 있으며 강착률이 감소함에 따라 수백 또는 수천 일 후에 다시 시작될 수 있다 [sciencedaily.com#1].",
+      "scientific_significance[0]": "규모를 넘나드는 행동: 크기가 매우 다른 블랙홀들 사이에서 공유되는 제트 방출 임계값은 강착 물리학이 서로 다른 블랙홀 질량에서도 유사하게 작동할 수 있음을 시사한다 [sciencedaily.com#1].",
+      "scientific_significance[1]": "남은 불확실성: 초기 우주 시스템은 겉보기 씨앗 또는 후보 모은하로 기술되므로, 이번 관측은 모든 씨앗의 정확한 형성 경로를 확립하기보다는 초기 초대질량 블랙홀과 관련된 환경을 식별한 것이다 [phys.org#1]."
+    },
+    "9f9ce785-0d2a-49ce-bc1d-7619e0b9761c": {
+      "title": "슈퍼 엘니뇨, 예상 정점 수개월 앞두고 기록 경신",
+      "short_summary": "강력한 엘니뇨가 예상 정점인 11월~12월을 수개월 앞두고 열대 태평양에서 기록적이거나 기록에 근접한 강도에 도달했다. 9월 19일 니뇨 3.4 지역의 해수면 온도 편차는 평균보다 약 3.07도 높아 널리 사용되는 측정 방식 중 하나에서 2015~16년 기록과 동률을 이뤘다. 미국 해양대기청(NOAA) 기반의 별도 계산에서는 중태평양 온도 상승폭이 3.05도로 나타나 2015년 말의 이전 최고치인 3.02도를 넘어섰다[carbonbrief.org#1][enca.com#1][theguardian.com#1]. 기후학자 지크 하우스파더(Zeke Hausfather)가 분석한 14개 모델의 평균치는 정점이 4도 근처에 이를 가능성을 시사한다[theguardian.com#1]. 이번 현상은 이미 중앙아메리카에서 인도네시아에 이르기까지 가뭄, 산불, 어업 차질, 물 부족과 연관되어 있다. 기상 예보는 아시아, 아프리카, 아메리카 전역에 걸쳐 다양한 위험을 경고하고 있다[wral.com#1][20min.ch#1][thenews.com.pk#1]. 개빈 뉴섬(Gavin Newsom) 캘리포니아 주지사는 9월 21일 주 전역에 비상사태를 선포하고, 관계 기관에 홍수 장비를 사전 배치하며 겨울철 폭풍, 홍수, 산사태 및 해안 피해 가능성에 대비해 도로와 인프라를 정비하도록 지시했다[cbsnews.com#1][nbcbayarea.com#1].",
+      "quote": "이번 현상은 기후 시스템 내 에너지의 거대한 재분배이며, 훨씬 더 따뜻해진 인간의 영향력이 가해진 기후 시스템 위에서 전개되고 있기 때문에 위험하다.",
+      "quote_attribution": "더 가디언(The Guardian)을 인용한 더 뉴스 인터내셔널(The News International)",
+      "humanitarian_impact": "세계식량계획(WFP)은 엘니뇨의 영향으로 약 5천만 명이 급성 기아에 직면할 수 있다고 경고했다[thenews.com.pk#1].",
+      "talking_points[0]": "예보 확률: NOAA 기후예측센터는 10월에서 12월 사이 엘니뇨가 역사적인 강도에 도달할 확률이 69%라고 밝혔다[kron4.com#1].",
+      "talking_points[1]": "캘리포니아 대응: 비상사태 선포에 따라 필요시 캘리포니아 주 방위군이 긴급 대응 노력을 지원할 수 있게 되었다[cbsnews.com#1].",
+      "international_reactions[0]": "🇿🇦 남아프리카공화국 기상청: 남아공 기상 예보관들은 9월 18일 기상 민감 분야 관계자들과 만나 2026~27년 현상에 대한 대비책을 논의했다[citizen.co.za#1].",
+      "scientific_significance[0]": "발달 속도: 현재의 엘니뇨는 기록상 그 어떤 이전 현상보다 빠르게 발달하고 있으며 내년까지 지속될 것으로 예상된다[carbonbrief.org#1].",
+      "scientific_significance[1]": "역사적 비교: 과학자들은 이번 현상이 최소 1,000년 만에 가장 강력할 수 있다고 말한다[thenews.com.pk#1].",
+      "scientific_significance[2]": "예보 한계: 역사적으로 강력한 엘니뇨라고 해서 캘리포니아에 기록적인 강우나 강설이 보장되는 것은 아니다. 계절 모델은 평년보다 습한 겨울을 나타내지만 지역별 결과는 여전히 가변적이다[cbsnews.com#1].",
+      "industry_impact[0]": "농업: 가뭄, 폭염, 강우량 감소가 이미 중앙아메리카의 농작물과 가축에 피해를 주고 있으며 아시아와 아프리카 전역의 식량 생산을 위협하고 있다[20min.ch#1][wral.com#1].",
+      "industry_impact[1]": "해운: 가뭄으로 파나마 운하의 수위가 낮아지면서 운하 운영에 차질이 빚어지고 있다[20min.ch#1].",
+      "industry_impact[2]": "공공 인프라: 캘리포니아는 폭풍이 닥치기 전 홍수 방지 공사를 위한 인허가와 계약을 가속화하고 물자를 비축하고 있다[cbsnews.com#1][lanacion.com.ar#1].",
+      "perspectives[0].text": "지크 하우스파더: 하우스파더는 월말 이전에 예기치 않은 상황 변화가 없다면 9월이 가장 높은 월간 편차를 기록할 가능성이 매우 높다고 말했다[enca.com#1].",
+      "perspectives[1].text": "폴 텡(Paul Teng): 싱가포르 기반의 식량 안보 전문가인 그는 엘니뇨가 에너지 비용 상승과 비료 공급 부족 등 동남아시아의 기존 압박 요인들을 악화시키고 있다고 말했다[wral.com#1].",
+      "timeline[0].content": "현재의 엘니뇨가 태평양에서 발달하기 시작했다[carbonbrief.org#1].",
+      "timeline[1].content": "니뇨 3.4 편차가 3.07도에 도달하며 2015년 기록과 동률을 이뤘다[carbonbrief.org#1][enca.com#1].",
+      "timeline[2].content": "캘리포니아주가 겨울 폭풍 시즌을 앞두고 주 비상사태를 선포했다[cbsnews.com#1][nbcbayarea.com#1].",
+      "timeline[3].content": "예보 모델들은 엘니뇨가 정점 강도에 근접할 것으로 전망한다[theguardian.com#1].",
+      "timeline[4].content": "예상 정점은 평균보다 약 4도 높은 수준에 이를 수 있다[theguardian.com#1].",
+      "primary_image.caption": "엘니뇨가 강화되는 가운데 인도네시아 수마트라 오간 일리르(Ogan Ilir)에서 소방관이 산불 진화 작업을 하고 있다.",
+      "secondary_image.caption": "캘리포니아 당국이 역사적일 수 있는 엘니뇨 시즌을 대비하고 있다."
+    },
+    "d8478b2d-7a0b-4ca1-bf82-79a22de575ee": {
+      "title": "노래하는 인드리, 고음 낼 때 입 더 크게 벌린다",
+      "short_summary": "이탈리아 토리노 대학교와 영국 워릭 대학교 연구진은 마다가스카르의 유일한 노래하는 여우원숭이인 인드리가 노래의 음정이 높아질수록 입을 더 크게 벌린다는 사실을 발견했다. 이러한 패턴은 숙련된 오페라 가수가 사용하는 '포먼트 튜닝(formant tuning)'과 유사한데, 성도(vocal tract)의 변화를 통해 특정 주파수를 증폭시켜 울창한 열대우림 속에서 소리를 더 멀리 전달하는 방식이다 [popsci.com#1][dailymaverick.co.za#1][orf.at#1]. 연구팀은 야생 인드리 19마리의 영상 83개를 분석했으며, 동작 추적 소프트웨어를 사용해 인드리의 윗입술과 아랫입술 위치를 프레임별로 측정하고 입의 개방 정도와 음정을 비교했다 [orf.at#1]. 9월 21일 'PLOS 계산 생물학(PLOS Computational Biology)'에 게재된 이 연구는 집단 간 유대 강화 및 인근 집단에 대한 경고 등 인드리의 장거리 의사소통과 관련된 발성 조절 기제를 조사했다 [popsci.com#1][dailymaverick.co.za#1].",
+      "quote_attribution": "파퓰러 사이언스(Popular Science)",
+      "location": "마다가스카르 북동부 [aawsat.com#1][dailymaverick.co.za#1]",
+      "talking_points[0]": "열대우림에서의 의사소통: 인드리의 노래는 시각적 접촉이 수 미터 이내로 제한될 수 있는 울창한 식생을 뚫고 전달될 수 있다 [aawsat.com#1][dailymaverick.co.za#1].",
+      "talking_points[1]": "연구 저자: 토리노 대학교의 필리포 카루가티(Filippo Carugati)가 연구를 주도했으며, 워릭 대학교의 키아라 데 그레고리오(Chiara De Gregorio)가 공동 저자로 참여했다 [popsci.com#1][dailymaverick.co.za#1].",
+      "talking_points[2]": "보존 문제: 데 그레고리오는 이번 연구가 심각한 멸종 위기에 처한 인드리에 대한 관심을 불러일으키기를 바란다고 밝혔다 [dailymaverick.co.za#1].",
+      "talking_points[3]": "종명: 인드리의 학명은 인드리 인드리(Indri indri)이다 [popsci.com#1].",
+      "scientific_significance[0]": "비교 발성 생물학: 이번 발견은 훈련된 인간의 노래와 관련된 성도 조절 기제가 인간이 아닌 영장류에서도 나타날 수 있음을 시사한다 [popsci.com#1][dailymaverick.co.za#1].",
+      "scientific_significance[1]": "기능적 해석: 입의 움직임은 음향 투사력 향상과 일치하지만, 출처들은 이 결과가 여우원숭이가 오페라 가수와 동일한 메커니즘을 의식적으로 사용한다는 직접적인 증거라기보다는 포먼트 튜닝과 일치하는 패턴이라고 설명한다 [aawsat.com#1][dailymaverick.co.za#1].",
+      "scientific_significance[2]": "증거의 한계: 이 연구는 영상에 기반한 입 개방 정도와 음정 간의 상관관계에 의존하고 있으며, 제공된 보고서들은 소리 출력의 증가나 전달 거리에 대한 직접적인 측정치를 제시하지 않는다 [orf.at#1][popsci.com#1].",
+      "primary_image.caption": "숲속에 있는 마다가스카르의 노래하는 여우원숭이, 인드리"
+    },
+    "9120ca2f-9833-4d8f-a7b6-dee301252de6": {
+      "title": "볼리비아 연구진, 신종 야생 고양이 '레오파르두스 틸카요(Leopardus tilcayo)' 발견",
+      "short_summary": "연구진이 볼리비아 융가스(Yungas) 운무림에서 이전에 알려지지 않은 야생 고양이 종을 발견해 '레오파르두스 틸카요'라고 명명했다. 이는 100여 년 만에 처음으로 새로 기술된 살아있는 고양이 종이다 [theguardian.com#1][zmescience.com#1][thehindu.com#1][humanite.fr#1]. 9월 17일 '커런트 바이올로지(Current Biology)'에 게재된 연구는 남미 레오파르두스 속 38마리를 분석한 결과, 통칭 '타이거 캣'으로 불리는 동물들이 5개의 종으로 구성되어 있음을 밝혀냈다 [zmescience.com#1][humanite.fr#1][kurir.rs#1]. 이 종은 추정 나이 10세인 수컷 '티그리노(Tigrino)'를 통해 연구진의 주목을 받았다. 볼리비아의 한 가족이 처음에 이 고양이를 집고양이 새끼로 착각했다가 2017년 센다 베르데(Senda Verde) 야생동물 보호구역으로 데려갔다 [zmescience.com#1][sowetan.co.za#1][tuoitre.vn#1]. 티그리노는 머리부터 꼬리 밑동까지 길이가 약 46cm이며 몸무게는 1.4kg이다. 이 종의 생물학적 특성에 대해서는 알려진 바가 거의 없으나, 작은 설치류의 잔해가 포함된 배설물과 카메라 트랩 관찰 결과 야행성으로 설치류를 사냥할 가능성이 제기된다 [sowetan.co.za#1][thehindu.com#1].",
+      "quote": "이렇게 작을 줄은 몰랐다",
+      "quote_attribution": "ZME 사이언스(ZME Science)",
+      "location": "볼리비아 코로이코 [fox21news.com#1]",
+      "talking_points[0]": "초기 단서: 동료 연구원이 티그리노의 독특한 특징을 발견하고 볼리비아 생물학자 파올라 노갈레스-아스카룬즈(Paola Nogales-Ascarrunz)를 초청해 검사하게 했다 [tuoitre.vn#1].",
+      "talking_points[1]": "추가 확인된 개체: 학대받은 후 구조되어 나중에 방생된 암컷 한 마리가 있다 [humanite.fr#1].",
+      "talking_points[2]": "외형: 이 고양이는 검은 반점이 있는 갈색 털을 가졌으며, 작은 주둥이와 짧은 귀가 특징이다 [humanite.fr#1].",
+      "talking_points[3]": "종 명명: '틸카요(tilcayo)'라는 이름은 융가스 지역을 지칭하며 지역 사회에서 사용하던 명칭을 보존한 것이다 [humanite.fr#1][kurir.rs#1].",
+      "technical_details[0]": "진화적 시기: 연구진은 이 계통이 약 140만 년 전 남미 타이거 캣 계통에서 분리된 것으로 추정한다 [mbn.co.kr#1].",
+      "perspectives[0].text": "센다 베르데 야생동물 보호구역: 보호구역 관리자들은 티그리노가 사람의 관심에 쉽게 스트레스를 받기 때문에 방문객과 격리하고 관람객의 출입을 제한하고 있다 [sowetan.co.za#1].",
+      "primary_image.caption": "볼리비아 융가스 지역의 센다 베르데 야생동물 보호구역에서 확인된 레오파르두스 틸카요(Leopardus tilcayo)로 명명된 작은 반점 야생 고양이",
+      "secondary_image.caption": "볼리비아에서 새로 확인된 야생 고양이 종"
+    },
+    "0ffb5938-aa37-4762-b0d2-fde78e38b530": {
+      "title": "과학자들, 9개 지구 위험 한계선 중 7개 이미 돌파",
+      "short_summary": "포츠담 기후영향연구소(PIK)가 주도한 '2026 지구 건강 점검(Planetary Health Check)' 보고서에 따르면, 지구의 9개 위험 한계선 중 7개가 안전 운영 범위를 넘어섰으며 각 항목 모두 역대 최고 수준의 위반 수치를 기록했다. 영향을 받는 시스템은 기후 변화, 생물권 무결성, 토지 시스템 변화, 담수, 생지화학적 흐름, 화학 오염물질과 같은 신규 물질, 그리고 해양 산성화이다 [theguardian.com#1][euronews.com#1][scientificamerican.com#1]. 이번 평가에는 60명 이상의 과학자가 참여했다 [euronews.com#1][mdr.de#1]. 지난 10년간 성층권 오존층 파괴와 대기 중 에어로졸 부하량만이 개선되었으나, 에어로졸 오염은 여전히 일부 지역에서 안전하지 않은 수준이다 [theguardian.com#1][tagesschau.de#1]. 연구진은 한계선을 넘었다고 해서 지구 시스템이 즉각 붕괴하는 것은 아니지만, 대규모의 지속적이고 잠재적으로 돌이킬 수 없는 변화의 위험이 커진다고 경고했다. 이 보고서는 기록적인 해양 열기, 홍수, 산불, 극심한 더위가 이어진 한 해를 보낸 뒤 뉴욕 기후 주간에 맞춰 발표되었다 [hs.fi#1][euronews.com#1].",
+      "quote": "이미 안전 운영 범위를 벗어난 모든 지구 위험 한계선에서 압박이 거세지고 있다. 이는 대규모의 지속적이고 잠재적으로 돌이킬 수 없는 변화의 위험이 증가하고 있으며, 이러한 문제를 해결할 수 있는 우리의 오차 범위는 줄어들고 있음을 의미한다.",
+      "quote_attribution": "유로뉴스(Euronews)",
+      "perspectives[0].text": "요한 록스트룀(Johan Rockström): PIK 소장은 인류가 한계선을 다시 안전 운영 범위로 되돌릴 지식과 역량, 해결책을 가지고 있다고 강조하면서도, 더 빠른 행동을 촉구했다 [commondreams.org#1][ettoday.net#1].",
+      "perspectives[1].text": "힌두 오우마루 이브라힘(Hindou Oumarou Ibrahim): 플래니터리 가디언즈(Planetary Guardians) 의장은 동시다발적인 환경적 압박을 별개의 위기로 취급해서는 안 된다고 말했다 [ettoday.net#1].",
+      "timeline[0].content": "지구 위험 한계선 평가 프레임워크 수립 [theguardian.com#1]",
+      "timeline[1].content": "해양 산성화, 처음으로 안전 한계치를 벗어난 것으로 분류 [theguardian.com#1][hs.fi#1]",
+      "timeline[2].content": "PIK 연구진, 2026 지구 건강 점검 보고서 발표 [theguardian.com#1][euronews.com#1]",
+      "primary_image.caption": "2026 지구 위험 한계선 평가와 함께 언급된 극단적 사건 중 하나인 유럽의 산불",
+      "secondary_image.caption": "COP30 기후 회의 기간 중 브라질 파라주의 삼림 벌채 지역 인근에 있는 목재 운반 트럭"
+    },
+    "1fb32247-ec99-4254-8045-62a4a53c8a85": {
+      "title": "네팔 홍수 이후 빙하로 인한 재난 위험 커져",
+      "short_summary": "과학자들은 지난 8월 26일 네팔과 티베트 지역을 덮친 암석, 얼음, 물, 잔해물 사태에 인간 활동으로 인한 온난화가 매우 강력한 역할을 했다고 밝혔다. 라이브사이언스(Live Science)에 따르면 9월 16일 기준 이 사건으로 최소 1,400명이 사망하고 6,000명 이상이 실종되었으며, 유엔(UN) 관련 보고에서는 사망자가 1,200명을 넘었다고 전했다. 연구진은 온난화가 붕괴된 암석 주변의 영구동토층과 얼음을 불안정하게 만들었다고 지적했다. 또한 급격히 줄어드는 빙하와 가파른 히말라야 지형이 이와 유사한 연쇄 재난의 위험을 높이고 있다고 경고했다 [livescience.com#1][nytimes.com#1][europeansting.com#1]. 대규모 산사태가 발생해 약 2,000미터 아래 렌데강(Lhende River)으로 초속 약 150미터의 속도로 떨어졌다고 스팀슨 센터(Stimson Center)가 라이브사이언스를 인용해 보도했다 [livescience.com#1]. 전문가들은 빙하 관련 사면 붕괴가 열대 지역을 포함해 전 세계 어디서든 발생할 수 있다고 말했다. 세계기상귀속(World Weather Attribution) 연구진은 히말라야의 결빙 경계선이 10년마다 약 100미터씩 상승하고 있다고 밝혔다 [livescience.com#1][la.lv#1].",
+      "did_you_know": "2021년 멜람치(Melamchi) 홍수는 주요 수자원 프로젝트 시설을 최대 20미터의 퇴적물 아래로 매몰시켰다 [eco-business.com#1].",
+      "location": "중국 티베트 렌데강",
+      "historical_background": "힌두쿠시 히말라야 지역은 전 세계 평균보다 약 3배 빠르게 온난화가 진행되고 있으나, 네팔의 온실가스 배출량은 전 세계의 0.1퍼센트에 불과하다 [eco-business.com#1].",
+      "humanitarian_impact": "주택 전체가 원래 위치에서 최대 150미터까지 밀려났다 [europeansting.com#1].",
+      "talking_points[0]": "이재민 발생: 주택들이 원래 있던 자리에서 최대 150미터까지 통째로 밀려났다 [europeansting.com#1].",
+      "international_reactions[0]": "🇺🇳 유엔(UN): 유엔프로젝트조달기구(UNOPS)는 지역 사회가 임시 수용 시설에 머무는 동안 팀과 파트너들이 대응 작업을 지원하고 있다고 밝혔다 [europeansting.com#1].",
+      "perspectives[0].text": "UNOPS의 사라 넷저(Sara Netzer)는 지역 사회 전체가 사라졌고 잔해 속에 개인 소지품과 유해로 추정되는 것들이 섞여 있어 일반적인 재건 일정은 적용할 수 없다고 말했다 [europeansting.com#1].",
+      "perspectives[1].text": "에코비즈니스(Eco-Business)는 네팔의 기후 금융 시스템이 재난 직후 필요한 자금을 즉각적으로 제공하지 못하고 있다고 지적했다 [eco-business.com#1].",
+      "timeline[0].content": "규모 7.8의 지진이 재난 지역의 사면을 약화시켰을 가능성이 있음 [la.lv#1]",
+      "timeline[1].content": "멜람치 홍수로 프로젝트 수로 시설이 15~20미터의 잔해 아래로 매몰됨 [eco-business.com#1]",
+      "timeline[2].content": "암석과 빙하 얼음이 분리되어 렌데강으로 유입됨 [livescience.com#1]",
+      "timeline[3].content": "라이브사이언스가 최소 1,400명 사망 및 6,000명 실종 보도 [livescience.com#1]",
+      "timeline[4].content": "과학자들과 UNOPS가 유사한 빙하 재난이 재발할 수 있다고 경고 [nytimes.com#1][europeansting.com#1]",
+      "primary_image.caption": "급류 홍수 이후 넓어진 네팔 보테 코시강(Bhote Koshi River)의 물길."
+    },
+    "46d96595-6fc1-44f4-a1ee-58f0892c5642": {
+      "title": "스탠퍼드대 연구, 뇌가 두 개의 세포 시스템에서 발달한다는 사실 규명",
+      "short_summary": "네이처 뉴로사이언스(Nature Neuroscience)에 게재된 스탠퍼드대 주도 연구에 따르면, 인간의 뇌는 공통된 발달 기원이 아닌 두 개의 별도 전구세포 시스템에서 발달한다. 연구진은 언어, 추론, 의식 등의 기능을 담당하는 전뇌 및 중뇌와 호흡, 심장박동, 수면, 허기, 말하기, 삼키기 등을 조절하는 후뇌의 기원이 서로 다르다는 점을 확인했다 [sci.news#1][sciencedaily.com#1]. 생쥐 배아를 이용한 실험에서 연구팀은 이 두 세포 집단이 서로 겹치지 않으며 각각 Otx2와 Gbx2라는 서로 다른 유전자로 구분된다는 사실을 발견했다. 또한 연구진은 인간 다능성 줄기세포를 이용해 기능적 후뇌 운동 신경세포를 생성했으며, 이는 근위축성 측삭 경화증(ALS) 및 척수성 근위축증과 같은 뇌간 질환의 실험실 연구를 개선할 수 있을 것이라고 밝혔다 [sci.news#1][sciencedaily.com#1]. 이번 연구의 교신 저자인 스탠퍼드대 신경과학자 카일 로(Kyle Loh)는 이 두 시스템이 수억 년에 걸친 진화 과정에서 결합했을 가능성이 있다고 설명했다 [sci.news#1][remolacha.net#1].",
+      "quote": "우리는 뇌의 앞부분이 뇌의 뒷부분과는 완전히 다른 전구세포에서 발생한다는 사실을 처음으로 밝혀냈다",
+      "quote_attribution": "보잉 보잉(Boing Boing)",
+      "talking_points[0]": "연구의 병목 현상: 라이얀 조카이(Rayyan Jokhai)는 이전의 시도들이 전뇌 및 중뇌 전구세포를 후뇌 신경세포로 전환하려 했을 수 있으나, 이번 연구는 그러한 과정이 불가능함을 시사한다고 말했다 [boingboing.net#1].",
+      "scientific_significance[0]": "증거의 한계: 연구진은 생쥐 배아에서 발달 경계를 확인했다. 제공된 자료에서 언급된 인간 관련 연구 결과는 줄기세포 유래 신경세포에 관한 것이며, 인간 배아 계통 추적 데이터나 임상적 증거는 아니다 [sci.news#1][sciencedaily.com#1].",
+      "perspectives[0].text": "라이얀 조카이는 '뇌'라는 단어 때문에 뇌가 단일한 기원을 가진 연속적인 기관일 것이라고 예상했다고 말했다 [boingboing.net#1].",
+      "perspectives[1].text": "스탠퍼드 메디슨(Stanford Medicine)의 요약본은 이번 발견이 현대 인간이 독립적으로 기능하는 두 개의 뇌를 가지고 있다는 의미는 아니라고 경고한다 [sciencedaily.com#1].",
+      "primary_image.caption": "스탠퍼드대 주도 연구와 함께 실린 인간 뇌의 해부학적 삽화"
+    },
+    "84da8732-025f-477b-957a-4ff968afbc2d": {
+      "title": "소형 갑각류가 육각형 화석 터널 만들었을 가능성 제기",
+      "short_summary": "거의 완벽한 육각형 모양의 화석 터널을 재검토한 연구진은 이 구조물이 벌레 같은 동물이 아닌 절지동물인 소형 갑각류에 의해 만들어졌을 가능성이 높다는 결론을 내렸다[phys.org#1][google.com#1]. 이번 결론은 벌레 같은 생물이 터널을 만들었을 것이라는 기존의 오랜 학설에 의문을 제기한다[phys.org#1].",
+      "talking_points[0]": "장기간의 조사: 고생물학자들은 170년 넘게 해당 터널의 기원을 두고 논쟁을 벌여왔다[phys.org#1].",
+      "talking_points[1]": "저널 게재: 이번 증거 검토 결과는 '어스 사이언스 리뷰(Earth Science Reviews)'에 게재되었다[phys.org#1]."
+    }
+  },
+  "stats": {
+    "storyCount": 12,
+    "translated": 11,
+    "failedStoryIds": [
+      {
+        "id": "e7063198-9b0e-49fb-8b1e-6b23c480d808",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 9951,
+      "out": 11143
+    }
+  }
+}
