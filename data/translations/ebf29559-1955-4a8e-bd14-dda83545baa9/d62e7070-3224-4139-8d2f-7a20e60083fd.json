@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "batchId": "ebf29559-1955-4a8e-bd14-dda83545baa9",
+  "categoryUuid": "d62e7070-3224-4139-8d2f-7a20e60083fd",
+  "categorySlug": "world",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-09-23T15:16:00.197Z",
+  "stories": {
+    "f5709eb4-5909-4720-af7c-9dc7b77d0e8f": {
+      "title": "남아공 가정집 파티서 무장 괴한 3명 총기 난사, 11명 사망",
+      "short_summary": "남아프리카공화국 경찰은 화요일 늦은 밤 더반 남쪽으로 약 30km 떨어진 콰마쿠타(KwaMakhutha) 타운십의 한 가정집 파티에서 무장 괴한 3명이 14명을 향해 총기를 난사해 최소 11명이 숨지고 3명이 부상했다고 밝혔다. 사망자 중에는 임신한 것으로 추정되는 여성도 포함되어 있으며, 10명은 현장에서 사망했고 1명은 병원으로 이송된 후 숨졌다 [straitstimes.com#1][japantoday.com#1][sootoday.com#1][dw.com#1]. 경찰은 아직 범인들의 신원을 파악하지 못했으며 체포된 인원도 없다. 범행 동기는 밝혀지지 않았으나, 수사 당국은 일부 피해자가 불법 활동 혐의로 당국의 감시를 받고 있었으며 경쟁 조직 간의 갈등 가능성도 배제할 수 없다고 전했다 [bbc.co.uk#1][enca.com#1][timeslive.co.za#1].",
+      "quote": "충격적이고 슬픈 일이다. 함께 자란 친구들인데 믿을 수가 없다. 마치 영화 같다.",
+      "quote_attribution": "eNCA",
+      "location": "남아프리카공화국 콰줄루나탈주 콰마쿠타 [dw.com#1]",
+      "talking_points[0]": "공격 상세: 수사 당국은 범인들이 사람들을 한 방으로 몰아넣은 뒤 총격을 가했으며, 이후 피해자 중 한 명의 차량에 불을 질렀다고 밝혔다 [euronews.com#1][bbc.co.uk#1].",
+      "talking_points[1]": "국가적 배경: 인구 약 6,200만 명의 남아프리카공화국에서는 하루 평균 약 60건의 살인 사건이 발생한다 [lemonde.fr#1][bbc.co.uk#1].",
+      "perspectives[0].text": "남아공 경찰: 경찰은 현재 수사가 진행 중이므로 더 이상의 자세한 정보는 공개할 수 없다고 밝혔다 [bbc.co.uk#1].",
+      "perspectives[1].text": "콰줄루나탈 주정부: 탐산카 은툴리(Thamsanqa Ntuli) 주총리는 이번 공격에서 2명이 생존했다고 밝혔다 [euronews.com#1].",
+      "perspectives[2].text": "콰마쿠타 주민: 한 주민은 eNCA와의 인터뷰에서 이번 사건 전까지 이 지역은 항상 안전했다고 말했다 [enca.com#1].",
+      "primary_image.caption": "콰마쿠타 총기 난사 사건 이후 경찰이 용의자들을 수색하고 있다."
+    }
+  },
+  "stats": {
+    "storyCount": 12,
+    "translated": 1,
+    "failedStoryIds": [
+      {
+        "id": "334b5af3-ba1c-4024-8204-84decc315793",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "d03d935e-d63a-42a3-abe2-d7800c5efca4",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "1442881f-930b-428d-b295-e4b6626b3ef4",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "c2a50b77-5e07-436e-994c-6b29970778a1",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "5888aeae-ecba-4a04-b190-b9873af2a2db",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "9580c099-26a4-4173-be51-1dc488cbc92a",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "d7cdcc88-de1e-475a-939e-719af89d1e7c",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "cf7e114d-844e-40b4-befb-9a75b2e5481b",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "1ae34833-111c-46f7-adc7-c579737913ac",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "20f4c679-bab5-4220-b34b-89d315a8d1a5",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "e4ce006e-48f5-4535-ab47-abe1b71498ea",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 817,
+      "out": 829
+    }
+  }
+}

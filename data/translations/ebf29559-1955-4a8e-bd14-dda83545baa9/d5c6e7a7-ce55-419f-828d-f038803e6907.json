@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "batchId": "ebf29559-1955-4a8e-bd14-dda83545baa9",
+  "categoryUuid": "d5c6e7a7-ce55-419f-828d-f038803e6907",
+  "categorySlug": "usa",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-09-23T15:19:39.855Z",
+  "stories": {
+    "3a1c64b7-773d-44ba-9786-2c3ee2e735d9": {
+      "title": "트럼프 행정부, 사기 혐의로 ACA 가입자 76만 명 등록 취소",
+      "short_summary": "트럼프 행정부는 화요일, 무단 또는 허위 가입, 자격 정보 누락, 가공의 인물 등을 이유로 건강보험개혁법(ACA) 시장 가입 31만 5천 건(약 76만 명 대상)을 취소했다고 밝혔다. 행정부의 반부패 태스크포스를 이끄는 JD 밴스(JD Vance) 부통령은 이번 취소 조치로 납세자 세금으로 지원되는 보조금 약 22억 달러를 절감할 수 있을 것이라고 말했다 [nytimes.com#1][seattletimes.com#1][cnbc.com#1][columbian.com#1][healio.com#1]. 행정부는 ACA 보조금 자격 검토의 일환으로 지난 8월 취소 조치를 단행했다고 밝혔다. 당국은 추가로 41만 9천 건의 가입에 대해 추가 검증을 실시할 예정이며, 미 메디케어·메디케이드 서비스 센터(CMS)는 신규 대리인 및 중개인의 시장 가입 등록을 6개월간 중단한다고 발표했다. 뉴욕포스트(The New York Post)에 따르면 이번 조치는 올해 약 2,300만 명이 가입한 프로그램에 영향을 미친다 [diariodigitalrd.com#1][fortune.com#1][nypost.com#1].",
+      "did_you_know": "CMS는 행정부가 대규모 가입 취소를 발표하기 전인 여름 동안 569명의 대리인 및 중개인에게 해지 의향 통지서를 발송했다고 밝혔다 [wxyz.com#1].",
+      "quote": "우리는 오바마케어 보조금을 받는 사람들이 실제로 이를 받을 자격이 있는지 확인하고 있다",
+      "quote_attribution": "포춘(Fortune)",
+      "location": "미국 워싱턴 DC",
+      "talking_points[0]": "가입 비중: 뉴욕포스트에 따르면 이번 취소 건수는 올해 ACA 시장 보험에 가입한 2,300만 명 중 약 3%에 해당한다 [nypost.com#1].",
+      "talking_points[1]": "자격 확인: 당국은 문제가 된 일부 계정의 경우 사회보장번호가 누락되었으며 건강보험 청구 내역도 없었다고 밝혔다 [cleveland.com#1].",
+      "talking_points[2]": "보험 보장 검토: CMS는 보험사들과 협력하여 잠재적인 무단 가입 사례를 조사하고 관련 연방 보조금을 환수하기 위한 노력을 지속할 것이라고 밝혔다 [wxyz.com#1].",
+      "business_angle_points[0]": "22억 달러라는 수치는 이미 회수된 금액이 아니라 행정부가 추산한 보조금 지급 방지액이다 [fortune.com#1].",
+      "user_action_items[0]": "ACA 보장 상태 확인: 검토 대상이 된 시장 가입자는 보험 보장에 의존하기 전에 보험사나 연방 거래소를 통해 자신의 보험 상태를 직접 확인해야 한다.",
+      "user_action_items[1]": "보조금 통지서 검토: 취소 또는 자격 통지서를 받은 소비자는 명시된 사유와 자신의 신청 정보를 대조하고, 마켓플레이스에서 제공하는 이의 제기 또는 검증 절차를 따라야 한다.",
+      "perspectives[0].text": "트럼프 행정부: JD 밴스 부통령은 영향을 받은 일부 사람들이 본인도 모르게 가입되었거나, 보험을 사용하지 않았거나, 납세자를 속이기 위해 생성된 가공의 계정일 수 있다고 말했다 [nypost.com#1].",
+      "perspectives[1].text": "CMS 및 HHS: 메흐메트 오즈(Mehmet Oz) CMS 청장과 로버트 F. 케네디 주니어(Robert F. Kennedy Jr.) 보건복지부(HHS) 장관은 이번 취소 조치를 무단 시장 가입에 대한 단속으로 규정하며, 부적절한 신청과 관련된 보험사, 대리인, 중개인에 대해 책임을 물을 것이라고 밝혔다 [healio.com#1][wxyz.com#1].",
+      "perspectives[2].text": "의료 전문가: 힐리오(Healio)의 의사 대상 보고서에 따르면 한 전문가는 보험 보장 취소가 미국 의료 시스템에 추가적인 부담을 줄 수 있다고 경고했다 [healio.com#1].",
+      "timeline[0].content": "CMS, 200명 이상의 중개인에게 해지 통지서 발송 [wxyz.com#1]",
+      "timeline[1].content": "CMS, 약 31만 5천 건의 시장 가입 취소 [diariodigitalrd.com#1][straitstimes.com#1]",
+      "timeline[2].content": "밴스 부통령, 가입 취소 및 추가 가입 검토 발표 [nytimes.com#1][fortune.com#1]",
+      "primary_image.caption": "이달 초 백악관에서의 JD 밴스 부통령.",
+      "secondary_image.caption": "2026년 9월 22일 워싱턴에서 열린 기자회견에서 CMS 및 행정부 관계자들과 대화하는 JD 밴스 부통령."
+    }
+  },
+  "stats": {
+    "storyCount": 12,
+    "translated": 1,
+    "failedStoryIds": [
+      {
+        "id": "7487f7c5-7759-44e9-b106-d3c0eb746f83",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "42a3ee3b-f886-4e87-9a95-bb358e22d520",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "293ded5d-c945-4ef4-99a2-55eb71830449",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "96a35671-a25e-4be2-92e5-60c922bfec1f",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "887d6673-0d5c-4f2d-b40d-6d31fd3fde77",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "440d21ca-9d13-4287-a6d0-51fa943ac4b9",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "d9fd5ad4-63d5-4067-8df8-510e201389e5",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "a445a361-79e8-46d2-83db-4095aac2b604",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "da8ef313-2da6-4660-abf5-a9041fbddb36",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "f1738140-50c6-45d0-b76b-b7f16c493bf8",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "41b024c5-a7ab-4011-bff6-cad6bffa4053",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 1249,
+      "out": 1535
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "batchId": "ebf29559-1955-4a8e-bd14-dda83545baa9",
+  "categoryUuid": "39590a9c-5259-44bb-8574-323c3c3ca3af",
+  "categorySlug": "science",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-09-23T15:29:15.992Z",
+  "stories": {},
+  "stats": {
+    "storyCount": 12,
+    "translated": 0,
+    "failedStoryIds": [
+      {
+        "id": "33bf3631-cadb-4b1c-b3d6-e34abbde00e4",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "0180134d-23e9-442c-b7d8-c72473091034",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "c9f5b86b-07fb-4cd7-b5c3-0c066ddd0f69",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "4b30ea5d-4e66-4f03-9c10-0d1cd4195b19",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "02cfea4b-4e40-423b-ab6c-91ec67284242",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "a0cbb587-ccbe-40dc-93d5-347b89072615",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "22e6f026-c31c-4ec6-ab39-aa742d0623ee",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "9f7541eb-7a63-4905-aa85-f7be150a5bee",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "6616426a-2bd3-4cc2-9418-f7874ede6ac8",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "9d2c9e09-cae9-45fb-9ca5-56f07a8f0c05",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "1006d2c4-50e8-4f57-be4c-d0c6a48f5013",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "92f465c6-01b5-4fd3-8b32-d89bc434c20d",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 0,
+      "out": 0
+    }
+  }
+}
