@@ -1,7 +1,7 @@
 {
   "version": 1,
   "batchId": "ebf29559-1955-4a8e-bd14-dda83545baa9",
-  "updatedAt": "2026-09-23T17:04:18.780Z",
+  "updatedAt": "2026-09-23T18:34:42.819Z",
   "categories": {
     "020e17b0-9092-4b42-b316-c5751a30714a": {
       "slug": "tech",
@@ -51,11 +51,11 @@
       "slug": "business",
       "status": "ok",
       "storyCount": 12,
-      "translated": 2,
-      "failed": 10,
+      "translated": 3,
+      "failed": 9,
       "tokens": {
-        "in": 3143,
-        "out": 4083
+        "in": 4884,
+        "out": 6332
       }
     },
     "39590a9c-5259-44bb-8574-323c3c3ca3af": {
@@ -75,8 +75,8 @@
   },
   "run": {
     "attempted": 68,
-    "failed": 68,
-    "failureRatePct": 100,
+    "failed": 67,
+    "failureRatePct": 98.52941176470588,
     "unresolvedSlugs": []
   }
 }

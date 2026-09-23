@@ -4,7 +4,7 @@
   "categoryUuid": "495ea393-e2b7-4798-b109-df5d14b53b55",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-23T16:55:22.384Z",
+  "createdAt": "2026-09-23T18:25:46.678Z",
   "stories": {
     "0a05c3aa-e0e8-40e6-986a-fbfd4e4e7a80": {
       "title": "AI 개발 통제 논의 속 글로벌 AI 공포 확산",
@@ -56,11 +56,39 @@
       "timeline[5].content": "시드니-뉴욕 직항 서비스 운항 시작 예정[theguardian.com#1][abc7ny.com#1].",
       "primary_image.caption": "콴타스는 프로젝트 선라이즈 초장거리 노선에 에어버스 A350-1000ULR 항공기를 사용할 계획이다.",
       "secondary_image.caption": "프로젝트 선라이즈의 첫 번째 항공기인 '베가'가 툴루즈에서 호주를 향해 이륙하고 있다."
+    },
+    "136365a4-1270-4478-9ed2-a17a15100d2c": {
+      "title": "도어대시, 뉴욕시 배달 노동자 임금 체불 소송 1억 3,150만 달러에 합의",
+      "short_summary": "도어대시(DoorDash)는 9월 22일, 뉴욕시의 배달 노동자 임금 미지급 및 지연 지급 조사와 관련해 1억 3,150만 달러를 지급하기로 합의했다. 이 중 1억 1,500만 달러 이상은 약 26만 4,000명의 대셔(Dasher)들에게 돌아가며, 약 1,600만 달러는 민사 벌금 및 기타 시 비용으로 충당된다. 도어대시는 일부 노동자에게 임금을 정확하게 또는 제때 지급하지 못했음을 인정하며 \"간단히 말해, 우리가 잘못했다\"고 밝혔다 [businessinsider.com#1][theguardian.com#1][abcnews.com#1][bbc.co.uk#1]. 이번 합의는 배달 사이 대기 시간, 미지급 임금, 다중 경유 경로, 시 경계를 넘는 배달 등에 대한 임금 분쟁을 포함한다. 도어대시는 뉴욕시의 임금 산정 방식을 따르고, 향후 3년간 매달 상세한 임금 데이터를 제출하며, 소프트웨어 및 내부 통제를 개선하겠다고 밝혔다. 노동자들에 대한 지급은 올가을 시작될 예정이다 [theguardian.com#1][bbc.co.uk#1][engadget.com#1][iphone-ticker.de#1].",
+      "quote": "간단히 말해, 우리가 잘못했습니다. 우리의 실수로 인해 일부 대셔들이 임금을 적게 받거나 늦게 받았습니다. 이러한 실수가 의도적인 것은 아니었지만, 그렇다고 해서 정당화될 수는 없습니다.",
+      "quote_attribution": "ABC 뉴스",
+      "location": "미국 뉴욕주 뉴욕",
+      "business_angle_text": "이번 합의에 따라 도어대시는 임금 산정 소프트웨어와 내부 통제를 변경하고, 3년간 매달 상세한 임금 데이터를 제출하며, 뉴욕시의 임금 산정 방식을 사용해야 한다. 도어대시는 기술적 오류와 복잡한 경로가 오류의 원인이었다고 설명했으며, 이번 합의를 통해 뉴욕시는 도어대시의 운영 데이터에 지속적으로 접근할 수 있게 되었다 [bbc.co.uk#1][theguardian.com#1].",
+      "talking_points[0]": "임금 지급 내역: 노동자 구제 비용에는 로그인 시간 분쟁에 대한 8,300만 달러와 미지급 또는 지연 지급에 대한 1,230만 달러가 포함된다 [theguardian.com#1].",
+      "talking_points[1]": "노동자 지급액: 피해 노동자들은 미지급액의 약 2배에 달하는 보상을 받게 되며, 중간 지급액은 약 48달러로 보고되었다 [engadget.com#1][theguardian.com#1].",
+      "talking_points[2]": "집행 규모: 뉴욕시 관계자들은 이번 합의가 뉴욕시 역사상 최대 규모의 노동 집행 조치이자, 미국 내 음식 배달 노동자와 관련된 최대 규모의 지방자치단체 합의라고 설명했다 [abcnews.com#1][thecityreporter.nyc#1][amny.com#1].",
+      "talking_points[3]": "추가 책임: 이번 합의는 6월 29일부터 11월 29일 사이의 추가 임금 체불 건까지 확대 적용될 수 있으며, 해당 금액의 13.79%에 해당하는 민사 벌금이 추가로 부과된다 [amny.com#1].",
+      "technical_details[0]": "기존 임금 모델: 배달 앱 업체들은 전통적으로 배달 중인 시간만 노동자에게 임금을 지급하고, 주문 사이의 대기 시간은 제외해 왔다 [bbc.co.uk#1].",
+      "technical_details[1]": "기록 분석: 합의 집행 과정 보고서에 따르면, 뉴욕시는 1억 5,200만 건 이상의 결제 거래와 1억 1,000만 시간의 노동 시간을 조사했다 [iphone-ticker.de#1].",
+      "technical_details[2]": "노동자 신고 도구: 뉴욕시의 소프트웨어 도구를 통해 노동자들은 앱 내 이동 경로 및 수익 정보를 규제 당국과 직접 공유할 수 있게 된다 [gothamist.com#1].",
+      "business_angle_points[0]": "합의금 배분: 노동자 구제 비용 외에 약 1,130만 달러는 민사 벌금으로, 약 46만 8,000달러는 행정 비용으로 책정되었다 [amny.com#1].",
+      "business_angle_points[1]": "최소 지급액: 피해 노동자들은 최소 10달러를 지급받게 되며, 이는 비율 기반 계산 외에 수령인당 최소 지급 의무를 설정한 것이다 [businessinsider.com#1].",
+      "business_angle_points[2]": "도어대시가 밝힌 시간당 평균 수익 약 30달러는 배달 사이 로그인 시간에 대한 별도의 책임 문제를 해결해주지 않는다 [bbc.co.uk#1].",
+      "industry_impact[0]": "배달 플랫폼: 우버이츠(Uber Eats)와 그럽허브(Grubhub) 또한 팁 규정, 최저 임금, 데이터 공유 요구 사항과 관련해 뉴욕시 당국과 분쟁을 겪은 바 있다 [bbc.co.uk#1].",
+      "industry_impact[1]": "노동자 주도 감독: 이번 합의에는 노동자 주도의 규정 준수 프로그램을 위해 약 430만 달러가 배정되었다 [amny.com#1].",
+      "user_action_items[0]": "합의 통지 확인: 대상 기간에 영향을 받은 뉴욕의 대셔들은 시 당국의 통지를 확인해야 한다. 뉴욕시는 노동자가 개별적으로 신청하게 하는 대신 도어대시 기록을 통해 대상자를 파악할 계획이다 [iphone-ticker.de#1].",
+      "perspectives[0].text": "뉴욕시 소비자 및 노동자 보호국(Department of Consumer and Worker Protection): 해당 기관은 수십 건의 노동자 불만 제기 이후 조사를 시작했으며, 도어대시 기록 분석을 통해 조사 범위를 확대했다고 밝혔다. 샘 레빈(Sam Levine) 국장은 조란 맘다니(Zohran Mamdani) 시장 하에서 강화된 집행 자원이 사건 해결을 앞당겼다고 평가했다 [amny.com#1].",
+      "perspectives[1].text": "도어대시: 도어대시는 대기 시간 임금 산정 방식이 \"공정하고 실용적이며 합법적\"이라고 믿었으나, 소송 대신 뉴욕시의 방식을 따르기로 합의했다고 밝혔다 [engadget.com#1][fastcompany.com#1].",
+      "perspectives[2].text": "조란 맘다니(Zohran Mamdani) 시장: 맘다니 시장은 노동자들이 \"내일도, 소송 이후도 아닌, 제때 전액\" 임금을 받아야 한다고 강조하며, 앞으로도 배달 플랫폼에 대한 집행을 계속할 것이라고 밝혔다 [timeslive.co.za#1][gothamist.com#1].",
+      "timeline[0].content": "뉴욕시의 앱 배달 노동자 최저 임금 기준이 발효되었다 [bbc.co.uk#1].",
+      "timeline[1].content": "뉴욕시가 도어대시의 1억 3,150만 달러 합의 사실을 발표했다 [abcnews.com#1].",
+      "timeline[2].content": "뉴욕시는 10월 말까지 노동자들에게 개인별 임금 지급 통지를 보낼 계획이다 [iphone-ticker.de#1].",
+      "primary_image.caption": "도어대시는 뉴욕시 배달 노동자들에게 임금을 적게 지급했다는 혐의를 해결하기 위해 1억 3,150만 달러를 지급하기로 합의했다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 2,
+    "translated": 3,
     "failedStoryIds": [
       {
         "id": "aedb4891-5f0c-49cb-b62e-e5cd568d56fd",
@@ -76,10 +104,6 @@
       },
       {
         "id": "4cd40055-1049-4a3f-bb24-749ef880aba9",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "136365a4-1270-4478-9ed2-a17a15100d2c",
         "reason": "retry_exhausted"
       },
       {
@@ -104,8 +128,8 @@
       }
     ],
     "tokens": {
-      "in": 3143,
-      "out": 4083
+      "in": 4884,
+      "out": 6332
     }
   }
 }
