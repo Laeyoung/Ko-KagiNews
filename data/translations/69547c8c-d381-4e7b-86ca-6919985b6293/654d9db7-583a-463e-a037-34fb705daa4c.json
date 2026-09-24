@@ -4,11 +4,17 @@
   "categoryUuid": "654d9db7-583a-463e-a037-34fb705daa4c",
   "categorySlug": "science",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-24T15:13:03.179Z",
-  "stories": {},
+  "createdAt": "2026-09-24T15:41:32.586Z",
+  "stories": {
+    "6960e48c-96fe-4643-80b2-af36e10263b1": {
+      "title": "지구 자기장과 초파리 노화의 연관성 밝혀져",
+      "short_summary": "노팅엄 대학교(University of Nottingham) 연구진은 9월 23일 학술지 '에이징(Aging)'을 통해 지구 자기장을 감소시켰을 때 초파리의 건강 상태에 따라 수명에 미치는 영향이 다르게 나타났다고 보고했다. 질병이 있는 초파리는 수명이 늘어난 반면, 건강한 초파리는 수명이 단축되었다[404media.co#1][aawsat.com#1]. 연구진은 이번 실험이 최초의 사례라고 설명하며, 향후 인류의 우주 여행에 잠재적 위험이 될 수 있다는 의문을 제기했다[404media.co#1]. 이 기사들은 이번 연구 결과가 미토콘드리아 및 에너지 생성과 관련이 있으며, 파킨슨병과 알츠하이머병 치료법에 시사하는 바가 있을 수 있다고 설명했다[discovermagazine.com#1][404media.co#1].",
+      "primary_image.caption": "지구 자기장 일러스트레이션"
+    }
+  },
   "stats": {
     "storyCount": 12,
-    "translated": 0,
+    "translated": 1,
     "failedStoryIds": [
       {
         "id": "5296b1b1-a98b-40c3-84b7-9c2834e4093d",
@@ -43,10 +49,6 @@
         "reason": "retry_exhausted"
       },
       {
-        "id": "6960e48c-96fe-4643-80b2-af36e10263b1",
-        "reason": "retry_exhausted"
-      },
-      {
         "id": "d7b5df94-a9ed-4006-94e6-e6fd57752aee",
         "reason": "retry_exhausted"
       },
@@ -60,8 +62,8 @@
       }
     ],
     "tokens": {
-      "in": 0,
-      "out": 0
+      "in": 480,
+      "out": 308
     }
   }
 }

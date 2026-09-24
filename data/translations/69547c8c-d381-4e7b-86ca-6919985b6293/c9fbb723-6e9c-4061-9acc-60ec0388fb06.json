@@ -4,11 +4,91 @@
   "categoryUuid": "c9fbb723-6e9c-4061-9acc-60ec0388fb06",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-24T15:10:13.144Z",
-  "stories": {},
+  "createdAt": "2026-09-24T15:38:43.103Z",
+  "stories": {
+    "413dacd4-4b72-4abe-834a-fb6fb437e9ee": {
+      "title": "마이크로소프트, 스냅드래곤 X2 플러스 탑재한 소형 서피스 PC 신제품 공개",
+      "short_summary": "마이크로소프트는 9월 23일 퀄컴 스냅드래곤 서밋에서 2세대 12인치 서피스 프로와 13인치 서피스 랩톱 모델을 발표했다. 두 제품 모두 퀄컴의 6코어 스냅드래곤 X2 플러스 프로세서를 탑재했다[computerbase.de#1]. 마이크로소프트는 이 칩이 이전 세대 대비 오피스 성능은 최대 17%, 그래픽 성능은 60% 이상, 배터리 효율은 최대 18%, 온디바이스 AI 처리 속도는 95% 향상됐다고 밝혔다. 신형 컴퓨터는 기존 디자인을 유지하며 10월 13일부터 일부 시장에서 판매된다. 서피스 프로는 1,149.99달러, 서피스 랩톱은 1,199.99달러부터 시작한다[windows.com#1][mobilesyrup.com#1][mashable.com#1]. 두 기기 모두 이전 모델보다 25% 더 밝아진 500니트 밝기의 터치스크린을 탑재했다[9to5google.com#1][cnet.com#1]. 마이크로소프트는 또한 햅틱 피드백과 사용자 지정 가능한 액션 버튼을 갖춘 새로운 서피스 마우스를 다음 달 출시한다고 발표했다[theverge.com#2].",
+      "did_you_know": "마이크로소프트의 새로운 서피스 마우스는 2016년 오리지널 모델이 처음 출시된 이후 10년 만에 선보이는 독립형 서피스 마우스 업데이트 제품이다[windowscentral.com#2].",
+      "quote_attribution": "마이크로소프트 윈도우 블로그",
+      "historical_background": "마이크로소프트는 2025년 5월 첫 12인치 서피스 프로와 13인치 서피스 랩톱을 출시했다[computerbase.de#1]. 더 큰 크기의 서피스 프로와 서피스 랩톱 모델은 소형 버전이 새로워지기 전인 2026년 초에 이미 스냅드래곤 X2 업그레이드를 받은 바 있다[cnet.com#1][9to5google.com#1].",
+      "business_angle_text": "해당 기사들은 판매 전망, 마진 데이터, 혹은 이들 기기에 대한 독립적인 테스트 결과를 제공하지 않아 재무적 영향은 불분명하다[windows.com#1][theverge.com#1].",
+      "talking_points[0]": "5G 옵션: 12인치 서피스 프로에는 마이크로소프트에 가장 많이 요청된 추가 기능 중 하나인 5G 구성 옵션이 제공될 예정이다[9to5google.com#1].",
+      "talking_points[1]": "메모리 옵션: 신형 모델은 16GB RAM부터 시작하며 24GB 구성도 제공하여 8GB 옵션을 없앴다. 저장 공간은 256GB 또는 512GB 구성으로 제공된다[digitaltrends.com#2][9to5google.com#1].",
+      "talking_points[2]": "펜 기능: 마이크로소프트 잉크 캔버스(Microsoft Ink Canvas)는 AI 기반 펜 기능이다[mobilesyrup.com#1].",
+      "technical_details[0]": "신경망 처리 장치(NPU): 스냅드래곤 X2 플러스에는 80-TOPS 성능의 헥사곤(Hexagon) NPU가 포함되어 있다[tomshardware.com#1][mobilesyrup.com#1].",
+      "business_angle_points[0]": "서피스 프로의 새로운 시작 가격은 이전 모델의 초기 시작가보다 350달러 높고, 랩톱은 300달러 더 높아 구매자들의 가격 부담이 커졌다[theverge.com#1].",
+      "perspectives[0].text": "마이크로소프트: 윈도우 AI 경험은 PC, 클라우드 서비스 또는 두 가지를 모두 사용하여 지연 시간을 줄이고 클라우드 호출 의존도를 낮추는 동시에, 지원되는 작업에 대해서는 데이터를 기기 내에 유지할 수 있다고 밝혔다[windows.com#1].",
+      "perspectives[1].text": "디지털 트렌드(Digital Trends) 리뷰어: 어피니티(Affinity), 다빈치 리졸브(DaVinci Resolve), 파워포인트 전반에 걸친 시연에서 햅틱 피드백은 사용자가 개체를 정렬하거나, 항목을 제자리에 고정하거나, 타임라인을 스크러빙할 때 촉각적인 진동을 전달했다[digitaltrends.com#1].",
+      "suggested_qna[0].question": "서피스 프로의 표시된 시작 가격에 키보드가 포함되어 있습니까?",
+      "suggested_qna[0].answer": "아니요. 서피스 프로 키보드는 별도로 판매되며, 엔가젯(Engadget)은 이를 150달러로 기재했다[engadget.com#1].",
+      "suggested_qna[1].question": "13인치 서피스 랩톱의 동영상 재생 시간은 어느 정도입니까?",
+      "suggested_qna[1].answer": "마이크로소프트는 해당 랩톱의 동영상 재생 시간을 최대 22.5시간으로 명시하고 있다[hardwarezone.com.sg#1].",
+      "primary_image.caption": "서피스 프로 12인치(2026) 및 서피스 랩톱(2026)"
+    },
+    "866118c6-62d9-48d4-a698-9890c4acc9d5": {
+      "title": "퀄컴, 스냅드래곤 X2 노트북에 리눅스 지원 확대",
+      "short_summary": "퀄컴은 9월 23일 하와이에서 열린 스냅드래곤 서밋에서 스냅드래곤 X2 노트북 프로세서에 대한 공식 리눅스 지원을 제공할 것이라고 발표했다. 퀄컴이 가장 먼저 지원할 배포판은 데비안(Debian)으로, 2026년 말까지 기반 지원을 완료하는 것을 목표로 한다. 또한 퀄컴과 캐노니컬(Canonical)은 2027년 상반기 내 우분투(Ubuntu) 인증을 목표로 협력 중이다. 이번 계획은 X2 칩에만 해당하며, 이전 세대인 스냅드래곤 X1은 포함되지 않는다 [digitimes.com#1][computerbase.de#1][ithome.com#1]. 퀄컴은 커스텀 리눅스 커널과 데비안 13 사용자 공간을 기반으로 한 초기 개발자 프리뷰를 공개했다. 이 프리뷰는 일반 소비자용이 아닌 개발자를 위한 것이며, 퀄컴은 전력 관리, 발열, 신뢰성 부문에서 추가 작업이 필요하다고 밝혔다 [phoronix.com#1][ithome.com#1][howtogeek.com#1].",
+      "quote": "가장 많은 요청을 받았던 기능 중 하나가 이제 현실이 되었습니다. 스냅드래곤 X2 시리즈가 윈도우와 구글북에 이어 세 번째 운영체제인 리눅스로 확장됩니다.",
+      "quote_attribution": "GamingOnLinux",
+      "historical_background": "컴퓨터베이스(ComputerBase)는 노트북 제조사 턱시도(Tuxedo)가 18개월간의 개발 난항 끝에 1세대 스냅드래곤 X 지원 노력을 포기했다고 보도했다 [computerbase.de#1].",
+      "talking_points[0]": "하드웨어 활성화: 이번 프리뷰는 시스템 부팅, USB 및 PCIe I/O, 프리드레노(Freedreno) 및 터닙(Turnip) 드라이버를 통한 아드레노(Adreno) 그래픽, 그리고 FastRPC를 통한 헥사곤(Hexagon) NPU 접근을 지원한다 [phoronix.com#1][ithome.com#1].",
+      "talking_points[1]": "커널 업스트리밍: 퀄컴은 스냅드래곤 X2를 위한 핵심 드라이버와 하드웨어 활성화 코드를 메인라인 리눅스 커널에 기여하고 있다 [gamingonlinux.com#1][computerbase.de#1].",
+      "talking_points[2]": "노트북 파트너: 에이수스(ASUS)는 자사의 스냅드래곤 X2 젠북(Zenbook) A14 및 A16 모델을 우분투 지원 기기로 계획하고 있으며, 2027년 상반기에 지원이 예상된다고 밝혔다 [ithome.com#1].",
+      "technical_details[0]": "메사(Mesa) 개발: 퀄컴의 아드레노 그래픽 작업에는 러스트클(Rusticl) 지원 개발도 포함된다 [phoronix.com#1].",
+      "technical_details[1]": "커널 통합: 퀄컴은 기본적인 하드웨어 활성화 작업의 상당 부분이 이미 업스트림에 반영되었으며, 2026년 11월경 추가 통합이 이루어질 것으로 예상한다고 밝혔다 [ithome.com#1].",
+      "industry_impact[0]": "리눅스 배포판: IT지아(IT之家)가 설명한 초기 지원 계획에는 레드햇(Red Hat)과 스팀OS(SteamOS)가 포함되지 않았다 [ithome.com#1].",
+      "industry_impact[1]": "PC 제조사: HP와 휴메인(HUMAIN) 또한 리눅스를 지원하는 스냅드래곤 X2 기기를 계획 중인 파트너로 언급되었다 [ithome.com#1].",
+      "perspectives[0].text": "포로닉스(Phoronix): X2를 둘러싼 퀄컴의 리눅스 및 오픈소스 활동은 X1 때보다 눈에 띄게 증가했으며, 여기에는 X2 기반 노트북 지원을 위한 최근의 작업들이 포함된다 [phoronix.com#1].",
+      "timeline[0].content": "퀄컴은 2025년 서밋에서 스냅드래곤 X2 엘리트(Elite)를 공개했다 [androidheadlines.com#1].",
+      "timeline[1].content": "퀄컴은 리눅스 지원을 발표하고 개발자 프리뷰를 시연했다 [phoronix.com#1][ithome.com#1].",
+      "timeline[2].content": "퀄컴은 연말까지 데비안 기반 지원 완료를 목표로 한다 [howtogeek.com#1][ithome.com#1].",
+      "timeline[3].content": "퀄컴과 캐노니컬은 우분투 인증을 목표로 한다 [computerbase.de#1][ithome.com#1].",
+      "primary_image.caption": "스냅드래곤 X2 엘리트 프로세서"
+    },
+    "f29df004-c680-4a1b-bff8-5acd0357eeb4": {
+      "title": "샤오미, 2nm 스냅드래곤 칩 탑재한 18 프로 시리즈 출시",
+      "short_summary": "샤오미는 9월 23일 중국에서 샤오미 18 프로와 18 프로 맥스를 출시했다. 프로 모델에는 퀄컴의 스냅드래곤 8 엘리트 젠 6가, 프로 맥스에는 8 엘리트 익스트림 젠 6가 탑재되었으며 두 칩 모두 2나노미터 공정으로 제작되었다. 가격은 프로가 5,999위안, 프로 맥스가 6,999위안부터 시작한다. 각 제품의 배터리 용량은 7,000mAh와 8,500mAh이다 [technode.com#1][intomobile.com#2][cnet.com#1][ubergizmo.com#1][cnyes.com#1]. 두 모델은 라이카 브랜드의 후면 카메라 시스템을 공유하며, 2억 화소 메인 및 잠망경 망원 카메라와 5억 화소 초광각 카메라를 갖췄다. 또한 전면에는 하드웨어 프라이버시 디스플레이가, 후면에는 OLED 화면이 탑재되었다. 샤오미는 후면 화면에서 AI 생성 도구와 애플리케이션을 사용할 수 있다고 밝혔다 [androidauthority.com#1][androidheadlines.com#1][9to5google.com#1][klix.ba#1][ensonhaber.com#1].",
+      "location": "중국 베이징 [cnyes.com#1]",
+      "historical_background": "샤오미 17 시리즈는 약 613만 대가 판매되었다. 프로 모델이 전체 판매량의 거의 80%를 차지했으며, 17 프로 맥스는 40% 이상을 차지했다 [ifanr.com#1].",
+      "talking_points[0]": "프라이버시 제어: 프라이버시 디스플레이는 전면 카메라가 화면을 보는 사람을 감지하거나, 혼잡한 공공장소와 같은 위치 기반 규칙을 통해 활성화될 수 있다 [9to5google.com#1][nextapple.com#1][androidheadlines.com#1].",
+      "talking_points[1]": "카메라 초점: 2억 화소 잠망경 망원 카메라는 3.2배 광학 줌을 제공하며 12cm 거리에서의 근접 촬영을 지원한다 [nextapple.com#1][cnyes.com#1].",
+      "talking_points[2]": "충전 및 내구성: 두 모델 모두 최대 100W 유선 및 50W 무선 충전을 지원하며 IP69 등급의 방진·방수 기능을 갖췄다 [ubergizmo.com#1][nextapple.com#1].",
+      "talking_points[3]": "레드 에디션: 레드 투명 스페셜 에디션은 마이크론 단위의 필름 마감과 맞춤형 배경화면을 사용하지만, 내부 하드웨어는 표준 모델과 동일하다 [intomobile.com#1][canaltech.com.br#2].",
+      "technical_details[0]": "프라이버시 픽셀 아키텍처: 샤오미의 하드웨어 관련 보고서에 따르면 일반 픽셀과 함께 빛을 제한하는 프라이버시 픽셀이 사용된다. 프라이버시 모드는 일반 픽셀을 끄고 프라이버시 픽셀을 사용하여 전체 RGB 배열을 유지하면서 측면 시야를 제한한다 [cnyes.com#1].",
+      "technical_details[1]": "잠망경 광학 장치: 망원 모듈은 1/1.56인치 센서와 75mm 환산 초점 거리를 사용한다 [cnyes.com#1][nextapple.com#1].",
+      "perspectives[0].text": "샤오미는 안드로이드 헤드라인(Android Headlines)에 더 큰 프로 맥스 모델이 물리적으로 더 큰 익스트림 칩을 수용하고 냉각을 위한 더 많은 공간을 제공할 수 있다고 설명했다. 또한 칩의 메모리는 프로세서 바로 위에 적층되는 대신 프로세서와 분리되어 배치되었다 [androidheadlines.com#2].",
+      "perspectives[1].text": "루 웨이빙(Lu Weibing) 샤오미 사장은 진정한 AI 네이티브 폰이 일상적으로 사용되기까지는 아직 멀었다고 언급하며, 18 프로 시리즈는 AI로 스마트폰을 재편하려는 샤오미 노력의 종착점이 아닌 시작점이라고 설명했다 [cnyes.com#1].",
+      "suggested_qna[0].question": "이 휴대폰들이 미국에서 판매될 예정인가?",
+      "suggested_qna[0].answer": "씨넷(CNET)은 샤오미가 2026년 말 이전에 글로벌 출시를 계획하고 있으나, 미국에서는 판매되지 않을 것이라고 보도했다 [cnet.com#1].",
+      "primary_image.caption": "손에 들려 있는 샤오미 18 프로",
+      "secondary_image.caption": "샤오미 18 프로 및 프로 맥스 레드 투명 스페셜 에디션"
+    },
+    "c5e68b64-0f79-45ef-b750-a84624aee6c0": {
+      "title": "삼성전자, 스마트 냉장고 업데이트 오류로 배포 중단",
+      "short_summary": "삼성전자가 일부 스마트 냉장고에서 전원 꺼짐, 화면 기능 마비, 냉각 중단 등의 문제가 발생함에 따라 한국 내 스마트싱스(SmartThings) 소프트웨어 업데이트 배포를 중단했다. 삼성전자는 테스트용 내부 소프트웨어가 고객에게 잘못 전달되는 오류가 있었다고 밝혔으며, 냉장고 작동 중단으로 인해 음식물이 부패했다는 사용자들의 신고가 잇따랐다. 이번 문제는 2024년형 모델을 포함한 비스포크 AI 4도어 냉장고에서 주로 발생했다[androidauthority.com#1][cnet.com#1][arstechnica.com#1][itc.ua#1]. 삼성전자는 서비스 센터를 통해 긴급 조치를 취하고 있다고 밝혔다. 이번 오류는 추석 연휴 직전인 9월 22일 업데이트 이후 발생해, 명절을 앞두고 음식을 준비해 둔 많은 가정에 피해를 주었다[androidauthority.com#1][cnet.com#1][dunya.com#1].",
+      "talking_points[0]": "기타 오작동: 일부 사용자들은 자동 문 열림 기능이 작동하지 않거나 내부 조명이 켜지지 않는 현상도 보고했다[androidauthority.com#1][itc.ua#1].",
+      "talking_points[1]": "서비스 대응: 삼성전자는 음식물이 부패한 고객들에 대한 보상을 검토 중이라고 밝혔다[habr.com#1][dunya.com#1].",
+      "user_action_items[0]": "냉각이 중단된 냉장고 속 음식물 보호: 서비스 기사 방문을 예약하는 동안 상하기 쉬운 음식은 작동 중인 다른 냉장고나 아이스박스로 옮겨야 한다. 삼성전자는 피해를 입은 고객들에게 엔지니어 방문을 신청할 것을 권고했다[itc.ua#1].",
+      "primary_image.caption": "삼성전자 비스포크 AI 냉장고 홍보 이미지."
+    },
+    "9cfc261a-7279-437a-8c38-8d434e9b9ee7": {
+      "title": "애플의 신형 Mac mini, 납땜형 SSD 채택으로 기본 모델 속도 저하",
+      "short_summary": "애플은 9월 22일부터 M6 및 M5 Pro 프로세서를 탑재한 2026년형 Mac mini 모델의 배송을 시작했다. 분해 결과 두 모델 모두 NAND 스토리지가 로직 보드에 직접 납땜되어 있어, 사용자가 구매 후 내부 SSD를 교체하거나 업그레이드할 수 없는 것으로 확인되었다[macworld.com#2][macworld.com#1][macrumors.com#2][ifun.de#1]. M6 Mac mini의 시작 가격은 899달러로, 이전 세대의 599달러와 비교된다[macworld.com#3].",
+      "historical_background": "M1 및 M2 칩을 탑재한 Mac mini 모델들 역시 NAND 스토리지가 로직 보드에 납땜되어 있었다[macwelt.de#2]. M4 및 M4 Pro 세대는 별도의 탈착식 스토리지 모듈을 사용하여 서드파티 공급업체들이 교체용 모듈을 판매할 수 있었다[macworld.com#1][ifun.de#1].",
+      "talking_points[0]": "Blackmagic Disk Speed Test 측정 결과, 256GB M6 모델의 읽기 속도는 3,216.8 MB/s, 쓰기 속도는 3,000.2 MB/s로 나타났으며, 이는 512GB 모델의 읽기 6,371.5 MB/s, 쓰기 6,577.4 MB/s와 비교된다[macerkopf.de#2].",
+      "industry_impact[0]": "서드파티 업그레이드 업체: 납땜형 설계는 M4 Mac mini 시절 형성되었던 탈착식 모듈 시장을 소멸시킨다. Expand Mac mini 측은 자사 모듈을 신형 모델에 맞게 조정하는 것은 어려울 것으로 보인다고 밝혔다[ifun.de#1][macerkopf.de#1].",
+      "perspectives[0].text": "Macwelt의 리뷰어 제이슨 크로스(Jason Cross)는 M5 Pro가 강력한 성능을 제공하지만, 성능 향상 폭보다 가격 인상 폭이 더 크다고 평가했다. 그는 변함없는 디자인과 기능이 가치 하락을 상쇄하지 못한다고 지적했다[macwelt.de#1].",
+      "perspectives[1].text": "애플은 M6 Mac mini가 이전 대비 최대 40% 더 빠른 CPU 성능, 4배 더 빠른 AI 작업 성능, 2배 더 빠른 그래픽 성능을 제공한다고 밝혔다[macrumors.com#1].",
+      "timeline[0].content": "애플, M6 및 M5 Pro Mac mini 모델 발표[macworld.com#2][macworld.com#3]",
+      "timeline[1].content": "신형 Mac mini 모델 고객 배송 시작[macworld.com#3]",
+      "timeline[2].content": "분해 및 초기 SSD 속도 테스트를 통해 스토리지 변경 사항 상세 공개[macworld.com#1][macerkopf.de#2]",
+      "primary_image.caption": "M5 Pro를 탑재한 2026년형 Mac mini 근접 촬영"
+    }
+  },
   "stats": {
     "storyCount": 12,
-    "translated": 0,
+    "translated": 5,
     "failedStoryIds": [
       {
         "id": "ee280556-aa59-4003-93ae-115267a7a5a5",
@@ -27,19 +107,7 @@
         "reason": "retry_exhausted"
       },
       {
-        "id": "413dacd4-4b72-4abe-834a-fb6fb437e9ee",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "866118c6-62d9-48d4-a698-9890c4acc9d5",
-        "reason": "retry_exhausted"
-      },
-      {
         "id": "d68839e0-674b-4d64-ac4a-4ffb0f03b739",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "f29df004-c680-4a1b-bff8-5acd0357eeb4",
         "reason": "retry_exhausted"
       },
       {
@@ -49,19 +117,11 @@
       {
         "id": "d1369cd2-8551-42a7-aebf-7635e36608ad",
         "reason": "retry_exhausted"
-      },
-      {
-        "id": "c5e68b64-0f79-45ef-b750-a84624aee6c0",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "9cfc261a-7279-437a-8c38-8d434e9b9ee7",
-        "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 0,
-      "out": 0
+      "in": 5295,
+      "out": 5958
     }
   }
 }

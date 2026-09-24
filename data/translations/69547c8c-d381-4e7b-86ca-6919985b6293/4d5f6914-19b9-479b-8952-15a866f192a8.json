@@ -4,16 +4,32 @@
   "categoryUuid": "4d5f6914-19b9-479b-8952-15a866f192a8",
   "categorySlug": "ai",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-24T15:15:08.695Z",
-  "stories": {},
+  "createdAt": "2026-09-24T15:43:38.140Z",
+  "stories": {
+    "0387676b-5c57-4c76-85a8-3e873de29e59": {
+      "title": "메타, '뮤즈 참' 공개 및 AI 안경 라인업 확대",
+      "short_summary": "메타(Meta)는 9월 23일 멘로파크에서 열린 커넥트(Connect) 행사에서 자사의 '뮤즈(Muse)' AI 비서에 빠르게 접근할 수 있도록 설계된 소형 휴대용 기기 '뮤즈 참(Muse Charm)'을 선보였다. 메타는 이 기기가 12월에 출시될 예정이라고 밝혔으나 가격은 공개하지 않았다. 약 2인치 크기의 터치스크린과 5G 통신 기능을 내장하고 있다 [deccanchronicle.com#1]. 또한 메타는 349달러부터 시작해 10월 13일 출시 예정인 첫 카메라 없는 스마트 안경 '레이밴 메타 오디오(Ray-Ban Meta Audio)'와 2027년 봄 출시 예정인 1,299달러 상당의 '메타 VR 글래스(Meta VR Glasses)'를 발표했다 [9to5mac.com#1][koreatimes.co.kr#1]. 메타는 뮤즈를 스마트 안경에 탑재할 계획이며 새로운 기능과 서비스 통합을 발표했다 [techcrunch.com#1][cna.com.tw#1].",
+      "did_you_know": "메타와 안경 파트너사인 에실로룩소티카(EssilorLuxottica)는 1년 동안 700만 대 이상의 메타 안경을 판매했다 [9to5mac.com#1].",
+      "quote": "우리는 실시간 음성 및 아바타 스택 전체를 포함한 뮤즈의 모든 경험을 열쇠고리에 들어갈 만큼 작고 언제든 대화할 수 있는 기기에 담았습니다.",
+      "quote_attribution": "데칸 크로니클(Deccan Chronicle)",
+      "location": "미국 캘리포니아주 멘로파크",
+      "historical_background": "메타는 2023년 카메라가 장착된 레이밴 메타 안경을 출시하며 AI 기반 아이웨어 분야에서의 사업을 확장했다 [techcrunch.com#3].",
+      "business_angle_text": "메타의 기기 전략은 자체 AI 비서를 일상생활에 도입할 수 있는 더 많은 방법을 제공하지만, 참(Charm)의 재무적 타당성을 평가하기는 아직 어렵다. 메타는 가격을 공개하지 않았으며 제품은 여전히 최종 마무리 단계에 있다 [techcrunch.com#2][pcmag.com#1].",
+      "talking_points[0]": "소매업체 통합: 메타는 월마트(Walmart), 베스트바이(Best Buy), 갭(Gap)을 포함한 소매업체 및 서비스와의 연결 기능을 추가했다. 뮤즈는 권한이 부여되면 맥(Mac)에서 앱을 제어할 수 있다 [cna.com.tw#1][digitaltrends.com#1].",
+      "talking_points[1]": "3세대 하드웨어: 레이밴 메타 3세대는 최대 9시간의 배터리 수명을 제공하며, 메타는 6개의 마이크 배열을 통해 배경 소음을 90% 이상 줄였다고 밝혔다 [pcmag.com#2].",
+      "talking_points[2]": "에이전트 제한: 아마존(Amazon)은 메타가 자사 사이트에서 뮤즈 봇을 사용해 자동으로 쇼핑하는 것을 차단했으며, 인스타카트(Instacart), 쇼피파이(Shopify), 익스피디아(Expedia)는 통합을 발표했다 [deccanchronicle.com#2].",
+      "perspectives[0].text": "마크 저커버그(Mark Zuckerberg) 메타 CEO는 뮤즈가 언젠가 수십억 명이 사용하는 초지능이 될 것으로 기대한다고 말했다 [mashable.com#3].",
+      "perspectives[1].text": "개인정보 보호 비평가들은 안경에서 카메라를 제거하더라도 오디오 전용 모델이 여전히 소리를 녹음하고 녹음 표시등이 없기 때문에 개인정보 보호 문제를 해결하지 못할 수 있다고 지적했다 [cna.com.tw#1].",
+      "timeline[0].content": "메타, 첫 대화형 스마트 안경 출시 [deccanchronicle.com#2]",
+      "timeline[1].content": "메타, 개인용 AI 에이전트 '뮤즈' 출시 [techcrunch.com#1]",
+      "timeline[2].content": "메타, 커넥트 행사에서 뮤즈 참 및 신형 안경 발표 [techcrunch.com#2][techcrunch.com#3]",
+      "primary_image.caption": "메타의 휴대용 AI 기기 '뮤즈 참'"
+    }
+  },
   "stats": {
     "storyCount": 9,
-    "translated": 0,
+    "translated": 1,
     "failedStoryIds": [
-      {
-        "id": "0387676b-5c57-4c76-85a8-3e873de29e59",
-        "reason": "retry_exhausted"
-      },
       {
         "id": "f336b1b5-9239-4dfc-8a28-383d98f35535",
         "reason": "retry_exhausted"
@@ -48,8 +64,8 @@
       }
     ],
     "tokens": {
-      "in": 0,
-      "out": 0
+      "in": 1094,
+      "out": 1318
     }
   }
 }
