@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "batchId": "69547c8c-d381-4e7b-86ca-6919985b6293",
+  "categoryUuid": "a5e167fc-6c8a-45db-9e4f-ed686ae6f2ef",
+  "categorySlug": "business",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-09-24T15:07:24.064Z",
+  "stories": {},
+  "stats": {
+    "storyCount": 12,
+    "translated": 0,
+    "failedStoryIds": [
+      {
+        "id": "022159c6-5a69-441b-891a-faeee43720c4",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "b05ecdd1-21b2-4728-9180-2d7986925164",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "996094d6-b2fb-4cb6-adc1-5f0a4171e4e6",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "f6a95f72-1cef-4b09-8af0-a3196541e2de",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "05ccdda3-ef69-4716-8cea-7b9de6a3b045",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "c0c9ab09-64ab-40fb-abfa-ffd0616476c2",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "7effe709-572a-4556-b989-3a1584cb1495",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "60a9cb5c-9ac9-40d6-b6cc-15ce2e138ac5",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "951fd0fe-f26e-4a9c-acf2-c6deee4ba74b",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "433a4919-123a-46fb-a380-58397e1c1548",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "6c466982-4017-4f64-80de-c6cb41606d69",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "5dd3d36d-d880-4e9d-875c-a11582baf335",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 0,
+      "out": 0
+    }
+  }
+}
