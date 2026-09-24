@@ -4,16 +4,29 @@
   "categoryUuid": "10343953-c8ca-4f5d-baf9-800d2af4c3cb",
   "categorySlug": "usa",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-24T18:23:15.438Z",
-  "stories": {},
+  "createdAt": "2026-09-24T19:42:32.101Z",
+  "stories": {
+    "f20ad79d-2080-4a41-9e16-279b4df3092d": {
+      "title": "법원, 백악관에 3개 언론사 출입 권한 복구 명령",
+      "short_summary": "티모시 켈리(Timothy Kelly) 미 연방 지방법원 판사는 9월 24일 목요일, 트럼프 행정부에 CNN, MS NOW, 폴리티코(Politico)의 백악관 출입 권한을 복구할 것을 명령하고 14일간 해당 금지 조치를 집행하지 못하도록 했다. 이번 임시 접근 금지 명령은 이들 3개 언론사가 자사 기자들의 출입증 취소가 헌법상 보호를 위반했다고 주장하며 월요일 소송을 제기한 데 따른 것이다 [npr.org#1][cbsnews.com#1][thehill.com#1]. 트럼프 대통령은 9월 18일 해당 금지 조치를 발표하며, 초기에는 이들 언론사의 부정적이고 허위적인 보도를 비판했다. 이후 법무부 변호인들은 해당 보도가 국가 안보 문제를 야기했다고 주장했다. 켈리 판사는 기자들이 출입증 박탈에 대해 통보받거나 이의를 제기할 기회를 얻지 못했다고 지적하며, 국가 안보라는 명분이 기록상 타당한지 의문을 제기했다 [npr.org#1][cbsnews.com#4][theguardian.com#1].",
+      "quote_attribution": "NPR",
+      "location": "미국 워싱턴 DC",
+      "historical_background": "2018년, 티모시 켈리 판사는 유사한 분쟁에서 백악관에 CNN 기자의 출입 권한을 복구하라고 명령한 바 있다 [timescolonist.com#1][business-standard.com#1]. 해당 사건은 켈리 판사가 백악관 상시 출입증(hard pass)을 가진 기자들에게 부여되는 절차적 보호를 고려할 때 인용한 워싱턴 DC 순회법원의 판례 중 하나였다 [cbsnews.com#2][reason.com#1].",
+      "talking_points[0]": "법무부의 품행 관련 주장: 법무부는 또한 해당 언론사 기자들이 \"전문성과 예의\"를 갖추지 못했다고 주장했다 [cbsnews.com#4][nytimes.com#3].",
+      "talking_points[1]": "켈리 판사는 해당 언론사들이 별도로 제기한 수정헌법 제1조 관련 주장에 대해서는 판단을 내리지 않았다 [reason.com#1].",
+      "perspectives[0].text": "미 법무부: 법무부는 법원 제출 서류를 통해 백악관 출입은 특권이며, 대통령은 설령 그 결정에 관점 차별이 포함되더라도 기자들의 보호 구역 접근을 제한할 수 있다고 주장했다 [thenews.com.pk#3].",
+      "perspectives[1].text": "언론사 측 변호인 시어도어 부트로스 주니어(Theodore Boutrous Jr.): 판결 이후 부트로스는 이번 판결이 언론의 자유, 적법 절차, 법치주의에 대한 강력한 정당성 입증이라고 평가하며 신속하게 대응해 준 법원에 감사를 표했다 [dw.com#1].",
+      "timeline[0].content": "트럼프 대통령, 3개 언론사에 대한 금지 조치 발표 [theguardian.com#1][nypost.com#1]",
+      "timeline[1].content": "CNN, MS NOW, 폴리티코 공동 소송 제기 [cbsnews.com#1][reason.com#1]",
+      "timeline[2].content": "켈리 판사, 변론 청취했으나 법정에서 즉각 판결 내리지 않음 [pbs.org#1][cbsnews.com#2]",
+      "timeline[3].content": "켈리 판사, 언론 출입 권한 복구를 위한 14일간의 접근 금지 명령 발령 [npr.org#1][cbsnews.com#1]",
+      "primary_image.caption": "2026년 9월 18일, 트럼프 대통령이 CNN, MS NOW, 폴리티코에 대한 금지 조치를 발표한 후 백악관 내 CNN 부스 모습."
+    }
+  },
   "stats": {
     "storyCount": 12,
-    "translated": 0,
+    "translated": 1,
     "failedStoryIds": [
-      {
-        "id": "f20ad79d-2080-4a41-9e16-279b4df3092d",
-        "reason": "retry_exhausted"
-      },
       {
         "id": "c08df28e-9962-45a4-854a-c097ebbe9d1b",
         "reason": "retry_exhausted"
@@ -60,8 +73,8 @@
       }
     ],
     "tokens": {
-      "in": 0,
-      "out": 0
+      "in": 1019,
+      "out": 1168
     }
   }
 }

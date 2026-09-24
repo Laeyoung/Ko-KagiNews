@@ -1,7 +1,7 @@
 {
   "version": 1,
   "batchId": "69547c8c-d381-4e7b-86ca-6919985b6293",
-  "updatedAt": "2026-09-24T18:32:53.533Z",
+  "updatedAt": "2026-09-24T19:52:12.184Z",
   "categories": {
     "654d9db7-583a-463e-a037-34fb705daa4c": {
       "slug": "science",
@@ -18,11 +18,11 @@
       "slug": "usa",
       "status": "ok",
       "storyCount": 12,
-      "translated": 0,
-      "failed": 12,
+      "translated": 1,
+      "failed": 11,
       "tokens": {
-        "in": 0,
-        "out": 0
+        "in": 1019,
+        "out": 1168
       }
     },
     "4d5f6914-19b9-479b-8952-15a866f192a8": {
@@ -75,8 +75,8 @@
   },
   "run": {
     "attempted": 61,
-    "failed": 61,
-    "failureRatePct": 100,
+    "failed": 60,
+    "failureRatePct": 98.36065573770492,
     "unresolvedSlugs": []
   }
 }
