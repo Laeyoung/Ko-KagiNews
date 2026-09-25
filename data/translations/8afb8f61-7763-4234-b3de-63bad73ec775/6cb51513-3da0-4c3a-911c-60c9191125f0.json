@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "batchId": "8afb8f61-7763-4234-b3de-63bad73ec775",
+  "categoryUuid": "6cb51513-3da0-4c3a-911c-60c9191125f0",
+  "categorySlug": "science",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-09-25T15:14:19.321Z",
+  "stories": {
+    "885f86bf-8b27-4801-ab70-d0bf5f8dc233": {
+      "title": "기록적인 태평양 엘니뇨, 45만 1천 명의 온열 질환 사망자 유발 가능성",
+      "short_summary": "적도 태평양의 해수면 온도가 9월 평년보다 3.05°C 높아지며 엘니뇨 현상으로 기록된 수치 중 가장 높은 편차를 보였으며, 이는 예상 정점기에 도달하기 수개월 전에 나타난 결과이다. 해당 현상은 6월에 공식 선언되었으며, 세계기상기구(WMO)는 2027년 초에 정점에 이를 것으로 전망하고 있다 [timeslive.co.za#1][humenglish.com#1][sciencenews.org#1][africanews.com#1]. 기후영향연구소(Climate Impact Lab)의 분석에 따르면, 이번 현상과 관련된 폭염으로 인해 2026년 6월부터 2027년 2월까지 전 세계적으로 평년 대비 45만 1천 명의 초과 사망자가 발생할 수 있을 것으로 추정된다. 이 수치는 이미 기록된 사망자 수가 아닌 예측치이며, 화재, 홍수, 가뭄으로 인한 추가 사망자가 아닌 온열 질환 관련 사망만을 다룬다. 과학자들은 폭염이 2월 이후에도 지속될 수 있다고 경고한다 [africanews.com#1][ntvkenya.co.ke#1][smithsonianmag.com#1].",
+      "quote_attribution": "NTV 케냐(NTV Kenya)",
+      "talking_points[0]": "폭염 일수 증가: 기후영향연구소는 평년보다 극심한 폭염 일수가 약 44% 증가할 것으로 전망한다 [ntvkenya.co.ke#1][minutemirror.com.pk#1].",
+      "talking_points[1]": "사헬 지역 노출: 연구진은 9월부터 2월까지 사헬 지역 전역에서 6만 6,800명의 추가 온열 질환 사망자가 발생할 것으로 추정하며, 여기에는 나이지리아 3만 1,400명, 수단 1만 7,600명, 니제르 1만 명, 차드 8,000명이 포함된다 [ntvkenya.co.ke#1][allafrica.com#1].",
+      "talking_points[2]": "예보 용어: 세계기상기구(WMO)는 이번 현상이 '매우 강력한(very strong)' 수준이 될 것으로 예상하며, '슈퍼(super)'는 공식 분류 명칭이 아니라고 설명한다 [estcurier.md#1][suomenkuvalehti.fi#1].",
+      "perspectives[0].text": "빅토리아 대학교(Victoria University)의 기후 과학자 제임스 렌윅(James Renwick)은 다가오는 6개월을 '매우 위험한 상황'이라고 묘사하며, 엘니뇨가 기후 변화로 인해 20년 뒤에나 나타날 것으로 예상되는 수준의 기온을 가져올 수 있다고 말했다 [rnz.co.nz#1].",
+      "perspectives[1].text": "기후학자 지크 하우스파더(Zeke Hausfather)는 13개의 역학 기후 모델 예측을 결합하여 영향 지도를 작성했다. 그는 이러한 예측이 확실한 것은 아니며 엘니뇨의 영향은 다양하게 나타날 수 있다고 경고했다 [gizmodo.com#1].",
+      "perspectives[2].text": "필리핀 기상청(PAGASA)은 즉각적인 보존 및 완화 조치를 촉구하며, 강수량 부족이 농업, 상수도, 에너지 생산 및 공중 보건에 부담을 줄 수 있다고 경고했다. 또한 몬순 비와 열대성 저기압으로 인해 국지적인 폭우가 발생할 가능성은 여전히 남아 있다고 밝혔다 [manilatimes.net#1].",
+      "primary_image.caption": "말라붙은 들판이 엘니뇨와 관련된 가뭄 상황을 보여주고 있다."
+    },
+    "c270659a-7905-4f74-802c-366776135bef": {
+      "title": "스탠퍼드대 연구, 뇌 영역이 두 가지 발달 계통을 따른다는 사실 규명",
+      "short_summary": "네이처 뉴로사이언스(Nature Neuroscience)에 게재된 스탠퍼드대 주도 연구에 따르면 전뇌와 중뇌는 하나의 배아 세포 계통에서 발달하는 반면, 후뇌는 다른 계통에서 발달하는 것으로 나타났다. 연구진은 이러한 뚜렷한 발달 프로그램이 모든 주요 뇌 영역의 공통된 기원이 아니라 진화 과정에서 고대 신경계가 결합했음을 반영할 수 있다고 제안한다 [zmescience.com#1][scitechdaily.com#1][futurism.com#1][diepresse.com#1]. 또한 이번 연구는 그동안 실험실 배양을 통해 생성하기 어려웠던 후뇌 운동 신경세포를 생산하는 새로운 경로를 확인했다. 이러한 세포는 척수성 근위축증 및 루게릭병(ALS)과 같은 질환을 연구하는 데 도움이 될 수 있다 [scitechdaily.com#1].",
+      "quote_attribution": "ZME Science",
+      "talking_points[0]": "세포 활동: 실험실에서 배양된 신경세포가 활동 전위를 생성했다 [scitechdaily.com#1]."
+    },
+    "8de0c338-6a7e-4bc4-b82c-93910cde4943": {
+      "title": "허리케인 폴로, 이례적으로 따뜻한 태평양 해수면 위에서 급격히 세력 확장",
+      "short_summary": "폴로는 해안에서 멀리 떨어진 경로를 따라 이동하며 4등급과 5등급 사이를 오갔으며, 멕시코 남서부 지역에는 폭우와 홍수, 산사태가 예보되었다 [cbsnews.com#1][abc7.com#1]. 허리케인 놀로는 하와이 빅아일랜드에 접근하며 세력이 강해졌고, 기상 예보관들은 위험한 강우와 홍수를 경고했다. AP통신은 태평양 허리케인 시즌이 매우 활발하며, 6월에 나타난 엘니뇨 현상으로 인해 해수면 온도가 평년보다 높아졌다고 보도했다 [aljazeera.com#1][abc7.com#1][abcnews.com#2].",
+      "talking_points[0]": "하와이 강우량: 기상 예보관들은 토요일까지 빅아일랜드에 15~30인치의 비가 내릴 것으로 예상했으며, 더 많은 비가 내릴 가능성도 있다고 밝혔다. 마우이섬 또한 생명을 위협하는 홍수 위험에 직면했다 [abc7.com#1].",
+      "talking_points[1]": "멕시코 영향: 라사로 카르데나스(Lázaro Cárdenas)에서는 바닷물이 주택으로 유입되어 가구와 판자가 흩어졌으며, 주민들은 상점을 보강하고 일부 주택에서 대피했다 [abc7.com#1].",
+      "perspectives[0].text": "브라이언 맥놀디(Brian McNoldy) 마이애미 대학교 허리케인 전문가는 엘니뇨가 기록상 가장 강력한 수준으로 강화될 수 있다고 언급했다 [abcnews.com#2].",
+      "primary_image.caption": "2026년 9월 23일, 멕시코 인근 해상의 허리케인 폴로를 촬영한 NASA 위성 사진.",
+      "secondary_image.caption": "9월 24일 동태평양 상의 놀로, 오달리스 및 대형 허리케인 폴로의 위성 모습."
+    },
+    "7fc43a8e-c25d-4e2e-a8a2-a26e285df4cc": {
+      "title": "구글, 10월 1일 궤도 AI 칩 테스트 발사 예정",
+      "short_summary": "구글은 9월 24일, 4개의 텐서 처리 장치(TPU)를 탑재한 실험용 위성 MVP를 10월 1일 스페이스X(SpaceX)의 트랜스포터-18(Transporter-18) 공유 발사 임무를 통해 발사할 계획이라고 밝혔다. 위성 업체 플래닛 랩스(Planet Labs)와 함께 제작한 냉장고 크기의 이 우주선은 칩을 지구 저궤도로 운반해 발사 시 발생하는 스트레스와 방사선, 극한의 온도 환경에서 성능을 테스트할 예정이다 [nytimes.com#1][dawn.com#1]. 이번 임무는 태양광 기반 AI 컴퓨팅이 궤도에서 작동할 수 있는지 연구하는 구글의 '프로젝트 선캐처(Project Suncatcher)'의 일환이다. 구글은 이번 비행을 운영 중인 궤도 데이터 센터를 시연하는 것이 아니라, 잠재적인 결함 지점을 파악하기 위한 데이터 수집 테스트라고 설명했다 [dawn.com#1][blog.google#1].",
+      "location": "미국 캘리포니아주 반덴버그 우주군 기지 [politiken.dk#1]",
+      "talking_points[0]": "태양광 잠재력: 구글은 지구 저궤도의 태양광 패널이 지구상 유사한 패널보다 최대 8배 많은 전력을 생산할 수 있다고 밝혔다 [aawsat.com#2][gizmodo.com#1].",
+      "talking_points[1]": "방사선 시험: 구글은 발사 전 캘리포니아 대학교 데이비스(University of California, Davis)에서 진행된 양성자 빔 테스트 동안 TPU에서 AI 워크로드를 실행했다 [dawn.com#1][deccanchronicle.com#1].",
+      "talking_points[2]": "냉각 한계: 위성의 칩은 냉각 시스템이 열을 방출할 수 있도록 약 15분간 워크로드를 실행한 뒤 종료된다 [digitaltrends.com#1][teslarati.com#1].",
+      "talking_points[3]": "궤도 연결: 구글은 미래의 컴퓨팅 클러스터를 연결하는 데 필요한 고대역폭 레이저 링크를 테스트하기 위해 2027년에 2개의 위성을 추가로 발사할 계획이다 [dawn.com#1][blog.google#1].",
+      "technical_details[0]": "방사선 유발 비트 플립: 우주 방사선은 전자 상태를 변화시켜 '비트 플립(bit flips)'이라 불리는 데이터 오류를 일으킬 수 있으며, 이번 임무는 이러한 노출 환경에서 구글 하드웨어가 어떻게 작동하는지에 대한 궤도 내 증거를 수집할 것이다 [dawn.com#1].",
+      "technical_details[1]": "진공 열 관리: 진공 상태에서는 기존의 공기 흐름 냉각이 불가능하기 때문에, 구글은 히트 파이프와 방열판을 사용해 프로세서의 열을 외부로 전달할 계획이다 [dawn.com#1].",
+      "scientific_significance[0]": "용량 기준: 4개의 TPU를 합친 컴퓨팅 파워는 데이터 센터 서버 1대와 비슷한 수준으로, 간단한 AI 질의를 처리할 수 있다 [nytimes.com#1][engadget.com#1].",
+      "industry_impact[0]": "경쟁 분야: 스페이스X와 스타클라우드(Starcloud) 또한 지구 저궤도에 데이터 센터를 배치하려는 계획을 추진 중이다 [dawn.com#1].",
+      "perspectives[0].text": "제임스 매니카(James Manyika) 구글 연구 책임자는 향후 몇 년 내에 유용하고 운영 가능한 궤도 컴퓨팅 인프라를 갖출 것으로 기대하지 않는다고 밝혔다 [corren.se#1].",
+      "perspectives[1].text": "던(Dawn)이 인용한 전문가들은 발사 비용, 엔지니어링 제약, 위성 생산 병목 현상 등으로 인해 상업적 이용까지는 수년이 걸릴 것이라고 지적했다 [dawn.com#1].",
+      "suggested_qna[0].question": "위성은 궤도에 얼마나 머물 것으로 예상되는가?",
+      "suggested_qna[0].answer": "계획된 AI 질의 테스트는 1년간 지속되지만, 위성은 재진입하여 소멸하기 전까지 최대 6년 동안 궤도에 머물 수 있다 [engadget.com#1][digitaltrends.com#1].",
+      "primary_image.caption": "플래닛 랩스의 기술자가 발사 진동 테스트를 앞두고 구글이 의뢰한 위성의 태양광 패널과 배선을 점검하고 있다."
+    },
+    "c023cc49-04a8-403c-9bb3-d309e34f28f3": {
+      "title": "AI 업계 리더들, UN 규제 촉구… 미국은 감독 거부",
+      "short_summary": "오픈AI(OpenAI), 앤스로픽(Anthropic), 허깅페이스(Hugging Face)의 고위 관계자들은 9월 23일 뉴욕에서 열린 UN 안전보장이사회에 참석해 AI 시스템의 역량이 커짐에 따라 각국 정부가 안전장치 마련을 위해 협력할 것을 촉구했다. 샘 올트먼(Sam Altman) 오픈AI 최고경영자는 AI 기술에 관한 결정이 소수의 민간 연구소에만 맡겨져서는 안 된다고 말했다. 캐나다의 AI 연구자인 요슈아 벤지오(Yoshua Bengio) 또한 이사회에 근거 기반의 위험과 그럴듯한 추론에 기반한 위험을 구분할 것을 당부했다 [cna.com.tw#1][nationalobserver.com#1][thehindu.com#1]. 이번 회의는 국제적 감독을 둘러싼 이견을 부각했다. 트럼프 대통령은 글로벌 AI 거버넌스 구축 노력을 거부했으며, 안토니우 구테흐스(António Guterres) UN 사무총장은 AI의 급격한 발전이 초래할 위험에 대해 경고했다 [cna.com.tw#1][nytimes.com#1].",
+      "quote": "제대로 관리되지 않는다면 AI가 인류 전체에 위험이 될 수도 있다고 생각한다.",
+      "quote_attribution": "내셔널 옵저버(National Observer)",
+      "location": "미국 뉴욕주 뉴욕",
+      "talking_points[0]": "제안된 안전장치: 아모데이(Amodei)는 AI를 활용한 생물학 무기 개발 금지, 모델 테스트 표준 공유, 규정 준수 확인 및 보안 사고 보고 등을 포함한 국제 협약을 제안했다 [bursa.ro#1].",
+      "talking_points[1]": "현재의 위험: 유럽의 사이버 보안 전문가들은 AI가 이미 야기한 구체적인 보안 문제에 관심을 집중해야 한다고 지적하며, 극단적인 가상 시나리오에 매몰되면 컴퓨터 시스템 보호라는 본질을 놓칠 수 있다고 경고했다 [biznis.rs#1].",
+      "perspectives[0].text": "마이클 크라시오스(Michael Kratsios) 백악관 과학 고문: 그는 국제기구가 글로벌 규제 시스템을 구축하기보다는 모범 사례를 교환하고 각국이 자체적인 역량을 구축하도록 도와야 한다고 말했다 [cna.com.tw#1].",
+      "perspectives[1].text": "푸충(Fu Cong) 주UN 중국 대사: 그는 AI 규제 메커니즘의 지속적인 개선, 비상 대응 강화, 국경을 초월한 협력을 촉구했다 [cna.com.tw#1].",
+      "perspectives[2].text": "젠슨 황(Jensen Huang) 엔비디아(Nvidia) 최고경영자: 황은 실존적 위험에 대한 경고가 과학적 근거가 부족하다고 일축하며, 기업은 안전이 확보되지 않은 제품을 출시해서는 안 된다고 말했다 [semafor.com#1][cnyes.com#1].",
+      "perspectives[3].text": "질야 뵈네키(Silja Vöneky) 국제법 교수: 그녀는 극단적인 AI 위험에 대한 경고를 마케팅으로 치부하는 것은 무책임하다고 지적하며, 고위험 AI 모델에 대한 규제가 여전히 미흡하다고 주장했다 [tagesschau.de#1].",
+      "primary_image.caption": "뉴욕에서 열린 AI 위험 관련 UN 안전보장이사회 회의"
+    },
+    "6eaa6df6-0446-4532-b5b2-c9189c31ec8f": {
+      "title": "허블 관측, 초기 은하의 약한 항성풍 연관성 규명",
+      "short_summary": "두 건의 연구가 초기 은하들이 어떻게 독특한 특성을 갖게 되었는지 조사하고 있다. 제임스 웹 우주망원경(JWST) 관측 결과, 빅뱅 이후 약 5억 년이 지난 시점에 은하들이 주변 물질을 무거운 원소로 풍부하게 만들고 있었음이 드러났으며, 이는 젊은 은하 주변의 가스가 대부분 원시 상태로 남아있을 것이라는 기존 예상을 뒤집는 것이다 [phys.org#1]. 별도로 유타 대학교가 주도한 허블 조사에서는 금속 함량이 극히 낮은 왜소은하의 거대 항성들이 훨씬 약한 항성풍을 가진다는 사실이 밝혀졌다. 연구진은 이 발견이 왜 초기 은하들이 현대의 별을 기반으로 한 예측과 다른지 설명하는 데 도움이 될 수 있다고 말한다 [sciencedaily.com#1].",
+      "quote_attribution": "유니버스 투데이(Universe Today)",
+      "historical_background": "유타 대학교 연구원 그레이스 텔퍼드(Grace Telford)에 따르면, 최초의 별들은 빅뱅 이후 약 1억 년이 지난 시점에 형성된 것으로 추정된다 [universetoday.com#1]. 이 초기 별들은 짧은 생애를 마친 뒤 초신성으로 폭발하며 이후 형성될 별들의 재료가 되는 가스로 물질을 되돌려 보냈다 [universetoday.com#1].",
+      "talking_points[0]": "국소적 유사체: 인근의 금속 함량이 낮은 왜소은하들은 초기 우주 환경을 연구할 수 있는 방법을 제공하지만, 초기 은하를 직접 관측하는 것은 아니다 [sciencedaily.com#1][universetoday.com#1].",
+      "talking_points[1]": "철 함량의 변이: 연구진은 항성풍을 유도하고 초신성에 영향을 미치는 원소인 철의 풍부도에서 큰 차이를 발견했다 [sciencedaily.com#1].",
+      "scientific_significance[0]": "항성 모델: 매우 낮은 금속 함량에서 관측된 항성풍의 약화는 거대 항성들이 우리 은하의 별을 기반으로 한 모델의 예측보다 더 많은 물질을 유지하고 있음을 시사하며, 이는 항성 진화에 대한 추정치를 변화시킬 가능성이 있다 [sciencedaily.com#1].",
+      "scientific_significance[1]": "TEMPOS는 초기 항성 집단 모델을 개선하는 데 도움이 될 수 있는 거대 항성들의 방대한 데이터 세트를 제공한다 [sciencedaily.com#1][universetoday.com#1].",
+      "primary_image.caption": "초기 별 형성의 상상도"
+    },
+    "f589a78d-2ad4-41d7-a5f1-9e7607481472": {
+      "title": "연구진, 노화로 인한 근력 약화와 신경 신호 전달 실패의 연관성 규명",
+      "short_summary": "미주리 대학교(University of Missouri) 연구진은 나이가 들면서 신경과 근육 간의 소통이 불안정해지며, 이것이 노화에 따른 근력 약화의 원인이 될 수 있다고 보고했다. 동물 모델 실험에서 해당 과정에 관여하는 단백질을 표적으로 삼아 근력을 개선했으나, 이 방식이 사람에게도 효과가 있는지는 아직 입증되지 않았다 [sciencedaily.com#1].",
+      "quote_attribution": "사이언스데일리(ScienceDaily)"
+    },
+    "275cb6f3-1b57-4cfc-b09e-4b80ef9665f3": {
+      "title": "연방 판사, 뉴욕주 기후 슈퍼펀드법 위헌 판결",
+      "short_summary": "지난 9월 24일 내려진 이번 판결은 화석 연료 기업들에 기후 변화 대응 비용으로 750억 달러를 부담하도록 하는 법안에 대한 두 번째 사법적 거부 사례이다 [nytimes.com#1].",
+      "primary_image.caption": "2020년 폐쇄된 뉴욕주 서머싯의 발전소는 주 내 마지막 석탄 화력 발전소였다."
+    },
+    "1e983d07-dced-49e1-bcdd-f103c97c4380": {
+      "title": "유엔, 해수면 상승 및 도서 국가 지위 관련 선언 채택",
+      "short_summary": "유엔 총회는 회원국들이 지난달 문안을 최종 확정한 후 9월 24일 '해수면 상승에 관한 유엔 선언'을 만장일치로 승인했다. 이 선언은 해양 온난화와 빙상 및 빙하 융해로 인한 해수면 상승 문제를 다루고 있다. 2024년 전 세계 평균 해수면은 기록상 가장 큰 연간 상승 폭인 거의 6밀리미터 상승했으며, 과감한 조치가 없을 경우 금세기 말까지 1미터 이상 상승할 수 있다[un.org#1][un.org#2][aawsat.com#1][cna.com.tw#1]. 이 선언문은 해수면 관측 강화, 데이터 공유 및 조기 경보 시스템 구축, 취약 국가를 위한 보다 예측 가능하고 접근 가능한 자금 지원, 해안 지역의 생계 및 문화유산 보호를 촉구한다. 또한 국가 지위가 지속된다는 추정을 확립하고, 해안선이 후퇴하더라도 유엔 해양법 협약에 따라 설정된 해양 구역은 유지되어야 한다고 명시하고 있다[un.org#2][cna.com.tw#1][climatechangenews.com#1].",
+      "quote": "우리 국토는 해수면 위 3미터 미만이며, 이미 우리 땅이 물에 잠기는 것을 목격하고 있다",
+      "quote_attribution": "그리스트(Grist)",
+      "location": "미국 뉴욕주 뉴욕",
+      "talking_points[0]": "이주 추정치: 유엔은 금세기 말까지 해수면이 0.5미터 상승할 경우 1억 5천만 명에서 3억 명의 사람들이 집을 떠나야 할 수도 있다고 밝혔다[un.org#1].",
+      "talking_points[1]": "투발루의 계획: 투발루는 침수 위협에 대비해 세계 최초의 '디지털 국가'가 되기 위한 노력을 기울이고 있다[un.org#1].",
+      "perspectives[0].text": "필립 데이비스(Philip Davis) 바하마 총리는 이번 선언이 취약한 도서 국가들을 돕기 위한 행동의 동력을 마련할 수 있을 것이라고 말했다[grist.org#1].",
+      "perspectives[1].text": "수랑겔 휩스 주니어(Surangel Whipps Jr.) 팔라우 대통령은 소도서국가연합(AOSIS)을 대표해 해수면 상승이 바다로 둘러싸인 국가들의 삶을 근본적으로 변화시킬 것이라고 언급하며, 이번 선언을 '진정한 성과'라고 환영했다[cna.com.tw#1].",
+      "primary_image.caption": "방글라데시 샤리아트푸르에서 빌랄 호세인(Billal Hossain)이 다른 곳으로 이주하기 위해 벽돌을 수거하며 집을 철거하고 있다."
+    },
+    "c7b0ba84-c748-4302-92c0-5c286d6236e4": {
+      "title": "천문학자들, 우리 은하 최초의 마이크로블레이저 후보 발견",
+      "short_summary": "천문학자들은 블랙홀이 거대 동반성으로부터 물질을 끌어당겨 반대 방향으로 제트를 방출하는 시스템인 IRAS 18293−0941을 우리 은하 최초의 마이크로블레이저 강력한 후보로 확인했다. 한쪽 제트는 지구를 거의 정면으로 향하고 있으며, 다른 쪽은 반대 방향을 향하고 있다 [zmescience.com#1]. 적외선 천문 위성(Infrared Astronomical Satellite)이 1983년 이 천체를 처음 발견했으나, 수십 년간 주목받지 못했고 두꺼운 구름으로 인해 연구에 어려움을 겪었다 [zmescience.com#1].",
+      "talking_points[0]": "제트 속도: 지구를 향하는 제트 속의 물질은 빛의 속도 약 75%로 이동한다 [zmescience.com#1].",
+      "talking_points[1]": "반대편 제트: 지구에서 멀어지는 제트는 거대한 성간 가스 구름과 충돌하는 것으로 보인다 [zmescience.com#1].",
+      "scientific_significance[0]": "입자 기원 가능성: 이 시스템은 우리 은하에서 가장 에너지가 높은 일부 입자의 기원을 설명하는 데 도움을 줄 수 있으나, 그 연관성이 입증된 것은 아니다 [zmescience.com#1].",
+      "primary_image.caption": "IRAS 18293−0941 시스템의 상상도"
+    }
+  },
+  "stats": {
+    "storyCount": 12,
+    "translated": 10,
+    "failedStoryIds": [
+      {
+        "id": "80eeddaa-2d5d-4d38-b8dd-40f661cd3c32",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "5ec0f262-c71c-45c9-9ab0-e4e77ca5cbd9",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 7043,
+      "out": 6854
+    }
+  }
+}
