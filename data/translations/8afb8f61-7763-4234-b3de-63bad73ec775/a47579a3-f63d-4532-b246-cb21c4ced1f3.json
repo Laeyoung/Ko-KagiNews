@@ -4,7 +4,7 @@
   "categoryUuid": "a47579a3-f63d-4532-b246-cb21c4ced1f3",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-25T15:10:07.691Z",
+  "createdAt": "2026-09-25T15:31:13.750Z",
   "stories": {
     "92ed3adc-4c5d-45bf-b1c4-59d2cb1010da": {
       "title": "트럼프와 시진핑, 워싱턴 정상회담서 무역 휴전 연장",
@@ -176,24 +176,34 @@
       "suggested_qna[0].question": "판다들의 이름은 어떤 의미인가?",
       "suggested_qna[0].answer": "바벨(Babel.ua)에 따르면 핑핑은 '평화, 평화'를, 푸솽은 '두 배의 축복'을 의미한다 [babel.ua#1].",
       "primary_image.caption": "2026년 9월 24일 백악관 환영식에서 도널드 트럼프 대통령이 시진핑 중국 국가주석의 발언을 경청하고 있다."
+    },
+    "f3d73f4f-1e53-4344-9ecd-5fba1d06db25": {
+      "title": "레오 14세 교황, AI 주제로 4일간의 프랑스 방문 시작",
+      "short_summary": "레오 14세 교황이 9월 25일 금요일, 2008년 베네딕토 16세 이후 처음으로 프랑스 국빈 방문을 시작했다. 교황의 일정에는 에마뉘엘 마크롱 대통령 및 유네스코(UNESCO)와의 회담, 노트르담 대성당 기도회, 청년 철야 기도회, 파리 야외 대규모 미사를 비롯해 루르드와 메츠 방문이 포함되어 있다. 이번 방문에서는 평화, 인간 존엄성, 인공지능(AI), 이주, 조력 사망, 교회 내 성범죄 등의 의제가 다뤄질 것으로 예상된다 [abcnews.com#1][straitstimes.com#2][independent.com.mt#1][infobae.com#1]. 프랑스는 엄격한 세속주의 전통을 가지고 있으며, 성인 및 청소년 세례자가 증가하고 있음에도 불구하고 윤리적 논쟁에서 교회의 영향력은 약화된 상태다. 레오 교황은 일요일 루르드에서 성직자 성범죄 피해자들을 만날 예정이며, 메츠에서는 유럽의 미래와 평화에 대해 연설할 계획이다 [abcnews.com#1][lemonde.fr#2][infobae.com#1][dnevnik.bg#1].",
+      "did_you_know": "레오 14세 교황의 친할머니는 프랑스 출신이다 [euronews.com#1].",
+      "location": "프랑스 파리",
+      "historical_background": "프랑스의 1905년 법은 정교분리를 확립했으며, 이번 방문의 세속적 틀을 형성했다 [dw.com#1]. 프란치스코 교황은 코르시카, 마르세유, 스트라스부르를 방문한 바 있으나, 이 중 국빈 방문으로 분류된 사례는 없었다 [index.hr#1]. 노트르담 대성당은 2019년 화재로 심각하게 훼손되었다가 2024년 12월 재개장했으며, 레오 교황은 이곳에서 기도를 올릴 예정이다 [vaticannews.va#1][thenationalnews.com#1].",
+      "talking_points[0]": "인파 추산: 주최 측은 파리 야외 미사에 약 60만 명, 청년 철야 기도회에 8만 명의 인파가 모일 것으로 예상했다 [orf.at#1][taz.de#1].",
+      "talking_points[1]": "세례 수치: 프랑스 주교회의는 2026년 부활절에 2만 1,300명의 성인 및 청소년이 세례를 받았다고 보고했으며, 이는 4년 전 기록보다 3배 증가한 수치다 [taz.de#1].",
+      "talking_points[2]": "방문 비용: 이번 방문의 총비용은 2,700만 유로로 추산되며, 대부분 교회 기부금으로 충당될 것으로 보인다 [index.hr#1].",
+      "talking_points[3]": "교회 분열: 최근 바티칸이 성 비오 10세회(Society of Saint Pius X) 추종자들을 파문한 것은 프랑스 내에 상당한 네트워크를 보유한 이 전통주의 단체와의 오랜 갈등을 재점화했다 [france24.com#2].",
+      "perspectives[0].text": "정치학자 올리비에 루아(Olivier Roy)는 레오 교황과 트럼프 대통령의 충돌이 교황에게 가톨릭계를 넘어선 도덕적 위상을 부여했다고 평가했다 [dw.com#1].",
+      "perspectives[1].text": "프랑스 주교회의는 레오 교황의 도착을 알리는 전국적인 7분간의 타종 행사가 사람들이 각자의 위치에서 참여할 수 있도록 기획된 것이라고 밝혔다 [euronews.com#1].",
+      "primary_image.caption": "금요일 오전, 로마 피우미치노 공항에서 파리행 비행기에 탑승하는 레오 14세 교황."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
+    "translated": 11,
     "failedStoryIds": [
       {
         "id": "40cfd339-7842-4b8a-b8b6-995a339aefae",
         "reason": "retry_exhausted"
-      },
-      {
-        "id": "f3d73f4f-1e53-4344-9ecd-5fba1d06db25",
-        "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 10374,
-      "out": 11944
+      "in": 11422,
+      "out": 13095
     }
   }
 }

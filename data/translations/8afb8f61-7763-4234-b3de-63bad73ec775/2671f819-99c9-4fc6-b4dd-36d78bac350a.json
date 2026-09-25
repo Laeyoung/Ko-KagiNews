@@ -4,7 +4,7 @@
   "categoryUuid": "2671f819-99c9-4fc6-b4dd-36d78bac350a",
   "categorySlug": "ai",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-25T15:15:47.155Z",
+  "createdAt": "2026-09-25T15:31:42.548Z",
   "stories": {
     "e9bc7ba0-7f91-4aef-96a1-dbf5fe242005": {
       "title": "메타, 뮤즈 AI 업그레이드 및 전용 기기 '참' 공개",
@@ -136,20 +136,24 @@
       "short_summary": "오픈소스 커뮤니티들이 생성형 AI에 대해 각기 다른 접근 방식을 취하고 있다. 한 그놈(GNOME) 기여자는 그놈에 제출되거나 그놈 인프라에서 호스팅되는 작업물을 생성하거나 수정할 때 대규모 언어 모델(LLM) 사용을 금지하는 개인 제안을 발표했으나, 이는 채택된 프로젝트 정책으로 제시된 것은 아니다[gnome.org#1]. 해당 기여자는 이러한 성명이 개인의 워크플로를 관리하기보다는 커뮤니티 규범을 설정해야 한다고 주장했다[gnome.org#1]. 더 레지스터(The Register) 보도에 따르면, KDE의 공식 AI 정책에 대한 별도의 제안은 커뮤니티 내에서 격렬한 논쟁을 불러일으켰다[theregister.com#1]. 리눅스 커널에서는 개발자 사샤 레빈(Sasha Levin)이 코딩 에이전트를 위한 README 및 기타 지침으로 연결되는 AGENTS.md 파일을 추가할 것을 제안했다[lxer.com#1].",
       "perspectives[0].text": "그놈 블로그 기여자: 해당 제안은 기여자들에게 자신의 작업물이 LLM 사용 금지 요건을 충족함을 증명하도록 요구할 수 있으며, 이를 우회하려는 시도를 할 경우 차단될 수 있다고 명시한다[gnome.org#1].",
       "perspectives[1].text": "사샤 레빈: AGENTS.md를 제안하기 전, 레빈은 안정적인 백포트용 패치 식별 및 병합 충돌 해결을 위한 AI 활용 등 커널을 위한 AI 이니셔티브 작업을 수행했다[lxer.com#1]."
+    },
+    "dfc5e75d-d6e8-4edc-b2aa-2c6725e1046c": {
+      "title": "AI 투자자들, 의료·법률 및 인도 스타트업 지원",
+      "short_summary": "9월 24~25일 AI 투자 소식으로는 마이애미 소재 의료 검색 스타트업 오픈에비던스(OpenEvidence)가 2억 5,000만 달러 규모의 투자 라운드를 통해 150억 달러의 기업 가치를 인정받았으며, AI 칩 기업 포지트론(Positron)은 새로운 투자 라운드에서 50억 달러의 기업 가치를 평가받았다[businessinsider.com#1][wsj.com#1]. 온타리오 교직원 연금 계획(Ontario Teachers’ Pension Plan) 또한 법률 AI 기업 하비(Harvey)에 5,000만 달러를 투자했다[google.com#1]. 라이트스피드(Lightspeed)는 AI 스타트업을 포함한 초기 단계 기업에 집중할 2억 5,000만 달러 규모의 다섯 번째 인도 펀드 조성을 추진 중이다. 목표액의 80%를 확보했으며 두 달 이내에 자본 집행을 시작할 계획이다[techcrunch.com#1].",
+      "business_angle_text": "가용한 보고서에는 오픈에비던스의 매출이나 수익성 수치는 포함되어 있지 않다[businessinsider.com#1].",
+      "talking_points[0]": "매각 가능성: 오픈에비던스 관계자에 따르면 회사는 컴퓨팅 자원 확보 등을 위해 매각을 고려할 수 있으나, 해당 보고서는 매수자 측의 관심을 확인하지 못했으며 스타트업이 독립적으로 남을 가능성도 있다고 전했다[businessinsider.com#1].",
+      "talking_points[1]": "자금 집행: 라이트스피드의 새로운 인도 펀드는 2022년에 조성한 5억 달러 규모 펀드의 절반 수준이며, 약 2년 6개월의 투자 기간을 염두에 두고 계획되었다[techcrunch.com#1].",
+      "business_angle_points[0]": "라이트스피드는 이미 인도 정부가 주권 AI 모델 개발을 위해 선정한 주요 인도 LLM 개발사인 사르밤 AI(Sarvam AI)를 지원하고 있어, 해당 기업은 기존의 국내 모델 개발 노력과 연결되어 있다[techcrunch.com#1].",
+      "primary_image.caption": "오픈에비던스 CEO 대니얼 내들러(Daniel Nadler)"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "dfc5e75d-d6e8-4edc-b2aa-2c6725e1046c",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 8723,
-      "out": 8998
+      "in": 9426,
+      "out": 9662
     }
   }
 }

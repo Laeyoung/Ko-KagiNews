@@ -4,7 +4,7 @@
   "categoryUuid": "b19e758d-0ff2-403c-81b5-ab3f710b4e37",
   "categorySlug": "usa",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-25T15:11:19.723Z",
+  "createdAt": "2026-09-25T15:31:24.592Z",
   "stories": {
     "ae48447c-1c1f-444f-baf7-c87ebf97d0f2": {
       "title": "판사, CNN·MS NOW·폴리티코의 백악관 출입 권한 복원 명령",
@@ -161,20 +161,27 @@
       "perspectives[0].text": "평화를 위한 유대인 목소리 활동가 제이 세이퍼(Jay Saper): 세이퍼는 네타냐후 총리가 연설하는 동안 400명 이상의 사람들이 차량 행렬을 이루어 유엔을 향해 이동하고 있었다고 말했다 [evrensel.net#1].",
       "perspectives[1].text": "베냐민 네타냐후: 네타냐후 총리는 연설에서 집단학살 혐의를 '세기의 가장 큰 거짓말'이라며 부인했고, 시위대를 '가짜 인권 시위대'라고 일축했다 [thenationalnews.com#1].",
       "primary_image.caption": "9월 24일 시위 도중 유엔 근처에서 경찰이 시위대를 연행하고 있다."
+    },
+    "d2017bb1-347d-4795-9066-f03ca43e5a6e": {
+      "title": "트럼프 행정부, 50건 이상의 학교 인종차별 철폐 소송 기각 추진",
+      "short_summary": "9월 24일 법무부는 50건이 넘는 장기 학교 인종차별 철폐 소송을 종결하려 한다고 밝혔다. 데일리 시그널(The Daily Signal)은 법무부가 이미 50건 이상의 소송을 기각했다고 보도했다. 법무부 관계자들은 해당 명령들이 시대에 뒤떨어졌다고 설명했으며, 법무부는 계류 중인 사건들을 개별적으로 검토하고 있다고 밝혔다[cbsnews.com#1][dailysignal.com#1]. 이 사건들은 수십 년 전으로 거슬러 올라가며 대부분 남부 지역 학군과 관련되어 있다[cbsnews.com#1][dailysignal.com#1]. 이번 조치는 학교가 구조적 인종 불평등을 해결하기 위해 사용할 수 있는 구제책을 제한하는 트럼프 행정부의 정책 변화에 따른 것이다[abcnews.com#1].",
+      "quote": "이들 학군에 대한 장기적인 연방 감독을 종료하는 것",
+      "quote_attribution": "CBS 뉴스",
+      "talking_points[0]": "학군 소송 건수: 트럼프 행정부 출범 당시 대부분 남부에 위치한 약 150개 학군이 인종차별 철폐 법원 명령 하에 있었다[dailysignal.com#1].",
+      "talking_points[1]": "기각된 사건: 데일리 시그널은 법원이 앨라배마주 터스컴비아와 세인트클레어 카운티, 미시시피주 랜킨 카운티, 테네시주 다이어즈버그의 명령을 기각했다고 보도했다[dailysignal.com#1].",
+      "talking_points[2]": "집행 방식: 수십 년 동안 연방 민권 집행 당국은 명백한 인종적 편견 없이도 차별이 발생할 수 있음을 인정하고, 연방 자금을 지원받는 학교들이 구조적 차별을 해결하도록 요구해 왔다[abcnews.com#1].",
+      "perspectives[0].text": "하밋 딜런(Harmeet Dhillon) 법무부 민권국: 딜런은 학군들이 번거롭고 시대에 뒤떨어진 동의 판결을 유지하는 대신 납세자의 세금을 학생들에게 재투자할 수 있다고 말했다[dailysignal.com#1].",
+      "perspectives[1].text": "기각에 대한 비판: 비판자들은 소송 종결이 미국을 “짐 크로(Jim Crow) 시대”로 되돌릴 것이라고 경고했다[nytimes.com#1].",
+      "primary_image.caption": "루이지애나주 콘코디아 패리시의 비달리아 고등학교. 이 학교는 1965년부터 법원 명령에 따른 인종차별 철폐 계획에 따라 운영되어 왔으나, 지난 7월 연방 항소법원이 감독을 종료했다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "d2017bb1-347d-4795-9066-f03ca43e5a6e",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 10270,
-      "out": 11631
+      "in": 11056,
+      "out": 12471
     }
   }
 }
