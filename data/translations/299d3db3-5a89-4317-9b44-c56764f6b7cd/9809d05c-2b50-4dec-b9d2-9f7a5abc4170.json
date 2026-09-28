@@ -4,7 +4,7 @@
   "categoryUuid": "9809d05c-2b50-4dec-b9d2-9f7a5abc4170",
   "categorySlug": "science",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-28T18:13:45.274Z",
+  "createdAt": "2026-09-28T18:35:38.640Z",
   "stories": {
     "0d6e5c3b-b872-4f7e-9165-873b0349c41b": {
       "title": "NASA, 3억 화소 적외선 카메라 탑재 로만 망원경 가동",
@@ -81,24 +81,39 @@
       "talking_points[0]": "독특한 해부학적 구조: 한 종은 털과 가시가 있는 다리, 붉은 눈, 세 개의 입술을 가졌으며, 다른 한 종은 모래시계 모양을 띠고 있다 [is.fi#1].",
       "talking_points[1]": "기생 관계: 새로 발견된 두 종 모두 기생성 생물이며, 연구진은 이들의 몸에서 기생충을 발견하기도 했다 [ceskatelevize.cz#1].",
       "talking_points[2]": "알려진 다양성: 과학자들은 전 세계적으로 1,300종 이상의 바다거미를 확인했다 [npr.org#1]."
+    },
+    "82c54566-f9dd-4eda-bcf5-2a52f60ca9b4": {
+      "title": "주스(JUICE), 지구 최근접 통과 15~30분 전 호주 상공 통과 예정",
+      "short_summary": "유럽우주국(ESA)의 목성 얼음 위성 탐사선 '주스(JUICE)'가 2026년 9월 28일 지구를 지나며 목성으로 향하는 경로에서 중력 도움(gravity assist)을 받을 예정이다. 탐사선은 11시 45분(UTC 기준) 인도양 상공에서 지구와 약 8,640km(5,369마일) 거리까지 접근할 것으로 예상된다 [earthsky.org#1]. 2023년 발사되어 2031년 목성에 도착할 예정인 주스는 유로파, 가니메데, 칼리스토 등 바다를 품은 위성들을 탐사할 계획이다 [earthsky.org#1].",
+      "talking_points[0]": "호주 통과: 주스는 지구 최근접 통과 15~30분 전에 호주 상공을 비행할 것으로 예상된다 [earthsky.org#1].",
+      "talking_points[1]": "근접 비행 촬영: 기내에 탑재된 두 대의 모니터링 카메라가 이번 조우를 촬영할 예정이다. ESA는 실시간 방송 계획은 없으며, 촬영된 이미지는 온라인으로 공유할 것이라고 밝혔다 [earthsky.org#1].",
+      "primary_image.caption": "2026년 9월 주스의 지구 근접 비행 보도와 함께 제공된 이미지"
+    },
+    "2873bb63-ce47-4420-bf86-d11a74719034": {
+      "title": "스페이스X, 14차 시험 비행에서 스타십 첫 궤도 비행 목표",
+      "short_summary": "스페이스X는 9월 28일 월요일 오전 8시 15분(미 동부시간)부터 시작되는 75분간의 발사 창을 통해 텍사스주 스타베이스에서 스타십의 14차 시험 비행을 발사할 계획이었다. 이번 시도는 스타십을 지구 궤도에 진입시키기 위한 첫 번째 설계이며, 이전 13번의 시험 비행은 모두 준궤도 비행이었다[nytimes.com#1][bbc.co.uk#2][cnbc.com#1]. 이번 계획된 임무에서 스타십은 약 10시간 동안 비행하며 약 275km 고도에서 지구를 6바퀴 정도 돌고, 26기의 차세대 스타링크 위성을 배치한 뒤 칠레 서쪽 태평양에 착수할 예정이다. 미 연방항공청(FAA)은 9월 26일 발사 및 재진입 면허를 발급했다. 발사 예정일 이전에 발행된 기사들은 이번 시도의 성공 여부를 보도하지 않았다[infobae.com#1][yna.co.kr#1][portfolio.hu#1][thenews.com.pk#1].",
+      "quote": "잘못될 수 있는 요소가 너무 많다",
+      "quote_attribution": "더 뉴스 인터내셔널(The News International)",
+      "location": "미국 텍사스주 스타베이스",
+      "historical_background": "스페이스X의 첫 발사체인 팰컨 1은 스타십의 궤도 비행 시도보다 18년 앞선 2008년에 궤도에 도달했다[spaceflightnow.com#1].",
+      "talking_points[0]": "부스터 회수: 슈퍼 헤비는 추진력을 제공한 후 분리되어 멕시코만에 착수할 것으로 예상되며, 스페이스X는 발사대의 팔을 이용해 이를 포획할 계획은 없다[ltn.com.tw#1].",
+      "technical_details[0]": "궤도 속도: 약 275km의 목표 고도에서 스타십은 시속 약 28,000km에 도달해야 하며, 궤도를 형성하기 위해 중력 변화에 맞춰 추력을 조절해야 한다[ltn.com.tw#1].",
+      "technical_details[1]": "궤도 진입 연소: 계획된 궤도 상승 기동은 관성 비행 후 랩터 엔진을 재점화하는 것에 달려 있다. 스페이스X의 비행 계획은 초기 점검에서 우려 사항이 발생할 경우 해당 연소를 건너뛰고 준궤도 경로를 따를 수 있도록 허용한다[spaceflightnow.com#1][gazeteoksijen.com#1].",
+      "perspectives[0].text": "캐슬린 컬리(Kathleen Curlee), 신흥기술안보센터(Center for Security and Emerging Technology): 컬리는 비행이 관찰자와 투자자들이 기대한 결과를 내지 못하더라도 충분한 시험 데이터를 수집하는 것 자체가 공학적 성공이 될 수 있다고 말했다[ltn.com.tw#1].",
+      "perspectives[1].text": "조셉 곤잘레스(Joseph Gonzalez), 항공우주공학 교수: 곤잘레스는 궤도 경로에 있는 통제 불능의 스타십은 우주에 머물며 잠재적으로 위성을 위협할 수 있다고 지적했다. 이는 통제력을 잃을 경우 지구로 돌아오도록 설계되었던 이전 비행들과는 다른 점이다[thenews.com.pk#1].",
+      "timeline[0].content": "스페이스X는 계획된 비행을 9월 28일로 변경했다고 발표했다[yna.co.kr#1].",
+      "timeline[1].content": "부스터 21과 쉽 41이 전체 습식 예행연습(wet dress rehearsal)을 완료했다[teslarati.com#1].",
+      "timeline[2].content": "FAA가 14차 비행에 대한 발사 및 재진입 면허를 발급했다[portfolio.hu#1][teslarati.com#1].",
+      "primary_image.caption": "이전 시험 비행 당시 텍사스주 스타베이스에서 이륙하는 스페이스X의 스타십 로켓."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
-    "failedStoryIds": [
-      {
-        "id": "82c54566-f9dd-4eda-bcf5-2a52f60ca9b4",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "2873bb63-ce47-4420-bf86-d11a74719034",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 5844,
-      "out": 4821
+      "in": 7515,
+      "out": 6484
     }
   }
 }

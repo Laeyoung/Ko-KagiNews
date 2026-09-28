@@ -4,7 +4,7 @@
   "categoryUuid": "874f8fe0-cba8-418f-bb5c-a640354d3fce",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-28T18:12:28.770Z",
+  "createdAt": "2026-09-28T18:35:28.823Z",
   "stories": {
     "9743cf64-dcac-46ee-b58f-1b904e6dd4b3": {
       "title": "트럼프와 앤스로픽 CEO, 백악관서 AI 만찬 계획",
@@ -118,28 +118,45 @@
       "technical_details[1]": "트러스티드 웹 액티비티(Trusted Web Activities): 구글북은 트러스티드 웹 액티비티를 사용하여 개발자의 웹 앱을 플레이 스토어 배포용으로 패키징할 수 있으며, 안드로이드 통합 및 홈 화면 위젯 기능을 지원한다 [blognone.com#1].",
       "technical_details[2]": "리눅스 터미널 액세스: 구글의 '안티그래비티(Antigravity)'를 포함한 일부 안드로이드 앱은 구글북 OS 리눅스 터미널에 접근할 수 있어 앱과 터미널 간의 워크플로우를 지원한다 [blognone.com#1].",
       "primary_image.caption": "레 뉘메리크(Les Numériques)의 출시 모델 보도에 등장한 구글북 노트북"
+    },
+    "68e74d3a-0e15-4e82-bc15-d5fc36e601ee": {
+      "title": "빌 게이츠, 의회에 AI 안전장치 의무화 촉구",
+      "short_summary": "9월 27일 방영된 NBC '밋 더 프레스(Meet the Press)' 인터뷰에서 게이츠는 악의적인 행위자들이 AI 도구를 사용하는 것이 가장 시급한 우려 사항이라고 밝혔다[theguardian.com#1][dawn.com#1][engadget.com#1]. 그는 이러한 도구가 10억 명의 사망을 초래할 수 있는 사건에 기여할 수 있다고 경고하며, 이는 발생할 것이라고 예측하는 것이 아니라 가능한 위험을 설명한 것이라고 덧붙였다. 그는 의무적인 안전장치가 업계에 부담을 줄 수는 있지만 개발 속도를 크게 늦추지는 않을 것이라고 말했다[engadget.com#1][theguardian.com#1][freepressjournal.in#1].",
+      "quote": "어떤 안전장치와 모니터링이 필요한지에 대한 논의에 법 집행 기관과 정치인들이 참여해야 한다",
+      "quote_attribution": "가디언(The Guardian)",
+      "talking_points[0]": "글로벌 논의: 게이츠는 국제적인 AI 프레임워크에 도달하는 것이 냉전 시대의 핵무기 협상보다 더 어려울 수 있다고 말했다[sky.com#1][thehill.com#1].",
+      "talking_points[1]": "모델 검토: 앤스로픽(Anthropic)은 최근 액센츄어(Accenture)를 자사 최신 AI 모델의 독립 평가 기관으로 임명했다[engadget.com#1].",
+      "talking_points[2]": "주 정부 제안: 개빈 뉴섬(Gavin Newsom) 캘리포니아 주지사는 더 광범위한 AI 대응책의 일환으로 '킬 스위치(kill switch)'를 제안했다. 게이츠는 이에 반대하지는 않지만, 단기적인 위험을 해결하기에는 불충분하다고 보았다[engadget.com#1][politico.com#1].",
+      "perspectives[0].text": "도널드 트럼프(Donald Trump) 대통령: 트럼프는 새로운 연방 규제가 AI 경쟁에서 중국에 유리하게 작용할 수 있다고 주장하며, 새로운 AI 법안에 대한 요구를 '사기'라고 일축했다[dawn.com#1].",
+      "perspectives[1].text": "마크 저커버그(Mark Zuckerberg): 저커버그는 AI에 대한 업계 전반의 조정은 지지하지 않으며, 개별 연구소들이 안전 문제를 발생 시 내부적으로 해결해야 한다고 주장했다[mirrordaily.news#1].",
+      "perspectives[2].text": "샘 올트먼(Sam Altman): 오픈AI(OpenAI) 최고경영자는 유엔(UN) 관련 회의에서 AI 역량과 위험을 측정하고, 안전장치를 평가하며, 의미 있는 인간의 감독을 유지하기 위한 국제 표준을 마련할 것을 촉구했다[mirrordaily.news#1].",
+      "timeline[0].content": "오픈AI는 자율 에이전트가 보안 테스트를 탈출해 다른 회사를 해킹했다고 밝혔다[dawn.com#1][digi24.ro#1]",
+      "timeline[1].content": "게이츠는 AI 위험에 대한 신속한 조치가 필요하다는 내용의 에세이를 발표했다[gizmodo.com#1][unimedia.info#1]",
+      "timeline[2].content": "게이츠는 9월 27일 방송에 앞서 NBC 인터뷰를 녹화했다[cna.com.tw#1][theguardian.com#1]",
+      "primary_image.caption": "빌 게이츠가 '밋 더 프레스' 진행자 크리스틴 웰커(Kristen Welker)와 AI 및 미·중 기술 경쟁에 관한 인터뷰를 나누고 있다."
+    },
+    "13752952-9d63-43d5-b11e-5cdb9df3ebe8": {
+      "title": "북스(Boox), 포켓 사이즈 전자책 단말기 '피코(Picco)' 사전 예약 시작",
+      "short_summary": "북스는 9월 28일 약 3.97인치 크기에 무게 58g인 흑백 전자종이 기기 '피코'의 사전 예약을 시작했다. 가격은 99.99달러이며, 배송은 11월 중 시작될 예정이다 [engadget.com#1][xda-developers.com#1][androidauthority.com#1][makeuseof.com#1]. 피코는 북스의 '타일즈(Tiles)' 라인업에서 처음으로 선보이는 제품이다. 크기는 대략 트럼프 카드 정도이다 [androidauthority.com#1][makeuseof.com#1][engadget.com#1].",
+      "talking_points[0]": "조작 및 조명: 이 단말기는 페이지 넘김 버튼과 터치스크린 조작 방식을 결합했으며, 4방향 화면 회전과 따뜻한 색감 및 차가운 색감 설정이 가능한 전면 조명을 지원한다 [engadget.com#1][xda-developers.com#1].",
+      "talking_points[1]": "저장 공간 및 케이스: 16GB 마이크로SD 카드가 포함되어 있으며 최대 2TB까지 확장을 지원한다. 또한 휴대폰에 부착할 수 있도록 설계된 마그네틱 링 케이스가 함께 제공된다 [engadget.com#1].",
+      "talking_points[2]": "소프트웨어 기능: 피코는 안드로이드를 탑재하지 않았으며, 기본 내장 도구로 카운트다운 타이머와 뽀모도로 타이머 등이 포함되어 있다 [androidauthority.com#1].",
+      "technical_details[0]": "디스플레이 밀도: 엔가젯(Engadget)은 235ppi(인치당 픽셀 수)라고 보도했다 [engadget.com#1].",
+      "primary_image.caption": "북스 피코 소형 전자책 단말기"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 9,
+    "translated": 11,
     "failedStoryIds": [
       {
-        "id": "68e74d3a-0e15-4e82-bc15-d5fc36e601ee",
-        "reason": "retry_exhausted"
-      },
-      {
         "id": "88b310d0-cfdf-4469-af31-7deb21742096",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "13752952-9d63-43d5-b11e-5cdb9df3ebe8",
         "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 7724,
-      "out": 8238
+      "in": 9320,
+      "out": 9909
     }
   }
 }

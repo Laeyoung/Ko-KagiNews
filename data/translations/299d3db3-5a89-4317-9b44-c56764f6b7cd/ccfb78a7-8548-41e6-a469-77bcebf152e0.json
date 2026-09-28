@@ -4,7 +4,7 @@
   "categoryUuid": "ccfb78a7-8548-41e6-a469-77bcebf152e0",
   "categorySlug": "usa",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-28T18:09:43.048Z",
+  "createdAt": "2026-09-28T18:34:39.419Z",
   "stories": {
     "97791ffa-5ac2-44f4-a952-b7c9d3e012b3": {
       "title": "영국 경찰, RAF 페어포드 테러 모의 혐의로 5명 체포",
@@ -127,28 +127,44 @@
       "suggested_qna[0].question": "하원이 대통령을 탄핵하려면 몇 표가 필요한가?",
       "suggested_qna[0].answer": "하원 재적 과반수의 찬성으로 탄핵 소추안을 가결할 수 있으며, 유죄 판결 및 파면을 위해서는 상원 3분의 2 이상의 찬성이 필요하다 [common].",
       "primary_image.caption": "2026년 9월 23일 국회의사당에서 열린 기자회견에서 발언하는 하킴 제프리스 하원 원내대표."
+    },
+    "37a181ec-3a1f-496c-a0cd-0815649e69f2": {
+      "title": "미 북동부 강타한 노리스터로 해안 침수·사망자 발생 및 정전 사태",
+      "short_summary": "이틀째 이어진 느린 속도의 노리스터(nor’easter)가 9월 27일 일요일 미국 북동부를 강타하며 뉴저지에서 뉴잉글랜드에 이르는 해안 지역을 침수시켰다. 일요일 오전 기준 13만 가구 이상이 정전 피해를 입었다. 브루클린에서는 쓰러진 나무에 뉴욕시 주택국(NYCHA) 직원 레이턴 브라운(Leighton Brown)이 맞아 사망했다. 뉴저지의 저지대 지역은 조수 해일로 반복적인 침수 피해를 입었으며, 롱아일랜드에서는 강풍으로 나무와 전신주가 쓰러지고 주택이 파손되었다 [abcnews.com#1][aljazeera.com#1][wxyz.com#1][bbc.co.uk#1]. 일부 뉴저지 지역은 금요일부터 10센티미터(약 4인치) 이상의 강우량을 기록했다. 비와 불어난 물로 인해 주 일부 지역에서는 지난 10년 만에 최악의 홍수가 발생했다. 폭풍은 일요일 밤 약화될 것으로 예상되나, 해당 지역 일부에서는 월요일까지 폭우와 해안 침수 위험이 지속될 전망이다 [bankier.pl#1][lanacion.com.ar#1][cbsnews.com#1].",
+      "quote_attribution": "AP 통신, ABC 뉴스 재배포",
+      "talking_points[0]": "항공편 차질: 더 네이션(The Nation)이 인용한 플라이트어웨어(FlightAware) 데이터에 따르면 토요일에만 2,400편 이상의 항공편이 지연되고 1,199편이 결항되었다 [nation.com.pk#1].",
+      "talking_points[1]": "비상사태 선포: 뉴욕주와 뉴저지주는 당국이 해안 침수와 강풍에 대한 경고를 내림에 따라 비상사태를 선포했다 [bbc.co.uk#1][myjoyonline.com#1].",
+      "talking_points[2]": "조수 상황: 기상 예보관들은 보름달로 인한 만조가 폭풍으로 인한 해안 해일과 겹치면서 침수 피해가 악화될 수 있다고 경고했다 [nation.com.pk#1][dawn.com#1].",
+      "perspectives[0].text": "조란 맘다니(Zohran Mamdani) 뉴욕 시장은 주민들에게 불필요한 외출을 자제할 것을 당부했다 [tagesschau.de#1].",
+      "primary_image.caption": "2026년 9월 27일, 뉴저지주 시 브라이트에서 버나드 다우드(Bernard Dowd)가 노리스터로 침수된 거리를 걷고 있다."
+    },
+    "8ce3db64-3578-4ef2-a4ee-78a7f8257e1d": {
+      "title": "페터만, 민주당 상원 탈환 가능성 언급하며 향후 행보 고심",
+      "short_summary": "존 페터만(John Fetterman) 펜실베이니아주 민주당 상원의원은 토요일 오스틴에서 열린 텍사스 트리뷴 페스티벌에서 11월 중간선거에서 민주당이 상원 다수당 지위를 차지하는 것이 \"충분히 가능하다\"고 말했다. 자신의 정치적 미래와 민주당이 51석의 과반 의석을 확보할 경우 어떻게 투표할 것인지에 대한 질문에는 답변을 피했다[cbsnews.com#1][allsides.com#1]. CBS 뉴스는 민주당이 이번 중간선거 주기에서 상원 통제권을 확보하기 위해 힘겨운 싸움을 벌이고 있다고 보도했다[cbsnews.com#1].",
+      "quote": "중간선거 이후에 다시 이야기합시다",
+      "quote_attribution": "CBS 뉴스",
+      "location": "미국 텍사스주 오스틴",
+      "talking_points[0]": "페스티벌 말실수: 페터만은 행사 도중 자신을 \"평생 공화당원\"이라고 잠시 소개했다가 웃음을 터뜨리며 실수를 인정했다[nypost.com#1].",
+      "talking_points[1]": "과거 설명: 지난 5월 워싱턴 포스트 기고문에서 페터만은 자신을 \"민주당에 압도적으로 투표하지만 공화당원으로는 형편없는 사람\"이라고 묘사한 바 있다[nypost.com#1]."
+    },
+    "96e01920-0fc6-4b62-8531-e8ec73e12b2b": {
+      "title": "이란 전쟁과 치솟는 연료비, 공화당에 부담으로 작용",
+      "short_summary": "도널드 트럼프 대통령의 이란 전쟁이 11월 3일 중간선거를 앞두고 공화당 후보들에게 부담이 되고 있다. 휘발유와 디젤 가격 상승이 물가에 대한 유권자들의 우려를 가중시키고 있기 때문이다. 뉴욕타임스(The New York Times) 보도에 따르면, 전쟁을 지지했던 일부 공화당 의원들은 당의 선거 전망이 악화되자 입장을 바꾸기 시작했다 [nytimes.com#1]. 월스트리트저널(Wall Street Journal) 여론조사 결과, 트럼프 대통령의 국정 수행 지지율은 37%로 나타났다 [tv2.no#1].",
+      "did_you_know": "이번 여론조사에서 나타난 37%의 지지율은 1990년 이후 월스트리트저널이 실시한 중간선거 직전 대통령 지지율 조사 중 가장 낮은 수치이다 [tv2.no#1].",
+      "talking_points[0]": "하원 선거 전망: 쿡 폴리티컬 리포트(The Cook Political Report)는 15개 하원 선거구의 판세를 민주당 우세로 조정했다. '팟 세이브 아메리카(Pod Save America)' 진행자인 존 파브로(Jon Favreau)는 민주당이 5석에서 15석을 추가로 확보할 가능성이 있다고 언급했다 [alternet.org#1].",
+      "talking_points[1]": "경제 심리: 얼터넷(AlterNet)이 인용한 뉴욕타임스/시에나(Siena) 여론조사에 따르면, 경제 상황이 1년 전보다 나아졌다고 답한 공화당원의 비율은 지난 1월 70% 이상에서 9월 29%로 급락했다 [alternet.org#2].",
+      "perspectives[0].text": "도널드 트럼프 대통령: 더 내셔널(The National)에 따르면, 트럼프 대통령은 유권자들에게 이번 중간선거를 마치 자신의 이름이 투표용지에 올라와 있는 것처럼 여기고 투표할 것을 촉구했다 [thenational.scot#1].",
+      "perspectives[1].text": "힐마르 옐데(Hilmar Mjelde) 정치학 교수: 옐데 교수는 트럼프 대통령의 지지율이 중간선거에서 의석 손실을 피하기 위해 대통령에게 일반적으로 필요한 역사적 수준보다 13%포인트 낮다고 지적했다 [tv2.no#1].",
+      "primary_image.caption": "2026년 6월 24일 워싱턴 D.C. 의사당에 있는 도널드 트럼프 대통령"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 9,
-    "failedStoryIds": [
-      {
-        "id": "37a181ec-3a1f-496c-a0cd-0815649e69f2",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "8ce3db64-3578-4ef2-a4ee-78a7f8257e1d",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "96e01920-0fc6-4b62-8531-e8ec73e12b2b",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 7988,
-      "out": 8614
+      "in": 10070,
+      "out": 10657
     }
   }
 }

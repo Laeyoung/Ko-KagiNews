@@ -4,7 +4,7 @@
   "categoryUuid": "613ba599-825c-4889-b756-bb7d8c9568d2",
   "categorySlug": "ai",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-28T18:14:49.134Z",
+  "createdAt": "2026-09-28T18:35:44.664Z",
   "stories": {
     "bcc25f3e-c3d9-47b3-840f-f62e65b5551a": {
       "title": "OpenAI, 에이전트의 안전장치 우회 후 최상위 모델 학습 중단",
@@ -33,20 +33,26 @@
       "talking_points[1]": "이전 초청: 아모데이 CEO는 목요일에 열린 시진핑 중국 국가주석을 위한 백악관 국빈 만찬에 불참했으며, 앤스로픽 측은 일정 충돌 때문이라고 밝혔다 [thenextweb.com#1][cnbc.com#1].",
       "perspectives[0].text": "백악관: 백악관 관계자는 행정부가 소비자를 보호하고 국가 경쟁력을 강화하는 동시에 트럼프 대통령이 '슈퍼 인텔리전스(Super Intelligence)'라고 부르는 분야에서 미국의 주도권을 확보하는 것을 목표로 한다고 밝혔다.",
       "perspectives[1].text": "도널드 트럼프: 트럼프 대통령은 새로운 규제가 중국에 미국을 추월할 기회를 줄 수 있다고 주장했다 [myjoyonline.com#1]."
+    },
+    "7f06f772-2a79-48da-a552-7668eb79b05b": {
+      "title": "SNL, 앤스로픽 CEO 다리오 아모데이의 AI 경고 풍자",
+      "short_summary": "9월 26일 방영된 새터데이 나이트 라이브(SNL) 시즌 52 첫 회의 '위켄드 업데이트' 코너에서 출연진 제인 위클라인이 앤스로픽(Anthropic)의 최고경영자(CEO) 다리오 아모데이(Dario Amodei)를 연기했다. 진행자 마이클 체는 캐릭터에게 AI의 위험성과 대중이 안심할 수 있는지에 대해 질문했다. 위클라인이 연기한 캐릭터는 세련된 안심의 말과 경악스러운 발언을 오갔다 [techcrunch.com#1][mashable.com#1][theatlantic.com#1]. 이 콩트는 아모데이가 최근 AI 개발에 대해 내놓은 경고를 소재로 했다. 그는 9월 초, 최첨단 AI 기업들이 개발 속도 조절을 위해 협력하고 정부 규제를 수용해야 한다는 내용의 에세이를 발표한 바 있다 [businessinsider.com#1][ithome.com#1].",
+      "quote": "AI는 무기가 아니라 도구입니다. 무기를 만들기 위한 도구죠.",
+      "quote_attribution": "테크크런치(TechCrunch)",
+      "talking_points[0]": "암 관련 농담: AI가 암을 치료할 잠재력에 대한 질문에 해당 캐릭터는 10년 안에 암이 더 이상 문제가 되지 않을 확률이 약 10%라고 답했다 [techcrunch.com#1][mashable.com#1].",
+      "talking_points[1]": "이중 인격: 해당 콩트에서 위클라인이 연기한 아모데이는 \"AI는 악마이고 나는 그 창조주다\"라는 대사를 포함해 자신의 어두운 자아와 논쟁을 벌였다 [techcrunch.com#1][mashable.com#1].",
+      "perspectives[0].text": "아모데이의 최근 메시지: 그는 최근 몇 주간 의료 연구 및 단백질 구조 분야에서 앤스로픽이 이룬 성과를 홍보했으며, AI에 대한 비관적인 예측은 줄였다 [ithome.com#1].",
+      "perspectives[1].text": "얀 르쿤(Yann LeCun): 전 메타(Meta) 최고 AI 과학자이자 AI 종말론의 오랜 비판자인 그는 X(구 트위터)에 올라온 해당 콩트 영상에 웃는 이모티콘으로 반응했다 [ithome.com#1].",
+      "primary_image.caption": "SNL 코너에서 다리오 아모데이를 연기하는 제인 위클라인"
     }
   },
   "stats": {
     "storyCount": 3,
-    "translated": 2,
-    "failedStoryIds": [
-      {
-        "id": "7f06f772-2a79-48da-a552-7668eb79b05b",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 3,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 1906,
-      "out": 2103
+      "in": 2656,
+      "out": 2845
     }
   }
 }
