@@ -4,7 +4,7 @@
   "categoryUuid": "910dc444-4ebf-4a73-b04c-c61158162923",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-28T18:34:21.612Z",
+  "createdAt": "2026-09-28T18:40:42.768Z",
   "stories": {
     "6235b864-99fe-418d-ba50-d6fe984be006": {
       "title": "영국 경찰, 미군이 사용하는 RAF 페어포드 인근서 5명 체포",
@@ -146,11 +146,23 @@
       "perspectives[0].text": "UAE 정부: UAE는 이스라엘과 '개방적이고 직접적인 소통 채널'을 유지하고 있다고 밝혔다. UAE 소식통은 로이터 통신에 안보 문제는 국가 지도자가 아닌 관련 기관을 통해 처리된다고 전했다 [newarab.com#1].",
       "perspectives[1].text": "이스라엘 야당 지도자들: 야당 지도자들은 10월 7일 공격 이전의 안보 실패에 대한 책임이 네타냐후 총리에게 있다고 비난했다 [bworldonline.com#1].",
       "perspectives[2].text": "베냐민 네타냐후: 네타냐후 총리는 경고 의혹에 관한 하레츠의 보도에 대해 법적 대응을 예고했다 [newarab.com#1]."
+    },
+    "2f33b712-3407-4c6b-a20e-526468fa216b": {
+      "title": "네팔 힘룽 캠프 눈사태로 4명 사망, 구조 작업 진행 중",
+      "short_summary": "9월 27일 일요일, 며칠간 이어진 폭설과 폭우 끝에 네팔 마낭 지구의 힘룽 히말 베이스캠프를 눈사태가 덮쳤다. 네팔인 가이드와 원정 지원 인력들이 외국인 등반객을 위해 캠프와 경로를 준비하던 중 눈이 텐트를 덮쳤다. 악천후로 인해 초기에는 구조대와 헬리콥터가 현장에 접근하지 못했다 [abcnews.com#2][bbc.co.uk#1][dawn.com#1][thehimalayantimes.com#1]. 월요일 AP 통신은 수색이 재개되면서 12명이 여전히 실종 상태라고 보도했다. 이후 네팔 산악가이드협회는 구조대가 시신 2구를 추가로 수습해 사망자가 총 4명으로 늘었다고 밝혔다. 협회의 최신 업데이트에서는 수정된 실종자 수는 제공되지 않았다 [abcnews.com#2][onlinekhabar.com#1].",
+      "location": "네팔 마낭 지구",
+      "talking_points[0]": "캠프 인력: 현지 행정 관계자는 원정을 준비하기 위해 네팔인 지원 인력 28명이 두 그룹으로 나뉘어 해당 지역에 도착했다고 밝혔다 [nagariknetwork.com#3].",
+      "talking_points[1]": "기상 경보: 대부분의 다른 원정대원들은 기상 경보 이후 하산했으나, 일부 인원은 캠프에 남아 있었다 [thehimalayantimes.com#1][beijingbulletin.com#1].",
+      "talking_points[2]": "추가 피해: 네팔 재난관리청은 목요일부터 일요일까지 전국 각지에서 발생한 별도의 사고로 21명이 사망하고 5명이 실종되었다고 보고했다 [n1info.rs#2].",
+      "technical_details[0]": "헬리콥터 접근 허가: 힘룽 지역으로의 비행은 추가 허가가 필요하며, 이는 이미 외딴 산악 지역인 이곳의 접근성에 행정적 제약을 더하고 있다 [beijingbulletin.com#1].",
+      "technical_details[1]": "베이스캠프 고도: 현지 지방자치단체 관계자에 따르면 원정 베이스캠프는 약 5,000미터 지점에 있었다 [nagariknetwork.com#3].",
+      "perspectives[0].text": "네팔 관광 당국: 관광부는 기상 조건이 악화됨에 따라 트레커와 등반가들에게 활동을 중단할 것을 촉구하는 경보를 발령했다 [deccanchronicle.com#1].",
+      "primary_image.caption": "힘룽산에서 수습된 시신들이 카트만두 병원 영안실로 이송된 후 가족과 친구들이 모여 있다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 9,
+    "translated": 10,
     "failedStoryIds": [
       {
         "id": "bdfa4843-3e16-4d3b-913d-7a556a2a0163",
@@ -159,15 +171,11 @@
       {
         "id": "0745ea78-7f75-4d43-9b25-dc86616bf3b8",
         "reason": "retry_exhausted"
-      },
-      {
-        "id": "2f33b712-3407-4c6b-a20e-526468fa216b",
-        "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 8977,
-      "out": 10197
+      "in": 9802,
+      "out": 11013
     }
   }
 }

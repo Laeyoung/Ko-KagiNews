@@ -4,7 +4,7 @@
   "categoryUuid": "874f8fe0-cba8-418f-bb5c-a640354d3fce",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-28T18:35:28.823Z",
+  "createdAt": "2026-09-28T18:41:15.811Z",
   "stories": {
     "9743cf64-dcac-46ee-b58f-1b904e6dd4b3": {
       "title": "트럼프와 앤스로픽 CEO, 백악관서 AI 만찬 계획",
@@ -143,20 +143,30 @@
       "talking_points[2]": "소프트웨어 기능: 피코는 안드로이드를 탑재하지 않았으며, 기본 내장 도구로 카운트다운 타이머와 뽀모도로 타이머 등이 포함되어 있다 [androidauthority.com#1].",
       "technical_details[0]": "디스플레이 밀도: 엔가젯(Engadget)은 235ppi(인치당 픽셀 수)라고 보도했다 [engadget.com#1].",
       "primary_image.caption": "북스 피코 소형 전자책 단말기"
+    },
+    "88b310d0-cfdf-4469-af31-7deb21742096": {
+      "title": "시트릭스(Citrix), 악용된 넷스케일러(NetScaler) 제로데이 2건 패치… CISA, 기한 설정",
+      "short_summary": "시트릭스는 9월 27일, 넷스케일러 ADC 및 게이트웨이 어플라이언스에서 이전에 공개되지 않은 치명적인 원격 코드 실행 결함 2건이 공격자에 의해 악용되고 있음을 확인하고 보안 업데이트를 발표했다. CVE-2026-88771은 영향을 받는 버전을 실행 중인 모든 배포 환경에 영향을 미치며, CVE-2026-88772는 DTLS가 활성화된 시스템에 영향을 준다. DTLS는 VPN 가상 서버에서 기본적으로 활성화되어 있다. 두 결함 모두 인증되지 않은 원격 코드 실행을 허용할 수 있다 [bleepingcomputer.com#2][thehackernews.com#1][cybersecuritynews.com#1]. 미국 사이버보안 및 인프라 보안국(CISA)은 해당 결함을 '알려진 악용 취약점(KEV)' 목록에 추가하고, 미국 연방 민간 기관들에 9월 30일 수요일까지 패치를 완료할 것을 지시했다. CISA는 정보 당국이 전 세계적인 악용 사례를 확인했다고 밝히며, 업데이트 전 침해 여부를 확인하고 포렌식 증거를 보존할 것을 권고했다 [cisa.gov#1][cisa.gov#2][bleepingcomputer.com#1].",
+      "talking_points[0]": "위험 등급: 악용된 두 결함 모두 CVSS v4.0 점수 9.5점을 기록했다 [thehackernews.com#1][cybersecuritynews.com#1][cisa.gov#1].",
+      "international_reactions[0]": "🇳🇱 네덜란드 국가사이버보안센터(NCSC): 네덜란드 NCSC는 시트릭스가 공식 확인하기 전, 해당 넷스케일러 제로데이 2건에 대해 조직들에 경고한 것으로 알려졌다 [bleepingcomputer.com#1].",
+      "industry_impact[0]": "의료 접근성: 네덜란드의 여러 병원에서 보고된 장애로 인해 환자들이 병원 기록에 접근하지 못하는 사태가 발생했다 [tweakers.net#1].",
+      "user_action_items[0]": "연방 정부 외의 조직들도 위험 기반 취약점 관리를 수행하고, CISA의 KEV 목록에 포함된 취약점 해결을 우선시해야 한다 [cisa.gov#2].",
+      "perspectives[0].text": "시트릭스: 해당 기업은 방어자들이 시스템 침해 여부를 평가할 수 있도록 넷스케일러 콘솔을 통해 침해 지표(IOC)를 제공했다 [bleepingcomputer.com#1].",
+      "timeline[0].content": "워치타워(watchTowr), 넷스케일러 결함 악용에 대한 신뢰할 수 있는 보고를 공개적으로 경고 [cybersecuritynews.com#2][bleepingcomputer.com#2]",
+      "timeline[1].content": "시트릭스, 악용 사실 확인 및 보안 게시판과 수정 사항 발표 [bleepingcomputer.com#2][cisa.gov#1]",
+      "timeline[2].content": "미국 연방 민간 기관의 수정 사항 설치를 위한 CISA의 기한 [bleepingcomputer.com#1]",
+      "suggested_qna[0].question": "시트릭스가 악용된 2건의 결함 외에 공개한 보안 문제는 무엇인가?",
+      "suggested_qna[0].answer": "시트릭스의 게시판에는 CVE-2026-88773부터 CVE-2026-88778까지 6건의 추가 취약점이 포함되었다 [cisa.gov#1].",
+      "primary_image.caption": "악용된 시트릭스 넷스케일러 취약점 관련 보도에 포함된 그래픽"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "88b310d0-cfdf-4469-af31-7deb21742096",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 9320,
-      "out": 9909
+      "in": 10290,
+      "out": 11022
     }
   }
 }
