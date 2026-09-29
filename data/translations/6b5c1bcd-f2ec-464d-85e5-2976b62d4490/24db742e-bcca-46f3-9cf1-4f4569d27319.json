@@ -4,7 +4,7 @@
   "categoryUuid": "24db742e-bcca-46f3-9cf1-4f4569d27319",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-29T16:32:41.678Z",
+  "createdAt": "2026-09-29T16:38:16.041Z",
   "stories": {
     "da1dec49-8efd-4103-9614-8c3fb4a7afa1": {
       "title": "엔비디아, AI 에이전트 통제 위한 오픈 안전 플랫폼 출시",
@@ -160,24 +160,31 @@
       "perspectives[0].text": "빌 게이츠(Bill Gates): 게이츠는 자율 시스템이 통제를 벗어나는 것보다 악의적인 사람들이 AI를 사용하는 것이 더 즉각적인 우려 사항이라고 주장하며, 안전장치와 모니터링은 기업에만 맡길 것이 아니라 의무화되어야 한다고 말했다 [slashdot.org#1][deccanchronicle.com#2].",
       "perspectives[1].text": "도널드 트럼프(Donald Trump) 대통령: 트럼프는 AI의 실존적 위험에 대한 경고를 일축하고 AI 개발 속도를 늦추라는 요구를 거부하며, 그렇게 할 경우 중국이 이득을 볼 것이라고 주장했다 [huxiu.com#1].",
       "primary_image.caption": "AI 주도의 연구 가속화에 대한 경고문을 공동 집필한 제프리 힌튼"
+    },
+    "b0146214-fb2a-41b6-a51c-944095f9abc7": {
+      "title": "애플, 아이폰 버그 수정한 iOS 27.0.1 배포",
+      "short_summary": "애플은 9월 28일 iOS 27의 첫 번째 유지보수 업데이트인 iOS 27.0.1을 출시했다. 이번 업데이트는 아이폰 18 프로 및 프로 맥스 모델에서 페이스 ID(Face ID) 실패 후 기기가 재시작되는 버그, 일부 2배 줌 카메라 사진에서 발생하는 색상 왜곡 현상, 알림 센터와 제어 센터를 동시에 열 때 터치스크린이 멈추는 현상을 해결했다 [9to5mac.com#2][cnet.com#1][macworld.com#1]. 애플은 또한 아이패드OS(iPadOS), 맥OS(macOS), 비전OS(visionOS)에 대한 마이너 업데이트도 함께 배포했다 [redmondpie.com#1]. 애플이 공개한 맥OS 27.0.1 업데이트 노트에는 개별적인 문제에 대한 언급 없이 버그 수정 사항만 명시되어 있다 [macrumors.com#1].",
+      "talking_points[0]": "맥 로그인 수정: 맥OS 27.0.1은 맥이 절전 모드에서 깨어난 후 잠금 화면에서 사용자 이름 및 비밀번호 입력란이 사라지는 플랫폼 SSO(Platform SSO) 문제를 해결했다 [macgadget.de#2][mrmacintosh.com#1].",
+      "talking_points[1]": "구형 시스템: 애플의 iOS 26.7.1, 아이패드OS 26.7.1, 맥OS 타호(Tahoe) 26.7.1 및 맥OS 세쿼이아(Sequoia) 15.8.1 업데이트는 코어그래픽스(CoreGraphics) 결함인 CVE-2026-86950을 패치했다. 애플은 해당 결함이 표적 공격에 악용되었을 가능성이 있다고 밝혔다 [maclife.de#2][macgadget.de#1].",
+      "talking_points[2]": "미해결 보고: 위젯을 드래그하고 페이지 표시기를 탭할 때 발생하는 별도의 아이폰 18 프로 홈 화면 충돌 문제가 보고되었으며, 사용자들은 iOS 27.0.1이 이를 해결하지 못했다고 전했다 [ithome.com#1].",
+      "timeline[0].content": "애플이 iOS 27을 출시하며 소프트웨어의 일반 사용자 대상 배포를 시작했다 [macdailynews.com#1].",
+      "timeline[1].content": "애플이 프로 모델의 재시작 문제를 인정하고 소프트웨어 수정안을 예고했다 [etnews.com#1].",
+      "timeline[2].content": "애플이 아이폰 사용자들에게 iOS 27.0.1을 배포했다 [9to5mac.com#2].",
+      "primary_image.caption": "애플의 iOS 27.0.1 업데이트 보도에 등장한 아이폰 18 프로"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
+    "translated": 11,
     "failedStoryIds": [
-      {
-        "id": "b0146214-fb2a-41b6-a51c-944095f9abc7",
-        "reason": "retry_exhausted"
-      },
       {
         "id": "c02f0501-6143-49b2-809f-4e670a72c7e4",
         "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 10553,
-      "out": 12124
+      "in": 11391,
+      "out": 12940
     }
   }
 }
