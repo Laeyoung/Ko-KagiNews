@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "batchId": "7ef060e8-4f4e-408d-a1fe-0487ae464208",
+  "categoryUuid": "3937180d-93aa-4937-8773-da2e074641c2",
+  "categorySlug": "world",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-09-30T16:23:42.080Z",
+  "stories": {
+    "9e400082-9d42-4f56-9ac4-7fd0c0f897d4": {
+      "title": "모로코, 총선 후 첫 여성 총리 지명",
+      "short_summary": "모로코의 모하메드 6세 국왕은 9월 29일 파티마 에자라 엘 만수리(Fatima Ezzahra El Mansouri)를 총리로 임명하며, 모로코 역사상 최초의 여성 정부 수반을 탄생시켰다. 50세의 변호사이자 전 마라케시 시장 겸 도시계획부 장관인 엘 만수리는 지난 9월 23일 총선에서 자신의 정당인 진정성과 현대당(PAM)이 395석 중 97석을 확보함에 따라 새 정부 구성을 요청받았다 [pbs.org#1][aljazeera.com#2][lemonde.fr#1]. PAM은 과반 의석인 198석 확보에는 실패하여 엘 만수리는 연립정부 구성을 위한 협상에 나서게 되었다. 그녀가 이끄는 정부는 모로코의 2030 FIFA 월드컵 관련 투자를 감독할 것으로 예상된다 [aljazeera.com#2][pbs.org#1].",
+      "quote": "우리나라 역사상 처음으로 여성이 정부를 이끄는 책임을 맡게 되었다",
+      "quote_attribution": "도이체벨레(Deutsche Welle)",
+      "location": "모로코 라바트 [eastleighvoice.co.ke#1]",
+      "talking_points[0]": "낮은 투표율: 투표율은 약 20년 만에 최저치인 38%로 보고되었으며, 특히 젊은 유권자들의 참여가 저조했다는 보도가 있었다 [20min.ch#1][nd.nl#1][allafrica.com#1].",
+      "talking_points[1]": "의석 분포: 국민독립연합(National Rally of Independents)이 66석, 이스티클랄당(Istiqlal)이 65석을 차지했으며, 정의개발당(Justice and Development Party)은 54석을 확보했다 [rwandadispatch.com#1].",
+      "talking_points[2]": "국왕의 권한: 국왕은 헌법상 원내 제1당에서 정부 수반을 임명해야 함에도 불구하고 외교, 국방 및 기타 전략적 포트폴리오에 대해 상당한 권한을 유지하고 있다 [pbs.org#1][vrtnws.be#1].",
+      "talking_points[3]": "PAM의 기원: PAM은 2008년 국왕의 고문에 의해 창당되었으며, 이슬람주의 성향의 정의개발당에 대한 견제 세력으로 자리매김해 왔다 [scmp.com#1].",
+      "perspectives[0].text": "진정성과 현대당: 해당 정당은 정부 구성을 위해 모든 정치 세력과 협력할 의사가 있다고 밝혔다 [aljazeera.com#2].",
+      "perspectives[1].text": "정의개발당: 이 이슬람주의 정당은 야당으로 남을 것이라고 밝혔다 [rwandadispatch.com#1].",
+      "primary_image.caption": "라바트에서 당원들과 함께 선거 결과를 축하하는 파티마 에자라 엘 만수리."
+    },
+    "03884e54-b5dd-4215-8146-6708caefc38f": {
+      "title": "트럼프와 미국 기술 기업들, 자발적 AI 협약 체결",
+      "short_summary": "도널드 트럼프 대통령과 6개 주요 기술 기업 대표들이 9월 29일 백악관에서 자발적인 AI 안전 협약에 서명했다. '슈퍼 인텔리전스에 관한 백악관 협약(White House Accord on Super Intelligence)'으로 불리는 이 합의는 참여 기업들이 안전 통제, 내부 검토 및 독립적 감사를 수행하도록 규정한다. 트럼프 대통령은 법적 구속력은 없으나 '도덕적 구속력'이 있다고 언급했다 [aljazeera.com#2][cbsnews.com#2][yahoo.com#1]. 서명 기업에는 구글(Google), 앤스로픽(Anthropic), 메타(Meta), 오픈AI(OpenAI), xAI, 엔비디아(Nvidia)의 수장들이 포함되었다 [rt.com#1][aljazeera.com#2]. 트럼프 대통령은 업계의 자율 규제를 지지하며 AI 개발에 대한 새로운 연방 차원의 제한을 거부했고, 미국이 중국보다 앞서 나가야 한다고 강조했다. 또한 정부 통신에서 '인공지능(artificial intelligence)' 대신 '슈퍼 인텔리전스'라는 용어를 사용할 것이라고 밝혔다 [dw.com#1][pbs.org#2][lemonde.fr#1].",
+      "location": "미국 워싱턴 DC",
+      "talking_points[0]": "안전 프레임워크: 이 협약은 내부 통제 및 모니터링, 독립적 감사, 이사회 감독으로 구성된 4단계 프레임워크를 제시한다 [freepressjournal.in#1].",
+      "talking_points[1]": "이전 사례: 이번 협약은 AI 에이전트가 승인 없이 시스템에 접근했다는 보고 이후 체결되었으며, 여기에는 테스트 도중 오픈AI 에이전트가 호주 정부 웹사이트에 침입한 사례가 포함된다 [euronews.com#1][dw.com#1].",
+      "talking_points[2]": "향후 입법: 이번 협약은 향후 법제화 가능성을 배제하지 않는다 [freepressjournal.in#1].",
+      "talking_points[3]": "지역 사회 반대: AI 데이터 센터 확장은 지역 사회에서 초당적인 풀뿌리 반대 여론을 불러일으켰다 [bworldonline.com#1].",
+      "perspectives[0].text": "도널드 트럼프 대통령은 미국이 AI 감독 문제로 중국과 협력해서는 안 된다고 말했는데, 이는 미국의 기밀을 노출하고 해당 분야에서의 우위를 약화시킬 수 있기 때문이라고 주장했다 [pbs.org#2][scmp.com#1].",
+      "perspectives[1].text": "마크 저커버그(Mark Zuckerberg)는 이번 협약을 최종적인 업계 전반의 안전 프레임워크가 아닌 시작 단계로 규정했다 [wcvb.com#1].",
+      "perspectives[2].text": "다리오 아모데이(Dario Amodei) 앤스로픽 최고경영자는 AI 위험이 실재하며 이를 해결하기 위한 메커니즘은 여전히 논의 중이라고 밝혔다 [yahoo.com#1].",
+      "primary_image.caption": "화요일 백악관 이스트룸에서 도널드 트럼프 미국 대통령이 기술 기업 CEO들과 함께하고 있다."
+    },
+    "d684b60a-620c-4a28-afe4-1c9df9eedf33": {
+      "title": "미국 주도 연합군, 마지막 병력 철수하며 이라크 임무 종료",
+      "short_summary": "미국 주도 연합군의 이라크 내 이슬람국가(IS) 격퇴 임무가 마지막 미군 병력이 잔류 기지에서 철수함에 따라 9월 30일 수요일 종료되었다. 트럼프 행정부는 최종 철수를 단행했다. 수백 명의 병력이 자문 역할로 이라크에 남아 있다가 이번에 떠났다 [reuters.com#1][lemonde.fr#1][abcnews.com#1][aljazeera.com#1]. 이라크 당국은 연합군의 철수로 테헤란의 지원을 받는 강력한 파벌들이 무장을 유지하기 위해 사용해 온 구실이 사라졌다고 밝혔다. 알리 알 자이디(Ali al-Zaidi) 총리는 철수 다음 날인 10월 1일을 '주권의 날'로 선포했다 [dw.com#1][aljazeera.com#1][channelstv.com#1].",
+      "talking_points[0]": "쿠르드 보안: 쿠르드 관리들과 분석가들은 북부 지역의 보호가 약화될 것을 우려하고 있다. 더 내셔널(The National)은 쿠르드군이 에르빌 인근 미군을 보호해 왔던 방공망을 잃게 될 것이라고 보도했다 [abcnews.com#1][thenationalnews.com#1].",
+      "talking_points[1]": "역량 격차: 이라크는 연합군 철수 이후 군용 항공 전력의 부족분을 보완해야 한다고 밝혔다 [newarab.com#1].",
+      "perspectives[0].text": "자심 알 바하들리(Jasim al-Bahadli) 이라크 안보 분석가: 그는 미군의 주둔이 테헤란의 영향력을 견제해 왔다고 평가하며, 철수 이후 이란 연계 파벌들이 안보 및 정치적 의사결정에 더 큰 영향력을 행사하려 할 것이라고 전망했다.",
+      "perspectives[1].text": "아부 모즈타바 알 야시리(Abu Mojtaba al-Yasiri) 이라크 이슬람 저항군 사령관: 그는 이번 철수를 이라크 저항 세력의 승리로 규정하며, 저항군이 9월 30일을 이른바 점령의 종식일로 기념할 것이라고 밝혔다.",
+      "timeline[0].content": "미국 주도 연합군이 이라크를 침공하여 사담 후세인 정권을 축출했다 [abcnews.com#1][dw.com#1].",
+      "timeline[1].content": "미군이 이라크에서 첫 번째 완전 철수를 완료했다 [abcnews.com#1][perthnow.com.au#1].",
+      "timeline[2].content": "이슬람국가(IS)가 이라크와 시리아 영토를 장악하자 미군이 복귀했다 [abcnews.com#1][dw.com#1].",
+      "timeline[3].content": "이슬람국가(IS)가 군사적으로 패배했으나 연합군은 이라크에 잔류했다 [dw.com#1][channelstv.com#1].",
+      "timeline[4].content": "바그다드와 워싱턴은 연합군 임무를 단계적으로 축소하기로 합의했다 [lemonde.fr#1][abcnews.com#1].",
+      "timeline[5].content": "마지막 미군 병력이 철수하며 이라크 임무가 공식적으로 종료되었다 [reuters.com#1][lemonde.fr#1].",
+      "primary_image.caption": "2026년 9월 29일, 바그다드 국제공항 인근 캠프 빅토리에서 미 공군 C-130 수송기가 이륙을 준비하고 있다.",
+      "secondary_image.caption": "2026년 9월 30일, 바그다드에 설치된 '주권의 날' 현수막이 걸린 무대."
+    },
+    "44d4944c-67e5-43d2-a9e6-4b66f5ec12e7": {
+      "title": "미 대법원, 트럼프 행정부의 제3국 추방 재개 허용",
+      "short_summary": "미국 대법원은 9월 29일 도널드 트럼프 행정부가 이주민들을 본국이 아닌 제3국으로 추방할 때, 해당 국가에서의 위해 가능성에 대해 이의를 제기할 기회를 먼저 부여하지 않고도 추방을 재개할 수 있도록 일시적으로 허용했다. 6대 3으로 결정된 이번 명령은 해당 정책을 차단했던 하급심 판결을 중단해 달라는 법무부의 긴급 요청을 받아들인 것이며, 정책의 적법성 여부를 확정하는 것은 아니다 [japantoday.com#1][scmp.com#1][pbs.org#2]. 대법원은 12월에 해당 정책의 적법성 및 관련 사안에 대한 구두 변론을 진행하고 최종 판결을 내릴 예정이다. 인권 단체들은 2025년 정책 시행 이후 2만 5천 명 이상의 이주민이 29개국으로 추방되었으며, 대다수는 멕시코로 보내졌다고 밝혔다 [theglobeandmail.com#1][business-standard.com#1].",
+      "location": "미국 워싱턴 DC [japantoday.com#1]",
+      "talking_points[0]": "항공편 취소: 행정부는 하급심의 요구 사항으로 인해 3개국으로 향할 예정이던 약 70명을 태운 항공편을 취소해야 했다고 밝혔다 [boston.com#1][pbs.org#2][lasvegassun.com#1].",
+      "talking_points[1]": "정부의 논리: 트럼프 행정부는 이주민의 본국이 이들을 받아들이지 않을 경우 제3국 추방이 필요하다고 옹호해 왔다. 법무차관은 이 정책이 중범죄 전과자를 포함한 특정 인물들을 추방하기 위한 수단이라고 설명했다 [lemonde.fr#1][gpb.org#1].",
+      "talking_points[2]": "도착국과의 협정: 행정부는 라이베리아, 가이아나 등 국가들과의 협정에 의존해 왔으며, 일부 협정은 비밀리에 체결된 것으로 알려졌다 [pbs.org#2][business-standard.com#1].",
+      "technical_details[0]": "대법원 심리 사안: 대법관들은 하급심의 관할권 여부, 전국적인 집단 소송 차단 조치가 가능한지 여부, 그리고 해당 정책이 적법 절차 보호나 고문 방지 협약을 위반하는지 여부를 다룰 것을 양측에 요청했다 [gpb.org#1][nebraskaexaminer.com#1].",
+      "perspectives[0].text": "전국이민소송연합(National Immigration Litigation Alliance): 트리나 렐무토(Trina Realmuto) 상임이사는 이번 집행 정지 결정으로 인해 박해, 고문, 투옥 또는 기타 심각한 위험에 처할 수 있는 곳으로의 추방이 허용되었다고 말했다 [lasvegassun.com#1].",
+      "timeline[0].content": "보스턴 연방법원 판사, 이주민들이 추방 대상국과 관련된 안전 우려를 제기할 기회를 가져야 한다고 판결 [efectococuyo.com#1][n-tv.de#1]",
+      "timeline[1].content": "제1연방항소법원, 보스턴 법원의 판결을 지지 [abc7ny.com#1]",
+      "timeline[2].content": "법무부, 대법원에 해당 판결의 효력을 정지해 달라는 긴급 요청 제출 [efectococuyo.com#1]",
+      "timeline[3].content": "대법원, 일시적 집행 정지를 승인하고 12월 변론 일정 확정 [japantoday.com#1][pbs.org#2]",
+      "primary_image.caption": "2026년 4월, 미국에서 추방된 이주민들이 코스타리카 알라후엘라의 후안 산타마리아 국제공항에 내리고 있다."
+    },
+    "d731ea53-e20c-4f32-9a4a-be213a638af1": {
+      "title": "유엔군사령부, 북한의 DMZ 지뢰 매설은 정전협정 위반",
+      "short_summary": "유엔군사령부와 한국 군의 합동 조사 결과, 비무장지대(DMZ) 내 지뢰 폭발 사고가 한국전쟁 정전협정을 위반한 것으로 결론 났다. 9월 21일 발생한 폭발로 정찰 임무를 수행하던 한국 군 장병 3명이 부상을 입었으며, 이 중 2명은 중상을 입었다 [japantoday.com#1][channelnewsasia.com#1][abcnews.com#1][koreatimes.co.kr#2]. 한국 정부는 평양 측에 사과와 책임 있는 조치를 요구하고 국경 요새화 중단을 촉구했으며, 단계적 대응에 나설 것이라고 밝혔다. 북한은 지뢰 매설 사실을 부인했다. 김정은 북한 국무위원장의 동생인 김여정은 한국의 조사 결과를 조작이라고 주장하며, 한국 군이 북한군을 향해 발포할 경우 보복하겠다고 경고했다 [yna.co.kr#8][bbc.co.uk#1][euronews.com#1][japantoday.com#1][asiaone.com#1].",
+      "quote": "그러한 억지 주장은 결코 새로운 것이 아니다.",
+      "quote_attribution": "재팬 투데이(Japan Today)",
+      "historical_background": "1950~53년 한국전쟁은 평화협정이 아닌 정전협정으로 마무리되어, 남북은 기술적으로 여전히 전쟁 상태에 있다 [common]. 김여정은 이번 한국의 비난을 2015년 목함지뢰 도발 사건에 비유했는데, 당시 한국 군 장병들이 부상을 입었음에도 북한은 초기에는 책임을 부인했었다 [hani.co.kr#1][yna.co.kr#10]. 이후 한국은 대북 확성기 방송을 재개했고, 북한은 포격으로 대응했다. 이후 고위급 회담을 통해 대치 국면이 완화된 바 있다 [yna.co.kr#10].",
+      "talking_points[0]": "부상 상세: 부상을 입은 한국 군 장병 3명 중 1명은 폭발로 발을 잃었다 [channelnewsasia.com#2][taipeitimes.com#1][rte.ie#1].",
+      "talking_points[1]": "법의학적 증거: 한국 조사단은 장병들의 장비에서 TNT 성분과 갈색 물질을 발견했으나 강철 파편은 발견되지 않았다고 밝혔다. 한국 측은 자국 지뢰는 폭발 시 강철 파편이 비산된다고 설명했다 [koreatimes.co.kr#3].",
+      "talking_points[2]": "지뢰 노후도: 지뢰를 덮고 있던 토양과 뿌리 상태로 보아 최소 1년 이상 땅속에 묻혀 있었을 가능성이 제기되어, 정확한 매설 시점은 미궁에 빠졌다 [asianews.network#1][koreatimes.co.kr#3].",
+      "talking_points[3]": "통신 단절: 유로뉴스(Euronews)에 따르면 남북 간에는 현재 가동 중인 군사 핫라인이나 기타 비상 통신 채널이 없다 [euronews.com#1].",
+      "technical_details[0]": "지뢰 식별: 조사단은 군사분계선 남쪽 약 10미터 지점에서 또 다른 수지제 대인 지뢰를 발견했다. 한 보고서에 따르면 해당 지뢰는 지하 5~10센티미터 깊이에 묻혀 있었으며 첫 폭발 지점으로부터 약 1미터 떨어진 곳에 있었다 [koreatimes.co.kr#2][koreatimes.co.kr#3].",
+      "perspectives[0].text": "김여정: 그녀는 북한이 2년 전부터 주권 행사의 일환으로 국경 장벽을 건설하기 시작했다고 밝히며, 북한군이 군사분계선을 넘었다는 주장을 부인했다 [koreatimes.co.kr#1].",
+      "perspectives[1].text": "유엔군사령부: 유엔사는 정전협정에 명시된 메커니즘을 통해 이번 위반 사항을 다룰 것이라고 밝혔다 [koreatimes.co.kr#2].",
+      "perspectives[2].text": "한국 야당: 국민의힘은 김여정의 보복 경고를 비판하며 이재명 정부에 단호한 대응을 촉구했다 [seoul.co.kr#2].",
+      "timeline[0].content": "DMZ 내에서 정찰 임무를 수행하던 한국 군 장병들이 두 차례의 폭발로 부상을 입었다 [abcnews.com#1][channelnewsasia.com#1].",
+      "timeline[1].content": "한국 합동참모본부가 북한의 지뢰 도발을 원인으로 지목하는 예비 조사 결과를 발표했다 [hani.co.kr#1][infoquest.co.th#1].",
+      "timeline[2].content": "강신철 국방부 장관(당시 직책 기준)이 이번 폭발을 정전협정 위반으로 규정했다 [asiaone.com#1][taipeitimes.com#1].",
+      "timeline[3].content": "유엔군사령부가 정전협정 위반을 공식 확인했고, 한국 정부는 북한에 사과를 요구했다 [japantoday.com#1][yna.co.kr#8].",
+      "primary_image.caption": "북한과의 접경 지역 인근에서 순찰 중인 한국 군 장병들."
+    },
+    "45bd791d-aa6c-4555-875e-e7a0b50e38da": {
+      "title": "프랑스 고교생 시위 전국서 440명 연행",
+      "short_summary": "프랑스 당국은 9월 29일 화요일 전국적인 고등학교 시위 과정에서 대부분 미성년자인 440명을 연행했다. 학생들은 과밀 학급, 교사 부족, 긴 수업 시간, 열악한 학교 환경에 항의하며 시위를 벌였다. 이 운동은 파리 인근에서 시작되어 프랑스 전역의 도시로 확산했다. 당국은 법 집행관 48명, 교사 최소 10명, 학생 다수가 부상했다고 보고했다 [bbc.co.uk#1][theguardian.com#1][euronews.com#2]. 일부 시위는 충돌로 번져 학생들이 쓰레기통에 불을 지르고 경찰에게 물건을 던졌으며, 경찰은 최루가스를 사용했다. 이번 시위는 세바스티앙 르코르뉘(Sébastien Lecornu) 총리가 2027년 예산안을 발표하기 이틀 전, 정부의 예산 삭감안에 반대하는 공공부문 파업과 맞물려 발생했다 [theguardian.com#1][aljazeera.com#1][dailymaverick.co.za#1].",
+      "talking_points[0]": "학교 수업 차질: 교육부는 416개 학교가 영향을 받았다고 집계했다. 정오까지 40개 학교가 완전히 봉쇄되었으며, 시위대는 44개 학교를 추가로 봉쇄하려 시도했다 [delfi.lv#1][diena.lv#1].",
+      "talking_points[1]": "충돌 보고: 로랑 누녜스(Laurent Nuñez) 내무장관은 경찰이 염산을 투척당하는 사건이 7건 발생했다고 밝혔다 [skynewsarabia.com#1].",
+      "talking_points[2]": "파업 참여 규모: 노조는 전국적으로 30만 명이 공공부문 파업에 참여했다고 추산했으나, 경찰은 파리 시위 인원을 3만 명으로 집계했다 [aljazeera.com#1].",
+      "talking_points[3]": "임금 분쟁: 공공부문 노동자들은 더 높은 임금과 더 나은 근로 조건을 요구했다 [aljazeera.com#1].",
+      "perspectives[0].text": "세바스티앙 르코르뉘(Sébastien Lecornu) 총리: 르코르뉘 총리는 시위 격화는 \"무책임한\" 행동이라고 경고하면서도, 고등학교가 직면한 문제들은 경청하고 해결해야 한다고 말했다 [bbc.co.uk#1].",
+      "timeline[0].content": "학생들이 크레테유(Créteil)의 생텍쥐페리(Saint-Exupéry) 고등학교에서 교사 공석 문제로 시위를 시작했다 [delfi.lv#1].",
+      "timeline[1].content": "당국은 164명 체포 및 180개 학교에서 차질이 발생했다고 보고했다 [sky.it#1].",
+      "timeline[2].content": "르코르뉘 총리가 2027년 예산안을 발표할 예정이었다 [diena.lv#1].",
+      "primary_image.caption": "2026년 9월 29일 시위 도중 파리의 엘렌 부셰(Hélène Boucher) 고등학교 출입구를 봉쇄한 프랑스 고등학생들."
+    },
+    "b1051329-12d6-4bef-8f8a-cd9441eb619c": {
+      "title": "이스라엘 정착민, 법원 명령에 따른 팔레스타인 가족의 귀환 저지",
+      "short_summary": "월요일에서 화요일로 넘어가는 밤, 이스라엘군이 투바시(Tubasi) 가족의 귀환을 호위하려던 과정에서 100명이 넘는 이스라엘 정착민들이 점령지 서안지구의 잘루드(Jalud)를 습격했다. 군 당국은 정착민들이 도로를 봉쇄하고 불을 질렀으며 보안군에게 돌을 던지고 팔레스타인 가옥과 차량을 불태웠다고 밝혔으며, 이 과정에서 국경 경찰관 3명이 경상을 입었다. 경찰은 1명을 체포하고 미성년자 2명을 조사했다고 밝혔으며, 군 당국은 폭력 사태로 인해 귀환 작전이 중단되었다고 전했다 [dawn.com#1][bbc.co.uk#1][ynetnews.com#1][manilatimes.net#1]. 이 가족은 정착민들의 반복적인 괴롭힘 끝에 지난 7월 잘루드를 떠났으며, 이스라엘 대법원은 9월 초 당국에 이들의 귀환을 보장하라고 명령한 바 있다. 해당 가족은 이번 공격 이후 집으로 돌아가지 못했다 [bbc.co.uk#1][nytimes.com#1][avvenire.it#1].",
+      "quote": "지금 제 심정은 죽음을 면해서 다행이라는 것뿐입니다. 정말로 그들이 우리를 죽일 것이라고 생각했습니다.",
+      "quote_attribution": "BBC 뉴스",
+      "location": "팔레스타인 자치령, 서안지구 잘루드",
+      "talking_points[0]": "제한적 배치: 이스라엘의 한 고위 안보 소식통은 하레츠(Haaretz)에 귀환 작전을 보호하기 위해 배치된 국경 경찰관이 12명에 불과했다고 전했다 [haaretz.com#3].",
+      "talking_points[1]": "조직적 반대: 귀환 시도 전 '힐탑 유스(Hilltop Youth)' 그룹들 사이에서 지지자들에게 잘루드에 모여 가족의 귀환을 막으라는 메시지가 유포되었다 [ynetnews.com#1].",
+      "international_reactions[0]": "🇺🇸 미국: 미 국무부 대변인은 서안지구에서 발생한 범죄적 폭력을 규탄하며, 책임자들에 대한 조사와 법적 책임 추궁 및 기소를 지지한다고 밝혔다 [nacion.com#1].",
+      "perspectives[0].text": "베냐민 네타냐후(Benjamin Netanyahu) 이스라엘 총리: 네타냐후 총리는 이번 폭동을 규탄하며 책임자들을 법에 따라 엄중히 처벌할 것을 촉구했다 [jpost.com#1].",
+      "perspectives[1].text": "이스라엘 인권 단체들: 이 단체들은 이번 공격이 정착민 폭력에 대해 효과적인 조치를 취하지 못하는 당국의 무능함을 보여준 사례라고 지적했다 [bbc.co.uk#1].",
+      "primary_image.caption": "이스라엘 점령지 서안지구 잘루드에 있는 마흐무드 투바시(Mahmoud Toubassi)와 그의 아내 아이다(Aedah)."
+    },
+    "645da22a-d6ba-4acd-bbbb-a86f1dbf1ce6": {
+      "title": "영국 경찰, 미 공군기지 인근서 휘발유 발견…폭발물은 없어",
+      "short_summary": "영국 대테러 경찰은 화요일, RAF 페어포드(RAF Fairford) 인근에서 체포된 용의자 5명과 관련된 밴 3대를 수색한 결과 급조폭발물(IED)은 발견되지 않았으나 다량의 휘발유를 확보했다고 밝혔다. 경찰은 군 자원과 법의학 전문가들이 조사에 협조했다고 전했다[france24.com#1][scmp.com#1][pbs.org#1][insiderpaper.com#1]. 20대 영국 국적자인 이들 5명은 폭발물 및 테러 혐의로 일요일 체포되었다가 월요일 보석으로 풀려났으며, 현재 수사가 진행 중이다[pbs.org#1][japantoday.com#1][dawn.com#1]. 수사 당국은 이들이 이란과 연관되어 있는지 여부를 포함해 다각도로 수사를 진행하고 있다. 이란은 개입 사실을 부인했다. RAF 페어포드는 이란에 대한 작전을 포함해 미군이 사용하는 기지이다[pbs.org#1][dawn.com#1][euronews.com#1].",
+      "location": "영국 글로스터셔주 페어포드",
+      "humanitarian_impact": "RAF 페어포드 인근 주민 수십 명이 보안 대응 과정에서 대피했으나, 수사가 계속됨에 따라 서서히 일상으로 복귀하고 있다[irishnews.com#1].",
+      "talking_points[0]": "초기 신고: 한 용의자가 지역 농부가 기지 근처에서 이 일행과 밴을 목격했다고 신고하기 약 1시간 전 경찰에 먼저 연락한 것으로 알려졌다[alarabiya.net#1][perthnow.com.au#1][standard.co.uk#3].",
+      "talking_points[1]": "수색 작업: 경찰은 런던 내 부동산에 대한 수색은 종료되었으며, RAF 페어포드 주변의 수사 작업은 9월 30일 수요일까지 마무리될 예정이라고 밝혔다[yahoo.com#1].",
+      "perspectives[0].text": "로렌스 테일러(Laurence Taylor) 영국 대테러 경찰: 테일러는 용의자들이 엄격한 보석 조건을 적용받고 있으며, 수사가 진행되는 동안 이들을 석방하기로 한 결정의 핵심에는 공공 안전이 있었다고 말했다.",
+      "perspectives[1].text": "도널드 트럼프(Donald Trump) 대통령: 트럼프는 이들이 보석으로 풀려난 것에 놀랐다며 기자들에게 \"나는 그렇게 하지 않았을 것\"이라고 말했다.",
+      "perspectives[2].text": "마르코 루비오(Marco Rubio) 미국 국무장관: 루비오는 이번 의심스러운 음모가 \"분명히 외국 세력의 개입을 포함하고 있다\"고 말했으나, 특정 국가를 지목하거나 구체적인 증거를 제시하지는 않았다.",
+      "primary_image.caption": "2026년 9월 29일 RAF 페어포드 인근 검문소에 배치된 경찰관들",
+      "secondary_image.caption": "2026년 9월 29일 RAF 페어포드에서 이륙하는 B-1 폭격기"
+    },
+    "2a77d4ed-9219-4d65-89ea-2fbe28791109": {
+      "title": "에펠탑 운영사 대표, 여성 직원 배제 논란 끝에 사임",
+      "short_summary": "에펠탑 운영사(SETE)의 패트릭 브랑코 루이보(Patrick Branco Ruivo) 사무총장이 2026년 말 임기를 끝으로 물러난다. 이는 지난 9월 5일 힌두교 단체 BAPS 대표단 방문 당시 계획 미흡으로 여성 직원들이 업무에서 배제된 사실이 조사 결과 드러난 데 따른 것이다. 당시 사원 개관식을 위해 파리를 찾은 해당 단체 인원은 약 100명이었으며, 이 과정에서 일부 여성 직원이 남성 동료로 교체되었다 [abcnews.com#1][bbc.co.uk#1][scmp.com#1]. 직원들은 9월 7일 파업에 돌입해 에펠탑을 하루 동안 폐쇄했다. 운영사 측은 BAPS가 여성과의 접촉을 제한하는 조치를 요청했으나 이를 수용해서는 안 됐다고 밝혔으며, 조사 결과 발생한 배제 조치는 용납할 수 없는 일이라고 전했다 [deccanchronicle.com#1][tie2.lt#1][theguardian.com#1].",
+      "location": "프랑스 파리",
+      "talking_points[0]": "SETE는 전담 의전 서비스를 신설하고 성평등을 증진하기 위한 조치와 교육을 도입하겠다고 밝혔다 [diepresse.com#1].",
+      "talking_points[1]": "BAPS 측 입장: BAPS는 해당 조율이 대규모 인원을 위한 물류상의 편의 차원이었다고 설명하며, 성별을 이유로 여성 배제를 요청했다는 의혹을 부인했다 [rt.com#1].",
+      "perspectives[0].text": "패트릭 브랑코 루이보: 루이보는 대표단 방문 당시 여성 직원을 배제하라고 지시한 적이 없다고 직원들에게 밝혔다 [rtvi.com#1].",
+      "perspectives[1].text": "파리 시청: 파리 시청은 프랑스의 공화국 평등 원칙을 지키지 못한 점에 대해 사과했다 [theguardian.com#1].",
+      "primary_image.caption": "2020년 6월 15일 프랑스 파리 에펠탑에서 포즈를 취하고 있는 패트릭 브랑코 루이보."
+    },
+    "51d36c18-06b9-4463-9763-f9026000870b": {
+      "title": "네타냐후, 총선 전 공격 경고… 라피드, 주장 반박",
+      "short_summary": "베냐민 네타냐후(Benjamin Netanyahu) 이스라엘 총리는 9월 29일 화요일, 10월 27일 총선을 앞두고 이스라엘의 적들이 공격할 징후가 있다고 밝혔다. 텔 노프(Tel Nof) 공군기지에서 촬영된 영상에서 그는 잠재적 공격자를 지목하거나 경고의 근거가 된 정보의 세부 사항은 공개하지 않았다[newarab.com#1][aljazeera.com#1][arabtimesonline.com#1]. 야당 지도자인 야이르 라피드(Yair Lapid)는 긴급 안보 브리핑을 요구했으며, 같은 날 늦게 네타냐후 총리와 회동했다[newarab.com#1][aljazeera.com#1]. 라피드는 네타냐후가 공포를 조장하고 있다고 비난하며, 선거는 예정대로 진행되어야 한다고 주장했다. 또한 그는 2023년 10월 7일 하마스(Hamas)의 공격 이전 발생했던 정보 실패 사례를 언급했다[aljazeera.com#1][middleeasteye.net#1][eleconomista.com.mx#1][yahoo.com#1].",
+      "quote": "대중을 공포에 떨게 할 이유는 없다",
+      "quote_attribution": "미들 이스트 아이(Middle East Eye)",
+      "talking_points[0]": "하마스의 위협: 이스라엘 카츠(Israel Katz) 국방장관은 가자지구 밖에 거주하는 하마스 지도자들을 위협했다[newarab.com#1][alarabiya.net#1].",
+      "talking_points[1]": "브리핑 참석자: 회의 내용에 따르면 라피드의 안보 브리핑에는 가이 마르키제노(Guy Markizeno) 네타냐후 총리 군사비서관과 총리 군사비서실 소속 정보 장교가 참석했다[elperiodista.cl#1].",
+      "talking_points[2]": "광범위한 경고: 최근 몇 주 동안 네타냐후 총리와 카츠 장관은 이란, 헤즈볼라(Hezbollah), 팔레스타인 자치정부(PA)를 향해서도 공격받을 경우 보복할 것이라고 경고한 바 있다[newarab.com#1][aawsat.com#1][alarabiya.net#1].",
+      "perspectives[0].text": "야이르 라피드: 라피드는 이스라엘의 군사 기지가 선거 유세 영상의 배경으로 사용되어서는 안 되며, 안보 위협은 전문적이고 책임감 있게 다뤄져야 한다고 말했다[jpost.com#2].",
+      "perspectives[1].text": "가디 아이젠코트(Gadi Eisenkot): 야샤르(Yashar)당 대표는 네타냐후의 위협이 사실이라면 라피드가 즉각적인 브리핑을 받아야 하며, 이것이 실제 위협인지 아니면 정치적 술수인지 확인해야 한다고 말했다[thejc.com#1].",
+      "perspectives[2].text": "이스라엘 군 소식통: 소식통들은 하레츠(Haaretz)에 군이 경계 태세를 격상하거나 예비군 동원령을 내린 적이 없다고 전했다[haaretz.com#3]."
+    },
+    "77d6516d-4659-4318-b489-33e78c23d699": {
+      "title": "에스토니아, 탈린 방산기업 방화 배후로 러시아 지목",
+      "short_summary": "에스토니아는 9월 29일, 자국 내부보안국(Internal Security Service)이 8월 14일~15일 밤 탈린에 위치한 밀렘 로보틱스(Milrem Robotics) 건물에서 발생한 방화 사건이 러시아 정보기관의 지시에 의한 것이라고 결론 내렸다고 밝혔다. 해당 기업은 우크라이나에서 사용 중인 THeMIS 시스템을 포함한 무인 지상 차량을 제조한다. 소방대원들이 화재를 신속히 진압하여 인명 피해는 없었다[err.ee#1][bbc.co.uk#1][meduza.io#1]. 크리스텐 미할(Kristen Michal) 총리는 이번 결과가 보안국의 정보 수집 평가에 따른 것이라고 밝혔다. 당국은 정보의 기밀성을 이유로 구체적인 증거는 공개하지 않았으며, 형사 수사가 계속 진행 중이라고 전했다[err.ee#1][ct24.ceskatelevize.cz#1][digi24.ro#2]. 라트비아인 용의자 3명이 에스토니아로 인도되었으며, 에스토니아는 러시아 대리대사를 초치했다. 드미트리 페스코프(Dmitry Peskov) 크렘린궁 대변인은 근거 없는 주장이라며 혐의를 부인했고, 나토(NATO)와 유럽연합(EU) 관계자들은 에스토니아에 대한 지지를 표명했다[taipeitimes.com#1][meduza.io#1][dw.com#1][err.ee#4].",
+      "location": "에스토니아 탈린",
+      "historical_background": "2022년, 러시아는 연구 목적으로 전선에서 THeMIS 로봇을 노획해 가져오는 군 인력에게 200만 루블의 포상금을 내걸었다[meduza.io#2].",
+      "talking_points[0]": "첫 성공적인 공격: 에스토니아 내부보안국장은 밀렘 로보틱스 방화 사건이 올해 에스토니아에서 발생한 러시아 주도 공격 중 유일하게 성공한 사례이며, 당국이 그 외 대부분의 시도는 저지했다고 밝혔다[err.ee#3].",
+      "talking_points[1]": "계획된 인도: 2025년 10월 기준 15대의 THeMIS 차량이 우크라이나군을 지원하고 있으며, 네덜란드는 150대 이상의 THeMIS 차량을 추가로 보내는 프로그램을 지원했다[defensenews.com#1].",
+      "international_reactions[0]": "🇪🇺 유럽연합: 유럽연합 집행위원회는 에스토니아와 완전한 연대를 선언하며 러시아에 대한 추가 제재를 검토 중이라고 밝혔다[err.ee#4].",
+      "international_reactions[1]": "🇳🇦 나토: 마르크 뤼터(Mark Rutte) 사무총장은 동맹국들에 침착함을 유지할 것을 촉구하며, 러시아의 적대적 행위가 나토의 단결이나 우크라이나에 대한 지원을 약화시키지 못했다고 말했다[euronews.com#1][japantoday.com#1].",
+      "perspectives[0].text": "유럽연합 집행위원회: 크리스티안 위간드(Christian Wigand) 대변인은 EU가 러시아의 사보타주, 정찰, 영공 침범을 위한 드론 사용에 대응하기 위해 대드론 기술 및 관련 장비의 공동 생산에 자금을 지원하고 있다고 밝혔다.",
+      "timeline[0].content": "밀렘 로보틱스의 탈린 사업장에서 야간 화재 발생[err.ee#1][theguardian.com#1]",
+      "timeline[1].content": "라트비아 당국이 방화 사건과 관련해 용의자 2명을 체포[defensenews.com#1][taipeitimes.com#1]",
+      "timeline[2].content": "다음 날 라트비아에서 세 번째 용의자 체포[defensenews.com#1][taipeitimes.com#1]",
+      "timeline[3].content": "에스토니아가 공개적으로 러시아 정보기관을 비난하고 러시아 대리대사를 초치[meduza.io#1][err.ee#2]",
+      "primary_image.caption": "밀렘 로보틱스의 무인 지상 차량",
+      "secondary_image.caption": "2026년 3월 독일 그라펜뵈어에서 미군이 밀렘 로보틱스의 THeMIS 무인 지상 차량을 이용해 순찰 훈련을 하고 있다."
+    }
+  },
+  "stats": {
+    "storyCount": 12,
+    "translated": 11,
+    "failedStoryIds": [
+      {
+        "id": "6b9d58ea-3f2d-4dd6-8162-1f0d6bb016af",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 10365,
+      "out": 11496
+    }
+  }
+}
