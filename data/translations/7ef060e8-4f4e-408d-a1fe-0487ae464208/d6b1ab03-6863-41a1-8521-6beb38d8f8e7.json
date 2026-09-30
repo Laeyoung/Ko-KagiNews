@@ -4,7 +4,7 @@
   "categoryUuid": "d6b1ab03-6863-41a1-8521-6beb38d8f8e7",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-09-30T16:26:00.773Z",
+  "createdAt": "2026-09-30T16:47:18.706Z",
   "stories": {
     "b2c179a7-f03e-4b8e-b736-c8ce2027776e": {
       "title": "앤스로픽, IPO 신청서서 AI 위험 경고… 80억 달러 손실 기록",
@@ -163,20 +163,27 @@
       "perspectives[1].text": "댄 요르겐센(Dan Jørgensen) 유럽연합(EU) 에너지 담당 집행위원: 요르겐센 위원은 크리스 라이트(Chris Wright) 미국 에너지부 장관에게 수출 금지가 누구에게도 도움이 되지 않는다는 분명한 메시지를 전달했다고 밝혔다. 그는 이 조치에 반대하는 라이트 장관의 입장을 환영했다 [energyconnects.com#1].",
       "perspectives[2].text": "석유 업계: 석유 기업과 재계 단체들은 수출 금지에 반대하며, 에너지 시장에 혼란을 덜 주는 대안을 고려할 것을 행정부에 촉구하고 있다 [energynews.africa#1][corriere.it#1].",
       "primary_image.caption": "미국 내 디젤 가격, 2026년 9월 28일"
+    },
+    "79acd1f0-17f6-459c-a776-24e3d3a19bf3": {
+      "title": "알래스카항공과 하와이안항공, 2028년 프리미엄 객실 전면 개편 계획",
+      "short_summary": "알래스카 에어 그룹(Alaska Air Group)은 9월 29일 알래스카항공과 하와이안항공의 프리미엄 객실을 전면 개편하여 침대형 스위트룸과 새로운 프리미엄 이코노미 클래스인 '프리미엄 리저브(Premium Reserve)'를 도입할 예정이라고 밝혔다. 이번 변화는 프리미엄 고객 유치를 위한 노력의 일환이라고 회사 측은 설명했다 [cnbc.com#1][airlinegeeks.com#1][reddit.com#1]. 새로운 '알래스카 오로라(Alaska Aurora)' 스위트룸은 보잉 787 기종과 일부 737 MAX 10 기종에 도입될 예정이며, 하와이안항공은 A330 기종에 '레이호쿠(Leihōkū)' 스위트룸을 추가할 계획이다. 객실 개편은 2028년부터 순차적으로 진행될 전망이다 [aviation24.be#1][airlinegeeks.com#1].",
+      "historical_background": "알래스카 에어 그룹과 하와이안항공은 2024년 합병을 통해 두 항공사를 하나의 기업 그룹 산하로 통합했다 [13wmaz.com#1].",
+      "business_angle_text": "제공된 보고서에는 계획된 좌석 및 공항 시설에 대한 자본 비용, 예상 프리미엄 좌석 수익 또는 목표 수익률에 대한 구체적인 수치는 언급되지 않았다 [airlinegeeks.com#1][simpleflying.com#1].",
+      "talking_points[0]": "라운지 확장: 알래스카항공은 2027년 말 시애틀 공항에 약 41,000제곱피트 규모의 복합 시설을 계획 중이며, 여기에는 500석 규모의 '알래스카 라운지'와 200석 규모의 별도 '오로라 라운지'가 포함된다 [simpleflying.com#1].",
+      "talking_points[1]": "프리미엄 리저브: 새로운 프리미엄 이코노미 좌석은 기존보다 넓은 좌석 폭과 앞뒤 간격, 더 큰 등받이 젖힘 각도, 업그레이드된 기내식을 제공할 예정이다 [airlinegeeks.com#1].",
+      "technical_details[0]": "787 스위트룸 수량: 알래스카항공의 보잉 787 오로라 객실에는 34개의 침대형 스위트룸이 배치될 예정이다 [aviation24.be#1].",
+      "technical_details[1]": "737-10 도입: 최소 25대의 보잉 737-10 기종에 알래스카 스위트룸이 설치될 계획이다 [aviation24.be#1].",
+      "business_angle_points[0]": "해당 그룹은 두 항공사 브랜드와 여러 기종에 걸쳐 프리미엄 투자를 조정하고 있으며, 이에 따라 일관된 통합과 실행의 중요성이 커지고 있다 [aviation24.be#1][13wmaz.com#1].",
+      "perspectives[0].text": "알래스카 에어 그룹: 이들의 프리미엄 지상 전략에는 시애틀의 알래스카 및 오로라 시설과 더불어 호놀룰루에 신설될 하와이안항공 라운지도 포함된다 [airlinegeeks.com#1]."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "79acd1f0-17f6-459c-a776-24e3d3a19bf3",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 10514,
-      "out": 11494
+      "in": 11388,
+      "out": 12468
     }
   }
 }
