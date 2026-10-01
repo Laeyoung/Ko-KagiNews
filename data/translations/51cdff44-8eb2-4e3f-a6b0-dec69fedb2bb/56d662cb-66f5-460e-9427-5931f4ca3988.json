@@ -4,7 +4,7 @@
   "categoryUuid": "56d662cb-66f5-460e-9427-5931f4ca3988",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-01T17:00:39.811Z",
+  "createdAt": "2026-10-01T17:08:33.882Z",
   "stories": {
     "29a6c5ee-f33d-416f-b31e-231b6f344957": {
       "title": "플라이두바이, 부조종사 흉기 난동 사건 이후 이스라엘행 항공편 운항 중단",
@@ -137,18 +137,37 @@
       "talking_points[1]": "해양 산성화: 바닷물에 이산화탄소가 녹아들면서 해양 산성도는 1985년 대비 17% 증가했다 [humanite.fr#1].",
       "talking_points[2]": "잔지바르의 농업: 해조류 양식업자인 파투마 마카메(Fatuma Makame)는 보트와 농기구를 확보한 협동조합에 가입한 후, 환경이 더 나은 먼 바다로 양식장을 옮겼다 [allafrica.com#1][globalissues.org#1].",
       "primary_image.caption": "타라바이섬(Taravai Island) 인근 산호초"
+    },
+    "a309418a-0875-4a38-b805-a68c877d5f8a": {
+      "title": "트럼프, 한국의 2천억 달러 규모 에너지 투자 계획 상세 발표",
+      "short_summary": "도널드 트럼프 대통령은 9월 30일, 한국이 미국 에너지 프로젝트에 최대 2천억 달러를 투자할 것이라고 발표했다. 이는 한국산 수입품에 대한 미국 관세를 15%로 인하한 2025년 7월 무역 협정과 연계된 3천5백억 달러 규모 투자 약정의 첫 주요 프로젝트이다 [channelnewsasia.com#1][lemonde.fr#1][energynow.com#1]. 서울은 223억 달러 규모의 텍사스 발전소 프로젝트와 1천2백억 달러 규모의 원전 프로젝트 계획을 확인했으나, 540억 달러 규모로 제안된 알래스카 LNG 개발 사업 참여는 상업적 타당성과 국내 법적 절차에 달려 있다고 밝혔다. 트럼프 대통령은 알래스카 프로젝트가 합의된 것처럼 발표했으나, 한국 측은 최종 투자 결정이 내려진 바 없다고 전했다 [hurriyetdailynews.com#1][koreatimes.co.kr#2][cnbc.com#1].",
+      "quote": "내 행정부가 대한민국과 체결한 협정 덕분에, 그들은 최대 2천억 달러를 투자할 것이다",
+      "quote_attribution": "채널 뉴스 아시아(Channel NewsAsia)",
+      "location": "미국 워싱턴 DC",
+      "business_angle_text": "제안된 구조에 따르면 한국은 투자금을 회수할 때까지 프로젝트 수익의 50%를 가져가게 된다. 그 이후에는 미국이 90%를 받게 된다 [storm.mg#1].",
+      "talking_points[0]": "텍사스 발전 용량: 엔시날(Encinal) 발전소는 인근 데이터 센터에 6,472메가와트의 전력을 공급하도록 설계되었으며, 2029년 상업 운전을 시작해 2032년 완전 가동될 예정이다 [koreatimes.co.kr#2][hurriyetdailynews.com#1].",
+      "talking_points[1]": "파이프라인 규모: 제안된 알래스카 노선은 약 807마일에 달하며, 매일 약 39억 입방피트의 가스를 수송하고 연간 최대 2천만 톤의 LNG 수출을 지원할 수 있다 [koreatimes.co.kr#1][dnews.gr#1].",
+      "talking_points[2]": "선거 국면: 공화당 소속 댄 설리번(Dan Sullivan) 알래스카 상원의원은 치열한 재선 경쟁을 앞두고 백악관 행사에 참석했다 [pbs.org#1][cbsnews.com#1].",
+      "technical_details[0]": "원자로 설계: 8기 원자로 제안에는 한국이 설계한 APR1400 2기와 웨스팅하우스(Westinghouse)의 AP1000 6기가 포함된다 [koreatimes.co.kr#2][faz.net#1].",
+      "technical_details[1]": "텍사스 발전소 구성: 223억 달러 규모의 엔시날 시설은 가스터빈 배기가스를 이용해 증기 사이클로 추가 전력을 생산하는 복합화력 발전소로 설명된다 [koreatimes.co.kr#2][common].",
+      "industry_impact[0]": "원자력 공급망: 제안된 원자로 프로그램은 웨스팅하우스와 한국 기업들에 일감을 제공할 수 있다. 보도에 따르면 두산에너빌리티(Doosan Enerbility)가 원자로 압력 용기 및 기타 부품의 주요 공급업체로 지목된다 [storm.mg#1].",
+      "industry_impact[1]": "알래스카 프로젝트 구조: 글렌판 그룹(Glenfarne Group)이 알래스카 LNG 프로젝트를 추진 중이며, 주 정부가 25%의 지분을 보유한 것으로 알려졌다 [cna.com.tw#1][insiderpaper.com#1].",
+      "industry_impact[2]": "에너지 수출: 알래스카 LNG 노선이 건설될 경우, 노스 슬로프(North Slope)의 가스를 남부 알래스카 액화 터미널로 이동시켜 아시아 시장으로 수출하게 된다 [yna.co.kr#6].",
+      "perspectives[0].text": "더그 버검(Doug Burgum) 미국 내무장관: 버검 장관은 알래스카 프로젝트가 완료되면 미국이 일본, 한국, 필리핀, 대만 등 동맹국 시장에 에너지를 공급할 수 있게 될 것이라고 말했다. 그는 앵커리지에서 도쿄까지의 운송에 8일이 소요될 것이라고 덧붙였다 [cna.com.tw#2].",
+      "timeline[0].content": "워싱턴과 서울이 투자 약정과 연계된 무역 협정을 체결했다 [lemonde.fr#1]",
+      "timeline[1].content": "트럼프 대통령이 아이오와주 철강 공장 투자 계획을 발표했다 [pbs.org#1]",
+      "timeline[2].content": "트럼프 대통령이 백악관에서 한국의 에너지 투자 프로젝트를 개괄했다 [channelnewsasia.com#1]",
+      "suggested_qna[0].question": "알래스카 LNG 수출은 언제 시작될 수 있는가?",
+      "suggested_qna[0].answer": "관계자들은 파이프라인 건설에 약 3년이 소요될 것이며, 공사 시작 후 약 5년 뒤 수출이 시작될 것으로 예상된다고 밝혔다 [cna.com.tw#2].",
+      "primary_image.caption": "2026년 9월 30일 워싱턴 백악관 집무실에서 도널드 트럼프 대통령이 하워드 러트닉(Howard Lutnick) 상무장관의 보고를 듣고 있다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 9,
+    "translated": 10,
     "failedStoryIds": [
       {
         "id": "26c46baa-f51b-492b-8797-99b5988dab55",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "a309418a-0875-4a38-b805-a68c877d5f8a",
         "reason": "retry_exhausted"
       },
       {
@@ -157,8 +176,8 @@
       }
     ],
     "tokens": {
-      "in": 8423,
-      "out": 9231
+      "in": 9795,
+      "out": 10919
     }
   }
 }
