@@ -4,7 +4,7 @@
   "categoryUuid": "6fbf87dd-a025-4e78-99a6-393192db2f10",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-02T16:23:09.425Z",
+  "createdAt": "2026-10-02T16:35:04.452Z",
   "stories": {
     "839e2a02-5e10-4d93-b940-afefb2e21554": {
       "title": "삼성, 메모리 부족에 따른 비용 상승으로 갤럭시 S26 가격 인상",
@@ -236,20 +236,39 @@
       "suggested_qna[0].question": "테스트 위성은 궤도에 얼마나 머물 수 있는가?",
       "suggested_qna[0].answer": "대기권에서 타버리기 전까지 최대 6년 동안 지구를 돌 수 있다 [koaa.com#1].",
       "primary_image.caption": "AI 칩을 탑재한 구글 프로젝트 선캐처 위성 일러스트"
+    },
+    "0652421c-d5d6-4451-bed5-39def72389c7": {
+      "title": "구글, 제미나이 4 아르곤(Gemini 4 Argon) 접근 권한을 검증된 사이버 보안 전문가로 제한",
+      "short_summary": "구글은 9월 30일 제미나이 4 아르곤을 공개했으나, 모델의 고도화된 기능이 해커에게 악용될 위험을 이유로 페어윈드(Fairwind) 프로그램을 통해 검증된 사이버 보안 전문가에게만 초기 접근 권한을 제한하고 있다. 구글은 또한 트럼프 행정부의 자발적 사전 출시 검토 절차에 참여하고 있으며, 일반 공개 일정은 정하지 않았다 [dawn.com#1][theguardian.com#1][thehackernews.com#1]. 구글은 아르곤이 복잡한 소프트웨어 엔지니어링, 법률 및 금융 업무, 사이버 방어를 위해 구축되었다고 밝혔다. 구글은 초기 테스터들이 이 모델을 사용해 민감한 개인정보를 노출하는 병원 소프트웨어의 치명적인 결함을 발견했다고 보고했으나, 해당 제품명은 밝히지 않았다. 공개된 결과에 따르면 아르곤은 여러 벤치마크에서 경쟁 모델을 앞섰으나, 구글이 발표한 4가지 코딩 테스트 중 2가지에서는 뒤처진 것으로 나타났다 [dawn.com#1][thehackernews.com#1][tribune.com.pk#1]. 구글은 추가 테스트를 거친 후 유료 API 고객과 구글 AI 울트라(Google AI Ultra) 구독자에게 접근 권한을 확대할 예정이지만, 구체적인 일정은 발표하지 않았다. 이번 출시는 당초 6월 출시 예정이었던 제미나이 3.5 프로(Gemini 3.5 Pro)의 출시 취소 이후 이루어졌다. 블룸버그(Bloomberg)가 인용한 내부 관계자들의 전언에 따르면, 실무 코딩 작업에서 아르곤의 성능에 대한 직원들의 평가는 엇갈리고 있다 [techgenyz.com#1][9to5google.com#2][androidheadlines.com#1].",
+      "did_you_know": "구글은 아르곤을 활용해 변환한 오픈소스 비디오 디코더 libgav1의 러스트(Rust) 버전이 동일한 출력 결과물을 유지하면서도 2.7배 더 빠르게 작동한다고 밝혔다 [ghacks.net#1].",
+      "historical_background": "나인투파이브구글(9to5Google)에 따르면, 구글은 이전의 주요 최상위 모델인 제미나이 3 프로(Gemini 3 Pro)를 2025년 11월에 출시했다 [9to5google.com#1].",
+      "business_angle_text": "구글은 입력 토큰 100만 개당 2달러, 출력 토큰 100만 개당 10달러의 도입 가격을 책정했다. 기업 구매자는 비용을 산정하기 전 자사 워크플로 전반의 토큰 사용량을 추산해야 한다 [infoworld.com#1].",
+      "talking_points[0]": "내부 배포: 구글은 자사 팀이 아르곤을 사용하여 80만 줄 이상의 퓨시아 지르콘(Fuchsia Zircon) 커널 코드를 C 및 C++에서 러스트(Rust)로 마이그레이션하고, libgav1 비디오 디코더를 최적화했다고 밝혔다 [ghacks.net#1].",
+      "talking_points[1]": "파트너 네트워크: 구글의 페어윈드(Fairwind) 프로그램에는 650개 이상의 파트너가 참여하고 있으나, 아르곤의 초기 배포는 검증된 일부 사이버 보안 전문가로 제한된다 [techgenyz.com#1].",
+      "talking_points[2]": "안전성 테스트: 구글은 신뢰할 수 있는 보안 전문가와 내부 팀을 위해 사이버 가드레일이 적용되지 않은 버전을 계획하고 있다 [thehackernews.com#1].",
+      "technical_details[0]": "출력 제한: 이 모델의 보고된 100만 토큰 출력 제한은 컨텍스트 윈도우와는 별개이며, 더 큰 출력 제한은 단일 응답 내에서 긴 워크플로를 지원하기 위한 것이다 [techgenyz.com#1].",
+      "technical_details[1]": "간접 프롬프트 주입: 구글은 신뢰할 수 없는 콘텐츠가 모델의 동작에 영향을 줄 수 있는 간접 프롬프트 주입(Indirect Prompt Injection)에 대해 아르곤을 테스트하고 있다고 밝혔다. 구글은 그레이 스완(Gray Swan)의 IPI 벤치마크에서 선도적인 결과를 보고했다 [thehackernews.com#1].",
+      "technical_details[2]": "사이버 보안 역량: 구글은 아르곤이 소프트웨어 취약점을 발견 및 검증하고 개념 증명(PoC) 익스플로잇을 생성할 수 있다고 밝혔다. 또한 접근 권한을 확대하기 전에 안전장치를 추가하고 있다고 덧붙였다 [thehackernews.com#1].",
+      "business_angle_points[0]": "구글은 내부 엔지니어링 성과를 보고하고 있으나, 이러한 자체 보고 결과만으로는 고객의 비용 절감이나 상업적 수익을 확증할 수 없다 [ghacks.net#1].",
+      "industry_impact[0]": "사이버 보안: 구글은 아르곤을 취약점 발견 및 패치 용도로 포지셔닝하고 있으나, 동일한 기능이 병원, 은행, 정부 시스템을 공격하는 데 악용될 수 있어 접근을 제한하고 있다 [theguardian.com#1][thehackernews.com#1].",
+      "industry_impact[1]": "엔터프라이즈 소프트웨어: 구글은 아르곤을 사용한 팀이 서버 플릿 원격 측정을 분석하여 300 TiB 이상의 데이터 센터 메모리를 확보하는 메모리 최적화 성과를 거두었다고 밝혔다 [techgenyz.com#1].",
+      "perspectives[0].text": "구글: 구글은 아르곤이 이전의 고급 프로(Pro) 모델보다 규모가 크며 복잡한 워크플로에서 가장 뛰어난 성능을 발휘하는 모델이라고 밝혔다 [dawn.com#1].",
+      "perspectives[1].text": "블룸버그가 인용한 구글 직원들: 일부 직원은 프론트엔드 웹사이트 디자인에서 아르곤의 성능에 의문을 제기했으나, 구글은 코딩 성능이 저조하다는 주장을 반박했다 [9to5google.com#2][androidheadlines.com#1].",
+      "perspectives[2].text": "파리크 자인(Pareekh Jain), EIIRTrend 및 파리크 컨설팅(Pareekh Consulting): 자인은 제미나이 3.5 프로의 출시 지연이 특히 코딩과 추론 분야의 개발 난관 때문이라고 분석했다 [infoworld.com#1].",
+      "perspectives[3].text": "앤스로픽(Anthropic): 앤스로픽은 클로드 미소스 프리뷰(Claude Mythos Preview) 모델을 소수의 신뢰할 수 있는 조직으로 제한했으며, 가디언(The Guardian)은 이를 구글의 배포 방식과 비교했다 [theguardian.com#1].",
+      "timeline[0].content": "구글, 계획대로 제미나이 3.5 프로를 출시하지 않음 [infoworld.com#1][tribune.com.pk#1]",
+      "timeline[1].content": "트럼프, 자발적 AI 위험 협약에 서명한 기술 기업 경영진들과 회동 [theguardian.com#1]",
+      "timeline[2].content": "구글, 아르곤 발표 및 사이버 보안 전문가 대상 초기 접근 제한 [dawn.com#1][techgenyz.com#1]",
+      "primary_image.caption": "구글의 제미나이 4 아르곤 모델에 관한 CNET 보도에 포함된 이미지"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "0652421c-d5d6-4451-bed5-39def72389c7",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 15523,
-      "out": 18797
+      "in": 17108,
+      "out": 20930
     }
   }
 }
