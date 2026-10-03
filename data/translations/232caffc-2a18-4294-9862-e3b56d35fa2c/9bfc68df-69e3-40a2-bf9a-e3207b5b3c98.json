@@ -4,7 +4,7 @@
   "categoryUuid": "9bfc68df-69e3-40a2-bf9a-e3207b5b3c98",
   "categorySlug": "usa",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-03T14:41:53.520Z",
+  "createdAt": "2026-10-03T14:50:05.437Z",
   "stories": {
     "39291f73-4307-441f-bc60-94eb195f4abf": {
       "title": "뉴욕주 검찰총장, 코넬대 성폭행 사건 수사 착수… 동의법 개정 논의",
@@ -225,20 +225,36 @@
       "short_summary": "도널드 트럼프 대통령이 제이 클레이튼(Jay Clayton) 국가정보국장을 자신의 AI 정책을 이끌 책임자로 지명할 것으로 예상된다. 트럼프는 이 역할을 앞서 'AI 차르(AI tsar)'라고 부른 바 있다 [nytimes.com#1][scmp.com#1][nbcnews.com#1]. 클레이튼은 새로운 임무를 맡으면서도 기존 정보국장직을 유지할 것으로 보인다 [scmp.com#1]. 새로운 역할에서 클레이튼은 인공지능 정책과 잠재적인 규제 수립을 도울 예정이다 [nytimes.com#1]. 백악관 관계자는 트럼프 대통령이 인사 결정을 직접 발표할 것이라고 밝혔다 [scmp.com#1].",
       "talking_points[0]": "클레이튼은 국가정보국장으로서 미국의 18개 정보기관을 총괄하고 있다 [scmp.com#1].",
       "primary_image.caption": "제이 클레이튼의 역할 확대는 트럼프 행정부가 새로운 AI 규제나 안전 표준을 마련해야 한다는 압박을 받는 가운데 이루어졌다."
+    },
+    "3d5e68bf-487f-443b-acd9-f5619b8ebd35": {
+      "title": "케네디 센터 아너스, 시설 폐쇄로 경기장으로 장소 변경",
+      "short_summary": "케네디 센터 아너스(Kennedy Center Honors)가 12월 7일 워싱턴 시내의 캐피털 원 아레나(Capital One Arena)에서 개최된다고 대변인이 금요일 밝혔다. 이는 매년 열리는 이 행사가 케네디 센터 외부에서 개최되는 첫 사례다 [pbs.org#1][cbsnews.com#1][thenews.com.pk#1]. 케네디 센터 이사회가 도널드 트럼프 대통령의 이름을 건물에 추가하려는 시도를 둘러싼 소송이 계속되는 가운데, 센터 본관은 9월 15일부터 일반인 출입이 통제되고 있다 [pbs.org#1][nypost.com#1]. 연방 판사는 의회의 승인 없이 이름을 변경하는 것을 차단했다. 존 F. 케네디 대통령을 기리는 기념관으로 설립된 센터의 법적 근거에 따라 이사회는 다른 인물을 기념하거나 외관에 다른 이름을 추가할 수 없다 [pbs.org#1]. 센터 측은 장소 변경 이유를 설명하거나 2026년 수상자를 발표하지 않았다 [pbs.org#1]. 센터는 올가을 늦게 아너스 방송 파트너를 발표할 예정이라고 밝혔으며, CBS와의 계약은 2025년 시상식을 끝으로 종료되었다 [cbsnews.com#1].",
+      "quote": "1년 동안 외부에서 행사를 치르고 돌아오라",
+      "quote_attribution": "디 애틀랜틱(The Atlantic)",
+      "location": "미국 워싱턴 DC",
+      "talking_points[0]": "더 넓은 장소: 캐피털 원 아레나는 약 2만 명의 관객을 수용할 수 있는 반면, 케네디 센터 오페라 하우스는 2,347석 규모이다 [nypost.com#1][thenews.com.pk#1].",
+      "talking_points[1]": "안전 검토: 맷 플로카(Matt Floca) 상임이사는 법정에서 안전 평가 결과에 따라 매주 폐쇄 조치를 검토하고 있다고 밝혔다 [thenews.com.pk#1].",
+      "talking_points[2]": "관객: 작년 아너스 시청률은 전년 대비 약 25% 하락했다 [theatlantic.com#1].",
+      "talking_points[3]": "기획 일정: 전 관계자들에 따르면 준비는 연중 내내 진행되며, 수상자 선정은 겨울에 시작해 보통 여름에 발표가 이루어진다 [theatlantic.com#1].",
+      "industry_impact[0]": "공연 예술: 국립 교향악단(National Symphony Orchestra)은 6개의 지역 공연장에서 관객 유치에 나서고 있으며, 워싱턴 국립 오페라(Washington National Opera)는 케네디 센터와의 제휴를 종료한 후 기록적인 모금액을 달성했다고 보고했다 [theatlantic.com#1].",
+      "industry_impact[1]": "텔레비전: CBS는 1978년부터 2025년까지 매년 아너스를 방송했다 [cbsnews.com#1].",
+      "perspectives[0].text": "카라 영(Kara Young): 토니상 2회 수상자인 이 배우는 역사적으로 정치색이 없던 예술 기관에 대한 정치적 통제가 예술적 표현을 더욱 필요하게 만든다고 말했다 [theatlantic.com#1].",
+      "perspectives[1].text": "케네디 센터 컨설턴트 및 상임이사: 2년 폐쇄를 제안한 초안은 본관을 지속적인 사용이 불가능한 안전하지 않은 상태로 묘사했으며, 개방 유지 시 직원과 방문객이 위험에 처할 수 있다고 경고했다 [nypost.com#1].",
+      "timeline[0].content": "의회가 공연 예술 센터를 존 F. 케네디 기념관으로 지정함 [pbs.org#1]",
+      "timeline[1].content": "케네디 센터 아너스가 공연 예술에 대한 기여를 인정하기 시작함 [pbs.org#1]",
+      "timeline[2].content": "케네디 센터가 본관을 일반인에게 폐쇄함 [nypost.com#1][pbs.org#1]",
+      "timeline[3].content": "센터가 아너스 행사를 캐피털 원 아레나로 이전한다고 발표함 [pbs.org#1][cbsnews.com#1]",
+      "timeline[4].content": "제49회 케네디 센터 아너스가 해당 경기장에서 개최될 예정임 [pbs.org#1][theatlantic.com#1]",
+      "primary_image.caption": "2026년 9월 18일 워싱턴에서 케네디 센터 폐쇄에 반대하는 시위대가 집회를 열고 있다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "3d5e68bf-487f-443b-acd9-f5619b8ebd35",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 14206,
-      "out": 17887
+      "in": 15396,
+      "out": 19283
     }
   }
 }
