@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "batchId": "b577dced-e9bd-4e8d-9cad-12525005485f",
+  "categoryUuid": "b4bf3ef2-bf69-48a8-a865-8c847ec61c8d",
+  "categorySlug": "tech",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-10-04T15:20:12.483Z",
+  "stories": {
+    "4cf2487b-ab7d-4796-8d02-7da05fdc79f9": {
+      "title": "애플, AI 에이전트 확산에 맞춰 맥 디스크 접근 제어 강화 계획",
+      "short_summary": "애플은 macOS의 '전체 디스크 접근 권한(Full Disk Access)' 제어를 강화하여, 앱이 맥의 데이터에 광범위하게 접근하기 전 사용자의 명시적인 승인을 받도록 하겠다고 밝혔다. 애플은 일부 개발자들이 사용자가 그 권한의 범위를 완전히 이해하지 못한 상태에서 해당 권한을 사용하고 있다고 경고했다. 이 권한을 가진 앱은 파일, 이메일, 메시지, 브라우징 기록을 읽을 수 있다 [tribune.com.pk#1][macworld.com#1][cultofmac.com#1]. 이번 발표는 Inc. 칼럼니스트 제이슨 에이튼(Jason Aten)이 메타(Meta)의 뮤즈(Muse) AI 에이전트가 자신이 접근 권한을 부여하지 않았다고 믿었던 맥의 개인 메시지 내용에 접근했다고 주장한 이후 나왔다. 메타 대변인 앤디 스톤(Andy Stone)은 뮤즈가 메시지를 읽으려면 전체 디스크 접근 권한과 별도의 메시지 커넥터가 모두 필요하다며 해당 주장을 반박했다. 애플은 이번 발표에서 뮤즈나 다른 특정 앱을 언급하지는 않았다 [tribune.com.pk#1][pcmag.com#1]. 애플은 에이전트의 기능이 향상되고 자율성이 커짐에 따라 위험이 증가할 것이라고 밝혔으며, 통신 데이터에 대한 접근은 맥 사용자 외의 다른 사람들에 대한 정보까지 노출할 수 있다고 경고했다. 애플은 새로운 제어 방식에 대한 세부 사항이나 도입 시기, 기존에 부여된 권한에 영향을 미칠지 여부에 대해서는 명확히 밝히지 않았다 [macworld.com#1][pcmag.com#1].",
+      "quote": "뮤즈(Muse)가 메시지 내용을 읽을 수 있으려면 전체 디스크 접근 권한과 메시지 커넥터를 모두 활성화해야 합니다.",
+      "quote_attribution": "더 익스프레스 트리뷴(The Express Tribune)",
+      "talking_points[0]": "에이전트 도입: 오픈AI(OpenAI)는 7월 1천만 명이었던 챗GPT 워크(ChatGPT Work) 및 코덱스(Codex) 에이전트 도구 사용자가 3천5백만 명 이상으로 증가했다고 밝혔다 [deccanchronicle.com#1].",
+      "talking_points[1]": "메시지 통합: 오픈AI의 옵트인 방식 챗GPT 맥 기능은 텍스트를 읽고, 요약하고, 작성하고, 전송할 수 있으며, 애플 메시지(Apple Messages)를 사용하려면 전체 디스크 접근 권한이 필요하다 [deccanchronicle.com#1].",
+      "user_action_items[0]": "전체 디스크 접근 권한을 가진 앱을 검토하라. 맥에서 시스템 설정, 개인정보 보호 및 보안, 전체 디스크 접근 순으로 이동한다. 필요하지 않은 앱의 접근 권한은 비활성화한다 [cultofmac.com#1][pcmag.com#1].",
+      "perspectives[0].text": "패트릭 워들(Patrick Wardle): 맥 보안 전문가인 그는 전체 디스크 접근 권한이 있으면 앱이 브라우저 기록, 쿠키, 채팅을 포함한 루트 권한 외의 파일들을 읽을 수 있다고 말했다 [pcmag.com#1].",
+      "timeline[0].content": "오픈AI, 전체 디스크 접근 권한을 통해 메시지를 사용하는 맥 기능 추가 [deccanchronicle.com#1]",
+      "timeline[1].content": "제이슨 에이튼, 메타의 뮤즈가 자신의 개인 메시지 대화를 참조했다고 주장 [pcmag.com#1][tribune.com.pk#1]",
+      "timeline[2].content": "애플, 추가적인 전체 디스크 접근 제어 계획 발표 [tribune.com.pk#1][macworld.com#1]"
+    },
+    "f2dd6b1f-4677-4488-8fd0-b7d119d83ac6": {
+      "title": "영장 없는 플록(Flock) 검색에 판사가 증거 배제 판결, 의원들은 금지 법안 발의",
+      "short_summary": "미 연방 지방법원의 사라 힐(Sara Hill) 판사는 10월 1일, 털사 카운티 보안관 대리가 영장 없이 플록 세이프티(Flock Safety)의 번호판 데이터베이스를 검색한 것은 여성의 수정헌법 제4조 권리를 침해한 것이라고 판결했다. 힐 판사는 해당 대리가 캘리포니아 번호판 외에는 검색할 '명백한 이유'가 없었다고 지적하며, 이후 차량 수색을 통해 확보된 증거를 포함해 그 과정에서 얻은 모든 증거를 배제하라고 명령했다[techcrunch.com#1][mashable.com#1][digitechbytes.com#1]. 그녀는 차량의 이동 경로를 시간대별로 기록하는 이 네트워크를 '무차별적 대량 감시'라고 규정했다[techcrunch.com#1]. 이번 판결은 다른 법원에 구속력을 갖지는 않으며, 플록 측 대변인은 항소를 통해 판결이 뒤집힐 것으로 예상한다고 밝혔다[techcrunch.com#1][slashdot.org#1]. 10월 2일, 버니 샌더스(Bernie Sanders) 상원의원, 제프 머클리(Jeff Merkley) 상원의원, 알렉산드리아 오카시오-코르테즈(Alexandria Ocasio-Cortez) 하원의원은 '플록 금지법(Ban Flock Act)'을 발의했다. 이 법안은 플록뿐만 아니라 모든 자동 번호판 인식기(ALPR)에 대한 연방 정부의 사용을 제한하고, 의회 예외 조항에 따른 데이터 보관 기간을 48시간으로 제한하는 내용을 담고 있다[mashable.com#1][techradar.com#1][slashdot.org#1]. 해당 법안은 상·하원 위원회의 승인과 본회의 통과 절차를 남겨두고 있다[techradar.com#1].",
+      "quote": "이것은 네트워크에 연결된 카메라를 지나는 모든 차량의 정보를 상시 수집하여 법 집행 기관에 즉각 제공하는 도구이다.",
+      "quote_attribution": "테크크런치(TechCrunch)",
+      "location": "미국 오클라호마주 털사",
+      "talking_points[0]": "보조금 제한: 이 법안은 자동 번호판 인식기를 사용하는 주 및 지방 정부에 대해 특정 연방 기관이 보조금 지급을 중단할 수 있도록 허용한다[slashdot.org#1].",
+      "talking_points[1]": "지방 정부의 철회: 플로리다주와 텍사스주 등은 플록의 기술 사용을 중단하겠다고 밝힌 정부 기관들에 포함된다[techcrunch.com#1].",
+      "talking_points[2]": "민간 사용: 이 법안은 민간 기업이나 주민 협의회가 ALPR 시스템을 사용하는 것을 막지는 않으며, 지방 정부도 연방 지원 없이 자체 예산으로 이를 운영할 수 있다[techradar.com#1].",
+      "talking_points[3]": "입법 전망: 테크레이더(TechRadar)는 유사한 법안 2건이 이미 위원회에서 계류 중이며, 이번 신규 법안도 내년 1월 의회 임기가 끝나기 전까지 법제화될 가능성은 낮다고 보도했다[techradar.com#1].",
+      "technical_details[0]": "시스템 적용 범위: 이 법안은 연방 정부의 인식기 소유 및 운영뿐만 아니라, 민간 소유 ALPR 카메라가 수집한 데이터에 대한 연방 정부의 접근까지 포괄한다[gizmodo.com#1].",
+      "perspectives[0].text": "플록 세이프티의 CEO 개리티 랭리(Garretty Langley)는 개인정보 보호와 안전 사이의 '타협'을 촉구하며, 해당 시스템을 악용해 스토킹을 저지른 법 집행관들로 인해 피해를 본 여성들에게 사과했다[techcrunch.com#1].",
+      "perspectives[1].text": "버니 샌더스: 샌더스 의원은 카메라와 수집된 데이터가 개인정보를 위협한다고 주장하며, 미국이 감시 국가가 되어서는 안 된다고 강조했다[techradar.com#1][gizmodo.com#1].",
+      "perspectives[2].text": "디맨드 프로그레스(Demand Progress)의 수석 정책 고문 하자르 하마도(Hajar Hammado)는 이 법안이 AI 기반 감시에 반대하는 입법의 '골드 스탠다드(기준)'가 될 것이라고 평가했다[mashable.com#1].",
+      "primary_image.caption": "플록 자동 번호판 인식 카메라"
+    },
+    "2f702c00-fd73-43f5-854d-f4093254a760": {
+      "title": "구글, 10월 9일부터 무료 Gemini 사용자에게 Flash-Lite 제한 적용",
+      "short_summary": "구글은 10월 9일부터 유료 AI 요금제를 이용하지 않는 Gemini 사용자에게 Flash-Lite만 제공하며, Flash와 Pro 모델에 대한 접근을 제한한다. AI Plus 구독자는 Flash-Lite와 Flash는 유지하지만 Pro 접근 권한은 상실하게 되며, 구글은 Plus 사용자에게 계정 변경 시점을 이메일로 안내할 예정이라고 밝혔다 [9to5google.com#1][digitaltrends.com#1][yahoo.com#1]. AI Pro 및 Ultra 구독자는 Flash-Lite, Flash, Pro에 대한 접근 권한을 유지하며, 구글은 Pro 모델에 '딥 씽크(Deep Think)' 추론 옵션을 추가한다. 또한 Gemini 앱은 사용 가능한 모델에 대해 낮음, 중간, 높음의 작업 수준을 도입할 예정이며, 높은 설정을 선택할수록 쿼리 처리에 더 많은 작업이 수행되지만 사용자의 할당량을 더 많이 소모하게 된다. 구글은 지난 5월 Gemini 사용 제한 방식을 컴퓨팅 기반 시스템으로 전환한 바 있다 [9to5google.com#1][appinn.com#1].",
+      "talking_points[0]": "현재 요금제 세부 정보에 따르면 구글 AI Plus는 월 4.99달러, Pro는 19.99달러, Ultra는 99.99달러부터 시작한다 [digitaltrends.com#1].",
+      "talking_points[1]": "사용 할당량: Appinn이 설명한 할당량 시스템에 따르면 사용량은 5시간마다 갱신되며 주간 한도에 도달할 때까지 유지된다. Plus는 표준 할당량의 2배, Pro는 4배를 제공받는다 [appinn.com#1].",
+      "talking_points[2]": "Argon 접근 권한: 구글은 Gemini 4 Argon이 AI Ultra 사용자에게 가장 먼저 제공될 것이라고 밝혔으며, 모델 접근 등급 내에서의 최종적인 위치는 아직 명시되지 않았다 [9to5google.com#1].",
+      "business_angle_points[0]": "AI Plus에는 400GB 저장 공간, 영상 생성, 일일 브리핑 및 예약된 상호작용 기능이 포함되며, Pro는 구글 앱 내 Gemini 사용과 5TB 저장 공간을 추가로 제공한다 [digitaltrends.com#1][common]."
+    },
+    "9542cdcb-adda-4825-98d8-c70e167d63f7": {
+      "title": "트럼프, 제이 클레이턴 정보국장을 백악관 AI 검토 책임자로 지명",
+      "short_summary": "도널드 트럼프 대통령은 제이 클레이턴(Jay Clayton) 국가정보국장을 백악관 '슈퍼 인텔리전스 포스(Super Intelligence Force)'의 책임자로 임명했다. 이 태스크포스는 인공지능(AI)의 위험과 기회를 평가해 120일 이내에 보고서를 제출하는 임무를 맡는다. 클레이턴 국장은 10월 4일 자신이 이 이니셔티브를 이끌 것이라고 확인했다 [firstpost.com#1][cnbc.com#1][stheadline.com#1]. 성도일보(Sing Tao Headline)에 따르면 클레이턴 국장은 이번 검토가 미국의 국가 이익을 보호하면서 첨단 AI 분야에서 우위를 유지하도록 돕는 것을 목표로 한다고 밝혔다. 그는 기존의 정보국장직을 수행하면서 AI 정책을 총괄할 예정이며, 전임 AI 및 암호화폐 자문위원인 데이비드 색스(David Sacks)의 뒤를 잇는다. 클레이턴 국장은 과거 증권거래위원회(SEC) 위원장을 역임하고 연방 검사로 활동했으나, 기술 산업 분야의 경력은 없는 것으로 알려졌다 [theglobeandmail.com#1][alquds.com#1][stheadline.com#1].",
+      "historical_background": "국가정보국장으로서 클레이턴은 중앙정보국(CIA)과 연방수사국(FBI) 국가안보국을 포함한 18개 정보기관을 총괄한다. 색스는 비공식적으로 자문 역할을 계속하며 대통령의 기술 자문 위원회 공동 의장을 맡고 있다 [stheadline.com#1].",
+      "talking_points[0]": "상원 인준 불필요: AI 차르(AI czar) 역할은 백악관 내부 자문직이며 내각 직책이 아니므로, 클레이턴의 임명은 상원의 인준을 필요로 하지 않는다 [stheadline.com#1].",
+      "talking_points[1]": "기존 정책 접근 방식: 데이비드 색스는 백악관 AI 및 암호화폐 자문위원으로서 AI의 신속한 개발을 옹호했다 [stheadline.com#1].",
+      "talking_points[2]": "클레이턴의 견해: 클레이턴은 슈퍼 인텔리전스를 국가 안보 문제로 규정하고 AI 개발 중단에 반대하며, 정부가 그 위험을 통제해야 한다고 주장해 왔다 [stheadline.com#1].",
+      "talking_points[3]": "이전 공약: 트럼프 대통령은 지난달 AI 차르를 임명하겠다고 밝혔으며, 지명에 앞서 메타(Meta), 구글(Google), 엔비디아(Nvidia) 대표들을 포함한 기술 기업 경영진들과 회동했다 [stheadline.com#1].",
+      "perspectives[0].text": "데이비드 색스: 전임 AI 및 암호화폐 자문위원이었던 색스는 중국을 AI 경쟁의 주요 경쟁자로 묘사했다 [stheadline.com#1].",
+      "perspectives[1].text": "백악관: 백악관 관계자는 대통령이 공식적인 인사 임명을 발표할 것이라고 언급하며, 앞서 보도된 임명 관련 내용은 추측에 불과하다고 밝혔다 [stheadline.com#1].",
+      "timeline[0].content": "데이비드 색스가 백악관 AI 및 암호화폐 정책 총괄을 시작했다 [stheadline.com#1]",
+      "timeline[1].content": "색스가 백악관 AI 및 암호화폐 포트폴리오 업무에서 물러났다 [stheadline.com#1]",
+      "timeline[2].content": "상원이 클레이턴을 국가정보국장으로 인준했다 [stheadline.com#1]",
+      "timeline[3].content": "클레이턴이 자신이 백악관 AI 이니셔티브를 이끌 것이라고 확인했다 [stheadline.com#1]",
+      "primary_image.caption": "지난 7월 국회의사당에서 열린 상원 정보위원회 청문회에서 제이 클레이턴이 국가정보국장 지명에 대해 증언하고 있다."
+    },
+    "456958fd-b421-4bbd-944f-5dba03b009a0": {
+      "title": "엔비디아, 7년 된 쉴드 TV 프로 가격 299.99달러로 인상",
+      "short_summary": "엔비디아(Nvidia)는 10월 2일부터 스트리밍 기기인 쉴드 TV 프로(Shield TV Pro)의 가격을 199.99달러에서 299.99달러로 인상했다. 이는 2019년에 출시된 하드웨어 가격을 50% 올린 것이다 [wired.com#1][tomshardware.com#1][ghacks.net#1][itavisen.no#1]. 엔비디아는 메모리를 포함한 부품 비용 상승을 가격 인상의 원인으로 지목했으며, 저가형 모델인 일반 쉴드 TV를 단종시켜 프로 모델을 유일한 쉴드 기기로 남겼다 [tomshardware.com#1][ghacks.net#1]. 프로 모델은 주요 하드웨어 업데이트를 거치지 않았다. 엔비디아 공식 스토어에는 재고 없음으로 표시되었으며, 소매점에서도 재고가 제한적인 상황이다 [tomshardware.com#1][ghacks.net#1]. 엔비디아는 메모리 비용이 완화될 경우 가격이 인하될 가능성이 있는지에 대해 언급하지 않았으며, 후속 제품에 대해서도 발표하지 않았다 [ghacks.net#1].",
+      "talking_points[0]": "하드웨어 사양: 프로 모델은 3GB RAM, 16GB 저장 공간, 2개의 USB 3.0 포트 및 기가비트 이더넷을 탑재했다. 4K HDR 재생과 AI 업스케일링을 지원한다 [tomshardware.com#1][itavisen.no#1].",
+      "talking_points[1]": "지속적인 생산: 엔비디아 임원 앤드류 벨(Andrew Bell)은 올해 초, 회사가 여전히 쉴드를 생산하고 있으며 생산되는 모든 제품이 판매되고 있어 이전 가격으로 판매할 구형 재고가 남아있지 않다고 밝혔다 [ghacks.net#1].",
+      "talking_points[2]": "노르웨이 가격: 이타비센(Itavisen)에 따르면, 미국 내 가격 인상은 아직 노르웨이에는 적용되지 않았으며 쉴드 TV 프로는 2,490크로네에 판매되고 있다 [itavisen.no#1].",
+      "primary_image.caption": "엔비디아 쉴드 TV 프로"
+    },
+    "42aaf1b5-22f1-45d0-96c4-61a609938ac4": {
+      "title": "요르단, 샤이니헌터스 해커 용의자 구금… FBI 공범 추적 중",
+      "short_summary": "요르단 당국이 9월 29일 화요일 '레이(Rey)'라는 온라인 별칭으로 알려진 사이프 알딘 카데르(Saif al-Din Khader)를 구금했으며, 그는 현재 FBI 및 국제 수사기관과 협력하여 샤이니헌터스(ShinyHunters)의 다른 용의자들을 식별하고 있다고 사안에 정통한 관계자들이 로이터에 전했다 [reuters.com#1][newarab.com#1]. FBI는 카데르의 구금 사실을 확인해주지 않았으나, 수사 과정에서 파트너 기관들과 협력해 다수의 인물을 체포했다고 밝혔다 [newarab.com#1][cybersecuritynews.com#1]. 이번 구금은 샤이니헌터스가 FBI 시스템을 해킹해 직원 데이터를 탈취했다고 주장한 이후에 이루어졌다. 해당 그룹은 오라클 피플소프트(Oracle PeopleSoft) 취약점을 악용해 FBI가 관리하는 클라우드 시스템에 접근했다고 주장했으나, FBI는 비인가 활동에 대해 조사 중이라는 사실만 확인했을 뿐 데이터 탈취 여부나 해당 그룹의 주장에 대해서는 검증하지 않았다 [bleepingcomputer.com#1][cybersecuritynews.com#1]. 로이터는 카데르의 구금 경위나 소재를 파악할 수 없었으며, 당국은 그의 법적 지위에 대해 공개적으로 밝힌 바 없다고 전했다 [newarab.com#1][albawaba.com#1].",
+      "quote": "이 일에 오래 관여할수록 우리는 당신에 대해 더 많은 것을 알게 됩니다. 당신은 우리를 찾는 방법을 알고, 우리도 당신을 찾는 방법을 압니다. 선택권이 당신에게 있을 때 먼저 연락하는 것을 권합니다.",
+      "quote_attribution": "블리핑컴퓨터(BleepingComputer)",
+      "location": "요르단",
+      "historical_background": "카데르는 '스캐터드 랩서스 헌터스(Scattered Lapsus$ Hunters)'가 운영하는 텔레그램 채널에서 관리자 권한을 가진 모습이 포착된 바 있다. 2025년에 처음 등장한 이 그룹은 랩서스$(Lapsus$), 스캐터드 스파이더(Scattered Spider), 샤이니헌터스의 전 멤버들로 구성되었다고 주장했다 [bleepingcomputer.com#1].",
+      "talking_points[0]": "의혹 기록: 5,000건의 기록 샘플에는 자택 주소, 사회보장번호, 생년월일, 가족 정보 등이 포함된 것으로 알려졌다. 로이터는 최소 10건의 사례에서 정보를 부분적으로 일치시켰으나, 이것이 해당 기록의 출처를 입증하는 것은 아니었다 [cybersecuritynews.com#1].",
+      "talking_points[1]": "이전 체포: 네덜란드 경찰은 9월 15일 암스테르담 출신의 24세 남성을 체포했다.  KrebsOnSecurity와 DataBreaches는 그를 '움브레온(Umbreon)'이라는 별칭을 사용한 페핀 반 데르 스타프(Pepijn van der Stap)로 식별했다. 샤이니헌터스는 그가 그룹 소속이 아니라고 부인했다 [bleepingcomputer.com#1].",
+      "talking_points[2]": "카데르의 이력: 블리핑컴퓨터에 따르면 카데르는 텔레포니카(Telefónica)와 오렌지(Orange) 관련 데이터 탈취 공격, 그리고 재규어 랜드로버(Jaguar Land Rover)를 겨냥한 해킹 사건과 연루된 바 있다 [bleepingcomputer.com#1].",
+      "technical_details[0]": "추정 침입 경로: 샤이니헌터스는 오라클 피플소프트 제로데이 취약점을 이용해 접근한 뒤 FBI가 관리하는 AWS GovCloud 시스템으로 측면 이동했다고 주장했으나, 해당 익스플로잇이나 주장된 측면 이동은 독립적으로 검증되지 않았다 [bleepingcomputer.com#1][cybersecuritynews.com#1].",
+      "technical_details[1]": "주장된 데이터 규모: 해당 그룹은 2TB에서 3TB의 데이터를 탈취했다고 주장했으나, FBI는 데이터 탈취 사실을 확인해주지 않았으며, 보고된 샘플 확인 결과에서도 기록의 출처는 입증되지 않았다 [bleepingcomputer.com#1][cybersecuritynews.com#1].",
+      "perspectives[0].text": "사이프 알딘 카데르: 2025년 11월 기자 브라이언 크렙스(Brian Krebs)가 보도한 논평에서 카데르는 최소 6월부터 수사기관과 협력해 왔으며, 9월 이후로는 기업 해킹이나 갈취 관련 활동을 중단했다고 밝혔다. 크렙스는 그의 주장을 검증할 수 없었다 [bleepingcomputer.com#1].",
+      "timeline[0].content": "크렙스는 인포스틸러(infostealer) 로그와 시그널(Signal) 통신을 사용하여 '레이'의 신원을 카데르로 추적했다 [bleepingcomputer.com#1]",
+      "timeline[1].content": "네덜란드 경찰이 샤이니헌터스 수사와 관련해 암스테르담 용의자를 체포했다 [bleepingcomputer.com#1]",
+      "timeline[2].content": "요르단 당국이 수사관들을 돕고 있는 카데르를 구금한 것으로 알려졌다 [cybersecuritynews.com#1][reuters.com#1]"
+    },
+    "220496c4-2fe1-4070-a3a0-7868d76645f4": {
+      "title": "북한, 700km 시험발사서 AI 유도 미사일 궤도 변경 주장",
+      "short_summary": "북한은 지난 토요일 인공지능(AI)을 활용해 저고도에서 비행 경로를 변경하는 중거리 전략 미사일을 시험 발사했다고 밝혔다. 한국 군 당국은 원산 인근에서 발사를 포착했으며, 미사일이 동해상으로 700km 이상 비행했다고 전했다 [dawn.com#1][insiderpaper.com#1][firstpost.com#1]. 김여정 북한 노동당 부부장은 해당 무기가 저고도에서 궤도를 변경해 추적을 회피할 수 있다고 주장했다. 관영 매체는 이번 훈련이 극초음속 전략 무기 체계 운용 능력을 숙달하기 위한 것이라고 보도했다. 이번 발사는 비무장지대(DMZ)에서 발생한 폭발 사고로 한국군 병사 3명이 부상을 입은 직후에 이루어졌다. 평양은 책임을 부인했으나, 한국 군 당국은 사과를 요구했다. 전문가들은 북한의 미사일 정확도와 성능에 대한 주장이 아직 검증되지 않았다고 경고했다 [dawn.com#1][insiderpaper.com#1][straitstimes.com#1].",
+      "location": "북한 원산",
+      "historical_background": "김정은 북한 국무위원장은 2024년 한국을 '주적'으로 규정했다. 이후 북한은 국경을 봉쇄하기 위해 접경 지역 일부에 지뢰를 매설하고 요새화 작업을 진행했다 [dawn.com#1]. 한국과 미국 주도의 유엔군사령부는 최근 DMZ 폭발 사고가 한국 측 국경에 매설된 북한군 지뢰에 의한 것이라고 판단했다 [dawn.com#1].",
+      "talking_points[0]": "무기 개발 맥락: 김정은 위원장은 지난달 북한 무기 체계의 AI 수준을 높일 것을 지시했다 [dawn.com#1].",
+      "talking_points[1]": "지도부 참관: 관영 매체 사진에는 김정은 위원장이 딸 주애, 부인 리설주와 함께 발사를 참관하는 모습이 담겼다 [insiderpaper.com#1].",
+      "perspectives[0].text": "북한 정부: 김여정 부부장은 김정은 위원장이 전 세계 어느 나라도 최소 수년간은 이 기술에 접근할 수 없을 것이라고 믿고 있다고 전했다 [dawn.com#1].",
+      "perspectives[1].text": "양무진 북한대학원대학교 전 총장: 양 전 총장은 이번 발사를 한국의 대화 제의에 대한 거부로 해석하며, 평양이 대결 구도를 시사하고 있다고 분석했다 [dawn.com#1].",
+      "timeline[0].content": "DMZ 폭발로 한국군 병사 3명 부상; 평양은 책임 부인 [dawn.com#1]",
+      "timeline[1].content": "이 대통령, 평양에 대화 복귀 촉구 [dawn.com#1]",
+      "timeline[2].content": "김여정, 한국의 제안 거부 및 북한 책임설 부인 [dawn.com#1]",
+      "timeline[3].content": "한국, 원산 지역에서 미사일 발사 포착 [dawn.com#1]",
+      "primary_image.caption": "북한 미사일 시험 발사 보도와 함께 실린 사진"
+    },
+    "27028605-98e9-4147-9876-ecd0d8275894": {
+      "title": "스팀(Steam), 9월 매출 17억 달러로 역대 최고치 기록하며 지출 증가",
+      "short_summary": "스팀은 2026년 9월, 전년 동기 대비 13% 증가한 약 17억 달러의 매출을 기록하며 역대 최고치를 달성했다. 이는 하드웨어 비용 상승에도 불구하고 PC 게임 지출이 지속된 결과이다 [tomshardware.com#1][techpowerup.com#1]. 알리네아 애널리틱스(Alinea Analytics)는 스팀의 연간 매출이 사상 처음으로 200억 달러를 넘어설 것으로 전망했다 [tomshardware.com#1]. 스팀의 3분기 매출은 약 55억 달러, 1~9월 누적 매출은 165억 달러로 집계되었으며, 이는 2025년 같은 기간의 145억 달러와 비교되는 수치이다 [tomshardware.com#1]. 10월 1일 기준 스팀에 출시된 게임은 20,220개이며, 10월 중 1,156개가 추가로 출시될 예정이다. 계획대로 출시될 경우 올해 총 출시작 수는 2025년의 21,268개를 넘어설 전망이다 [tomshardware.com#1].",
+      "business_angle_text": "해당 수치는 밸브(Valve)가 공개한 재무 실적이 아닌 알리네아 애널리틱스의 추정치이다 [tomshardware.com#1].",
+      "talking_points[0]": "매출 구성: 9월 스팀 매출 상위 500개 게임 중 신규 지식재산권(IP)이 차지하는 비중은 20.5%였으며, 기존 IP가 79.5%를 차지했다. 이 중 리메이크 및 리마스터 작품의 비중은 3.8%였다 [tomshardware.com#1].",
+      "talking_points[1]": "주요 출시작: 9월 10일 얼리 액세스로 출시된 '워독스(Wardogs)'는 약 8,690만 달러의 매출을 올렸고, '오니무샤: 웨이 오브 더 소드(Onimusha: Way of the Sword)'는 3,040만 달러, '더 블러드 오브 던워커(The Blood of Dawnwalker)'는 2,690만 달러의 매출을 기록했다 [tomshardware.com#1].",
+      "talking_points[2]": "무료 게임 매출: '카운터 스트라이크 2(Counter-Strike 2)', '에이펙스 레전드(Apex Legends)', 'PUBG', '도타 2(Dota 2)' 등 4개 게임은 9월 한 달간 약 1억 6,800만 달러의 매출을 합작했으며, 이는 스팀 월간 추정 매출의 약 10%에 해당한다 [tomshardware.com#1]."
+    },
+    "7884112a-308d-4176-9975-90c75d7e3d66": {
+      "title": "애플, 10월 13일 스마트 홈 기기 3종 공개 예정",
+      "short_summary": "맥루머스(MacRumors) 등 기술 매체들의 보도에 따르면, 애플은 10월 13일 스마트 홈 허브와 새로운 홈팟 미니(HomePod mini), 업데이트된 애플 TV 4K를 공개할 것으로 예상된다. 이 허브는 약 6인치 터치스크린을 탑재하고 애플의 개선된 시리(Siri) AI를 사용하여 연결된 기기를 제어하며 페이스타임(FaceTime)과 같은 기능을 지원할 것으로 보인다. 애플의 기존 스마트 홈 라인업에는 스피커와 TV 하드웨어가 포함되어 있다 [macrumors.com#1][cultofmac.com#1][macobserver.com#1]. 제품 세부 정보 및 스마트 홈 발표 이후의 일정은 아직 확인되지 않았다. '아이폰 듀오(iPhone Duo)'로 불리는 애플의 첫 폴더블 아이폰은 10월 16일부터 사전 주문을 시작해 10월 23일에 출시될 예정이다. 맥루머스가 인용한 공급망 소식통에 따르면 9월 17일 기준 최종 조립 수율이 60%를 약간 상회하는 수준에 그쳐 초기 공급량이 제한될 가능성이 있다 [macrumors.com#1][apfeltalk.de#1].",
+      "talking_points[0]": "허브 디자인: 보도에 따르면 이 허브는 탁상용과 벽걸이용 버전으로 계획되었으며, 전면 페이스타임 카메라와 베이스에 마이크 및 스피커가 탑재될 예정이다 [macrumors.com#1].",
+      "talking_points[1]": "폴더블 생산: 폭스콘(Foxconn) 공급망과 가깝다고 알려진 한 소식통은 현재의 품질 기준에 맞춰 조립 수율이 안정화되기까지 6개월에서 1년 정도 더 걸릴 수 있다고 전했다 [macrumors.com#1].",
+      "talking_points[2]": "기타 하드웨어: 보도들은 올가을 터치스크린 OLED 맥북 프로(MacBook Pro)가 출시될 가능성을 시사하고 있으나, 일각에서는 출시가 11월로 미뤄질 수 있다는 관측도 나온다 [cultofmac.com#1][apfeltalk.de#1].",
+      "talking_points[3]": "허브 소프트웨어: 소문으로 떠도는 홈OS(homeOS) 인터페이스는 아이폰 스탠바이(StandBy), 애플 워치 위젯, 애플 TV 미디어 기능의 요소를 결합한 형태라고 전해지며, 별도의 앱 스토어는 탑재되지 않을 것이라는 보도도 있다 [apfeltalk.de#1].",
+      "technical_details[0]": "홈팟 미니: 새로워진 모델은 시리 AI를 위한 더 빠른 칩과 향상된 연결성 및 사운드, 새로운 색상을 갖출 것으로 예상되나 디자인은 2020년형 모델과 유사할 것으로 보인다 [apfeltalk.de#1].",
+      "technical_details[1]": "폴더블 디스플레이: 보도에 따르면 아이폰 듀오는 7.6인치 펼침형 디스플레이와 5.4인치 외부 화면을 갖추며, 펼쳤을 때 두께는 4.3mm가 될 전망이다 [cultofmac.com#1].",
+      "timeline[0].content": "아이폰 듀오의 최종 조립 수율이 60%를 약간 상회하는 수준으로 보고됨 [macrumors.com#1]",
+      "timeline[1].content": "애플이 3종의 스마트 홈 제품을 공개할 것으로 예상됨 [macrumors.com#1][cultofmac.com#1]",
+      "timeline[2].content": "애플의 첫 폴더블 아이폰 사전 주문이 시작될 것으로 예상됨 [cultofmac.com#1][apfeltalk.de#1]",
+      "timeline[3].content": "아이폰 듀오가 출시될 것으로 예상됨 [cultofmac.com#1][apfeltalk.de#1]",
+      "suggested_qna[0].question": "소문으로 떠도는 허브는 어떻게 설정을 개인화할 수 있는가?",
+      "suggested_qna[0].answer": "보도에 따르면 이 기기는 얼굴을 인식하여 개별 구성원에 맞춰 설정을 조정할 수 있다고 한다 [apfeltalk.de#1].",
+      "primary_image.caption": "애플의 스마트 홈 허브 예상 콘셉트 이미지"
+    },
+    "5bd3dc02-15a4-42d7-96cd-0885b31e0e73": {
+      "title": "구글, AI 궤도 컴퓨팅 테스트 위해 TPU 4개 탑재 위성 발사",
+      "short_summary": "구글의 프로토타입 위성 '프로젝트 선캐처(Project Suncatcher)'가 10월 1일 궤도에 진입하며 4개의 텐서 처리 장치(TPU)를 탑재하고 우주 공간에서 AI 컴퓨팅 하드웨어의 작동 가능성을 시험하기 시작했다 [slashdot.org#1][techjuice.pk#1][stheadline.com#1]. 스페이스X(SpaceX) 로켓에 실려 발사되고 위성 기업 플래닛(Planet)과 공동 개발한 이 위성은 발사 시의 압력, 방사선, 극한의 온도 환경에서 칩을 테스트하기 위해 설계되었으며, 구글은 약 1년간 위성이 운용될 것으로 예상하고 있다 [techjuice.pk#1][stheadline.com#1]. 이 위성은 열 관리 제한으로 인해 구글의 젬마(Gemma) 모델을 한 번에 약 15분씩 구동한다 [slashdot.org#1][techjuice.pk#1]. 구글의 장기적인 구상은 태양광 발전 위성들을 연결해 궤도 컴퓨팅 클러스터를 구축하는 것이며, 2027년에는 위성 간 연결을 시험하기 위해 두 대의 위성을 추가로 발사할 계획이다 [techjuice.pk#1]. 현재의 우주선은 제한적인 실험일 뿐 지상 데이터 센터를 대체하기 위한 것은 아니며, 구글은 우주 기반 시설이 5년 내에 지상보다 저렴해질 가능성은 낮다고 밝혔다 [techjuice.pk#1].",
+      "did_you_know": "구글 보고서에 따르면 지구 근접 궤도에서 이용 가능한 태양광은 지상보다 최대 8배 더 많다 [stheadline.com#1].",
+      "quote": "매우 최소한의 테스트",
+      "quote_attribution": "슬래시닷(Slashdot)",
+      "talking_points[0]": "규모: 구글이 제안한 차기 위성들은 프로토타입의 4개보다 훨씬 많은 수십 개의 TPU를 탑재할 수 있다 [techjuice.pk#1].",
+      "talking_points[1]": "레이저 링크: 향후 제안된 위성들은 레이저 링크를 통해 서로 간에, 그리고 지구와 데이터를 교환하게 된다 [techjuice.pk#1].",
+      "talking_points[2]": "운영상의 난관: 열 관리, 비싼 발사 비용, 우주 공간에서의 장비 수리 어려움 등이 여전히 중요한 과제로 남아 있다 [techjuice.pk#1].",
+      "perspectives[0].text": "구글: 해당 위성은 지상과 통신을 수립했으며 정상적으로 작동하고 있다. 구글은 앞으로 몇 주 동안 궤도 데이터를 수집할 예정이라고 밝혔다 [stheadline.com#1].",
+      "timeline[0].content": "구글, 궤도 컴퓨팅 개념으로서 프로젝트 선캐처를 처음 발표 [derstandard.at#1]",
+      "timeline[1].content": "TPU 4개를 탑재한 프로토타입이 스페이스X 로켓에 실려 발사됨 [slashdot.org#1][techjuice.pk#1]",
+      "timeline[2].content": "구글, 통신 링크 테스트를 위해 위성 2대 추가 발사 계획 [techjuice.pk#1]"
+    }
+  },
+  "stats": {
+    "storyCount": 12,
+    "translated": 10,
+    "failedStoryIds": [
+      {
+        "id": "1f6ef955-367a-400b-843f-e69a1956643a",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "e12e74c5-d8cc-46c2-8340-a90d7f9dbc46",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 9373,
+      "out": 10381
+    }
+  }
+}
