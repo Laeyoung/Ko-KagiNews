@@ -1,7 +1,7 @@
 {
   "version": 1,
   "batchId": "b577dced-e9bd-4e8d-9cad-12525005485f",
-  "updatedAt": "2026-10-04T15:31:09.965Z",
+  "updatedAt": "2026-10-04T15:45:27.153Z",
   "categories": {
     "b4bf3ef2-bf69-48a8-a865-8c847ec61c8d": {
       "slug": "tech",
@@ -74,7 +74,7 @@
     "status": "skipped"
   },
   "run": {
-    "attempted": 3,
+    "attempted": 2,
     "failed": 2,
     "failureRatePct": null,
     "unresolvedSlugs": []
