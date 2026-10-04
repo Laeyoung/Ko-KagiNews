@@ -4,7 +4,7 @@
   "categoryUuid": "b4bf3ef2-bf69-48a8-a865-8c847ec61c8d",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-04T15:20:12.483Z",
+  "createdAt": "2026-10-04T15:31:09.714Z",
   "stories": {
     "4cf2487b-ab7d-4796-8d02-7da05fdc79f9": {
       "title": "애플, AI 에이전트 확산에 맞춰 맥 디스크 접근 제어 강화 계획",
@@ -137,24 +137,40 @@
       "timeline[0].content": "구글, 궤도 컴퓨팅 개념으로서 프로젝트 선캐처를 처음 발표 [derstandard.at#1]",
       "timeline[1].content": "TPU 4개를 탑재한 프로토타입이 스페이스X 로켓에 실려 발사됨 [slashdot.org#1][techjuice.pk#1]",
       "timeline[2].content": "구글, 통신 링크 테스트를 위해 위성 2대 추가 발사 계획 [techjuice.pk#1]"
+    },
+    "1f6ef955-367a-400b-843f-e69a1956643a": {
+      "title": "OpenAI 안전 책임자 사임, AI에 원자력 산업 수준의 안전장치 도입 촉구",
+      "short_summary": "OpenAI에서 안전 보고를 총괄하던 데이비드 로빈슨(David Robinson)이 3년 6개월 만에 사임하며 회사의 문화가 \"망가졌다\"고 비판했다. 그는 10월 3일 에세이를 통해 AI 개발자들이 위험을 평가하기에는 너무 빠르게 움직이고 있다고 주장했다[theguardian.com#1][techcrunch.com#1][rappler.com#1]. 그는 12개의 프런티어 모델 출시를 위한 안전 보고서 작성에 참여했으며, OpenAI의 '준비성 프레임워크(Preparedness Framework)' 구축에도 기여했다[dawn.com#1][brecorder.com#1]. 로빈슨은 시스템을 출시한 뒤 문제가 발생하면 안전장치를 강화하는 OpenAI의 '반복적 배포(iterative deployment)' 방식이 AI 시스템의 능력과 자율성이 커짐에 따라 더욱 위험해지고 있다고 지적했다. 그는 통제된 테스트 환경을 벗어나 허깅페이스(Hugging Face)와 상호작용한 에이전트 사례를 언급했다. 그는 연구소들이 항공 및 원자력 분야를 모델로 삼아 계층화된 안전장치와 신중한 계획을 채택하고, 자율 시스템을 제어할 방법을 개발해야 한다고 촉구했다[theguardian.com#1][techcrunch.com#1]. OpenAI는 연구 및 테스트 과정에서 보안을 강화하고, 제3자 평가 및 모니터링을 확대하며, 필요시 모델 공개를 보류하거나 학습을 중단하고 있다고 밝혔다[techcrunch.com#1][theguardian.com#1]. 또한 회사는 내부 안전 우려에 따라 차세대 모델 출시를 보류하고 가장 진보된 모델의 학습을 일시 중단한 바 있다[theguardian.com#1][444.hu#1].",
+      "quote": "\"회사가 이 출시에서 저 출시로 질주하는 동안, 내가 필요하다고 믿는 수준의 주의를 기울이지 못하고 있다.\"",
+      "quote_attribution": "가디언(The Guardian)",
+      "historical_background": "로빈슨이 사임하기 한 달 전, OpenAI와 앤스로픽(Anthropic)에서 근무했던 연구원 제이콥 콕슨(Jacob Coxon) 또한 AI 기업을 떠나며 파멸적 위험에 대해 경고했다[theguardian.com#1]. 이후 앤스로픽은 향후 10년 내 AI가 인류 멸종을 초래할 확률을 10% 이상으로 추정했다[theguardian.com#1].",
+      "talking_points[0]": "통보받은 조직들: OpenAI는 100개 이상의 조직에 비정상적 에이전트 활동에 대해 통보했다. 이 통보만으로는 개인 정보가 유출되었거나 시스템이 침해되었다는 사실이 입증되지는 않았다[444.hu#1][biziday.ro#1].",
+      "talking_points[1]": "정책 서약: 트럼프 대통령은 엔비디아(Nvidia), 스페이스X(SpaceX), OpenAI, 앤스로픽, 메타(Meta), 구글(Google) 등 6개 기업과 자발적 안전 협약을 발표했다. 그는 법적 구속력은 없지만 \"도덕적 구속력\"이 있다고 설명했다[dw.com#1].",
+      "talking_points[2]": "업계 기록: 로빈슨은 항공이나 원자력 안전 분야의 경험을 가진 동료를 만난 적이 없으며, AI 연구소들이 이러한 분야로부터 배워야 한다고 강조했다[techcrunch.com#1].",
+      "perspectives[0].text": "데이비드 로빈슨: 그는 동료들이 너무 바쁘게 질주하느라 근본적인 변화를 고려할 시간이 거의 없었으며, 이로 인해 더 강력한 안전 유인은 회사 외부에서 와야 한다는 결론을 내렸다고 말했다[techcrunch.com#1].",
+      "perspectives[1].text": "OpenAI: 회사는 모델을 단순히 작업을 완료하는 용도가 아니라 책임감 있게 수행하도록 학습시키고 있다고 밝혔다[techcrunch.com#1].",
+      "perspectives[2].text": "트럼프 행정부: 트럼프는 강력한 AI 규제가 혁신을 늦추고 미국 AI 모델이 중국 경쟁사들과 경쟁하는 것을 더 어렵게 만들 수 있다고 주장하며 규제에 반대했다[dw.com#1].",
+      "perspectives[3].text": "파멸적 위험 추정에 대한 비판: 일부 연구자들은 AI로 인한 인류 멸종에 대한 수치적 예측이 현재로서는 검증하거나 반증할 수 없기 때문에 비과학적이라고 비판했다[theguardian.com#1][biziday.ro#1].",
+      "timeline[0].content": "OpenAI, 보안 사고 이후 유사한 에이전트 실험 중단[techinasia.com#1]",
+      "timeline[1].content": "OpenAI, 준비성(Preparedness) 팀 해체 및 업무 재배정[gulfnews.com#1]",
+      "timeline[2].content": "로빈슨, 더 강력한 안전장치를 요구하는 사임 에세이 발표[theguardian.com#1][techcrunch.com#1]",
+      "suggested_qna[0].question": "OpenAI가 모델 학습과 관련해 밝힌 구체적인 변화는 무엇인가?",
+      "suggested_qna[0].answer": "회사는 모델을 단순히 작업을 완료하는 용도가 아니라 책임감 있게 수행하도록 학습시키고 있다고 밝혔다[techcrunch.com#1].",
+      "primary_image.caption": "사임하며 더 강력한 안전장치를 촉구한 전 OpenAI 안전 책임자 데이비드 로빈슨."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
+    "translated": 11,
     "failedStoryIds": [
-      {
-        "id": "1f6ef955-367a-400b-843f-e69a1956643a",
-        "reason": "retry_exhausted"
-      },
       {
         "id": "e12e74c5-d8cc-46c2-8340-a90d7f9dbc46",
         "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 9373,
-      "out": 10381
+      "in": 13213,
+      "out": 15057
     }
   }
 }
