@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "batchId": "071b61f5-aeba-4a3e-b8ed-50822d6d3926",
+  "categoryUuid": "df493c3f-63fd-4f25-a6fd-bbcb1fa197fc",
+  "categorySlug": "ai",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-10-05T19:20:31.286Z",
+  "stories": {
+    "318c0b71-8f91-4ed7-895e-5a2142fc760d": {
+      "title": "트럼프, 정보국장 제이 클레이튼을 연방 AI 태스크포스 수장으로 임명",
+      "short_summary": "도널드 트럼프 대통령은 10월 4일 일요일, 제이 클레이튼(Jay Clayton) 국가정보국장을 행정부가 '슈퍼 인텔리전스 포스(Super Intelligence Force)'라 명명한 새로운 연방 인공지능(AI) 태스크포스의 수장으로 임명했다. 이 위원회는 120일 이내에 AI의 위험과 기회를 평가하고, 정부가 침해나 해킹과 같은 사건을 처리하는 방식을 검토하며, 기존 권한 하에서 연방 기관들이 어떻게 대응해야 할지 권고안을 마련해야 한다 [apnews.com#1][tribune.com.pk#1][nypost.com#1]. 이 태스크포스는 기술 기업, 소비자, 공익 단체 및 핵심 인프라 제공업체와의 연방 차원 협력을 조율하고 AI 분야에서 미국의 리더십을 증진하는 것을 목적으로 한다. 또한 태스크포스의 헌장에는 혁신과 경쟁을 저해할 수 있는 규제를 피하면서도 첨단 AI로 인해 발생하는 위협에 대응하기 위한 계획이 포함되어 있다 [myjoyonline.com#1][gizmodo.com#3]. 이번 발표는 9월 29일 오픈AI(OpenAI), 앤스로픽(Anthropic), 스페이스X(SpaceX), 구글(Google)의 경영진이 자율 규제에 합의한 백악관 협약 이후에 나왔다. 트럼프 대통령은 이 협약을 '도덕적 구속력이 있다'고 언급했다 [myjoyonline.com#1][deccanchronicle.com#1].",
+      "did_you_know": "트럼프는 온라인 투표를 통해 대체 명칭을 선정했으며, '슈퍼 인텔리전스'가 65%의 득표율로 3차 투표에서 채택되었다 [frandroid.com#1].",
+      "quote": "우리가 가장 먼저 앞서 나가는 것이 미국 국민을 대신하여 그러한 위험에 대응할 수 있는 더 나은 기반이 될 것이다.",
+      "quote_attribution": "뉴욕 포스트(New York Post)",
+      "historical_background": "트럼프는 앞서 벤처 투자자인 데이비드 색스(David Sacks)를 비공식 AI 차르로 임명했으나, 그는 이후 사임했다. 색스는 여전히 AI 고문으로 남아 있으며 현재 태스크포스의 외부 자문위원으로 등재되어 있다 [deccanchronicle.com#1][tribune.com.pk#1].",
+      "talking_points[0]": "태스크포스 구성: 앤드류 퍼거슨(Andrew Ferguson) 연방거래위원회(FTC) 위원장, 에밀 마이클(Emil Michael) 국방 연구 관계자, 스콧 쿠퍼(Scott Kupor) 인사관리처장이 부위원장을 맡으며, JD 밴스(JD Vance) 부통령과 여러 내각 관료들이 위원으로 참여한다 [tribune.com.pk#1].",
+      "talking_points[1]": "외부 자문: 콘돌리자 라이스(Condoleezza Rice) 전 국무장관이 외부 자문위원으로 활동한다 [tribune.com.pk#1].",
+      "talking_points[2]": "클레이튼의 배경: 클레이튼은 기술 산업 경력이 없으며, 과거 증권거래위원회(SEC) 위원장을 역임했고 월스트리트 변호사로 활동했다 [deccanchronicle.com#1].",
+      "talking_points[3]": "머스크의 대응: 일론 머스크(Elon Musk)는 스페이스X가 AI 부서 명칭을 SpaceXAI에서 SpaceXSI로 변경할 것이라고 밝혔으나, 한 보고서가 발행될 당시 해당 부서의 공개 계정에는 여전히 이전 명칭이 표시되어 있었다 [frandroid.com#1][cnyes.com#1].",
+      "perspectives[0].text": "샘 올트먼(Sam Altman) 오픈AI 최고경영자: 올트먼은 사회가 AI의 혜택과 사람들이 기술을 사용할 수 있는 능력을 얻는 대가로 어느 정도의 피해는 감수해야 한다고 주장했다 [myjoyonline.com#1][reuters.com#1].",
+      "perspectives[1].text": "리나 칸(Lina Khan) 전 FTC 위원장: 칸은 AI 리더들의 자율 규제 '헌법'을 일축하며, 의회가 AI 규제에 관한 법률을 제정해야 한다고 주장했다 [abcnews.com#2][modernghana.com#1].",
+      "perspectives[2].text": "제임스 매니카(James Manyika) 구글 수석 부사장: 매니카는 AI 감독은 기업, 정부, 사회가 공유해야 하며 AI의 역량이 위험 관리 능력을 앞질러서는 안 된다고 말했다. 또한 그는 대부분의 일자리가 사라지기보다는 변화할 가능성이 더 높다고 주장했다 [freepressjournal.in#1].",
+      "primary_image.caption": "새로운 연방 AI 태스크포스 관련 보도에 포함된 도널드 트럼프 대통령의 모습."
+    },
+    "c13d029a-874d-454e-83f0-1f94c501c972": {
+      "title": "AI가 업무 방식을 재편하는 가운데 일자리 감소 규모를 두고 경제학자들 간 논쟁 가열",
+      "short_summary": "인공지능(AI)이 업무 방식을 변화시키고 있으나, 이것이 전체 고용을 감소시킬지 아니면 노동자를 새로운 역할로 이동시킬지는 불분명하다. 2014년부터 2023년까지 수백만 개의 링크드인(LinkedIn) 프로필을 추적한 연구에 따르면, AI에 노출된 업무는 해당 기술을 도입한 기업의 채용 공고에서 점차 줄어든 것으로 나타났다. 또한 해당 기업들은 다른 요인을 조정한 후에도 더 높은 매출, 수익, 생산성 및 고용을 기록했다. 이 연구는 생성형 AI가 널리 보급되기 이전의 데이터를 주로 다루고 있다 [sita.sk#1]. 기업들은 AI에 전문 기술을 가르칠 인력을 고용하고 있다. AI 개발자를 위한 모델을 훈련하는 머코어(Mercor)는 직원 수를 20명에서 400명으로 늘렸으며, 와인 제조자, 의사, 음악 프로듀서 등 10만 명 이상의 전문 프리랜서 풀을 구축했다 [cbsnews.com#2][cbsnews.com#4]. 머코어의 CEO 브렌던 푸디(Brendan Foody)는 AI가 지루하고 반복적인 업무를 대신할 수 있다고 말하는 반면, 노벨상 수상 경제학자인 다론 아세모글루(Daron Acemoglu)는 자동화가 노동자를 대체할 수 있다고 경고한다. CBS가 인용한 맥킨지 글로벌 연구소(McKinsey Global Institute) 보고서는 AI가 2035년까지 1,100만 명의 미국 노동자를 새로운 직업으로 내몰 수 있다고 추정했다. 아세모글루는 최악의 경우 미국이 현재의 경로를 유지한다면 10년 내에 실업률이 3배로 증가할 수 있다고 말했다 [cbsnews.com#4].",
+      "quote": "우리가 AI와 함께 겪고 있는 변화는 전례가 없는 일입니다.",
+      "quote_attribution": "CBS 뉴스",
+      "business_angle_text": "마닐라 타임스(The Manila Times)가 인용한 전망에 따르면 2050년까지 전 세계 데이터 센터에 대한 누적 지출은 30조 달러를 넘어설 것으로 예상되며, 베인(Bain)의 연구는 미국 하이퍼스케일러 및 기타 AI 기업들이 구축 비용을 충당하기 위해 5년간 4조 2천억 달러 이상의 신규 매출이 필요할 것으로 추산했다 [manilatimes.net#1]. 이는 실현된 수익이 아닌 전망치이다. 인프라 및 금융 비용을 충당하려면 AI 애플리케이션이 시간이 지남에 따라 충분한 현금 흐름을 창출해야 한다 [manilatimes.net#1][common]. 베인은 기존 시장에서의 생산성 향상만으로는 현재의 AI 투자 비용을 정당화하기 어려우며, 자금 조달 격차를 해소하기 위해 완전히 새로운 시장이 필요할 것이라고 밝혔다. 가능성 있는 분야로는 AI 기반 로봇과 배터리 및 반도체용 신소재 등이 거론된다 [manilatimes.net#1].",
+      "talking_points[0]": "훈련 급여: AI 훈련은 링크드인에서 미국 내 네 번째로 빠르게 성장하는 직종이며, 머코어 프리랜서들은 시간당 20달러에서 200달러를 벌 수 있다 [cbsnews.com#4].",
+      "talking_points[1]": "업무 변화: JP모건 체이스(JPMorgan Chase)의 경우, AI 도입 이후 채용 공고에서 신용 위험 분석 업무가 줄어든 것으로 나타났다. 이는 업무의 변화를 보여줄 뿐, 전체 직업이 사라졌다는 증거는 아니다 [sita.sk#1].",
+      "talking_points[2]": "콜센터: 다모보(Damovo) 임원 리 스와이어(Li Swayer)가 인용한 가트너(Gartner) 연구에 따르면, 고객 서비스 리더 중 5분의 1만이 AI로 인해 인력을 감축했으며, 대부분은 더 많은 통화를 처리하면서도 인력 수준을 대체로 안정적으로 유지했다 [nezavisne.com#1].",
+      "talking_points[3]": "노동자 의존도: 슬로바키아의 입소스(Ipsos) 설문조사에 따르면 노동자의 4분의 1 이상이 업무 문제 해결을 위해 AI를 활용하고 있으며, 25세에서 34세 사이에서는 그 비율이 38%까지 상승했다 [sita.sk#2].",
+      "talking_points[4]": "콘텐츠 비즈니스: 블룸버그 아드리아(Bloomberg Adria)는 일부 서비스를 무료 또는 저렴한 비용으로 제공하는 AI 대안들이 체그(Chegg), 게티이미지(Getty Images), 파이버(Fiverr), 셔터스톡(Shutterstock), 스택 오버플로우(Stack Overflow) 등 기업의 매출에 압박을 가하고 있다고 보도했다 [naslovi.net#1].",
+      "business_angle_points[0]": "앤스로픽(Anthropic)은 향후 몇 년간 5,180억 달러를 지출할 계획인데, 이는 2025년 매출의 100배가 넘는 금액이다 [manilatimes.net#1].",
+      "business_angle_points[1]": "JP모건은 엔비디아(Nvidia)의 기업 가치를 정당화하기 위해 미국 생산성이 10년간 연평균 3%에서 5% 성장해야 한다고 추산했는데, 이는 의회예산국(CBO)의 기본 예상치인 1.75%를 상회하는 수치이다 [manilatimes.net#1].",
+      "perspectives[0].text": "경제학자 다론 아세모글루: 아세모글루는 산업 혁명의 첫 단계가 80년 걸렸던 것과 대조적으로, 오늘날의 AI 도입 속도는 1~2년 만에 이루어지고 있다고 지적했다.",
+      "perspectives[1].text": "음악 프로듀서이자 AI 트레이너인 로비 하이저(Robbie Hiser): 하이저는 작곡은 여전히 인간의 경험에 의존하며, AI는 창의적인 작업의 바탕이 되는 삶의 경험이 부족하다고 주장했다.",
+      "perspectives[2].text": "보리스(Vorys) 파트너 킴 헐리히(Kim Herlihy): 헐리히는 고위 변호사들의 접근 방식을 학습한 AI 페르소나가 법적 논거를 준비하는 데 도움을 줄 수 있지만, 고객들은 여전히 무엇을 해야 할지에 대해 변호사와 직접 대화하기를 원한다고 말했다.",
+      "suggested_qna[0].question": "프리랜서들은 AI 모델을 훈련하기 위해 어떤 종류의 일을 하고 있습니까?",
+      "suggested_qna[0].answer": "머코어 계약직들은 AI가 실험실 결과를 정확하게 해석하는지 평가하거나, 모델에 피드백을 주기 위해 대체 가사들을 비교하는 등의 작업을 수행했다 [cbsnews.com#2].",
+      "primary_image.caption": "9월 29일 샌프란시스코에서 열린 오픈AI(OpenAI) 데브데이 2026 컨퍼런스 밖에서 사람들이 AI 반대 시위를 벌이고 있다."
+    },
+    "a0906dbd-3d03-4e1d-9523-522537b47895": {
+      "title": "앤스로픽, 인도에서 AWS 베드록을 통한 클로드 추론 서비스 제공",
+      "short_summary": "앤스로픽(Anthropic)은 아마존 베드록(Amazon Bedrock)을 통해 인도 내에서 클로드(Claude) 요청을 처리할 수 있도록 인프라를 구축했다 [storyboard18.com#1][fortuneindia.com#1][indiatimes.com#1][tradingview.com#1]. 이번 서비스는 2026년 10월 5일에 발표되었으며, AWS 서비스를 통해 인도에서 클로드를 사용할 수 있게 되었다고 보도되었다 [indiatimes.com#2][bestmediainfo.com#1]. 이번 조치로 아마존 베드록을 사용하는 기업들은 인도 현지에서 클로드 추론을 수행할 수 있는 경로를 확보하게 되었다 [fortuneindia.com#1][bestmediainfo.com#1].",
+      "talking_points[0]": "현지 처리: 이번 발표는 클로드 자체의 변경 사항이 아니라, 클로드 요청이 처리되는 위치가 인도라는 점에 관한 것이다 [indiatimes.com#1][bestmediainfo.com#1]."
+    },
+    "2dc4ff2b-a177-4100-8361-acf7d62b95fc": {
+      "title": "알트먼, AI의 이점이 위험을 정당화한다고 주장하며 앤스로픽의 엄격한 접근 방식 거부",
+      "short_summary": "샘 알트먼(Sam Altman) 오픈AI 최고경영자(CEO)는 사회가 인공지능(AI)의 이점과 폭넓은 대중적 접근성을 얻는 대가로 어느 정도의 피해는 감수해야 한다고 밝히며, 규제 문제에 있어 앤스로픽(Anthropic)과 분명한 선을 그었다. 그는 폴리티코(Politico)의 '디코디드(Decoded)' 뉴스레터 인터뷰에서 강력한 AI를 단일 연구소에만 국한하는 방식을 거부했으며, 기술에 대한 인간의 통제권을 심각하게 상실하는 상황은 받아들이지 않겠다고 말했다[deccanchronicle.com#1][cna.com.tw#1][freepressjournal.in#1]. 알트먼은 모든 주요 해킹, 오용, 사기를 방지하려는 것은 받아들일 수 없는 거래라고 주장하며, AI의 이점이 피해보다 수십 배 더 클 것으로 예상한다고 밝혔다[deccanchronicle.com#1][cna.com.tw#1]. 앤스로픽은 고도화된 모델이 개발자의 의도와 다르게 작동할 수 있다고 경고해 왔으며, 다리오 아모데이(Dario Amodei) 앤스로픽 CEO는 지난 9월 업계에 최첨단 기술 개발 속도를 늦출 것을 촉구한 바 있다[cna.com.tw#1][deccanchronicle.com#1]. 오픈AI는 독립적인 보안 평가를 포함한 더 강력한 규제를 지지해 왔으나, 알트먼은 규제의 규모에 대해서는 기업 간 의견 차이가 있다고 언급했다[24chasa.bg#1][ithome.com#1].",
+      "talking_points[0]": "제안된 안전장치: 오픈AI는 새로운 주(州) 단위 안전 법안과 주요 AI 기업들이 자사 시스템을 독립적인 외부 전문가에게 제출해 보안 평가를 받도록 의무화하는 초당적 하원 법안을 지지해 왔다[24chasa.bg#1].",
+      "perspectives[0].text": "앤스로픽: 자사가 제안한 규칙은 가장 강력한 AI 모델에만 적용되며, 소규모 경쟁사를 불리하게 만들려는 의도라는 주장을 일축했다[24chasa.bg#1].",
+      "perspectives[1].text": "도널드 트럼프(Donald Trump) 대통령: 새로운 규제가 중국과 경쟁하는 미국 기업들에 걸림돌이 될 수 있으며, 기존 법 집행 기관만으로도 AI 위험을 다루기에 충분하다고 주장한다[cna.com.tw#1].",
+      "timeline[0].content": "아모데이, 앤스로픽의 제안이 소규모 경쟁사를 불리하게 만든다는 주장을 반박함[24chasa.bg#1]",
+      "timeline[1].content": "아모데이, 업계에 최첨단 AI 개발 속도를 늦출 것을 촉구함[cna.com.tw#1]",
+      "timeline[2].content": "알트먼, 폴리티코의 디코디드 인터뷰에서 AI 규제에 대해 논의함[deccanchronicle.com#1]",
+      "primary_image.caption": "샘 알트먼 오픈AI 최고경영자"
+    },
+    "bc3aa965-1ebc-4a3b-9bcd-3c3c4191732c": {
+      "title": "일본은행, AI 기반 자산 상승세가 수익 기대에 못 미칠 경우 반전될 수 있다고 경고",
+      "short_summary": "우치다 신이치 일본은행(BOJ) 부총재는 전 세계적인 AI 붐이 수요와 자산 가격, 경제 활동을 촉진해 금융 여건을 완화했다고 평가하면서도, AI 관련 수익이 현재의 가치 평가에 미치지 못할 경우 시장이 급격히 위축될 수 있다고 경고했다 [reuters.com#1][thenews.com.pk#1][cna.com.tw#1]. 또한 AI 투자와 도입은 기술 기업들의 채권 발행을 통해 장기 금리를 상승시키고 있으며, 생산성과 자본 축적, 그리고 일본의 중립 금리에도 영향을 미칠 수 있다 [thenews.com.pk#1][businessinsider.com#1]. 우치다 부총재는 일본은행이 해당 기술이 일본의 중립 금리에 미치는 전반적인 영향을 여전히 평가 중이며, 일관된 상황 파악을 위해 경제 및 금융 데이터를 검토할 것이라고 밝혔다 [thenews.com.pk#1]. 일본은행은 AI 관련 수요가 근원 물가 상승을 부추겨 2% 목표치를 상회하게 만들 수 있으며, 이는 향후 금리 결정의 요인이 될 것이라고 언급했다 [cna.com.tw#1].",
+      "quote": "이는 경제와 물가에 상승 압력을 가한 거대한 긍정적 수요 충격이다",
+      "quote_attribution": "더 뉴스 인터내셔널(The News International)",
+      "location": "일본 도쿄",
+      "talking_points[0]": "채권 수익률: 월요일 정오 무렵 일본의 10년물 국채 금리는 30년 만에 최고치에 근접한 3.09%를 기록했으며, 30년물 금리는 사상 최고치인 4.235%에 도달했다 [businessinsider.com#1].",
+      "talking_points[1]": "금리 인상: 일본은행은 6월과 9월에 정책 금리를 인상했으며, CNA는 이러한 조치가 이란 전쟁과 관련된 에너지 충격 및 수입 비용을 증가시킨 엔화 약세에 기인한다고 분석했다 [cna.com.tw#1].",
+      "talking_points[2]": "투자자 논쟁: 투자자들은 현재의 높은 장기 금리가 일시적인 재평가인지, 아니면 금리가 정착되는 지점의 지속적인 변화인지를 가늠하고 있다 [businessinsider.com#1].",
+      "talking_points[3]": "국경 간 자본 흐름: ING 전략가들은 최근 장기 금리 상승분의 약 5분의 1이 AI 때문일 수 있다고 추정했으며, 일본의 높은 금리는 국내 투자자들의 미국 국채에 대한 선호도를 낮출 수 있다고 분석했다 [businessinsider.com#1].",
+      "primary_image.caption": "AI 붐을 수요, 생산성, 금리와 연결 지어 발언한 우치다 신이치 일본은행 부총재"
+    },
+    "5d9d407c-ce1f-49f1-961e-4e4980e15ade": {
+      "title": "AI 거버넌스 에세이, 에이전트 통제 및 도시 단위 규제 검토",
+      "short_summary": "최근 AI 거버넌스에 관한 논평은 기업 감독, 자율형 에이전트, 지역 규제 등 다양한 분야를 다루고 있다. IMD의 기사는 최고 법률 책임자(CLO)를 위한 거버넌스에 초점을 맞췄으며, 투워즈 데이터 사이언스(Towards Data Science)의 에세이는 단일 에이전트 보호에서 에이전트 군단을 관리하는 방식으로의 전환을 설명한다 [imd.org#1][towardsdatascience.com#1]. 앨리워치(AlleyWatch)는 AI를 도시별로 규제해야 하는지 의문을 제기하며 뉴욕시가 해당 접근 방식을 신중하게 고려할 것을 촉구한다 [alleywatch.com#1]. 더 뉴스 렌즈(The News Lens)는 거버넌스가 AI 시스템 자체로 확장되어야 하며, AI가 자율적으로 행동할 때 무엇을 할 수 있는지 정의해야 한다고 주장한다 [thenewslens.com#1]."
+    },
+    "97a737bf-6d73-4ac5-8d6d-5c36a389b186": {
+      "title": "AI 활용 의심 해커, 국내 금융사 7곳 공격… 당국, 긴급 점검 지시",
+      "short_summary": "한국 당국은 유사한 수법을 사용한 공격자들이 은행, 대출기관, 금융회사 7곳을 표적으로 삼았으며, 이 과정에서 인공지능(AI) 도구가 사용된 것으로 의심된다고 밝혔다. 데이터 유출은 직원 및 대출 상담사 지원 시스템 등에서 발생했으나, 당국은 고객 대상 인터넷 및 모바일 뱅킹 서비스는 영향을 받지 않았으며 금전적 피해는 확인되지 않았다고 전했다[yna.co.kr#2][yna.co.kr#3][heraldcorp.com#1]. 이번 공격으로 내부 서비스의 취약점이 드러났다. 금융 당국은 금융권 임원들을 소집해 긴급 보안 점검을 지시했다. 은행과 카드사는 10월 6일까지, 증권사, 보험사, 저축은행, 전자금융업체는 10월 8일까지 점검을 완료해야 한다. 당국은 또한 금융권 보안 규정 변경을 검토 중이다[yna.co.kr#2][yna.co.kr#3][heraldcorp.com#1].",
+      "talking_points[0]": "보안 조치: 다른 금융사들도 침입 시도를 겪었으나, 다중 인증 도입 여부와 취약점 사전 조치 여부에 따라 결과가 갈렸다[yna.co.kr#3].",
+      "talking_points[1]": "공격 흔적: 신한은행의 보고에 따르면 25,727건의 기록이 유출되었으며, 공격자는 한국, 미국, 일본, 홍콩, 싱가포르, 베트남, 태국, 영국 등의 IP 주소를 사용했다[yna.co.kr#2][yna.co.kr#3].",
+      "talking_points[2]": "보안 점검표: 12개 항목으로 구성된 점검표에는 공격 IP 차단, 인터넷 노출 IT 자산 및 서비스 식별, 보안 통제 검토 등이 포함되어 있다. 각 금융사는 발견된 취약점을 즉시 보완하라는 지시를 받았다[yna.co.kr#3][heraldcorp.com#1].",
+      "technical_details[0]": "내부 서비스 노출: 일부 정보 조회 서비스는 본인 인증 없이 대출 신청 정보나 회사 대표자 데이터에 접근할 수 있도록 허용하고 있었다. 직원 지원 앱 또한 모바일 기기 제어나 무단 웹 접근 방지 기능이 미흡했다[yna.co.kr#3][heraldcorp.com#1].",
+      "technical_details[1]": "도구 프로필: 아텍스(ARTEX) AI는 거대언어모델(LLM)을 기반으로 하며 중국어에 특화된 모의 해킹 시스템으로 알려져 있다. 이번 공격에 해당 도구가 사용되었는지는 공식적으로 확인되지 않았다[yna.co.kr#1][yna.co.kr#3].",
+      "user_action_items[0]": "금융기관 메시지 공식 채널 확인: 출처가 불분명한 메시지에 포함된 링크나 전화번호를 사용하지 말아야 한다. 해당 기관의 공식 앱을 열거나 게시된 대표 번호로 직접 전화하여 요청 사항을 확인해야 한다[yna.co.kr#1].",
+      "user_action_items[1]": "계정 탈취 위험 감소: 서비스마다 서로 다른 비밀번호를 사용하고, 가능한 경우 다중 인증을 활성화해야 한다[yna.co.kr#1].",
+      "perspectives[0].text": "배후 불확실성: 전문가들은 해당 도구가 오픈소스인 점과 공격에 사용된 IP 주소가 광범위하게 분산되어 있어 특정 국가의 소행으로 단정하기 어렵다고 지적했다[yna.co.kr#3].",
+      "timeline[0].content": "공격자들이 신한은행 시스템에 최초로 접근했으며, 약 30시간 동안 활동이 지속되었다[yna.co.kr#2]",
+      "timeline[1].content": "예스저축은행이 약 4만 명의 고객 정보가 유출된 사실을 공시했다[yna.co.kr#2]",
+      "timeline[2].content": "금융 당국이 세 번째 긴급 대응 회의를 열고 금융권 리더들과 피해 금융사 임원들을 소집했다[yna.co.kr#3]"
+    },
+    "7d871e57-0071-45d5-b205-ab784088ee5c": {
+      "title": "호주, 드론 통제 방안 고심 속 우크라이나·러시아 자율 드론 사용 확대",
+      "short_summary": "더 스트래티지스트(The Strategist)에 실린 일련의 에세이는 우크라이나와 러시아군이 어떻게 드론에 AI 기반 표적 식별 및 자율 유도 기능을 추가하고 있는지 설명하며, 군사적 결정에 인간이 어느 정도까지 통제권을 유지해야 하는지 검토한다 [aspistrategist.org.au#1]. 저자들은 또한 지상 공격부터 수중 순찰에 이르기까지 향후 작전에서 자율 시스템을 활용하려는 계획에 대해 논의한다 [aspistrategist.org.au#1]. 호주가 무인 시스템을 신속하게 확보하는 동시에 사용 규칙을 설정하는 방안도 다룬다. 기고가들은 불투명한 AI가 운용자로 하여금 충분한 검토 없이 기계의 권고를 수용하게 만들 수 있으며, 동맹국 간의 서로 다른 법적 기준이 연합 작전을 복잡하게 만들 수 있다고 경고한다 [aspistrategist.org.au#1].",
+      "quote": "AI는 현재 호주 국방 예산의 거의 모든 항목에 걸쳐 자금이 투입되고 있다,",
+      "quote_attribution": "더 스트래티지스트(The Strategist)",
+      "talking_points[0]": "해저 케이블 순찰: 이 기사는 호주가 자국 인터넷 트래픽의 거의 전부를 담당하는 15개의 해저 케이블을 보유하고 있으며, 자율 주행 선박 군집이 이를 순찰할 수 있다고 제안한다 [aspistrategist.org.au#1].",
+      "talking_points[1]": "오커스(AUKUS) 목표: 호주, 영국, 미국은 지난 5월 안두릴(Anduril)의 고스트 샤크(Ghost Shark)를 포함한 자율 잠수정에 센서와 무기를 탑재하는 프로젝트를 발표했으나, 2027년 인도 목표는 여전히 불확실하다 [aspistrategist.org.au#1].",
+      "talking_points[2]": "모델의 변화: 아예자 아리즈(Ayeza Areej)는 지속적으로 학습하는 시스템이 배치 후 변화할 수 있으며, 기만이나 잘못된 데이터에 노출될 경우 예측하기 더 어려워질 수 있다고 경고한다 [aspistrategist.org.au#1].",
+      "technical_details[0]": "책임 소재: 적응형 무기가 민간인 차량을 군사 표적으로 오인할 경우, 지휘관, 운용자, 개발자, 엔지니어 및 인증 기관 간에 책임을 할당하기 어려울 수 있다 [aspistrategist.org.au#1].",
+      "technical_details[1]": "자율 유도: 이 기사는 우크라이나의 중거리 드론이 사용하는 종말 유도(terminal-lock guidance) 방식과 러시아 타격 드론이 사용하는 온보드 AI 및 메시 네트워킹 기술을 설명한다 [aspistrategist.org.au#1].",
+      "perspectives[0].text": "아이나 투릴라치(Aina Turillazzi): 그녀는 주요 에스컬레이션 지점에서 인간의 검토를 위한 일시 정지, 중대한 결정에 사용되는 AI에 대한 감사, 그리고 가장 중요한 결정은 AI가 내리지 않겠다는 공적 약속을 촉구한다 [aspistrategist.org.au#1].",
+      "perspectives[1].text": "새뮤얼 화이트(Samuel White): 그는 동맹국들이 호환 가능한 플랫폼과 통신 수단을 사용하더라도 법적 한계, 인간의 검토, 또는 AI 시스템에 요구되는 설명 가능성에 대해 의견이 일치하지 않으면 상호 운용에 실패할 수 있다고 주장한다 [aspistrategist.org.au#1].",
+      "perspectives[2].text": "맬컴 데이비스(Malcolm Davis): 그는 특히 통신이 두절될 경우, 호주 방위군(ADF)이 인간이 드론을 원격 조종하는 '인 더 루프(in the loop)' 방식에서 운용자가 자율 행동을 감독하는 '온 더 루프(on the loop)' 방식으로 전환해야 할 수도 있다고 말한다 [aspistrategist.org.au#1]."
+    },
+    "3f19f6bb-fa0b-44a1-8c41-ce3dcafb9ab6": {
+      "title": "AI 광고 논쟁과 크리에이터 규정 준수 도구 주목",
+      "short_summary": "포브스(Forbes) 기고가는 AI 광고를 주요 기술적 논쟁으로 규정했으며, NBC 팜스프링스(NBC Palm Springs)는 이번 주 주목해야 할 비즈니스 주제 중 하나로 AI 안전을 꼽았다 [forbes.com#1][nbcpalmsprings.com#1]. 별도로 밴프루프(BanProof)는 크리에이터의 대본과 영상을 검토하여 틱톡 샵(TikTok Shop), 아마존 어소시에이츠(Amazon Associates), 유튜브 쇼츠(YouTube Shorts)의 정책 위반 가능성을 확인하고, 제재 발생 시 이의 제기문을 작성해 주는 AI 플랫폼을 선보였다 [banproof.io#1]. 사용자는 녹화 전 대본을, 게시 전 영상을 스캔할 수 있다.",
+      "talking_points[0]": "영상 검사: 밴프루프는 MP4, MOV, MP3, WAV 파일을 지원하며, 오디오를 전사하고 영상 프레임을 분석하여 고지 사항 누락과 같은 시각적 문제를 확인한다 [banproof.io#1].",
+      "talking_points[1]": "규정 범위: 해당 기업은 100개 이상의 정책 규정에 따른 대본 검사 기능과 클릭 한 번으로 가능한 수정 제안 기능을 홍보하고 있다 [banproof.io#1].",
+      "talking_points[2]": "이의 제기문 작성: 밴프루프의 이의 제기 지원 도구는 틱톡의 800자 제한에 맞춰 정책에 부합하는 서한을 작성해 준다 [banproof.io#1]."
+    }
+  },
+  "stats": {
+    "storyCount": 12,
+    "translated": 9,
+    "failedStoryIds": [
+      {
+        "id": "fafe93db-2fc4-44c0-ac90-c5b87c4cb838",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "4ee117f6-b354-42f5-98f1-dd9eaa3851aa",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "01f91e0d-dbf4-4b94-9284-d324f42c1f1e",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 7860,
+      "out": 8527
+    }
+  }
+}
