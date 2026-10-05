@@ -4,7 +4,7 @@
   "categoryUuid": "2b35a7b9-627e-48f1-b860-af8013ec4127",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-05T19:16:29.846Z",
+  "createdAt": "2026-10-05T19:22:26.881Z",
   "stories": {
     "83032108-f824-4368-9709-c7f919a6bdd6": {
       "title": "빌 그로스, 변동성 확대에 따른 장기 채권 투자 주의 경고",
@@ -140,24 +140,45 @@
       "short_summary": "미국 트럭 운송업계가 디젤 가격 급등으로 어려움을 겪고 있으며, 일부는 중간선거를 한 달여 앞두고 비용 부담이 사업을 위협하고 있다고 토로했다 [liberation.fr#1]. 높은 연료비는 인플레이션을 심화시키고 있으며, 이란 전쟁이 가격 상승의 한 요인으로 지목됐다 [liberation.fr#1]. 포브스(Forbes)는 미국의 디젤 문제를 석유 부족과는 다른 차원의 문제로 진단했다 [forbes.com#1]. 리베라시옹(Libération)은 트럭 운전사들의 분노가 투표를 앞둔 도널드 트럼프(Donald Trump)에게 악재가 될 수 있다고 보도했다 [liberation.fr#1].",
       "talking_points[0]": "조업 비용: 레딧(Reddit)의 한 게시물은 일부 상업 어선들이 디젤 가격 부담으로 인해 출항조차 하지 못하고 있다는 소식을 전했다 [reddit.com#1].",
       "talking_points[1]": "트럼프의 대응: 연료비, 식료품비, 디젤 가격 상승으로 고통받는 사람들에 대한 질문에 트럼프는 \"우리나라 역사상 가장 위대한 경제를 누리고 있다\"고 답했다고 레딧 게시물은 전했다 [reddit.com#2]."
+    },
+    "d49b6441-4aaf-42c2-b53f-088f6a2fe260": {
+      "title": "영국, 중국산 전기차에 최대 45% 관세 부과 검토",
+      "short_summary": "영국 정부가 유럽연합(EU)의 무역 정책에 발맞추라는 브뤼셀의 압박에 대응해 중국산 전기차에 최대 45%의 관세를 부과하는 방안을 준비 중이라고 더 타임스(The Times)가 보도했다 [firstpost.com#1][bloomberg.com#1]. 이번 조치는 EU가 관세를 부과하는 동안 중국산 전기차 수입에 무관세 정책을 유지해 온 영국의 기존 입장을 뒤집는 것으로, 영국 시장에서 점유율을 높여온 중국 브랜드들에 영향을 미칠 수 있다 [theguardian.com#1]. EU 당국은 영국이 조치를 취하지 않을 경우 영국산 수출품이 '유럽산(made in Europe)' 제한 조치에 직면할 수 있다고 경고했으며, 영국 장관들은 중국의 보복이 중국 내 영국 자동차 판매에 타격을 줄 수 있다고 주장해 왔다 [theguardian.com#1]. 관세가 부과될 경우 영국 소비자들의 가격 부담이 커질 수 있으며, 닛산(Nissan) 선덜랜드 공장에서 차량 생산을 논의 중인 중국 제조사 체리(Chery)의 계획에도 영향을 줄 수 있다 [theguardian.com#1]. 보도에 따르면 정부가 관련 조치를 준비 중이나, 발표 시기나 최종 정책 결정은 아직 나오지 않았다 [bloomberg.com#1][firstpost.com#1].",
+      "quote": "영국과 EU의 자동차 산업은 깊이 통합되어 있어, 영국 생산 차량을 최대 시장에서 사실상 배제하는 것은 상호 간의 피해를 자초하는 일이 될 것이다.",
+      "quote_attribution": "가디언(The Guardian)",
+      "historical_background": "2024년 EU의 관세 부과 이후 가파르게 상승하던 중국산 전기차 판매량은 감소세로 돌아섰다. 이후 수출업체들은 플러그인 하이브리드 및 배터리 하이브리드 차량으로 눈을 돌렸고, 해당 차량의 수입은 증가했다 [theguardian.com#1].",
+      "business_angle_text": "팀 토저(Tim Tozer) 전 복스홀(Vauxhall) 회장은 영국의 자동차 산업이 '위축'되는 것을 막기 위해 관세가 '필수적'이라고 말하며, 정책 입안자들이 산업을 살리려 노력하는 가운데 업계가 '마지막 고비'에 처해 있다고 주장했다 [theguardian.com#1].",
+      "talking_points[0]": "시장 점유율: BYD, 오모다(Omoda), 재쿠(Jaecoo)의 영국 신차 판매 합산 점유율은 2026년 첫 8개월 동안 3배 이상 증가해 12%를 기록했다 [theguardian.com#1].",
+      "talking_points[1]": "수출 의존도: 2026년 상반기 영국 자동차 수출의 58%가 EU로 향했으며, 중국이 차지하는 비중은 약 4%였다 [theguardian.com#1].",
+      "talking_points[2]": "판매 성장: 9월 영국 신차 등록 대수는 전년 동기 대비 12% 증가하며 2017년 이후 같은 달 기준 가장 높은 연간 성장률을 기록했는데, 이는 전기차와 중국 브랜드에 대한 수요가 기여한 결과다 [theguardian.com#1].",
+      "talking_points[3]": "EU 조건: 유럽연합 집행위원회(European Commission)가 제안한 '유럽산' 규정은 보조금, 세제 혜택, 공공 조달 계약을 EU 내에서 생산된 차량으로 제한하는 내용을 담고 있다 [theguardian.com#1].",
+      "industry_impact[0]": "영국 소비자: 9월 예비 등록 데이터에 따르면 재쿠 7(Jaecoo 7)과 BYD의 씨라이언 7(Sealion 7)이 상위 판매 모델에 포함되었다 [theguardian.com#1].",
+      "perspectives[0].text": "체리(Chery): 빅터 장(Victor Zhang) 영국 부대표는 자사의 영국 내 판매 대부분이 관세 부과 대상인 차량이 아닌 슈퍼 하이브리드 모델이라며, 이번 관세 조치가 진행 중인 영국 투자 계획을 바꾸지는 않을 것이라고 밝혔다 [theguardian.com#1].",
+      "perspectives[1].text": "오토트레이더(Autotrader): 이안 플러머(Ian Plummer) 상업 이사는 중국 브랜드와의 경쟁으로 자동차 가격이 더 저렴해졌으며, 더 많은 소비자가 신차를 구매하도록 장려하는 효과가 있었다고 말했다 [theguardian.com#1].",
+      "perspectives[2].text": "RSM UK: 에밀리 사위츠(Emily Sawicz) 컨설턴트는 자동차 제조사들이 중국과 유럽 시장에 대한 노출도가 서로 다른 상황에서 장기적인 투자 결정을 내리기 위해 영국 정부의 방향성에 대한 명확한 입장이 필요하다고 지적했다 [theguardian.com#1].",
+      "suggested_qna[0].question": "EU가 다음으로 겨냥할 수 있는 차량 유형은 무엇인가?",
+      "suggested_qna[0].answer": "가디언은 EU가 쿼터제나 가격 하한제 등을 통해 수입 하이브리드 전기차에 대한 추가적인 장벽을 마련해야 한다는 목소리가 나오고 있다고 보도했다 [theguardian.com#1].",
+      "primary_image.caption": "중국산 전기차에 대한 영국의 관세 부과 가능성 보도에 등장한 차량들"
+    },
+    "a0fa323b-3783-4d81-9752-32581a94da3d": {
+      "title": "샘 올트먼 오픈AI CEO, \"사회는 AI로 인한 일부 피해를 감수해야 한다\"",
+      "short_summary": "샘 올트먼(Sam Altman) 오픈AI(OpenAI) 최고경영자(CEO)는 인류가 통제력을 심각하게 상실하는 것과 같은 파멸적 위험은 거부하면서도, 인공지능(AI)이 주는 혜택을 얻기 위해 사회가 AI로 인한 일부 피해는 감수해야 한다고 밝혔다 [businessinsider.com#1][politico.com#2]. 그는 강력한 AI 기술을 소수 연구소의 손에만 맡겨두기보다는 대중에게 폭넓게 공개하는 것이 중요하며, 사람들이 이를 통해 해악보다 \"수십 배 더 큰\" 가치를 창출할 수 있다고 주장했다 [businessinsider.com#1][digitaltrends.com#1]. 올트먼은 오픈AI와 경쟁사인 앤스로픽(Anthropic)의 정책적 입장이 가까워지고 있음에도 불구하고, 사회가 어느 정도의 위험을 감수해야 하는지에 대해서는 여전히 견해차가 있다고 말했다. 현재 오픈AI는 선도적인 AI 시스템에 대한 독립적 평가 도입 등 일부 분야에서 더 엄격한 안전 규정을 지지하고 있으며, 올트먼은 지난달 다리오 아모데이(Dario Amodei) 앤스로픽 CEO가 제안한 최첨단 모델 개발 속도 조절에 동의했다 [businessinsider.com#1]. 그럼에도 올트먼은 대중의 접근을 제한할 수 있는 규제보다는 완화된 규제 방식을 선호한다 [digitaltrends.com#1].",
+      "quote": "\"우리는 이 기술이 주는 혜택과 사람들이 갖게 될 주체성을 위해, 세상이 일부 나쁜 일이 일어나는 것을 받아들여야 한다고 믿는다.\"",
+      "quote_attribution": "비즈니스 인사이더(Business Insider)",
+      "talking_points[0]": "안전 제안: 오픈AI 로비스트들은 주요 AI 기업들이 외부 안전 평가 기관을 활용하도록 의무화하는 초당적 하원 법안을 지지했다 [businessinsider.com#1].",
+      "talking_points[1]": "정책 변화: 오픈AI는 기존에 지지했던 규칙보다 더 엄격한 새로운 주(state) 단위의 안전 법안을 지지하고 나섰다 [businessinsider.com#1].",
+      "talking_points[2]": "위험에 대한 구분: 올트먼은 주요 해킹, 오용, 사기 사건이 전혀 발생하지 않아야 한다는 보장을 요구하지는 않겠다고 말했다 [businessinsider.com#1][kenh14.vn#1].",
+      "talking_points[3]": "최근 사건: 이번 인터뷰에서는 오픈AI가 자사 모델과 관련된 자율 해킹 사건에 대해 법적 책임을 져야 하는지에 대한 논의도 다뤄졌다 [businessinsider.com#1][digitaltrends.com#1].",
+      "primary_image.caption": "샘 올트먼 오픈AI 최고경영자"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
-    "failedStoryIds": [
-      {
-        "id": "d49b6441-4aaf-42c2-b53f-088f6a2fe260",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "a0fa323b-3783-4d81-9752-32581a94da3d",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 9694,
-      "out": 10521
+      "in": 11670,
+      "out": 12863
     }
   }
 }
