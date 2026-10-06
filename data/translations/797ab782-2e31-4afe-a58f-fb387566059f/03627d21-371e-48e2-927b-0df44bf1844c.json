@@ -4,7 +4,7 @@
   "categoryUuid": "03627d21-371e-48e2-927b-0df44bf1844c",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-06T16:56:40.075Z",
+  "createdAt": "2026-10-06T17:08:05.078Z",
   "stories": {
     "2a19c661-971b-40fa-970c-44a48b747efe": {
       "title": "프랑스 대선 선두 마린 르펜, 국채 금리 급등 속 250억 유로 지출 삭감 공약",
@@ -228,20 +228,35 @@
       "talking_points[0]": "무역 불균형: 시타라만 장관은 미국이 무역 불균형을 좁히고 수년간 누적된 손실이라고 간주하는 문제를 해결하려 할 것이라고 말했다 [news18.com#1].",
       "talking_points[1]": "모디-트럼프 통화: 나렌드라 모디 인도 총리와 도널드 트럼프 미국 대통령이 지난주 전화 통화를 통해 무역, 국방, 에너지 및 핵심 기술 분야를 논의했다고 모디 총리실이 밝혔다 [dawn.com#1].",
       "primary_image.caption": "니르말라 시타라만 인도 재무장관. — 로이터/자료사진"
+    },
+    "07a78787-c55d-4ecd-9250-edbc0abf2a65": {
+      "title": "슈나이더 일렉트릭, PTC 226억 달러에 인수 합의",
+      "short_summary": "슈나이더 일렉트릭(Schneider Electric)은 미국 산업용 소프트웨어 기업 PTC를 지분 가치 기준 226억 달러, 주당 205달러의 현금으로 인수하기로 합의했다. 부채를 포함한 이번 거래의 총액은 237억 달러 규모다[euronews.com#1][energyconnects.com#1]. 프랑스 기업인 슈나이더는 이번 결합을 통해 설계, 제조, 운영 및 유지보수 전반에 걸쳐 소프트웨어와 제품 데이터를 연결함으로써 자사의 산업용 소프트웨어 및 인공지능(AI) 사업을 확장할 것이라고 밝혔다[euronews.com#1][siliconrepublic.com#1]. 슈나이더는 인수 완료 후 3년 차부터 연간 2억 5천만 유로의 비용 절감과 약 8억 유로의 추가 매출이 발생할 것으로 예상한다[euronews.com#1][bluewin.ch#1]. 또한 최대 170억 유로의 신규 부채 발행과 최대 60억 유로의 신주 발행을 통해 인수 자금을 조달할 계획이다. 이번 거래는 주주 및 규제 당국의 승인을 거쳐 2027년 3분기까지 완료될 예정이다[euronews.com#1][energyconnects.com#1].",
+      "quote": "PTC 인수는 에너지 및 산업 지능의 새로운 시대를 선도하려는 우리의 야망에 있어 중요한 진전이다.",
+      "quote_attribution": "유로뉴스(Euronews)",
+      "business_angle_text": "슈나이더는 2027년과 2028년에 자사주 매입을 일시 중단한 뒤, 2030년 말까지 기존의 25억~35억 유로 규모 프로그램을 완료하기 위해 매입을 가속할 예정이다[euronews.com#1].",
+      "talking_points[0]": "시장 반응: PTC의 주가는 2026년 발표 직전 금요일까지 약 17% 하락한 반면, 슈나이더의 주가는 30% 가까이 상승했다. 이후 파리 증시에서 슈나이더 주가는 최대 9.4% 하락했다[energyconnects.com#1].",
+      "talking_points[1]": "인수 프리미엄: 슈나이더의 주당 205달러 현금 제안은 발표 직전 PTC 종가에 42.3%의 프리미엄을 얹은 금액이다[euronews.com#1][siliconrepublic.com#1].",
+      "talking_points[2]": "고객 기반: 보스턴에 본사를 둔 PTC는 7,000명 이상의 직원을 고용하고 있으며 3만 개 이상의 고객사를 보유하고 있다. 2025년 매출의 약 절반이 미주 지역에서 발생했다[euronews.com#1][bluewin.ch#1].",
+      "talking_points[3]": "대상 산업: PTC의 엔지니어링 소프트웨어는 자동차, 항공우주, 의료 기술 등 다양한 분야를 지원한다[energyconnects.com#1].",
+      "business_angle_points[0]": "현금 대가는 계획된 부채 및 지분 발행에 앞서 모건스탠리(Morgan Stanley)와 소시에테 제네랄(Société Générale)이 제공하는 브릿지 론을 통해 확보되었다[energyconnects.com#1].",
+      "industry_impact[0]": "산업 경쟁: ABB는 지난 7월 전력화 및 자동화 제품군 확장을 위해 영국 부품 제조사 로토크(Rotork)를 55억 달러에 인수하기로 합의했다[energyconnects.com#1].",
+      "perspectives[0].text": "슈나이더 일렉트릭: 올리비에 블룸(Olivier Blum) 최고경영자(CEO)는 산업용 AI를 물리적 제품, 기계, 공정, 에너지 시스템 및 디지털 애플리케이션에 내재화하는 데 기회가 있다고 말했다[siliconrepublic.com#1].",
+      "perspectives[1].text": "PTC: 닐 바루아(Neil Barua) 최고경영자(CEO)는 이번 인수를 통해 PTC가 혁신을 가속하고 더 많은 지역과 최종 시장으로 확장할 수 있는 더 큰 규모와 자원을 갖추게 될 것이라고 밝혔다[euronews.com#1].",
+      "perspectives[2].text": "제프리스(Jefferies)의 루카스 페르하니(Lucas Ferhani) 애널리스트는 이번 인수가 슈나이더의 소프트웨어 포트폴리오에 남아있던 공백을 메워준다고 평가했다[energyconnects.com#1].",
+      "timeline[0].content": "오토데스크(Autodesk)가 PTC 인수를 추진했으나 현금 및 주식 교환 제안을 철회함[energyconnects.com#1]",
+      "timeline[1].content": "슈나이더가 산업용 AI 소프트웨어 기업 코그나이트(Cognite)를 인수하기로 합의함[siliconrepublic.com#1]",
+      "timeline[2].content": "슈나이더가 PTC 인수 합의 사실을 발표함[euronews.com#1][bluewin.ch#1]",
+      "timeline[3].content": "슈나이더가 3분기 실적을 발표할 예정임[bluewin.ch#1][siliconrepublic.com#1]"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "07a78787-c55d-4ecd-9250-edbc0abf2a65",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 14574,
-      "out": 18246
+      "in": 15862,
+      "out": 19810
     }
   }
 }
