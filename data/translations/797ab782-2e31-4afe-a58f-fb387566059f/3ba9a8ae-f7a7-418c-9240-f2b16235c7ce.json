@@ -4,7 +4,7 @@
   "categoryUuid": "3ba9a8ae-f7a7-418c-9240-f2b16235c7ce",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-06T18:19:29.579Z",
+  "createdAt": "2026-10-06T19:22:37.504Z",
   "stories": {
     "6f3f6b19-3e3a-4622-b37a-56ef4c64870b": {
       "title": "OpenAI, EU 내 ChatGPT 및 Codex에 보이지 않는 텍스트 워터마크 추가",
