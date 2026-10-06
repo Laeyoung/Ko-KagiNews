@@ -4,7 +4,7 @@
   "categoryUuid": "3ba9a8ae-f7a7-418c-9240-f2b16235c7ce",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-06T16:45:27.459Z",
+  "createdAt": "2026-10-06T16:57:37.072Z",
   "stories": {
     "6f3f6b19-3e3a-4622-b37a-56ef4c64870b": {
       "title": "OpenAI, EU 내 ChatGPT 및 Codex에 보이지 않는 텍스트 워터마크 추가",
@@ -177,24 +177,39 @@
       "talking_points[3]": "공통 코드: 영향을 받는 세 가지 윈도우 11 버전은 코드 브랜드를 공유하므로, 디코더 문제는 24H2, 25H2, 26H2 전반에 걸쳐 발생한다[theregister.com#1][pcworld.com#1].",
       "user_action_items[0]": "조기 미리 보기 업데이트 활성화 여부 확인: 윈도우 11 24H2에서 '최신 업데이트가 제공되는 즉시 받기' 설정을 검토해야 한다. 이 설정이 활성화되어 있으면 선택적 업데이트가 자동으로 설치될 수 있다[bleepingcomputer.com#1].",
       "user_action_items[1]": "미리 보기 패치 설치 여부를 결정할 때, 이전 9월 비미리 보기 업데이트로 인해 손상된 백업 기능을 수정한다는 점을 고려해야 한다[techradar.com#1]."
+    },
+    "87ddc2ab-d462-446b-9ec9-b885b88e1719": {
+      "title": "화웨이-퀄컴, 5G 및 AI 포함 다년간 특허 계약 체결",
+      "short_summary": "화웨이(Huawei)와 퀄컴(Qualcomm)은 5G, 컴퓨팅, 인공지능(AI), 네트워킹을 아우르는 다년간의 특허 계약을 발표했다. 여기에는 상호 라이선스 제공과 퀄컴의 화웨이 미국 특허 일부 매입이 포함된다 [reuters.com#1][scmp.com#1][siliconrepublic.com#1]. 양사는 계약의 재무 조건, 대상 특허, 정확한 계약 기간은 공개하지 않았으며, 계약 완료는 규제 당국의 승인에 달려 있다 [techspot.com#1][datacenterdynamics.com#1][androidheadlines.com#1]. 화웨이는 이번 계약 완료 시 자사의 누적 특허 라이선스 계약 가치가 69억 달러를 넘어설 것이라고 밝혔다 [slashdot.org#1][bug.hr#1]. 이번 계약은 화웨이에 따르면 양사 간 최초의 5G 라이선스 포함 계약이며, 기존의 장기적인 라이선스 관계를 더 많은 기술 분야로 확장한 것이다 [techspot.com#1][siliconrepublic.com#1]. 퀄컴은 이번 계약이 자사의 5G 표준 필수 특허 프로그램을 인정하는 것이라고 밝혔으며, 화웨이는 4G 및 5G 표준에 대한 자사의 기여를 강조했다 [theinfostride.com#1]. 10월 6일 답변에서 퀄컴은 자사가 이번 계약의 순지불자가 될 것이라는 주장과 화웨이의 로직폴딩(LogicFolding) 칩 기술이 계약에 포함되었다는 주장을 부인했다 [digitimes.com#1][eeo.com.cn#1]. 다음 단계는 규제 당국의 승인이다 [scmp.com#1].",
+      "did_you_know": "화웨이는 2025년 말 기준 16만 5,000건 이상의 유효 특허를 보유하고 있다고 보고했다 [techspot.com#1].",
+      "quote": "이번 계약은 화웨이 혁신의 가치를 입증할 뿐만 아니라, 현대 통신 기술에 대한 퀄컴의 근본적인 기여를 인정하는 것이다.",
+      "quote_attribution": "실리콘 리퍼블릭(Silicon Republic)",
+      "historical_background": "이전의 특허 분쟁은 퀄컴이 스마트폰 제조사들에 칩셋 사용료로 부과하는 비용에 대해 화웨이가 이의를 제기하면서 발생했다 [computerbase.de#1].",
+      "business_angle_text": "이번 계약에는 상호 특허 라이선스와 퀄컴의 화웨이 미국 특허 일부 매입이 포함되지만, 양사는 지불 조건이나 퀄컴이 인수할 특허를 구체적으로 밝히지 않았다 [slashdot.org#1][techspot.com#1]. 이번 거래는 규제 당국의 승인이 필요하며, 화웨이에 대한 칩 판매 제한 조치에 변화가 있다는 내용은 포함되지 않았다 [androidheadlines.com#1][bug.hr#1].",
+      "talking_points[0]": "특허 수익: 화웨이는 자사의 지식재산권 라이선스 사업이 2021년부터 수익을 내고 있다고 밝혔다 [slashdot.org#1][techspot.com#1].",
+      "talking_points[1]": "수출 통제: 화웨이는 첨단 칩과 필수 소프트웨어에 대한 접근을 제한한 미국의 제재로 인해 최근 몇 년간 연구개발(R&D) 지출을 늘리게 되었다고 밝혔다 [slashdot.org#1].",
+      "timeline[0].content": "화웨이가 퀄컴에 첫 라이선스 비용을 지불했다 [slashdot.org#1].",
+      "timeline[1].content": "화웨이가 모토로라(Motorola)로부터 첫 특허 라이선스 수익을 보고받았다 [slashdot.org#1][cgtn.com#1].",
+      "timeline[2].content": "화웨이가 특허 분쟁 중 퀄컴에 대한 라이선스 비용 지불을 중단했다 [siliconrepublic.com#1][computerbase.de#1].",
+      "timeline[3].content": "화웨이와 퀄컴이 18억 달러에 분쟁을 합의했다 [siliconrepublic.com#1].",
+      "timeline[4].content": "화웨이와 퀄컴이 다년간의 상호 라이선스 계약 및 퀄컴의 화웨이 미국 특허 일부 매입을 발표했다 [reuters.com#1][scmp.com#1].",
+      "timeline[5].content": "퀄컴이 자사가 이번 계약의 순지불자가 될 것이라는 주장과 로직폴딩 특허 라이선스가 계약에 포함되었다는 주장을 부인했다 [digitimes.com#1][eeo.com.cn#1].",
+      "suggested_qna[0].question": "퀄컴은 어떤 특허를 인수하는가?",
+      "suggested_qna[0].answer": "양사는 구체적인 특허를 명시하지 않았으며, 컴퓨팅, AI, 네트워킹 및 기타 기술 분야의 미국 특허라고 설명했다 [androidheadlines.com#1][techspot.com#1]."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
+    "translated": 11,
     "failedStoryIds": [
       {
         "id": "736ef2c3-94fb-4276-8409-971fd405147b",
         "reason": "retry_exhausted"
-      },
-      {
-        "id": "87ddc2ab-d462-446b-9ec9-b885b88e1719",
-        "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 11907,
-      "out": 14423
+      "in": 13156,
+      "out": 15888
     }
   }
 }
