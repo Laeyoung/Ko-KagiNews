@@ -1,7 +1,7 @@
 {
   "version": 1,
   "batchId": "797ab782-2e31-4afe-a58f-fb387566059f",
-  "updatedAt": "2026-10-06T17:09:24.380Z",
+  "updatedAt": "2026-10-06T17:21:27.320Z",
   "categories": {
     "c23f4a4c-381f-4a76-99cb-77dd529e5286": {
       "slug": "ai",
@@ -27,7 +27,7 @@
     },
     "03627d21-371e-48e2-927b-0df44bf1844c": {
       "slug": "business",
-      "status": "ok",
+      "status": "skipped",
       "storyCount": 12,
       "translated": 12,
       "failed": 0,
@@ -74,7 +74,7 @@
     "status": "skipped"
   },
   "run": {
-    "attempted": 4,
+    "attempted": 3,
     "failed": 3,
     "failureRatePct": null,
     "unresolvedSlugs": []
