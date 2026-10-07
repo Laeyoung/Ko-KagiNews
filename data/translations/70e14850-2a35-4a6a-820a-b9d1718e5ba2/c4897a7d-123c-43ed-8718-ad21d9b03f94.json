@@ -4,7 +4,7 @@
   "categoryUuid": "c4897a7d-123c-43ed-8718-ad21d9b03f94",
   "categorySlug": "science",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-07T18:10:19.369Z",
+  "createdAt": "2026-10-07T18:55:09.498Z",
   "stories": {
     "f2001a81-571f-4d29-ba6b-daae765b6283": {
       "title": "물리학자 프랜시스 할젠, 남극 중성미자 관측소 공로로 노벨 물리학상 수상",
@@ -192,20 +192,41 @@
       "scientific_significance[0]": "이전 연구에서는 굴리야의 가장 오래된 얼음이 약 1만 2천 년 전 시작된 홀로세 이후까지 이어졌는지에 대해 의문을 제기한 바 있다[scitechdaily.com#1].",
       "scientific_significance[1]": "연대기 비교: 연구진은 빙하 코어 분석 결과를 티베트 고원 곳곳의 동굴 퇴적물에서 얻은 산소 동위원소 기록과 비교했다[scitechdaily.com#1].",
       "perspectives[0].text": "로니 톰슨(Lonnie Thompson)과 연구팀: 톰슨은 얼음이 언제 형성되었고, 얼마나 오래 지속되었으며, 언제 소실되었는지 규명하기 위해서는 정확한 시간 척도가 필요하다고 말했다[scitechdaily.com#1]."
+    },
+    "a5a2c5ca-126b-4a8a-992a-cfb6fd66d3dd": {
+      "title": "미 대법원, 석유 기업 기후 책임 소송 심리서 결론 못 내",
+      "short_summary": "미 연방대법원 대법관들은 콜로라도주 볼더시가 제기한 기후 피해 소송을 주 법원에서 계속 진행하려는 석유 기업들의 시도를 어떻게 해결할지에 대해 명확한 입장을 밝히지 않았다. 10월 5일 열린 변론에서는 연방법이 해당 소송에 우선하는지, 그리고 재판이 시작되기 전에 대법원이 개입해야 하는지가 핵심 쟁점으로 다뤄졌다 [grist.org#1][oregoncapitalchronicle.com#1][nytimes.com#2]. 엑손모빌(ExxonMobil)과 선코(Suncor) 측은 이번 소송이 지역 법원으로 하여금 전 세계적인 배출량과 연료 판매에 관한 에너지 정책을 결정하게 만드는 결과를 초래할 것이라고 주장했다. 반면 볼더시는 화석 연료 생산이나 판매 금지가 아닌, 기업들의 기만행위에 대한 보상을 요구하는 것이라고 반박했다 [arstechnica.com#1][coloradopolitics.com#1]. 대법관들은 볼더시 논리의 범위와 소송을 기각해야 한다는 기업 측 주장을 모두 심문했으며, 커탄지 브라운 잭슨(Ketanji Brown Jackson) 대법관은 이번 상고가 너무 이른 것이 아닌지 의문을 제기했다 [oregoncapitalchronicle.com#1][grist.org#1]. 이번 판결은 현재 계류 중인 30여 건의 유사 소송에 영향을 미칠 수 있으며, 일부 소송은 이번 결정이 나올 때까지 중단된 상태다 [oregoncapitalchronicle.com#1][arstechnica.com#1]. 새뮤얼 알리토(Samuel Alito) 대법관이 회피함에 따라 8명의 대법관이 심리에 참여하게 되었으며, 동수가 나올 경우 소송 진행을 허용한 콜로라도 법원의 판결이 유지된다. 최종 판결은 2027년 6월이나 7월경 나올 것으로 예상된다 [osvnews.com#1][nytimes.com#2][coloradopolitics.com#1].",
+      "quote": "어떤 기업이나 산업도 사람들이 자신의 건강과 지역사회, 그리고 미래를 보호하는 데 필요한 사실을 숨김으로써 이득을 취해서는 안 된다. 결론적으로 그들은 알고 있었고, 거짓말을 했으며, 자신들의 행동에 대해 책임을 져야 한다.",
+      "quote_attribution": "마더 존스(Mother Jones)",
+      "location": "미국 워싱턴 DC",
+      "business_angle_text": "해당 기업들이 볼더시의 비용 발생에 책임이 있는지 여부는 아직 배심원단에 의해 결정되지 않았다. 이번 판결이 다른 소송들에 미칠 영향은 대법원의 법리 해석에 달려 있는데, 이는 각 소송이 서로 다른 법적 근거를 바탕으로 하고 있기 때문이다 [coloradopolitics.com#1][grist.org#1].",
+      "talking_points[0]": "청구 내용: 볼더시의 소장에는 공적 방해, 사적 방해, 무단 침입, 부당 이득 및 민사 공모 혐의가 포함되어 있다 [coloradopolitics.com#1].",
+      "talking_points[1]": "기업 측 경고: 석유 기업 측 변호인은 이번 소송이 허용될 경우, 전 세계적인 연료 사용과 관련된 피해를 주장하는 최대 9만 개의 지방자치단체로부터 소송을 당할 위험이 있다고 주장했다 [arstechnica.com#1][coloradopolitics.com#1].",
+      "talking_points[2]": "연방 정부 입장: 세라 해리스(Sarah Harris) 법무차관은 주 간 대기 오염은 연방 정부의 소관이며 청정대기법(Clean Air Act)은 볼더시의 소송을 허용하지 않는다는 논리로 기업 측을 지지했다 [oregoncapitalchronicle.com#1].",
+      "talking_points[3]": "지역적 영향: 볼더 카운티는 이미 수백만 달러의 재산 피해 보상금을 지불했으며, 향후 인프라 및 재난 완화를 위해 더 많은 비용을 지출할 것으로 예상한다고 밝혔다 [HawaiiFreePress.com#1].",
+      "talking_points[4]": "중단된 소송: 캘리포니아주가 석유 기업들을 상대로 제기한 기후 책임 소송은 대법원이 볼더시의 상고를 심리하는 동안 중단된 소송 중 하나이다 [motherjones.com#1].",
+      "business_angle_points[0]": "선코는 누적되는 기후 소송이 재무 실적에 영향을 미칠 수 있다고 주주들에게 알린 바 있다 [grist.org#1].",
+      "industry_impact[0]": "정책 대응: 일부 주에서는 기후 책임 소송을 금지하는 법안을 제정했으며, 공화당은 석유 기업을 보호하기 위한 연방 법안을 발의했다 [arstechnica.com#1].",
+      "industry_impact[1]": "영향 범위: 법원 보도에서 인용된 연구에 따르면, 미국인 4명 중 1명 이상이 유사한 소송이 진행 중인 지역사회에 거주하고 있다 [HawaiiFreePress.com#1].",
+      "perspectives[0].text": "볼더 카운티 및 시: 카운티 관계자들은 콜로라도주에서 가장 파괴적이었던 2021년 마샬 화재(Marshall Fire)를 언급하며, 지역 내 지속되는 폭염, 가뭄, 산불 위협을 지적했다 [oregoncapitalchronicle.com#1].",
+      "perspectives[1].text": "엑손모빌 및 선코: 기업 측 변호인은 연료를 연소시켜 이산화탄소를 배출하는 것은 소비자이며 기업은 단지 생산할 뿐이라고 주장했다. 그는 이들을 환경보호청(EPA)의 규제를 받는 발전소와 같은 직접 배출원과 대비시켰다 [coloradopolitics.com#1].",
+      "perspectives[2].text": "트럼프 행정부: 트럼프 행정부는 2025년 8월 기업들의 상고 신청 직후, 이를 지지하는 의견서를 자발적으로 제출했다 [oregoncapitalchronicle.com#1].",
+      "timeline[0].content": "볼더시와 카운티, 엑손모빌과 선코를 상대로 소송 제기 [coloradopolitics.com#1]",
+      "timeline[1].content": "콜로라도주 대법원, 해당 소송을 지방 법원으로 환송 [coloradopolitics.com#1]",
+      "timeline[2].content": "연방 대법원, 연방법 우선 적용 및 관할권에 관한 변론 청취 [oregoncapitalchronicle.com#1]",
+      "suggested_qna[0].question": "엘레나 케이건(Elena Kagan) 대법관은 왜 볼더시의 소송을 담배 및 오피오이드 소송에 비유했는가?",
+      "suggested_qna[0].answer": "케이건 대법관은 기업들이 제품의 위험성을 왜곡하여 공적 비용을 발생시켰다고 주장했던 과거 소송들을 언급했다. 석유 기업 측 변호인은 담배 소송의 경우 더 전통적인 기만행위와 소비자가 직접 겪은 피해가 포함되어 있었다고 반박했다 [oregoncapitalchronicle.com#1].",
+      "primary_image.caption": "대법원 밖에서 석유 기업들을 규탄하는 시위가 열리고 있다.",
+      "secondary_image.caption": "<p>2026년 10월 5일 월요일, 콜로라도주 커머스 시티에 있는 선코 정유공장에서 증기가 뿜어져 나오고 있다. (톰 헬라우어/덴버 가제트)</p>"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "a5a2c5ca-126b-4a8a-992a-cfb6fd66d3dd",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 12043,
-      "out": 14223
+      "in": 13637,
+      "out": 16380
     }
   }
 }
