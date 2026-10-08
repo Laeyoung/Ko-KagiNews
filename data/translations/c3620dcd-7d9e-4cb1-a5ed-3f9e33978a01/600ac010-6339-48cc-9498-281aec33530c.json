@@ -4,7 +4,7 @@
   "categoryUuid": "600ac010-6339-48cc-9498-281aec33530c",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-08T17:49:27.820Z",
+  "createdAt": "2026-10-08T17:57:35.935Z",
   "stories": {
     "988d6bc5-d1e2-4aa0-aa1d-7a631c53c4b4": {
       "title": "러시아, WHO의 실험실 사망 관련 답변 요구 속 페스트 예방 조치 완화",
@@ -273,20 +273,42 @@
       "suggested_qna[0].question": "하워드의 변호인단은 사형 집행 약물에 대해 어떤 정보를 원했는가?",
       "suggested_qna[0].answer": "이들은 계획된 펜토바르비탈 투여량에 대한 세부 정보와 약물의 구매, 보관 및 테스트 기록을 요구했다[euronews.com#1][cbsnews.com#1].",
       "primary_image.caption": "텍사스주에서 자말 하워드에 대한 사형이 집행되었다. 사진: AP"
+    },
+    "dd88d64a-2e95-4a5e-b89b-e955dee6e5bc": {
+      "title": "프랑스, 학생 손 절단 사고 후 섬광 수류탄 사용 중단… 시위 지속",
+      "short_summary": "프랑스에서 월요일 랑스(Lens) 지역 시위 도중 15세 학생이 손을 잃는 사고가 발생하자, 경찰의 섬광 수류탄 사용이 중단되었다. 노동조합은 목요일 추가 시위를 예고했다 [japantoday.com#1][france24.com#3][rte.ie#1]. 로랑 누녜스(Laurent Nuñez) 내무장관은 조사 결과가 나올 때까지 사용을 중단할 것이라고 밝혔다. 경찰이 학생에게 수류탄을 발사했는지, 혹은 학생이 수류탄을 주웠다가 폭발했는지에 대해서는 주장이 엇갈리고 있다 [myjoyonline.com#1][helsinkitimes.fi#1]. 학생, 노동조합, 인권 단체들은 경찰이 과도한 무력을 사용했다고 비난했다. 누녜스 장관은 18건의 사건이 경찰 감찰국에 회부되었다고 밝혔으며, 세바스티앙 르코르뉘(Sébastien Lecornu) 총리는 보안군이 어린 시위대를 진압하라는 명령을 받은 적은 없다고 부인했다 [japantoday.com#1][rte.ie#1]. 수요일에는 500개 이상의 학교가 완전히 또는 부분적으로 문을 닫았으며, 학생 및 교사 노조는 목요일 추가 행진을 촉구했다 [japantoday.com#1][scmp.com#1]. 르코르뉘 총리는 정부가 10월 말까지 학교 보수, 교사 충원 및 기타 학생 요구 사항에 대한 초기 제안을 내놓을 것이라고 밝혔으나 구체적인 내용은 언급하지 않았다. 그는 “구체적이고 신속하며 재원이 완전히 확보된 답변”을 원한다고 말했다 [japantoday.com#1][france24.com#2]. 이번 시위는 교직원 부족과 열악한 학교 환경 문제로 시작되어 전국적인 운동으로 확산되었다 [bbc.co.uk#1][theguardian.com#1].",
+      "quote": "과거에는 너무 많은 약속이 지켜지지 않았는데, 이는 단순히 그 약속들이 실현 불가능했기 때문입니다.",
+      "quote_attribution": "재팬 투데이(Japan Today)",
+      "location": "프랑스 랑스",
+      "historical_background": "과거 프랑스 고등학교 시위들 역시 과밀 학급과 교직원 부족 문제를 다루었다. 1978년에도 이러한 문제들이 학기 내내 이어졌고, 시위대는 파리 교외의 학교들을 점거했다 [theconversation.com#1]. 1990년과 1998년의 학생 봉기 또한 교육 문제에 관심을 집중시켰으며, 기사에서 승리로 묘사된 조치들을 이끌어냈다 [theconversation.com#1]. 노조나 정당이 주도했던 과거의 전국적 시위와 달리, 이번 동원령은 학교 봉쇄로부터 시작되었다 [theconversation.com#1][elclarin.cl#1].",
+      "humanitarian_impact": "정부는 시위가 시작된 이후 최소 215명의 학생, 85명의 학교 직원, 715명의 경찰관이 부상을 입었다고 밝혔다 [brecorder.com#1].",
+      "talking_points[0]": "휴대전화 규정: 일부 학생들은 학교 내 휴대전화 사용 금지에 대해서도 반감을 표하고 있다 [bbc.co.uk#1].",
+      "talking_points[1]": "보수 비용: 교육부 장관은 화재나 기물 파손으로 24개 고등학교가 심각하게 훼손되어 수주간 휴교 상태가 지속될 것이며, 보수 비용은 2,000만 유로에서 3,000만 유로로 추산된다고 밝혔다 [24chasa.bg#1].",
+      "talking_points[2]": "학생 요구 사항: 학생들은 학교 시설 보수와 교사 충원 외에도 긴 수업 시간, 점심시간, 그리고 고등교육 입학 플랫폼인 파르쿠르쉬프(Parcoursup)의 투명성에 대한 우려를 제기했다 [france24.com#2][bbc.co.uk#1].",
+      "talking_points[3]": "시위 조사: 최루탄 수류탄이 14세 학생의 얼굴에 맞아 치아 여러 개가 빠지는 부상을 입힌 별도의 사건과 관련하여 경찰관 한 명이 기소되었다 [dawn.com#1][myjoyonline.com#1].",
+      "talking_points[4]": "공공 부채: 6월 기준 프랑스의 공공 부채는 약 4조 달러로, GDP의 119%에 달한다 [pbs.org#1].",
+      "international_reactions[0]": "🇺🇸 미국: 도널드 트럼프 대통령은 프랑스 시위의 명시된 요구 사항이 학교 인력, 자금, 환경 문제임에도 불구하고 이번 소요 사태의 원인을 이주민과 이슬람 탓으로 돌렸다 [deccanchronicle.com#1].",
+      "international_reactions[1]": "🇧🇪 벨기에: 벨기에 일부 지역의 학생들도 모방 시위를 시작했으며, 벨가(Belga) 통신에 따르면 이번 달 리에주(Liège)에서 학생 시위와 관련해 최소 107명이 체포되었다 [perthnow.com.au#1].",
+      "perspectives[0].text": "세바스티앙 르코르뉘 총리: 르코르뉘 총리는 이번 소요 사태를 수십 년 만에 가장 폭력적인 학생 시위라고 묘사했다 [rte.ie#1].",
+      "perspectives[1].text": "로랑 누녜스 내무장관: 누녜스 장관은 정부가 “고등학생들을 보호하기 위해 이곳에 있다”고 말했다 [myjoyonline.com#1].",
+      "perspectives[2].text": "프랑스 정부: 정부는 일부 시위가 외부 단체와 도시 폭력 세력에 의해 변질되었다고 주장하는 반면, 학생 단체와 인권 단체들은 어린 시위대를 향한 경찰의 무력 사용을 비판했다 [deccanchronicle.com#1][minutemirror.com.pk#1].",
+      "timeline[0].content": "학생들이 교직원 결근으로 인해 학업을 지속할 수 없다는 사실을 발견하고 파리 지역의 한 고등학교를 봉쇄했다 [theguardian.com#1].",
+      "timeline[1].content": "랑스에서 시위 도중 15세 학생이 손을 잃는 사고가 발생했다 [japantoday.com#1][khaleejtimes.com#1].",
+      "timeline[2].content": "내무장관이 랑스 사건에 대한 조사가 진행되는 동안 섬광 수류탄 사용을 중단시켰다 [france24.com#3][japantoday.com#1].",
+      "timeline[3].content": "학생 및 교사 노조가 목요일 추가 전국 시위를 촉구했다 [france24.com#1][scmp.com#1].",
+      "timeline[4].content": "르코르뉘 총리가 정부가 이달 말까지 초기 제안을 제시할 것이라고 밝혔다 [france24.com#2][japantoday.com#1].",
+      "suggested_qna[0].question": "얼마나 많은 학생이 정부의 고충 접수 채널을 이용했는가?",
+      "suggested_qna[0].answer": "에두아르 제프레(Edouard Geffray) 교육부 장관은 의원들에게 35,000명의 학생이 불만과 요구 사항을 수렴하기 위해 개설된 온라인 플랫폼을 이용했다고 밝혔다 [aawsat.com#1].",
+      "primary_image.caption": "<div class=\"paragraphs\"><p>프랑스 내 더 나은 학교 환경을 요구하는 전국적인 시위의 일환으로, 수요일 파리 시앙스포(Sciences Po) 밖에서 열린 시위 중 생제르맹 대로(Boulevard Saint-Germain)에서 학생들이 프랑스 진압 경찰과 대치하고 있다</p></div>"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "dd88d64a-2e95-4a5e-b89b-e955dee6e5bc",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 16929,
-      "out": 21825
+      "in": 23889,
+      "out": 30768
     }
   }
 }
