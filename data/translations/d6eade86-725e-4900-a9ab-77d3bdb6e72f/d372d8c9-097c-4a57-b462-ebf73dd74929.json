@@ -4,7 +4,7 @@
   "categoryUuid": "d372d8c9-097c-4a57-b462-ebf73dd74929",
   "categorySlug": "usa",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-13T17:47:39.004Z",
+  "createdAt": "2026-10-13T18:04:51.065Z",
   "stories": {
     "bfe0fe88-d27e-40d5-8871-fee0aade504b": {
       "title": "중간선거 앞두고 연방 요원들, 일한 오마르 하원의원 자택 압수수색",
@@ -228,20 +228,35 @@
       "timeline[3].content": "블레어, 퀸스에서 2건의 주 폭행 혐의에 대해 무죄 주장 [cbsnews.com#2]",
       "timeline[4].content": "블레어에 대한 다음 주 법원 심리 예정 [freepressjournal.in#1][enca.com#1]",
       "primary_image.caption": "지난달 캘리포니아주 비벌리힐스에서의 셀마 블레어. 경찰에 따르면 그는 일요일 오후 11시 직후 케네디 공항에 착륙한 항공기에서 체포되어 병원으로 이송되었다."
+    },
+    "06f24612-831a-4d45-bcae-7fc3c09851da": {
+      "title": "공화당 슈퍼팩, 오리건주에서 잭슨 반대 광고에 2만 5900달러 실수로 지출",
+      "short_summary": "수전 콜린스(Susan Collins) 상원의원을 지지하는 공화당 슈퍼팩(정치활동위원회)이 메인주 상원의원 선거의 경쟁자인 민주당 트로이 잭슨(Troy Jackson)을 겨냥한 공격 광고를 메인주 포틀랜드가 아닌 오리건주 포틀랜드에 실수로 2만 5900달러를 들여 집행했다. 구글 광고 데이터에 따르면 해당 광고는 10월 8일부터 10월 11일까지 오리건주에서 100만 명 이상, 워싱턴주에서 30만 명 이상의 시청자에게 노출되었다[boston.com#1][nytimes.com#1][theintercept.com#1]. 광고 구매 대행사인 크로스 스크린 미디어(Cross Screen Media)는 비용을 환불했으며, 해당 슈퍼팩은 광고를 중단하고 메인주를 대상으로 한 새로운 캠페인을 시작했다고 밝혔다[boston.com#1][nbcboston.com#1]. '너무 많은 세금(So Many Taxes)'이라는 제목의 30초짜리 광고는 세금과 생활비 문제로 잭슨을 공격했으나, 잭슨은 부유층과 대기업에 대해서만 증세를 지지한다고 반박했다[boston.com#1][fastcompany.com#1]. 콜린스 의원은 11월 3일 메인주 선거에서 6선에 도전하고 있으며, 이번 선거에는 막대한 자금이 투입되고 있다[theintercept.com#1][fortune.com#1].",
+      "quote": "세상에, 수전 콜린스를 위해 오리건주 포틀랜드에 광고를 내는 일 따위는 절대 없을 것이다.",
+      "quote_attribution": "NBC 보스턴",
+      "talking_points[0]": "지출 비교: 연방선거위원회(FEC) 자료에 따르면, 이번 오리건주 디지털 광고 실수 지출액은 해당 슈퍼팩이 최근 잭슨 반대를 위해 집행한 94만 6500달러 규모의 TV 및 스트리밍 광고비에 비하면 소액이다[boston.com#1].",
+      "talking_points[1]": "선거 지출: 애드임팩트(AdImpact)는 메인주 상원의원 선거에 총 3억 8400만 달러가 지출될 것으로 전망했는데, 이는 콜린스 의원이 마지막으로 출마했던 2020년의 약 2억 달러보다 두 배 가까이 많은 금액이다[fortune.com#1].",
+      "talking_points[2]": "TV 비교: 동일한 광고가 의도했던 시장인 메인주 포틀랜드의 방송 TV에서도 방영되어 4일간 약 67만 5000회의 노출을 기록했다[fortune.com#1].",
+      "industry_impact[0]": "디지털 광고: 로케이션 사이언스(Location Sciences)가 5억 개의 위치 기반 광고를 분석한 2019년 보고서에 따르면, 광고주가 의도한 지역 밖에서 노출된 광고가 29%에 달했다[fortune.com#1].",
+      "industry_impact[1]": "정치 광고: 애드임팩트는 2026년 선거 주기 동안 미국 내 총 정치 광고 지출액이 116억 달러에 이를 것으로 전망했다[fortune.com#1].",
+      "perspectives[0].text": "공화당 메인 스트리트 파트너십(Republican Main Street Partnership): 사라 체임벌린(Sarah Chamberlain) 회장 겸 CEO는 미디어 대행사에 책임이 있으며, 이번 실수에 대해 \"정말 화가 난다\"고 밝혔다[nbcboston.com#1].",
+      "perspectives[1].text": "트로이 잭슨 캠프: 댄 고틀립(Dan Gottlieb) 대변인은 이번 실수를 언급하며 콜린스 의원의 지지 세력이 메인주의 현실과 동떨어져 있다고 비판했다[fastcompany.com#1].",
+      "timeline[0].content": "디지털 광고 캠페인이 오리건주와 워싱턴주의 우편번호 지역을 대상으로 시작되었다[theintercept.com#1][fortune.com#1]",
+      "timeline[1].content": "메인주 밖의 시청자들에게 노출된 4일간의 디지털 광고 집행이 종료되었다[theintercept.com#1][fortune.com#1]",
+      "timeline[2].content": "해당 슈퍼팩은 광고를 중단하고 메인주를 대상으로 캠페인을 재개했다고 밝혔다[boston.com#1][nbcboston.com#1]",
+      "suggested_qna[0].question": "광고 집행 실수는 어떻게 드러나게 되었나?",
+      "suggested_qna[0].answer": "오리건주에 거주하는 한 소셜 미디어 사용자가 24시간 동안 잭슨 반대 광고를 5번이나 봤다는 글을 올렸고, 이를 계기로 다른 사용자들도 비슷한 경험을 제보하기 시작했다[theintercept.com#1][fastcompany.com#1].",
+      "primary_image.caption": "트로이 잭슨이 메인주에서 5선에 도전하는 공화당 수전 콜린스 상원의원의 자리를 노리고 있다.",
+      "secondary_image.caption": "<p>메인주 키터리 – 8월 14일: 수전 콜린스(공화당, 메인) 미 상원의원이 2026년 8월 14일 메인주 키터리에서 주 전역을 도는 재선 캠페인 버스 투어의 첫 번째 일정으로 키터리 트레이딩 포스트 밖에서 언론과 인터뷰하고 있다. (사진: CJ 건터/게티 이미지)</p>"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "06f24612-831a-4d45-bcae-7fc3c09851da",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 14509,
-      "out": 18347
+      "in": 15799,
+      "out": 19975
     }
   }
 }
