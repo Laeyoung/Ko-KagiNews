@@ -4,7 +4,7 @@
   "categoryUuid": "d372d8c9-097c-4a57-b462-ebf73dd74929",
   "categorySlug": "usa",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-13T17:34:48.609Z",
+  "createdAt": "2026-10-13T17:47:39.004Z",
   "stories": {
     "bfe0fe88-d27e-40d5-8871-fee0aade504b": {
       "title": "중간선거 앞두고 연방 요원들, 일한 오마르 하원의원 자택 압수수색",
@@ -208,24 +208,40 @@
       "timeline[2].content": "테네시주의 사형 집행 시도 중 파이크가 펜토바르비탈 두 차례 투여에도 생존함[cbsnews.com#1][wesh.com#1]",
       "timeline[3].content": "응급 대응 지연 상황이 담긴 녹취록이 공개됨[cbsnews.com#1][wesh.com#1]",
       "secondary_image.caption": "상황실 및 무전 기록은 응급 대응 지연으로 이어진 혼란을 보여준다."
+    },
+    "3d136f29-1706-4e84-8051-cc580b0e2ac5": {
+      "title": "배우 셀마 블레어, 비행기 및 병원 내 소란으로 폭행 혐의 직면",
+      "short_summary": "배우 셀마 블레어(Selma Blair)가 로스앤젤레스에서 뉴욕으로 향하던 델타항공 기내에서 승무원 2명을 다치게 한 혐의로 체포되었다. 검찰은 이후 그가 병원으로 이송되는 과정에서 항만청 경찰관과 간호사를 발로 찼다고 기소했다 [cbsnews.com#2][freepressjournal.in#1]. 해당 항공기는 10월 11일 일요일 늦은 밤 존 F. 케네디 국제공항에 착륙했으며, 연방수사국(FBI)이 기내에서 벌어진 소란 행위를 조사 중이다 [nytimes.com#1][cbsnews.com#2]. 블레어는 월요일 퀸스 법원에서 열린 재판에서 2건의 2급 폭행 혐의에 대해 무죄를 주장했으며, 현금 2만 달러 또는 보증금 6만 달러의 보석금을 납부하고 풀려났다. 다음 주 법원 심리는 2027년 1월 19일로 예정되어 있다 [cbsnews.com#2][freepressjournal.in#1][enca.com#1]. FBI 또한 기내 폭행 혐의와 관련해 소환장을 발부했으며, 이는 브루클린 연방 법원에서 다뤄질 예정이나 아직 연방 법원 출석일은 정해지지 않았다 [cbsnews.com#2][freepressjournal.in#1]. 블레어 측 대변인은 의료적 응급 상황으로 인해 해당 행위가 발생했다고 밝혔다 [enca.com#1].",
+      "quote": "이는 고의적인 폭행이 아니었다",
+      "quote_attribution": "뉴욕 포스트(New York Post)",
+      "location": "미국 뉴욕주 뉴욕시",
+      "historical_background": "블레어는 2022년 회고록에서 종종 술과 관련된 상황에서 여러 유명인을 물었던 경험을 기술한 바 있다 [enca.com#1][cbsnews.com#2]. 그는 자신이 관해 상태를 유지하고 있다고 밝혔으나, 여전히 피로감과 기타 지속적인 증상을 겪고 있다고 언급했다. 보도에 따르면 그의 질환과 이번 혐의 사이의 연관성은 확인되지 않았다 [salon.com#1].",
+      "talking_points[0]": "법정: 판사는 심리 중 블레어의 수갑을 풀어달라는 변호인단의 요청을 거부했다 [nypost.com#1].",
+      "talking_points[1]": "연방 처벌: 기내 위반 행위는 중범죄는 아니지만, 최대 1년의 징역형에 처해질 수 있다 [nypost.com#1].",
+      "talking_points[2]": "서비스견: 블레어는 서비스견과 함께 여행 중이었으며, 체포 후 그의 변호사가 이를 인계받았다 [cbsnews.com#2].",
+      "perspectives[0].text": "셀마 블레어 측 대변인: 블레어는 착륙 직후 즉각적인 의료 조치를 받았으며 안정적인 상태였다 [enca.com#1].",
+      "perspectives[1].text": "셀마 블레어 측 변호인: 숀 반스(Shawn Barnes) 변호사는 블레어의 상태가 약물 복용 누락, 비행 중 머리 부상, 과도한 업무 및 고도 때문이라고 설명했다 [nypost.com#1].",
+      "perspectives[2].text": "델타항공: 항공사 측은 무질서하거나 불법적인 행동에 대해 무관용 원칙을 고수하며, 고객과 승무원의 안전이 최우선이라고 밝혔다 [cbsnews.com#2].",
+      "timeline[0].content": "블레어, 칸쿤발 로스앤젤레스행 항공기 내 소란 후 사과 [enca.com#1]",
+      "timeline[1].content": "블레어, 다발성 경화증 진단 사실 공개 [salon.com#1]",
+      "timeline[2].content": "델타항공 여객기, 승객 간 소란 보고 후 JFK 공항 착륙 [nytimes.com#1][cbsnews.com#2]",
+      "timeline[3].content": "블레어, 퀸스에서 2건의 주 폭행 혐의에 대해 무죄 주장 [cbsnews.com#2]",
+      "timeline[4].content": "블레어에 대한 다음 주 법원 심리 예정 [freepressjournal.in#1][enca.com#1]",
+      "primary_image.caption": "지난달 캘리포니아주 비벌리힐스에서의 셀마 블레어. 경찰에 따르면 그는 일요일 오후 11시 직후 케네디 공항에 착륙한 항공기에서 체포되어 병원으로 이송되었다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
+    "translated": 11,
     "failedStoryIds": [
       {
         "id": "06f24612-831a-4d45-bcae-7fc3c09851da",
         "reason": "retry_exhausted"
-      },
-      {
-        "id": "3d136f29-1706-4e84-8051-cc580b0e2ac5",
-        "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 13323,
-      "out": 16942
+      "in": 14509,
+      "out": 18347
     }
   }
 }
