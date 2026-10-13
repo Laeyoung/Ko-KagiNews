@@ -1,7 +1,7 @@
 {
   "version": 1,
   "batchId": "d6eade86-725e-4900-a9ab-77d3bdb6e72f",
-  "updatedAt": "2026-10-13T18:06:03.851Z",
+  "updatedAt": "2026-10-13T18:26:35.537Z",
   "categories": {
     "0cd6810d-0fa6-498b-89df-4977c7fe01dd": {
       "slug": "science",
@@ -27,7 +27,7 @@
     },
     "d372d8c9-097c-4a57-b462-ebf73dd74929": {
       "slug": "usa",
-      "status": "ok",
+      "status": "skipped",
       "storyCount": 12,
       "translated": 12,
       "failed": 0,
@@ -74,7 +74,7 @@
     "status": "skipped"
   },
   "run": {
-    "attempted": 2,
+    "attempted": 1,
     "failed": 1,
     "failureRatePct": null,
     "unresolvedSlugs": []
