@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "batchId": "b1bfa573-b21b-478c-a9c1-46244ad3a61f",
+  "categoryUuid": "166b4c13-9ccb-498e-8715-19a9d0d628d7",
+  "categorySlug": "usa",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-10-14T15:06:04.420Z",
+  "stories": {},
+  "stats": {
+    "storyCount": 12,
+    "translated": 0,
+    "failedStoryIds": [
+      {
+        "id": "5bac43a3-7655-4d3e-8454-a37b696f99ae",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "29b24e84-a717-4279-afb8-9500f786fb23",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "5464cd4c-6107-4466-aa5b-a84ad68185a0",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "6eb7ef4e-eec4-45cd-999f-1b63230f8e97",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "6e7fd243-9a81-4698-a027-ce613fd5a165",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "e203b7ec-be99-40c4-9e5f-36e650060515",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "bc6e9871-ca47-4adc-bdb6-6618c4a7f78e",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "6efff934-131a-4d35-a7dd-534ab0ecf276",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "caf971ee-42cb-4bd9-8ced-82b917162585",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "e5afe942-4b3a-4f00-a05d-0697b306366c",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "ae9e2144-4707-4e9d-988f-66ce9dbfafde",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "b85d3394-de76-4587-83e1-dff2cd242a0e",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 0,
+      "out": 0
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "batchId": "b1bfa573-b21b-478c-a9c1-46244ad3a61f",
+  "categoryUuid": "52ce6d82-5853-4b4e-89c9-580980de0dd2",
+  "categorySlug": "world",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-10-14T15:03:11.276Z",
+  "stories": {
+    "7823f15f-3791-4e01-8204-2c1945eeeaf6": {
+      "title": "레오 교황, 폐암 진단 확인 후 폐 절제 수술 받아",
+      "short_summary": "바티칸은 레오 14세 교황이 10월 13일 화요일 로마 제멜리 병원에서 오른쪽 폐 하엽을 제거하는 수술을 받았으며, 폐 선암종 진단을 받았다고 밝혔다 [pbs.org#1][thehindu.com#1]. 71세인 교황은 수술실에서 약 3시간을 보냈으며, 실제 수술 시간은 약 90분으로 합병증 없이 끝났다. 교황은 정상적으로 의식을 회복해 병실로 돌아갔다 [bbc.co.uk#1][dawn.com#1]. 의료진은 수술 전 암을 의심했으며 수술 중 조직 검사를 통해 이를 확인했다. 바티칸은 암 전이 여부를 확인하기 위해 추가 검사가 진행 중이라고 밝혔으며, 향후 치료 계획은 아직 발표하지 않았다 [france24.com#1][cbsnews.com#2][mercopress.com#1]. 의료진은 레오 교황이 약 일주일간 병원에 머물 것으로 예상하며, 10월 20일까지 예정된 공개 알현은 취소되었다 [dw.com#1][thehindu.com#1]. 레오 교황은 지난 일요일 의료진이 국소 폐 결절을 발견해 제거를 권고했다고 밝힌 바 있다 [bbc.co.uk#1]. 11월 6일부터 17일까지 예정된 우루과이, 아르헨티나, 페루 순방 일정은 수술 이후 아직 확정되지 않았다 [dawn.com#1][thenationalnews.com#1].",
+      "did_you_know": "레오 교황은 젊은 사제 시절이던 1985년 페루에서 장티푸스로 입원한 적이 있다 [sojo.net#1].",
+      "quote": "걱정되냐고요? 네, 이런 일은 전혀 예상하지 못했으니까요.",
+      "quote_attribution": "BBC 뉴스",
+      "location": "이탈리아 로마",
+      "talking_points[0]": "다음 평가: 종양학자 데이비드 카본(David Carbone)은 즉시 수술을 진행하기로 한 결정은 고무적이며, 종양이 매우 초기 단계에서 발견되었을 가능성을 시사한다고 말했다. 만약 암이 흉부 중앙의 림프절로 전이되었다면 일반적으로 수술 전 치료가 선행되었을 것이라고 그는 덧붙였다 [dawn.com#2].",
+      "talking_points[1]": "조기 발견: 미국 폐협회(American Lung Association) 대변인 주아니타 모라(Juanita Mora)는 국소 폐 선암종의 경우 조기에 발견하여 수술로 제거하면 5년 생존율이 80%에서 98%에 달할 수 있다고 말했다 [dawn.com#1].",
+      "talking_points[2]": "순방 일정: 제안된 11일간의 남미 순방은 약 19,000마일의 이동 거리와 12번의 비행, 2번의 헬리콥터 탑승을 포함한다 [kron4.com#1][wpbf.com#1].",
+      "talking_points[3]": "교황청 운영: 바티칸 규정에는 레오 교황이 직무를 수행할 수 없게 될 경우 교황 권한을 이양하는 절차에 대한 명시가 없다. 일상적인 행정 업무는 계속되며, 교황의 서명이 필요한 결정은 연기될 수 있다 [krdo.com#1][sojo.net#1].",
+      "international_reactions[0]": "🇺🇸 미국: 마르코 루비오(Marco Rubio) 국무장관은 진단 소식을 접한 후 자신과 아내가 레오 교황의 건강을 위해 한마음으로 기도하고 있다고 밝혔다 [dawn.com#1].",
+      "international_reactions[1]": "🇦🇺 호주: 앤서니 앨버니지(Anthony Albanese) 총리는 \"생각과 기도를 보낸다\"며 레오 교황을 평화와 인류애, 이성의 목소리라고 평가했다 [dawn.com#1].",
+      "perspectives[0].text": "타르치시오 이사오 키쿠치(Tarcisio Isao Kikuchi) 추기경: 도쿄 추기경인 그는 레오 교황이 월요일 자신에게 몸 상태가 괜찮다고 말했으며, 남미 순방 계획을 지키고 싶어 수술을 서둘러 받기로 결정했다고 전했다.",
+      "perspectives[1].text": "캔디다 모스(Candida Moss), 버밍엄 대학교 신학자: 모스는 레오 교황이 회복이 허락하는 한 업무를 계속 수행할 것으로 예상된다고 말했다.",
+      "timeline[0].content": "레오 교황, 일요일 기도 후 의료진이 국소 폐 결절을 발견했다고 밝힘 [thenationalnews.com#1][bbc.co.uk#1]",
+      "timeline[1].content": "외과의들, 레오 교황의 오른쪽 폐 하엽 제거; 조직 검사 결과 암으로 확인 [pbs.org#1][thehindu.com#1]",
+      "timeline[2].content": "바티칸, 레오 교황이 병원에서 평온한 밤을 보냈다고 보고 [bbc.co.uk#1]",
+      "suggested_qna[0].question": "폐 선암종이란 무엇인가?",
+      "suggested_qna[0].answer": "폐 선암종은 점액 생성 세포나 선세포에서 시작되는 암으로, 주로 폐의 바깥쪽에서 발견된다 [abc.net.au#1].",
+      "primary_image.caption": "2026년 10월 13일 이탈리아 로마에서 폐 결절 제거 수술을 앞두고 제멜리 병원에 도착한 레오 교황. REUTERS/Ciro de Luca",
+      "secondary_image.caption": "2026년 10월 13일 이탈리아 로마에서 폐 결절 제거 수술을 받기 위해 입원 중인 레오 교황이 머무는 제멜리 병원 밖의 카메라들. —Reuters"
+    },
+    "a2849d66-05e2-49eb-a625-b97b3647f559": {
+      "title": "미 상원 초당적 의원들, 트럼프에 러시아산 디젤 제재 면제 철회 요구",
+      "short_summary": "미국 상원의원 12명으로 구성된 초당적 그룹은 10월 13일 도널드 트럼프 대통령에게 러시아산 디젤 공급 합의를 폐기하고 재무부의 제재 면제 조치를 철회할 것을 촉구하며, 이번 조치가 우크라이나와 미국 동맹국들에 대한 배신이라고 비판했다. 공화당 의원 6명과 민주당 의원 6명이 서명한 이 서한은 해당 합의가 연료비 인하에는 거의 도움이 되지 않으면서 모스크바에 전쟁 자금을 지원할 수익만 안겨줄 것이라고 지적했다[cbsnews.com#1][npr.org#1][nytimes.com#1]. 트럼프 대통령은 화요일 해당 디젤이 미국이 아닌 세계 시장을 위한 것이며, 추가 공급이 고물가를 완화할 수 있다고 주장하며 합의를 옹호했다[thehindu.com#1][business-standard.com#1]. 의원들은 이에 대해 해당 합의가 미국인들에게는 거의 혹은 전혀 도움이 되지 않으며, 러시아가 중국, 이란, 북한과의 안보 협력을 심화하도록 도울 뿐이라고 반박했다[cbsnews.com#1][npr.org#1]. 2022년 제정된 법은 대부분의 러시아산 에너지 수입을 금지하고 있다. 트럼프 대통령이 지난달 서명한 제재법은 러시아와 그 전쟁 노력을 지원하는 국가들에 대한 경제적 압박을 승인하고 있으며, 의원들은 그에게 이 법을 대신 활용할 것을 촉구했다[pbs.org#1][cbsnews.com#1].",
+      "quote": "그것은 디젤 거래일 뿐입니다. 우리를 위한 것이 아닙니다. 세계 시장에 풀리는 물량이지, 우리에게 풀리는 것이 아닙니다.",
+      "quote_attribution": "더 힌두(The Hindu)",
+      "talking_points[0]": "공급 제약: 10월에 계획된 225만 배럴의 1차 방출량은 미국 소비자들이 보고한 일일 사용량보다 적으며, 동부 해안으로의 운송에는 통상 2주 이상이 소요된다[energyconnects.com#1].",
+      "talking_points[1]": "유럽 측 수치: 러시아 부총리는 2022년 이후 EU의 에너지 구매액을 3,207억 달러로 추산한 반면, 유럽연합 집행위원회 대표는 2022년 3월부터 2026년 7월까지의 구매액을 1,970억 유로로 추산했다[meduza.io#1].",
+      "talking_points[2]": "관세 권한: 2026년 제정된 '린지 O. 그레이엄(Lindsey O. Graham) 러시아 및 이란 제재법'은 대통령이 러시아산 에너지를 수입하는 주요 국가들에 대해 최대 100%의 관세를 부과할 수 있도록 허용한다[thenationalnews.com#1].",
+      "talking_points[3]": "법적 분쟁: 더 내셔널(The National)이 인용한 의원들에 따르면, 2022년 수입 금지법은 의회와의 협의 및 90일간의 대기 기간을 포함한 조건 하에서만 면제를 허용한다[thenationalnews.com#1].",
+      "international_reactions[0]": "🇪🇺 유럽연합(EU): 카야 칼라스(Kaja Kallas) EU 외교안보 고위대표는 압박을 통해 전쟁을 종식해야 한다며, 미국이 러시아에 대한 제재를 완화하기보다 오히려 강화할 것을 촉구했다[energyconnects.com#1].",
+      "international_reactions[1]": "🇺🇦 우크라이나: 볼로디미르 젤렌스키(Volodymyr Zelenskyy) 대통령은 이번 결정을 '강한 파트너들의 약한 결정'이라고 비판하며, 협상 과정에서 우크라이나 측이 명분 쌓기용으로 이용당했다고 말했다[dw.com#1].",
+      "industry_impact[0]": "글로벌 공급 전망: 러시아 부총리는 월 300만 톤의 디젤 수출이 12월 전까지는 어려울 수 있다고 밝혔으며, 분석가들은 재개 여부가 에너지 휴전의 지속 가능성에 달려 있다고 평가했다[energyconnects.com#1].",
+      "perspectives[0].text": "서한에 서명한 미 상원의원들: 12명의 의원들은 어떠한 평화 협정도 우크라이나의 주권과 국민들이 자신의 미래를 선택할 권리를 보호해야 한다고 주장했다.",
+      "timeline[0].content": "트럼프, 러시아산 디젤 공급을 위한 푸틴과의 합의 발표[business-standard.com#1][cbsnews.com#1]",
+      "timeline[1].content": "트럼프, 러시아와 우크라이나가 확인하지 않은 에너지 휴전 발표[news.kagi.com#1]",
+      "timeline[2].content": "양당 상원의원 12명, 트럼프에게 합의 철회를 요구하는 서한 발송[npr.org#1][cbsnews.com#1]",
+      "suggested_qna[0].question": "2021년 EU가 러시아에 지불한 에너지 비용은 얼마인가?",
+      "suggested_qna[0].answer": "유로스타트(Eurostat) 데이터에 따르면 EU는 2021년 러시아에 990억 유로의 에너지 비용을 지불했다[meduza.io#1].",
+      "primary_image.caption": "리처드 블루멘탈(Richard Blumenthal) 민주당 상원의원(코네티컷주)이 주도한 이 서한은 의회가 모스크바와 그 동맹국들에 대한 경제적 압박을 강화하는 법안을 압도적으로 통과시킨 지 불과 몇 주 만에 나왔다.",
+      "secondary_image.caption": "자료 사진: 도널드 트럼프 미국 대통령이 2025년 8월 15일 미국 알래스카주 앵커리지 엘멘도르프-리처드슨 합동기지에서 우크라이나 전쟁 종식을 협상하기 위해 블라디미르 푸틴 러시아 대통령과 악수하고 있다. REUTERS/Kevin Lamarque/File Photo"
+    },
+    "70f48ccb-391e-474f-b19e-e289c40be486": {
+      "title": "우크라이나 드론, 얀덱스 데이터 센터 3곳 타격… 서비스 차질",
+      "short_summary": "우크라이나의 드론 공격으로 4일간 러시아 내 얀덱스(Yandex) 데이터 센터 3곳이 타격을 입었으며, 사소보(Sasovo)와 블라디미르(Vladimir) 시설은 가동이 중단되었고 칼루가(Kaluga) 시설은 일부 파손되었다[helpnetsecurity.com#1][rferl.org#1]. 얀덱스는 수백만 명의 소비자와 수십만 개의 기업에 서비스를 제공하고 있으며, 이들의 클라우드 인프라에 의존하는 외부 기업들도 서비스 중단 사태를 겪었다[lemonde.fr#1][helpnetsecurity.com#1]. 택시 호출, 지도, 이메일, 클라우드 파일, 얀덱스 페이(Yandex Pay) 등이 영향을 받았다. 사용자들은 자금 접근에 어려움을 겪었고, 기업들은 호스팅된 데이터에 접근하지 못했다[meduza.io#1][rferl.org#1]. 얀덱스 인프라를 사용하는 기업과 고객이 있는 카자흐스탄, 우즈베키스탄, 아르메니아, 벨라루스에서도 서비스 장애가 보고되었다[vesti.bg#1][rferl.org#1]. 볼로디미르 젤렌스키(Volodymyr Zelenskyy) 우크라이나 대통령은 이번 공격이 러시아의 우크라이나 데이터 센터 공격에 대한 대응이라고 밝혔다[helpnetsecurity.com#1]. 이번 공격으로 러시아의 소셜 미디어 허위 정보가 줄었다는 그의 주장은 입증되지 않았다. 연구자들은 클라우드플레어(Cloudflare) 데이터가 소셜 미디어 활동이 아닌 검색 엔진 크롤러를 포함한 자동화된 웹 트래픽을 측정한 것이라고 지적했다[france24.com#1][helpnetsecurity.com#1]. 얀덱스는 클라우드 플랫폼이 비상 모드로 운영 중이라며 고객들에게 대체 복구 계획을 활성화할 것을 권고했으며, 러시아 언론은 복구에 수개월이 걸릴 수 있다고 보도했다[helpnetsecurity.com#1][rferl.org#1].",
+      "quote": "많은 소셜 플랫폼에서 숨쉬기가 갑자기 조금 더 편해졌다",
+      "quote_attribution": "더 버지(The Verge)",
+      "historical_background": "크렘린궁은 10년 넘게 '주권 인터넷' 정책을 추진하며 자국 기술 기업을 육성하고 핵심 디지털 인프라에 대한 국가 통제를 강화해 왔다[unian.ua#1]. 2014년 러시아는 기업들이 고객의 개인 데이터를 러시아 내부에 저장하도록 의무화했다[unian.ua#1]. 얀덱스는 러시아 국내 기술 부문의 핵심 제공업체가 되었으며, 2024년 얀덱스의 러시아 사업부는 우크라이나 언론이 크렘린궁과 연계된 투자자들과 관련이 있다고 보도한 컨소시엄에 매각되었다[unian.ua#1].",
+      "talking_points[0]": "AI 역량: 사소보 시설에는 얀덱스가 AI 모델 개발에 사용하는 3대의 슈퍼컴퓨터 중 2대가 있었으나, 회사는 이들의 파손 여부를 공개하지 않았다[helpnetsecurity.com#1][itc.ua#1].",
+      "talking_points[1]": "전력 차질: 알렉산드르 아브데예프(Alexander Avdeyev) 블라디미르 주지사는 드론 공격으로 화재가 발생해 주민 5,000명이 이용하는 변전소 2곳이 가동 중단되었으며, 인근 주민 대피령이 내려졌다고 밝혔다[helpnetsecurity.com#1].",
+      "talking_points[2]": "경제적 노출: RFE/RL은 얀덱스 클라우드 서비스를 사용하는 식품 소매업체 마그니트(Magnit)와 렌타(Lenta), 패션 소매업체 라모다(Lamoda)에서 서비스 장애가 발생했다고 보도했다[rferl.org#1].",
+      "industry_impact[0]": "얀덱스 페이 복구: 결제 서비스는 10월 13일까지 부분적으로만 복구되었다[meduza.io#1].",
+      "industry_impact[1]": "몰도바: 몰도바 택시 시장의 약 60%를 점유한 얀덱스 고(Yandex Go)는 10월 12~13일 사용자들에게 원인을 밝히지 않은 채 기술적 문제를 공지했다[rferl.org#1].",
+      "industry_impact[2]": "데이터 센터 장비: RFE/RL이 인용한 한 분석가는 최근 며칠간 러시아 내 서버 및 데이터 처리 장비 가격이 10~15% 상승했으며, 제재로 인해 일부 교체 장비 공급이 제한되었다고 전했다[rferl.org#1].",
+      "perspectives[0].text": "일리아 로조프스키(Ilya Lozovsky), OCCRP: 그는 독일의 '독일을 위한 대안(AfD)' 정당 주변의 온라인 활동이 감소했음을 보여준다는 차트에 대해 출처가 불분명하고 명백한 오류가 포함되어 있다고 지적했다[helpnetsecurity.com#1].",
+      "perspectives[1].text": "드미트리 페스코프(Dmitry Peskov) 크렘린궁 대변인: 그는 정부가 얀덱스의 어려움에 대해 논의 중이며, 회사가 공격의 여파를 해결하기 위해 긴급 조치를 취하고 있다고 말했다[rferl.org#1].",
+      "timeline[0].content": "드론이 사소보 데이터 센터를 타격했으며, 이후 해당 시설은 운영을 중단했다[helpnetsecurity.com#1].",
+      "timeline[1].content": "드론 공격이 칼루가에 위치한 얀덱스의 최대 데이터 센터를 강타했다[itc.ua#1].",
+      "timeline[2].content": "야간 드론 공격 이후 블라디미르 센터가 오프라인 상태가 되었다[helpnetsecurity.com#1].",
+      "timeline[3].content": "젤렌스키 대통령은 이번 공격이 소셜 플랫폼에서의 도발 감소와 연관이 있다고 언급했다[helpnetsecurity.com#1].",
+      "primary_image.caption": "10월 8일 러시아 사소보의 얀덱스 데이터 센터에서 우크라이나 드론 공격으로 화재가 발생했다."
+    }
+  },
+  "stats": {
+    "storyCount": 12,
+    "translated": 3,
+    "failedStoryIds": [
+      {
+        "id": "7a556905-71da-4f3d-848f-3d34d44db347",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "535742a9-c16c-41ff-98c7-734b910cccd6",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "8a58117f-7482-4c85-a3d9-850a8bf1b3e3",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "da64f364-6ecb-4102-b860-3e701dac13e8",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "50e47a88-98d4-4439-933a-fae1dabbd61d",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "5adb7851-26fa-4e50-9211-0dd1d58fea7b",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "fbe2dc4a-8227-4536-8d62-ce931d6f0b8c",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "876748f1-56fa-4570-9086-711e40741e2d",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "797f9f87-8826-472a-b4f1-7e7c64fd946a",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 4197,
+      "out": 5272
+    }
+  }
+}

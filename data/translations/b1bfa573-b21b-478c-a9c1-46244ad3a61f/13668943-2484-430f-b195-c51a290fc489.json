@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "batchId": "b1bfa573-b21b-478c-a9c1-46244ad3a61f",
+  "categoryUuid": "13668943-2484-430f-b195-c51a290fc489",
+  "categorySlug": "ai",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-10-14T15:18:10.617Z",
+  "stories": {
+    "058c3ef4-fa84-4369-8e31-2a537bac6e83": {
+      "title": "OpenAI 직원, 임원 회의실 내 몰래카메라 설치 혐의로 체포",
+      "short_summary": "연방 검찰과 OpenAI에 따르면, 연방 당국은 10월 9일 샌프란시스코의 한 임원 회의실에서 숨겨진 녹음기가 발견된 후, 이를 설치해 구두 통신을 가로채려 한 혐의로 전 OpenAI 엔지니어를 체포했다[cbsnews.com#1][reuters.com#1][nbcbayarea.com#1]. 회사 관계자가 9월 30일 해당 기기를 발견했으며, 검찰은 압둘라만 알포잔(Abdulrahman Alfozan, 35)이 9월 28일경 이를 설치한 것으로 보고 있다. OpenAI는 그를 해고했으며 FBI 조사가 진행 중이다[bleepingcomputer.com#1][cbsnews.com#1]. 해당 회의실은 기밀 연구, 제품 계획, 사업 기회 및 정부 관계에 대한 논의가 이루어지는 곳이었다. OpenAI는 자사 모델을 활용해 해당 기기를 분석하고 직원을 식별했으나, 그가 모델 가중치, 소스 코드 또는 고객 데이터에 접근하거나 유출했다는 징후는 발견되지 않았다고 밝혔다[pcmag.com#1][gizmodo.com#1][politico.com#1]. 검찰은 녹음된 내용이 어떻게 처리되었는지, 혹은 누구에게 전달되었는지에 대해서는 구체적으로 밝히지 않았다[cybersecuritynews.com#1]. 검찰은 알포잔과 관련된 가방에서 유사한 두 번째 녹음기가 발견되었으며, 첫 번째 기기가 발견된 후 그가 텔레비전 뒤를 확인하는 모습이 포착되었다고 주장했다. 그는 10월 13일 연방 법원에 출석했으며 10월 19일 구금 심리를 앞두고 있다. 유죄 판결 시 최대 5년형에 처해질 수 있다[cbsnews.com#1][nbcbayarea.com#1][decrypt.co#1].",
+      "quote": "사건 초기 단계에서 알려진 정보가 거의 없는 상황에 성급하게 결론을 내리는 것",
+      "quote_attribution": "CBS 뉴스",
+      "location": "미국 캘리포니아주 샌프란시스코",
+      "talking_points[0]": "기기 세부 정보: 검찰은 녹음기가 휴지로 감싸져 텔레비전 뒷면의 USB 포트에 꽂혀 있었다고 밝혔다[bleepingcomputer.com#1][techcrunch.com#1].",
+      "talking_points[1]": "디지털 흔적: 검찰은 사내 생산성 도구를 사용하여 사무실 위치, 회의실 및 임원 일정을 검색한 정황을 포착했다. 또한 알포잔의 배우자와 관련된 챗봇 계정이 녹음기 제작, 은닉 및 원격 접속 방법에 대해 질문한 것으로 보고 있다[politico.com#1][cbsnews.com#1].",
+      "talking_points[2]": "감시: 검찰은 사무실 영상에서 알포잔이 녹음기가 발견되기 전 여러 차례 임원 회의실 근처에 있는 모습이 포착되었으나, 그는 해당 회의실에 출입하거나 회의에 참석할 권한이 없었다고 주장했다[pcmag.com#1][politico.com#1].",
+      "talking_points[3]": "법적 책임: 유죄 판결 시 최대 25만 달러의 벌금과 3년의 보호관찰 처분이 내려질 수 있다[politico.com#1][pcmag.com#1].",
+      "perspectives[0].text": "OpenAI: 회사는 조사가 진행됨에 따라 해당 직원의 업무 범위와 시스템 접근 권한을 점진적으로 축소했으며, 이후 장비를 압수하고 그를 휴직 처리했다고 밝혔다[gizmodo.com#1].",
+      "perspectives[1].text": "미 법무부: 토드 블랑쉬(Todd Blanche) 법무장관은 이번 혐의를 첨단 AI 기술에 관한 민감한 통신 내용을 훔치려는 시도로 규정하며, 이 사건을 국가 안보 문제로 다루었다[nbcbayarea.com#1].",
+      "perspectives[2].text": "윌리엄 퍼닉(William Pernik): 알포잔의 변호인은 의뢰인이 무죄 추정의 원칙을 적용받아야 한다고 강조하며, 이번 기소를 그의 국적과 결부시켜 정치화하지 말 것을 당부했다[cbsnews.com#1].",
+      "timeline[0].content": "알포잔과 연결된 챗봇 계정이 녹음기 관련 질문을 입력하기 시작함[cbsnews.com#1].",
+      "timeline[1].content": "OpenAI는 숨겨진 녹음기가 이 시기쯤 설치된 것으로 판단함[bleepingcomputer.com#1].",
+      "timeline[2].content": "회사 관계자가 보안 점검 중 녹음기를 발견함[gizmodo.com#1].",
+      "timeline[3].content": "영상에서 알포잔이 텔레비전 뒤를 확인하는 모습이 포착되었으며, 두 번째 녹음기가 발견됨[nbcbayarea.com#1].",
+      "timeline[4].content": "법무부에 따르면 연방 당국이 알포잔을 체포함[cbsnews.com#1].",
+      "timeline[5].content": "알포잔이 구금 심리를 위해 법원에 출석할 예정임[decrypt.co#1]."
+    },
+    "20174b58-d9d3-48fe-9903-8022436c1300": {
+      "title": "메타의 '뮤즈 원더 풀', 벤치마크 지수 56점 기록…클로드 오퍼스에 뒤져",
+      "short_summary": "아티피셜 애널리시스(Artificial Analysis)의 인텔리전스 인덱스에서 메타(Meta)의 '뮤즈 원더 풀(Muse Wonder Full)'은 56점, 표준 모델인 '뮤즈 원더(Muse Wonder)'는 52점을 기록했다. 이로써 더 큰 모델인 원더 풀은 앤스로픽(Anthropic)의 '클로드 오퍼스 5.5(Claude Opus 5.5)'보다 2점 낮은 점수를 받았다. 메타는 해당 모델들이 고도화된 코딩 및 에이전트 작업을 수행할 수 있다고 밝혔으나, 모든 작업에서 우위를 점한 것은 아니다[latent.space#1][pcmag.com#1]. 10월 12일 출시된 이 두 모델은 개인 및 전문가용 에이전트를 위해 설계되었다. 메타는 '액티브 메모리(Active Memory)' 기능이 대화 전반에 걸쳐 유용한 사용자 맥락을 유지하며, '액티브 포커스(Active Focus)' 기능은 에이전트가 문제에 직면했을 때 다른 접근 방식을 시도할 수 있게 한다고 설명했다. 원더는 메타의 API와 '뮤즈 코드(Muse Code)'를 통해 개발자에게 제공되며, 원더 풀은 뮤즈 코드 구독자에게만 제공된다[deccanchronicle.com#1][techgenyz.com#1]. 메타가 발표한 비교 자료는 서로 다른 평가 환경의 결과를 혼합한 것이며, 일부 벤치마크 결과는 동일한 통제된 테스트 프레임워크를 사용하지 않아 직접적인 비교가 어렵다[techgenyz.com#1]. 메타는 원더가 곧 구독자를 대상으로 자사 개인 비서 서비스인 '뮤즈(Muse)'에 탑재될 예정이라고 밝혔다. 알렉산드르 왕(Alexandr Wang) 최고 AI 책임자는 현재 더 큰 규모의 모델과 저비용 특화 버전을 개발 중이라고 전했다[deccanchronicle.com#1].",
+      "quote": "이들은 진정한 프런티어 모델이다",
+      "quote_attribution": "데칸 크로니클(Deccan Chronicle)",
+      "historical_background": "메타는 알렉산드르 왕을 영입해 새로운 AI 그룹을 이끌게 했으며, 스케일 AI(Scale AI)에 140억 달러를 투자하는 한편 AI 인프라에 상당한 비용을 투입하고 있다[deccanchronicle.com#1].",
+      "business_angle_text": "발표 이후 메타의 주가는 최대 4.7% 상승했다[deccanchronicle.com#1].",
+      "talking_points[0]": "에이전트 벤치마크: 아티피셜 애널리시스는 뮤즈 원더 풀의 '터미널-벤치 4.0(Terminal-Bench 4.0)' 결과를 57%로 기록했는데, 이는 뮤즈 스파크 1.3의 33%에서 상승한 수치다. 또한 GDPval-AA 점수는 1,681에서 1,857 Elo로 올랐다[latent.space#1].",
+      "talking_points[1]": "서비스 비용: 레이턴트 스페이스(Latent Space)는 뮤즈 원더의 인텔리전스 인덱스 작업당 비용을 4.52달러로 산출했는데, 이는 높은 입력 토큰 사용량에 기인한다. 메타는 원더 풀에 대한 비교 가능한 종량제 가격을 공개하지 않았다[latent.space#1][techgenyz.com#1].",
+      "talking_points[2]": "API 가격: 메타는 원더의 가격을 입력 토큰 100만 개당 4달러, 캐시된 입력 토큰 100만 개당 20센트, 출력 토큰 100만 개당 20달러로 책정했다[techgenyz.com#1].",
+      "talking_points[3]": "폐쇄형 액세스: 메타는 두 원더 모델에 대한 다운로드 가능한 가중치를 발표하지 않았으며, 로컬 배포를 위한 오픈 가중치 옵션으로는 '뮤즈 글리머(Muse Glimmer)'가 유지된다[techgenyz.com#1].",
+      "talking_points[4]": "할당량 문제: 출시 당일 발생한 버그로 인해 모델이 뮤즈 코드 사용 할당량을 비정상적으로 빠르게 소진하는 문제가 발생했다. 메타는 같은 날 이를 수정하고 사용자 할당량을 초기화했다[latent.space#1].",
+      "technical_details[0]": "맥락 및 모달리티: 이 모델들은 최대 100만 토큰의 맥락 창에서 텍스트, 이미지, 비디오, 오디오를 입력받을 수 있으나, 출력은 텍스트로만 가능하다[klix.ba#1].",
+      "technical_details[1]": "액티브 메모리: 메타는 이 기능이 사용자에 대한 모든 세부 정보를 유지하는 대신, 필요할 때 이전 대화에서 관련 세부 정보를 검색하는 방식이라고 설명한다[techgenyz.com#1].",
+      "business_angle_points[0]": "레이턴트 스페이스는 원더의 작업당 비용을 4.52달러로 추산했는데, 이는 클로드 오퍼스 5.5의 5.98달러와 클로드 페이블 5.1의 7.63달러보다는 낮지만 GPT-6 아스트라(Astra)의 3.26달러보다는 높은 수준이다[latent.space#1].",
+      "perspectives[0].text": "알렉산드르 왕 메타 최고 AI 책임자: 왕은 메타가 경쟁사들처럼 코딩 에이전트에 집중하기보다는 개인 에이전트 작업에 초점을 맞추고 있다고 밝혔다[deccanchronicle.com#1].",
+      "perspectives[1].text": "마크 저커버그(Mark Zuckerberg) 메타 CEO: 저커버그는 메타의 우선순위가 단순한 자동화가 아닌 개인의 역량 강화에 있다고 설명했다[pcmag.com#1].",
+      "perspectives[2].text": "독립 벤치마크 평가자들: 아티피셜 애널리시스는 원더 풀을 10개 평가 항목 중 6개에서 상위 3위 안에 포함시켰으며, GDP.pdf와 CritPt 항목에서는 1위를 차지했다[latent.space#1].",
+      "timeline[0].content": "메타의 '라마 4(Llama 4)' 모델들, 리더보드 결과와 관련해 검증대에 오름[news.kagi.com#1]",
+      "timeline[1].content": "메타, '뮤즈 스파크(Muse Spark)' 모델 제품군 출시[news.kagi.com#1]",
+      "timeline[2].content": "메타, 개인 AI 에이전트 '뮤즈' 도입[news.kagi.com#1]",
+      "timeline[3].content": "메타, 에이전트 작업을 위한 '뮤즈 원더' 및 '원더 풀' 발표[latent.space#1][pcmag.com#1]",
+      "primary_image.caption": "메타가 뮤즈 AI 에이전트를 도입한 후, 뮤즈 원더를 출시했다."
+    },
+    "01183008-8964-4ff7-9b74-e72b8c99e6fe": {
+      "title": "IMF, AI 시장 조정이 글로벌 금융으로 확산할 수 있다고 경고",
+      "short_summary": "국제통화기금(IMF)은 인공지능(AI) 가치 평가의 급격한 조정이 글로벌 시장을 불안정하게 만들 수 있으며, 이는 정부 부채 증가와 지정학적 갈등으로 인한 위험을 가중한다고 경고했다 [reuters.com#1][theregister.com#1]. 또한 IMF는 금융 시스템의 상호 연결성이 높아짐에 따라 주요 금융 기관 및 시장 인프라에 대한 사이버 공격 가능성이 커지고 있다고 밝혔다 [thehindu.com#1][lalibre.be#1]. 일부 차입을 통해 조달되는 막대한 AI 지출은 위험 요인으로, 수익이 기대에 미치지 못할 경우 투자자들이 자금을 회수하며 자산군 전반에 걸쳐 디레버리징(부채 축소)을 촉발할 수 있다 [aktuality.sk#1]. IMF는 국채 금리 상승이 압박을 가할 수 있으며, 부채와 인플레이션으로 인해 정부의 대응 여력은 줄어든 상태라고 지적했다 [reuters.com#1][aktuality.sk#1]. IMF는 재정 건전성 강화, 투기적 차입에 대한 규제 강화, 의무적 사고 보고 및 테스트를 포함한 사이버 복원력 개선을 촉구했다 [aktuality.sk#1].",
+      "did_you_know": "디지24(Digi24)가 발표한 분석에 따르면, S&P 500 상위 10개 기업은 모두 주요 기술 및 AI 기업이었으며, 이들이 지수에서 차지하는 비중은 거의 40%에 달했다 [digi24.ro#1].",
+      "business_angle_text": "미국의 강력한 자본 수요는 국채 금리를 상승시켜 유럽 금리에 상승 압력을 가할 수 있으나, 유로존 금리는 주로 유럽중앙은행(ECB)의 정책에 의해 결정된다. 분석가 파트리크 킨들(Patrik Kindl)은 유럽 국채나 회사채에 큰 부정적 영향이 있을 것으로 보지는 않았다 [aktuality.sk#1].",
+      "talking_points[0]": "부채 연계: IMF는 AI 기업 간의 순환적 금융 관계와 연관된 약 6,500억 달러 규모의 부채 금융을 확인했으며, 이는 손실이 확산할 위험을 높인다 [aktuality.sk#1].",
+      "talking_points[1]": "현금 흐름: AI 투자는 기술 기업의 잉여 현금 흐름을 감소시켜 부채 금융에 대한 의존도를 높이고 있다 [aktuality.sk#1].",
+      "talking_points[2]": "사이버 대비 태세: 금융 서비스는 거의 전적으로 디지털화된 반면, 소프트웨어 기업들은 보안 취약점 패치에 어려움을 겪을 수 있어 사이버 공격에 대한 노출이 증가하고 있다 [aktuality.sk#1].",
+      "talking_points[3]": "정책 대응: IMF는 신흥 경제국들이 시장 상황이 악화하기 전에 현재의 유리한 조건을 활용하여 외환 보유액을 확충해야 한다고 조언했다 [aktuality.sk#1].",
+      "industry_impact[0]": "AI 및 기술 금융: 대형 기술 기업들이 글로벌 투자 적격 회사채 발행에서 차지하는 비중은 2024년 1% 미만에서 2026년 약 10%로 증가했는데, 이는 투자가 잉여 현금 흐름을 줄이고 부채 의존도를 높였기 때문이다 [aktuality.sk#1].",
+      "industry_impact[1]": "금융 서비스: 주요 금융 기관, 결제 시스템, 클라우드 서비스 또는 소프트웨어 플랫폼에 대한 사이버 공격은 핵심 서비스를 중단시키고 연결된 금융 네트워크를 통해 확산할 수 있다 [thehindu.com#1][aktuality.sk#1].",
+      "perspectives[0].text": "국제통화기금(IMF): IMF는 국채 금리가 2010년대보다 성장률과 인플레이션이 높았던 글로벌 금융 위기 이전 수준에 근접하고 있을 수 있다고 밝혔다. 국채는 글로벌 금융 시스템의 닻 역할을 하므로, 그 영향은 공공 부채를 넘어설 수 있다 [aktuality.sk#1].",
+      "perspectives[1].text": "온드레이 그레구시(Ondrej Greguš), XTB 금융 분석가: 그레구시는 현재의 AI 붐을 닷컴 버블과 대조하며, 수익성 있는 기업들과 확립된 비즈니스 모델이 현재의 사이클을 주도하고 있다고 평가했다. 다만, 이것이 시장이 조정으로부터 면역이라는 의미는 아니라고 경고했다 [aktuality.sk#1].",
+      "primary_image.caption": "IMF는 “주요 금융 기관이나 시장 인프라”에 대한 성공적인 사이버 공격 위험이 커지고 있다고 평가했다."
+    },
+    "b5dc12a3-62c0-4f39-bd49-8a331699704e": {
+      "title": "스페이스X, 뉴욕시 AI 안전 조사 증언 합의",
+      "short_summary": "10월 13일 발표된 보도와 시의회 의장의 발표에 따르면, 스페이스X(SpaceX)는 소환장을 받은 후 뉴욕시의회의 인공지능(AI) 안전 관련 증언에 합의했다[cnbc.com#1][harlemworldmagazine.com#1][nypost.com#1]. 스페이스X는 이번 주 시의회 청문회에서 증언할 것으로 예상된다[briefs.co#1]. 보도에 따르면 소환장은 스페이스X의 출석 합의 이전에 발부되었다[tikr.com#1][cnbc.com#1]. 줄리 메닌(Julie Menin) 시의회 의장은 합의 사실을 발표하며 해당 기업을 스페이스X AI(SpaceXAI)로 지칭했다[harlemworldmagazine.com#1].",
+      "location": "미국 뉴욕주 뉴욕시",
+      "talking_points[0]": "시장 반응: 24/7 월스트리트(24/7 Wall St.)에 따르면, 이번 합의 소식에 스페이스X 주가는 4% 하락했다[247wallst.com#1]."
+    },
+    "36313de0-1129-42e5-98b2-8a00ff62fdfc": {
+      "title": "앤스로픽의 클로드 행동 수칙, AI 안전 우선순위 두고 비판 직면",
+      "short_summary": "이번 주 발표된 논평은 앤스로픽(Anthropic)이 자사 AI 모델인 클로드(Claude)를 향한 지속적이고 불필요한 학대나 잔혹한 행위를 금지한 것에 대해 의문을 제기했다. 앤스로픽의 정책은 일반적인 불만 표출이나 비판, 적대적 테스트는 예외로 두지만, 반복적인 잔혹 행위는 계정 제한으로 이어질 수 있다 [slashdot.org#1]. 앤스로픽은 클로드가 고통을 느낄 수 있다는 증거는 없으나, AI 의식에 대한 불확실성 때문에 예방적 조치가 필요하다고 주장했다고 슬래시닷(Slashdot)은 전했다. 비평가들은 이 규칙이 소프트웨어를 의인화하고 건강하지 못한 정서적 애착을 조장할 수 있다고 지적하며, 스트레이츠 타임스(The Straits Times)의 한 오피니언 칼럼은 이 정책이 더 중요한 AI 안전 원칙으로부터 관심을 돌리게 한다고 주장했다 [slashdot.org#1][straitstimes.com#1].",
+      "talking_points[0]": "윤리적 문제: 슬래시닷은 고통을 느낄 능력이 입증되지 않은 AI를 학대하는 것이 윤리적 문제인지, 아니면 기업이 사용자 행동을 통제하는 방식인지에 대해 의문을 제기한다 [slashdot.org#1].",
+      "perspectives[0].text": "정책 비판자들: 이 규칙은 고객이 비용을 지불한 제품과 어떻게 상호작용할 수 있는지에 대한 의문을 제기한다 [slashdot.org#1]."
+    }
+  },
+  "stats": {
+    "storyCount": 12,
+    "translated": 5,
+    "failedStoryIds": [
+      {
+        "id": "6f709467-9d46-4159-9e3e-96985d12d5c4",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "cb07be76-c19b-4ecd-bde4-c896214d93e5",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "a1594351-8f30-47bd-8f1c-0a94374350a0",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "7c2d4e16-a1ff-4f78-94f8-28a345609dfd",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "66bcdd49-b129-4fe7-beca-5956237573e4",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "8b77e99f-675b-41af-a89d-a88ddb56bf24",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "0d1ddc6f-9e58-436c-94fa-eaba1787c707",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 4948,
+      "out": 5671
+    }
+  }
+}
