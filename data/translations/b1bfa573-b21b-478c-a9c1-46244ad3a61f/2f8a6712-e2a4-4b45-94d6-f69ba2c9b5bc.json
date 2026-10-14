@@ -4,7 +4,7 @@
   "categoryUuid": "2f8a6712-e2a4-4b45-94d6-f69ba2c9b5bc",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-14T15:09:09.158Z",
+  "createdAt": "2026-10-14T15:33:05.337Z",
   "stories": {
     "5ec1973b-05c7-4cd4-830c-2f547c1b1f97": {
       "title": "ASML, AI 수요 힘입어 2026년 매출 전망치 440억~450억 유로로 상향",
@@ -14,30 +14,121 @@
       "talking_points[1]": "장비 업그레이드: 크리스토프 푸케(Christophe Fouquet) 최고경영자(CEO)는 고객사 현장에 설치된 기존 장비의 업그레이드 성과가 예상보다 좋았으며, 이것이 이번 분기 성장에 기여했다고 밝혔다 [cash.ch#1].",
       "business_angle_points[0]": "2028년 판매 가격이 비용보다 빠르게 상승할 경우 수익성이 개선될 가능성이 있다. 이는 회사의 확약이 아닌 분석가들의 가정에 근거한 평가이다 [cnyes.com#1].",
       "perspectives[0].text": "뱅크오브아메리카(Bank of America)의 분석가 디디에 스케마마(Didier Scemama)는 ASML의 DUV 노광 장비 중국 수출 가능성에 대한 불확실성이 여전히 투자자들의 주요 우려 사항이라고 언급했으나, 해당 위험은 주가에 상당 부분 반영된 것으로 보인다고 평가했다 [cnyes.com#1]."
+    },
+    "40a83d03-c045-4bc1-bf82-480a2afb8359": {
+      "title": "미 재무부, 뱅크오브아메리카에 규정 준수 실패로 12억 달러 벌금 부과",
+      "short_summary": "미국 재무부는 화요일 뱅크오브아메리카(Bank of America)에 12억 달러 이상의 벌금을 부과했다. 재무부는 미국 2위 규모인 이 은행이 국가 안보 및 기타 우선순위 위험과 관련된 10억 달러 이상을 포함해 총 50억 달러가 넘는 의심스러운 거래를 보고하지 않았다고 밝혔다 [abcnews.com#1][aa.com.tr#1][bbc.com#1]. 재무부는 중국의 자금 세탁 네트워크, 사기, 그리고 남서부 국경과 관련된 무역 기반 자금 세탁의 잠재적 연루 가능성을 확인했다 [aljazeera.com#1][aa.com.tr#1]. 규제 당국은 해당 은행의 자금 세탁 방지 통제 시스템이 의심스러운 활동을 적절히 식별하고 보고하지 못했으며, 은행 자체의 탐지 노력보다는 외부 문의에 크게 의존했다고 지적했다 [bbc.com#1][aljazeera.com#1]. 이번 합의에는 통화감독청(OCC)의 7억 5천만 달러 규모의 민사 벌금이 포함되며, 별도의 1,160만 달러 합의는 명백한 제재 위반 사항을 다룬다 [abcnews.com#1][aa.com.tr#1]. 뱅크오브아메리카는 규정 준수 프로그램 유지 및 필수 의심 거래 보고서 제출 실패 등 은행비밀법(Bank Secrecy Act)을 고의로 위반했음을 인정했다 [abcnews.com#1][euronews.com#1]. 해당 은행은 독립적인 제3자를 고용해 과거 거래를 검토하고, 누락된 의심 거래를 식별하여 금융범죄단속국(FinCEN)에 보고해야 한다 [rthk.hk#1][businessinsider.com#1]. 뱅크오브아메리카는 10월 14일 수요일로 예정된 3분기 실적에 12억 달러의 세금 공제 불가 비용이 포함될 것이며, 이로 인해 주당 순이익이 약 17센트 감소할 것이라고 밝혔다. 또한 개선 비용은 이미 비용 항목에 포함되어 있다고 덧붙였다 [bbc.com#1][arynews.tv#1].",
+      "did_you_know": "더 내셔널(The National)에 따르면 뱅크오브아메리카는 전 세계적으로 매일 평균 1조 9천억 달러의 고객 전신환을 처리한다 [thenationalnews.com#1].",
+      "quote": "이 정도 규모의 은행이 자금 세탁 방지 및 제재 의무를 이행하지 못하면 그 결과는 은행 내부를 넘어 미국 금융 시스템 전체를 심각한 불법 금융 위험에 노출시킨다.",
+      "quote_attribution": "ABC 뉴스(AP 통신)",
+      "historical_background": "2024년, 통화감독청(OCC)은 뱅크오브아메리카의 은행비밀법 및 자금 세탁 방지 프로그램의 결함을 이유로 시정 명령을 내린 바 있다 [thenationalnews.com#1]. 규제 당국은 이번 벌금을 부과하면서 해당 명령에서 제기된 문제를 은행이 해결하지 못했다고 지적했다 [bbc.com#1][nhandan.vn#1]. 이번 벌금은 2023년 바이낸스(Binance) 및 2024년 TD 뱅크(TD Bank)와의 합의에 이어 재무부 역사상 세 번째로 큰 규모이다 [euronews.com#1].",
+      "business_angle_text": "뱅크오브아메리카는 작년에 9조 달러 이상의 거래를 처리했다 [krdo.com#1].",
+      "talking_points[0]": "제재 사례: 해외자산통제국(OFAC)과의 합의는 이란, 러시아, 마약 밀매 및 국제 테러와 관련된 제재 프로그램을 포함한 475건의 명백한 위반 사항을 해결한다 [aljazeera.com#1][aa.com.tr#1].",
+      "talking_points[1]": "통제 시스템 붕괴: 재무부는 해당 은행이 규정 준수 프로그램을 구축할 때 수익을 우선시했다고 밝혔다 [aljazeera.com#1][nhandan.vn#1].",
+      "talking_points[2]": "규제 명령: 7억 5천만 달러의 OCC 벌금은 해당 규제 기관이 부과한 역대 최대 규모이다 [abcnews.com#1][thenationalnews.com#1].",
+      "talking_points[3]": "투자자 우려: 벌금 발표 후 뱅크오브아메리카의 주가는 시간 외 거래에서 2.7% 하락했다 [arynews.tv#1].",
+      "technical_details[0]": "제재 심사 필터: CNN은 설계 결함으로 인해 이름과 생년월일이 재무부 제재 명단에 있는 사람들과 일치할 때 은행의 필터가 거래 우선순위를 정하지 못했다고 보도했다 [krdo.com#1].",
+      "technical_details[1]": "거래 모니터링: OCC는 은행의 모니터링 시스템이 수십억 달러 규모의 거래에 대한 의심 거래 보고를 지연시켰다고 밝혔다 [arynews.tv#1].",
+      "business_angle_points[0]": "로이터는 벌금과 같은 일회성 항목을 제외한 조정 주당 순이익에 대한 애널리스트들의 컨센서스가 1.10달러였다고 보도했다 [arynews.tv#1].",
+      "industry_impact[0]": "은행 규정 준수: 아메리칸 익스프레스(American Express)는 같은 주에 약 130억 달러 규모의 자금 세탁 혐의와 관련하여 3억 5천만 달러의 벌금을 부과받았다 [thenationalnews.com#1].",
+      "perspectives[0].text": "미 재무부: 재무부는 해당 은행이 마약 밀매, 사기, 무역 기반 자금 세탁과 잠재적으로 연관된 자금에 관한 경고 신호에 적절히 대응하지 못했다고 밝혔다 [nhandan.vn#1].",
+      "perspectives[1].text": "뱅크오브아메리카: 은행 측은 금융 범죄 기술에 수십억 달러를 투자하고 수천 명의 직원을 해당 업무에 배치했으며, 규제 당국이 요구하는 개선 조치를 완료하기 위해 최선을 다하고 있다고 밝혔다 [euronews.com#1].",
+      "perspectives[2].text": "베터 마켓(Better Markets): 데니스 켈러허(Dennis Kelleher) 최고경영자는 임원 및 관리자가 해고나 기소와 같은 개인적 책임을 지지 않는 한 금전적 벌금만으로는 위법 행위를 막을 수 없다고 주장했다 [krdo.com#1].",
+      "perspectives[3].text": "UBS 애널리스트 에리카 나자리안(Erika Najarian): 나자리안은 이번 벌금이 투자자들의 부정적인 심리를 가중시키고 뱅크오브아메리카가 분기별 자사주 매입 속도를 유지할 수 있을지에 대한 의문을 제기할 수 있다고 말하면서도, 규제 당국이 자산 상한선을 부과하지는 않았다고 언급했다 [arynews.tv#1].",
+      "timeline[0].content": "OCC, 규정 준수 결함에 대해 시정 명령 발령 [thenationalnews.com#1]",
+      "timeline[1].content": "재무부, 벌금 및 별도의 제재 합의 발표 [abcnews.com#1][aa.com.tr#1]",
+      "timeline[2].content": "뱅크오브아메리카, 3분기 실적 발표 일정 확정 [bbc.com#1][arynews.tv#1]",
+      "secondary_image.caption": "뱅크오브아메리카는 미국 규제 당국과의 개선 노력이 '상당 부분 진행되었다'고 밝혔다. 블룸버그"
+    },
+    "736a6ab4-5390-4a46-9771-c8d4b6d8104c": {
+      "title": "미국 물가 지표 대기 속 아시아 반도체주 반등",
+      "short_summary": "미국 물가 지표 발표를 앞두고 투자자들의 관망세가 이어지는 가운데, 수요일 아시아 증시는 상승세를 보였다. 한국의 삼성전자와 SK하이닉스는 2% 이상 상승했고, 일본의 키옥시아(Kioxia)는 보합세를 유지했다 [business-standard.com#1]. 이번 반등은 인공지능(AI) 분야의 막대한 지출에 따른 수익성에 대한 재평가가 이루어지면서 아시아와 미국 시장 전반에서 반도체주가 급락한 이후 나타났다 [theguardian.com#1][reuters.com#2]. 이전 거래일에는 삼성전자가 7.4%, SK하이닉스가 10% 하락했으며, 일본과 대만, 미국의 반도체 기업들도 약세를 보였다 [theguardian.com#1]. 브로드컴(Broadcom)의 혹 탄(Hock Tan) 최고경영자(CEO)는 일부 AI 투자자들이 자신이 무엇에 투자하는지도 모른 채 극단적인 기대를 품고 있다고 지적했다. 중국의 메모리 반도체 제조사 CXMT 또한 새로운 D램(DRAM) 아키텍처 개발 성과를 발표하며 경쟁에 대한 우려를 다시 불러일으켰다 [theguardian.com#1][scmp.com#1]. 메모리 반도체 수요는 여전히 견조하고 가격 상승이 실적을 견인하고 있으나, 투자자들은 이러한 상황이 얼마나 지속될지에 대해 의문을 제기하고 있다 [scmp.com#1]. 수요일의 상승세는 미국 물가 보고서를 기다리는 트레이더들의 움직임 속에서 나타났다 [business-standard.com#1].",
+      "quote": "많은 투자자가 자신이 무엇에 투자하고 있는지 전혀 알지 못한다",
+      "quote_attribution": "가디언(The Guardian)",
+      "talking_points[0]": "미국 시장 마감: 필라델피아 반도체 지수는 5거래일 연속 하락하며 27포인트 내린 12,208에 마감했고, 나스닥은 41포인트 하락했다 [ttv.com.tw#1].",
+      "talking_points[1]": "AI에 대한 감시: AI 분야의 높은 지출에 대한 월가의 인내심이 바닥나면서 앤스로픽(Anthropic)의 다가오는 투자자의 날 행사에 이목이 쏠리고 있다 [marketwatch.com#1].",
+      "talking_points[2]": "불균형한 시장: 매도세가 이어지는 동안 런던 FTSE 100 지수는 금융주 강세와 유가 하락, 채권 금리 안정에 힘입어 0.73% 상승한 10,762를 기록했다 [theguardian.com#1].",
+      "talking_points[3]": "수익성에 대한 경고: 탄 CEO는 오픈AI(OpenAI)의 9월 말 기준 연간 매출이 500억 달러에 달했으나, 모델 학습에 막대한 비용을 지출하고 있어 여전히 적자 상태라고 밝혔다 [theguardian.com#1].",
+      "industry_impact[0]": "메모리 반도체: CXMT는 자사의 새로운 D램 아키텍처가 메모리 밀도를 높일 것이라며 제품 출시 계획을 밝혔는데, 이는 삼성전자, SK하이닉스, 마이크론(Micron)과의 경쟁을 심화시킬 가능성이 있다 [theguardian.com#1].",
+      "perspectives[0].text": "브로드컴의 혹 탄 CEO는 일부 투자자들이 AI 기업에 대해 극단적인 기대를 품고 있으며, 이들의 행태를 도박에 비유했다. 그는 또한 AI 연구소의 기업 매출 중 상당 부분이 파일럿 프로젝트에서 발생한다고 언급했다 [theguardian.com#1].",
+      "perspectives[1].text": "IG의 크리스 보챔프(Chris Beauchamp)는 CXMT의 개발 소식이 투자자들에게 메모리 반도체 분야의 경쟁을 상기시켰으며, 이는 기술 개선을 통해 고객에게는 이익이 될 수 있지만 생산자의 마진은 줄어들 수 있다고 분석했다 [theguardian.com#1].",
+      "timeline[0].content": "브로드컴의 혹 탄 CEO, 자본이 AI 확장을 제약할 수 있다고 경고 [news.kagi.com#1]",
+      "timeline[1].content": "투자자들이 AI 지출과 CXMT와의 경쟁을 저울질하면서 반도체 주가 급락 [theguardian.com#1]",
+      "timeline[2].content": "아시아 시장이 미국 물가 지표를 대기하는 가운데 삼성전자와 SK하이닉스 상승 [business-standard.com#1]",
+      "secondary_image.caption": "브로드컴 CEO 혹 탄. © Andrew Leyden/zuma press"
+    },
+    "77d98241-e3ab-4494-b3ae-02190faca7c9": {
+      "title": "프랑스 슈퍼마켓 700곳 사이버 공격 피해… 네덜란드 유통업체 시스템도 차질",
+      "short_summary": "프랑스 재무장관은 화요일 의회에서 프랑스 내 슈퍼마켓 1만 곳 중 약 700곳이 사이버 공격의 영향을 받았다고 밝혔다. 당국은 식료품 체인점들의 냉장 시스템 고장 사건을 조사 중이다 [abcnews.com#1][koreatimes.co.kr#1]. 롤랑 레스퀴르(Roland Lescure) 장관은 식량 공급에 위험은 없으나 이번 공격이 \"우리 식량 안보의 핵심\"을 건드렸다고 설명했다 [abcnews.com#1]. 파리 검찰청 사이버범죄 전담반은 재고 부패 및 화재 신고를 포함한 피해 상황을 조사하고 있다 [abcnews.com#1][lemonde.fr#1]. 협동조합 U(Coopérative U)는 2,000개 매장 중 80곳이 영향을 받았으며, 대부분 냉장 시스템 중단은 피했으나 일부는 식품을 폐기했다고 밝혔다 [abcnews.com#1]. 피해 매장에서 사용된 장비 제조사인 댄포스(Danfoss)는 손상된 시스템 대부분이 소프트웨어나 보안 업데이트를 더 이상 지원하지 않는 구형 모델이라고 설명했다 [abcnews.com#1]. 별도로 네덜란드 유통업체 아홀드 델하이즈(Ahold Delhaize)는 보안 문제 발생 후 일부 시스템을 오프라인으로 전환했으며, 이에 따라 매장은 정상 운영 중이나 여러 브랜드의 웹사이트와 온라인 서비스에 차질이 빚어졌다. 해당 기업은 고객이나 직원 데이터가 유출되었다는 증거는 없다고 밝혔다. 이번 사건과 프랑스 냉장 시스템 공격 간의 연관성은 확인되지 않았다 [abcnews.com#1][theregister.com#1]. 조사관들은 댄포스의 기존 취약점이 악용되었는지 여부를 아직 확인하지 못했다 [theregister.com#1].",
+      "quote": "모두에게 경종을 울리는 사건이었다.",
+      "quote_attribution": "ABC 뉴스",
+      "business_angle_text": "레 무스케테르(Les Mousquetaires)는 수백만 유로의 손실이 발생한 것으로 추산했다 [malwarebytes.com#1].",
+      "talking_points[0]": "피해 유통업체: 레 무스케테르(Les Mousquetaires)는 약 150개 슈퍼마켓이, 까르푸(Carrefour)는 약 80곳이 영향을 받았다고 보고했으며, 모노프리(Monoprix)는 전체 490개 매장 중 약 5%에서 문제가 발생했다고 밝혔다 [theregister.com#1].",
+      "talking_points[1]": "유지보수 권고: 댄포스(Danfoss)는 고객들에게 지원 대상 시스템을 최신 상태로 유지하고 방화벽 뒤에 배치할 것을 당부해 왔다 [abcnews.com#1].",
+      "talking_points[2]": "제상 제어: 르 몽드(Le Monde)는 공격자들이 제상 주기를 1시간에서 8시간으로 늘리고 경보를 지연시켜 직원들의 대응 시간을 단축시켰다고 보도했다 [malwarebytes.com#1].",
+      "talking_points[3]": "알려진 결함: 클라로티(Claroty)는 AK-SM 800A 모델이 날짜를 기반으로 생성된 일일 코드를 수용하여 설정된 관리자 비밀번호를 우회할 수 있다는 점을 발견했다 [theregister.com#1].",
+      "international_reactions[0]": "🇪🇺 유럽연합: 크리스토프 한센(Christophe Hansen) 유럽연합 농업·식품 담당 집행위원은 이번 공격을 규탄하며 식량 안보는 모든 차원에서 주의가 필요하다고 강조했다 [delfi.lv#1].",
+      "technical_details[0]": "영향을 받은 컨트롤러 제품군: 프랑스 사이버보안국(CERT-FR)은 댄포스 AK-SM 및 AK-SC 컨트롤러와 관련된 침해 사례를 보고했다. 복구 지침에는 네트워크 접근 제한, 의심 시스템의 공장 초기화, 패치 적용, 자격 증명 교체 및 장비 재설정이 포함되었다 [theregister.com#1][malwarebytes.com#1].",
+      "technical_details[1]": "인터넷 노출: 쇼단(Shodan) 검색 결과 인터넷에 노출된 댄포스 컨트롤러 엔드포인트가 4,500개 이상 발견되었으며, 절반 이상이 프랑스에 위치한 것으로 나타났다. 이 수치는 잠재적으로 노출된 인터페이스를 의미하며 침해가 확인된 것은 아니다 [theregister.com#1].",
+      "industry_impact[0]": "식료품 유통: 아홀드 델하이즈(Ahold Delhaize)는 보안 문제로 인해 웹사이트와 온라인 서비스뿐만 아니라 유통 시스템에도 차질이 생겼다고 밝혔다. 이후 직원들은 디지털 가격표에 대한 접근 권한을 복구했으나 매장 재고 수준은 여전히 변동적인 상태다 [theregister.com#1].",
+      "perspectives[0].text": "댄포스(Danfoss): 해당 기업은 피해를 최소화하기 위해 영향을 받은 고객들과 협력하고 있다고 밝혔다 [abcnews.com#1].",
+      "perspectives[1].text": "협동조합 U(Coopérative U): 도미니크 셸셰(Dominique Schelcher) 최고경영자는 신선 식품 보관 장비를 표적으로 삼은 것은 \"전례가 없고 극히 심각하며 용납할 수 없는 일\"이라고 비판했다 [abcnews.com#1].",
+      "perspectives[2].text": "클라로티(Claroty): 아미르 프레밍거(Amir Preminger) 최고기술책임자는 원격 접근이 유지보수 비용을 절감해주지만 관리 인터페이스를 노출시킬 수 있다며, 신뢰할 수 있는 관리 네트워크나 VPN 사용 및 네트워크 분할을 권장했다 [theregister.com#1].",
+      "perspectives[3].text": "아홀드 델하이즈(Ahold Delhaize): 해당 유통업체는 고객, 직원, 파트너의 이익을 위해 인프라를 보호하는 것이 최우선 과제라고 밝혔다 [abcnews.com#1].",
+      "timeline[0].content": "미국 사이버보안·인프라보호국(CISA), 댄포스 냉장 컨트롤러의 인증 우회 결함 경고 [news.kagi.com#1]",
+      "timeline[1].content": "CISA, 댄포스 컨트롤러 하드웨어에 영향을 미치는 명령 주입 결함 경고 [news.kagi.com#1]",
+      "timeline[2].content": "프랑스 슈퍼마켓 냉장 시스템 공격, 10월 12일 밤 시작 [lemonde.fr#1][malwarebytes.com#1]",
+      "timeline[3].content": "레스퀴르 장관, 의회에서 슈퍼마켓 약 700곳이 피해를 입었다고 보고 [abcnews.com#1]",
+      "primary_image.caption": "2026년 10월 12일, 캉(Caen)의 르클레르 익스프레스(Leclerc Express) 매장 모습."
+    },
+    "45235237-2cb3-4ccf-a498-4dbfe0e5915b": {
+      "title": "초당적 상원의원들, 트럼프에 러시아산 디젤 면제 조치 철회 촉구",
+      "short_summary": "공화당과 민주당에서 각각 6명씩 총 12명의 상원의원이 화요일 도널드 트럼프 대통령에게 블라디미르 푸틴 러시아 대통령과의 합의에서 탈퇴하고 러시아산 디젤의 세계 시장 유입을 허용한 재무부의 면제 조치를 취소할 것을 촉구했다. 이들은 해당 조치가 미국인들에게는 높은 연료 가격에 대한 실질적인 구제책이 되지 못하면서도 러시아의 대우크라이나 전쟁 자금을 지원하는 결과를 초래할 것이라고 주장했다 [cbsnews.com#1][nytimes.com#1]. 트럼프 대통령은 해당 연료가 미국이 아닌 세계 시장을 위한 것이라고 방어하며, 미국은 높은 가격과 정유 시설 피해로 어려움을 겪어왔다고 말했다 [greaterkashmir.com#1][business-standard.com#1]. 상원의원들은 공급 증가가 가격에 미치는 영향은 미미할 것이며, 러시아의 수익은 모스크바의 전쟁 수행과 중국, 이란, 북한과의 안보 협력을 지원하는 데 쓰일 것이라고 반박했다 [pbs.org#1][cbsnews.com#1]. 타임(TIME)이 인용한 법률 전문가들은 2022년 수입 금지 조치를 해제하려면 사전 협의와 인증 절차가 필요하다고 지적했다. 스콧 베센트(Scott Bessent) 재무장관은 행정부의 법적 권한을 옹호했다 [time.com#1]. 별도의 러시아 제재법 조항 대부분은 10월 18일 발효될 예정이며, 재무부의 임시 면허는 2027년 4월 7일까지 유효하다 [pbs.org#1][greaterkashmir.com#1].",
+      "quote": "그것은 디젤 거래입니다. 우리를 위한 것이 아닙니다. 세계 시장에 풀리는 물량입니다. 우리에게 풀리는 것이 아닙니다.",
+      "quote_attribution": "그레이터 카슈미르(Greater Kashmir)",
+      "location": "미국 워싱턴 DC",
+      "historical_background": "의회는 2022년 4월 '러시아산 석유 수입 금지법(Ending Importation of Russian Oil Act)'을 통과시켜 디젤을 포함한 러시아산 에너지 제품의 미국 내 수입을 금지했다 [time.com#1]. 해당 법은 러시아가 우크라이나에서 철수하고 우크라이나 국민의 정부 선택권 인정 등 기타 조건을 충족해야만 금지 조치를 해제할 수 있도록 규정하고 있다 [time.com#1]. 수입 금지법은 하원에서 414 대 17로 통과되었으며 상원에서도 반대 없이 가결되었다 [pbs.org#1].",
+      "talking_points[0]": "제한적 공급: 초기 225만 배럴 방출량은 미국 소비자가 하루에 사용하는 디젤 양보다 140만 배럴 적으며, 동부 해안으로의 운송에는 통상 2주 이상이 소요된다 [energyconnects.com#1].",
+      "talking_points[1]": "수출 제약: 러시아 부총리는 월 300만 톤의 디젤 수출은 12월 이후에나 가능할 것이라고 밝혔으며, 분석가들은 이번 선적이 전 세계 공급량을 전반적으로 증가시킬 수 있을지 의문을 제기했다 [energyconnects.com#1].",
+      "talking_points[2]": "연료 시장 동인: 블룸버그(Bloomberg) 분석에 따르면 높은 디젤 가격의 주된 원인은 이란 전쟁으로 인한 호르무즈 해협 통행 차질이다. 우크라이나의 정유 시설 타격 이후 러시아의 수출 제한 조치 또한 공급을 제한했다 [energyconnects.com#1].",
+      "international_reactions[0]": "🇪🇺 유럽연합(EU): 카야 칼라스(Kaja Kallas) EU 외교안보 고위대표는 미국에 전쟁 종식을 돕기 위해 제재를 가할 것을 촉구하며, 이번 디젤 합의가 모스크바의 전쟁 노력을 강화할 수 있다고 경고했다 [energyconnects.com#1].",
+      "international_reactions[1]": "🇷🇺 러시아: 블라디미르 푸틴 러시아 대통령은 러시아가 미국 및 세계 시장에 석유와 석유 제품을 공급할 준비가 되어 있다고 말했다 [cbsnews.com#1].",
+      "technical_details[0]": "법적 면제 절차: 2022년 법은 인증 최소 45일 전 하원 및 상원 관련 위원회와의 협의와 대통령 보고를 요구한다. 인증 후에는 90일간의 기간이 추가로 주어지며, 이 기간 동안 의회는 금지 조치 종료를 저지할 수 있다 [time.com#1].",
+      "technical_details[1]": "기록적인 수준의 운송 비용은 이번 물량 공급이 가격에 미치는 영향을 더욱 제한할 수 있다 [energyconnects.com#1].",
+      "perspectives[0].text": "도널드 트럼프 대통령: 이번 합의는 초기 30만 톤 이상, 11월에 50만 톤, '그 직후' 100만 톤을 공급하는 내용을 담고 있다 [greaterkashmir.com#1].",
+      "perspectives[1].text": "초당적 상원 그룹: 상원의원들은 트럼프 대통령에게 최근 제정된 제재법을 활용하여 러시아와 그 전쟁을 지원하는 국가들에 경제적 압박을 가할 것을 촉구했다 [cbsnews.com#1].",
+      "perspectives[2].text": "크리스틴 아이헨서(Kristen Eichensehr), 하버드 로스쿨 교수: 아이헨서 교수는 러시아가 우크라이나를 계속 공격하는 상황에서는 러시아의 철수, 적대 행위 중단, 나토(NATO)에 대한 즉각적인 위협 부재라는 법적 인증 요건을 충족할 수 없다고 지적했다 [time.com#1].",
+      "timeline[0].content": "의회가 초당적 찬성으로 러시아 에너지 수입 금지법을 통과시켰다 [pbs.org#1].",
+      "timeline[1].content": "트럼프 대통령이 푸틴 대통령과의 회담 후 러시아산 디젤 공급 합의를 발표했다 [greaterkashmir.com#1].",
+      "timeline[2].content": "양당 상원의원 12명이 트럼프 대통령에게 합의 철회를 촉구했다 [cbsnews.com#1].",
+      "timeline[3].content": "새로운 러시아 제재법의 대부분 조항이 발효될 예정이다 [pbs.org#1].",
+      "primary_image.caption": "리처드 블루멘탈(Richard Blumenthal) 코네티컷주 민주당 상원의원이 주도한 이 서한은, 모스크바와 그 동맹국들에 대한 경제적 압박을 강화하기 위한 법안이 의회에서 압도적으로 통과된 지 불과 몇 주 만에 나왔다.",
+      "secondary_image.caption": "미국 대통령은 이번 결정을 옹호했다 (재클린 마틴/AP) - (AP)"
+    },
+    "6ed9910e-9f0b-4cab-8dff-9ae515d1b173": {
+      "title": "CVS, 연방 오피오이드 소송서 3억 1,500만 달러 합의",
+      "short_summary": "CVS 파머시(CVS Pharmacy)와 여러 자회사가 의학적으로 불필요한 오피오이드 및 기타 규제 약물 처방전을 조제했다는 미 법무부의 소송을 해결하기 위해 3억 1,500만 달러를 지급하기로 합의했다 [abcnews.com#1][fastcompany.com#1]. 법무부 관계자들은 이번 합의에 따라 CVS가 의학적으로 적절한 경우에만 처방전이 조제되도록 안전장치를 추가해야 한다고 밝혔다 [abcnews.com#1]. 2024년 제기된 이 소송은 CVS가 이른바 '필 밀(pill mills, 불법 처방 병원)'로 알려진 의료 제공자들의 고용량 처방전을 조제했으며, 인력 수준과 성과 지표, 인센티브 급여 등이 약사들이 처방전의 적법성을 확인하지 않고 조제하게 만든 원인이 되었다고 주장했다 [abcnews.com#1][beckershospitalreview.com#1]. CVS는 해당 주장에 강력히 반대하며 자사의 약물 안전 프로그램을 '업계 최고 수준'이라고 설명했고, 이번 합의에 어떠한 잘못도 인정하는 내용은 포함되지 않았다고 밝혔다 [abcnews.com#1][fastcompany.com#1].",
+      "quote": "오늘의 합의는 규제 약물 처방전을 불법적으로 조제하는 약국을 단속함으로써 오피오이드 위기를 퇴치하려는 법무부 노력의 중요한 이정표이다",
+      "quote_attribution": "ABC 뉴스",
+      "historical_background": "지난 10년간 제약사, 도매업체, 약국 및 기타 기업들은 미국 정부와 총 500억 달러가 넘는 오피오이드 위기 관련 합의를 체결했다 [abcnews.com#1][fastcompany.com#1]. 합의금과 자금의 대부분은 주 및 지방 정부가 수령했으며, 연방 당국은 지난 2년간 월그린스(Walgreens) 및 월마트(Walmart)와 합의에 도달했다 [abcnews.com#1].",
+      "talking_points[0]": "연방 청구: 소송은 메디케이드(Medicaid) 및 기타 연방 건강 보험 프로그램이 문제의 처방전에 대해 종종 비용을 상환했다고 주장했다 [abcnews.com#1][fastcompany.com#1].",
+      "talking_points[1]": "약물 조합: 베커스 호스피털 리뷰(Becker’s Hospital Review) 보도에 따르면, 법무부의 혐의에는 오피오이드와 기타 규제 약물의 '트리니티(trinity)' 조합도 포함되었다 [beckershospitalreview.com#1].",
+      "talking_points[2]": "오피오이드 위기 피해: 이 위기는 일부 연도에 미국 내 10만 명 이상의 사망자와 연관되어 있으나, 최근 사망자 수는 급격히 감소했다 [abcnews.com#1].",
+      "perspectives[0].text": "CVS: 2024년, CVS는 오피오이드 처방전을 조제할 때 약사들이 '모호하고 정의되지 않으며 끊임없이 변화하는 관행 기준'을 적용받고 있다고 주장했다 [abcnews.com#1].",
+      "suggested_qna[0].question": "소송에서 CVS가 위반했다고 주장한 법률은 무엇인가?",
+      "suggested_qna[0].answer": "법무부는 CVS가 고용량의 강력한 오피오이드에 대한 불법적인 처방전을 조제함으로써 규제약물법(Controlled Substances Act)을 위반했다고 비난했다 [abcnews.com#1]."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 1,
+    "translated": 6,
     "failedStoryIds": [
       {
         "id": "d9d2da38-1ce2-4b10-96ad-7b884b44891f",
         "reason": "retry_exhausted"
       },
       {
-        "id": "40a83d03-c045-4bc1-bf82-480a2afb8359",
-        "reason": "retry_exhausted"
-      },
-      {
         "id": "4e47b345-cb34-4566-a6c6-4c7ebab00b6f",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "736a6ab4-5390-4a46-9771-c8d4b6d8104c",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "77d98241-e3ab-4494-b3ae-02190faca7c9",
         "reason": "retry_exhausted"
       },
       {
@@ -53,21 +144,13 @@
         "reason": "retry_exhausted"
       },
       {
-        "id": "45235237-2cb3-4ccf-a498-4dbfe0e5915b",
-        "reason": "retry_exhausted"
-      },
-      {
         "id": "50f5625b-fd3c-4127-9c12-10e357243c7d",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "6ed9910e-9f0b-4cab-8dff-9ae515d1b173",
         "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 850,
-      "out": 813
+      "in": 7653,
+      "out": 9409
     }
   }
 }

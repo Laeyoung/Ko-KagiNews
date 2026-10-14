@@ -4,7 +4,7 @@
   "categoryUuid": "9d140503-5c8c-45f3-9e38-b5fca4312051",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-14T15:11:55.672Z",
+  "createdAt": "2026-10-14T15:40:37.792Z",
   "stories": {
     "fb8f0edd-e776-4343-af20-a1c832997212": {
       "title": "구글, 개발자 및 기업 대상 '제미나이 4 아르곤' 글로벌 출시",
@@ -87,11 +87,31 @@
       "timeline[4].content": "Character.AI가 델라웨어주에서 파산법 제11조 보호를 신청했다[decrypt.co#1][cbsnews.com#1]",
       "suggested_qna[0].question": "파산 매각 절차가 진행되는 동안 유료 구독은 어떻게 되나요?",
       "suggested_qna[0].answer": "Character.AI는 구독이 활성 상태로 유지되며 결제도 계속된다고 밝혔다. 유료 기능에 영향을 미치는 서비스 변경 사항이 있을 경우 구독자에게 사전에 알릴 예정이다[cbsnews.com#1][arstechnica.com#1]."
+    },
+    "c13d06ce-b526-4df0-aa5b-1c05f9d969be": {
+      "title": "마이크로소프트, AI 시대 게임 포팅 및 리믹스 테스트 위한 'Xbox 랩스' 신설",
+      "short_summary": "마이크로소프트는 스콧 밴 블리엣(Scott Van Vliet) Xbox 최고기술책임자(CTO)가 이끄는 소규모 팀인 'Xbox 랩스(Xbox Labs)'를 구성하여 게이머와 개발자를 위한 신기술 실험을 진행한다. 아샤 샤르마(Asha Sharma) Xbox CEO는 애플 실리콘용으로 개조된 윈도우 게임이나 브라우저 게임 등 기존 하드웨어 설계를 넘어선 게임 재구축 사례를 언급하며, 게임 접근성을 높이고 플레이어의 창작을 장려하기 위한 새로운 방식을 모색하겠다고 밝혔다[geekwire.com#1][theverge.com#1][gematsu.com#1]. 샤르마 CEO는 팀이 개방적으로 운영될 것이며 사용자로부터 배우고, 더 많은 사람이 게임을 즐기고 창작하게 되는지를 성공의 척도로 삼겠다고 설명했다. Xbox는 해당 팀의 도구를 업계 전반의 게임 개발자들과 공유할 계획이며, 랩스가 기존의 게임, 하드웨어, 지식재산권(IP) 관련 업무를 대체하지는 않을 것이라고 덧붙였다[geekwire.com#1][gematsu.com#1]. 한편, 일부 퍼블리셔들은 팬들이 제작한 포트나 게임 코드 매시업에 대해 중단 명령(cease-and-desist)을 내리며 대응해 왔다[pcmag.com#1][polygon.com#1]. Xbox는 아직 첫 번째 랩스 프로젝트를 공개하지 않았으며, 현재 웹사이트를 통해 이메일 구독을 받고 실험을 준비 중이다[pcmag.com#1][xda-developers.com#1].",
+      "quote": "이러한 결과는 기존 비즈니스 모델에 도전이 될 때조차(때로는 바로 그 이유 때문에) 플레이어들에게는 명백히 긍정적인 성과입니다.",
+      "quote_attribution": "GeekWire",
+      "talking_points[0]": "브라우저 지원: 샤르마 CEO는 일부 브라우저 기반 포팅에 사용되는 WebGPU가 전 세계 브라우저의 90%에서 지원을 앞두고 있다고 언급했다[pcmag.com#1][gematsu.com#1].",
+      "talking_points[1]": "팬 실험: 최근 프로젝트로는 128인용 브라우저 멀티플레이어를 지원하는 '헤일로: 컴뱃 이볼브드(Halo: Combat Evolved)'와 서로 관련 없는 게임의 캐릭터나 요소를 결합한 매시업 등이 있다[polygon.com#1][theverge.com#1].",
+      "talking_points[2]": "게임 규모: 샤르마 CEO는 매년 Xbox 게임 플레이에 소비되는 시간이 720억 시간을 넘어서며, 이는 전 세계 코딩에 소비되는 추정 시간의 약 5배에 달한다고 밝혔다[geekwire.com#1][gematsu.com#1].",
+      "talking_points[3]": "AI 명칭 미사용: 샤르마 CEO의 발표에는 인공지능이라는 단어가 직접 언급되지 않았으나, 코딩 에이전트와 신흥 게임 기술에 대한 논의가 포함되었다. 관련 보도들은 이번 이니셔티브를 AI 기반 디컴파일 기술과 연결 짓고 있다[geekwire.com#1][kotaku.com#1][frandroid.com#1].",
+      "talking_points[4]": "인력 재편: 이번 랩스 설립은 약 3,200명의 Xbox 인력 감축 계획 이후 마이크로소프트가 약 75% 완료되었다고 밝힌 구조조정 과정에서 이루어졌다[geekwire.com#1].",
+      "perspectives[0].text": "아샤 샤르마 Xbox CEO는 Xbox가 자사의 지식재산권과 그 주변에 형성된 커뮤니티를 관리하는 책임을 계속 유지할 것이라고 밝혔다[geekwire.com#1].",
+      "timeline[0].content": "샤르마 CEO는 게임은 인간이 직접 제작해야 한다고 강조하며 Xbox에 AI 콘텐츠가 범람하는 것을 거부했다[geekwire.com#1][polygon.com#1]",
+      "timeline[1].content": "샤르마 CEO는 모바일용 '게이밍 코파일럿(Gaming Copilot)'을 철수하고 콘솔 출시를 취소했다[geekwire.com#1]",
+      "timeline[2].content": "샤르마 CEO는 신기술 실험을 위한 팀으로 'Xbox 랩스'를 발표했다[geekwire.com#1][ign.com#1]",
+      "suggested_qna[0].question": "플레이어들은 Xbox 랩스의 실험 소식을 어떻게 알 수 있는가?",
+      "suggested_qna[0].answer": "사이트에 따르면 구독을 신청한 사람들은 실험이 이용 가능해질 때 이메일로 알림을 받게 된다[pcmag.com#1][xda-developers.com#1].",
+      "suggested_qna[1].question": "팀에서 개발자들에게 AI 사용을 필수로 요구할 것인가?",
+      "suggested_qna[1].answer": "Habr의 보도에 따르면 마이크로소프트는 Xbox 랩스에서 AI나 특정 기술을 사용해야 한다는 직접적인 요구 사항은 없다고 밝혔다[habr.com#1].",
+      "primary_image.caption": "브라우저 플레이 게임 실험 보도와 함께 사용된 '헤일로: 컴뱃 이볼브드' 이미지"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 4,
+    "translated": 5,
     "failedStoryIds": [
       {
         "id": "473d37de-0a2e-4756-aaf5-1fb26983c416",
@@ -118,17 +138,13 @@
         "reason": "retry_exhausted"
       },
       {
-        "id": "c13d06ce-b526-4df0-aa5b-1c05f9d969be",
-        "reason": "retry_exhausted"
-      },
-      {
         "id": "885d17af-604e-448a-88c6-18595583c7fa",
         "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 5746,
-      "out": 7215
+      "in": 6965,
+      "out": 8741
     }
   }
 }
