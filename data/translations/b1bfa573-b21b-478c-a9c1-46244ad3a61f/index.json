@@ -1,7 +1,7 @@
 {
   "version": 1,
   "batchId": "b1bfa573-b21b-478c-a9c1-46244ad3a61f",
-  "updatedAt": "2026-10-14T16:09:48.492Z",
+  "updatedAt": "2026-10-14T17:10:40.599Z",
   "categories": {
     "3442e03a-1a45-45c8-be92-4a7075c19e5c": {
       "slug": "science",
@@ -74,9 +74,9 @@
     "status": "skipped"
   },
   "run": {
-    "attempted": 36,
+    "attempted": 33,
     "failed": 33,
-    "failureRatePct": 91.66666666666666,
+    "failureRatePct": 100,
     "unresolvedSlugs": []
   }
 }
