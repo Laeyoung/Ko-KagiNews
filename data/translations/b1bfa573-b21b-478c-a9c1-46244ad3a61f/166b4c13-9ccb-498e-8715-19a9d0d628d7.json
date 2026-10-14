@@ -4,7 +4,7 @@
   "categoryUuid": "166b4c13-9ccb-498e-8715-19a9d0d628d7",
   "categorySlug": "usa",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-14T15:30:23.230Z",
+  "createdAt": "2026-10-14T16:04:36.763Z",
   "stories": {
     "5bac43a3-7655-4d3e-8454-a37b696f99ae": {
       "title": "트럼프 행정부, 의혹 제기된 길포일 주그리스 대사 사임 압박",
@@ -117,16 +117,35 @@
       "suggested_qna[0].question": "더 내셔널(The National)에 따르면 뱅크오브아메리카의 거래 사업 규모는 어느 정도인가?",
       "suggested_qna[0].answer": "더 내셔널은 해당 은행이 전 세계적으로 매일 평균 1조 9천억 달러의 고객 송금을 처리한다고 보도했다[thenationalnews.com#1].",
       "secondary_image.caption": "뱅크오브아메리카는 미국 규제 당국과의 시정 노력이 '상당 부분 진척되었다'고 밝혔다. 블룸버그(Bloomberg)"
+    },
+    "29b24e84-a717-4279-afb8-9500f786fb23": {
+      "title": "미 법무부, 이민 조사 관련 일한 오마르 의원 친인척 소환",
+      "short_summary": "사건에 정통한 관계자들에 따르면 미 법무부(DOJ)는 일한 오마르(Ilhan Omar) 의원의 가족 이민 기록을 조사하는 과정에서 오마르 의원의 자매인 사라 누르(Sahra Noor)와 최소 한 명 이상의 친인척을 소환했다 [nytimes.com#1][boston.com#1]. 이번 소환은 월요일 진행된 오마르 의원의 워싱턴 지역 자택 압수수색에 따른 것이며, 오마르 의원의 작고한 부친이 미국 시민권 취득 전 이민 서류에 허위 진술을 했거나 정보를 누락했는지 여부를 일부 조사하고 있다 [nytimes.com#1][aa.com.tr#1]. 소환장은 증거 확보를 위한 절차일 뿐, 소환 대상자가 범죄 혐의를 받고 있다는 것을 의미하지는 않는다 [boston.com#1]. 별도로 워싱턴 연방 검사장인 제닌 피로(Jeanine Pirro)는 오마르 의원의 재산 공개 내역을 조사 중이라고 밝혔다. 해당 공개 내역에는 오마르 의원 부부의 순자산이 2023년 1만 5,000달러~5만 1,000달러, 2024년 600만 달러~3,000만 달러로 기재되어 있었다. 오마르 의원은 이후 회계상의 착오라며 수치를 하향 조정했다 [nypost.com#2]. 도널드 트럼프 대통령은 소셜 미디어를 통해 보고된 재산이 사기에서 비롯된 것이라고 주장했으나, 조사의 범위와 증거는 공개되지 않았다 [boston.com#1][nypost.com#2]. 오마르 의원은 혐의를 부인하며 이번 연방 조사가 정치적 동기에 의한 것이라고 주장하고 있다 [boston.com#1][pbs.org#1]. 현재까지 오마르 의원에 대한 기소는 발표되지 않았다. 중간선거는 11월 3일이다 [rte.ie#1][boston.com#1].",
+      "quote": "적법 절차에 대한 추정의 권리를 어느 정도 상실했다",
+      "quote_attribution": "Boston.com",
+      "location": "미국 워싱턴 D.C.",
+      "talking_points[0]": "조사 이력: 사건에 정통한 한 관계자는 이번 조사가 내부 고발자의 제보와 문서, 증인 진술 등을 포함해 수년간 진행되어 온 사안이라고 설명했다 [npr.org#1][41nbc.com#1].",
+      "talking_points[1]": "선거 프로토콜: 법무부는 일반적으로 선거 60일 전부터 후보자에게 영향을 줄 수 있는 공개적인 수사 활동을 자제하는 관례가 있으나, 이 지침이 법적 구속력을 갖는 것은 아니다 [gpb.org#1][thecitizen.co.tz#1].",
+      "talking_points[2]": "정당 반응: 미네소타주 공화당 톰 에머(Tom Emmer) 의원은 법 앞에 예외는 없다고 언급하며, 이번 압수수색과 조사에 대한 더 자세한 정보를 요구했다 [nation.com.pk#1].",
+      "talking_points[3]": "지도부 검토: 소식통은 NPR에 트렌트 맥코터(Trent McCotter) 법무부 차관 대행을 포함한 법무부 고위 관계자들이 압수수색 전 협의를 거쳤다고 전했다 [gpb.org#1].",
+      "perspectives[0].text": "일한 오마르: 오마르 의원 캠프는 이번 압수수색을 기부금 모금에 활용하며, 조사가 '터무니없다'고 비판하고 지지자들에게 기부를 요청했다 [nypost.com#1].",
+      "perspectives[1].text": "도널드 트럼프 대통령: 트럼프 대통령은 이번 압수수색이 자신과는 무관하다고 밝히며, 오마르 의원을 개인적으로 부정직한 인물이라고 묘사했다 [pbs.org#1].",
+      "perspectives[2].text": "JD 밴스(JD Vance) 부통령: 밴스 부통령은 압수수색에 대해 사전 통보를 받지 못했으며, 수사관들이 싫어하는 사람을 쫓기 위해 사실을 조작하기보다 증거를 따라야 한다고 말했다 [index.hr#1].",
+      "perspectives[3].text": "마이크 존슨(Mike Johnson) 하원의장: 존슨 의장은 조사가 진행되는 동안 지켜보며 사법 시스템이 작동하도록 두어야 한다고 촉구했으며, 대중이 사안을 판단할 수 있을 것이라고 말했다 [index.hr#1].",
+      "perspectives[4].text": "팀 월즈(Tim Walz) 미네소타 주지사: 월즈 주지사는 소수의 행동을 근거로 전체 공동체를 악마화하는 것을 비판하며, 소말리아계 공동체를 지지한다고 밝혔다 [kaaltv.com#1].",
+      "timeline[0].content": "오마르 의원 측, 공적 기록상의 출생 연도 정정 요청 [nypost.com#4]",
+      "timeline[1].content": "미국 이민국(USCIS), 오마르 의원 부친의 귀화 기록을 찾을 수 없다고 답변 [nypost.com#3]",
+      "timeline[2].content": "국토안보부 요원들, 오마르 의원의 워싱턴 지역 자택 압수수색 [nypost.com#2][cbsnews.com#1]",
+      "timeline[3].content": "오마르 의원의 자매 및 다른 친인척에 대한 소환장 발부 보도 [nytimes.com#1][aa.com.tr#1]",
+      "suggested_qna[0].question": "소환 대상자 중 한 명인 사라 누르에 대해 알려진 바는 무엇인가?",
+      "suggested_qna[0].answer": "누르는 의료 전문가이자 저자이며, 미니애폴리스에 기반을 둔 컨설팅 회사를 운영하고 있다 [boston.com#1][nypost.com#2].",
+      "primary_image.caption": "일한 오마르 의원의 이민 기록은 과거 연방 당국에 의해 조사받은 적이 있으나, 기소로 이어진 바는 없다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 5,
+    "translated": 6,
     "failedStoryIds": [
-      {
-        "id": "29b24e84-a717-4279-afb8-9500f786fb23",
-        "reason": "retry_exhausted"
-      },
       {
         "id": "6eb7ef4e-eec4-45cd-999f-1b63230f8e97",
         "reason": "retry_exhausted"
@@ -153,8 +172,8 @@
       }
     ],
     "tokens": {
-      "in": 7131,
-      "out": 9094
+      "in": 8530,
+      "out": 10903
     }
   }
 }
