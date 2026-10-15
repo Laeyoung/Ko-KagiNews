@@ -59,6 +59,16 @@ Route params are validated by matchers in `src/params/` (`batchId` accepts UUID,
 - `src/lib/components/` — Svelte 5 components (feature-grouped: `contribute/`, `crypto/`, `f1/`, `nfl/`, `nhl/`, `common/`).
 - `src/lib/data/migrations/` — versioned localStorage/settings migrations.
 - `src/lib/locales/*.json` — UI i18n (16 languages; no `ko.json` yet). `src/lib/constants/languages.ts` lists `SUPPORTED_LANGUAGES` (`ko` already declared).
+- `src/lib/client/clarity.ts` — third-party analytics loader; see [Analytics](#analytics-microsoft-clarity) below.
+
+## Analytics (Microsoft Clarity)
+
+`src/lib/client/clarity.ts` is the **only** third-party analytics in the app (heatmaps + **session recordings**). It is scheduled from the root layout's `onMount` and runs on idle. The default project id in `clarity.ts` is this fork's Clarity project; forks must override it via `VITE_CLARITY_PROJECT_ID`.
+
+- **Gate**: loads only when `VITE_CLARITY_ENABLED=true` at build time — set it on the production environment only, since preview/CI builds are also `dev === false`. Not a runtime kill-switch: removing the var needs a redeploy.
+- **No cookie-consent gate exists yet.** Do not enable the flag before a consent gate and a privacy notice ship (GDPR Art.6/ePrivacy 5(3), PIPA Art.15/22, 28-8, 30).
+- **Masking**: the `data-clarity-mask="true"` attribute (masks a node and its descendants) is applied to the surfaces enumerated in the `clarity.ts` docstring — that docstring is the canonical list. Add the attribute when introducing UI that renders user input outside a real form field; dashboard masking mode is assumed to be **Strict** and only covers form fields on Balanced.
+- **Verifying it is live**: load production and confirm a `clarity.ms/tag/` request in the network panel, then check the Clarity dashboard's live sessions.
 
 ## Community data files (edited via PR, validated in CI)
 

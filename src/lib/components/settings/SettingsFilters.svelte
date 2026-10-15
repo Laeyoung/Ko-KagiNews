@@ -302,7 +302,9 @@ $effect(() => {
 
   <!-- Active Filters -->
   {#if contentFilter.keywords.length > 0}
-    <div>
+    <!-- data-clarity-mask: keywords are user-authored and render as plain text
+         chips, so they are outside Clarity's form-field masking. -->
+    <div data-clarity-mask="true">
       <h4 class="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
         {s("settings.contentFilter.activeFilters") || "Active Filters"}
       </h4>

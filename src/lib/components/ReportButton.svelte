@@ -312,8 +312,10 @@ function handleKeydown(event: KeyboardEvent) {
 
     <!-- Error/Success Messages -->
     {#if errorMessage}
+      <!-- data-clarity-mask: errorMessage can quote a URL the user pasted. -->
       <div
         class="p-3 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg"
+        data-clarity-mask="true"
       >
         <p class="text-sm text-red-600 dark:text-red-400">{errorMessage}</p>
       </div>

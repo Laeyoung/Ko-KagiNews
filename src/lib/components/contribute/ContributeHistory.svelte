@@ -95,7 +95,8 @@ function formatRelativeDate(date: Date): string {
 					></div>
 
 					<!-- Category -->
-					<span class="font-medium text-primary truncate min-w-0">
+					<!-- data-clarity-mask: may be a custom category name the user typed. -->
+					<span class="font-medium text-primary truncate min-w-0" data-clarity-mask="true">
 						{contribution.category}
 					</span>
 
@@ -149,7 +150,8 @@ function formatRelativeDate(date: Date): string {
 						<!-- Decline reason -->
 						{#if contribution.pipelineStatus === 'declined' && contribution.declineReason}
 							<div class="mb-3 p-2.5 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-md">
-								<p class="text-xs text-red-700 dark:text-red-300">
+								<!-- data-clarity-mask: free text about the user's own submission. -->
+								<p class="text-xs text-red-700 dark:text-red-300" data-clarity-mask="true">
 									<span class="font-medium">{s('contribute.history.declineReason')}:</span>
 									{contribution.declineReason}
 								</p>
