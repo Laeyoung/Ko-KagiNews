@@ -1,7 +1,7 @@
 {
   "version": 1,
   "batchId": "fed13f28-8012-4ad1-b2e8-6a69bd454d80",
-  "updatedAt": "2026-10-16T18:06:48.950Z",
+  "updatedAt": "2026-10-16T19:24:24.680Z",
   "categories": {
     "f3042772-84db-46df-9e24-efd18882b254": {
       "slug": "business",
@@ -40,11 +40,11 @@
       "slug": "world",
       "status": "ok",
       "storyCount": 12,
-      "translated": 0,
-      "failed": 12,
+      "translated": 3,
+      "failed": 9,
       "tokens": {
-        "in": 0,
-        "out": 0
+        "in": 3874,
+        "out": 4657
       }
     },
     "4c811f36-fd7a-4da9-a495-b5905eb3b9b0": {
@@ -75,8 +75,8 @@
   },
   "run": {
     "attempted": 63,
-    "failed": 63,
-    "failureRatePct": 100,
+    "failed": 60,
+    "failureRatePct": 95.23809523809523,
     "unresolvedSlugs": []
   }
 }

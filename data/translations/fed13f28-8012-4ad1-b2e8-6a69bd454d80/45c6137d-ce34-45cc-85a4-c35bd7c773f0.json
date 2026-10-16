@@ -4,26 +4,71 @@
   "categoryUuid": "45c6137d-ce34-45cc-85a4-c35bd7c773f0",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-16T17:53:09.159Z",
-  "stories": {},
+  "createdAt": "2026-10-16T19:10:40.639Z",
+  "stories": {
+    "90557961-970c-4808-84b6-2ab28fea85e0": {
+      "title": "예멘 아덴 정부 청사 후티 반군 공격으로 5명 사망",
+      "short_summary": "카심 부하이베(Qasim Buhaibeh) 보건장관에 따르면, 목요일 예멘 후티 반군이 아덴의 알 마시크(Al-Maashiq) 궁전 단지에 미사일 5발을 발사해 5명이 사망하고 16명이 부상했다. 해당 궁전에는 예멘의 국제 공인 정부와 정부군 및 사우디아라비아 주도 연합군이 사용하는 지휘 시설이 있다. 샤야 알 진다니(Shaya al-Zindani) 총리와 내각 구성원들은 무사한 것으로 확인되었다. 후티 반군은 사우디 군사 작전 본부를 표적으로 삼았다고 밝혔으며, 예멘 정부는 이번 공격에 미사일과 드론이 동원되었다고 전했다 [theguardian.com#1][bbc.co.uk#1][france24.com#1][japantoday.com#1]. 4년간 이어진 비공식 휴전은 7월부터 흔들리기 시작했으며, 9월 후티 반군이 공세를 시작하면서 교전이 격화되었다. 후티 반군은 예멘 홍해 연안을 따라 세력을 확장했고, 사우디의 공중 지원을 받는 정부군은 주요 해상 경로인 바브엘만데브 해협 인근 영토 탈환을 시도하고 있다. 후티 반군의 공격은 사우디 인프라를 타격하고 항공 운항에도 차질을 빚게 했다. 이번 지역 분쟁은 석유 시장에도 영향을 미치고 있다 [bbc.co.uk#1][japantoday.com#1][theguardian.com#1][brecorder.com#1]. 사우디아라비아는 이란이 후티 반군의 확전을 부추기고 있다고 비난했다. 테헤란은 후티 반군에 무기를 공급했다는 의혹을 부인해 왔다. 유엔 안전보장이사회는 민간 공항과 상업용 선박에 대한 위협을 포함해 사우디아라비아를 겨냥한 공격들을 규탄했다. 알 진다니 총리는 아덴 공격을 규탄하며 정부가 후티 반군에 대한 작전을 계속할 것이라고 밝혔다 [bbc.co.uk#1][theguardian.com#1].",
+      "location": "예멘 아덴",
+      "talking_points[0]": "리야드 공항: 사우디 주도 연합군은 후티 반군이 10월 한 달간 리야드의 킹 칼리드 국제공항을 20차례 공격해 17명이 사망하고 333명이 부상했다고 밝혔다. 이는 연합군 측의 주장이다 [japantoday.com#1][dw.com#1].",
+      "talking_points[1]": "마리브 포격: 마리브 주 당국은 목요일 후티군이 마리브 시를 향해 탄도 미사일 9발과 기타 발사체 7발을 발사했다고 밝혔다 [deccanchronicle.com#1][freepressjournal.in#1].",
+      "talking_points[2]": "회담 거부: 사우디 관리 라예드 크림리(Rayed Krimly)는 교전이 격화되자 사우디가 후티 반군에 무스카트에서 회담할 것을 제안했으나 거부당했다고 밝혔다. 그는 사우디가 이란과 계속 접촉 중이라고 덧붙였다 [brecorder.com#1][arynews.tv#1].",
+      "talking_points[3]": "정부군 공세: 마제드 알 누자일리(Majed al-Nuzaili) 예멘 정부 대변인은 지난 24시간 동안 정부군이 후티 반군 거점을 1,250회 공격해 차량 150대를 파괴했다고 주장했다 [freepressjournal.in#1][deccanchronicle.com#1].",
+      "talking_points[4]": "항공 운항 차질: 플라이트레이더24(Flightradar24)는 공격과 방공망 가동으로 사우디 항공편이 영향을 받으면서 제다 공항에서 수십 건의 결항 및 지연 사태가 발생했다고 보도했다 [theguardian.com#1].",
+      "international_reactions[0]": "🇺🇳 국제민간항공기구(ICAO): 이사회는 최근 사우디 민간 공항, 항공기 및 항공 인프라에 대한 공격을 규탄했다 [japantoday.com#1][mediafax.ro#1].",
+      "perspectives[0].text": "후티 반군: 야히아 사리(Yahya Saree) 군 대변인은 이번 공격이 사우디 군사 작전 본부를 겨냥한 것이라며, 사우디의 군사 배치는 위치를 불문하고 정당한 공격 대상이라고 설명했다 [bbc.co.uk#1][thenationalnews.com#1].",
+      "perspectives[1].text": "예멘 정부: 라샤드 알 알리미(Rashad al-Alimi) 대통령 지도위원회 위원장은 이번 공격이 공항과 석유 시설에 대한 공격의 연장선이라며, 당국에 국가 기관 보호와 위협 대응을 지시했다 [freepressjournal.in#1].",
+      "timeline[0].content": "후티 반군이 사나를 점령하면서 예멘의 국제 공인 정부가 남부로 밀려남 [japantoday.com#1][bbc.co.uk#1]",
+      "timeline[1].content": "사우디 주도 연합군이 정부 지원을 위해 예멘 내전에 개입함 [japantoday.com#1][bbc.co.uk#1]",
+      "timeline[2].content": "휴전이 시작되면서 수년간 교전이 감소함 [japantoday.com#1][theguardian.com#1]",
+      "timeline[3].content": "후티 반군이 사우디아라비아에 대한 해상 봉쇄를 선언하고 사우디 표적을 향해 미사일 및 드론 공격을 시작하면서 4년간 이어진 비공식 휴전이 흔들리기 시작함 [bbc.co.uk#1]",
+      "timeline[4].content": "후티 반군이 예멘 홍해 연안을 따라 바브엘만데브 해협 방향으로 진격함 [rt-english.com#1][bbc.co.uk#1]",
+      "timeline[5].content": "미사일이 아덴의 알 마시크 단지를 타격함 [theguardian.com#1][france24.com#1]",
+      "suggested_qna[0].question": "단지 내 어느 시설이 미사일 공격을 받았는가?",
+      "suggested_qna[0].answer": "익명의 예멘 장관은 AFP 통신에 미사일 3발이 예멘군 지휘 센터를, 2발이 사우디 주도 연합군 본부를 타격했다고 전했다 [theguardian.com#1][brecorder.com#1].",
+      "primary_image.caption": "소셜 미디어 영상 캡처 화면에 후티 반군의 공격 이후 아덴 대통령 궁에서 연기가 피어오르는 모습이 담겨 있다. 로이터"
+    },
+    "e784d4c7-a5b3-49ff-a588-8e4825afe339": {
+      "title": "프랑스 채널 터널 터미널서 미니버스 충돌 사고… 19명 부상",
+      "short_summary": "10월 15일 목요일 프랑스 북부 코켈(Coquelles)의 채널 터널 터미널에서 트럭 운전사들을 태운 미니버스가 출발하려던 차량 수송 열차와 충돌해 19명이 부상을 입었다고 프랑스 당국이 밝혔다 [abcnews.com#1][bbc.co.uk#1][theguardian.com#1]. 부상자 중에는 미니버스 운전사와 승객 18명이 포함됐다. 운전사와 승객 1명은 중상을 입어 릴(Lille)의 병원으로 긴급 이송됐다. 당국은 부상자 중 생명이 위독한 사람은 없다고 전했다 [dw.com#1][abcnews.com#1][theguardian.com#1]. 사고는 운전사들이 터널을 통해 차량과 승객을 실어 나르는 르셔틀(LeShuttle) 탑승을 준비하던 중 승강장에서 발생했다. 당국은 조사에 착수했으며 사고 원인은 아직 밝혀지지 않았다. 불로뉴쉬르메르(Boulogne-sur-Mer) 검찰청은 과실치상 혐의로 수사 중이라고 밝혔다 [rte.ie#1][huffingtonpost.fr#1]. 르셔틀 서비스는 응급 구조대가 부상자를 치료하고 이송하는 동안 약 90분간 중단되었다가 재개됐다. 유로스타(Eurostar) 여객 열차와 화물 서비스는 차질을 빚지 않았다고 당국과 유로스타 측은 밝혔다 [france24.com#1][abcnews.com#1][rte.ie#1].",
+      "quote": "이러한 유형의 사고가 발생한 것은 이번이 처음이다",
+      "quote_attribution": "DW",
+      "location": "프랑스 코켈",
+      "historical_background": "채널 터널에서는 과거 화물 셔틀 관련 화재 사고가 발생한 바 있다. 1996년 11월 화재 이후에는 수리 및 안전 절차 검토를 위해 화물 운송이 수개월간 중단되었다. 2008년 9월에도 화재가 발생해 수개월간 운송량이 감소했다 [huffingtonpost.fr#1][rts.ch#1].",
+      "talking_points[0]": "응급 대응: 약 200명의 응급 구조대원과 관계자들이 현장에 출동했으며, 부상자들의 국적을 담당하는 영사관에 통보되었다 [abcnews.com#1][theguardian.com#1][rte.ie#1].",
+      "talking_points[1]": "승객 정보: 부상자 19명은 모두 다양한 국적의 남성이었으며, 미니버스 운전사는 터널 운영사인 유로터널(Eurotunnel)의 직원이었다 [abcnews.com#1][huffingtonpost.fr#1].",
+      "talking_points[2]": "터널 교통량: 2025년 채널 터널을 이용한 차량은 340만 대였으며, 유로스타는 같은 해 1,180만 명의 승객을 수송했다고 보고했다 [abcnews.com#1][dw.com#1]."
+    },
+    "35c31f16-5a8f-43c8-abcd-7631ac487530": {
+      "title": "마두로와 부인, 미국 고문 혐의 부인…재판 2027년 6월로 예정",
+      "short_summary": "니콜라스 마두로(Nicolas Maduro) 전 베네수엘라 대통령과 부인 실리아 플로레스(Cilia Flores)가 정치적 반대파를 고문하도록 공모했다는 새로운 미국 측 혐의에 대해 목요일 무죄를 주장했다. 앨빈 K. 헬러스타인(Alvin K. Hellerstein) 미국 연방 판사는 마두로가 해당 혐의를 거짓이라며 기소 내용을 거부하고, 플로레스가 법정에서 결백을 주장한 뒤 이들의 무죄 답변을 기록했다. 판사는 당초 예정보다 2주 늦은 2027년 6월 14일에 재판을 시작하기로 결정했다 [dw.com#1][theguardian.com#1][ny1.com#1][rte.ie#1]. 기소장에 따르면 마두로는 베네수엘라 관리들에게 반대파로 의심되는 인물들을 고문하도록 지시했고, 플로레스는 고문 체계를 구축하고 특정 사건에서 학대를 명령하는 데 일조했다. 검찰은 구타, 전기 충격, 질식 등의 방식을 설명하며 피해자 중에는 미국 시민 3명이 포함되어 있다고 밝혔다. 부부는 직접 고문을 자행한 혐의는 받지 않고 있다 [theguardian.com#1][koreatimes.co.kr#1][enca.com#1]. 이번 고문 사건은 기존의 코카인 밀매 및 총기 위반 혐의에 대한 미국 측 기소 내용을 확대한 것이다. 마두로와 플로레스는 주권 국가의 전직 대통령이자 영부인으로서 면책 특권을 보호받아야 한다고 주장하며 사건 기각을 요청했다. 판사는 아직 해당 주장에 대해 판결을 내리지 않았다. 추가 공판 전 심리는 12월 17일로 예정되어 있다 [bbc.co.uk#1][theguardian.com#1][ny1.com#1][efectococuyo.com#1].",
+      "quote": "나는 이 문서를 전적으로 거부한다",
+      "quote_attribution": "NY1",
+      "location": "미국 뉴욕주 뉴욕시",
+      "talking_points[0]": "혐의 내용: 기소장에는 2014년 마두로가 군 관계자들을 심문하기 위해 납치를 지시하고 관리들에게 '더 강하게 압박하라'고 촉구한 사건이 언급되어 있으며, 플로레스는 그의 계획을 지원한 혐의를 받고 있다 [koreatimes.co.kr#1][rte.ie#1].",
+      "talking_points[1]": "잠재적 형량: 모든 혐의에 대해 유죄가 확정될 경우, 각 피고인은 최소 50년의 징역형을 선고받게 된다 [koreatimes.co.kr#1][perthnow.com.au#1].",
+      "talking_points[2]": "국제법: 고문은 범죄가 발생한 국가 외부에서도 피해자의 국적과 관계없이 기소할 수 있으나, 미국이 외국 관리를 고문 혐의로 기소하는 사례는 드물다 [dw.com#1][ny1.com#1].",
+      "talking_points[3]": "베네수엘라 지도부: 로이터 통신이 RTE를 통해 보도한 바에 따르면, 마두로의 전 부통령인 델시 로드리게스(Delcy Rodriguez)가 그의 체포 이후 통치를 이어오며 워싱턴과의 협력을 강화했다 [rte.ie#1][koreatimes.co.kr#1].",
+      "talking_points[4]": "구금 문제: 최근 판사는 도주 위험이 높다는 이유로 플로레스가 건강상의 이유로 요청한 가택 구금 신청을 기각했다 [letemps.ch#1][insiderpaper.com#1].",
+      "perspectives[0].text": "마두로 측 변호인단: 이들은 미국의 마두로 강제 연행이 불법이었다고 주장한다 [bbc.co.uk#1].",
+      "perspectives[1].text": "미국 검찰: 검찰은 마두로가 직접 고문 방식을 권고하고 특정 피해자들의 처우에 대해 보고를 받았다고 주장한다 [theguardian.com#1][insiderpaper.com#1].",
+      "perspectives[2].text": "배리 폴락(Barry Pollack), 마두로 측 변호사: 폴락은 확대된 혐의로 인해 재판 일정이 빠듯하다고 설명하면서도, 변호인단이 이를 맞출 수 있기를 바란다고 밝혔다 [tass.com#1][ny1.com#1].",
+      "timeline[0].content": "마두로, 우고 차베스(Hugo Chávez) 사망 후 취임 [theguardian.com#1]",
+      "timeline[1].content": "미군, 카라카스 자택에서 마두로와 플로레스 체포 [koreatimes.co.kr#1][rte.ie#1]",
+      "timeline[2].content": "부부, 맨해튼에서 새로운 고문 혐의에 대해 무죄 주장 [dw.com#1][ny1.com#1]",
+      "timeline[3].content": "부부, 공판 전 심리를 위해 다시 출석 예정 [ny1.com#1]",
+      "timeline[4].content": "판사, 재판 시작일 결정 [dw.com#1][theguardian.com#1]",
+      "suggested_qna[0].question": "재판 날짜가 변경된 이유는 무엇인가?",
+      "suggested_qna[0].answer": "양측 모두 재판 시작일을 6월 1일에서 6월 14일로 변경할 것을 요청했다. 마두로 측 변호사는 새로운 혐의들로 인해 일정이 빠듯해졌지만 변호인단이 이를 맞출 수 있기를 희망한다고 밝혔다 [theguardian.com#1][tass.com#1].",
+      "primary_image.caption": "자료 사진 - 2025년 1월 10일 베네수엘라 카라카스 국회의사당에서 열린 3선 취임식 후 니콜라스 마두로 베네수엘라 대통령과 부인 실리아 플로레스가 손을 흔들고 있다. (AP Photo/Ariana Cubillos, File)"
+    }
+  },
   "stats": {
     "storyCount": 12,
-    "translated": 0,
+    "translated": 3,
     "failedStoryIds": [
       {
-        "id": "90557961-970c-4808-84b6-2ab28fea85e0",
-        "reason": "retry_exhausted"
-      },
-      {
         "id": "6570c648-63cb-4000-ad6e-cada5e752451",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "e784d4c7-a5b3-49ff-a588-8e4825afe339",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "35c31f16-5a8f-43c8-abcd-7631ac487530",
         "reason": "retry_exhausted"
       },
       {
@@ -60,8 +105,8 @@
       }
     ],
     "tokens": {
-      "in": 0,
-      "out": 0
+      "in": 3874,
+      "out": 4657
     }
   }
 }
