@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "batchId": "fed13f28-8012-4ad1-b2e8-6a69bd454d80",
+  "categoryUuid": "45c6137d-ce34-45cc-85a4-c35bd7c773f0",
+  "categorySlug": "world",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-10-16T14:47:05.050Z",
+  "stories": {},
+  "stats": {
+    "storyCount": 12,
+    "translated": 0,
+    "failedStoryIds": [
+      {
+        "id": "90557961-970c-4808-84b6-2ab28fea85e0",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "6570c648-63cb-4000-ad6e-cada5e752451",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "e784d4c7-a5b3-49ff-a588-8e4825afe339",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "35c31f16-5a8f-43c8-abcd-7631ac487530",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "479de5c8-763f-4f25-b638-345e929d1ffd",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "f25dd8e9-c2c5-4ffb-808a-61235fd562f8",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "66e5bc8c-506b-463a-97e9-4513c4f9d117",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "e4c138d7-1dce-44f0-8afb-67aef220302d",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "ab228449-a8e4-4cec-bc51-15d4b223eb58",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "a9cc06fa-f2bc-436b-84bb-3a4348dcb4f4",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "63627af8-be4b-4f81-bb8a-c40b33d1ea2a",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "128354a0-6345-4799-b5f8-08863b92734d",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 0,
+      "out": 0
+    }
+  }
+}
