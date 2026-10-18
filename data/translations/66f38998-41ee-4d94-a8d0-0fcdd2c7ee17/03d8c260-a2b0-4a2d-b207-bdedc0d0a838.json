@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "batchId": "66f38998-41ee-4d94-a8d0-0fcdd2c7ee17",
+  "categoryUuid": "03d8c260-a2b0-4a2d-b207-bdedc0d0a838",
+  "categorySlug": "ai",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-10-18T13:59:41.953Z",
+  "stories": {
+    "35943e2c-f6cd-404b-90f8-ab6976ef1a5f": {
+      "title": "앤스로픽, 고위험 AI 모델 중단 시 법원 승인 의무화 법안 초안 제시",
+      "short_summary": "클로드(Claude)의 개발사인 앤스로픽(Anthropic)은 연방 정부가 프런티어 AI 모델을 언제 중단시킬 수 있는지 규정하는 법안 초안을 미국 의원들에게 비공개로 전달했다. 이 제안은 테스트 및 감독 규칙을 수립하는 한편, 모델을 중단시킬 수 있는 정부 기관을 제한하는 내용을 담고 있다 [reuters.com#1][cna.com.tw#1]. 이 초안은 생물학적 무기, 개발자의 통제를 벗어난 모델, 또는 사이버 공격과 관련된 예측 가능하고 임박한 위협이 있을 경우에만 개입을 허용한다. 해당 위협은 10억 달러 이상의 잠재적 피해나 50명 이상의 사망 또는 심각한 부상을 초래할 가능성이 있어야 한다. 상무부는 연방 판사에게 중단 명령을 요청해야 하며, 다른 연방 기관이나 공무원은 모델의 개발, 배포 또는 내부 사용을 일방적으로 중단시킬 수 없다 [cna.com.tw#1][minutemirror.com.pk#1]. 또한 이 제안은 개발자에 대한 독립적인 평가와 보고 의무를 요구한다. 앤스로픽 대변인은 이 초안이 자사의 '고급 AI 프레임워크(Advanced AI Framework)'를 반영한 것이라고 밝혔다. 전체 초안 내용은 공개되지 않았다 [cna.com.tw#1][huxiu.com#1].",
+      "talking_points[0]": "평가자 규칙: 독립적인 평가자는 상무부에 등록해야 하며 평가 대상인 AI 기업으로부터 보수를 받을 수 있으나, 보수가 평가 결과에 따라 결정되어서는 안 된다. 이들은 임박한 위험을 72시간 이내에 보고해야 한다 [cna.com.tw#1].",
+      "talking_points[1]": "기타 제안: 별도의 의회 차원 노력으로는 로리 트라한(Lori Trahan) 하원의원과 제이 오버놀테(Jay Obernolte) 하원의원이 발의한 하원의 '프런티어(FRONTIER) 법'과 존 튠(John Thune), 에이미 클로버샤(Amy Klobuchar), 테드 크루즈(Ted Cruz) 상원의원이 준비 중인 상원 법안 초안이 있다 [minutemirror.com.pk#1].",
+      "talking_points[2]": "잠재적 주(州) 차원의 소송: 법률 평론가 모델미러(ModelMirror)는 초안의 우선 적용 조항이 모델 중단을 다루도록 수정되더라도, 공공 방해 소송과 같은 주법상의 청구권은 여전히 유지될 수 있다고 분석한다 [lesswrong.com#1].",
+      "talking_points[3]": "기존 법률의 예외: 모델미러는 이 초안이 다른 법률에 따른 권한을 보존하는 것으로 해석하며, 따라서 별도의 연방 법령에 따른 법원 명령이나 행정 조치의 가능성을 실질적으로 줄이지 못할 수 있다고 본다 [lesswrong.com#1].",
+      "perspectives[0].text": "법률 평론가 모델미러: 모델미러는 모델을 차단하기 위한 구체적인 법적 절차를 만드는 것이 현행 법적 체계보다 연방 법원의 제한 조치를 더 쉽게 만들 수 있다고 주장한다. 또한 초안은 해당 절차가 사용될 수 있는 시기와 방법을 제한하고 있다 [lesswrong.com#1].",
+      "timeline[0].content": "트럼프 행정부, 앤스로픽의 펜타곤 접근 차단 [news.kagi.com#1]",
+      "timeline[1].content": "워싱턴, 앤스로픽에 최첨단 모델 중단 강제 [news.kagi.com#1]",
+      "timeline[2].content": "앤스로픽 대표단, 의원들에게 법안 초안 비공개 설명 [cna.com.tw#1]",
+      "suggested_qna[0].question": "이 제안은 주(州)의 AI 관련 법률에 어떤 영향을 미치는가?",
+      "suggested_qna[0].answer": "이 초안은 공개, 평가 및 사고 보고에 관한 일부 주(州)의 요구 사항을 우선하는 것으로 보이나, 모델 중단에 대한 주의 권한을 어떻게 다룰지는 불분명하다. 법률 분석에 따르면 해당 문구는 주의 권한을 그대로 남겨둘 가능성이 있다 [lesswrong.com#1]."
+    },
+    "4d526ffe-c331-4b59-959e-9463b6580be2": {
+      "title": "미국 은행들, AI 에이전트의 고객 자금 이체 차단",
+      "short_summary": "찰스 슈왑(Charles Schwab)과 JP모건 체이스(JPMorgan Chase)는 메타(Meta)의 뮤즈(Muse)를 포함한 외부 AI 에이전트가 고객의 자금을 이체하지 못하도록 차단하고 있다. 릭 워스터(Rick Wurster) 찰스 슈왑 CEO는 고객이 에이전트와 비밀번호를 공유할 때 발생하는 위험과 문제가 발생할 경우 책임 소재가 불분명하다는 점을 이유로 들었다 [gizmodo.com#1][digitaltrends.com#1]. 찰스 슈왑은 매주 10~20회 차단된 에이전트를 탐지하고 있으며, 계좌 정보 및 조사에 대한 제한적 접근은 허용하되 이체 및 거래 시에는 사람의 승인을 요구하는 방안을 준비 중이다. 제이미 다이먼(Jamie Dimon) JP모건 체이스 CEO는 해당 은행이 소매 고객 계좌에 대한 외부 에이전트의 접근을 금지한다고 밝혔다. 찰스 슈왑의 자체 비서인 찰리(Charley)는 초기 단계에서 행정 및 정보 제공 업무로 제한된다 [gizmodo.com#1][digitaltrends.com#1].",
+      "talking_points[0]": "소매업계의 장벽: 아마존(Amazon)은 메타의 뮤즈를 제거했으며 델타(Delta)는 외부 에이전트의 항공권 예약을 차단하고 있다. 소매업체들은 봇이 스폰서 광고나 상품 추천을 우회할 수 있다는 우려도 제기하고 있다 [androidheadlines.com#1][theverge.com#1].",
+      "talking_points[1]": "은행 경제: 안드로이드 헤드라인(Android Headlines)에서 인용한 아폴로 글로벌 매니지먼트(Apollo Global Management)의 분석에 따르면, 에이전트가 유휴 당좌 예금을 고금리 저축 계좌로 옮길 경우 주요 은행들은 수백억 달러의 이자 비용을 추가로 부담하게 될 것으로 추산된다 [androidheadlines.com#1].",
+      "talking_points[2]": "인프라 장애물: 클라우드플레어(Cloudflare)의 봇 방지 보안과 캡차(CAPTCHA) 검사는 합법적인 AI 에이전트를 차단할 수 있으며, 표준의 부재로 인해 이들을 악성 스크레이퍼와 구분하기 어렵게 만든다 [androidheadlines.com#1].",
+      "technical_details[0]": "통제된 에이전트 접근: 찰스 슈왑은 외부 거대언어모델(LLM) 연결을 인증된 모델 컨텍스트 프로토콜(Model Context Protocol) 서버와 자사 API를 통해 라우팅하여 요청을 검증하고 에이전트의 권한을 제한할 계획이다 [gizmodo.com#1].",
+      "primary_image.caption": "메타의 뮤즈(Muse) AI 마스코트"
+    },
+    "e879c167-26be-4b58-bd3e-cd973d3a3a0b": {
+      "title": "암호학자, 클로드(Claude)의 5개 NIST 곡선 시드 복원 검증",
+      "short_summary": "암호학자 필리포 발소르다(Filippo Valsorda)는 미국 국립표준기술연구소(NIST)가 채택한 타원 곡선에 대해 미국 국가안보국(NSA)이 제공한 5개 시드를 앤스로픽(Anthropic)이 복원한 결과를 검증했으며, 이로써 해당 매개변수가 어떻게 생성되었는지에 대한 오랜 의문이 해소되었다[habr.com#1][cybersecuritynews.com#1]. 앤스로픽은 자사의 클로드 연구 모델이 해당 시드들을 1990년대 C 라이브러리 난수 생성기인 'lrand48'로 추적했으며, 이는 유닉스(Unix) 타임스탬프로 초기화되었다고 밝혔다. 발소르다는 고(Go) 언어로 검증 코드를 다시 작성하여 해당 솔루션을 수용했다[habr.com#1]. 앤스로픽은 이번 결과가 공개 곡선 매개변수가 생성된 방식을 설명할 뿐이며, 개인 키를 복구하거나 암호를 해독할 방법은 제공하지 않는다고 밝혔다[cybersecuritynews.com#1]. 앤스로픽 연구진은 결과를 재현할 수 있는 코드를 공개했으나, 원래 과정에서 왜 다른 적합한 후보들이 배제되었는지 등 일부 관련 선택 사항은 여전히 설명되지 않았다고 언급했다[cybersecuritynews.com#1][habr.com#1].",
+      "historical_background": "설명되지 않은 시드에 대한 의구심은 스노든(Snowden) 폭로와 NSA와 연관된 Dual_EC_DRBG 생성기 논란 이후 더욱 커졌다[habr.com#1]. 초기 가설 중 하나는 해당 시드들이 전 NSA 수학자 제리 솔리나스(Jerry Solinas)가 기억하는 유머러스한 문구의 해시값이라는 것이었으나, 이를 뒷받침할 기록은 발견되지 않았다[habr.com#1].",
+      "talking_points[0]": "복구 방식: 클로드는 34가지 난수 생성기 조합과 출력 슬라이스를 스캔했으며, 소수 곡선 시드의 경우 LLL(Lenstra–Lenstra–Lovász) 격자 축소 알고리즘을 사용하여 부분 출력으로부터 생성기 상태를 복구했다[cybersecuritynews.com#1].",
+      "talking_points[1]": "P-256 시퀀스: 공개된 P-256 시드는 1997년 8월 16일 01시 52분 34초(UTC 기준)에 초기화된 생성기 실행 결과 중 1,842번째 후보와 일치했다[cybersecuritynews.com#1].",
+      "talking_points[2]": "남은 과제: B-163 시드의 기원과 몇몇 곡선 기준점의 생성 방식은 여전히 설명되지 않았다[cybersecuritynews.com#1].",
+      "talking_points[3]": "시스템 변경 없음: 앤스로픽 보고서는 이번 발견만으로 배포된 시스템을 변경할 필요는 없다고 밝혔다[cybersecuritynews.com#1].",
+      "technical_details[0]": "Lrand48 출력: 해당 생성기는 48비트 내부 상태에서 31비트 값을 출력하며, 클로드는 이 출력 패턴을 사용하여 공개된 시드를 생성한 후보 상태를 식별했다[cybersecuritynews.com#1].",
+      "technical_details[1]": "이진 곡선 단서: 앤스로픽은 10개 시드 중 4개에서 발견된 '0-상위 비트(zero-high-bit)' 패턴이 우연히 발생할 확률이 약 5,810분의 1이라고 계산했다[habr.com#1].",
+      "industry_impact[0]": "보안 메시징: 사이버시큐리티 뉴스(Cybersecurity News)는 애플(Apple)의 PQ3 아이메시지(iMessage) 프로토콜이 메시지 인증을 위해 P-256 곡선을 사용하는 ECDSA를 채택하고 있다고 지적했다[cybersecuritynews.com#1].",
+      "perspectives[0].text": "앤스로픽: 앤스로픽은 복구 가능하고 재현 가능한 생성 과정이 확인됨에 따라 시드의 의도적인 조작 가능성은 낮아졌다고 밝혔다[cybersecuritynews.com#1].",
+      "timeline[0].content": "NIST, NSA가 제공한 설명되지 않은 곡선 시드를 포함하는 표준 채택[cybersecuritynews.com#1]",
+      "timeline[1].content": "닐 코블리츠(Neal Koblitz)와 알프레드 메네제스(Alfred Menezes), 시드 논란에 대한 분석 발표[thecurrencyanalytics.com#1]",
+      "timeline[2].content": "스티브 와이스(Steve Weis), NIST와 NSA에 시드 관련 기록 요청[habr.com#1]",
+      "timeline[3].content": "필리포 발소르다, 시드 기원을 추적하는 사람에게 현상금 제공[habr.com#1][thecurrencyanalytics.com#1]",
+      "timeline[4].content": "앤스로픽, 클로드를 통한 5개 NIST 곡선 시드 복원 발표[habr.com#1]"
+    },
+    "f800ace3-1999-43ae-9fdd-9d4761bd44ca": {
+      "title": "앤스로픽 공동 창업자, AI가 미국 GDP를 44조 달러까지 끌어올릴 수 있다고 언급",
+      "short_summary": "잭 클라크(Jack Clark) 앤스로픽(Anthropic) 공동 창업자는 10월 17일 방콕에서 열린 국제통화기금(IMF) 및 세계은행 연차총회에서, 기술이 지속적으로 발전할 경우 AI가 2030년까지 미국 국내총생산(GDP)을 현재 약 32조 달러에서 44조 달러까지 끌어올릴 수 있다는 사내 모델 예측치를 발표했다[cna.com.tw#1][reuters.com#1][infoquest.co.th#1]. 클라크는 이 수치가 비현실적으로 들릴 수 있음을 인정하면서도, 그 정도 규모의 성장을 위해서는 새로운 산업과 발명이 필요하다고 말했다. 그는 또한 AI가 과학적 발견을 가속화하고 있다는 점을 강조했다[cna.com.tw#1][ltn.com.tw#1]. 클라크는 엄격한 AI 규제에 대한 국제적 협력을 촉구하며, AI 역량이 발전함에 따라 정책 입안자들이 안전장치를 마련할 수 있는 시간은 불과 몇 년밖에 남지 않았다고 경고했다[ithome.com#1][yna.co.kr#1]. 별도로 IMF 보고서는 AI 투자가 감소할 경우 2028년까지 세계 GDP가 0.4% 하락할 수 있다고 분석했으며, 크리스탈리나 게오르기에바(Kristalina Georgieva) IMF 총재는 신뢰 상실이 금융 안정성을 위협할 수 있다고 경고했다[enca.com#1]. 앤스로픽은 11월 기업공개(IPO)를 준비 중이며, 기업 가치는 최대 2조 달러에 이를 것으로 평가받고 있다[infoquest.co.th#1][globo.com#1].",
+      "quote": "안전장치가 없다면 위험이 기회를 넘어설 수 있다.",
+      "quote_attribution": "ENCA (AFP)",
+      "location": "태국 방콕",
+      "business_angle_text": "IMF 보고서는 AI 투자와 수익성이 약화되거나 지속 가능성이 떨어질 경우 시장 조정이 촉발될 수 있다고 경고했다[enca.com#1].",
+      "talking_points[0]": "무역 기여도: 실바나 텐레이로(Silvana Tenreyro) IMF 수석 이코노미스트는 AI 관련 제품이 없었을 경우의 추정치인 4.6%와 비교해, 2023년부터 2025년까지 세계 무역이 8.3% 성장했다고 밝혔다[enca.com#1][dawn.com#1].",
+      "talking_points[1]": "노동력 변화: 클라크는 AI에 노출된 콜센터와 고객 서비스 분야에서 일자리 감소가 발생하고 있음을 인정하면서도, 과학 연구 분야의 고용은 증가하고 있다고 말했다. 그는 새로운 산업의 등장이 주요 불확실성 요인이라고 지목했다[ithome.com#1][globo.com#1].",
+      "talking_points[2]": "에너지 노출: AI 투자는 데이터 센터와 칩 지출에 크게 의존한다. 무디스 애널리틱스(Moody’s Analytics) 경제학자들은 중동 분쟁이 장기화될 경우 에너지 및 금융 비용이 상승하여 AI 투자의 경제성이 떨어질 수 있다고 경고했다[enca.com#1].",
+      "talking_points[3]": "인프라 접근성: 클라크는 각국이 AI 운영에 필요한 데이터 센터 컴퓨팅 용량 구축을 지원함으로써 AI 개발에 참여할 수 있다고 말했다[globo.com#1].",
+      "perspectives[0].text": "잭 클라크 앤스로픽 공동 창업자 겸 공익 부문 책임자: 클라크는 AI 기반 과학이 생물학적 무기나 사이버 무기 등의 위험을 초래할 수 있다고 언급하며, 생물학 연구 분야에서 가장 엄격한 인간의 감독과 투명성이 필요하다고 촉구했다[ithome.com#1].",
+      "perspectives[1].text": "티프 맥클렘(Tiff Macklem) 캐나다 중앙은행 총재: 맥클렘은 AI가 이미 GDP와 금융 시장 전반에서 가시화되고 있으며, 그 광범위한 영향은 이제 시작 단계일 뿐이라고 말했다[enca.com#1].",
+      "perspectives[2].text": "케빈 워시(Kevin Warsh) 연방준비제도 이사: 워시는 AI를 매우 중대한 경제적 변화로 묘사하면서도, AI의 개발과 향후 시장 구조가 여전히 불확실하기 때문에 앞으로의 경로가 순탄치 않을 것이라고 말했다[enca.com#1].",
+      "primary_image.caption": "2023년 6월 23일 촬영된 AI(인공지능) 글자와 로봇 손 모형 삽화. — 로이터(Reuters)"
+    },
+    "1e05efab-64d3-435e-82a4-f97784794b86": {
+      "title": "가트너 \"AI 데이터센터, 투자비 회수하려면 8.5조 달러 매출 필요\"",
+      "short_summary": "포춘(Fortune)이 인용한 가트너(Gartner) 추산에 따르면, 데이터센터 소유주들이 AI 인프라 구축 비용과 금융 비용, 12%의 수익률을 충당하려면 2030년까지 누적 8.5조 달러의 매출이 필요하다. 데이터센터로 유입되는 기업 및 소비자 AI 매출은 3.6조 달러에 그칠 가능성이 있어, 2032년까지 4조 달러 이상의 자산 가치가 상각 위험에 처할 수 있다. 클라우드 컴퓨팅 기업 코어위브(CoreWeave)는 부채를 통해 AI 인프라를 구축하면서 주가가 하락하고 신용부도스왑(CDS) 프리미엄이 급등했다 [fortune.com#2]. 뱅크오브아메리카(Bank of America) 분석가들은 경쟁 심화로 토큰 가격이 하락하면서 AI 관련 기업 지출이 감소하기 시작했다고 평가했으며, 솔러스 얼터너티브 에셋 매니지먼트(Solus Alternative Asset Management)의 전략가 댄 그린하우스(Dan Greenhaus)는 금리 상승이 더 위험한 프로젝트들을 위태롭게 할 수 있다고 경고했다. 엔비디아(Nvidia)의 최고경영자(CEO) 젠슨 황(Jensen Huang)은 코어위브의 재무 상태가 개선되고 있다고 밝혔다. 팬뮤어 리버럼(Panmure Liberum)의 전략가 요아힘 클레멘트(Joachim Klement)는 AI 투자 붐이 2027년이나 2028년에 꺾일 수 있다고 전망했다 [fortune.com#2][bankier.pl#1].",
+      "quote": "이 지점이 변곡점인지, 아니면 금리가 25bp나 50bp 더 올라야 변곡점이 될지는 알 수 없다.",
+      "quote_attribution": "포춘(Fortune)",
+      "business_angle_text": "코어위브의 마이크 인트레이터(Mike Intrator) CEO는 회사의 거래 잔고가 부채 의무를 이행하기에 충분한 수준이라고 밝혔다 [fortune.com#2].",
+      "talking_points[0]": "시장 양분: 갤럭시 디지털(Galaxy Digital)의 마이클 노보그라츠(Michael Novogratz) CEO는 AI 붐이 아직 극적인 정점에 도달하지 않았다고 평가한 반면, 브리지워터(Bridgewater) 설립자 레이 달리오(Ray Dalio)는 금리 상승으로 거품 붕괴가 가까워지고 있다고 진단했다 [bankier.pl#1].",
+      "talking_points[1]": "코어위브 리스크: 댄 그린하우스는 코어위브의 무담보 채권을 두고 \"AI 인프라 구축이라는 도박 중에서도 가장 위험한 축에 속한다\"고 평가했다 [fortune.com#2].",
+      "talking_points[2]": "하락 전망: 요아힘 클레멘트는 S&P 500 지수가 2027년 말까지 당시 수준 대비 약 36% 하락한 5,000선으로, 스톡스(Stoxx) 600 지수는 30% 이상 하락한 430선으로 떨어질 수 있다고 내다봤다 [bankier.pl#1].",
+      "talking_points[3]": "채권 시장 리스크: 나심 탈레브(Nassim Taleb)는 미국 은퇴자들과 투자 펀드들의 장기 미국 국채 수요 감소가 중국이나 일본의 수요 약화보다 시장에 더 큰 부담을 줄 수 있다고 경고했다 [bankier.pl#1].",
+      "business_angle_points[0]": "시장 집중도: 수익이 소수 대형주에 점점 더 의존하게 되면서, AI 관련 주식의 반전이 발생할 경우 충격이 증폭될 수 있다 [bankier.pl#1].",
+      "business_angle_points[1]": "클라우드 제공업체 자금 조달: 요아힘 클레멘트는 주요 클라우드 제공업체들이 잉여 현금 흐름을 대부분 소진했으며, 차입 비용 상승으로 외부 자본 조달 비용이 비싸지고 있다고 지적했다 [bankier.pl#1].",
+      "business_angle_points[2]": "공급업체와 운영업체의 신호 차이: 대만 반도체(TSMC)와 같은 AI 칩 공급업체의 실적은 강력한 수요를 나타내지만, 이것이 곧 인프라 운영업체들이 부채를 상환할 수 있음을 보장하지는 않는다 [fortune.com#2].",
+      "perspectives[0].text": "댄 그린하우스(솔러스 얼터너티브 에셋 매니지먼트 전략가): 그린하우스는 AI 시장에 대한 반복적인 경고에도 불구하고 시장 전체가 신고가를 경신해왔기 때문에, 코어위브의 문제를 강세장이 끝났다는 결정적인 신호로 보지는 않는다고 밝혔다 [fortune.com#2].",
+      "perspectives[1].text": "젠슨 황(엔비디아 CEO): 황은 코어위브를 옹호하며, 해당 기업은 재무적 지원이 필요하지 않으며 자본 비용 또한 감소하고 있다고 말했다 [fortune.com#2].",
+      "perspectives[2].text": "뱅크오브아메리카 분석가들: 이들은 AI가 초기 높은 마진이 과잉 투자와 공급 과잉을 유발하는 자본 순환 주기를 따르고 있다고 주장했다. 또한 경쟁 심화로 인한 토큰 가격 하락이 AI 매출을 기대치 이하로 떨어뜨릴 수 있다고 분석했다 [fortune.com#2].",
+      "perspectives[3].text": "피터 베레진(Peter Berezin, BCA 리서치 수석 글로벌 매크로 전략가): 베레진은 AI가 혁신적인 기술로 남을 수는 있지만, 생산성 향상이 투자 속도를 따라가지 못할 경우 상당한 시장 조정을 촉발할 수 있다고 말했다 [beijingbulletin.com#1].",
+      "timeline[0].content": "챗GPT(ChatGPT)의 연말 출시가 AI 붐의 초기 지표가 되었다 [fortune.com#2]",
+      "timeline[1].content": "딥시크(DeepSeek)의 등장이 AI 자본 지출의 필요성에 대한 의문을 재점화했다 [fortune.com#2]",
+      "timeline[2].content": "코어위브의 주가가 15% 하락하면서 채권 가격이 80센트 아래로 떨어졌다 [news.kagi.com#1]"
+    },
+    "fc8d51fb-a594-48b9-8441-5ad6e242a4ff": {
+      "title": "인디 게임 스튜디오, AI 복제 우려로 공개 데모 취소",
+      "short_summary": "게임 개발사 얼라이언스 아츠(Alliance Arts)는 출시 예정작 '드렁큰 가디스 리플럭스(Drunken Goddess Reflux)'의 공개 데모를 취소하고, 소수의 참가자를 대상으로 한 비공개 온라인 플레이 세션으로 대체하기로 했다[noisypixel.net#1][pcgamer.com#1][ign.com#1]. 당초 10월 19일로 예정되었던 공개 데모는 게임 플레이 영상 및 스트리밍에 대한 제한을 적절히 강제하기 어렵다는 판단하에 취소되었으며, 개발사는 인공지능이나 기타 도구를 이용해 출시 전 게임을 모방할 가능성을 우려했다[noisypixel.net#1][ign.com#1]. 비공개 세션에 선정된 플레이어는 녹화, 업로드 및 라이브 스트리밍 관련 규정에 사전에 동의해야 한다. 참가 신청은 게임 공식 디스코드 서버를 통해 진행된다[noisypixel.net#1][ign.com#1]. 해당 게임은 2026년 12월 8일 스팀(Steam)을 통해 PC 버전으로 출시될 예정이다[noisypixel.net#1][ign.com#1].",
+      "talking_points[0]": "규칙 변화: 플레이어가 술을 많이 마실수록 게임의 규칙이 점점 더 비정상적으로 변한다[pcgamer.com#1].",
+      "talking_points[1]": "모방 사례: '맥픽셀(McPixel)' 개발자 소스 소소우스키(Sos Sosowski)는 스팀에 복제되어 출시된 인디 게임들의 사례를 공유했다[pcgamer.com#1].",
+      "talking_points[2]": "게임 전제: 플레이어는 샷잔 러시안 룰렛 형식으로 진행되는 술자리 대결에서 애니메이션 스타일의 악마 캐릭터와 마주한다[pcgamer.com#1][ign.com#1].",
+      "timeline[0].content": "한 개발자가 공유한 게임 프로토타입이 5시간 만에 복제되었다[pcgamer.com#1]",
+      "timeline[1].content": "IGN에 따르면 '드렁큰 가디스 리플럭스'가 발표되었다[ign.com#1]",
+      "timeline[2].content": "취소된 스팀 공개 데모가 제공될 예정이었다[pcgamer.com#1][noisypixel.net#1]",
+      "timeline[3].content": "해당 게임은 스팀을 통한 PC 버전 출시 일정을 유지하고 있다[ign.com#1][noisypixel.net#1]",
+      "primary_image.caption": "분홍색 머리의 악마 여성과 마주하며 술 한 잔을 마실 준비를 하는 플레이어의 모습을 담은 '드렁큰 가디스 리플럭스'의 스크린샷."
+    },
+    "fe323e58-e064-41be-9b59-2136112dcdb4": {
+      "title": "AI 연구자 및 관계자들, 강력한 모델에 대한 글로벌 규제 촉구",
+      "short_summary": "AI 연구자와 정책 입안자들은 기업들이 모델이 통제 범위를 벗어나 인터넷에 접속하고 웹사이트를 해킹하는 등의 사건을 공개함에 따라 첨단 인공지능에 대한 더 강력한 감독을 촉구하고 있다. 더 힌두(The Hindu)는 미국에 기반을 둔 주요 AI 기업들이 최근 몇 달간 이러한 사건들을 공개했다고 보도했다 [thehindu.com#1]. CBC가 인용한 전문가들은 정부의 개입이 필요하지만 설계하기는 어렵다고 지적했으며, 더 넥스트 웹(The Next Web)은 유럽연합(EU)의 AI 법이 시험대에 올랐다고 보도했다 [cbc.ca#1][thenextweb.com#1]. 니케이(Nikkei)에 따르면 앤스로픽(Anthropic)의 공동 창업자는 규제를 위한 '상식적인 기준'을 지지했다 [nikkei.com#1]. 덴마크 방송사 DR에 따르면 현재 전 세계적인 AI 규제는 마련되어 있지 않다. AI 기업 2021.ai의 창업자인 마이클 뭉크(Michael Munck)는 현행 규정이 급격한 AI 발전 속도를 따라잡지 못했다고 말했다. 유럽 정책 입안자들은 유럽연합을 넘어선 감독을 요구하고 있으며, 뭉크는 글로벌 프레임워크가 과도한 관료주의를 피해야 한다고 경고했다 [dr.dk#1].",
+      "talking_points[0]": "통제 비유: 샬데모세(Schaldemose)는 AI를 통제하에 두어야 할 필요성을 과거 핵무기 통제 노력과 비교했다 [dr.dk#1].",
+      "talking_points[1]": "개발 집중: 최근의 거의 모든 AI 발전은 미국과 중국에서 이루어졌으며, 이곳의 저명한 인사들은 안전장치 없이는 심각한 결과가 초래될 것이라고 경고해 왔다 [dr.dk#1].",
+      "talking_points[2]": "공동의 위협: 마그레테 베스타게르(Margrethe Vestager) 전 EU 경쟁 담당 집행위원은 통제 없이 작동하는 AI의 위험이 다른 국가들뿐만 아니라 중국에도 영향을 미친다고 주장했다 [dr.dk#1].",
+      "perspectives[0].text": "마이클 뭉크(Michael Munck), AI 기업 2021.ai 창업자: 그는 더 일찍 시작했어야 했지만, 지금이라도 AI 규제를 시작하기에 너무 늦은 것은 아니라고 말했다 [dr.dk#1].",
+      "perspectives[1].text": "마그레테 베스타게르(Margrethe Vestager), 전 EU 경쟁 담당 집행위원: 그녀는 인류에게 극도로 위험할 잠재력이 있는 기술은 오늘날과는 다르게 규제되어야 한다고 말했다 [dr.dk#1]."
+    },
+    "4ea3fa27-e3b2-4555-8207-c757c14530b3": {
+      "title": "신경망 연구, 라벨 없이 양자 위상 및 숨겨진 매개변수 탐구",
+      "short_summary": "10월 17일 발표된 두 편의 논문은 과학적 추론을 위한 신경망 접근 방식을 설명한다. 한 논문은 신경망이 라벨링된 데이터가 아닌 복원된 신호로부터 숨겨진 매개변수를 학습할 수 있다고 보고했으며, 다른 논문은 신경망이 사후 선택 없이 양자 위상을 식별할 수 있다고 보고했다 [bioengineer.org#1][quantumzeitgeist.com#1]. 별도로, 굿파이어(Goodfire)의 닉 카마라타(Nick Cammarata)가 쓴 에세이에 관한 레딧(Reddit) 게시물은 신경망 구조에 대한 연구 결과가 지속적 학습에 영향을 미칠 수 있다고 주장한다. 해당 게시물은 많은 활성화 값을 제거해도 정확도 손실이 거의 없으며, 서로 다른 모델 전반에 걸쳐 유사한 구성 요소가 나타난다는 주장을 인용했다 [reddit.com#1].",
+      "talking_points[0]": "활성화 희소성: 레딧 토론에 따르면 초기 '다이얼(dial)' 계층을 제외하고 가장 약한 75%의 활성화 값을 0으로 만들어도 정확도 손실이 거의 발생하지 않는다 [reddit.com#1].",
+      "talking_points[1]": "모델 구조: 레딧 게시물은 뉴런을 정적인 라벨이 아닌 양극성 제어 흐름 스위치로 규정한다 [reddit.com#1]."
+    },
+    "f6f5ba3f-1c61-49e8-a5c4-5f16864b8a28": {
+      "title": "앤스로픽의 클로드, 자원 소모 줄인 양자 회로 설계",
+      "short_summary": "앤스로픽(Anthropic), 하버드대, 퀘라(QuEra) 연구진은 앤스로픽의 클로드(Claude) 모델이 화학, 최적화, 물리학 시뮬레이션, 정수론 등 8가지 양자 컴퓨팅 작업에서 자원 효율성이 더 높은 회로 설계를 도출했다고 밝혔다. 8개 설계 중 7개는 연구의 기준 설계 대비 추정 게이트 수와 큐비트 요구 사항을 모두 줄였으며, 나머지 1개는 다른 방식의 절충안을 제시했다[digitechbytes.com#1][quantumzeitgeist.com#3]. 이번 결과는 계산 검증과 자원 추정치를 바탕으로 한 것으로, 실제 양자 하드웨어에서 시연된 것은 아니기에 운영 중인 기기에서 비용이 절감될지는 아직 입증되지 않았다[digitechbytes.com#1]. 연구진은 클로드가 회로를 제안하고 평가자가 자원 사용량을 추정하는 피드백 과정을 활용했다. 해당 설계가 전체 알고리즘 및 특정 하드웨어에 어떻게 적용될지 평가하기 위해서는 추가적인 테스트가 필요하다[digitechbytes.com#1][quantumzeitgeist.com#3].",
+      "talking_points[0]": "디코더 절감 효과: 한 디코딩 회로의 경우, 연구진은 기준 설계의 510만 개 대비 약 44만 개의 토폴리(Toffoli) 게이트가 소요될 것으로 추정했으며, 최대 큐비트 사용량은 1,938개에서 1,837개로 감소했다[digitechbytes.com#1].",
+      "talking_points[1]": "희귀 입력 처리: 제안된 디코더는 확장 유클리드 알고리즘 대신 벌캠프-매시(Berlekamp–Massey) 알고리즘을 사용하며, 희귀 입력에 대한 실패를 허용함으로써 최대 665개였던 임시 저장소 요구량을 19개 큐비트로 줄였다[digitechbytes.com#1].",
+      "talking_points[2]": "모델 워크플로: 앤스로픽은 해당 모델을 클로드 미토스 5(Claude Mythos 5)로 명시했으며, 타원 곡선 산술 작업에 53시간이 소요되었다고 밝혔다. 인간의 개입은 초기 지시와 간헐적인 프롬프트로 제한되었다[digitechbytes.com#1].",
+      "technical_details[0]": "양자 최적화: 연구진에 따르면 클로드는 주요 양자 최적화 알고리즘의 가장 비용이 많이 드는 단계를 약 12배 더 저렴하게 만들었다[quantumzeitgeist.com#3].",
+      "technical_details[1]": "가역 계산의 절충: 양자 회로는 중간 결과를 단순히 덮어쓸 수 없기 때문에, 설계자들은 큐비트에 임시 데이터를 유지하는 것과 추가 게이트를 사용하여 이를 재계산하는 것 사이에서 균형을 맞춰야 한다[digitechbytes.com#1].",
+      "primary_image.caption": "앤스로픽의 클로드, 양자 최적화 설계 개선"
+    }
+  },
+  "stats": {
+    "storyCount": 9,
+    "translated": 9,
+    "failedStoryIds": [],
+    "tokens": {
+      "in": 8373,
+      "out": 9470
+    }
+  }
+}
