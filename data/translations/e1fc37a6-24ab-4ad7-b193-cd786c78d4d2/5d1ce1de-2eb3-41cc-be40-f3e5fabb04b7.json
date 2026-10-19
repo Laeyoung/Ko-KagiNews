@@ -4,7 +4,7 @@
   "categoryUuid": "5d1ce1de-2eb3-41cc-be40-f3e5fabb04b7",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-19T17:43:27.431Z",
+  "createdAt": "2026-10-19T18:42:53.488Z",
   "stories": {
     "1e19e1cb-11b7-4184-9801-026d444fdd9c": {
       "title": "애플, 첫 터치스크린 OLED 맥북 프로 11월 6일 출시 가능성",
@@ -145,24 +145,35 @@
       "timeline[1].content": "케이스 양쪽 절반에 부착된 접착 스트립을 보여주는 게시물 공개[macerkopf.de#1]",
       "timeline[2].content": "애플, 아이폰 듀오 배송 시작 예정[macerkopf.de#1]",
       "timeline[3].content": "애플, 앱스토어 제출 시 듀오 지원 앱 필수화 계획[habr.com#1]"
+    },
+    "ad74056d-98de-428e-ab87-3a7c8f4c101b": {
+      "title": "미 의원, NBA 2K25 서비스 종료 앞두고 게임 소유권 보호 법안 추진",
+      "short_summary": "미국 뉴욕주 민주당 소속 리치 토레스(Ritchie Torres) 하원의원은 소비자가 구매한 비디오 게임에 대한 소유권을 보호하기 위해 연방거래위원회(FTC)가 관련 규정을 마련하도록 하는 '플레이어를 위한 힘 법안(Power To The Players Act)'을 발의할 계획이라고 밝혔다. 이 법안은 온라인 기능을 갖춘 게임의 경우 서버 종료 전 오프라인 모드를 제공하도록 의무화하고, 게임의 양도 및 재판매 권리를 보호하는 내용을 담고 있다 [pcmag.com#1][theverge.com#1][computerbase.de#1]. 토레스 의원은 69.99달러에 판매된 NBA 2K25를 예로 들며, 해당 게임이 2026년 10월 30일 디지털 스토어에서 삭제되고 12월 31일 서버가 종료되어 일부 기능에 대한 접근이 제한될 예정이라고 지적했다. 해당 법안은 아직 공식적으로 발의되지 않았으며 의회를 통과해야 한다. 법안 전문은 아직 공개되지 않았다 [pcmag.com#1][digitaltrends.com#1].",
+      "quote": "소비자는 자신이 구매한 게임을 소유하고, 플레이하며, 양도할 권리를 가져야 한다.",
+      "quote_attribution": "PCMag",
+      "historical_background": "'스톱 킬링 게임즈(Stop Killing Games)' 캠페인은 유비소프트(Ubisoft)가 2014년 출시된 레이싱 게임 '더 크루(The Crew)'의 지원을 중단하면서, 충성도 높은 이용자층이 있음에도 불구하고 이용자 라이브러리에서 게임을 삭제한 사건을 계기로 시작되었다 [pcmag.com#1].",
+      "talking_points[0]": "펜실베이니아주 제안: 지난 9월 펜실베이니아주에서 발의된 법안은 게임사가 지원을 종료할 때 오프라인 플레이 제공, 회사 서버와 독립적인 온라인 플레이 활성화, 또는 최소 25%의 환불 제공 중 하나를 선택하도록 의무화하고 있다 [computerbase.de#1].",
+      "perspectives[0].text": "유럽연합 집행위원회(European Commission): 게임 판매 중단 이후에도 게임을 계속 플레이할 수 있도록 강제하는 법안 제안을 거부한 뒤, 업계 및 소비자 단체와 협력하여 자발적인 '게임 수명 종료 행동 강령'을 마련하겠다고 밝혔다 [pcmag.com#1].",
+      "perspectives[1].text": "스톱 킬링 게임즈(Stop Killing Games): 이 캠페인은 게임사가 지원 종료 후 게임을 플레이할 수 없게 만드는 행위를 막기 위한 정부 차원의 조치를 촉구한다. 컴퓨터베이스(ComputerBase) 보도 시점 기준으로 이들의 EU 시민 이니셔티브는 약 130만 명의 검증된 지지자를 확보했다 [computerbase.de#1].",
+      "timeline[0].content": "캘리포니아주 위원회, 관련 법안 재심의를 만장일치로 의결 [pcmag.com#1]",
+      "timeline[1].content": "펜실베이니아주, '우리의 게임을 보호하자 법안(Protect Our Games Act)' 발의 [computerbase.de#1]",
+      "timeline[2].content": "토레스 의원, '플레이어를 위한 힘 법안' 계획 발표 [pcmag.com#1][theverge.com#1]",
+      "timeline[3].content": "NBA 2K25, 디지털 스토어 판매 종료 예정 [pcmag.com#1][digitaltrends.com#1]",
+      "timeline[4].content": "NBA 2K25, 서버 종료 예정 [pcmag.com#1][computerbase.de#1]"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
+    "translated": 11,
     "failedStoryIds": [
       {
         "id": "60db425d-cee5-46c0-bc2f-0a29108a194d",
         "reason": "retry_exhausted"
-      },
-      {
-        "id": "ad74056d-98de-428e-ab87-3a7c8f4c101b",
-        "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 10113,
-      "out": 10991
+      "in": 11092,
+      "out": 12074
     }
   }
 }

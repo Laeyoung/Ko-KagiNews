@@ -4,7 +4,7 @@
   "categoryUuid": "3455014f-c403-44fe-a873-f9cbdcde0277",
   "categorySlug": "usa",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-19T17:39:36.241Z",
+  "createdAt": "2026-10-19T18:41:12.462Z",
   "stories": {
     "8aadf326-7547-4b2e-8ae2-441ddfb8420f": {
       "title": "트럼프, 10월 27일 선거 앞두고 베냐민 네타냐후 이스라엘 총리 지지",
@@ -173,24 +173,38 @@
       "talking_points[0]": "크레이머 의원의 입장: 케빈 크레이머(Kevin Cramer) 공화당 상원의원은 이번 장애가 기술적 결함일 수 있다고 언급하면서도, 스타링크를 완전한 성능으로 복구하고 러시아 내 드론 발사 기지를 타격할 수 있는 우크라이나의 능력을 강화해야 한다고 촉구했다[cbsnews.com#1].",
       "talking_points[1]": "상원 조사: 진 섀힌(Jeanne Shaheen) 상원의원이 요청을 주도했으며, 톰 틸리스(Thom Tillis), 수전 콜린스(Susan Collins), 존 코닌(John Cornyn), 리사 머코스키(Lisa Murkowski) 등 공화당 의원들이 서한에 서명했다[cbsnews.com#1].",
       "perspectives[0].text": "도널드 트럼프(Donald Trump) 대통령: 트럼프 대통령은 자신이 우크라이나의 스타링크 접근을 제한한 적이 없으며, 일론 머스크(Elon Musk)가 책임이 있다고 생각하지 않는다고 밝혔다[cbsnews.com#1]."
+    },
+    "72ed108f-bcd6-4883-9a72-74131fa79ca0": {
+      "title": "매사추세츠주 공화당 부지사 후보, 음주운전 체포 후 선거운동 중단",
+      "short_summary": "매사추세츠주 공화당 부지사 후보인 숀 올리버(Shawn Oliver)가 토요일 밤 발생한 교통사고 이후 뉴베드퍼드 경찰에 체포되자 일요일 선거운동을 중단했다. 경찰에 따르면 올리버의 차량은 다트머스 스트리트에서 주차된 차량 5대를 들이받고 전복되었다. 차량 2대가 크게 파손되었으며, 올리버는 부상을 입고 병원으로 이송되었다. 그는 음주운전, 난폭운전, 차선 위반 및 과속 혐의를 받고 있다 [abcnews.com#1][boston.com#1][nbcboston.com#1][whdh.com#1]. 올리버는 11월 3일 선거에서 공화당 주지사 후보인 마이크 미노그(Mike Minogue)와 함께 모라 힐리(Maura Healey) 주지사 및 킴 드리스콜(Kim Driscoll) 부지사에 맞서 출마한 상태였다. 미노그 후보는 올리버에게 사퇴를 요구했으며, 일요일 오후까지 대체 후보는 지명되지 않았다. 올리버는 월요일 뉴베드퍼드 법원에서 기소인부절차를 밟을 예정이었다 [cbsnews.com#1][boston.com#1][wgbh.org#1].",
+      "quote": "음주운전에 대한 변명의 여지는 없다.",
+      "quote_attribution": "ABC 뉴스",
+      "location": "미국 매사추세츠주 뉴베드퍼드",
+      "talking_points[0]": "근무 상태: 매사추세츠주 교정국은 올리버가 근무 중인 매사추세츠 치료 센터에서 이번 사건의 경위를 검토하는 동안 그를 제한적 업무로 전환했다 [whdh.com#1][abcnews.com#1].",
+      "talking_points[1]": "지역구 활동: 올리버는 뉴베드퍼드 시의회 제3구 의원을 맡고 있으며 2023년에 당선되었다 [abcnews.com#1][wcvb.com#1].",
+      "talking_points[2]": "승계 역할: 매사추세츠주 부지사는 주지사가 사임하거나 사망할 경우 주지사직을 승계하는 1순위 후보이다 [whdh.com#1].",
+      "perspectives[0].text": "마이크 미노그 공화당 주지사 후보: 미노그는 만약 선거에서 승리하더라도 올리버에게 공식적으로 사임을 요청할 것이라고 밝혔다. 또한 그는 올리버가 가족을 최우선으로 생각하고 재발 방지를 위해 노력해야 한다고 말했다 [abcnews.com#1].",
+      "perspectives[1].text": "존 미첼(Jon Mitchell) 뉴베드퍼드 시장: 미첼 시장은 이번 혐의가 매우 우려스럽다며, 올리버가 대중에게 해명해야 한다고 말했다 [whdh.com#1].",
+      "perspectives[2].text": "매사추세츠주 공화당: 에이미 카네베일(Amy Carnevale) 위원장은 올리버가 자신이나 타인을 다시 위험에 빠뜨리지 않도록 당 차원에서 지원하겠다고 밝혔다 [nbcboston.com#1]."
+    },
+    "d9605a4c-f02a-4672-9b06-49f656407e07": {
+      "title": "메인주 상원의원 후보 잭슨, 11월 3일 투표 앞두고 '입 닥쳐' 발언 옹호",
+      "short_summary": "민주당 상원의원 후보 트로이 잭슨(Troy Jackson)은 6선에 도전하는 공화당의 수전 콜린스(Susan Collins) 상원의원이 토론 중 자신을 방해한 시위자가 잭슨의 선거운동을 지지한다고 비난하자, 그에게 '입 닥쳐(shut up)'라고 말한 것에 대해 후회하지 않는다고 밝혔다. 잭슨은 해당 시위자를 알지 못하며, 자신이 소란을 사주했다는 콜린스의 암시를 부인했다 [boston.com#1][pbs.org#1][nbcboston.com#1]. 시위자인 보든 칼리지(Bowdoin College) 학생 헨리 엘기(Henry Elgie, 19세)는 뉴욕타임스(The New York Times)에 잭슨 캠프와 사전에 조율한 바 없다고 밝혔으며, 선라이즈 무브먼트(Sunrise Movement)는 그가 자사 자원봉사자 중 한 명이라고 확인했다. 11월 3일 선거에서 콜린스 의원에게 도전하는 잭슨은 CNN의 '스테이트 오브 더 유니언(State of the Union)'에 출연해, 콜린스 의원이 자신을 깔보는 듯한 태도를 보인 것에 대한 대응이었으므로 사과하지 않겠다고 말했다 [boston.com#1][pbs.org#1][nbcboston.com#1].",
+      "quote": "나는 감정을 숨기지 못하는 성격이다",
+      "quote_attribution": "Boston.com",
+      "talking_points[0]": "콜린스의 비판: 콜린스는 이후 폭스 뉴스(Fox News) 진행자 션 해니티(Sean Hannity)에게 잭슨의 즉각적인 대응은 '매우 시사하는 바가 크다'고 말하며, 메인주 의회에서 의견이 다른 여성들을 대하는 그의 평판을 언급했다 [boston.com#1][pbs.org#1][nbcboston.com#1].",
+      "talking_points[1]": "과거의 충돌: 일부 전직 의회 동료들은 잭슨의 다혈질적인 성격을 비판하며, 그가 여성 의원과의 언쟁 중 플라스틱 물병을 던졌던 사건 등을 예로 들었다. 잭슨은 과거 충돌 당사자들에게 책임을 인정하고 사과한 바 있다 [boston.com#1][pbs.org#1].",
+      "talking_points[2]": "잭슨의 방어: 여성에게 공격적이었다는 공화당의 주장에 대한 질문에 잭슨은 그들이 자신과 가족을 공격하기 위해 수백만 달러를 들여 거짓 주장을 펼치고 있다고 답했다 [boston.com#1][pbs.org#1][nbcboston.com#1].",
+      "perspectives[0].text": "선라이즈 무브먼트: 해당 단체는 토론을 방해한 자원봉사자가 자랑스럽다고 밝히며, 그의 시위를 행동에 나선 것으로 묘사했다 [boston.com#1][pbs.org#1]."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
-    "failedStoryIds": [
-      {
-        "id": "72ed108f-bcd6-4883-9a72-74131fa79ca0",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "d9605a4c-f02a-4672-9b06-49f656407e07",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 11318,
-      "out": 13875
+      "in": 12969,
+      "out": 15684
     }
   }
 }
