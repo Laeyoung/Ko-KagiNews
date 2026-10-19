@@ -4,7 +4,7 @@
   "categoryUuid": "31505c89-09bd-4ba7-a0ec-6a778c3167a1",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-19T16:59:40.352Z",
+  "createdAt": "2026-10-19T17:37:01.720Z",
   "stories": {
     "ce487b5a-433a-48d2-8273-f67696873ef8": {
       "title": "마크롱, 프랑스 폭동 사태 후 내무장관 사임 반려 및 검토 지시",
@@ -195,16 +195,32 @@
       "timeline[3].content": "케냐에서 4명의 신규 감염 확인으로 국가 총 확진자 7명으로 증가 [capitalfm.africa#1][aljazeera.com#1]",
       "timeline[4].content": "케냐 8번째 감염 확인; 콩고, 노스우방기 사례 발표 [dw.com#1][aljazeera.com#1][aawsat.com#1]",
       "timeline[5].content": "노스키부주, 이투리주로부터의 일주일간 입국 금지 계획 [aljazeera.com#1][abcnews.com#2]"
+    },
+    "f7c89967-2dc7-4524-b292-08664259badc": {
+      "title": "캐나다 당국, 앨버타주 기지 화재로 사망한 군인 4명 신원 확인",
+      "short_summary": "캐나다 당국은 앨버타주 캐나다군 웨인라이트 기지(Canadian Forces Base Wainwright)의 훈련 구역을 휩쓴 강풍을 동반한 들불로 사망한 군인 4명의 신원을 확인했다. 현재 39명이 병원에 입원 중이며, 이 중 최소 19명은 위독한 상태다. 사망자는 프린세스 패트리샤 캐나다 경보병 연대(Princess Patricia’s Canadian Light Infantry) 제3대대 소속인 모건 웡(Morgan Wong) 하사와 숀 패럴(Shaun Farrell), 에이단 굴딩(Aidan Goulding), 헤이든 리케마크(Hayden Lykkemark) 이병이다[bbc.co.uk#1][cbsnews.com#2][pbs.org#1]. 화재는 실탄 사격 훈련 도중 발생했다. 제1캐나다 사단장인 웨이드 러틀랜드(Wade Rutland) 소장은 당국이 화재를 진압했다고 판단했으나, 갑작스럽게 방향을 바꾼 강풍이 불길을 군인들이 있는 곳으로 몰고 갔다고 설명했다. 화재 원인은 현재 조사 중이다[bbc.co.uk#1][theguardian.com#1][krdo.com#1]. 당국은 테러나 외부 개입, 석유 및 가스 시설과의 연관성은 없다고 밝혔다[cbsnews.com#2][krdo.com#1]. 부상자들은 앨버타주 내 4개 병원으로 이송되었다. 당국은 이송이 필요한 모든 인원을 파악한 후 병원의 '코드 오렌지(Code Orange)' 대규모 사상자 경보를 해제했다[pbs.org#1][japantoday.com#1]. 마크 카니(Mark Carney) 총리는 상세한 경위 보고를 요청했으며, 군 당국은 이번 참사를 예방할 수 있었는지 평가하겠다고 밝혔다[theguardian.com#1][krdo.com#1].",
+      "quote": "바람의 방향이 바뀌었을 때 불길은 1km 떨어져 있었다. 화재가 36초 만에 1km를 이동하는 것은 일반적이지 않다.",
+      "quote_attribution": "PBS 뉴스아워(AP 통신)",
+      "location": "캐나다 앨버타주 웨인라이트",
+      "humanitarian_impact": "다니엘 스미스(Danielle Smith) 앨버타주 총리는 부상자 중 일부가 심각한 화상을 입었으며, 수주에서 수개월간 집중 치료가 필요할 수 있다고 전했다[cbsnews.com#2][pbs.org#1].",
+      "talking_points[0]": "풍황: 화재 발생 전 풍속은 50km/h 미만이었으나, 이후 돌풍은 96km/h까지 치솟았다[koreaherald.com#1].",
+      "talking_points[1]": "훈련 배치: 찰리 중대 소속 군인 약 84명이 수류탄 투척장과 모의 공격 훈련 구역에 나뉘어 있었으며, 화재는 모의 공격 구역까지 번졌다[theguardian.com#1][pbs.org#1].",
+      "talking_points[2]": "의료 대응: 구급차 22대, 항공기 6대, 헬리콥터 2대가 투입되었으며 서스캐처원주의 지원을 받았다[pbs.org#1][japantoday.com#1].",
+      "talking_points[3]": "피해 인원: 피해자에는 정규군, 예비군, 그리고 캐나다 전역 기지에서 온 군인들이 포함되었다[pbs.org#1][boston.com#1].",
+      "talking_points[4]": "라트비아 파병 임무: 해당 대대는 신속 전개 및 내년 봄 라트비아 주둔 캐나다군 증원 임무를 준비 중이었다[pbs.org#1][japantoday.com#1].",
+      "perspectives[0].text": "캐시 킨(Cathy Keane): 온타리오주 시장 후보인 그녀는 자신의 장남이 위독한 상태라며, 아들과 가족 곁을 지키기 위해 앨버타주로 향하고 있다고 밝혔다[boston.com#1].",
+      "timeline[0].content": "현지 시각 오후 4시경 기지 훈련 구역에서 화재 발생 보고[bbc.co.uk#1]",
+      "timeline[1].content": "웨인라이트 당국, 유관 기관 동원과 함께 비상 조정 센터 설치[news.kagi.com#1]",
+      "timeline[2].content": "스미스 총리, 39명 입원 및 최소 19명 위독 상태 보고[cbsnews.com#2][pbs.org#1]",
+      "suggested_qna[0].question": "이번 화재가 10월 19일로 예정된 앨버타주 투표에 차질을 빚었는가?",
+      "suggested_qna[0].answer": "웨인라이트 사전 투표소는 화재 이후 조기 폐쇄되었으나, 선거 관리 당국은 투표용지와 투표 관련 물품들이 안전하게 옮겨졌다고 밝혔다[infomoney.com.br#1][jornaldebrasilia.com.br#1].",
+      "secondary_image.caption": "캐나다 앨버타주 웨인라이트 외곽의 캐나다군 웨인라이트 기지에서 발생한 화재 이후, 웨인라이트 보건 센터에서 부상당한 군인들이 치료를 받는 가운데 응급 구조대와 군 관계자들이 보이고 있다 - (캐나다 통신)"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 9,
+    "translated": 10,
     "failedStoryIds": [
-      {
-        "id": "f7c89967-2dc7-4524-b292-08664259badc",
-        "reason": "retry_exhausted"
-      },
       {
         "id": "4a9324a8-edf3-49d0-a908-1f6c1d275ea7",
         "reason": "retry_exhausted"
@@ -215,8 +231,8 @@
       }
     ],
     "tokens": {
-      "in": 12644,
-      "out": 15989
+      "in": 13912,
+      "out": 17600
     }
   }
 }

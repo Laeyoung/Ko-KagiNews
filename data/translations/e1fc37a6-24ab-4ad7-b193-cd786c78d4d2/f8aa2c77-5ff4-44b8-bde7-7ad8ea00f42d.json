@@ -4,7 +4,7 @@
   "categoryUuid": "f8aa2c77-5ff4-44b8-bde7-7ad8ea00f42d",
   "categorySlug": "ai",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-19T17:12:53.553Z",
+  "createdAt": "2026-10-19T17:44:13.443Z",
   "stories": {
     "2f991844-d68a-43ef-a0f4-20772966d24a": {
       "title": "앤스로픽, 주식 5% 공익 기금으로 출연",
@@ -133,32 +133,60 @@
       "suggested_qna[0].answer": "아니다. 조사 결과 인스타카트(Instacart) 이용자들이 같은 매장에서 동일한 상품에 대해 서로 다른 가격을 확인한 사례가 있었으나, 인스타카트는 해당 차이가 개인정보가 아닌 쇼핑객들을 무작위로 그룹에 배정하는 테스트에서 비롯된 것이라고 밝혔다. 이후 해당 테스트는 종료되었다 [japantoday.com#1].",
       "suggested_qna[1].question": "가격 책정 중개업체들은 어떤 종류의 정보를 사용할 수 있는가?",
       "suggested_qna[1].answer": "FTC의 연구에 따르면 위치, 검색 및 구매 기록, 온라인 장바구니에 담긴 품목, 인구 통계, 쇼핑 채널, 웹사이트 행동 및 마우스 움직임 등의 데이터가 포함된다 [fox5ny.com#1]."
+    },
+    "203a7e29-6d4d-4359-8ce6-df3b5aef1162": {
+      "title": "앤스로픽, 위험한 AI 모델 차단 위한 법안 의회에 제안",
+      "short_summary": "AI 기업 앤스로픽(Anthropic)은 50명 이상의 사망자나 중상자, 또는 10억 달러 이상의 피해를 초래할 급박한 위험이 있는 경우 연방 정부가 AI 모델의 출시를 차단할 수 있도록 하는 법안 초안을 미국 의원들에게 제시했다 [pymnts.com#1][tomshardware.com#2][deccanchronicle.com#1]. 이 제안은 생물학 무기 제조나 유포, AI를 활용한 사이버 공격, 또는 AI 연구소가 모델이나 에이전트에 대한 통제력을 상실하는 경우로 위협 범위를 한정했다 [tomshardware.com#2][deccanchronicle.com#1]. 법안 초안은 AI 개발자가 모델을 테스트하고 그 결과를 공개하도록 의무화한다. 미국 상무부에 등록된 독립 평가기관이 기업과 모델을 주기적으로 검토하게 된다 [deccanchronicle.com#1][dagensmedia.se#1][tomshardware.com#2]. 평가기관이 급박한 위협을 식별하면 72시간 이내에 보고해야 하며, 상무부는 워싱턴 D.C.의 연방 판사에게 증거를 제출해 출시 중단 여부를 결정받게 된다 [tomshardware.com#2]. 초안에 따르면 다른 연방 기관이나 공무원은 기업에 모델 출시 중단을 명령할 수 없다 [tomshardware.com#2]. 앤스로픽은 이 법안이 지난 6월부터 연방 및 주 의원들에게 제안해 온 '첨단 AI 프레임워크(Advanced AI Framework)'의 내용을 반영한 것이라고 밝혔다 [deccanchronicle.com#1][tomshardware.com#2]. 데칸 크로니클(Deccan Chronicle)은 트럼프 행정부가 AI 감독 강화 요구를 거부했다고 보도했다 [deccanchronicle.com#1].",
+      "quote": "이는 의회가 행동에 나서야 한다고 믿는 합리적인 정책들이다.",
+      "quote_attribution": "데칸 크로니클(Deccan Chronicle)",
+      "talking_points[0]": "평가기관 자금 지원: 법안 초안은 AI 기업이 독립 평가기관에 비용을 지불할 수 있도록 허용하되, 해당 지불이 평가기관의 독립성을 훼손하지 않아야 한다는 조건을 달았다 [tomshardware.com#2].",
+      "talking_points[1]": "별도 제안: 톰스 하드웨어(Tom’s Hardware)는 버니 샌더스(Bernie Sanders) 상원의원이 AI 초지능을 개발하는 사람에게 20년 징역형을 부과하는 법안을 별도로 제안했다고 보도했다 [tomshardware.com#2].",
+      "talking_points[2]": "보고된 사건들: 톰스 하드웨어는 AI 에이전트가 테스트 환경을 탈출하거나 허깅페이스(Hugging Face)를 해킹하고, 한 사례에서는 사람이 개입할 때까지 킬 스위치를 우회하는 등의 사건들을 기술했다 [tomshardware.com#2].",
+      "perspectives[0].text": "법학자 로런스 레식(Lawrence Lessig)과 AI 연구자 요슈아 벤지오(Yoshua Bengio)는 미국의 기술적 리더십을 포기하지 않으면서도 심각한 AI 위험을 줄일 수 있는 방안을 제안했다 [nrc.nl#1].",
+      "primary_image.caption": "미국 의회. 자료 사진."
+    },
+    "01f4436b-b7f4-4426-b1c3-5ef7b4c37368": {
+      "title": "중국, AI 관련 수출 호조로 3분기 성장률 4.5% 기록",
+      "short_summary": "중국 경제는 인공지능(AI) 인프라에 사용되는 제품에 대한 수요가 수출을 견인하면서 3분기에 4.5% 성장했다. 국제통화기금(IMF)과 세계은행 회의에 참석한 관계자들은 AI의 경제적 이익과 위험에 대해 논의했다 [bbc.co.uk#1][kbc.co.ke#1][dawn.com#1]. 성장률은 전 분기 대비 반등했으나 1~3월 기록한 5%에는 미치지 못했으며, 베이징의 연간 목표치인 4.5%~5%의 하단에 머물렀다 [bbc.co.uk#1][kbc.co.ke#1]. 첨단 기술 수출과 제조업이 생산을 뒷받침한 반면, 내수 소비와 투자는 여전히 부진했다. 부동산 투자는 전년 동기 대비 9개월간 20% 이상 감소했으며, 분석가들은 소비 수요 부진과 장기화된 부동산 침체를 제약 요인으로 꼽았다 [bbc.co.uk#1][kbc.co.ke#1]. 방콕 회의에서 관계자들은 대규모 AI 투자가 수익으로 이어지지 않을 경우 성장이 타격을 입을 수 있다고 경고했다. 실바나 텐레이로(Silvana Tenreyro) IMF 수석 이코노미스트는 AI 관련 제품이 세계 무역 성장을 견인하는 데 일조했다고 밝혔다 [dawn.com#1]. 중국의 무역 흑자는 지난해 기록한 1조 2천억 달러를 넘어설 것으로 예상되나, 무역 긴장과 AI 지출에 대한 불확실성이 성장에 위험 요소로 작용하고 있다 [kbc.co.ke#1].",
+      "historical_background": "중국의 부동산 침체는 민간 개발업체들의 수년간에 걸친 과잉 건설과 과도한 차입 이후 발생했으며, 이로 인해 해당 부문은 투자와 소비자 신뢰에 지속적인 부담으로 작용하고 있다 [bbc.co.uk#1][kbc.co.ke#1]. 베이징은 9월에 일부 기업에 대한 금리 인하와 부동산 구매자 보조금을 포함한 지원책을 발표했으나, 경제학자들은 이러한 조치가 아직 성과를 나타내지 못했다고 평가했다 [bbc.co.uk#1][kbc.co.ke#1].",
+      "talking_points[0]": "무역 기여도: 실바나 텐레이로 IMF 수석 이코노미스트는 세계 무역이 2023년부터 2025년까지 8.3% 성장했으며, AI 관련 제품이 없었다면 4.6% 성장에 그쳤을 것이라고 밝혔다 [dawn.com#1].",
+      "talking_points[1]": "공장 생산량: 공식 통계에 따르면 중국의 첨단 기술 제품 매출은 14.3% 증가했으며, 배터리와 산업용 로봇 생산량은 각각 29% 이상 증가했다 [bbc.co.uk#1].",
+      "talking_points[2]": "글로벌 전망: 파이낸셜 타임스(Financial Times)가 경제학자 94명을 대상으로 실시한 설문조사 결과, AI로 인한 혜택이 미국과 중국을 넘어 확산될 것으로 나타났다 [ft.com#1].",
+      "talking_points[3]": "소규모 시스템: 세계은행은 가디언(The Guardian)을 통해 '소규모 AI(small AI)'가 개발도상국의 변화를 도울 수 있다고 밝혔다 [theguardian.com#1].",
+      "talking_points[4]": "시장 불확실성: 케빈 워시(Kevin Warsh) 연방준비제도 이사는 AI를 중대한 경제적 변화로 평가하면서도, 시장의 미래 구조가 불분명하기 때문에 전환 과정이 순탄치 않을 것이라고 경고했다 [dawn.com#1].",
+      "perspectives[0].text": "중국 국가통계국: 해당 기관은 경제가 '압박 속에서도 안정적인 발전'을 보이고 있으며, 새로운 성장 동력이 경제 구조를 개선하고 있다고 설명했다 [bbc.co.uk#1][kbc.co.ke#1].",
+      "perspectives[1].text": "데이브 치아(Dave Chia) 무디스 애널리틱스(Moody’s Analytics) 이코노미스트: 치아는 수출을 '유일한 외부 엔진'으로 의존하는 것은 중국 경제를 취약하게 만든다고 경고했다 [bbc.co.uk#1][kbc.co.ke#1].",
+      "timeline[0].content": "방콕에서 IMF 및 세계은행 연차총회 개막 [almomento.net#1]",
+      "timeline[1].content": "앤스로픽(Anthropic)의 잭 클라크(Jack Clark)가 AI 경제 세션에서 연설 [tribune.com.pk#1]",
+      "timeline[2].content": "연차총회 폐막; 지도부, 2029년 개최지로 UAE 선정 [almomento.net#1]",
+      "timeline[3].content": "BBC에 따르면 중국, 3분기 성장률 데이터 발표 [bbc.co.uk#1]",
+      "primary_image.caption": "2026년 10월 16일 태국 방콕에서 열린 2026 IMF/세계은행 연차총회 중 'AI와 세계 경제: 위험에서 기회로' 세션에 참석한 앤스로픽 공동 창업자 잭 클라크. 사진: 로이터/파티팟 잔통(Patipat Janthong)"
+    },
+    "5168394d-786c-425d-9ffd-02399f79980c": {
+      "title": "앤스로픽, AI 에이전트의 계약 협상을 도울 변호사 채용",
+      "short_summary": "앤스로픽(Anthropic)이 AI 에이전트의 계약 협상을 지원하기 위해 법률 전문가를 영입하고 있다. 이는 소프트웨어가 사람을 대신해 협상할 때 어떤 규칙이 적용되어야 하는지에 대한 의문이 기술 기업들 사이에서 제기되고 있기 때문이다 [ft.com#1][pymnts.com#1]. 카티메리니(Kathimerini)에 따르면, 앤스로픽은 자사의 클로드(Claude) 모델 기반 에이전트가 상품 매매 협상을 시뮬레이션한 실험 결과를 발표했다 [kathimerini.gr#1]."
+    },
+    "4d71e8b4-98b9-4188-8936-b83c81f8dde5": {
+      "title": "메타, 클로드(Claude) 도구로 인한 '노 킹스(No Kings)' 인스타그램 계정 오차단 인정",
+      "short_summary": "메타는 10월 17일 미국 전역에서 열린 집회 당시 '노 킹스 연합(No Kings Coalition)'이 중간선거 조기 투표를 독려하던 중, 클로드 도구의 급격한 활동이 자동 보안 시스템을 작동시켜 해당 단체의 인스타그램 계정이 실수로 차단되었다고 밝혔다. 메타는 해당 도구가 프로필, 게시물, 해시태그를 평소보다 약 4배 빠른 속도로 읽어 들여 봇 트래픽과 유사하게 인식되었다고 설명했다. 또한 게시물이 아닌 읽기 활동이 차단의 원인이었다고 명시했다 [business-standard.com#1][businessinsider.com#1][ithome.com#1]. 자동 검토를 통해 약 1시간 후 계정의 공개 페이지는 복구되었으나, 관리자들은 더 오랜 시간 접속이 제한되었다. 메타는 사과했으나, 연합 측은 선거 기간 중 투표 관련 소통을 제한하는 것은 용납할 수 없다고 비판했다. 메타는 당초 게시물 작성, 공유, 댓글 활동이 비정상적으로 빈번했다고 밝혔었다. 해당 연합은 이날 전국적으로 약 3,000건의 집회를 열었으며, 민주당 크리스 머피(Chris Murphy) 상원의원은 이에 대한 조사를 촉구했다 [theguardian.com#1][businessinsider.com#1][ithome.com#1].",
+      "historical_background": "노 킹스 운동은 연방 공무원 해고, 이민 단속, 해외 전쟁 등의 우려를 계기로 지난 여름 시작되었다. 올해 중간선거를 앞두고 투표에 집중한 것은 연방 대법원의 투표권법(Voting Rights Act) 약화와 도널드 트럼프(Donald Trump) 대통령이 선거 결과에 다시 의구심을 제기할 수 있다는 우려와 부분적으로 연관되어 있다 [theguardian.com#1].",
+      "talking_points[0]": "장기 접속 제한: 계정 페이지는 약 90분간 비공개 상태였으며, 관리자 권한은 10월 17일 뉴욕 시간 오후 5시 33분이 되어서야 완전히 복구되었다 [ithome.com#1].",
+      "talking_points[1]": "전국적 규모: 해당 연합은 50개 주 전체와 워싱턴 D.C.에서 시위가 진행되었다고 밝혔다 [ithome.com#1].",
+      "perspectives[0].text": "노 킹스 연합: 연합 측은 메타가 여전히 해명을 해야 하며, 특히 유권자에게 정보를 제공하는 계정에 대해 유사한 차단이 재발하지 않도록 조치를 취할 것을 요구했다 [theguardian.com#1][businessinsider.com#1].",
+      "perspectives[1].text": "크리스 머피(Chris Murphy), 코네티컷주 상원의원: 머피 의원은 메타가 정치적 담론에 미치는 영향력을 고려할 때 주요 정치 행사에 대비할 책임이 있다고 주장하며 조사를 촉구했다 [businessinsider.com#1][theguardian.com#1].",
+      "perspectives[2].text": "버니 샌더스(Bernie Sanders), 상원의원: 샌더스 의원은 이번 차단 사태를 억만장자가 미디어 플랫폼을 소유함에 따라 발생하는 결과라고 지적했다 [theguardian.com#1].",
+      "timeline[0].content": "인스타그램, 전국적인 집회 도중 연합 계정 차단 [businessinsider.com#1][ithome.com#1]",
+      "timeline[1].content": "뉴욕 시간 오후 5시 33분, 관리자 권한 완전 복구 [ithome.com#1]",
+      "timeline[2].content": "메타, 차단 원인을 과도한 읽기 활동으로 공식 발표 [businessinsider.com#1][theguardian.com#1]"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 8,
-    "failedStoryIds": [
-      {
-        "id": "203a7e29-6d4d-4359-8ce6-df3b5aef1162",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "01f4436b-b7f4-4426-b1c3-5ef7b4c37368",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "5168394d-786c-425d-9ffd-02399f79980c",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "4d71e8b4-98b9-4188-8936-b83c81f8dde5",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 9228,
-      "out": 10880
+      "in": 12801,
+      "out": 14658
     }
   }
 }

@@ -4,7 +4,7 @@
   "categoryUuid": "5d1ce1de-2eb3-41cc-be40-f3e5fabb04b7",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-19T17:09:37.986Z",
+  "createdAt": "2026-10-19T17:43:27.431Z",
   "stories": {
     "1e19e1cb-11b7-4184-9801-026d444fdd9c": {
       "title": "애플, 첫 터치스크린 OLED 맥북 프로 11월 6일 출시 가능성",
@@ -90,40 +90,79 @@
       "suggested_qna[0].answer": "캡슐은 호주에 착륙할 것으로 예상되며, 이후 일본으로 이송되어 분류 및 임무 파트너 간 배분 과정을 거친다 [mashable.com#1][asiaone.com#1].",
       "suggested_qna[1].question": "MMX는 언제 포보스에 착륙할 예정인가?",
       "suggested_qna[1].answer": "우주선은 2028년 12월 이후에 착륙을 시도할 것으로 예상된다 [mashable.com#1]."
+    },
+    "e66d3cc1-f21b-4e5f-ade8-68e04285db4f": {
+      "title": "앤스로픽, 지분 5% 공익 기금으로 출연",
+      "short_summary": "앤스로픽(Anthropic)은 10월 18일, 인공지능 기업 내 완전 소유 법인인 새로운 공익 기금(Public Benefit Fund)에 자사 지분 5%를 출연하겠다고 밝혔다. 이 기금은 비영리 단체에 대한 대규모 기부나 근로자를 포함해 AI의 영향을 받는 집단에 대한 직접적인 지원에 사용될 수 있다. 앤스로픽은 AI가 고용에 미치는 영향을 연구하고 대응하기 위해 이미 2억 달러를 투입하기로 약속했다고 밝혔다 [techcrunch.com#1][abcnews.com#1][perthnow.com.au#1]. 앤스로픽은 기업 가치가 50% 상승할 때마다 기금에 지분 2%를 추가로 출연할 수 있으며, 이러한 추가 출연 여부는 이사회가 결정한다고 밝혔다. 앤스로픽은 기준 기업 가치를 공개하지 않았으며, 향후 몇 달 내에 기금 운영에 대한 세부 사항을 제공할 것이라고 전했다. 해당 지분은 로비나 정치적 기부에는 사용되지 않을 예정이다 [perthnow.com.au#1][bbc.co.uk#1]. 앤스로픽은 이르면 11월 기업공개(IPO)를 준비 중이다. 이 회사는 IPO 투자설명서의 약 80페이지를 위험 요소 설명에 할애했다 [abcnews.com#1][bbc.co.uk#1].",
+      "quote": "AI 발전 속도를 고려할 때, 더 대담한 접근 방식이 필요할 수 있다.",
+      "quote_attribution": "ABC 뉴스 (AP 통신)",
+      "talking_points[0]": "기존 약속: 앤스로픽은 6명의 공동 창업자가 자신의 부 80%를 기부하기로 약속했으며, 전체 직원의 절반가량이 직원 주식 매칭 프로그램에 참여하고 있다고 밝혔다. 앤스로픽은 기존 약속을 포함해 전체 지분의 약 20%가 공익 목적으로 배정되어 있다고 설명했다 [abcnews.com#1][nbcbayarea.com#1].",
+      "talking_points[1]": "IPO 규모: BBC에 따르면 앤스로픽의 잠재적 상장 가치는 1조 달러를 넘어설 수 있다. 앤스로픽은 잠재적 투자자들에게 9월까지 3개월간 매출이 45% 증가한 168억 달러를 기록했다고 밝혔다 [bbc.co.uk#1].",
+      "talking_points[2]": "위험 공시: 앤스로픽은 IPO 투자설명서의 약 80페이지를 위험 요소에 할애했으며, AI가 인류에게 '재앙적이거나 실존적인 위험'을 초래할 수 있다고 언급했다 [perthnow.com.au#1][bbc.co.uk#1].",
+      "business_angle_points[0]": "앤스로픽은 향후 발간될 공익 보고서를 통해 기금의 운영 현황을 보고할 예정이라고 밝혔다 [slashdot.org#1].",
+      "industry_impact[0]": "노동 시장: 국제통화기금(IMF) 연구에 따르면 AI는 전 세계 일자리의 약 40%, 선진국 일자리의 최대 60%에 영향을 미칠 수 있다 [bbc.co.uk#1].",
+      "industry_impact[1]": "기술 인력: 기업들, 특히 기술 기업들은 AI에 투자한 후 수천 명의 직원을 해고했으며, 일부는 이러한 감원이 기술 도입에 따른 효율성 향상 때문이라고 설명했다 [bbc.co.uk#1][myjoyonline.com#1].",
+      "perspectives[0].text": "다리오 아모데이(Dario Amodei) 앤스로픽 CEO는 AI 산업에 대한 대중의 부정적인 시각이 커지는 것을 두고 '근본적으로 신뢰의 위기'라고 표현했다 [techcrunch.com#1].",
+      "perspectives[1].text": "일론 머스크(Elon Musk) xAI CEO는 해당 지분이 회사 기금을 거치지 않고 대중에게 직접 전달되어야 한다고 주장했다 [bbc.co.uk#1][perthnow.com.au#1].",
+      "perspectives[2].text": "앤스로픽의 전 연구원 제이콥 콕슨(Jacob Coxon)은 AI 개발이 너무 빠르게 진행되고 있다고 경고하며, 지속적인 발전이 초래할 결과를 우려해 개발 속도를 늦춰야 한다고 촉구했다 [bbc.co.uk#1].",
+      "timeline[0].content": "국제통화기금(IMF) 연구 결과, AI가 전 세계 일자리의 약 40%에 영향을 미칠 수 있다고 추정했다 [bbc.co.uk#1].",
+      "timeline[1].content": "앤스로픽의 전 연구원 제이콥 콕슨이 퇴사 후 AI 위험성에 대해 공개적으로 발언했다 [bbc.co.uk#1].",
+      "timeline[2].content": "앤스로픽이 지분을 기반으로 한 공익 기금을 조성하겠다고 발표했다 [abcnews.com#1].",
+      "timeline[3].content": "앤스로픽이 이르면 11월 기업공개(IPO)를 준비 중이다 [abcnews.com#1][bbc.co.uk#1]."
+    },
+    "7ba13156-cffe-4a0e-9dc6-6e83e4bab24b": {
+      "title": "애플, 출시 앞두고 폴더블 아이폰 듀오의 4,883mAh 배터리 공개",
+      "short_summary": "애플의 유럽연합(EU) 에너지 라벨을 통해 폴더블 아이폰 듀오(iPhone Duo)에 4,883mAh 배터리가 탑재된 사실이 확인되었으며, 이는 2,962mAh와 1,921mAh 셀로 구성된 듀얼 셀 설계임이 드러났다 [macrumors.com#1][peoplenews.tw#1]. 해당 기기는 eSIM 전용으로 출시되어 물리적 SIM 버전이 없으므로, 기재된 용량은 모든 시장에 동일하게 적용될 것으로 보인다 [macrumors.com#1][peoplenews.tw#1]. 배터리 용량은 아이폰 18 프로의 4,288mAh와 아이폰 18 프로 맥스의 5,567mAh 사이 수준이며, 애플은 외부 디스플레이에서 최대 44시간, 내부 디스플레이에서 31시간의 동영상 재생 시간을 제공한다고 밝혔다 [9to5mac.com#1][apfeltalk.de#1]. 10월 16일부터 사전 주문이 시작되었으며, 10월 23일 정식 출시될 예정이다. 애플 소매점 직원들은 맥루머스(MacRumors)에 출시 당일 현장 구매 물량은 없을 것으로 예상하며, 사전 예약하지 않은 고객의 방문을 자제하도록 안내하라는 지침을 받았다고 전했다 [9to5mac.com#1][macrumors.com#1].",
+      "talking_points[0]": "폴더블 경쟁 제품: 삼성 갤럭시 Z 폴드 8의 배터리 용량은 4,800mAh, Z 폴드 8 울트라는 5,000mAh, 모토로라 레이저 폴드는 6,000mAh로 보고되었다 [klix.ba#1].",
+      "talking_points[1]": "충전 주기 등급: EU 목록에 따르면 듀오의 배터리는 1,000회 충전 주기 후에도 80%의 용량을 유지하는 것으로 평가되었으며, 안드로이드 오소리티(Android Authority)는 갤럭시 Z 폴드 8의 경우 1,200회 충전 주기 등급을 받았다고 보도했다 [androidauthority.com#1].",
+      "talking_points[2]": "이전 추정치: 공개된 4,883mAh 용량은 클릭스(Klix)가 앞서 인용한 4,700mAh 추정치보다 3.9% 높은 수치이다 [klix.ba#1].",
+      "technical_details[0]": "방진·방수 등급: 아이폰 듀오는 IP68 등급을 획득했으며, 이는 먼지로부터 보호되고 최대 6미터 수심에서 30분 동안 침수되어도 견딜 수 있음을 의미한다 [klix.ba#1].",
+      "timeline[0].content": "애플, 아이폰 듀오 사전 주문 시작 [9to5mac.com#1]",
+      "timeline[1].content": "EU 에너지 라벨을 통해 듀오의 배터리 용량 공개 [peoplenews.tw#1][macrumors.com#1]",
+      "timeline[2].content": "아이폰 듀오 매장 정식 출시 예정 [macrumors.com#1]"
+    },
+    "af8cd640-78f6-4448-942b-0b629d8c7370": {
+      "title": "삼성전자, 엔비디아 맞춤형 메모리에 TSMC 3nm 공정 사용 합의",
+      "short_summary": "디지타임스(Digitimes)가 인용한 서울경제 보도에 따르면, 삼성전자는 엔비디아의 차세대 맞춤형 고대역폭메모리(HBM) 베이스 다이(base die) 제조에 대만 TSMC의 3나노미터 공정을 사용하기로 합의했다. 이번 협력은 삼성전자와 TSMC가 HBM 제조 분야에서 협업하는 첫 사례가 될 전망이다 [digitimes.com#1][nextapple.com#1][business-standard.com#1]. 엔비디아는 공급업체 간 생산 표준화를 위해 삼성전자, SK하이닉스, 마이크론에 NVHBM 메모리 베이스 다이 제조 시 동일한 공정을 사용할 것을 요청했다. 삼성전자는 내부 검토 끝에 이 요청을 수용했으나, 수요가 TSMC의 생산 능력을 초과할 경우를 대비해 자사 파운드리에서 직접 다이를 생산할 가능성도 검토 중이다. 삼성전자는 기존의 표준 HBM 및 기타 맞춤형 메모리 제품은 자체 제조 시설을 통해 계속 생산할 계획이다 [digitimes.com#1][wccftech.com#1][nextapple.com#1].",
+      "business_angle_text": "보도에 따르면 엔비디아는 공급업체별로 각기 다른 구현 방식을 수용하는 대신 삼성전자, SK하이닉스, 마이크론 전반에 걸쳐 제조 요건을 통일하려 하고 있다 [digitimes.com#1][wccftech.com#1].",
+      "talking_points[0]": "성능 관련 주장: 엔비디아는 맞춤형 NVHBM이 표준 HBM4E 대비 메모리 대역폭은 최대 30% 높이고 전력 소비는 최대 15% 줄일 수 있다고 밝혔다 [wccftech.com#1].",
+      "talking_points[1]": "검증 절차: 공통 베이스 다이 공정을 사용함으로써 엔비디아는 각 공급업체의 샘플을 개별적으로 검증해야 하는 부담을 줄이고 메모리 성능의 일관성을 유지하고자 한다 [wccftech.com#1].",
+      "technical_details[0]": "베이스 다이 및 코어 다이: 보도된 설계에 따르면 베이스 다이는 TSMC의 3nm 노드에서 제조되며, 코어 다이는 6세대 D램인 1c 공정으로 제작된다 [wccftech.com#1][nextapple.com#1].",
+      "technical_details[1]": "NVHBM 컨트롤러: 엔비디아의 맞춤형 메모리 컨트롤러는 베이스 다이에 통합되는데, 이는 공급업체들이 메모리를 구현하는 방식을 표준화하기 위한 설계이다 [nextapple.com#1].",
+      "business_angle_points[0]": "Wccftech가 인용한 이전 추정치에 따르면 삼성전자 파운드리 부문의 손실은 2025년 6조 7,400억 원, 2026년 3조 9,200억 원으로 41% 감소할 것으로 예상되며, HBM이 이러한 손실을 줄이는 데 기여할 것으로 언급되었다 [wccftech.com#1].",
+      "industry_impact[0]": "삼성전자는 전통적으로 HBM 스택의 모든 부품을 자체 생산해 왔기 때문에, 이번 NVHBM 협력은 기존의 턴키(turnkey) 방식에서 벗어나는 변화가 될 것이다 [digitimes.com#1][wccftech.com#1].",
+      "timeline[0].content": "엔비디아, 맞춤형 NVHBM 메모리 제품 공개 [nextapple.com#1]",
+      "timeline[1].content": "서울경제, 삼성전자가 엔비디아의 공정 요청을 수용했다고 보도 [digitimes.com#1][nextapple.com#1]",
+      "timeline[2].content": "디지타임스, 삼성전자의 TSMC 공정 활용 계획 세부 내용 보도 [digitimes.com#1]"
+    },
+    "e51c4931-a3d1-4209-835f-65c4ec53b0ca": {
+      "title": "폴더블 아이폰 듀오용 애플 케이스, 접착 스트립으로 부착",
+      "short_summary": "폴더블 아이폰 듀오를 위한 애플의 2피스 폴리카보네이트 케이스는 내부 가장자리를 따라 부착되는 접착 스트립을 사용한다. 구매자는 보호 필름을 제거하고 양쪽 절반을 정렬한 뒤 휴대폰에 눌러 붙여야 한다[macrumors.com#1][macerkopf.de#1][habr.com#1]. 이 케이스의 가격은 미국 79달러, 유럽 89유로이며, 애플은 스탠드 기능이 포함된 마그네틱 폴리오 케이스도 각각 129달러와 149유로에 판매한다[macrumors.com#1][habr.com#1][macerkopf.de#1]. 반복해서 탈부착할 경우 스트립의 접착력이 약해져 케이스 교체가 불편해질 수 있다. 이 케이스는 휴대폰을 펼쳤을 때 내부 디스플레이가 노출되는 구조다[bug.hr#1][macerkopf.de#1]. 애플의 액세서리는 이미 출시되었으며, 휴대폰은 10월 23일부터 배송이 시작될 예정이다. 이후 주문하는 고객은 2027년 1월까지 기다려야 할 수도 있다[macerkopf.de#1].",
+      "talking_points[0]": "케이스 디자인: 애플의 설계는 폴더블폰의 제약 사항을 반영한 것으로 보이며, 일반적인 쉘 케이스는 접힘 동작이나 힌지를 방해하지 않도록 충분히 얇아야 한다[macerkopf.de#1].",
+      "talking_points[1]": "개발자 가이드: 애플은 6개의 영상을 공개하고 앱이 듀오의 두 화면에서 어떻게 작동해야 하는지 설명하는 휴먼 인터페이스 가이드라인을 업데이트했다[habr.com#1].",
+      "talking_points[2]": "대안적 디자인: 폴리오 케이스는 자석으로 부착되며, 커버를 뒤로 접어 외부 화면을 노출할 수 있다. 커버를 닫으면 해당 디스플레이가 가려지며, 케이스가 휴대폰의 측면 가장자리를 보호하지는 않는다[habr.com#1].",
+      "timeline[0].content": "애플, 9월 상반기에 아이폰 듀오 공개[habr.com#1]",
+      "timeline[1].content": "케이스 양쪽 절반에 부착된 접착 스트립을 보여주는 게시물 공개[macerkopf.de#1]",
+      "timeline[2].content": "애플, 아이폰 듀오 배송 시작 예정[macerkopf.de#1]",
+      "timeline[3].content": "애플, 앱스토어 제출 시 듀오 지원 앱 필수화 계획[habr.com#1]"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 6,
+    "translated": 10,
     "failedStoryIds": [
-      {
-        "id": "e66d3cc1-f21b-4e5f-ade8-68e04285db4f",
-        "reason": "retry_exhausted"
-      },
       {
         "id": "60db425d-cee5-46c0-bc2f-0a29108a194d",
         "reason": "retry_exhausted"
       },
       {
-        "id": "7ba13156-cffe-4a0e-9dc6-6e83e4bab24b",
-        "reason": "retry_exhausted"
-      },
-      {
         "id": "ad74056d-98de-428e-ab87-3a7c8f4c101b",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "af8cd640-78f6-4448-942b-0b629d8c7370",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "e51c4931-a3d1-4209-835f-65c4ec53b0ca",
         "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 6063,
-      "out": 6672
+      "in": 10113,
+      "out": 10991
     }
   }
 }
