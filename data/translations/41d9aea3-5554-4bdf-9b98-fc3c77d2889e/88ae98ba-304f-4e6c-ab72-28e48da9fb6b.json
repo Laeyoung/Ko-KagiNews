@@ -4,7 +4,7 @@
   "categoryUuid": "88ae98ba-304f-4e6c-ab72-28e48da9fb6b",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-20T15:02:34.027Z",
+  "createdAt": "2026-10-20T15:28:03.490Z",
   "stories": {
     "31711e73-f91a-4100-90e1-2df206bb757f": {
       "title": "프랑스 정부, 폭동 중 약탈된 것으로 의심되는 물품 삭제하도록 중고 거래 플랫폼에 압박",
@@ -231,24 +231,50 @@
       "timeline[0].content": "9월 상승 전 연간 물가상승률 3.0% 기록[statcan.gc.ca#1]",
       "timeline[1].content": "캐나다 통계청, 9월 소비자 물가 데이터 발표[statcan.gc.ca#1]",
       "timeline[2].content": "캐나다 통계청, 10월 물가 지표 발표 예정[statcan.gc.ca#1]"
+    },
+    "acc2384e-80bf-4ff0-8053-083f94a9c2be": {
+      "title": "중국 9월 무역 흑자 1,335억 달러 기록, 수출 급증",
+      "short_summary": "중국의 9월 무역 흑자가 전년 동기 대비 36.3% 증가한 수출에 힘입어 1,335억 달러를 기록했다. 1~9월 소매 판매는 1.1% 증가한 반면, 부동산 투자는 20.6% 감소했다. 중국의 7~9월 경제 성장률은 4.5%를 기록했으며, 기술 제품에 대한 해외 수요가 내수 부진을 상쇄하는 데 기여했다 [cnbc.com#1][abcnews.com#1][cnn.com#1]. 1~9월 누적 무역 흑자는 9,381억 달러로, 중국은 지난해 기록을 경신할 전망이다. 9월 산업 생산은 5.5% 증가했다. 1~9월 고정자산 투자는 7.2% 감소했으며, 부동산 투자 감소폭은 8월까지의 19.9%에서 9월까지 20.6%로 확대되었다 [cnbc.com#1][elpais.com#1][rthk.hk#1]. 베이징 당국은 대규모 경기 부양책 대신 특정 기업을 위한 저금리 대출, 인프라 자금 지원, 맞춤형 모기지 지원책을 도입했다. 경제 전문가들은 수출 호조로 인해 대규모 신규 부양책에 대한 압박은 완화되었으나, 부동산 침체와 가계 수요 부진은 지속되고 있다고 진단했다 [cnn.com#1][cnbc.com#1][businesstimes.com.sg#1].",
+      "quote": "너무 경쟁이 치열해서 수익이 나지 않는다",
+      "quote_attribution": "비즈니스 타임스(The Business Times)",
+      "historical_background": "부동산 침체는 민간 개발업체들의 수년간 이어진 과잉 건설과 과도한 차입 이후 발생했다. CNN은 2026년 기준 이 침체가 5년째 이어지고 있다고 보도했다 [bbc.co.uk#1][cnn.com#1]. 또한 CNN은 중국 가계 자산의 약 70%가 부동산에 묶여 있으며, 주택 가치 하락이 소비 지출에 압박을 가하고 있다고 전했다 [cnn.com#1].",
+      "business_angle_text": "ABC 뉴스가 인용한 한 분석가는 기술 중심의 수출 모델이 \"제한적인 일자리 창출과 전반적인 소득 증대\"를 보여주었으며, 인공지능(AI) 관련 노동 대체가 추가적인 위험 요인이라고 지적했다 [abcnews.com#1].",
+      "talking_points[0]": "산업 변화: 첨단 제조업, 디지털 경제, 현대 서비스업이 9월까지 성장률의 40% 이상을 견인했으며, 첨단 기술 제조업 생산은 전체 산업 평균인 5.3% 대비 14.3% 증가했다 [elpais.com#1][yna.co.kr#1].",
+      "talking_points[1]": "투자 위축: 당국이 인프라와 기술 분야에 신규 자금을 투입했음에도 불구하고, 1~9월 민간 투자는 10.4%, 인프라 투자는 4.2% 감소했다 [elpais.com#1][rthk.hk#1].",
+      "talking_points[2]": "수출 전환: 오토바이 전조등을 제조하는 한 중국 기업은 해외로 눈을 돌려 올해 해외 주문량이 두 배로 증가했다고 밝혔다 [businesstimes.com.sg#1].",
+      "talking_points[3]": "무역 마찰: 유럽연합(EU)은 중국산 하이브리드 자동차 수입을 제한하기로 합의했으며, 대중국 무역 적자는 하루 11억 달러를 넘어섰다 [abcnews.com#1][naharnet.com#1].",
+      "talking_points[4]": "가격 압박: 9월 생산자 물가는 4년여 만에 가장 빠른 속도인 5% 상승했으나, 소비자 물가 상승률은 1% 미만에 머물러 기업들이 비용을 가격에 전가하기 어려운 상황이다 [cnbc.com#1].",
+      "business_angle_points[0]": "해외 판매 제조업체들은 현재의 글로벌 수요로부터 혜택을 볼 수 있으나, 무역 장벽과 기술 지출에 대한 불확실성이 위험 요인으로 작용하고 있다 [abcnews.com#1][cnn.com#1].",
+      "business_angle_points[1]": "분석가들은 주택 판매, 건설 착공, 가격 지표에서 부동산 침체가 바닥을 치고 있다는 징후가 거의 보이지 않아 부동산 관련 수요가 여전히 취약한 상태라고 평가했다 [cnbc.com#1].",
+      "industry_impact[0]": "기술 제조업: 인공지능(AI) 관련 하드웨어에 대한 글로벌 수요가 반도체, 전자 부품, 데이터 센터 장비의 수출을 뒷받침하고 있다 [cnn.com#1].",
+      "industry_impact[1]": "자동차 무역: 태양광 및 전기차 등 분야에서 중국의 제조 역량이 내수 소비 부진보다 빠르게 확대되면서, 더 많은 생산 물량이 경쟁력 있는 가격으로 해외로 수출되고 있다 [abcnews.com#1].",
+      "industry_impact[2]": "내수 소매 및 서비스: 닝보의 한 식당 주인은 고객과 기업들이 지출을 줄이면서 일부 손님들이 직접 와인을 가져오기도 한다고 전했다 [businesstimes.com.sg#1].",
+      "perspectives[0].text": "컨퍼런스 보드(The Conference Board)의 아시아 태평양 수석 이코노미스트 맥스 젱글라인(Max Zenglein)은 공식 성장률 수치가 산업, 지역, 가계 간의 격차 확대를 가리고 있어 경제 전반의 성과를 나타내는 지표로서의 신뢰성을 잃어가고 있다고 주장했다 [abcnews.com#1].",
+      "perspectives[1].text": "코넬 대학교(Cornell University) 경제 및 무역 정책 교수 에스와르 프라사드(Eswar Prasad)는 성장을 뒷받침하기 위해 해외 수요에 의존하는 것은 지속 불가능하며, 중국의 대규모 무역 흑자가 글로벌 성장에 부담을 줄 수 있다고 지적했다 [abcnews.com#1][naharnet.com#1].",
+      "perspectives[2].text": "소시에테 제네랄(Société Générale)의 이코노미스트 미셸 람(Michelle Lam)은 수출 확대에는 한계가 있으며, 가계 소득과 소비에 대한 강력한 지원 없이는 중국이 장기간의 저물가와 평균 이하의 성장률을 겪을 위험이 있다고 주장했다 [businesstimes.com.sg#1][lavanguardia.com#1].",
+      "perspectives[3].text": "해고된 영업직 노동자 로라 시(Laura Shi)는 호텔 비용을 아끼기 위해 10월 연휴 기간 동안 차에서 잠을 잤다고 말했다 [businesstimes.com.sg#1].",
+      "timeline[0].content": "베이징 당국, 2026년 성장 목표치를 4.5%~5%로 설정 [lavozdegalicia.es#1]",
+      "timeline[1].content": "당국, 맞춤형 모기지 및 인프라 지원책 발표 [cnn.com#1][news.kagi.com#1]",
+      "timeline[2].content": "중국, 3분기 성장률 및 9월 경제 활동 데이터 발표 [cnbc.com#1][abcnews.com#1]",
+      "suggested_qna[0].question": "베이징의 최근 지원 조치에는 무엇이 포함되어 있는가?",
+      "suggested_qna[0].answer": "일부 주택 구매자를 위한 모기지 보조금, 인프라 및 기술 분야를 위한 저금리 대출, 중소기업 및 소비자를 위한 대출 이자 보조금, 그리고 5,500억 위안 규모의 미사용 지방정부 부채 한도 활용 등이 포함된다 [elpais.com#1][rthk.hk#1].",
+      "suggested_qna[1].question": "5.2%의 도시 실업률 수치가 고용 안정을 제대로 반영하는가?",
+      "suggested_qna[1].answer": "비즈니스 타임스는 주당 1시간만 일해도 취업자로 간주된다고 보도했다. 경제 전문가들은 확대되는 긱 경제(gig economy)가 공식 실업률 수치를 낮게 보이게 할 수 있다고 지적했다 [businesstimes.com.sg#1].",
+      "secondary_image.caption": "베이징의 한 쇼핑몰. 중국의 내수 경제, 특히 소매 판매는 3분기에 부진을 면치 못했다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
+    "translated": 11,
     "failedStoryIds": [
-      {
-        "id": "acc2384e-80bf-4ff0-8053-083f94a9c2be",
-        "reason": "retry_exhausted"
-      },
       {
         "id": "bf22599e-3188-4b72-a3b5-23b3b069a278",
         "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 16421,
-      "out": 20773
+      "in": 18303,
+      "out": 23245
     }
   }
 }

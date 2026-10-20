@@ -4,7 +4,7 @@
   "categoryUuid": "9e1ce811-09ee-4ff7-b672-998ec358c30e",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-20T14:57:58.179Z",
+  "createdAt": "2026-10-20T15:23:06.150Z",
   "stories": {
     "2603ac89-2a31-4319-a1f9-7938610a6486": {
       "title": "프랑스, 폭동으로 수천 개 상점 피해 입자 야간 통행금지 시행",
@@ -279,20 +279,40 @@
       "suggested_qna[0].question": "참가자들이 가상으로 참석할 수 있었나?",
       "suggested_qna[0].answer": "주최 측은 해외 임원들이 원격으로 참여할 수 있는 하이브리드 형식을 논의했으나, 해당 형식으로 진행하는 대신 회의를 2027년으로 연기했다[al-monitor.com#1][semafor.com#1].",
       "primary_image.caption": "2018년 10월 25일 사우디 수도 리야드에서 열린 미래투자이니셔티브(FII) 회의 마지막 날 참가자들이 참석하고 있다. '사막의 다보스'로 불리는 이 정상회의는 사우디 영사관 내에서 발생한 사우디 언론인 살해 사건에 대한 전 세계적인 공분이 커지면서 빛이 바랬다. (사진: GIUSEPPE CACACE / AFP) GIUSEPPE CACACE/AFP/Getty Images"
+    },
+    "4ce5c769-ca9e-40fa-9e39-49d1cf338100": {
+      "title": "예멘 보안 훈련 캠프에서 후티 미사일 공격으로 신병 53명 사망",
+      "short_summary": "현지 당국에 따르면 후티 반군은 월요일 예멘 샤브와주의 알 알람 보안 훈련 캠프에 탄도 미사일 3발을 발사해 최소 53명의 신병이 사망하고 200명 이상이 부상했다. 후티 측은 해당 캠프의 사우디 지원군을 표적으로 삼았다고 밝히며 공격 사실을 인정했으나, 예멘 당국은 신병들이 내부 보안 임무를 위한 훈련을 받고 있었다고 전했다 [bbc.co.uk#1][pbs.org#1][theguardian.com#1]. 9월 후티 반군이 밥엘만데브 해협으로 진격하자 사우디의 지원을 받는 국제 공인 정부군이 이달 해안 지역 탈환을 위한 반격에 나섰다. 이번 교전 재개로 주요 전투를 대부분 중단시켰던 2022년 휴전이 깨졌다 [bbc.co.uk#1][pbs.org#1][aaj.tv#1]. 샤브와 지역 병원들은 환자로 넘쳐났고, 중상자들은 인근 하드라마우트와 아덴의 시설로 이송되었다. 샤브와 당국은 정부와 사우디 주도 연합군에 방공망과 조기 경보 시스템 제공을 촉구했으며, 라샤드 알 알리미(Rashad al-Alimi) 예멘 국제 공인 정부 대통령은 단호한 대응을 약속했다 [bbc.co.uk#1][nation.com.pk#1][aawsat.com#1].",
+      "quote": "이번 신병 공격은 후티 민병대가 압박에 직면하거나 이란의 지원을 받는 파괴 공작이 실패할 때마다 비겁한 테러 공격에 의존하는 방식을 보여준다",
+      "quote_attribution": "가디언(The Guardian)",
+      "location": "예멘 아타크",
+      "historical_background": "예멘 내전은 2014년 후티 반군이 수도 사나를 점령하면서 시작되었으며, 이듬해 사우디 주도 연합군이 국제 공인 정부를 지원하기 위해 개입했다 [bbc.co.uk#1][algemeiner.com#1].",
+      "humanitarian_impact": "당국은 사망자들이 공무 수행 중 사망한 것으로 인정되어 유가족들이 급여를 받게 될 것이라고 밝혔다. 또한 부상당한 신병들의 재정적 권리를 보호하겠다고 약속했다 [aawsat.com#1][albawaba.com#1].",
+      "talking_points[0]": "캠프의 역할: 군 관계자는 해당 신병들이 지역 방어를 담당하는 신설 신속대응군 소속이라고 밝혔다. 이 캠프는 샤브와와 정부군 통제하의 마리브를 잇는 경로 및 군사 보급로에 위치해 있다 [sentinelcolorado.com#1][nation.com.pk#1].",
+      "talking_points[1]": "도로 접근성: 후티 반군은 정부군이 통제하는 샤브와와 후티 통제하의 바이다를 잇는 도로를 차단했다 [theguardian.com#1][aaj.tv#1].",
+      "talking_points[2]": "전선 압박: 타이즈, 마리브, 알 자우프 주변에서도 교전이 보고되었으며, 후티 반군은 포위된 타이즈에 대한 접근을 더욱 제한했다 [bbc.co.uk#1][theguardian.com#1].",
+      "talking_points[3]": "사우디로의 여파: 사우디 당국은 리야드에 공중 위협 경보를 발령하고 공격 상황 속에서 일부 공무원들에게 원격 근무를 지시했다 [dawn.com#1].",
+      "talking_points[4]": "이집트 투표: 이집트 의회는 사우디아라비아에 대한 군사 지원 승인 투표를 10월 26일로 연기했으며, 토론은 임무의 범위와 이집트군이 겪을 위험에 집중되었다 [dawn.com#1].",
+      "industry_impact[0]": "사우디 비즈니스 행사: 주최 측은 보안 우려로 인해 10월 26~29일로 예정되었던 사우디아라비아의 미래투자이니셔티브(FII)를 2027년으로 연기했다 [dawn.com#1].",
+      "industry_impact[1]": "에너지 인프라: 샤브와에는 예멘 최대 에너지 시설로 알려진 발하프 액화천연가스(LNG) 터미널이 있다 [aaj.tv#1][alarabiya.net#1].",
+      "perspectives[0].text": "예멘 국제 공인 정부: 무아마르 알 에리아니(Moammar al-Eryani) 공보장관은 해당 캠프가 훈련 센터일 뿐 현재 교전과 관련된 군사 표적이 아니라고 말하며, 이번 공격을 전쟁 범죄로 규정했다 [bbc.co.uk#1].",
+      "perspectives[1].text": "후티 군 대변인 야히아 사레아(Yahya Sarea): 그는 해당 캠프에 '사우디 적군'이 주둔하고 사우디 장교들이 운영하고 있었다고 주장하며, 이번 공격을 사우디 지원군 배치에 대한 타격으로 규정했다 [bbc.co.uk#1][theguardian.com#1].",
+      "perspectives[2].text": "라샤드 알 알리미 예멘 정부 지도자: 그는 안토니우 구테흐스(António Guterres) 유엔 사무총장에게 후티 반군을 외국 테러 조직으로 지정해 줄 것을 요청했다 [theguardian.com#1].",
+      "timeline[0].content": "휴전으로 후티 반군과 정부군 간의 주요 교전이 대부분 중단되었다 [pbs.org#1]",
+      "timeline[1].content": "후티 반군이 사우디아라비아에 대한 해상 봉쇄를 선언하고 사우디 표적을 향한 미사일 및 드론 공격을 시작했다 [bbc.co.uk#1]",
+      "timeline[2].content": "사우디 주도 연합군의 공중 지원을 받아 정부군이 밥알만데브 해협을 내려다보는 홍해 연안 영토를 탈환했다 [bbc.co.uk#1]",
+      "timeline[3].content": "신병들이 훈련을 위해 대열을 갖추던 중 미사일 3발이 떨어졌다 [pbs.org#1][theguardian.com#1]",
+      "primary_image.caption": "모카(예멘): 후티 반군과 사우디 주도 연합군 간의 교전 이후, 홍해 주요 항구 인근 도로에서 사우디 지원군 소속의 파괴된 군용 차량 잔해가 발견되었다.—AFP",
+      "secondary_image.caption": "로이터 통신 자료 사진"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "4ce5c769-ca9e-40fa-9e39-49d1cf338100",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 17532,
-      "out": 22496
+      "in": 19105,
+      "out": 24459
     }
   }
 }

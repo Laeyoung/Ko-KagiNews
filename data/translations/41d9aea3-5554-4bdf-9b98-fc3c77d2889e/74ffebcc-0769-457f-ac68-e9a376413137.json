@@ -4,7 +4,7 @@
   "categoryUuid": "74ffebcc-0769-457f-ac68-e9a376413137",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-20T15:03:52.255Z",
+  "createdAt": "2026-10-20T15:28:36.184Z",
   "stories": {
     "58bc8bc1-90e6-45fb-afda-52cb4ae56f09": {
       "title": "애플, 10월 28일 행사 개최…터치스크린 맥북 루머 확산",
@@ -215,20 +215,29 @@
       "suggested_qna[0].question": "보안 팀은 에이전트의 행동을 이를 실행한 사람의 행동과 어떻게 구분할 수 있는가?",
       "suggested_qna[0].answer": "마이크로소프트 엔트라 에이전트 ID(Microsoft Entra Agent ID)는 로컬 및 이전에 알려지지 않은 에이전트를 포함하여 에이전트에 ID를 할당함으로써, 보안 팀이 행동의 주체를 인간 후원자가 아닌 에이전트로 귀속시킬 수 있도록 돕는다 [unite.ai#1].",
       "secondary_image.caption": "\"AI 에이전트도 내부자처럼 감시해야\"…MS, 새 보안 접근법 제시"
+    },
+    "a33ff2d1-5c7b-4396-9f1c-36946922f2b0": {
+      "title": "플로리다주, DMV 데이터 유출로 운전면허 및 차량 기록 노출",
+      "short_summary": "플로리다주 고속도로안전차량국(Department of Highway Safety and Motor Vehicles)은 지난 9월 4일 악의적인 공격자가 도용된 자격 증명을 사용하여 주 운전면허 및 차량 기록에 접근했다고 밝혔다. 잠재적으로 노출된 데이터에는 문서 이미지와 기타 개인 정보가 포함되어 있으나, 주 당국은 공격자가 몇 건의 기록에 접근했는지는 밝히지 않았다[arstechnica.com#1][tampabay.com#1][cbsnews.com#1]. 해당 부서는 정보가 악용되었다는 증거는 발견되지 않았으며 영향을 받을 수 있는 사람들에게 통지를 시작했다고 밝혔다. 또한 1년간의 신용 모니터링 서비스를 제공하고 있으며, 일부 보도에 따르면 이 패키지에는 100만 달러 규모의 신원 도용 보험도 포함되어 있다. 현재 해당 부서는 주 법 집행 기관 및 디지털 서비스 기관과 함께 조사를 진행 중이다[arstechnica.com#1][tampabay.com#1][patch.com#1].",
+      "quote": "“무단 접근 차단, 관련 사용자 자격 증명 재설정, 사이버 보안 전문가 참여, 민감한 정보 보호를 위한 추가 안전장치 구현”",
+      "quote_attribution": "Ars Technica",
+      "talking_points[0]": "자격 증명 관리 소홀: 해당 부서의 FAQ에 따르면 플로리다주 지역 법 집행 기관의 직원이 전자 기기에 로그인 자격 증명을 부적절하게 보관하여 공격자가 주 시스템에 접근할 수 있었던 것으로 나타났다[arstechnica.com#1][ua.news#1].",
+      "talking_points[1]": "랜섬웨어 주장: 사이버 범죄 조직인 샤이니헌터스(ShinyHunters)는 자신들이 DMV를 해킹했다고 주장하며 데이터 유출을 막기 위한 협상 시한을 9월 11일로 설정했으나, 플로리다주는 해당 조직의 연루 여부를 공식적으로 확인해주지 않았다[arstechnica.com#1].",
+      "talking_points[2]": "별개의 사건: Ars Technica가 보도한 NBC 마이애미의 기사에 따르면, 이번 플로리다주 데이터 유출 사건은 1억 5,300만 건의 미국 운전면허증과 관련된 IDscan.net 사건과는 무관한 것으로 보인다[arstechnica.com#1].",
+      "user_action_items[0]": "정보 유출 여부 확인: 과거 플로리다주 운전면허증, 신분증 또는 차량 등록증을 소지했던 사람 중 통지를 받지 못한 경우 플로리다주 고속도로안전차량국(FLHSMV)에 이메일(customerinquiry@flhsmv.gov)로 문의해야 한다[patch.com#1][arstechnica.com#1].",
+      "user_action_items[1]": "계정 및 신용 모니터링: 금융 계좌와 신용 보고서에서 의심스러운 활동이 있는지 검토해야 하며, 주 당국은 사기 경보 설정이나 신용 동결을 고려할 것을 권고했다[arstechnica.com#1][ua.news#1].",
+      "timeline[0].content": "공격자가 도용된 자격 증명을 사용하여 부서 기록에 접근함[arstechnica.com#1][tampabay.com#1]",
+      "timeline[1].content": "샤이니헌터스(ShinyHunters)가 데이터 유출 방지를 위해 제시한 협상 시한이 지남[arstechnica.com#1]",
+      "timeline[2].content": "플로리다주 고속도로안전차량국이 금요일에 데이터 유출 공지를 게시함[arstechnica.com#1][cbsnews.com#1]"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "a33ff2d1-5c7b-4396-9f1c-36946922f2b0",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 14532,
-      "out": 17838
+      "in": 15507,
+      "out": 18912
     }
   }
 }

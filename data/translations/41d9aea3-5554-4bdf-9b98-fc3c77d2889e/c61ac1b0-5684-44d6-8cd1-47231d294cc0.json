@@ -4,7 +4,7 @@
   "categoryUuid": "c61ac1b0-5684-44d6-8cd1-47231d294cc0",
   "categorySlug": "usa",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-20T15:00:25.452Z",
+  "createdAt": "2026-10-20T15:26:46.342Z",
   "stories": {
     "8feb49c5-a461-4940-af26-b19f87c10e91": {
       "title": "미 법무부, 선거 관련 범죄 혐의로 캘리포니아 영주권자 28명 기소",
@@ -239,20 +239,32 @@
       "timeline[0].content": "트럼프, 뉴멕시코주를 '뉴 아메리카'로 표기한 지도를 게시함 [channel3000.com#1]",
       "timeline[1].content": "공화당 후보 그렉 커닝햄이 토론회에서 해당 제안을 거부함 [usmagazine.com#1]",
       "timeline[2].content": "트럼프가 트루스 소셜(Truth Social) 게시물을 통해 요구를 재차 강조함 [thehill.com#1][channel3000.com#1]"
+    },
+    "14e557b1-8247-45cb-8d6d-7ba9bc888860": {
+      "title": "트럼프는 네타냐후 재선 지지했으나, 밴스는 지지 거부",
+      "short_summary": "JD 밴스 부통령은 도널드 트럼프 대통령이 10월 27일 이스라엘 총선을 앞두고 베냐민 네타냐후 이스라엘 총리의 재선을 공개적으로 지지한 다음 날인 월요일, 네타냐후 총리에 대한 지지를 거부했다. 밴스는 미국 중간선거 캠페인에 집중하고 있으며 이스라엘 선거에는 관여하지 않겠다고 밝혔다 [abcnews.com#1][cnbc.com#1][hurriyetdailynews.com#1]. 밴스는 노스캐롤라이나주 공화당 상원의원 후보인 마이클 와틀리(Michael Whatley)의 선거 유세를 위해 이동하던 중 이같이 발언했다. 그는 트럼프의 지지가 갖는 영향력을 높이 평가하면서도, 자신은 미국 후보들에 대한 지지에만 전념하겠다고 말했다. 네타냐후 총리에 반대하는 것이냐는 질문에 밴스는 그를 지지하는 것도 반대하는 것도 아니라고 답했다 [abcnews.com#1][thehill.com#1][aawsat.com#1]. 네타냐후 총리는 트럼프의 공개적 지지에 감사를 표했으나, 튀리예 데일리 뉴스(Hürriyet Daily News)가 인용한 여론조사에 따르면 네타냐후의 집권 연합이 의회 과반 의석 확보에 실패할 가능성이 제기되었다 [cnbc.com#1][hurriyetdailynews.com#1].",
+      "quote": "나는 미국 후보들을 지지하며, 중간선거와 관련해 그 부분에 집중하고 있다",
+      "quote_attribution": "ABC 뉴스",
+      "historical_background": "밴스는 유대계 미국인들에 대한 헌신과 미국의 이스라엘 동맹 관계에 대해 유대계 공화당원들로부터 회의적인 시선을 받아왔다. 지난달 그는 라스베이거스에서 열린 공화당 유대인 연합(Republican Jewish Coalition)과 비공개 회담을 갖고 긍정적인 인상을 남겼으나, 터커 칼슨(Tucker Carlson)에 대한 지지 철회까지는 나아가지 않았다 [abcnews.com#1].",
+      "talking_points[0]": "과거의 지지: 밴스는 지난 4월 헝가리에서 당시 총리였던 빅토르 오르반(Viktor Orbán)을 위해 유세했으나, 오르반의 정당은 이후 총선에서 패배했다 [cnbc.com#1][abcnews.com#1].",
+      "talking_points[1]": "네타냐후와의 회동 보도: 밴스가 이란에 대한 발언을 한 후, 네타냐후 총리가 블레어 하우스(Blair House)에서 그를 추궁했다는 보도가 나왔다. 밴스는 이후 그들과 솔직하고 좋은 대화를 나눴으며, 추궁당했다고 느끼지 않았다고 말했다 [israelnationalnews.com#1].",
+      "talking_points[2]": "연합 구성의 산술: 여론조사에 따르면 네타냐후의 블록이 의회 과반 의석 확보에 실패할 가능성이 있다. 야당들 역시 아랍계 정당들의 지지를 배제하고 있어 과반 의석 확보에 어려움을 겪고 있다 [hurriyetdailynews.com#1].",
+      "talking_points[3]": "선거 배경: 10월 27일 이스라엘 선거는 2023년 말 하마스의 이스라엘 공격 이후 치러지는 첫 전국 단위 선거이다 [cnbc.com#1].",
+      "perspectives[0].text": "JD 밴스 부통령: 밴스는 미국과 이스라엘이 동맹으로서 이견을 가질 수 있다고 말하면서도, 이스라엘을 미국의 훌륭한 파트너로 묘사했다 [israelnationalnews.com#1].",
+      "timeline[0].content": "밴스는 이란 전쟁을 해결하려는 트럼프의 노력에 반대하는 이스라엘 관리들을 비판했다 [abcnews.com#1]",
+      "timeline[1].content": "밴스는 이스라엘 관리들이 이란 분쟁에 관한 미국 내 여론에 영향을 미치려 했다고 주장했다 [abcnews.com#1]",
+      "timeline[2].content": "트럼프는 이스라엘 선거를 앞두고 네타냐후를 공개적으로 지지했다 [hurriyetdailynews.com#1][cnbc.com#1]",
+      "timeline[3].content": "밴스는 이스라엘 선거에 관여하지 않겠다고 밝혔다 [abcnews.com#1][hurriyetdailynews.com#1]",
+      "timeline[4].content": "이스라엘은 전국 단위 선거를 치를 예정이다 [hurriyetdailynews.com#1][cnbc.com#1]"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "14e557b1-8247-45cb-8d6d-7ba9bc888860",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 15214,
-      "out": 19385
+      "in": 16318,
+      "out": 20760
     }
   }
 }

@@ -4,7 +4,7 @@
   "categoryUuid": "28793dd6-bbaf-43aa-a3fe-16234e24ed03",
   "categorySlug": "science",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-20T15:06:11.371Z",
+  "createdAt": "2026-10-20T15:29:30.458Z",
   "stories": {
     "915d4294-fcdf-4010-bf44-9062d83a53de": {
       "title": "동남아시아의 작은 뱀, 포식자 피하려 통제된 수레바퀴 회전 사용",
@@ -159,24 +159,51 @@
       "timeline[1].content": "큐리오시티가 화성 탐사선 중 가장 높은 고도 상승 기록을 달성했다 [scitechdaily.com#1]",
       "timeline[2].content": "NASA가 멀리 떨어진 야당의 상세한 모습을 공개했다 [nasa.gov#1]",
       "timeline[3].content": "임무 팀은 큐리오시티가 야당 기슭에 도달할 것으로 예상한다 [scitechdaily.com#1]"
+    },
+    "6e2614b2-433f-428b-beef-e7191d041ab1": {
+      "title": "일본 MMX 탐사선, 성공적인 발사 후 포보스 향한 여정 시작",
+      "short_summary": "일본 우주항공연구개발기구(JAXA)는 일본의 화성 위성 탐사선(MMX)이 10월 20일 다네가시마에서 발사된 지 약 71분 만에 H3 로켓에서 분리되어 화성을 향한 계획된 궤도에 진입했다고 밝혔다 [japan-forward.com#1][japantimes.co.jp#1]. 이번 임무는 포보스와 데이모스를 연구한 뒤 포보스의 물질을 지구로 회수하는 것을 목표로 하며, 화성의 어느 위성에도 탐사선이 착륙한 사례는 아직 없다 [scientificamerican.com#1][pbs.org#1]. 이번 임무는 화성의 위성들이 포획된 소행성인지, 아니면 과거 화성 충돌로 발생한 파편인지 확인하는 것을 목표로 한다. 포보스의 원소 구성을 측정하면 이러한 가설을 구분하는 데 도움이 될 수 있으며, 토양에는 충돌로 인해 화성에서 튕겨 나간 물질이 포함되어 있을 수도 있다 [wired.com#1][bbc.co.uk#1]. 탐사선은 궤도 관측 장비를 탑재하고 있으며, 프랑스-독일 합작의 아이데픽스(Idefix) 로버는 주 탐사선이 샘플 채취를 시도하기 전 표면을 조사할 예정이다. 연구진은 회수된 샘플을 우주로 보낼 수 없는 대형 또는 정밀 실험 장비로 분석할 수 있다고 설명하며, JAXA는 샘플을 분류한 후 연구 기관들에 배분할 계획이다 [scientificamerican.com#1][sciencenews.org#1].",
+      "quote": "저에게는 그것이 가장 흥미로운 점입니다. 아무도 해본 적 없는 측정을 수행하는 것이죠.",
+      "quote_attribution": "와이어드(WIRED)",
+      "location": "일본 가고시마현 미나미타네",
+      "historical_background": "과거 러시아가 포보스로 보낸 탐사선 3대는 모두 실패했으며, 일본의 이전 화성 탐사 임무는 화성 궤도 진입에 실패한 바 있다 [wired.com#1][pbs.org#1]. 일본은 두 차례 소행성 샘플을 회수한 경험이 있으며, 이는 MMX 임무와 관련성이 높은 것으로 평가받는다 [pbs.org#1][japantoday.com#1].",
+      "talking_points[0]": "원소 단서: 메가네(MEGANE) 장비는 포보스에서 방출되는 감마선과 중성자 입자를 측정할 예정이며, 수소나 칼륨 같은 휘발성 원소의 수치가 높으면 포획된 소행성이라는 가설에 힘이 실리고, 낮으면 충돌 기원설을 뒷받침할 수 있다 [wired.com#1].",
+      "talking_points[1]": "로버 지형 조사: 아이데픽스는 약 100일 동안 포보스를 정찰하며, 임무 통제팀이 착륙 및 샘플 채취 지점을 선정할 때 고운 가루나 험난한 지형을 피할 수 있도록 도울 예정이다 [pbs.org#1][japantoday.com#1].",
+      "talking_points[2]": "샘플 배분: 미국 항공우주국(NASA) 존슨 우주 센터는 회수된 포보스 물질의 15%를 분석용으로 받을 예정이며, JAXA는 나머지 부분을 다른 기관들과 공유할 계획이다 [sciencenews.org#1][benchmark.pl#1].",
+      "international_reactions[0]": "🇺🇸 NASA: NASA는 이번 임무에 과학 장비, 기술 시연, 통신 지원 및 미국 연구진을 위한 자금을 지원했다 [scientificamerican.com#1][space.com#2].",
+      "international_reactions[1]": "🇪🇺 유럽우주국(ESA): ESA는 심우주 통신 장비를 제공했으며 이번 국제 임무에 참여하고 있다 [thehindu.com#1][scientificamerican.com#1].",
+      "international_reactions[2]": "🇫🇷 프랑스 및 독일: 프랑스 국립우주연구센터(CNES)와 독일 항공우주센터(DLR)는 아이데픽스 로버를 공동 개발했다 [pbs.org#1][tagesspiegel.de#1].",
+      "technical_details[0]": "이중 채취 시스템: MMX는 약 2cm 깊이까지 침투할 수 있는 코어링 장치와 가압 가스를 사용하여 표면의 느슨한 물질을 수집하는 공압 장치를 탑재하고 있다 [sciencenews.org#1].",
+      "technical_details[1]": "아이데픽스 이동 방식: 로버는 초당 약 1mm의 속도로 이동할 것으로 예상된다 [pbs.org#1][japantoday.com#1].",
+      "scientific_significance[0]": "포보스 물질의 연대를 측정하면 화성 인근 충돌 역사의 연대기를 보정하는 데 도움이 될 수 있다 [sciencenews.org#1].",
+      "scientific_significance[1]": "행성 거주 가능성에 대한 단서: 포보스의 기원을 연구하면 물과 유기 화합물이 어떻게 지구형 행성으로 운반되었는지 조사하는 데 도움이 될 수 있다 [scientificamerican.com#2].",
+      "perspectives[0].text": "NASA: 린지 헤이스(Lindsay Hays) NASA 행성 과학 국장 대행은 MMX의 과학적 성과와 회수된 샘플이 수십 년간의 화성 탐사를 보완하고 향후 발견 및 유인 임무에 정보를 제공할 수 있을 것이라고 말했다 [scientificamerican.com#2].",
+      "perspectives[1].text": "프랑스 국립우주연구센터(CNES): 줄리앙 바루크(Julien Baroukh) 엔지니어는 아이데픽스가 부드러운 토양에 빠지거나 바위 사이에 끼일 경우 움직이지 못하게 될 수 있다고 경고했다. 태양광 패널이 펼쳐진 후에는 스스로 자세를 바로잡을 수 없다 [pbs.org#1].",
+      "perspectives[2].text": "행성협회(Planetary Society): 아사 스탈(Asa Stahl) 천문학자는 포보스의 척박한 모습이 생명체 거주 가능성이 있는 세계보다 대중의 관심을 덜 끌 수는 있지만, 이번 임무는 상당한 과학적 가치를 지닌다고 주장했다 [scientificamerican.com#2].",
+      "timeline[0].content": "H3 로켓의 첫 비행 실패로 인해 당초 2024년으로 계획되었던 MMX 발사가 지연되었다 [aa.com.tr#1]",
+      "timeline[1].content": "MMX가 H3 로켓에서 분리되어 화성을 향한 계획된 궤도에 진입했다 [japan-forward.com#1][japantimes.co.jp#1]",
+      "timeline[2].content": "탐사선이 화성 시스템에 도달하여 위성 관측을 시작할 예정이다 [scientificamerican.com#1][japantimes.co.jp#1]",
+      "timeline[3].content": "주 탐사선이 샘플을 채취하기 전 아이데픽스가 포보스를 조사할 예정이다 [pbs.org#1][japantoday.com#1]",
+      "timeline[4].content": "귀환 캡슐이 포보스 물질을 지구로 가져올 예정이다 [sciencenews.org#1][theguardian.com#1]",
+      "suggested_qna[0].question": "회수된 샘플 캡슐은 어디에 착륙할 예정인가요?",
+      "suggested_qna[0].answer": "캡슐은 2031년 호주 우메라 사막에 착륙할 예정이다 [bbc.co.uk#1][pbs.org#1].",
+      "suggested_qna[1].question": "MMX는 포보스에서 물질을 채취한 후 무엇을 하나요?",
+      "suggested_qna[1].answer": "탐사선은 데이모스를 근접 비행한 뒤 화성 영역을 떠나 샘플 캡슐을 지구로 보낼 예정이다 [pbs.org#1][theguardian.com#1].",
+      "secondary_image.caption": "일본 우주항공연구개발기구가 제작한 화성 위성 탐사선에는 NASA와 유럽 파트너들의 부품이 포함되어 있다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
+    "translated": 11,
     "failedStoryIds": [
-      {
-        "id": "6e2614b2-433f-428b-beef-e7191d041ab1",
-        "reason": "retry_exhausted"
-      },
       {
         "id": "84e2e21b-6ff7-4564-87d2-dd522f3babfd",
         "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 10621,
-      "out": 12353
+      "in": 12429,
+      "out": 14725
     }
   }
 }
