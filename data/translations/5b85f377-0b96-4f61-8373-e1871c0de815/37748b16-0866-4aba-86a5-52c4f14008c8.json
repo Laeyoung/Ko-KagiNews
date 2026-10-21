@@ -4,7 +4,7 @@
   "categoryUuid": "37748b16-0866-4aba-86a5-52c4f14008c8",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-21T15:14:23.679Z",
+  "createdAt": "2026-10-21T15:36:34.537Z",
   "stories": {
     "256355ab-09a8-4804-a0a8-0ed1fd878de5": {
       "title": "중국, 미국의 딥시크(DeepSeek) 금지 조치에 대응 예고… 딥시크는 AI 도구 공개",
@@ -160,22 +160,67 @@
       "timeline[4].content": "스포티파이, 올해 추천 목록에서 5천만 곡 이상을 필터링했다고 보고. [nbcnews.com#1]",
       "suggested_qna[0].question": "청취자가 스포티파이에서 AI 페르소나 음원을 여전히 찾을 수 있는가?",
       "suggested_qna[0].answer": "그렇다. 스포티파이는 AI 페르소나 프로필을 기본적으로 추천에서 제외하지만, AI 페르소나를 팔로우하는 청취자는 추천 목록을 통해 해당 음악을 계속 접할 수 있다. [nbcnews.com#1][rollingstone.com#1]"
+    },
+    "4f6cd41b-0221-40c0-91db-ae9a7a4a4fc6": {
+      "title": "애플 첫 폴더블 아이폰, 금요일 출시 앞두고 언박싱 영상 유출",
+      "short_summary": "애플의 첫 폴더블폰인 '아이폰 듀오(iPhone Duo)'의 언박싱 영상이 10월 23일 출시를 이틀 앞둔 화요일 온라인에 공개되었다. 영상 속 기기는 완전히 펼쳐진 상태로 포장되어 있었다 [macrumors.com#1][iphoneincanada.ca#1][iphone-ticker.de#2]. 유튜브 채널 '킹미 모바일(Kingmi Mobile)'이 게시한 이 영상은 언론사 외부에서 처음으로 기기를 공개한 사례로, 제품 패키지와 꼬임 방지 처리된 USB-C 케이블을 보여준다. 다만 일상적인 사용 환경에서의 성능은 확인되지 않았다 [macrumors.com#1][redmondpie.com#1]. 일부 사전 예약 고객들은 기존 12월이나 1월이었던 배송 예정일이 11월로 앞당겨졌다고 보고했다. 반면 변동이 없거나 오히려 배송이 늦춰진 주문도 존재한다 [techjuice.pk#1][tomsguide.com#1][digitaltrends.com#1]. 애플은 이러한 변경 사항에 대해 별도의 설명을 내놓지 않았으며, 공식 스토어에서는 여전히 신규 주문 시 1월 말 배송으로 안내하고 있다 [mashable.com#1][cultofmac.com#1]. 공식 출시는 10월 23일 금요일로 예정되어 있다. 일본과 한국의 애플 웹사이트에 따르면 듀오는 매장 픽업 예약을 한 고객만 구매할 수 있으며, 보다 상세한 리뷰는 10월 22일 목요일에 공개될 예정이다 [macdailynews.com#1][macrumors.com#1][iphone-ticker.de#2].",
+      "business_angle_text": "초기 배송 추정치만으로는 애플이 얼마나 많은 기기를 생산하거나 최종적으로 판매할 수 있을지 단정할 수 없다. 디지타임스(DIGITIMES)의 애널리스트 루크 린(Luke Lin)은 가을에 출시된 아이폰 18 모델 3종의 출하량을 7,100만 대에서 7,500만 대로 추산했다. 믹스뉴스(Mixnews)가 인용한 블룸버그 인텔리전스(Bloomberg Intelligence) 애널리스트들은 2027 회계연도에 듀오가 1,400만 대 판매되고 280억 달러의 매출을 올릴 것으로 전망했다. 이는 보고된 실적이 아닌 예측치이다 [digitimes.com#1][mixnews.lv#1].",
+      "talking_points[0]": "디스플레이 규격: 듀오는 5.4인치 외부 디스플레이와 7.6인치 내부 화면을 탑재했으며, 펼쳤을 때 두께는 5.2mm, 무게는 254g이다 [macdailynews.com#1][macwelt.de#1].",
+      "talking_points[1]": "하드웨어 절충안: 이 기기에는 후면 카메라 2개가 탑재되었으나 전용 망원 렌즈는 없으며, 페이스 ID(Face ID) 대신 측면 버튼 터치 ID(Touch ID)를 사용하고 액션 버튼은 제외되었다 [engadget.com#1].",
+      "talking_points[2]": "앱 준비 상태: 애플은 폴더블 화면에 맞춰 iOS 27을 최적화했으나, 서드파티 개발자들은 앱을 업데이트해야 한다. 넷플릭스(Netflix), 줌(Zoom), 슬랙(Slack)은 출시 당일 업데이트가 예정되어 있으나, 다른 앱들은 검은색 여백이 생기거나 화면이 늘어난 것처럼 보일 수 있다 [engadget.com#1].",
+      "talking_points[3]": "구매 제한: 애플 온라인 스토어는 고객당 아이폰 듀오 구매 수량을 2대로 제한하고 있으며, 이는 브라질, 미국, 일본, 스페인, 영국에서도 동일하게 적용된다 [canaltech.com.br#1][mashable.com#1].",
+      "talking_points[4]": "가격 격차: 엔가젯(Engadget)에 따르면 미국에서 256GB 모델의 시작가는 1,999달러인 반면, 삼성의 갤럭시 Z 폴드 8은 1,899달러부터 시작하며 더 가볍고 얇다 [engadget.com#1][digitimes.com#1].",
+      "technical_details[0]": "폴더블 디스플레이 표면: 초기 체험기 보고서에 따르면 화면 주름이 느껴지며 힌지 주변의 디스플레이 표면을 누르면 부드러운 느낌이 든다고 한다. 반복적인 접힘에 따른 장기적인 내구성은 아직 검증되지 않았다 [itc.ua#1].",
+      "business_angle_points[0]": "평균 판매 가격: 믹스뉴스가 인용한 블룸버그 인텔리전스 애널리스트들은 아이폰 18 프로(Pro)나 프로 맥스(Pro Max)에서 듀오로 전환하는 구매자들로 인해 애플의 아이폰 평균 판매 가격이 각각 82% 또는 67% 상승할 수 있다고 추정했다 [mixnews.lv#1].",
+      "user_action_items[0]": "사전 예약의 최신 배송 예정일 확인 방법: 구매 시 사용한 계정으로 애플 주문 목록에 로그인하거나, 주문 번호와 연결된 이메일 주소를 입력한다. 주문 내역을 열어 현재 배송 예정일을 확인할 수 있다 [tomsguide.com#1].",
+      "perspectives[0].text": "애플: 애플은 사전 예약 수요가 '놀라울 정도로 대단하다'고 표현하며, 고객들에게 기기를 최대한 빨리 전달하기 위해 노력하고 있다고 밝혔다 [digitaltrends.com#1][macdailynews.com#1].",
+      "perspectives[1].text": "마크 거먼(Mark Gurman), 블룸버그 기자: 거먼은 자신의 뉴스레터 보고서를 통해 애플이 공급 부족을 인지하고도 사전 예약을 시작한 것은 '중대한 실수'라고 주장했다 [heise.de#1].",
+      "perspectives[2].text": "맥월드(Macworld)의 맥칼로프(Macalope) 칼럼니스트: 해당 칼럼니스트는 충분한 물량이 확보되지 않은 상태에서 판매를 시작한 것이 중대한 실수라는 주장에 반박하며, 이러한 부족 현상은 예상보다 강력한 수요와 제한적인 생산량이 복합적으로 작용한 결과일 수 있다고 주장했다 [macworld.com#1].",
+      "timeline[0].content": "애플이 듀오 사전 예약을 시작했으며, 초기 배송 예정일이 빠르게 2027년까지 연장되었다 [macrumors.com#1][iphoneincanada.ca#1].",
+      "timeline[1].content": "킹미 모바일이 출시를 앞두고 첫 언박싱 영상을 게시했다 [iphoneincanada.ca#1][macrumors.com#1].",
+      "timeline[2].content": "제품 출시 전 미디어 리뷰가 공개될 것으로 예상되었다 [macrumors.com#1][iphone-ticker.de#2].",
+      "timeline[3].content": "애플이 배송 시작 및 매장 판매 일정을 확정했다 [macrumors.com#1][macdailynews.com#1].",
+      "suggested_qna[0].question": "독일에서 애플보다 더 빠른 배송 기간을 안내한 소매업체는 어디인가?",
+      "suggested_qna[0].answer": "맥벨트(Macwelt) 보도에 따르면 O2는 3주 내 배송, 오토(Otto)는 6주 내 배송, 보다폰(Vodafone)은 일부 모델에 대해 11월 배송을 안내했으나, 애플의 배송 예정일은 2027년 1월 25일 이후였다 [macwelt.de#1]."
+    },
+    "bdd81d1b-0541-4839-9b3a-1f1c2dca044a": {
+      "title": "eMudhra 인증서 키 취약점, 전 세계 소프트웨어 보안 업데이트 촉발",
+      "short_summary": "인도 인증기관인 eMudhra가 발행한 8개 중간 인증서의 개인키가 너무 취약해 연구원들이 이를 복구하고 모든 웹사이트에 대한 신뢰할 수 있는 인증서를 잠재적으로 생성할 수 있는 상황이 발생했다. 브라우저 제조사와 소프트웨어 개발사들은 해당 키를 차단하거나 수정 패치를 배포했으나, 취소 업데이트를 자동으로 받지 않는 애플리케이션과 기기는 여전히 위험에 노출될 수 있다 [mozilla.org#1][thehackernews.com#1][arstechnica.com#1]. 결함은 2025년 4월 키 생성 과정에서 발생한 인증서들과 관련이 있다. eMudhra는 잘못된 단계로 인해 의도했던 강력한 키와 함께 취약한 키가 생성되었고, 이 취약한 버전이 실수로 공개되었다고 밝혔다. 회사는 인프라 침해는 없었으며 영향을 받은 중간 인증서 중 최종 사용자에게 발행된 것은 없다고 설명했다. 다만 하나는 실제 운영 환경에 배포되었음을 인정했다 [thehindubusinessline.com#1][thehindu.com#1]. 모질라(Mozilla)와 크롬(Chrome)은 10월 17일 한 연구원이 문제를 보고한 후 해당 인증서를 차단했으며, 애플(Apple)과 마이크로소프트(Microsoft)도 각각 10월 19일과 20일에 뒤를 따랐다. 브라우저 차단 조치가 모든 프로그램에 적용되는 것은 아니다. Go 애플리케이션은 패치된 버전으로 다시 빌드해야 하며, 자체 인증서 저장소를 사용하는 다른 소프트웨어는 별도의 업데이트가 필요하다. 인증서 투명성(Certificate Transparency) 로그에서 악의적으로 발행된 웹사이트 인증서는 발견되지 않았으나, 로그가 남는 브라우저 인증서 시스템 외부에서의 악용 가능성은 배제할 수 없다 [mozilla.org#1][we-have-a-problem.com#1][thehackernews.com#2].",
+      "quote": "IoT 기기, 도커(Docker) 컨테이너, 잊혀진 리눅스(Linux) 머신, 그리고 파이썬(Python)과 같은 일부 생태계에서 흔히 볼 수 있는 루트 인증서 사본을 자체적으로 포함한 유지보수되지 않는 CLI 도구 등 매우 길고 광범위한 여파가 있을 것이다.",
+      "quote_attribution": "Ars Technica",
+      "business_angle_text": "eMudhra는 영향을 받은 글로벌 TLS 사업이 전체 매출의 약 1%를 차지하며, 이번 사건이 수치화할 수 없는 평판 위험을 초래할 수 있다고 밝혔다. 회사는 영향을 받을 가능성이 있는 고객들과 직접 협력하여 대체 인증서를 제공하고 있다고 전했다. 브라우저 및 소프트웨어 제공업체들은 해당 키를 차단하거나 신뢰하지 않도록 조치했다 [thehindubusinessline.com#1][business-standard.com#1].",
+      "talking_points[0]": "키 복구: 연구원들은 8개의 P-384 개인키 값이 4, 56, 66, 115, 155, 156, 230, 237임을 확인했다. 각 값은 예상되는 대규모 무작위 키 공간에서 추출된 것이 아니라 256 미만의 작은 수였다 [arstechnica.com#1][ithome.com#1].",
+      "talking_points[1]": "브라우저 적용 범위: 구글(Google)은 크롬의 차단 조치가 영향을 받은 공개키를 대상으로 하므로, 섹티고(Sectigo)가 교차 서명한 동일 키의 사본도 함께 차단된다고 밝혔다 [thehackernews.com#1].",
+      "talking_points[2]": "소프트웨어 수정: 사용 가능한 수정 버전으로는 Go 1.27.3 및 1.26.10, 파이썬 certifi 2026.10.19, 러스트(Rust) webpki-roots 1.0.10이 있으며, Node.js 수정 사항은 여전히 대기 중인 것으로 사건 추적기에 기재되었다 [bleepingcomputer.com#1][we-have-a-problem.com#1].",
+      "talking_points[3]": "인도 서비스: 영향을 받은 글로벌 전송 계층 보안(TLS) 사업은 eMudhra 매출의 약 1%를 차지한다. 회사는 별도로 운영되는 인도 내 디지털 서명 및 eSign 서비스는 정상적으로 작동하고 있다고 밝혔다 [thehindubusinessline.com#1].",
+      "talking_points[4]": "크롬 변경 사항: 구글은 10월 27일 크롬의 루트 저장소에서 'emSign ECC Root CA - G3'를 제거할 계획이었다. 구글은 이 조치가 해당 루트와 연결된 인증서를 사용하는 일부 합법적인 사이트에 장애를 일으킬 수 있다고 경고했다 [business-standard.com#1].",
+      "technical_details[0]": "인증서 유형: 영향을 받은 6개의 중간 인증서는 도메인, 조직 및 확장 검증을 포함하는 TLS 인증서용이었으며, 나머지 2개는 코드 서명용이었다 [thehackernews.com#1].",
+      "technical_details[1]": "Go 검증 경로: Go는 자체 인증서 검증기에서 영향을 받은 키를 확인하며, macOS나 윈도우(Windows)에 검증을 위임할 때도 이를 확인한다 [thehackernews.com#2].",
+      "technical_details[2]": "코드 서명 인증서: 크롬의 TLS 검증기는 코드 서명으로 제한된 중간 인증서를 통한 경로를 구축하지 않기 때문에, 코드 서명용 중간 인증서 2개는 별도로 차단할 필요가 없었다 [thehackernews.com#1].",
+      "industry_impact[0]": "레거시 클라이언트: macOS에 내장된 /usr/bin/curl은 번들로 제공된 CA 파일이 취소 여부를 확인하지 않고 업데이트되지 않았기 때문에 영향을 받은 체인을 여전히 수락할 수 있다 [bleepingcomputer.com#1][we-have-a-problem.com#1].",
+      "industry_impact[1]": "정부 웹사이트: 더 힌두(The Hindu)는 인도 고유식별번호청(UIDAI) 및 소득세 신고 포털을 포함한 정부 사이트들이 eMudhra 인증서나 해당 회사의 다른 기술을 사용하고 있다고 보도했다 [thehindu.com#1].",
+      "user_action_items[0]": "영향을 받는 소프트웨어 및 운영체제 신뢰 저장소 업데이트: 브라우저, 운영체제, 프로그래밍 런타임 및 인증서 번들에 대한 최신 보안 업데이트를 설치해야 한다. 브라우저의 보호 조치가 모든 애플리케이션을 자동으로 업데이트하지는 않는다 [mozilla.org#1][we-have-a-problem.com#1].",
+      "user_action_items[1]": "자체 인증서 번들을 사용하는 시스템 확인: 관리자는 사건 대응 사이트의 테스트 엔드포인트와 인증서 체인을 사용하여 클라이언트가 영향을 받은 중간 인증서를 거부하는지 확인할 수 있다 [bleepingcomputer.com#1][we-have-a-problem.com#1].",
+      "perspectives[0].text": "eMudhra: 회사는 2025년 4월 키 생성식의 랩/언랩(wrap/unwrap) 단계 결함으로 인해 의도했던 키와 함께 두 번째 취약한 키 세트가 생성되었다고 밝혔다 [thehindu.com#1].",
+      "perspectives[1].text": "무디트 굽타(Mudit Gupta) 폴리곤 랩스(Polygon Labs) 최고기술책임자(CTO): 굽타는 이 문제가 암호화폐에 국한된 것이 아니며, 구식 소프트웨어가 더 일반적인 우려 사항이라고 말했다. 업데이트된 암호화폐 지갑과 거래 도구는 위험이 낮다 [coindesk.com#1].",
+      "timeline[0].content": "eMudhra가 키 생성식 과정에서 영향을 받은 중간 인증서를 생성했다 [thehindubusinessline.com#1].",
+      "timeline[1].content": "연구원 웨인(Wayne)이 키 문제를 보고했으며, 모질라와 크롬이 차단을 시작했다 [mozilla.org#1][thehackernews.com#1].",
+      "timeline[2].content": "애플이 자사 플랫폼에서 영향을 받은 인증서를 차단했다 [we-have-a-problem.com#1].",
+      "timeline[3].content": "마이크로소프트가 영향을 받은 인증서를 차단했으며, Go와 파이어폭스(Firefox) 보안 업데이트가 배포되었다 [we-have-a-problem.com#1][bleepingcomputer.com#1].",
+      "timeline[4].content": "eMudhra가 키 생성 결함을 공개하고 고객 인증서 교체를 위한 진행 상황을 설명했다 [thehindubusinessline.com#1].",
+      "suggested_qna[0].question": "영향을 받는 모든 연결이 원격으로 악용될 수 있는가?",
+      "suggested_qna[0].answer": "아니다. 모질라와 보안 보고서에 따르면, 사기성 인증서를 사용하여 사이트를 사칭하려면 공격자가 네트워크 경로를 제어하는 등 연결을 가로채야 한다 [mozilla.org#1][arstechnica.com#1].",
+      "suggested_qna[1].question": "시그널(Signal)과 같은 메시징 앱도 영향을 받는가?",
+      "suggested_qna[1].answer": "Ars Technica는 시그널, 왓츠앱(WhatsApp), 와이어가드(WireGuard)가 기밀 유지를 위해 TLS에 의존하지 않기 때문에 영향을 받지 않는다고 보도했다 [arstechnica.com#1].",
+      "primary_image.caption": "손상된 8개의 eMudhra 인증기관 키"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 8,
+    "translated": 10,
     "failedStoryIds": [
       {
         "id": "06341cb0-03e3-40ab-a13d-079b1d17351b",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "4f6cd41b-0221-40c0-91db-ae9a7a4a4fc6",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "bdd81d1b-0541-4839-9b3a-1f1c2dca044a",
         "reason": "retry_exhausted"
       },
       {
@@ -184,8 +229,8 @@
       }
     ],
     "tokens": {
-      "in": 10580,
-      "out": 12936
+      "in": 14294,
+      "out": 17768
     }
   }
 }
