@@ -4,7 +4,7 @@
   "categoryUuid": "37748b16-0866-4aba-86a5-52c4f14008c8",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-21T18:32:29.564Z",
+  "createdAt": "2026-10-21T19:49:12.210Z",
   "stories": {
     "256355ab-09a8-4804-a0a8-0ed1fd878de5": {
       "title": "중국, 미국의 딥시크(DeepSeek) 금지 조치에 대응 예고… 딥시크는 AI 도구 공개",
@@ -213,24 +213,40 @@
       "suggested_qna[1].question": "시그널(Signal)과 같은 메시징 앱도 영향을 받는가?",
       "suggested_qna[1].answer": "Ars Technica는 시그널, 왓츠앱(WhatsApp), 와이어가드(WireGuard)가 기밀 유지를 위해 TLS에 의존하지 않기 때문에 영향을 받지 않는다고 보도했다 [arstechnica.com#1].",
       "primary_image.caption": "손상된 8개의 eMudhra 인증기관 키"
+    },
+    "e9ee9f48-852e-4ef9-82b3-6515abb31e26": {
+      "title": "영국 규제당국, 아이폰 결제 지갑 경쟁사에 저렴한 접근권 제안",
+      "short_summary": "영국 경쟁시장청(CMA)은 10월 20일 애플이 아이폰의 비접촉식 결제 기술을 더 많은 경쟁 서비스에 개방하고 접근 수수료를 대폭 인하하도록 요구하는 방안을 제안했다. 이번 제안은 애플이 이미 영국 개발자들에게 제공하고 있는 보안 요소(secure-element) 접근 방식에 호스트 카드 에뮬레이션(HCE) 방식을 추가하는 내용을 담고 있다. CMA는 이러한 변화를 통해 경쟁 서비스들이 상업적 경쟁력을 갖출 수 있을 것으로 기대하며, 2026년 11월 17일에 종료되는 의견 수렴 절차를 거쳐 최종 결정을 내릴 예정이다 [reuters.com#1][bbc.co.uk#1][neowin.net#1]. CMA는 애플의 수수료와 계약 조건, 기술적 제한이 영국 기업들의 경쟁 디지털 지갑 출시를 가로막아 왔다고 지적했다. 유럽연합(EU)에서는 애플이 접근권을 개방한 이후 대체 서비스들이 등장한 바 있다 [reuters.com#1][bbc.co.uk#1]. 규제당국은 검토 결과 두 기술 모두에서 고유한 보안 문제는 발견되지 않았다고 밝혔다. 반면 애플은 기존 시스템을 통해 개발자들이 민감한 데이터를 보호하면서도 비접촉식 서비스를 제공할 수 있다고 주장한다. 애플은 개인정보 보호 및 보안 수준이 더 낮다고 판단되는 방식을 도입하라는 요구에 반대하고 있다 [reuters.com#1][deseret.com#1]. 규제당국은 구체적인 접근 가격을 제안하지는 않았다. 대신 애플에 공정한 보상을 제공하면서도 수수료를 실질적으로 낮출 수 있는 가격 책정 원칙을 기대하고 있다 [reddit.com#1][deseret.com#1]. 애플과 개발자 및 기타 이해관계자들은 CMA가 제출된 의견을 평가하고 최종 결정을 내리기 전까지 이에 대응할 수 있다 [reuters.com#1][tech-insider.org#1].",
+      "quote": "“진입 장벽을 제거함으로써 우리는 훌륭한 아이디어를 가진 뛰어난 영국 기업들이 새로운 제품과 서비스를 개발할 수 있는 환경을 조성하는 데 도움을 줄 수 있습니다.”",
+      "quote_attribution": "BBC 뉴스",
+      "historical_background": "EU와의 합의를 통해 타사 지갑 앱들도 페이스 아이디(Face ID) 인증 및 측면 버튼 결제 바로가기와 같은 iOS 기능을 사용할 수 있게 되었다 [engadget.com#1]. CMA는 자사의 접근 방식이 EU와 달리 디지털 지갑이나 시계 등 애플 기술의 특정 영역에서의 상호 운용성에 초점을 맞추고 있다고 설명했다 [bbc.co.uk#1].",
+      "business_angle_text": "CMA는 애플이 NFC 접근권을 확대하기로 합의한 이후 EU에서는 대체 결제 앱들이 출시되었으나, 영국에서는 아직 경쟁 디지털 지갑이 출시되지 않았다고 밝혔다. 영국의 제안은 2026년 11월 17일까지 의견 수렴을 위해 열려 있다 [reuters.com#1][bbc.co.uk#1].",
+      "talking_points[0]": "결제 성장: 비접촉식 거래는 10년 전 3%에서 영국 전체 결제의 39%로 증가했으며, 성인의 60% 이상이 디지털 지갑을 사용하고 있다 [reuters.com#1][bbc.co.uk#1].",
+      "talking_points[1]": "핀테크 규모: CMA는 영국 핀테크 부문이 약 2,140억 파운드의 매출을 창출하고 36만 개 이상의 일자리를 지원하는 것으로 추산한다 [bbc.co.uk#1][business-standard.com#1].",
+      "talking_points[2]": "EU 선례: 애플이 유럽에서 접근권을 확대한 이후 빕스(Vipps), 페이팔(PayPal), 클라나(Klarna), 커브(Curve), BBVA 등이 대체 지갑 또는 결제 앱을 출시했다 [reuters.com#1][bbc.co.uk#1].",
+      "talking_points[3]": "규제 권한: 전략적 시장 지위로 지정되면 기업은 행동 요건과 추가적인 감시를 받게 되지만, 지정 자체만으로 위법 행위가 확정되는 것은 아니다 [reuters.com#1][business-standard.com#1].",
+      "talking_points[4]": "오픈 뱅킹: 금융행위감독청(FCA)의 데이비드 길(David Geale) 임원은 접근권 확대가 은행 계좌에서 직접 결제하는 방식을 활성화하여 오픈 뱅킹 확장에 도움이 될 수 있다고 말했다 [reddit.com#1].",
+      "perspectives[0].text": "금융행위감독청(FCA): 데이비드 길 임원은 CMA의 경쟁 촉진 제안을 환영하며, 접근성 개선과 수수료 인하가 소비자와 기업의 선택권을 넓힐 것이라고 말했다 [reddit.com#1].",
+      "perspectives[1].text": "레볼루트(Revolut): 데이비드 티라도(David Tirado) 최고상업책임자는 HCE를 통한 접근이 매우 중요하며, 이번 제안이 영국 핀테크 기업들에게 거대 기술 기업들과 동등한 조건에서 경쟁할 기회를 제공한다고 말했다 [reuters.com#1][business-standard.com#1].",
+      "timeline[0].content": "애플, EU 개발자들에게 아이폰 비접촉식 결제 접근권 제공 합의 [reuters.com#1][engadget.com#1]",
+      "timeline[1].content": "CMA, 애플과 구글을 스마트폰 분야 전략적 시장 지위 보유 기업으로 지정 [reuters.com#1]",
+      "timeline[2].content": "CMA, 아이폰 근거리 무선 통신(NFC) 기술에 대한 광범위한 접근권 및 수수료 인하 관련 의견 수렴 개시 [reuters.com#1][bbc.co.uk#1]",
+      "timeline[3].content": "공개 의견 수렴 종료 후 CMA가 응답을 평가하고 최종 결정 예정 [reuters.com#1][neowin.net#1]",
+      "secondary_image.caption": "2019년 10월 8일 화요일, 뉴욕의 한 아이폰에서 애플 페이 앱이 실행되고 있는 모습. 전문가들은 애플 캐시(Apple Cash)나 벤모(Venmo)와 같은 디지털 지갑 서비스가 사기꾼들의 주요 표적이 되고 있다고 경고한다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
+    "translated": 11,
     "failedStoryIds": [
       {
         "id": "06341cb0-03e3-40ab-a13d-079b1d17351b",
         "reason": "retry_exhausted"
-      },
-      {
-        "id": "e9ee9f48-852e-4ef9-82b3-6515abb31e26",
-        "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 14294,
-      "out": 17768
+      "in": 15730,
+      "out": 19552
     }
   }
 }
