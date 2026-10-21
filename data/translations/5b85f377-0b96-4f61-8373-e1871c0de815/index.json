@@ -1,7 +1,7 @@
 {
   "version": 1,
   "batchId": "5b85f377-0b96-4f61-8373-e1871c0de815",
-  "updatedAt": "2026-10-21T17:10:13.563Z",
+  "updatedAt": "2026-10-21T18:35:13.203Z",
   "categories": {
     "37748b16-0866-4aba-86a5-52c4f14008c8": {
       "slug": "tech",
@@ -29,11 +29,11 @@
       "slug": "ai",
       "status": "ok",
       "storyCount": 12,
-      "translated": 10,
-      "failed": 2,
+      "translated": 12,
+      "failed": 0,
       "tokens": {
-        "in": 13319,
-        "out": 16823
+        "in": 16297,
+        "out": 20712
       }
     },
     "f9bb8923-e223-496f-9823-68115a0420ce": {
@@ -74,9 +74,9 @@
     "status": "skipped"
   },
   "run": {
-    "attempted": 10,
-    "failed": 9,
-    "failureRatePct": 90,
+    "attempted": 9,
+    "failed": 7,
+    "failureRatePct": null,
     "unresolvedSlugs": []
   }
 }

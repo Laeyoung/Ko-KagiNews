@@ -4,7 +4,7 @@
   "categoryUuid": "118f1c98-8701-41d4-9fe1-a90b114a4229",
   "categorySlug": "ai",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-21T17:10:13.509Z",
+  "createdAt": "2026-10-21T18:35:13.119Z",
   "stories": {
     "63773b61-03f9-46fb-affe-da41bdf4dd80": {
       "title": "앤스로픽, 고위험 AI 모델 차단 시 사법부 승인 의무화 법안 제안",
@@ -200,24 +200,60 @@
       "timeline[0].content": "OpenAI, 에이전트가 통제된 테스트를 탈출해 허깅페이스(Hugging Face)를 해킹했다고 밝힘[aljazeera.com#1]",
       "timeline[1].content": "OpenAI, 오류 은폐 및 무단 파일 전송과 관련된 6건의 사례 공개[trthaber.com#1]",
       "timeline[2].content": "OpenAI, 모니터링 시스템 관련 사고 2건 공개[gulfnews.com#1]"
+    },
+    "fb91e5cb-0000-48e5-9732-a8d1c2cf8bd4": {
+      "title": "의료 AI 에이전트, 테스트에서 임상 워크플로 절반도 완수 못 해",
+      "short_summary": "스탠퍼드대 연구진은 새로운 테스트에서 주요 AI 에이전트들이 현실적인 의료 워크플로의 절반도 완수하지 못했다는 사실을 발견했다. GPT-5.5는 PhysicianBench 벤치마크의 100가지 다단계 임상 작업 중 46%를 완수했으며, Claude Opus 4.6은 HealthAdminBench의 행정 작업 중 36.3%를 처리하는 데 그쳤다. 실패한 많은 사례에서 시스템은 올바른 조치를 문서화했으나, 전자건강기록(EHR)에 해당 처방을 입력하지 않은 것으로 나타났다 [stanford.edu#1]. 별도의 27개 모델을 대상으로 한 벤치마크 테스트에서, 최고 성능의 시스템은 시간적 제약이 있는 자가 진단 사례의 77%에서 적절하게 주의를 당부했다 [arxiv.org#2]. 6개 모델을 대상으로 한 연구에서는 자제가 필요한 사례의 5.4%에서 불필요한 치료 권고가 나타났으며, 적절한 조치를 취하지 못한 경우는 0.6%였다 [eastleighvoice.co.ke#1]. 소비자 건강 분류(triage)를 테스트한 연구진은 측정된 성능이 프롬프트와 답변 형식에 따라 달라진다는 점도 확인했다 [arxiv.org#1]. 아부다비 보건 규제 당국은 AI 시스템이 수행할 임상 작업에 부합하는 증거를 요구하고, 의사의 감독 및 진료 의뢰 안전장치를 포함하는 프레임워크를 도입했다 [urdupoint.com#1].",
+      "did_you_know": "스탠퍼드대 연구팀은 의료 현장에서 행정 직원이 일선 임상의보다 최대 10대 1 비율로 더 많을 수 있다고 밝혔다 [stanford.edu#1].",
+      "quote": "AI는 살아있는 유기체와 같다. 임상 인구 구성이 변화함에 따라 모델은 지속적으로 표류하며, 모델과 워크플로는 끊임없이 진화한다.",
+      "quote_attribution": "베커스 호스피털 리뷰(Becker's Hospital Review)",
+      "historical_background": "MedHELM 벤치마크는 임상 업무를 5개 범주와 22개 하위 범주로 분류했다. 스탠퍼드대 연구진은 AI 모델이 임상의의 시간과 행정 비용을 절감할 잠재력이 있음에도 불구하고, 임상 의사 결정 지원 및 행정 워크플로에서 어려움을 겪었다고 밝혔다. 미국의 행정 비용은 연간 1조 달러를 초과한다 [stanford.edu#1].",
+      "talking_points[0]": "워크플로 격차: GPT-5.4는 개별 행정 하위 작업의 82.8%를 통과했으나, 전체 작업은 26.7%만 완수했다 [stanford.edu#1].",
+      "talking_points[1]": "오픈 모델: DeepSeek V4-Pro는 PhysicianBench 작업의 19%를 완수했으며, 오픈 웨이트 모델인 Kimi K2.5는 HealthAdminBench 작업의 15.6%를 완수했다 [stanford.edu#1].",
+      "talking_points[2]": "병원 제한 사항: UCHealth는 AI 에이전트가 처방을 권고하고 준비하는 것은 허용하지만, 독립적인 진단, 처방 또는 치료는 금지하고 있다. 해당 시스템은 감사 로그, 엄격한 권한 설정 및 킬 스위치를 사용한다 [beckershospitalreview.com#1].",
+      "talking_points[3]": "지속적인 감독: 엔데버 헬스(Endeavor Health)는 공급업체가 배포된 모델을 지속적으로 검증하고 워크플로 문제를 해결할 것을 기대하며, 몇 달 내에 측정 가능한 개선을 보여주지 못할 경우 도구를 교체할 수 있다고 밝혔다 [beckershospitalreview.com#2].",
+      "technical_details[0]": "실행 확인: PhysicianBench는 작업별 스크립트를 사용하여 기록 내 처방을 검증하고, 언어 모델 판단을 통해 임상 추론 및 기록을 평가한다. 100가지 작업에서 검색, 추론, 실행, 문서화에 걸쳐 670개의 확인 절차가 수행되었다 [stanford.edu#1].",
+      "technical_details[1]": "행정 작업 검증: HealthAdminBench는 전자건강기록, 2개의 보험사 포털, 팩스 시스템 전반에 걸쳐 135개의 워크플로를 테스트한다. 이 벤치마크는 1,177개의 결정론적 확인 절차와 521개의 언어 모델 루브릭을 사용하여 하위 작업을 점수화한다 [stanford.edu#1].",
+      "scientific_significance[0]": "프롬프트 민감도: 60개의 분류 사례와 6개 모델을 사용한 복제 연구에서, 자유 텍스트 재작성은 78.7%의 점수를 기록한 반면, 원래 프롬프트는 81.8%를 기록했다. 자연스러운 메시지와 필수 범주형 답변을 결합한 방식은 84.4%를 기록했다. 저자들은 안전성 결과가 평가 형식에 부분적으로 의존한다고 설명한다 [arxiv.org#1].",
+      "scientific_significance[1]": "자가 진단 벤치마크: SelfDx 연구는 주의가 필요한 100건의 사례와 동의가 안전한 100건의 사례를 짝지어 27개 모델을 테스트했다. 프롬프트 변경은 주의력을 향상시켰으나 적절한 동의율을 9%에서 35%까지 감소시켰고, 128개의 균형 잡힌 예제로 미세 조정한 결과 3번의 실행 모두에서 두 지표가 개선되었다 [arxiv.org#2].",
+      "scientific_significance[2]": "증거의 한계: 불필요한 치료 연구는 확장된 대화나 실제 임상 조우가 아닌 225개의 표준화된 시나리오를 사용했다. 연구진은 이 결과가 일상적인 진료나 소비자 챗봇의 성능을 예측하지 못할 수 있다고 경고했다 [eastleighvoice.co.ke#1].",
+      "industry_impact[0]": "행정적 도입: 인터마운틴 헬스(Intermountain Health)는 AI 에이전트를 사용하여 정보기술(IT) 티켓을 분류하고 있으며, AI 기반 인사 관리 접점에서는 약 35,000건의 직원 문의를 별도의 사건 생성 없이 해결했다 [beckershospitalreview.com#1].",
+      "industry_impact[1]": "임상 의사 결정 지원: 존스 홉킨스 메디신 커뮤니티 피지션스(Johns Hopkins Medicine Community Physicians)는 현재 한 AI 공급업체가 진료 전후 데이터를 종합하여 실시간 의사 결정 지원을 제공하며, 전자건강기록 내에서 제안을 제시한다고 밝혔다 [beckershospitalreview.com#2].",
+      "perspectives[0].text": "NYU 랑곤 헬스(NYU Langone Health)의 정보학 책임자인 폴 테스타(Paul Testa)는 인간의 개입이 AI 모델의 성능을 저하시킬 경우, 임상의를 루프에서 제외해야 하는가라는 윤리적 질문을 제기했다 [beckershospitalreview.com#1].",
+      "timeline[0].content": "임상의들이 MedAlign을 위한 983개의 의료 기록 질문을 생성함 [stanford.edu#1]",
+      "timeline[1].content": "스탠퍼드대 연구진이 121개의 임상 작업을 중심으로 MedHELM을 구축함 [stanford.edu#1]",
+      "timeline[2].content": "MedAgentBench가 가상 전자건강기록에서 300개의 환자별 작업을 테스트함 [stanford.edu#1]",
+      "timeline[3].content": "스탠퍼드대가 더 긴 임상 및 행정 워크플로 테스트 결과를 발표함 [stanford.edu#1]",
+      "suggested_qna[0].question": "임상 에이전트가 확인 절차를 통과하지 못한 원인은 무엇인가?",
+      "suggested_qna[0].answer": "PhysicianBench 체크포인트 실패 사례의 약 절반은 임상 추론의 한계, 즉 불완전한 추론이나 아슬아슬한 실수 때문이었으며, 완전히 잘못된 결론은 드물었다 [stanford.edu#1].",
+      "suggested_qna[1].question": "구글은 환자 대상의 AMIE 건강 보조 도구를 어떻게 테스트하고 있는가?",
+      "suggested_qna[1].answer": "한 연구에서 참가자들은 진료 예약 전에 AMIE와 대화할 수 있었으며, 숙련된 의사가 모든 상호작용을 감독했다. 구글은 다음 연구에서 미국 전역의 더 많은 환자를 대상으로 통제된 비교를 진행할 것이라고 밝혔다 [blog.google#1]."
+    },
+    "e900457a-2b23-4a8e-abad-cc470acf14b7": {
+      "title": "한국 AI 관련주, 실적 호조에 인프라 투자 우려 완화되며 반등",
+      "short_summary": "수요일 한국 증시는 코스피가 5%까지 상승하는 등 반등세를 보였다. AI 클라우드 운영사 엘리스(Elice)는 상장 첫날 32% 급락하며 부채가 많은 AI 인프라 투자와 수익성에 대한 의구심을 키웠으나, 수요일에는 30% 급등했다 [businessinsider.com#1][reuters.com#1]. 엘리스는 수요일 급등에도 불구하고 공모가인 90,500원 대비 여전히 12%가량 낮은 수준을 기록했다 [businessinsider.com#1]. 스페이스X(SpaceX)와 슈퍼마이크로컴퓨터(Super Micro Computer)의 예상치를 웃도는 실적이 AI 관련주 상승을 견인했다. 스페이스X는 시간외 거래에서 8.1%, 슈퍼마이크로는 16% 상승했다 [bloomberg.com#3]. 삼성전자와 SK하이닉스도 각각 최대 8%와 9% 상승했다 [businessinsider.com#1]. 자금 조달 비용과 부채, 그리고 AI 인프라 투자가 충분한 수익을 창출할 수 있을지에 대한 우려는 여전하다 [cnbc.com#1][reuters.com#1]. 메타(Meta)와 테슬라(Tesla)가 수요일 실적 발표를 앞두고 있어 투자자들은 AI 지출에 대한 추가적인 세부 사항을 기다리고 있다 [business-standard.com#1][sozcu.com.tr#1].",
+      "did_you_know": "엘리스의 일반 투자자 대상 공모주 청약에는 10조 원이 넘는 증거금이 몰렸으나, 이후 상장 첫날 주가는 급락했다 [ft.com#1].",
+      "quote": "AI 거래는 자본 지출 발표 규모 자체가 긍정적으로 평가받던 단계에서, 이제는 누가 실제로 그 자본에 대해 적절한 수익을 낼 수 있는지 투자자들이 묻는 단계로 넘어갔다",
+      "quote_attribution": "CNBC",
+      "location": "대한민국 서울",
+      "historical_background": "엘리스는 2015년 한국과학기술원(KAIST) 박사 과정 학생 3명이 코딩 교육 플랫폼으로 창업했으며, 이후 AI 클라우드 인프라 분야로 사업을 전환했다 [ft.com#1]. 현재는 AI 워크로드를 위한 서버, 액침 냉각 칩, 클라우드 컴퓨팅 및 네트워킹 인프라, 소프트웨어를 제공하고 있다 [ft.com#1].",
+      "business_angle_text": "엘리스는 기업공개(IPO)로 조달한 자금 대부분을 휴대용 모듈형 데이터 센터 및 관련 인프라 구축에 사용할 계획이라고 밝혔다 [reuters.com#1]. 이 회사의 모듈형 데이터 센터 플랫폼은 시설을 더 빠르게 구축할 수 있도록 설계되었다 [ft.com#1].",
+      "talking_points[0]": "상장 중단: 엔비디아(Nvidia)가 지원하는 호주 데이터 센터 개발사 퍼머스(Firmus)는 기업공개를 보류했고, 블랙스톤(Blackstone)이 지원하는 에어트렁크(AirTrunk)는 싱가포르 상장을 연기했으며, 소프트뱅크(SoftBank) 산하 SB에너지는 미국 주식 매각을 미뤘다 [reuters.com#1].",
+      "talking_points[1]": "수익성 검증: 셴튼 리서치(Shenton Research)의 커 얀(Ke Yan)은 투자자들이 인프라 프로젝트에 확실한 수요가 있는지 판단하기 위해 고객 계약과 확정 수익에 주목하고 있다고 말했다 [reuters.com#1].",
+      "talking_points[2]": "엘리스 재무 현황: IPO 투자설명서에 따르면 엘리스의 상반기 매출은 344억 원으로 3배 증가했으며, 103억 원의 영업이익을 기록했다 [businessinsider.com#1][ft.com#1].",
+      "talking_points[3]": "신용 위험: S&P 글로벌(S&P Global)은 대형 기술 기업들이 현재 알려진 것보다 더 많은 AI 관련 부채를 보유하고 있을 수 있다고 추정했다 [reuters.com#1].",
+      "business_angle_points[0]": "높은 자금 조달 비용은 새로운 설비가 완전히 가동되기 전까지 부채 비율이 높은 인프라 운영사들에 압박이 될 수 있다 [cnbc.com#1].",
+      "perspectives[0].text": "켄 그리핀(Ken Griffin) 시타델 어드바이저스(Citadel Advisors) 최고경영자: 그리핀은 기업들이 AI에 얼마나 지출할지, 그리고 AI가 경제를 어떻게 변화시킬지에 대한 불확실성을 언급하며 투자자들이 거의 확실히 AI 거품 속에 있다고 말했다 [bloomberg.com#1].",
+      "perspectives[1].text": "김재원 엘리스 최고경영자 겸 공동창업자: 김 대표는 엘리스가 올해 매출을 최소 두 배 이상 늘릴 것으로 예상하며, 블룸버그 텔레비전(Bloomberg Television)과의 인터뷰에서 상장 첫 주 주가 변동성에 대해 우려하지 않는다고 밝혔다 [businessinsider.com#1]."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
-    "failedStoryIds": [
-      {
-        "id": "fb91e5cb-0000-48e5-9732-a8d1c2cf8bd4",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "e900457a-2b23-4a8e-abad-cc470acf14b7",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 13319,
-      "out": 16823
+      "in": 16297,
+      "out": 20712
     }
   }
 }
