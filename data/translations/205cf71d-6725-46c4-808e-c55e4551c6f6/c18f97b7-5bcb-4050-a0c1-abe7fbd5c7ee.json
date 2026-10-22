@@ -4,7 +4,7 @@
   "categoryUuid": "c18f97b7-5bcb-4050-a0c1-abe7fbd5c7ee",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-22T15:16:30.302Z",
+  "createdAt": "2026-10-22T15:35:56.317Z",
   "stories": {
     "845d3452-6d35-4d2c-9659-1c8bf344556f": {
       "title": "EA, 바이오웨어 폐쇄 및 매스 이펙트 후속작 취소… 400명 감원",
@@ -249,20 +249,40 @@
       "suggested_qna[0].answer": "저커버그는 의결권을 포기하지 않고도 잠재적인 세금 납부를 충당하기 위해 새로운 C등급 주식의 20%를 즉시 매각할 수 있다. 그는 캘리포니아 또는 메타 본사가 위치한 곳에 8년간 머물기로 합의했다 [myjoyonline.com#1][politico.com#1].",
       "primary_image.caption": "루이지애나주 홀리 리지에 건설 중인 메타의 리치랜드 패리시 데이터 센터.",
       "secondary_image.caption": "마크 저커버그 메타 플랫폼스 CEO가 캘리포니아에 잔류할 예정이다."
+    },
+    "28ee7dc5-b72f-4ed4-a899-a82dff5cc55f": {
+      "title": "AWS, PHP 패치 4일 전 익스플로잇 시도 탐지",
+      "short_summary": "아마존 웹 서비스(AWS)는 PHP가 인증되지 않은 공격자가 노출된 서버에서 코드를 실행할 수 있게 하는 취약점에 대한 수정안을 발표하기 4일 전인 10월 17일에 PHP2Shell 취약점을 악용하려는 시도를 탐지했다고 밝혔다. AWS는 이후 의도적으로 취약하게 설정한 허니팟 데이터에서 해당 활동을 발견했다. 이 시도는 상업용 익명화 네트워크와 연결된 IP 주소에서 발생했으며, 조사관들은 공격자가 어떻게 해당 익스플로잇을 알게 되었는지 확인하지 못했다 [wired.com#2]. 클라우드플레어(Cloudflare)의 매튜 프린스(Matthew Prince) CEO는 공개 전 10시간 동안 수천 건의 익스플로잇 시도를 확인했으며, 공개 이후에는 수백만 건으로 증가했다고 밝혔다 [firstpost.com#3][neowin.net#3]. 연구원들은 AI 도구의 도움을 받아 PHP 핵심 런타임에서 이 버그들을 발견했다. 캘리프(Calif)의 연구원 라이언 오스틴(Ryan Austin)은 8월에 오픈AI(OpenAI)의 GPT-5.6 Sol을 사용했으며, 구글(Google) 소유의 위즈(Wiz)도 독립적으로 해당 취약점을 식별했다 [biziday.ro#1][insiderpaper.com#2]. PHP 관리자들은 10월 21일에 수정안을 발표했다. 이 결함들은 요청 처리 및 메모리 관리 코드에 영향을 미친다. AWS는 보안 팀이 여전히 익스플로잇 범위를 평가하던 중 허니팟에 기록된 공개 전 시도를 보고했다 [wired.com#2][securityweek.com#1].",
+      "historical_background": "PHP 핵심 개발자가 2024년 언어의 첫 외부 보안 감사에서 확인된 별도의 문제를 작업하던 중 관련 메모리 처리 버그를 처음 발견했다. 팀은 여러 수정안을 논의했으나, 제안된 접근 방식이 호환성 문제, 서비스 거부(DoS) 위험 또는 타사 확장에 대한 비용 문제를 야기하여 작업이 중단되었다. PHP 재단은 이후 이 지연을 구조적 실패라고 불렀다 [thenextweb.com#1].",
+      "talking_points[0]": "심각도 및 릴리스: 두 결함 모두 CVSS v4.0 점수 9.2를 기록하며, PHP 8.5.12, 8.4.27, 8.3.36 및 8.2.35 버전에서 수정안을 이용할 수 있다 [bleepingcomputer.com#1].",
+      "talking_points[1]": "공개 시점: 10월 20일에 세부 정보가 유출되면서 PHP는 당초 예정된 10월 22일보다 앞선 10월 21일에 수정안을 발표했다 [thehackernews.com#2][thenextweb.com#1].",
+      "talking_points[2]": "레거시 시스템: PHP 프로젝트는 더 이상 PHP 8.1 이하 버전을 정기적으로 업데이트하지 않지만, 7.4, 8.0, 8.1 버전에 대한 최소한의 소스 백포트를 제공했다. 관리자는 공급업체 수정안을 구하거나 업그레이드해야 할 수 있다 [bleepingcomputer.com#1][lwn.net#1].",
+      "talking_points[3]": "노출 추정치: 팔로알토 네트웍스(Palo Alto Networks)의 유닛 42(Unit 42)는 취약할 수 있는 인터넷 노출 인스턴스를 2,260만 개 이상으로 집계했으며, 에코(Echo)가 인용한 바이러스토탈(VirusTotal) 데이터는 PHP를 실행 중인 510만 개의 IP 주소를 확인했는데, 여기에는 수명이 다한 버전을 사용하는 약 75만 8천 개가 포함되어 있다 [nextgov.com#1][technewsworld.com#1].",
+      "talking_points[4]": "익스플로잇 확장: 위즈(Wiz)는 AI 모델이 PHP 버전, 구성 및 메모리 레이아웃 전반에 걸쳐 익스플로잇을 조정하는 데 도움을 줄 수 있으며, 다양한 배포 환경을 표적으로 삼는 데 필요한 작업을 잠재적으로 줄일 수 있다고 밝혔다 [the-decoder.com#1].",
+      "technical_details[0]": "메모리 부족 오류: CVE-2026-109618은 내부 데이터가 완전히 초기화되기 전에 메모리 부족 상태가 요청 처리를 중단시킬 때 발생할 수 있다. 이후 정리 과정에서 잘못된 데이터를 처리하게 되어 잠재적으로 코드 실행이 가능해질 수 있다 [bleepingcomputer.com#1].",
+      "technical_details[1]": "오래된 전역 상태: CVE-2026-109619는 메모리가 해제된 후에도 유지되는 요청 소유의 내부 상태와 관련이 있다. 동일한 작업자가 처리하는 후속 요청이 정상적인 초기화 재설정 이전에 이 오래된 상태를 사용할 수 있다 [lwn.net#1].",
+      "technical_details[2]": "런타임별 노출: PHP는 위험에 처한 요청 처리 배포 환경으로 PHP-FPM, 아파치(Apache) mod_php, php-cgi, 프랑켄PHP(FrankenPHP) 및 라이트스피드(LiteSpeed)를 나열한다. 팀은 mod_php가 가장 위험한 구성이라고 밝혔으나, 해당 결함 중 하나에 대해 PHP-FPM에서 완전한 익스플로잇이 시연되는 것은 보지 못했다고 전했다 [thehackernews.com#1].",
+      "industry_impact[0]": "클라우드 호스팅: 구글 클라우드(Google Cloud)는 자사의 관리형 인프라는 취약하지 않으나, 그 위에서 PHP 워크로드를 실행하는 고객들은 노출 위험에 직면했다고 밝혔다 [neowin.net#2].",
+      "industry_impact[1]": "서비스 중단: 핀란드는 공공 웹 서비스를 일시적으로 중단했으며, 위키미디어(Wikimedia)는 패치 작업 중 다른 시스템을 오프라인으로 전환했다 [bbc.co.uk#1][mashable.com#2].",
+      "user_action_items[0]": "공개 웹사이트뿐만 아니라 PHP를 포함하는 모든 서비스를 확인하라: PHP를 포함할 수 있는 인터넷 연결 애플리케이션 및 공급업체 제품의 목록을 작성한 다음, 호스팅 제공업체 및 소프트웨어 공급업체와 업데이트를 조정하라. EU 사이버 보안 당국은 일부 상업용 및 오픈 소스 제품이 백그라운드에서 PHP를 사용할 수 있다고 경고한다 [europa.eu#1].",
+      "user_action_items[1]": "패치된 런타임이 배포되었는지 확인하라: 지원되는 브랜치에 대해 수정된 PHP 릴리스를 사용하고 애플리케이션 이미지나 컨테이너를 재배포하라. 구글 클라우드는 일부 환경은 자동으로 업데이트되지만, 유연한 환경 및 고객 관리형 이미지는 운영자의 조치가 필요하다고 밝혔다 [neowin.net#2].",
+      "perspectives[0].text": "오픈AI: 오픈AI는 캘리프(Calif)가 'Patch the Planet' 프로그램을 통해 GPT-5.6 Sol로 하나의 결함을 발견했다고 밝혔다. 회사는 AI 지원 탐색이 방어자가 보안 취약점을 식별하고 해결하는 데 도움을 줄 수 있다고 전했다 [mashable.com#4].",
+      "timeline[0].content": "캘리프(Calif), AI 지원 PHP 결함 발견 내용을 관리자에게 보고 [aljazeera.com#1]",
+      "timeline[1].content": "위즈(Wiz), AI 지원 연구 후 PHP 취약점 독립적으로 보고 [futurism.com#1]",
+      "timeline[2].content": "AWS 허니팟, 익명화된 IP로부터의 익스플로잇 시도 기록 [wired.com#2]",
+      "timeline[3].content": "PHP, 두 가지 치명적인 취약점에 대한 긴급 수정안 발표 [europa.eu#1]",
+      "suggested_qna[0].question": "방화벽 규칙이 PHP 업데이트 설치를 대체할 수 있는가?",
+      "suggested_qna[0].answer": "아니오. 클라우드플레어는 자사의 긴급 규칙을 임시 방편으로 설명했으며, PHP 관리자들은 업데이트만이 유일한 완전한 해결책이라고 밝혔다 [thehackernews.com#1][malwarebytes.com#1].",
+      "secondary_image.caption": "2026년 10월 21일 독일 베를린에서 PHP가 치명적인 수정안을 준비하는 동안 사이버 기관들이 웹사이트가 오프라인 상태가 될 수 있다고 경고함에 따라 컴퓨터 서버의 LAN 네트워크 케이블이 뽑혀 있다. —로이터"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "28ee7dc5-b72f-4ed4-a899-a82dff5cc55f",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 16619,
-      "out": 21465
+      "in": 18444,
+      "out": 23856
     }
   }
 }

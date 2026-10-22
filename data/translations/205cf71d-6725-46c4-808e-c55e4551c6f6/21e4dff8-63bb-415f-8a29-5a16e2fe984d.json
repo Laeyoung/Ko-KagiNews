@@ -4,7 +4,7 @@
   "categoryUuid": "21e4dff8-63bb-415f-8a29-5a16e2fe984d",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-22T15:12:56.200Z",
+  "createdAt": "2026-10-22T15:35:41.911Z",
   "stories": {
     "cc4254ab-9d9c-4ce6-aba0-75e783ef27c6": {
       "title": "머스크의 합병 지지 발언, 테슬라-스페이스X 합병 논의에 대한 감시 리스크 키워",
@@ -282,20 +282,30 @@
       "suggested_qna[1].answer": "쿼츠에 따르면 모건스탠리(Morgan Stanley), 골드만삭스(Goldman Sachs), JP모건(JPMorgan)이 이번 공모를 주관하며, 앤스로픽은 나스닥(Nasdaq)을 상장 장소로 선정했다 [qz.com#1].",
       "primary_image.caption": "2025년 9월 4일 캘리포니아주 샌프란시스코 모스콘 센터에서 열린 '인바운드 2025(INBOUND 2025)' 컨퍼런스에 참석한 앤스로픽 공동 창업자 겸 CEO 다리오 아모데이(Dario Amodei).",
       "secondary_image.caption": "2026년 9월 17일 캘리포니아주 샌프란시스코에서 열린 기술 서밋 '드림포스 2026(Dreamforce 2026)'의 모스콘 센터에 전시된 앤스로픽 로고. 로이터 사진"
+    },
+    "592434c5-f785-4e21-9b41-08eb62f990df": {
+      "title": "IBM, 소프트웨어 매출 증가에 힘입어 3분기 매출 5% 성장",
+      "short_summary": "미국 기술 기업 IBM(International Business Machines)은 3분기 매출이 전년 동기 대비 약 5% 증가한 171억 달러, 조정 주당순이익(EPS)은 2.95달러를 기록해 분석가들의 예상치를 상회했다고 발표했다[cnbc.com#1][investors.com#1]. 순이익은 17억 4천만 달러에서 21억 9천만 달러로 증가했다. 이번 실적은 고객들이 IT 예산을 조정하고 가격 인상 가능성에 대비해 하드웨어를 선제적으로 구매하면서 부진했던 2분기 실적 이후에 나온 결과이다[cnbc.com#1][cash.ch#1]. 소프트웨어 매출은 8% 증가한 78억 달러, 인프라 매출은 4% 증가한 37억 달러를 기록했으며, 컨설팅 매출은 53억 4천만 달러로 보합세를 보였다[cnbc.com#1][knack.be#1]. IBM은 고정 환율 기준 2026년 매출 성장률 전망치를 4~5%로 유지했으며, 올해 잉여현금흐름 전망치를 상향 조정해 10억 달러 이상 증가할 것으로 예상했다[cnbc.com#1][knack.be#1].",
+      "quote": "우리 고객들은 이제 단순히 좁거나 새로운 문제를 해결하는 대신, 전체 운영 모델을 변화시키는 방식으로 '슈퍼 인텔리전스(Super Intelligence)'를 도입하고 있다",
+      "quote_attribution": "CNBC",
+      "historical_background": "2분기 실적 발표 이후, IBM은 연간 매출 성장률 전망치를 5% 이상에서 4~5%로 하향 조정한 바 있다[cash.ch#1].",
+      "business_angle_text": "인공지능(AI)은 IBM 컨설팅 매출의 약 30%, 컨설팅 수주 잔고의 35%를 차지했다[cnbc.com#1].",
+      "talking_points[0]": "소프트웨어 전망: IBM의 최고재무책임자(CFO) 제임스 카바노(James Kavanaugh)에 따르면, IBM은 소프트웨어 성장률 전망치를 기존 6~8%에서 7~8%로 상향 조정했다[cash.ch#1].",
+      "talking_points[1]": "이연 계약: 카바노 CFO는 이전 기간에서 지연된 계약이 이번 분기 성장의 약 4분의 1을 차지했으며, 나머지는 신규 사업에서 발생했다고 밝혔다[cash.ch#1].",
+      "talking_points[2]": "컨설팅 압박: 컨설팅 매출은 보합세를 보였으며, 매출 총이익률은 2분기 28.9%에서 27.4%로 하락했다[cnbc.com#1].",
+      "talking_points[3]": "현금 창출: IBM은 이번 분기에 전년 대비 7억 달러 증가한 30억 달러의 잉여현금흐름을 창출했으며, 16억 달러를 배당금으로 지급했다[knack.be#1].",
+      "business_angle_points[0]": "IBM의 조정 매출 총이익률은 58.5%로, 스트리트어카운트(StreetAccount)의 시장 예상치인 59.1%를 밑돌았다[cnbc.com#1].",
+      "industry_impact[0]": "엔터프라이즈 소프트웨어: 데이터 및 레드햇(Red Hat) 하이브리드 클라우드 제품이 강력한 성과를 낸 것으로 언급되었다[knack.be#1].",
+      "industry_impact[1]": "IT 인프라: 분산형 인프라 매출은 31% 증가하여 IBM Z 매출의 20% 감소분을 상쇄했다[knack.be#1]."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "592434c5-f785-4e21-9b41-08eb62f990df",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 18134,
-      "out": 23562
+      "in": 19158,
+      "out": 24671
     }
   }
 }

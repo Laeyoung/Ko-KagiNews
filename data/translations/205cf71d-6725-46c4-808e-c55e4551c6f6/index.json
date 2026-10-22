@@ -1,82 +1,82 @@
 {
   "version": 1,
   "batchId": "205cf71d-6725-46c4-808e-c55e4551c6f6",
-  "updatedAt": "2026-10-22T15:22:19.712Z",
+  "updatedAt": "2026-10-22T15:36:22.600Z",
   "categories": {
     "a4086e2c-66ad-422e-81fb-63952d6d6523": {
       "slug": "science",
       "status": "ok",
       "storyCount": 12,
-      "translated": 6,
-      "failed": 6,
+      "translated": 12,
+      "failed": 0,
       "tokens": {
-        "in": 7909,
-        "out": 9699
+        "in": 14626,
+        "out": 17654
       }
     },
     "4edc145a-2e9c-48ed-b669-0dd19b897b8d": {
       "slug": "world",
       "status": "ok",
       "storyCount": 12,
-      "translated": 7,
-      "failed": 5,
+      "translated": 11,
+      "failed": 1,
       "tokens": {
-        "in": 11082,
-        "out": 14113
+        "in": 17314,
+        "out": 21989
       }
     },
     "21e4dff8-63bb-415f-8a29-5a16e2fe984d": {
       "slug": "business",
       "status": "ok",
       "storyCount": 12,
-      "translated": 11,
-      "failed": 1,
+      "translated": 12,
+      "failed": 0,
       "tokens": {
-        "in": 18134,
-        "out": 23562
+        "in": 19158,
+        "out": 24671
       }
     },
     "1ddb517d-aa3c-4183-81fe-701a46013e99": {
       "slug": "usa",
       "status": "ok",
       "storyCount": 12,
-      "translated": 10,
-      "failed": 2,
+      "translated": 12,
+      "failed": 0,
       "tokens": {
-        "in": 13076,
-        "out": 16744
+        "in": 15465,
+        "out": 19766
       }
     },
     "c18f97b7-5bcb-4050-a0c1-abe7fbd5c7ee": {
       "slug": "tech",
       "status": "ok",
       "storyCount": 12,
-      "translated": 11,
-      "failed": 1,
+      "translated": 12,
+      "failed": 0,
       "tokens": {
-        "in": 16619,
-        "out": 21465
+        "in": 18444,
+        "out": 23856
       }
     },
     "4d383fcb-9850-4eb6-aa97-4a8e71aace53": {
       "slug": "ai",
       "status": "ok",
       "storyCount": 12,
-      "translated": 10,
-      "failed": 2,
+      "translated": 12,
+      "failed": 0,
       "tokens": {
-        "in": 13569,
-        "out": 17391
+        "in": 17358,
+        "out": 22649
       }
     }
   },
   "chaos": {
-    "status": "ok"
+    "status": "skipped"
   },
   "run": {
-    "attempted": 72,
-    "failed": 17,
-    "failureRatePct": 23.61111111111111,
+    "attempted": 17,
+    "failed": 1,
+    "failureRatePct": 5.88235294117647,
     "unresolvedSlugs": []
   }
 }
