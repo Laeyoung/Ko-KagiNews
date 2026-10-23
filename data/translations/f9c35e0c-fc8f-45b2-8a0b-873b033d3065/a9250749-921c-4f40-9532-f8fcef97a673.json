@@ -4,7 +4,7 @@
   "categoryUuid": "a9250749-921c-4f40-9532-f8fcef97a673",
   "categorySlug": "ai",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-23T15:03:04.843Z",
+  "createdAt": "2026-10-23T15:26:23.640Z",
   "stories": {
     "f2c9ef13-d8ba-458d-a4c3-af685dc9332c": {
       "title": "앤스로픽, 업무용 AI 겨냥… 메타는 뮤즈 사용자 1,000만 명 돌파",
@@ -249,20 +249,42 @@
       "timeline[1].content": "벨트라인 에너지(Beltline Energy), 160억 달러 규모의 미주리 프로젝트 철회[pestakeholder.org#1]",
       "timeline[2].content": "매사추세츠주, 주 데이터 센터 허가 발급 전 지역 승인 의무화[pestakeholder.org#1]",
       "timeline[3].content": "주최 측, 42개 주에서 데이터 센터 프로젝트 반대 시위 142건 진행[cbn.com#1]"
+    },
+    "762c5332-39b9-49b4-97f6-915383fb1093": {
+      "title": "AI 도구, 숨겨진 PHP 결함을 더 빠른 공격 수단으로 전환",
+      "short_summary": "사이버 보안 기업 칼리프(Calif)와 위즈(Wiz)의 연구원들은 AI 모델을 활용해 웹의 근간을 이루는 프로그래밍 언어인 PHP에서 오랫동안 숨겨져 있던 보안 결함을 발견했다. 이번 취약점으로 인해 이번 주 전 세계적인 패치 작업과 예방적 서비스 중단이 이어졌으며, 보안 팀은 동일한 AI 역량이 공격자들로 하여금 기술적 공개 내용을 더 빠르게 실제 공격으로 전환하도록 도울 수 있다고 경고했다[ft.com#2][theguardian.com#2]. 아마존(Amazon)은 공개 4일 전인 10월 17일 미끼 서버에 대한 공격 시도를 감지했다고 밝혔으나, 공격자가 어떻게 결함을 알게 되었는지 혹은 실제 시스템에서도 공격이 성공했을지는 확인되지 않았다[wired.com#1]. 클라우드플레어(Cloudflare)는 발표 전 수천 건, 발표 후 수백만 건의 공격 시도를 기록했으며, 아마존은 공격 시도가 광범위하게 이루어졌다고 설명했다[theguardian.com#2][ft.com#2]. 사이버 보안 전문가들은 운영자들에게 웹사이트, 호스팅 플랫폼, 타사 제품에 내장된 PHP를 식별하고 패치를 적용하며 시스템의 공격 징후를 점검할 것을 촉구했다. 또한 소규모 운영자들은 신속하게 대응할 인력이나 인식이 부족할 수 있다고 경고했다[bbc.com#2][theguardian.com#2][itbrew.com#1].",
+      "did_you_know": "오토매틱(Automattic)은 워드프레스닷컴(WordPress.com)의 호스팅 서비스와 텀블러(Tumblr) 사용자는 영향을 받지 않았으며, 이는 운영자가 직접 서버에서 PHP를 관리하는 사이트들과는 다르다고 밝혔다[storm.mg#1].",
+      "historical_background": "PHP 재단(PHP Foundation)은 해당 취약점이 최소 2024년부터 알려져 있었으나, 제안된 수정안들이 각각 단점을 가지고 있어 작업이 지연되었다고 밝혔다[theglobeandmail.com#1]. 재단은 이러한 지연이 보안 팀의 의사결정 과정과 자원 부족이 얽힌 구조적 실패라고 설명했다[13abc.com#1][theglobeandmail.com#1].",
+      "talking_points[0]": "더 빠른 연구: 위즈(Wiz)는 최첨단 AI 모델과 지원 도구를 사용한 한 연구원이 과거 최고 수준의 팀이 수개월 걸렸을 작업을 약 일주일 만에 완료했다고 밝혔다[nation.com.pk#1].",
+      "talking_points[1]": "예방적 서비스 중단: 영국 정부 서비스 32곳이 주로 업데이트 적용을 위해 오프라인으로 전환되었으며, 당국은 대국민 핵심 서비스는 영향을 받지 않았다고 밝혔다[theguardian.com#2].",
+      "talking_points[2]": "대만 노출: 대만 디지털발전부(Ministry of Digital Affairs)는 약 28,000개의 대국민 웹사이트가 PHP를 사용 중이며, 여기에는 약 200개의 정부 사이트가 포함되지만 영향을 받는 버전을 실행하는 곳은 더 적을 것으로 예상된다고 밝혔다[ltn.com.tw#1].",
+      "talking_points[3]": "추가 혼란 가능성: 오렌지 사이버디펜스(Orange Cyberdefense)의 연구원 찰 밴 더 월트(Charl van der Walt)는 현재의 서비스 중단을 '초기 진동'이라고 표현하며, 공격자들이 취약한 시스템을 스캔함에 따라 추가적인 서비스 중단이 발생할 수 있다고 경고했다[13abc.com#1][theglobeandmail.com#1].",
+      "international_reactions[0]": "🇹🇼 대만 디지털발전부: 대만은 패치를 수령한 지 3시간 만에 비상 대응 체계를 가동했다[ltn.com.tw#1].",
+      "international_reactions[1]": "🇰🇷 대한민국: 한국은 민간 분야의 사이버 경보 단계를 상향 조정하고 국방부, 과학기술정보통신부, 국가정보원 관계자들과 긴급 회의를 소집했다[ft.com#2].",
+      "international_reactions[2]": "🇯🇵 일본: 다카이치 사나에(Sanae Takaichi) 총리는 웹사이트 운영자들에게 대국민 사이트가 PHP를 사용하는지 확인하고 신속하게 수정 사항을 설치할 준비를 하라고 촉구했다[samaa.tv#1].",
+      "technical_details[0]": "심각도: 두 가지 결함은 CVE-2026-109618 및 CVE-2026-109619로 추적되며, 각각 10점 만점에 9.2점의 치명적인 심각도 점수를 받았다[wsws.org#1][ltn.com.tw#1].",
+      "technical_details[1]": "메모리 손상: 해당 PHP 버그는 요청이 예기치 않게 종료될 때 메모리를 잘못 처리하여 메모리에 남아 있는 데이터를 노출하거나 손상시킬 수 있는 문제를 포함한다. 이 취약점은 인증 없이 원격 코드 실행을 허용할 수 있다[nation.com.pk#1][wsws.org#1].",
+      "industry_impact[0]": "패치되지 않은 시스템: 센시스(Censys)는 PHP를 보고하는 260만 개의 호스트 중 약 150만 개가 수정 사항이 없는 버전을 실행 중임을 발견했다[samaa.tv#1][storm.mg#1].",
+      "industry_impact[1]": "레거시 소프트웨어: PHP 8.1 이하 버전을 실행하는 시스템은 해당 릴리스에 대한 지원이 종료되었기 때문에 직접적인 패치보다는 업그레이드가 필요할 수 있다[theaiinsider.tech#1].",
+      "user_action_items[0]": "모든 인터넷 연결 시스템의 PHP 확인: 웹사이트, 호스팅 플랫폼, 공급업체 제품에 내장된 PHP를 검토한 후 적절한 보안 업데이트를 적용하거나, 보안이 확보될 때까지 노출된 시스템을 서비스에서 제외해야 한다[bbc.com#2][ft.com#2].",
+      "user_action_items[1]": "패치 후 서버 활동 검토: 사이버 보안 전문가 조셉 페리(Joseph Perry)의 권고에 따라 PHP 및 웹 서버 로그에서 의심스러운 활동을 조사하고 공격 징후를 탐지할 수 있는 체계를 구축해야 한다[itbrew.com#1].",
+      "perspectives[0].text": "아르코바(Arcova) 사이버 보안 팀: 고급 서비스 책임자인 조셉 페리(Joseph Perry)는 방화벽이나 네트워크 분할과 같은 대체 통제 수단에 의존하기보다 조직들이 직접 패치를 적용할 것을 촉구했다[itbrew.com#1].",
+      "perspectives[1].text": "싱가포르 정부기술청(GovTech): 정부기술청은 현재 정부 시스템이 침해되었다는 징후는 없으며, 기관들이 수정 사항을 적용하는 동안 예방 차원에서 영향을 받는 서비스를 오프라인으로 전환할 수 있다고 밝혔다[adaderana.lk#1].",
+      "timeline[0].content": "칼리프(Calif)가 AI 모델을 사용하여 PHP 취약점을 식별함[samaa.tv#1]",
+      "timeline[1].content": "아마존이 미끼 서버에 대한 공격 시도를 감지함[wired.com#1]",
+      "timeline[2].content": "PHP 취약점에 대한 세부 정보가 온라인 포럼에 게시됨[business-standard.com#1]",
+      "timeline[3].content": "공개 일정이 앞당겨진 후 PHP가 수정 사항을 발표함[ft.com#2][adaderana.lk#1]",
+      "primary_image.caption": "2026년 10월 22일 스페인 게르니카의 RK 솔루션스(RK Solutions) 소프트웨어 개발 회사에서 프로그래머가 PHP 코드로 작업하고 있다. 10월 21일 유럽 전역의 정부 웹사이트들은 웹에서 가장 널리 사용되는 프로그래밍 언어 중 하나인 PHP의 두 가지 치명적인 취약점을 패치하기 위해 운영자들이 서두르면서 접속이 차단되었다. REUTERS/Vincent West",
+      "secondary_image.caption": "2026년 10월 21일 독일 베를린에서 사이버 기관들이 PHP가 치명적인 수정 사항을 준비하는 동안 웹사이트가 오프라인으로 전환될 수 있다고 경고함에 따라 컴퓨터 서버의 LAN 네트워크 케이블이 뽑혀 있다. —Reuters"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "762c5332-39b9-49b4-97f6-915383fb1093",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 16198,
-      "out": 21083
+      "in": 17988,
+      "out": 23445
     }
   }
 }
