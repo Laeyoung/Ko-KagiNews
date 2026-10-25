@@ -4,7 +4,7 @@
   "categoryUuid": "36c0ba1c-8bf4-4a5b-bccc-aa4ed86c88b3",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-25T16:02:39.209Z",
+  "createdAt": "2026-10-25T17:29:05.558Z",
   "stories": {
     "a6ea9c2e-7918-4bfc-a1a2-c403fb476666": {
       "title": "우크라이나, 스타링크 제한 조치 해제로 전선 작전 정상화 발표",
@@ -166,16 +166,34 @@
       "suggested_qna[0].question": "올레시키 작전 이후에는 어떤 일이 예상되는가?",
       "suggested_qna[0].answer": "크렘린궁은 11월 중순경 아부다비에서 미국이 중재하는 새로운 평화 회담이 열릴 수 있다고 밝혔으나, 양측은 영토 요구와 안보 보장 문제에서 여전히 큰 입장 차이를 보이고 있다 [usnews.com#1][independent.co.uk#1].",
       "secondary_image.caption": "러시아-우크라이나 전쟁 - (Copyright 2026 The Associated Press. All rights reserved.)"
+    },
+    "06aba549-a9ad-4d51-89f6-bf0c3db2b0a5": {
+      "title": "프랑스 시위서 1,000명 가까이 체포…평화 행진 후 충돌 발생",
+      "short_summary": "토요일 프랑스 전역에서 생활비와 학교 환경 개선을 요구하는 대규모 평화 행진이 파리, 마르세유 등지에서 충돌로 번지며 1,000명 가까이가 체포되었다 [reuters.com#1][bbc.co.uk#1][cbsnews.com#1]. 내무부는 파리 11만 명을 포함해 전국적으로 41만 명이 참가했다고 집계했으나, 노동총동맹(CGT)은 약 80만 명이 참여한 것으로 추산했다 [reuters.com#1][france24.com#2]. 당국은 경찰과 헌병대 7만 명을 배치했으며, 로랑 누녜스(Laurent Nuñez) 내무장관은 지난 주말 프랑스 전역에서 발생한 약탈과 기물 파손보다 폭력 사태의 강도는 낮았다고 밝혔다 [reuters.com#1][dw.com#1]. 경찰은 여러 도시에서 최루탄과 물대포를 사용했으며, 툴루즈에서 손가락이 절단된 남성을 포함해 2명이 중상을 입은 것으로 보고되었다 [bbc.co.uk#1][theguardian.com#1]. 이번 시위는 교사 부족과 열악한 학교 시설에 항의하는 학생들의 시위에서 시작되어 생활비와 공공 서비스 전반에 대한 문제 제기로 확대되었다 [timesofisrael.com#1][euronews.com#4]. 시위 경로 제한과 경찰력 강화에도 불구하고 불안은 계속되고 있으며, 시위대는 정부의 시위 대응 방식을 비판하고 있다 [theguardian.com#1][npr.org#1]. '노란 조끼(Yellow Vests)' 운동 측은 10월 31일 추가 시위를 계획 중이라고 밝혔다 [tehrantimes.com#1].",
+      "location": "프랑스 파리",
+      "historical_background": "DW에 따르면 10월 17일 발생한 소요 사태 당시 건물 화재와 약 1,500개 상점의 약탈이 있었다 [dw.com#1].",
+      "talking_points[0]": "파리 체포 현황: 파리 검찰청은 시위 현장에서 64명을 체포하고 미성년자 6명을 포함해 40명을 구금했다고 밝혔다. 다수의 사건이 무기 소지 혐의나 폭력 및 재산 피해 모의와 관련되어 있다 [timesofisrael.com#1].",
+      "talking_points[1]": "학교 요구 사항: 학생 단체와 노조는 25만 개의 대학 정원 추가 확보와 프랑스 국가 대학 입학 플랫폼인 '파르쿠르쉬프(Parcoursup)'의 개편을 요구하고 있다 [indianexpress.com#1].",
+      "talking_points[2]": "사전 검문: 누녜스 내무장관에 따르면 경찰은 행진 전 불꽃놀이용 폭죽, 금속 및 납 탄환, 새총, 사제 무기, 카타나, 에어소프트건 등을 압수했다 [cbsnews.com#1][rte.ie#1].",
+      "talking_points[3]": "경로 분쟁: 당국은 파리 행진 경로를 바스티유 인근에서 포르트 디탈리(Porte d’Italie)로 급히 변경했다. 뮈리엘 길베르(Murielle Guilbert) 노조 대표는 시위대의 경로 선택권을 박탈한 것은 \"수치스러운 일\"이라고 비판했다 [cbsnews.com#1].",
+      "talking_points[4]": "정치적 쟁점: 국민연합(National Rally) 당은 에마뉘엘 마크롱(Emmanuel Macron) 정부가 공공 안전을 지키지 못했다고 비난하며 유권자들에게 분노를 투표로 표출할 것을 촉구했다 [timesofisrael.com#1][csmonitor.com#1].",
+      "industry_impact[0]": "소매 및 관광: 상점들은 판자로 창문을 막았고 주요 박물관과 파리 오페라 극장은 하루 동안 문을 닫았으며, 수도 내 20개 이상의 지하철역이 폐쇄되었다 [reuters.com#1][rte.ie#1].",
+      "perspectives[0].text": "로랑 누녜스 프랑스 내무장관: 누녜스 장관은 이른바 '고위험군'을 비난하며 극좌 활동가들과 범죄 조직이 행진에서 이탈해 폭력을 저질렀다고 주장했다 [reuters.com#1].",
+      "perspectives[1].text": "사라 멜룰(Sarah Meloul) 시위 참가자: 멜룰은 시위대가 폭력을 지양하지만 경찰의 공격성이 이를 부추겼다고 주장하며, 일부 역사적 시위에서 폭력은 전술로 사용되기도 했다고 옹호했다 [npr.org#1].",
+      "perspectives[2].text": "마르크 피에트로시노(Marc Pietrosino) CGT 지역 사무총장: 피에트로시노는 노조 행진 참가자들이 의도적으로 상점을 피했다고 말하며, 시위할 권리는 여전히 핵심적인 가치라고 강조했다 [tehrantimes.com#1].",
+      "perspectives[3].text": "장뤼크 멜랑숑(Jean-Luc Mélenchon) '굴복하지 않는 프랑스(France Unbowed)' 대표: 멜랑숑은 경찰이 파리 행진 후미에 최루탄을 발사해 혼란을 유발했다고 비난하며, 시위에 대한 TV 보도 행태를 비판했다 [rediff.com#1].",
+      "timeline[0].content": "학생들이 교사 부족, 노후화된 학교 건물, 과밀 학급 문제로 거리로 나섰다 [independent.co.uk#1].",
+      "timeline[1].content": "시위 이후 대규모 약탈과 기물 파손이 이어졌으며 약 2,700명이 체포되었다 [dw.com#1][euronews.com#4].",
+      "timeline[2].content": "전국적으로 수십만 명이 집결했으나 충돌이 발생했고 경찰은 1,000명 가까이를 체포했다 [reuters.com#1][bbc.co.uk#1].",
+      "suggested_qna[0].question": "오를레앙에서도 시위가 열린 이유는 무엇인가?",
+      "suggested_qna[0].answer": "마린 르펜(Marine Le Pen)이 이끄는 국민연합의 전당대회와 맞물려 반대 시위가 열렸으며, 주최 측과 당국은 참가자 수에 대해 큰 차이를 보였다 [thehindu.com#3][stirileprotv.ro#1].",
+      "primary_image.caption": "프랑스 마르세유에서 노동조합이 주최한 허가된 시위 도중 시위대가 경찰과 대치하고 있다. -- 로이터"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 7,
+    "translated": 8,
     "failedStoryIds": [
-      {
-        "id": "06aba549-a9ad-4d51-89f6-bf0c3db2b0a5",
-        "reason": "retry_exhausted"
-      },
       {
         "id": "6db31788-af7b-4eb5-9e21-091be55cc4e0",
         "reason": "retry_exhausted"
@@ -194,8 +212,8 @@
       }
     ],
     "tokens": {
-      "in": 10315,
-      "out": 13296
+      "in": 11866,
+      "out": 15214
     }
   }
 }
