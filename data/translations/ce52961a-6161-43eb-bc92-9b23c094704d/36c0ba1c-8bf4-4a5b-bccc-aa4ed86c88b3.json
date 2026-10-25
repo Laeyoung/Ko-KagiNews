@@ -4,18 +4,176 @@
   "categoryUuid": "36c0ba1c-8bf4-4a5b-bccc-aa4ed86c88b3",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-25T14:25:02.999Z",
-  "stories": {},
+  "createdAt": "2026-10-25T15:08:27.172Z",
+  "stories": {
+    "a6ea9c2e-7918-4bfc-a1a2-c403fb476666": {
+      "title": "우크라이나, 스타링크 제한 조치 해제로 전선 작전 정상화 발표",
+      "short_summary": "우크라이나는 10월 24일, 일주일 넘게 이어진 제한 조치로 전선 작전에 차질을 빚었던 위성 서비스 스타링크(Starlink)와 군용 버전인 스타실드(Starshield)의 속도가 이전 수준으로 회복되었다고 밝혔다. 우크라이나 국방부는 시속 400km 이상으로 이동하는 장비에 대한 연결이 안정화되었다고 전했다. 기존 제한 조치는 속도를 시속 160km로 제한해 러시아 드론 요격 작전을 방해하고 일부 임무를 취소하게 만들었다[pbs.org#1][dw.com#1][theguardian.com#1]. 우크라이나의 복구 발표 몇 시간 후, 일론 머스크(Elon Musk) 스페이스X 최고경영자(CEO)는 우크라이나군이 상업용 스타링크를 공격용 드론 타격에 사용하여 이용 약관을 위반했기 때문에 속도를 제한했다고 주장했다. 머스크는 군용 버전인 스타실드는 미국 정부가 통제한다고 덧붙였다. 우크라이나 당국은 상업용 스타링크가 그가 언급한 장거리 및 중거리 드론 작전을 지원할 수 없다며 그의 주장을 반박했다[cbsnews.com#1][kyivindependent.com#1][ft.com#1]. 스타실드 제한 조치를 누가 지시했는지는 여전히 논란 중이다. 도널드 트럼프(Donald Trump) 대통령과 고위 행정부 관계자들은 지시 사실을 부인했으나, 로이터 통신은 백악관 내부에서 지시가 내려왔다고 보도했다. AP 통신에 따르면 미국, 우크라이나, 러시아 협상단은 다음 달 3자 회담을 재개할 예정이다[timeslive.co.za#1][dw.com#1][pbs.org#1].",
+      "quote": "민간 상업 서비스인 스타링크를 사람을 살상하기 위한 공격용 드론 타격에 사용하는 것은 결코 허용된 적이 없으며, 앞으로도 허용되어서는 안 된다.",
+      "quote_attribution": "CBS 뉴스",
+      "historical_background": "2022년 2월 러시아의 전면 침공으로 우크라이나의 통신 인프라가 파괴되면서 위성 통신에 대한 의존도가 높아졌다[thehindu.com#1]. 2024년 12월, 미 국방부는 약 3,000개의 단말기를 통해 우크라이나에 스타실드 접속을 제공했다. 2022년 일론 머스크는 러시아 흑해 함대를 겨냥한 작전을 위해 세바스토폴 인근에서 스타링크를 활성화해달라는 우크라이나의 요청을 거부한 바 있다[thehindu.com#1].",
+      "talking_points[0]": "우크라이나의 반박: 세르히 베스크레스노프(Serhii Beskrestnov) 대통령 고문은 우크라이나의 스타링크 단말기가 시속 70~90km로 제한되어 있어 심층 타격이나 중거리 타격에는 사용할 수 없다고 밝혔다[ft.com#1][livemint.com#1].",
+      "technical_details[0]": "단말기 승인: 세르히 스테르넨코(Serhii Sternenko) 전 우크라이나 국방부 고문은 우크라이나 내에서 이동 중인 위성 단말기가 작동하려면 특별 목록에 등록되고 스타실드에 연결되어야 한다고 설명했다[kyivindependent.com#1].",
+      "technical_details[1]": "스타실드 보안: 스타실드는 스타링크의 위성 군집을 공유하지만 보안 통신을 위해 더 강력한 데이터 암호화 기능을 추가했으며, 원격 감지 기능에는 특수 위성을 사용한다[thehindu.com#1].",
+      "industry_impact[0]": "유럽 위성 통신: 이번 중단 사태로 대체 용량 확보에 대한 압박이 커졌다. BBC는 원웹(OneWeb)이 약 600개의 활성 위성을 보유하고 있으나, EU의 아이리스 스퀘어(Iris²) 시스템은 2029년까지 운영이 불가능하다고 보도했다[bbc.co.uk#1].",
+      "industry_impact[1]": "군사 통신: 항공우주 보안 전문가 카리 빙겐(Kari Bingen)은 우크라이나가 통제권이 없는 민간 운영 네트워크에 의존하는 것은 군사 통신 및 드론 작전에 서비스 중단 위험을 초래한다고 지적했다[bbc.co.uk#1].",
+      "perspectives[0].text": "미국 의원들: 민주당 및 일부 공화당 의원들은 조사와 함께 우크라이나의 안정적인 접속 보장을 요구했다. 애덤 쉬프(Adam Schiff) 상원의원은 머스크가 의회에 출석해 선서 증언을 할 것을 촉구했다[cnbc.com#1][rferl.org#1][thehill.com#1].",
+      "timeline[0].content": "우크라이나군이 드론 작전 중 위성 연결이 끊기는 현상을 보고했다[thehindu.com#1].",
+      "timeline[1].content": "트럼프 대통령이 머스크에게 연결 복구를 요청했다고 밝혔다[thehindu.com#1].",
+      "timeline[2].content": "우크라이나는 시속 400km 이상에서 서비스가 안정화되었다고 보고했으며, 머스크는 약관 위반을 주장했다[dw.com#1][cbsnews.com#1].",
+      "timeline[3].content": "올레시키(Oleshky) 지역의 국지적 휴전이 시작될 예정이며, 인도적 지원과 민간인 대피가 계획되었다[independent.co.uk#1].",
+      "primary_image.caption": "2023년 자포리자 지역에서 러시아 점령지를 향해 드론을 조종하는 우크라이나 군인들."
+    },
+    "996d3782-7fe3-47c1-902c-46d7db69b1ae": {
+      "title": "이탈리아 생활비 인상 반대 시위서 충돌… 371명 일시 구금",
+      "short_summary": "10월 24일 토요일, 이탈리아 전역에서 수천 명의 시민이 생활비 상승과 전쟁에 반대하는 시위를 벌였다. 로마, 토리노, 볼로냐에서는 경찰과 시위대 간 충돌이 발생했으나 밀라노 행진은 대체로 평화롭게 진행되었다[pbs.org#1][euronews.com#2][aa.com.tr#1]. 경찰은 여러 도시에서 최루탄과 물대포를 사용했다. 당국은 8개 도시에서 9명을 체포하고 미성년자 110명을 포함해 총 371명을 일시 구금했다고 밝혔다[channelnewsasia.com#1][hrt.hr#1]. 시위대는 주거비와 연료비, 임금, 공공 서비스 및 군사비 지출에 대한 우려를 제기했다. 이번 보안 조치는 지난 주말 밀라노에서 발생한 약탈과 충돌 사태 이후 강화된 것으로, 당시 패션 지구의 상점들은 예방 차원에서 창문을 판자로 막기도 했다[lemonde.fr#1][pbs.org#1][channelnewsasia.com#1]. 조르자 멜로니(Giorgia Meloni) 총리 정부는 밀라노에 500명의 군 병력을 추가 배치하고 미성년자 관련 처벌을 강화하는 조치를 승인했다. 토요일, 경찰은 '17일 운동(17 October Movement)'을 조직한 혐의를 받는 프리랜서 기자 유세프 시헤르(Youssef Siher, 30)를 구금했다. 경찰은 이전 소요 사태에 대한 수사의 일환으로 밀라노, 몬차 및 기타 20여 개 도시의 150곳 이상을 압수수색했다[lemonde.fr#1][wantedinrome.com#1][aa.com.tr#1].",
+      "quote": "모든 사람의 안전은 보장되어야 합니다. 평화롭게 시위하고자 하는 사람, 일하는 사람, 그리고 두려움 없이 도시에서 살고 싶은 사람 모두의 안전이 보장되어야 합니다.",
+      "quote_attribution": "내셔널 헤럴드 인디아(National Herald India)",
+      "historical_background": "밀라노 경찰은 지난 주말 폭력 및 약탈 사태에 약 2,000명의 매우 어린 시위대가 가담했다고 밝혔다. 이틀 동안 경찰은 미성년자 34명을 포함해 총 45명을 체포했다[pbs.org#1][hrt.hr#1].",
+      "humanitarian_impact": "볼로냐에서는 충돌 후 6명이 병원으로 이송되었으며, 응급 서비스에 17건의 지원 요청이 접수되었다[freepressjournal.in#1][nationalheraldindia.com#1].",
+      "talking_points[0]": "극우 활동가: 인터 밀란(Inter Milan)과 연계된 활동가 약 30명이 밀라노 행진에 잠시 나타나 반이민 및 반무슬림 구호를 외쳤으나 경찰에 의해 격리되었다[pbs.org#1].",
+      "talking_points[1]": "온라인 동원: '17일 운동'은 4만 명 이상의 인스타그램 팔로워를 보유한 것으로 알려졌으며, 집회 직전에 행진 장소를 공유하는 전술을 사용하여 보안 계획 수립을 어렵게 만들었다[prensa.com#1][euronews.com#2].",
+      "talking_points[2]": "경제적 압박: 이번 시위는 이탈리아 남부에서 일주일간 연료 및 식량 부족을 야기했던 트럭 봉쇄 시위 이후 발생했다. 현재 해당 봉쇄는 해제된 상태이다[lemonde.fr#1][channelnewsasia.com#1].",
+      "talking_points[3]": "수사 초점: 경찰의 압수수색은 경찰 공격, 차량 파손, 건물 방화 계획 및 협박 혐의로 수사 중인 인물들을 대상으로 이루어졌다[aa.com.tr#1][euronews.com#2].",
+      "industry_impact[0]": "소매업: 밀라노 패션 지구의 상점들은 지난 주말 약탈 사태 이후 매장 전면을 판자로 막았다. 다른 많은 상점이 영업을 재개했음에도 애플(Apple) 스토어는 계속 문을 닫은 상태였다[pbs.org#1][business-standard.com#1].",
+      "perspectives[0].text": "알레시오 시모네(Alessio Scimone), 밀라노 시위대이자 베팅 숍 직원: 시모네는 시위대가 불만을 표출해야 한다고 주장하며 AFP 통신에 \"행진은 권리다. 우리는 우리의 목소리를 내야 한다\"고 말했다[firstpost.com#1].",
+      "perspectives[1].text": "이탈리아 학생 단체: 학생 단체들은 정부의 공공질서 대응을 비판하며 군사비 지출을 교육 분야로 전환할 것을 요구했다[lemonde.fr#1][channelnewsasia.com#1].",
+      "perspectives[2].text": "주세페 살라(Giuseppe Sala) 밀라노 시장: 살라 시장은 재발한 폭력 사태에 우려를 표하며 밀라노에 군 병력을 추가 배치하는 방안을 지지했다[independent.com.mt#1][hrt.hr#1].",
+      "perspectives[3].text": "람베르토 베르톨레(Lamberto Bertolé) 밀라노 복지 위원: 베르톨레 위원은 일부 청년들의 소요 사태가 소속감과 미래에 대한 전망 부족, 그리고 사회적·경제적 불평등에서 기인했다고 분석했다[independent.com.mt#1].",
+      "timeline[0].content": "이전 시위 당시 밀라노에서 폭력적인 충돌과 약탈 발생[euronews.com#2]",
+      "timeline[1].content": "멜로니 정부가 미성년자 관련 강경 조치를 승인하고 밀라노에 군인 500명 배치[lemonde.fr#1]",
+      "timeline[2].content": "전국적으로 시위가 재개되었으며 여러 도시에서 충돌 보고[pbs.org#1][euronews.com#2]",
+      "suggested_qna[0].question": "30세 용의자는 어떤 혐의로 수사를 받고 있는가?",
+      "suggested_qna[0].answer": "유세프 시헤르는 테러와 관련된 가중 처벌 조항이 적용된 범죄 선동 혐의로 수사를 받고 있는 것으로 알려졌다[wantedinrome.com#1].",
+      "primary_image.caption": "생활비 상승과 군사비 지출에 반대하며 로마, 볼로냐, 토리노에서 경찰과 시위대가 충돌하며 폭력 사태로 번진 이탈리아 시위 현장",
+      "secondary_image.caption": "오늘 이탈리아 북부 토리노에서 열린 생활비 인상 반대 시위 모습. EFE/EPA"
+    },
+    "a3aaef03-ea09-45d9-a632-082cb8ccfeba": {
+      "title": "이스라엘, 선거 앞두고 서안지구 검문소 폐쇄 및 팔레스타인 노동자 출입 금지",
+      "short_summary": "이스라엘은 10월 27일 화요일 선거 당일, 이스라엘과 점령지인 서안지구 사이의 모든 육로 검문소를 폐쇄한다고 일요일 밝혔다. 또한 일요일부터는 산업 단지나 일부 제한된 구역을 제외하고 대부분의 팔레스타인 노동자가 이스라엘 정착촌으로 들어오는 것을 금지한다. 이번 조치는 지난 금요일 헤브론 인근 검문소에서 팔레스타인 무장 괴한 2명이 이스라엘 군인 2명을 살해한 사건 이후 시작된 서안지구 단속의 연장선이다 [thehindu.com#2][bbc.co.uk#1][scmp.com#1]. 헤브론에서 이스라엘 카츠(Israel Katz) 국방장관은 약 2,000명의 주민이 대피했으며, 군이 도시 내 하마스 문제를 해결했다고 판단할 때까지 귀환이 허용되지 않을 것이라고 밝혔다. 이스라엘군은 주택과 상점을 철거하며 이번 수색이 무장 세력, 무기, 기반 시설을 겨냥한 것이라고 설명했다. 그러나 주민들과 팔레스타인 당국은 대피한 사람들 중 상당수가 이번 공격과 아무런 관련이 없다고 주장한다 [abc.net.au#1][theguardian.com#1][thehindu.com#1]. 군 당국은 금요일과 토요일 서안지구 40개 지역에서 작전을 수행했으며, 하마스 및 이슬람 지하드와 연계된 것으로 추정되는 용의자 약 40명을 체포했다고 밝혔다. 팔레스타인 자치정부는 이번 작전에 대해 국제사회의 압박을 촉구했으며, 이스라엘 당국은 작전이 며칠간 더 지속될 것이라고 밝혔다 [thehindu.com#2][theguardian.com#1].",
+      "quote": "우리는 우리가 저지르지도, 지지하지도 않은 일에 대해 집단적 처벌을 받고 있다.",
+      "quote_attribution": "가디언(The Guardian)",
+      "location": "팔레스타인 자치지구 헤브론",
+      "historical_background": "이스라엘은 1967년부터 서안지구를 점령해 왔다 [n-tv.de#1]. 2025년 서안지구 북부 난민 캠프에서 벌어진 이스라엘의 작전으로 수백 채의 주택이 철거되고 수만 명의 팔레스타인인이 난민이 되었다 [reddit.com#1][aljazeera.com#1]. 베냐민 네타냐후(Benjamin Netanyahu) 총리는 앞선 작전들을 이번 헤브론 작전의 모델로 언급한 바 있다 [aljazeera.com#1].",
+      "humanitarian_impact": "헤브론 시 당국은 대피한 가족들을 위한 임시 대피소로 커뮤니티 홀과 어린이 놀이 공간을 개방했다 [theguardian.com#1].",
+      "talking_points[0]": "광범위한 급습: 팔레스타인 수감자 협회는 금요일과 토요일 서안지구 전역에서 약 70명이 체포되었다고 보고했으며, 이스라엘군은 별도로 약 40명의 용의자를 체포했다고 밝혔다 [thehindu.com#1][thehindu.com#2].",
+      "talking_points[1]": "의료 접근성: 야타(Yatta) 주민 유세프 무르(Yousef Mur)는 검문소 폐쇄로 인해 암 치료를 받는 딸을 예루살렘으로 데려가지 못했다고 말했다 [thehindu.com#1].",
+      "talking_points[2]": "파괴 규모: 헤브론 시 당국은 토요일 오후까지 35헥타르의 면적이 파괴되었거나 파괴 대상으로 지정된 것으로 추산했다 [theguardian.com#1].",
+      "talking_points[3]": "텔아비브 집회: 토요일 텔아비브에서는 수천 명이 모여 집회를 열었으며, 2023년 10월 7일 사망하거나 인질로 잡힌 이들의 가족 단체인 '10월 위원회(October Council)'는 책임 규명과 국가 차원의 조사를 요구했다 [bbc.co.uk#1].",
+      "talking_points[4]": "정착민 폭력: 이스라엘 인권 단체 예쉬 딘(Yesh Din)은 작전 전 26일 동안 672건의 정착민 폭력 사건을 기록했으며, 이 중 절반 가까이가 올리브 수확과 관련되어 있었다 [lemonde.fr#1].",
+      "perspectives[0].text": "이스라엘군: 군 당국은 표적이 된 지역에 하마스와 연계된 것으로 알려진 씨족이 포함되어 있다고 밝혔으며, 떠나기를 원하는 민간인은 이스라엘군이 배치된 지정된 검문소를 통과할 수 있다고 설명했다 [theguardian.com#1].",
+      "perspectives[1].text": "유세프 주하이르 알 자바리(Youssef Zouhair Al-Jabari) 헤브론 시장: 알 자바리 시장은 이스라엘 지도자들이 정착민들의 표를 얻으려 한다고 말하며, 정부가 선거를 목적으로 이번 작전을 이용하고 있다고 비난했다 [thehindu.com#1].",
+      "perspectives[2].text": "암자드 이라키(Amjad Iraqi) 국제위기감시그룹(International Crisis Group) 이스라엘 및 팔레스타인 담당 선임 분석가: 이라키는 극우 정치인들이 공격을 이용해 강함을 과시하고 정착민들에게 국가가 그들을 보호할 것이라는 확신을 주려 한다고 말했다 [abc.net.au#1].",
+      "perspectives[3].text": "비첼렘(B'Tselem, 이스라엘 인권 단체): 율리 노박(Yuli Novak) 사무총장은 정부와 국제기구들에 헤브론 내 강제 이주와 파괴를 막기 위해 국제법상 가능한 모든 조치를 취할 것을 촉구했다 [thenationalnews.com#1].",
+      "timeline[0].content": "이스라엘, 서안지구 북부 캠프에서 '철벽(Iron Wall)' 작전 개시 [news.kagi.com#1]",
+      "timeline[1].content": "헤브론 인근에서 팔레스타인 무장 괴한이 이스라엘 군인 2명 살해; 급습 시작 [thehindu.com#2][scmp.com#1]",
+      "timeline[2].content": "이스라엘군, 헤브론 급습·대피·철거 작전 확대 [theguardian.com#1][abc.net.au#1]",
+      "timeline[3].content": "이스라엘, 노동자 제한 및 선거일 검문소 폐쇄 발표 [thehindu.com#2][bbc.co.uk#1]",
+      "timeline[4].content": "이스라엘, 총선 일정 및 서안지구 검문소 폐쇄 예정 [thehindu.com#2][bbc.co.uk#1]",
+      "primary_image.caption": "이스라엘군이 점령지 서안지구의 팔레스타인 상점들을 철거한 후, 검문소 총격 사건 현장에 잔해들이 흩어져 있다. 로이터(Reuters)"
+    },
+    "dc8bfbad-ebc2-4228-9753-ab3a15dde000": {
+      "title": "이스라엘 총선 앞두고 텔아비브서 10월 7일 사태 진상규명 촉구 집회",
+      "short_summary": "10월 27일 총선을 사흘 앞둔 토요일, 수천 명의 이스라엘 시민들이 텔아비브에 모여 정권 교체와 2023년 10월 7일 하마스의 공격 이전 발생한 안보 실패에 대한 독립적인 진상조사를 요구했다. 주최 측은 10만 명 이상이 참석했다고 밝혔으나 경찰은 추산치를 내놓지 않았다. 유가족과 인질 가족들이 결성한 단체인 '옥토버 카운슬(October Council)'이 이번 집회를 조직했다 [abc.net.au#1][timesofisrael.com#1]. 베냐민 네타냐후(Benjamin Netanyahu) 총리 정부는 독립적인 국가 조사위원회 구성 요구를 거부하고 대신 정치권이 임명하는 위원회 구성을 제안했다. 야당 지도자들은 해당 위원회를 보이콧하겠다고 밝혔으며, 집권 시 독립적인 조사위원회를 구성하겠다고 공약했다 [france24.com#1][timesofisrael.com#1]. 최근 발표된 KAN 여론조사에 따르면 야권 도전자 가디 아이젠코트(Gadi Eisenkot)가 이끄는 블록은 52석, 네타냐후 블록은 50석을 얻을 것으로 예상되었으며, 두 블록 모두 크네세트(Knesset, 이스라엘 의회) 120석 중 과반인 61석에는 미치지 못했다 [firstpost.com#1][rts.ch#1]. 아이젠코트, 야이르 라피드(Yair Lapid), 나프탈리 베네트(Naftali Bennett), 야이르 골란(Yair Golan) 등 야당 지도자들이 집회에 참석했다. 유권자들은 10월 27일 화요일 투표에 나설 예정이다 [aljazeera.com#2][timesofisrael.com#1].",
+      "did_you_know": "중앙선거관리위원회는 리쿠드당이 주요 방송사들의 집회 생중계를 막아달라고 요청한 건에 대해 사실관계가 부족하다며 기각했다 [timesofisrael.com#1].",
+      "quote": "성찰 없이는 국가가 앞으로 나아갈 수 없다. 지도자는 책임을 지지 않으면서 우리의 신뢰를 요구할 수 없다.",
+      "quote_attribution": "ABC 뉴스 오스트레일리아",
+      "location": "이스라엘 텔아비브",
+      "historical_background": "공격 이후 네타냐후는 오전 6시 29분 공격이 시작되었을 때 아무도 자신을 깨우지 않은 것이 실패의 원인이라고 말했다. ABC는 네타냐후가 하마스에 관한 경고를 전달받았음에도 이를 무시하거나 공유하지 않았다는 보도를 기록했다 [abc.net.au#1]. 네타냐후의 장기 집권은 부패 혐의와 대법원의 권한을 제한하려는 시도로 인해 감시를 받아왔으며, 많은 이스라엘 국민은 이것이 정부에 견제 없는 권력을 부여할 것을 우려했다 [abc.net.au#1].",
+      "talking_points[0]": "가족들의 요구: 아들 님로드(Nimrod)가 납치되었다가 풀려난 비키 코헨(Viki Cohen)은 투표할 때 희생자, 납치 피해자, 부상자 및 영향을 받은 모든 이들을 기억해 달라고 유권자들에게 당부했다 [timesofisrael.com#1].",
+      "talking_points[1]": "선거 캠페인 논란: 네타냐후는 국제적 고립을 상쇄하기 위해 이스라엘에 대안적 디지털 경제와 블록체인 계획이 필요할 수 있다고 말했으나, 아이젠코트는 이를 'bb코인'이라며 조롱했다 [20min.ch#1][geo.tv#1].",
+      "talking_points[2]": "집회 체포: 경찰은 공인의 경호팀을 폭행한 혐의로 용의자 1명을 체포했다고 밝혔다. 이스라엘 언론은 해당 공인이 나프탈리 베네트라고 보도했다 [firstpost.com#1].",
+      "technical_details[0]": "국가 조사위원회의 권한: 위원회는 증인을 소환하고 개인적인 권고안을 발표할 수 있다. 정부가 위원회를 구성하면 사법부가 선정한 전문가들이 독립적으로 활동한다 [timesofisrael.com#1].",
+      "technical_details[1]": "정치적 위원회 제안: 정부의 대안은 집권 연합과 야당 의원들에게 임명권을 동등하게 배분하는 것이다. 야당 지도자들은 이 위원회를 보이콧하겠다고 밝혔다 [aljazeera.com#2][geo.tv#1].",
+      "perspectives[0].text": "베냐민 네타냐후 이스라엘 총리: 네타냐후는 대법원이 임명하는 독립적인 위원회는 자신의 정부에 편향적일 것이라고 주장한다 [timesofisrael.com#1].",
+      "perspectives[1].text": "첫 투표자 나아마 비터만(Naama Bitterman): 비터만은 야당의 승리가 수년간의 갈등과 점령지 요르단강 서안 지구의 폭력 사태 증가 이후 이스라엘의 국제적 위상을 개선할 수 있을 것이라고 말했다 [firstpost.com#1].",
+      "perspectives[2].text": "옥토버 카운슬: 이 단체는 연합 세력과 연계된 단체들이 집회를 방해할 가능성이 있다는 경고를 받은 후 경찰에 신고했다 [france24.com#1].",
+      "perspectives[3].text": "희생자 및 인질 가족: 엘차난 다니노(Elchanan Danino) 랍비는 진상조사가 납치된 사랑하는 이들을 집으로 데려오지는 못하겠지만, 미래 세대와 군인들을 위해 반드시 필요하다고 말했다 [abc.net.au#1].",
+      "timeline[0].content": "하마스가 주도한 공격으로 안보 실패에 대한 조사 요구가 촉발됨 [france24.com#1]",
+      "timeline[1].content": "오리 다니노(Ori Danino)가 억류 중 살해된 6명의 인질 중 한 명으로 확인됨 [timesofisrael.com#1]",
+      "timeline[2].content": "가족들과 야당 지도자들이 텔아비브에서 집회를 개최함 [timesofisrael.com#1]",
+      "timeline[3].content": "이스라엘 국민들이 새 의회를 선출할 예정임 [aljazeera.com#1][timesofisrael.com#1]",
+      "suggested_qna[0].question": "일부 가족들은 선거 당일에 무엇을 할 계획인가?",
+      "suggested_qna[0].answer": "10월 7일 희생자들의 일부 가족들은 화요일 투표소 밖에서 사랑하는 이들의 사진을 들고 서 있을 계획이다 [timesofisrael.com#1]."
+    },
+    "c8ace715-cf7f-4e53-b351-542f877d1b29": {
+      "title": "트럼프, 이란에 일요일 타격 가능성 시사… 테헤란은 보복 경고",
+      "short_summary": "도널드 트럼프 미국 대통령은 10월 25일 일요일에 이란을 타격할 가능성이 있다고 토요일 밝혔으나, 여전히 합의 가능성은 열려 있다고 언급했다. 지난 2월 28일 시작된 8개월간의 전쟁은 미국과 이스라엘의 이란 타격으로 촉발되었다 [arabtimesonline.com#1][ndtv.com#1][aljazeera.com#1]. 이란 이슬람혁명수비대(IRGC)는 제한적인 공격이라도 가해질 경우 '수배 이상의' 대응에 직면할 것이라고 경고했으며, 알리 압돌라히(Ali Abdollahi) 군 참모총장은 이란이 미군 함정의 페르시아만 진입을 허용하지 않을 것이라고 밝혔다. 이란 당국자들은 또한 재개된 교전이 역내 다른 국가들에 영향을 미칠 수 있다고 경고했다 [aaj.tv#1][aljazeera.com#1][thehindu.com#1]. 마수드 페제시키안(Masoud Pezeshkian) 이란 대통령은 임시 합의 결렬의 책임을 워싱턴에 돌리면서도 양측 모두 합의로 복귀할 것을 촉구했다. 테헤란 측은 미국이 해상 봉쇄를 해제한다면 호르무즈 해협을 재개방할 의사가 있다고 밝혔으나, 트럼프 대통령은 군사 행동에 대한 결정이나 구체적인 일정은 발표하지 않았다 [aljazeera.com#1][cbsnews.com#1][arabtimesonline.com#1].",
+      "quote": "그럴 가능성이 있다. 또한 우리가 멋지고 크고 아름다운 합의를 이룰 가능성도 있다.",
+      "quote_attribution": "NDTV",
+      "historical_background": "14개 항으로 구성된 임시 양해각서는 레바논을 포함한 군사 작전의 즉각적인 중단과 양측이 60일 이내에 최종 합의를 도출할 것을 요구했다. 이후 테헤란은 워싱턴이 약속을 어겼다고 비난하며 이 양해각서를 중단했다 [ndtv.com#1].",
+      "business_angle_text": "금요일 브렌트유 가격은 배럴당 117달러를 기록했으며, 미국 당국자들은 호르무즈 해협을 통과하는 남부 항로는 상업용 선박에 여전히 개방되어 있다고 밝혔다 [thehindu.com#1]. 이란은 워싱턴이 해상 봉쇄를 해제하면 해협을 재개방하겠다고 밝힌 바 있다 [cbsnews.com#1].",
+      "talking_points[0]": "협상: 페제시키안 대통령은 그가 '전쟁도 평화도 아닌 상태'라고 묘사한 상황을 끝낼 것을 촉구했으나 구체적인 방법은 제시하지 않았다 [cbsnews.com#1].",
+      "talking_points[1]": "해협 접근: 이란은 호르무즈 해협을 폐쇄했으나, 미국 당국자들은 미 해군이 보호하는 남부 항로는 상업용 선박에 여전히 개방되어 있다고 밝혔다 [thehindu.com#1].",
+      "talking_points[2]": "미국 인력: 제이 클레이튼(Jay Clayton) 미국 정보국장은 이란이 해외 미국인을 표적으로 삼으려는 시도를 상당히 강화했으며, 일부 음모는 이미 진전된 단계에 도달했다고 경고했다고 CBS가 보도했다 [cbsnews.com#1].",
+      "talking_points[3]": "경제적 압박: 이란의 9월 공식 연간 인플레이션율은 73.6%에 달했으며, 워싱턴이 7월 해상 봉쇄를 재개한 이후 리알화 가치는 달러 대비 약 35% 하락했다고 라이브민트(LiveMint)가 인용한 로이터 데이터가 보여주었다 [livemint.com#1].",
+      "international_reactions[0]": "🇹🇷 튀르키예: 하칸 피단(Hakan Fidan) 외무장관은 이란에 대한 군사 개입은 해결책이 아니라고 말하며, 또 다른 공격은 교전을 지역 전체로 확산시킬 것이라고 경고했다 [dantri.com.vn#1].",
+      "international_reactions[1]": "🌐 역내 및 유럽 외교관들: 튀르키예, 사우디아라비아, 파키스탄, 이집트, 영국, 프랑스, 독일, 이탈리아 대표들은 이스탄불 회의에서 협상을 통한 해결을 지지하고 호르무즈 해협의 자유로운 통행을 촉구했다. 미국과 이란은 회의에 참석하지 않았다 [nationalheraldindia.com#1].",
+      "business_angle_points[0]": "트럼프 대통령은 호르무즈 해협을 통한 석유 수송량이 전쟁 전보다 많다고 주장했으나, 이를 뒷받침할 수치는 제시하지 않았다 [arabtimesonline.com#1].",
+      "industry_impact[0]": "해상 운송: 이란 혁명수비대는 목요일 밤 사이 유조선 7척이 공격받거나 기뢰에 부딪혔으며, 금요일에는 초대형 유조선 2척이 기뢰에 타격받았다고 주장했다 [nationalheraldindia.com#1].",
+      "perspectives[0].text": "도널드 트럼프 대통령: 트럼프 대통령은 이란의 핵무기 개발을 막는 것이 여전히 자신의 목표라고 말하며, 과거의 타격만으로는 그 결과를 영구적으로 만들 수 없다고 주장했다 [arabtimesonline.com#1].",
+      "timeline[0].content": "미국과 이스라엘의 이란 공습으로 전쟁 시작 [ndtv.com#1][aljazeera.com#1]",
+      "timeline[1].content": "트럼프와 페제시키안, 14개 항의 임시 합의 서명 [ndtv.com#1]",
+      "timeline[2].content": "NDTV에 따르면 트럼프 대통령이 임시 합의 종료 선언 [ndtv.com#1]",
+      "timeline[3].content": "트럼프 대통령, 일요일에 미국 공격이 시작될 수 있다고 언급 [arabtimesonline.com#1][ndtv.com#1]",
+      "primary_image.caption": "테헤란 거리에서 이란 최고지도자 모즈타바 하메네이(Mojtaba Khamenei)의 사진이 담긴 현수막 옆에 이란 미사일이 전시되어 있다. -- 로이터 자료 사진"
+    },
+    "2749d91f-dda9-4058-86d3-c4888ace16a6": {
+      "title": "흑해 선박 공격 속 불가리아 대통령 선거 실시",
+      "short_summary": "불가리아 국민들이 경제적 어려움과 흑해 연안 상선에 대한 드론 공격으로 얼룩진 대통령 선거를 위해 일요일 투표에 나섰다. 총 27명의 후보가 출마한 가운데, 현직인 일리아나 요토바(Iliana Iotova)가 약 41%의 지지율로 안드레이 규로프(Andrey Gyurov) 전 과도 총리(약 28%)를 앞서며 여론조사 선두를 달리고 있다. 과반 득표자가 없을 경우 11월 1일 결선 투표가 예상된다 [straitstimes.com#1][abcnews.com#1][aljazeera.com#1]. 이달 발생한 4척의 선박 공격으로 21명이 실종된 것으로 알려졌으며, 이에 불가리아는 해상 안보 강화를 위해 동맹국의 지원을 요청했다. 루멘 라데프(Rumen Radev) 총리는 러시아가 이번 공격으로 이득을 보고 있다고 언급했으나, 정부가 러시아를 직접적으로 지목하지는 않았다 [firstpost.com#1][hurriyetdailynews.com#1][brusselsmorning.com#1]. 라데프 총리의 진보불가리아당은 지난 4월 총선에서 승리했다. 요토바는 러시아와의 협상을 선호하며 우크라이나에 대한 군사 지원을 반대하는 반면, 규로프는 우크라이나를 지지하고 서방 동맹국과의 긴밀한 협력을 주장한다 [abcnews.com#1][yakimaherald.com#1][aljazeera.com#1][firstpost.com#1]. 대통령직은 대부분 의례적인 역할이지만 군 통수권과 법안 거부권을 포함한 권한을 가진다 [abcnews.com#1][yakimaherald.com#1][aljazeera.com#1].",
+      "quote": "나는 불가리아가 유럽에서 독자적인 목소리를 내길 원한다. 준비 태세와 강력한 외교, 명확한 입장을 통해 국익을 수호하는 신뢰할 수 있는 나토(NATO) 동맹국이 되어야 한다.",
+      "quote_attribution": "로이터(Reuters)",
+      "location": "불가리아 소피아",
+      "historical_background": "불가리아는 러시아와 오랜 문화적·정치적 유대 관계를 맺고 있으며, 2022년 러시아의 우크라이나 전면 침공 이후 모스크바와의 관계에 대한 여론은 분열된 상태다 [aljazeera.com#1][firstpost.com#1]. 요토바는 대통령 취임 전 라데프 총리의 부통령으로 재직했으며, 2016년과 2021년에 그와 함께 당선되었다 [firstpost.com#1][hurriyetdailynews.com#1].",
+      "talking_points[0]": "결선 투표 기준: 1차 투표에서 당선되려면 유효 투표수의 과반을 득표하고 등록 유권자의 50% 이상이 투표해야 한다. 여론조사상 투표율은 40% 미만으로 예상된다 [aljazeera.com#1][aa.com.tr#1].",
+      "talking_points[1]": "3위 후보: 민족주의 성향의 바즈라즈다네(Vazrazhdane)당 대표 코스타딘 코스타디노프(Kostadin Kostadinov)가 약 10%에서 13%의 지지율을 기록했다 [firstpost.com#1][hurriyetdailynews.com#1].",
+      "talking_points[2]": "재외 투표: 투표 자격을 갖춘 불가리아인들은 영국 82곳, 튀르키예 78곳을 포함해 전 세계 60개국 613개 투표소에서 투표할 수 있었다 [brusselsmorning.com#1].",
+      "talking_points[3]": "경제적 우려: 후보들은 에너지 가격 상승과 인플레이션 문제도 다루었으며, 농촌 가구들은 생계 유지의 어려움을 호소하고 있다 [aljazeera.com#1][yakimaherald.com#1].",
+      "talking_points[4]": "선거 물류: 투표소의 4분의 3 이상이 전자 투표기를 제공했으며, 종이 투표지도 병행 사용되었다 [brusselsmorning.com#1].",
+      "perspectives[0].text": "대통령 후보이자 전 과도 총리인 안드레이 규로프: 그는 오랫동안 우크라이나에 대한 지지를 표명해 왔으며, 총리 재임 시절 키이우와 안보 협력 협정을 체결했다 [straitstimes.com#1].",
+      "perspectives[1].text": "여론조사 기관 마켓 링크스(Market Links)의 도브로미르 지브코프(Dobromir Zhivkov) 상임이사: 그는 요토바가 보다 중립적인 접근 방식을 대변한다고 평가하며, 우크라이나에 대한 지원 및 무기 공급 중단 요구는 크렘린의 수사를 되풀이하는 것이라고 비판했다 [aljazeera.com#1].",
+      "perspectives[2].text": "루멘 라데프 불가리아 총리: 그는 공격 사건 이후 러시아 대사를 소환했다 [hurriyetdailynews.com#1].",
+      "timeline[0].content": "라데프가 의회 정치에 참여하기 위해 사임한 후 요토바가 대통령직을 승계했다 [straitstimes.com#1]",
+      "timeline[1].content": "라데프 총리의 진보불가리아당이 총선에서 승리했다 [abcnews.com#1][moldova1.md#1]",
+      "timeline[2].content": "유권자들이 대통령 선거 1차 투표에 참여했다 [aljazeera.com#1][abcnews.com#1]",
+      "timeline[3].content": "1차 투표 요건을 충족하는 후보가 없을 경우 결선 투표가 예정되어 있다 [aa.com.tr#1][straitstimes.com#1]",
+      "suggested_qna[0].question": "1차 투표 결과는 언제 발표되는가?",
+      "suggested_qna[0].answer": "불가리아 중앙선거관리위원회는 투표일로부터 3일 이내에 결과를 발표할 예정이다 [aa.com.tr#1].",
+      "suggested_qna[1].question": "대통령은 의례적인 역할임에도 어떻게 정책에 영향을 미치는가?",
+      "suggested_qna[1].answer": "주요 정책은 의회의 승인이 필요하지만, 직선제로 선출된 대통령은 더 큰 정치적 권위를 가지며 국제 조약 서명 및 대사 임명권을 행사한다 [aljazeera.com#1].",
+      "primary_image.caption": "흑해 선박에 대한 드론 공격의 긴장감 속에서 불가리아 대통령 선거가 실시되고 있다 (로이터)"
+    },
+    "dd1f205a-97d7-4fbd-a81c-d6f8d75e14a8": {
+      "title": "멜라니아 트럼프, 휴전 임박 속 올레시키 지원 계획 상세 발표",
+      "short_summary": "우크라이나와 러시아는 미국 영부인 멜라니아 트럼프가 인도적 작전 협상을 도운 끝에 러시아 점령지인 올레시키 주변에서 일시적 휴전을 갖기로 확정했다. 전투로 민간인들이 고립된 이 지역의 휴전은 10월 27일 화요일에 시작되며, 10월 29일로 예정된 구호 임무를 앞두고 있다 [abcnews.com#1][krdo.com#1][newarab.com#1]. 이 계획에는 접근로의 지뢰 제거, 주민들의 필요를 파악하기 위한 민간 팀 파견, 식량·의약품·위생용품 및 기타 필수품 전달, 그리고 떠나기를 원하는 사람들을 위한 대피 작업이 포함된다. 러시아 당국은 떠나는 사람들은 이동할 수 있을 것이라고 밝혔으나, 구체적인 경로와 목적지가 러시아 점령지인지 우크라이나 점령지인지에 대해서는 명시하지 않았다 [abcnews.com#1][business-standard.com#1]. 현재 도시에는 약 1,700명이 남아 있으며, 보급로가 차단되어 식량과 의약품, 깨끗한 물 부족을 겪고 있다. 우크라이나 측 협상가 드미트로 루비네츠(Dmytro Lubinets)는 이번 휴전이 작전에 필요한 지역에 적용되며 며칠간 지속될 것이라고 말했다. 당국은 휴전이나 구호 물자 전달이 어떻게 감시될지에 대해서는 자세히 밝히지 않았다 [krdo.com#1][newarab.com#1][abcnews.com#1].",
+      "quote": "우리는 이번 인도적 작전을 수행할 수 있기를 희망합니다. 올레시키의 봉쇄를 풀고 식량과 의약품이 전달될 수 있도록 접근로를 확보하며, 사람들이 이 전투 지역을 떠날 수 있도록 하는 것입니다.",
+      "quote_attribution": "CNN",
+      "location": "우크라이나 올레시키",
+      "historical_background": "올레시키는 헤르손 지역의 드니프로강에 위치해 있다. 이 강은 우크라이나군과 러시아 점령지를 가로지른다. 침공 전 이 도시의 인구는 약 24,000명이었으며, 포격으로 인해 도시 전역의 건물이 파손되고 불탔다 [abcnews.com#1][business-standard.com#1].",
+      "humanitarian_impact": "우크라이나 당국은 올레시키에 약 1,700명의 민간인이 남아 있는 것으로 추정하며, 대부분은 노인으로 식량과 의약품, 식수가 시급한 상황이다. 인권 운동가 올렉산드라 마트비추크(Oleksandra Matviichuk)는 주민들이 풀을 뜯어 먹고 있으며, 마지막 공식 식량 배급은 5월에 있었다고 전했다 [krdo.com#1][delfi.lv#1].",
+      "talking_points[0]": "대피 목적지: 멜라니아 트럼프는 대피자들이 원하는 목적지로 이동할 수 있을 것이며, 일부는 러시아를, 일부는 우크라이나를 선택할 것으로 예상된다고 밝혔다 [krdo.com#1][delfi.lv#1].",
+      "international_reactions[0]": "🇻🇦 바티칸: 레오 교황은 블라디미르 푸틴 러시아 대통령과 전화 통화를 통해 올레시키의 인도적 상황을 논의했으며, 크렘린궁은 푸틴 대통령이 현지 상황 완화를 위한 바티칸의 노력을 지지했다고 밝혔다 [krdo.com#1][delfi.lv#1].",
+      "perspectives[0].text": "우크라이나 정부: 볼로디미르 젤렌스키 대통령은 키이우가 합의 사항을 이행할 것이라고 밝히면서도, 향후 평화 협정에는 또 다른 러시아의 공격을 막기 위한 안보 보장이 필요하다고 주장했다 [krdo.com#1][usnews.com#1].",
+      "perspectives[1].text": "러시아 정부: 드미트리 페스코프 크렘린궁 대변인은 대피를 조정하려면 광범위하고 복잡한 준비가 필요하며 최소 며칠은 걸릴 것이라고 말했다 [krdo.com#1].",
+      "perspectives[2].text": "유엔: 안토니우 구테흐스 사무총장은 이번 이니셔티브를 환영하며, 이것이 완전한 휴전과 국제법에 부합하는 항구적 평화로 나아가는 단계가 되기를 촉구했다 [business-standard.com#1].",
+      "perspectives[3].text": "올렉산드라 마트비추크: 우크라이나 인권 운동가는 지뢰와 지속적인 공격으로 인해 주민들이 떠나지 못하고 있다고 지적하며, 점령국으로서 러시아가 식량과 의약품, 식수를 제공할 의무가 있다고 주장했다 [krdo.com#1].",
+      "timeline[0].content": "러시아군이 전면 침공 과정에서 올레시키를 점령함 [abcnews.com#1]",
+      "timeline[1].content": "카호우카 댐 붕괴 후 올레시키가 침수됨 [abcnews.com#1]",
+      "timeline[2].content": "멜라니아 트럼프가 유엔 총회 행사 중 위기 상황을 인지함 [business-standard.com#1]",
+      "timeline[3].content": "우크라이나, 러시아, 미국 협상가들이 지역 인도적 합의에 도달함 [abcnews.com#1][business-standard.com#1]",
+      "timeline[4].content": "올레시키 주변의 예정된 지역 휴전이 시작됨 [abcnews.com#1][newarab.com#1]",
+      "timeline[5].content": "계획된 인도적 임무가 시작될 예정임 [abcnews.com#1][newarab.com#1]",
+      "suggested_qna[0].question": "올레시키 작전 이후에는 어떤 일이 예상되는가?",
+      "suggested_qna[0].answer": "크렘린궁은 11월 중순경 아부다비에서 미국이 중재하는 새로운 평화 회담이 열릴 수 있다고 밝혔으나, 양측은 영토 요구와 안보 보장 문제에서 여전히 큰 입장 차이를 보이고 있다 [usnews.com#1][independent.co.uk#1].",
+      "secondary_image.caption": "러시아-우크라이나 전쟁 - (Copyright 2026 The Associated Press. All rights reserved.)"
+    }
+  },
   "stats": {
     "storyCount": 12,
-    "translated": 0,
+    "translated": 7,
     "failedStoryIds": [
       {
         "id": "06aba549-a9ad-4d51-89f6-bf0c3db2b0a5",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "a6ea9c2e-7918-4bfc-a1a2-c403fb476666",
         "reason": "retry_exhausted"
       },
       {
@@ -27,41 +185,17 @@
         "reason": "retry_exhausted"
       },
       {
-        "id": "996d3782-7fe3-47c1-902c-46d7db69b1ae",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "a3aaef03-ea09-45d9-a632-082cb8ccfeba",
-        "reason": "retry_exhausted"
-      },
-      {
         "id": "6b71ae31-ce5e-48fe-b311-7010c5bc0660",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "dc8bfbad-ebc2-4228-9753-ab3a15dde000",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "c8ace715-cf7f-4e53-b351-542f877d1b29",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "2749d91f-dda9-4058-86d3-c4888ace16a6",
         "reason": "retry_exhausted"
       },
       {
         "id": "4a3c87f7-c386-4551-8125-5af812ac067c",
         "reason": "retry_exhausted"
-      },
-      {
-        "id": "dd1f205a-97d7-4fbd-a81c-d6f8d75e14a8",
-        "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 0,
-      "out": 0
+      "in": 10315,
+      "out": 13296
     }
   }
 }
