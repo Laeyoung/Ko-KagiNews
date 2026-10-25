@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "batchId": "ce52961a-6161-43eb-bc92-9b23c094704d",
+  "categoryUuid": "36c0ba1c-8bf4-4a5b-bccc-aa4ed86c88b3",
+  "categorySlug": "world",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-10-25T14:25:02.999Z",
+  "stories": {},
+  "stats": {
+    "storyCount": 12,
+    "translated": 0,
+    "failedStoryIds": [
+      {
+        "id": "06aba549-a9ad-4d51-89f6-bf0c3db2b0a5",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "a6ea9c2e-7918-4bfc-a1a2-c403fb476666",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "6db31788-af7b-4eb5-9e21-091be55cc4e0",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "fa018adb-e3c8-49a9-9b33-0efbab411b4e",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "996d3782-7fe3-47c1-902c-46d7db69b1ae",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "a3aaef03-ea09-45d9-a632-082cb8ccfeba",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "6b71ae31-ce5e-48fe-b311-7010c5bc0660",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "dc8bfbad-ebc2-4228-9753-ab3a15dde000",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "c8ace715-cf7f-4e53-b351-542f877d1b29",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "2749d91f-dda9-4058-86d3-c4888ace16a6",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "4a3c87f7-c386-4551-8125-5af812ac067c",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "dd1f205a-97d7-4fbd-a81c-d6f8d75e14a8",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 0,
+      "out": 0
+    }
+  }
+}

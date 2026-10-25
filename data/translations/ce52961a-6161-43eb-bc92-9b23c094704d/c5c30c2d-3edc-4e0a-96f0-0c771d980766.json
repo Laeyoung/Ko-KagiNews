@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "batchId": "ce52961a-6161-43eb-bc92-9b23c094704d",
+  "categoryUuid": "c5c30c2d-3edc-4e0a-96f0-0c771d980766",
+  "categorySlug": "ai",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-10-25T14:39:55.016Z",
+  "stories": {},
+  "stats": {
+    "storyCount": 12,
+    "translated": 0,
+    "failedStoryIds": [
+      {
+        "id": "e13f41b6-0cec-4105-90fb-36a9bb6067b5",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "e504029b-70ab-4785-8ee4-863eb5217b7a",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "2a475279-c4ac-4ca3-b121-68ef66a810ab",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "bc189de0-a191-4eed-9af6-ce8c625aaa0d",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "d6cbb154-406a-4a4d-8792-5ff8dfbf1fe2",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "68de24a5-40b7-42b5-889f-0701157bcf51",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "8c9335e2-6cc6-45ab-9c95-5c0cb1ebd38c",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "6c61f6ed-b9e6-4329-98f7-019ee66b31b4",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "fa467df5-01f3-4b4c-8c1e-329f2e68f520",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "5cf86d87-561f-40d1-bbc8-efd9d6e22f10",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "c78db9f6-a9c1-43dd-83ac-831d78261fff",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "a5cfd7ca-ea0f-4725-a6ab-7f1130eaf350",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 0,
+      "out": 0
+    }
+  }
+}

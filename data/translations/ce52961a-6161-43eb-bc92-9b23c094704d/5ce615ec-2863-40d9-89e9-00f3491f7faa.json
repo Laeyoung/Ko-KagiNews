@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "batchId": "ce52961a-6161-43eb-bc92-9b23c094704d",
+  "categoryUuid": "5ce615ec-2863-40d9-89e9-00f3491f7faa",
+  "categorySlug": "usa",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-10-25T14:28:07.329Z",
+  "stories": {
+    "562eb2d3-d48b-469e-b8b6-ee88e2a4681e": {
+      "title": "미국, 이란의 대미 공격 음모 고조 경고… 대사관 인력 감축",
+      "short_summary": "제이 클레이튼(Jay Clayton) 미국 국가정보국장은 10월 23일 마르코 루비오(Marco Rubio) 국무장관에게 이란이 미군 인력을 표적으로 삼는 활동을 대폭 강화했으며, 중동 및 일부 국가에서 미국인을 겨냥한 치명적인 음모가 '고도화된 단계'에 이르렀다고 경고했다. 기밀이 해제된 1쪽짜리 메모에는 구체적인 표적이나 임박한 공격 여부는 명시되지 않았다 [pbs.org#1][nypost.com#1][straitstimes.com#1]. 이번 경고와 함께 미국은 사우디아라비아 주재 외교 공관의 비필수 인력과 그 가족들에게 철수 명령을 내렸다. 또한 요르단, 레바논, 카타르, 아랍에미리트(UAE) 주재 공관의 인력도 감축했으나, 해당 대사관들은 계속 운영되며 인력 철수 명령은 내려지지 않았다 [pbs.org#1][nytimes.com#2]. 당국은 이란의 음모와 이란의 지원을 받는 후티 반군의 공격을 이유로 들었다. 국무부는 10여 개국에 대한 여행 경보도 업데이트했다 [ft.com#1][straitstimes.com#1]. 국방부는 추가 타격 옵션을 준비했으나 트럼프 대통령은 아직 결정을 내리지 않았다. 당국자와 분석가들은 교착 상태에 빠진 외교와 11월 3일 중간선거를 공격 시기 논의의 변수로 꼽았다 [thehill.com#1][ft.com#1]. 이란은 재차 공격이 있을 경우 더 강력하게 대응하겠다고 위협했으며, 긴장 고조 우려로 유가는 상승했다 [thehill.com#1][ft.com#1].",
+      "quote": "이란의 미국 시민을 겨냥한 치명적인 음모 활동이 중동과 특정 국가들에서 고도화된 단계에 이르렀다",
+      "quote_attribution": "BBC 뉴스",
+      "historical_background": "미국과 이스라엘의 대이란 공습은 2월 28일 시작되어 이란 최고지도자를 사망케 했다. 이후 테헤란은 이스라엘과 중동 내 미 동맹국들을 타격하며 보복했다 [aawsat.com#1][aljazeera.com#1]. 6월에 체결된 미-이란 예비 합의는 전쟁 종식과 호르무즈 해협 재개방을 목표로 했으나, 해운 공격이 재개되고 워싱턴이 봉쇄를 재개하면서 몇 주 만에 결렬되었다 [bbc.com#1]. 국무부는 3월 2일 이라크, 요르단, 바레인 주재 공관의 비필수 인력 철수를 명령했으며, 여름철 교전이 소강상태를 보이자 일부 외교관들이 복귀하기도 했다 [diepresse.com#1].",
+      "talking_points[0]": "정보 공유 확대: 클레이튼 국장은 음모 관련 정보가 위험에 처할 수 있는 더 많은 당국자에게 전달되어야 한다며, 국무부가 정보를 폭넓게 공유할 수 있도록 일부 자료의 기밀 등급을 낮추겠다고 제안했다 [news18.com#1][bbc.com#1].",
+      "talking_points[1]": "대사관 상태: '제한적 운영(Restricted Operations)' 상태를 활용하면 국무부는 공관 상태 변경을 공개적으로 발표하지 않고도 인력을 조정할 수 있다 [straitstimes.com#1][n-tv.de#1].",
+      "talking_points[2]": "군사 태세: 미국은 중동에 5만 명 이상의 병력과 약 20척의 군함을 배치했으며, 시어도어 루즈벨트(USS Theodore Roosevelt) 항모전단이 해당 지역으로 이동 중이다 [thehill.com#1].",
+      "international_reactions[0]": "🇮🇷 이란: 이란 당국은 워싱턴이 해상 봉쇄를 해제한다면 파키스탄이 중재하는 잠정 합의안에 따라 대화할 의사가 있다고 밝혔다 [cbsnews.com#1].",
+      "international_reactions[1]": "🇷🇺 러시아: 테헤란 주재 러시아 대사관은 이란 부셰르 원자력 발전소의 러시아 인력이 철수 중이라는 보도를 부인하며 운영이 평소대로 지속되고 있다고 밝혔다 [thisday.com.ng#1].",
+      "industry_impact[0]": "석유 시장: 10월 23일 브렌트유는 전쟁 위험 재점화와 글로벌 재고 우려가 겹치며 배럴당 117.45달러로 최대 3.8% 상승했다 [ft.com#1].",
+      "industry_impact[1]": "미국 소비자: 이번 갈등으로 미국 내 휘발유 및 물가가 상승하면서 11월 3일 중간선거를 앞두고 경제적 압박이 가중되고 있다 [pbs.org#1][ft.com#1].",
+      "user_action_items[0]": "해당 지역 방문 전 국무부의 최신 국가별 여행 경보를 확인할 것. 10여 개국에 대한 업데이트된 경보에는 후티 반군의 위협 증가가 언급되어 있다 [ft.com#1][straitstimes.com#1].",
+      "perspectives[0].text": "미국 외교관 협회(American Foreign Service Association): 니키 게이머(Nikki Gamer) 대변인은 주거, 일일 수당, 학교 등록 등 소통과 지원 문제로 인해 영향을 받는 가족들이 좌절감과 혼란을 겪고 있다고 전했다 [news18.com#2].",
+      "perspectives[1].text": "그레고리 브루(Gregory Brew) 유라시아 그룹 이란 전문가는 워싱턴이 테헤란에 대한 압박을 높이고 외교적 교착 상태를 깨기 위해 무력 사용을 고려할 수 있으나, 이란 지도부가 더 강력한 보복을 예고했다고 경고했다 [thehill.com#1].",
+      "perspectives[2].text": "해리슨 만(Harrison Mann) 전 국방정보국(DIA) 중동/아프리카 지역 센터 운영 책임자는 미국이나 이스라엘의 추가 타격이 이란의 태도 변화를 끌어내기는 어려울 것이라고 주장했다. 그는 테헤란이 스스로를 정권 생존을 위한 투쟁 중인 것으로 간주하며 자신들에게 협상력이 있다고 믿고 있다고 설명했다 [thehill.com#1].",
+      "perspectives[3].text": "압바스 아락치(Abbas Araghchi) 이란 외무장관은 호르무즈 해협이나 다른 지역에서 긴장이 추가로 고조될 경우 민간인, 지역 국가, 그리고 세계 경제가 위험에 처할 것이라고 경고했다 [pbs.org#1].",
+      "timeline[0].content": "미국과 이스라엘의 대이란 공격 시작, 이란 최고지도자 사망 [aawsat.com#1][aljazeera.com#1].",
+      "timeline[1].content": "미-이란 예비 합의를 통해 교전 종식 및 호르무즈 해협 재개방 모색 [bbc.com#1].",
+      "timeline[2].content": "국무부, 사우디 주재 공관의 비필수 인력 및 가족 철수 명령 [straitstimes.com#1].",
+      "timeline[3].content": "제이 클레이튼, 루비오 장관에게 기밀 해제된 경고 메모 발송 [pbs.org#1][straitstimes.com#1].",
+      "timeline[4].content": "트럼프 대통령이 타격 옵션을 검토하는 가운데 미국 중간선거 예정 [thehill.com#1][ft.com#1].",
+      "suggested_qna[0].question": "미 정보당국이 미국 내 잠재적 표적을 식별했는가?",
+      "suggested_qna[0].answer": "일부 정보에 따르면 이란 공작원들이 미국 내에서 활동할 가능성이 제기되었으나, 미 당국자는 이란이 미국 본토나 중동 외 지역에서 공격을 수행할 능력은 제한적이라고 경고했다 [aljazeera.com#1][diepresse.com#1].",
+      "primary_image.caption": "3월 바그다드 그린존 내 요새화된 미국 대사관 밖에 배치된 보안 병력."
+    }
+  },
+  "stats": {
+    "storyCount": 10,
+    "translated": 1,
+    "failedStoryIds": [
+      {
+        "id": "7b14a676-bd57-4660-b286-3ce524cc9402",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "5a1806f4-0dbe-42aa-bef9-0b2ffba11b15",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "b23cff27-298c-48e5-ad75-6743a9fbf98e",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "34a8b4e5-1da0-4f4a-8751-a68f5c8edc42",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "6d8ca856-b3a0-44ad-ab4a-d111e940c021",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "44532ff6-7882-491c-8b2c-30ba3a55369c",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "6724bc04-a6f9-41a9-b78b-ad2f5b4e23ef",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "dcbf8e11-02fd-412d-8b03-cf7372128d10",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "b2092150-0cc9-4577-a273-0ba0740ae59b",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 1822,
+      "out": 2347
+    }
+  }
+}

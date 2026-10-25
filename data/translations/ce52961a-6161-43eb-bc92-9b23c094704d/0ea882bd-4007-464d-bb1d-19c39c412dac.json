@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "batchId": "ce52961a-6161-43eb-bc92-9b23c094704d",
+  "categoryUuid": "0ea882bd-4007-464d-bb1d-19c39c412dac",
+  "categorySlug": "tech",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-10-25T14:34:15.533Z",
+  "stories": {},
+  "stats": {
+    "storyCount": 12,
+    "translated": 0,
+    "failedStoryIds": [
+      {
+        "id": "a0211cbe-e28b-4856-ab50-c3aa1246c0f3",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "207fbd0a-e3cb-4907-9351-8084ed297ebe",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "f688ec81-b882-4fd6-8037-02fcca09b6e7",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "6fff5b80-8eab-4e04-b3c7-3b0f8184bd29",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "352ec015-cf11-48d4-9212-49fd91fcb9aa",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "39087cca-a8bb-4a4e-9240-35930972a3f3",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "1fceb369-aa5a-4684-b8d1-8eae50d4c9e9",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "51acbbb9-88db-4b42-a194-55edd85afa11",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "3e1f78e0-71e4-4a36-bb30-cc53083b1241",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "035d0432-805e-4739-aaaf-ed705cef71b8",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "a377dc64-bf4d-474f-94b4-88158d2d47dd",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "363b2e77-35c6-47d9-b85a-f0ac9a345857",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 0,
+      "out": 0
+    }
+  }
+}
