@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "batchId": "9f689090-4e5f-43ec-b604-b1583d9b96fe",
+  "categoryUuid": "61cb2763-2e4d-40f8-9411-79210b21613f",
+  "categorySlug": "tech",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-10-26T16:55:19.107Z",
+  "stories": {
+    "f65c2108-f9d4-4cbb-8697-d947a480f320": {
+      "title": "아이픽스잇(iFixit) 분해 결과, 아이폰 듀오 화면 결함 원인으로 힌지 압력 지목",
+      "short_summary": "수리 전문 업체 아이픽스잇은 애플의 첫 폴더블폰인 아이폰 듀오를 분해한 결과, 사용자들이 보고한 내부 화면 결함 부위에 압력이 집중될 수 있는 힌지 구조를 확인했다고 밝혔다. 연구팀은 CT 스캔과 분해 영상, 애플의 특허를 분석한 결과, 기기를 접을 때 중앙 지지대가 완전히 수납되지 않거나 곡선형 힌지 레일이 의도대로 작동하지 않을 가능성을 제기했다. 두 경우 모두 디스플레이를 압박할 수 있다. 다만 아이픽스잇은 이는 가설일 뿐 결함의 확정적 원인은 아니라고 강조했다[ifixit.com#1][androidauthority.com#1]. 유튜버 큐리어스하기(CuriousHagi)가 진행한 별도의 분해에서는 강제 스트레스 테스트 후 힌지 부품이 파손되고 디스플레이 아래에 충격 흔적이 발견되었다. 이는 또 다른 기계적 가능성을 시사하지만, 일반적인 사용 환경에서 발생한 결함의 원인을 규명하는 것은 아니다[theverge.com#2][apfeltalk.de#3]. 현재까지 영향을 받은 기기의 수는 명확하지 않으며, 애플은 공식적인 원인을 밝히지 않았다[9to5mac.com#1][thenationalnews.com#1]. 애플의 문제 해결 가이드에 따르면 힌지 문제는 소프트웨어로 해결할 수 없다. 케이스를 제거하고 이물질을 확인해도 문제가 해결되지 않으면 기술자가 내부 디스플레이 어셈블리를 교체해야 할 수 있다. 아이픽스잇은 보증 기간이 지난 내부 화면 교체 비용을 999달러로 안내했다[macobserver.com#4][ifixit.com#1].",
+      "historical_background": "별도의 분해 기사에서는 삼성전자가 갤럭시 폴드 초기 출시 당시 리뷰용 기기에서 화면 결함이 발생하자 출시를 연기했던 사례를 언급했다[makeuseof.com#1]. 해당 사례는 다른 제품에 관한 것으로, 아이폰 듀오의 결함이 동일한 원인인지는 확인되지 않았다[makeuseof.com#1].",
+      "talking_points[0]": "수리 용이성 점수: 아이픽스잇은 아이폰 듀오에 폴더블폰 중 가장 높은 점수인 10점 만점에 5점을 부여했으나, 최종 점수는 교체 부품의 가용성에 따라 달라질 수 있다[ifixit.com#1][9to5mac.com#1].",
+      "talking_points[1]": "먼지 유입: 아이픽스잇의 형광 분말 테스트 결과, 힌지 내부로 입자가 유입되어 소음이 발생했으나 갤럭시 Z 폴드8 및 픽셀 11 프로 폴드 테스트보다는 유입량이 적었다[macrumors.com#1][techradar.com#1].",
+      "talking_points[2]": "애플 가이드라인: 애플은 힌지가 완전히 열리거나 닫히지 않는 경우, 접을 때 이상한 소리가 나거나 헐거워지는 현상을 경고 신호로 명시하고 있다[macobserver.com#4].",
+      "talking_points[3]": "공급업체 대응: 한국의 힌지 공급업체인 파인엠텍은 자사 부품이 결함의 원인이라는 근거 없는 주장에 대해 법적 대응을 검토할 수 있다고 경고했다[seoul.co.kr#1].",
+      "technical_details[0]": "주름 은폐 광학 기술: 유연한 디스플레이의 무광 나노 텍스처는 반사광을 분산시켜 접힌 자국을 덜 눈에 띄게 만든다. 아이픽스잇은 또한 다양한 각도로 배치된 타원형 서브픽셀을 발견했는데, 이는 시각적 왜곡을 줄여줄 수 있다[theverge.com#1][ifixit.com#1].",
+      "technical_details[1]": "교체 가능한 커버 레이어: 애플은 나노 텍스처 커버 레이어를 아래의 OLED 패널을 제거하지 않고도 교체할 수 있도록 설계했다. 아이픽스잇은 교체 비용이 애플케어 플러스(AppleCare+) 적용 시 19달러, 미적용 시 49달러라고 보도했다[macrumors.com#1][freepressjournal.in#1].",
+      "industry_impact[0]": "폴더블폰 부품: 파인엠텍의 주가는 품질 논란에 대한 공급업체 책임론이 불거지면서 10월 26일 15.07% 하락 마감했다[seoul.co.kr#1].",
+      "user_action_items[0]": "기기가 휘어지거나 외부 쉘 손상으로 정상 작동하지 않는 경우 사용을 중단해야 하며, 애플 가이드는 이러한 경우 서비스 센터를 방문할 것을 권장한다[macobserver.com#4].",
+      "perspectives[0].text": "파인엠텍: 한국의 힌지 공급업체는 완제품의 결함을 특정 부품과 연결 짓기 위해서는 객관적인 기술적 검증이 필요하다고 주장했다[seoul.co.kr#1].",
+      "perspectives[1].text": "버라이즌(Verizon) 고객 chimchambam: 해당 고객은 애플이 기기 파손을 이유로 무상 수리를 거부했으며, 이를 단순 낙하 사고로 결론지었다고 밝혔다. 이는 일부 구매자가 기기를 교체받았다는 사례와 대조된다[phonearena.com#1][9to5mac.com#1].",
+      "timeline[0].content": "애플, 첫 폴더블폰인 아이폰 듀오 공개[news.kagi.com#1]",
+      "timeline[1].content": "아이폰 듀오 판매 시작과 함께 사용자들의 화면 손상 보고 이어짐[news.kagi.com#1]",
+      "timeline[2].content": "아이픽스잇, 힌지 관련 결함 가능성을 제기하는 분해 보고서 발표[ifixit.com#1]",
+      "timeline[3].content": "파인엠텍, 자사 부품이 품질 문제의 원인이라는 의혹 부인[seoul.co.kr#1]",
+      "primary_image.caption": "아이픽스잇은 아이폰 듀오의 모든 측면을 테스트했다"
+    },
+    "bf26c313-6a80-4ece-9485-121151d59055": {
+      "title": "애플, 10월 28일 첫 터치스크린 맥북 프로 공개 예정",
+      "short_summary": "애플은 수년간 맥(Mac)의 터치 입력을 거부해 왔으나, 10월 28일 로스앤젤레스에서 열리는 '프로 앤 텔(Pro and tell)' 행사에서 OLED 터치스크린을 탑재한 14인치 및 16인치 맥북 프로 모델을 공개할 것으로 예상된다 [macrumors.com#1][business-standard.com#1][macobserver.com#2]. 보도에 따르면 재설계된 이 노트북들은 더 가벼워지고, 디스플레이 노치 대신 아이폰 스타일의 다이내믹 아일랜드(Dynamic Island)가 적용되며, 기존의 M5 프로(M5 Pro) 및 M5 맥스(M5 Max) 칩이 탑재될 예정이다. 애플은 사양이나 가격을 공식 확인하지 않았다 [macrumors.com#1][macerkopf.de#1]. 터치 기능은 키보드와 트랙패드를 대체하는 것이 아니라 보완하는 역할을 할 것으로 보이며, macOS 골든 게이트(Golden Gate) 운영체제는 사용자가 화면을 사용하는지 트랙패드를 사용하는지에 따라 일부 제어 기능을 조정할 예정이다 [macrumors.com#1][appleinsider.com#2]. 재설계된 모델은 현재 14인치 2,499달러, 16인치 2,999달러부터 시작하는 고가형 맥북 프로보다 가격이 높을 것으로 예상된다. 한 보고서에 따르면 시작 가격이 최대 500달러까지 인상될 수 있다 [macrumors.com#1][business-standard.com#1]. 애플은 또한 M6 기반의 보급형 14인치 맥북 프로와 M6 아이맥(iMac)을 발표할 것으로 예상된다. 차기 맥북 에어(MacBook Air) 리프레시는 LCD 디스플레이를 유지하며 2027년 초에 출시될 것으로 알려졌다 [macrumors.com#3][digitaltrends.com#1]. 10월 28일 행사는 로스앤젤레스에서 열리는 언론 체험 행사다. 보도에 따르면 OLED 노트북은 이르면 11월 6일에 출시될 수 있으나, 애플은 소매 판매일을 확정하지 않았다 [macrumors.com#1][macobserver.com#1].",
+      "quote": "“터치 표면은 수직으로 세워져 있는 것을 원하지 않는다.”",
+      "quote_attribution": "Inc.com",
+      "location": "미국 캘리포니아주 로스앤젤레스",
+      "historical_background": "애플의 터치 바(Touch Bar)는 디스플레이에 터치 기능을 추가하는 대신 키보드 위에 터치 감지 스트립을 배치했다. 회고에 따르면 일관성 없는 앱 지원과 제한적인 일상적 활용도로 인해 대부분의 사람들이 맥을 사용하는 방식에 변화를 주지 못했다. 애플은 이후 이를 제거했다 [512pixels.net#1].",
+      "business_angle_text": "보도에 따르면 OLED 터치스크린 모델은 현재 미국의 시작 가격인 2,499달러 및 2,999달러보다 비쌀 것이며, 기존 미니 LED 모델은 당분간 계속 판매될 것으로 예상된다 [macrumors.com#1][freepressjournal.in#1]. 재설계된 모델은 새로운 칩 세대가 아닌 화면, 디자인, 터치 입력 변화에 초점을 맞춰 기존 M5 프로 및 M5 맥스 프로세서를 유지할 것으로 알려졌다 [macrumors.com#1].",
+      "talking_points[0]": "개발 일정: 애플은 터치 지원 노트북에 대한 수년간의 공개적인 반대에도 불구하고 약 4년 전부터 터치스크린 맥북 프로 개발을 가속화한 것으로 알려졌다 [macobserver.com#2].",
+      "talking_points[1]": "기타 맥 업데이트: 24인치 아이맥은 M4에서 M6로 바로 넘어갈 것으로 예상되며, 아이맥이나 보급형 맥북 프로에 대한 주요 디자인 변경 사항은 보고된 바 없다 [macrumors.com#3][macerkopf.de#2][business-standard.com#1].",
+      "talking_points[2]": "OLED 로드맵: 애플은 맥북 에어와 아이맥의 OLED 버전을 테스트 중인 것으로 알려졌으나, 두 모델의 OLED 전환 시기에 대한 보고는 없다 [macrumors.com#2][appleinsider.com#1].",
+      "talking_points[3]": "전환기: 옴디아(Omdia)는 현재의 미니 LED 맥북 프로 디스플레이가 2028년까지 생산될 것으로 예상하며, 이는 OLED 모델이 기존 라인업과 상당 기간 공존할 수 있음을 시사한다 [9to5mac.com#1].",
+      "technical_details[0]": "터치 전용 제어: 버튼을 터치하면 손가락 근처에 메뉴가 열릴 수 있으며, 애플은 독(Dock)과 메뉴 막대를 터치 입력에 최적화하고 있는 것으로 알려졌다 [macrumors.com#1][appleinsider.com#2].",
+      "technical_details[1]": "디스플레이 터치 통합: 궈밍치(Ming-Chi Kuo) 애널리스트는 앞서 애플이 별도의 층을 추가하는 대신 터치 감지 층을 디스플레이 구조에 통합하는 온셀(on-cell) 터치 센서를 사용할 것이라고 보고한 바 있다 [macobserver.com#1].",
+      "technical_details[2]": "탠덤 OLED 패널: 한 보고서에 따르면 디스플레이는 밝기를 높이고 패널 수명을 연장하기 위해 OLED 층을 쌓는 탠덤(tandem) OLED 아키텍처를 사용할 수 있다. 애플은 패널 설계를 확인하지 않았다 [macobserver.com#1].",
+      "business_angle_points[0]": "재설계된 모델은 새로운 프로세서 세대가 아닌 애플의 기존 M5 프로 및 M5 맥스 칩을 사용할 것으로 알려졌다 [macrumors.com#1][macobserver.com#1].",
+      "perspectives[0].text": "애플 경영진 및 산업 디자인 팀: 블룸버그(Bloomberg)는 팀 쿡(Tim Cook)과 현 CEO 존 터너스(John Ternus)가 고객 기대치 변화에 따라 터치 기능 추가를 지지했으나, 애플의 산업 디자인 팀은 반대했다고 보도했다. 보도된 타협안은 키보드와 트랙패드를 노트북 사용의 핵심으로 유지하는 것이다 [macobserver.com#2].",
+      "perspectives[1].text": "포브스(Forbes) 기술 분석: 포브스는 윈도우 노트북 제조사들이 수년간 터치와 OLED를 제공해 왔음을 지적하며, 애플의 이번 행보를 새로운 노트북 패러다임을 도입하는 것이 아니라 기존 PC 접근 방식을 따르는 것으로 묘사했다 [forbes.com#1].",
+      "perspectives[2].text": "톰스가이드(Tom’s Guide) 리뷰어 제이슨 잉글랜드(Jason England): 기존 맥북 프로에 터치스크린 층을 테스트한 후, 잉글랜드는 창 닫기 버튼과 같은 작은 인터페이스 타겟은 누르기 어려웠다고 말하며 더 큰 터치 제어와 내장형 멀티터치 제스처를 요구했다 [tomsguide.com#1].",
+      "timeline[0].content": "스티브 잡스(Steve Jobs)는 수직으로 배치된 맥 디스플레이의 터치스크린을 공개적으로 비판했다 [inc.com#1].",
+      "timeline[1].content": "애플은 터치스크린 디스플레이 대신 터치 바를 도입했다 [512pixels.net#1].",
+      "timeline[2].content": "애플은 14인치 및 16인치 맥북 프로 모델을 재설계했다 [cultofmac.com#1].",
+      "timeline[3].content": "애플은 로스앤젤레스에서 '프로 앤 텔' 언론 체험 행사를 예정했다 [macrumors.com#1][business-standard.com#1].",
+      "timeline[4].content": "보도들은 이를 새 노트북의 가능한 출시일로 지목했으나, 애플은 이를 확인하지 않았다 [macobserver.com#1].",
+      "suggested_qna[0].question": "재설계된 맥북 프로에 셀룰러 연결 기능이 포함될까?",
+      "suggested_qna[0].answer": "불분명하다. 애플은 셀룰러 맥북을 테스트한 것으로 알려졌으나, 최근 보고서들은 이번 세대에 해당 기능이 포함될지 여부를 확정하지 않았다 [9to5mac.com#2].",
+      "secondary_image.caption": "애플의 터치스크린 맥북 프로는 내부 충돌 끝에 나온 타협안이며, '상당히' 더 비쌀 것"
+    },
+    "9d9d6b05-7886-4bcd-9c5d-029531b5664e": {
+      "title": "레딧 오픈소스 포럼, AI 프로젝트 및 비영어권 사용자 게시 금지",
+      "short_summary": "오픈소스 소프트웨어를 다루는 레딧(Reddit) 포럼인 r/opensource의 운영진이 인공지능(AI)을 사용하거나 AI로 제작된 프로젝트, 또는 AI를 목적으로 하는 프로젝트를 금지하고 비영어권 사용자의 게시물도 제한했다 [theverge.com#1][gizmodo.com#1]. 새로운 규칙에 따르면 프로젝트는 최소 1년 이상 운영되어야 하며, 활발히 유지보수되고 다수의 기여자가 있어야 한다. 또한 게시자는 레딧 계정 활동 내역이 있어야 한다 [helpnetsecurity.com#1]. 운영진은 AI가 작성한 게시물과 AI가 번역한 게시물을 확실하게 구분할 수 없다고 밝혔다 [theverge.com#1]. 이번 변경 사항은 1인 유지보수 소프트웨어나 제한적인 AI 보조 기능을 포함한 프로젝트까지 배제할 수 있다는 사용자들의 반발을 샀다 [helpnetsecurity.com#1][heise.de#1]. 운영자 울버네스(Wolvereness)는 규칙 적용에 판단이 개입될 것이라고 밝혔으며, 다른 운영자는 영어 사용 제한에 대해 공개적으로 반대 의사를 표명했다 [helpnetsecurity.com#1]. 이 논란으로 인해 AI 관련 오픈소스 프로젝트를 허용하는 대안 서브레딧인 r/trueopensource가 개설되었다 [gizmodo.com#1].",
+      "quote": "이 정책을 시행하는 데 있어 '객관적인' 방법은 없다.",
+      "quote_attribution": "헬프 넷 시큐리티(Help Net Security)",
+      "historical_background": "리눅스(Linux) 커널의 기여 규칙에서 패치 제출 시 AI 사용 여부를 공개해야 한다는 조항이 삭제되었다. 해당 공개 의무는 시행된 지 1년도 채 되지 않아 폐지되었다 [heise.de#1]. 리누스 토발즈(Linus Torvalds)는 특정 개발 도구를 금지하는 규칙을 비판하며 이를 '어리석다'고 표현한 바 있다 [heise.de#1].",
+      "talking_points[0]": "계정 요건: 게시자는 레딧에서 상당한 기여 활동을 해야 하며, 승인된 등록 비영리 단체는 프로젝트 및 계정 최소 요건을 면제받을 수 있다 [helpnetsecurity.com#1].",
+      "talking_points[1]": "금지 조치 집행: 게시를 시도한 후 운영자에게 예외를 요청하는 사용자는 영구 차단될 위험이 있다 [helpnetsecurity.com#1].",
+      "talking_points[2]": "리눅스 예외: 울버네스는 주관적 판단에 따라 리눅스 커널은 허용될 가능성이 높으며, 리눅스 재단(Linux Foundation)은 계정 생성 기간 요건에서 면제될 것이라고 언급했다 [habr.com#1].",
+      "talking_points[3]": "정의 불변: 오픈소스 이니셔티브(Open Source Initiative)의 표준 오픈소스 정의에는 프로젝트 기간, 기여자 수, 코딩 도구에 대한 요건이 없으며, 이번 새로운 제한은 해당 서브레딧에만 적용된다 [habr.com#1].",
+      "perspectives[0].text": "r/opensource 운영자인 울버네스는 접근성을 위한 자동 자막 생성과 같이 AI 사용이 부수적인 소프트웨어는 운영진이 허용할 수도 있다고 밝혔다 [theverge.com#1]."
+    },
+    "3373eed5-fc6b-421e-b73b-f480eb91e07b": {
+      "title": "인스타그램, 애플 TV에 릴스·장편 영상·라이브 방송 도입",
+      "short_summary": "메타(Meta)가 애플 TV용 인스타그램 앱을 출시하며 릴스, 크리에이터의 장편 영상, 라이브 방송을 애플의 스트리밍 기기에서 처음으로 지원한다. 해당 앱은 10월 23일 애플 앱스토어에 등록되었으며 tvOS 26 이상이 필요하다 [macrumors.com#1][digitaltrends.com#1][gadgets360.com#1]. 이번 출시로 인스타그램의 TV 서비스는 아마존 파이어 TV, 구글 TV, 삼성 스마트 TV를 넘어 확장되었다. 사용자는 크리에이터의 영상을 탐색하고 기기 간 재생을 이어갈 수 있다. 메타는 이 TV 경험을 함께 시청하는 방식이라고 설명한다. 관심사 기반의 릴스 채널에 집중했던 기존 TV 버전과 달리, 애플 TV 앱은 장편 영상과 라이브 방송도 지원한다 [macrumors.com#1][digitaltrends.com#1][infobae.com#1].",
+      "talking_points[0]": "기기 지원: 이 앱은 무료로 다운로드할 수 있으며, tvOS 26 이상을 실행하는 기존 애플 TV HD 및 애플 TV 4K 모델에서 작동한다 [indiatoday.in#1].",
+      "talking_points[1]": "앱스토어 구매: 앱 설명에 따르면 무료 다운로드가 가능하며, 인스타그램 배지 및 메타 베리파이드(Meta Verified)에 대한 선택적 인앱 결제를 지원한다 [gadgets360.com#1].",
+      "talking_points[2]": "조용한 출시: 메타는 별도의 출시 발표를 하지 않았다. 앱스토어 목록에 애플 TV 호환성이 추가되었으며, 이전 버전은 아이폰과 아이패드 지원만 명시되어 있었다 [theverge.com#1][macrumors.com#1][infobae.com#1].",
+      "user_action_items[0]": "애플 TV 앱스토어에서 인스타그램을 다운로드한 후, 화면의 안내에 따라 계정에 로그인한다 [indiatoday.in#1].",
+      "timeline[0].content": "인스타그램, 아이패드 전용 앱 출시 [macrumors.com#1]",
+      "timeline[1].content": "인스타그램, 아마존 파이어 TV에서 TV 앱 테스트 시작 [macrumors.com#1][digitaltrends.com#1]",
+      "timeline[2].content": "인스타그램, 구글 TV로 TV 앱 확장 [digitaltrends.com#1][infobae.com#1]",
+      "timeline[3].content": "인스타그램, 삼성 스마트 TV에 TV 앱 도입 [macrumors.com#1][digitaltrends.com#1]",
+      "timeline[4].content": "인스타그램 애플 TV 앱, 앱스토어에 등장 [macrumors.com#1][theverge.com#1]",
+      "primary_image.caption": "인스타그램의 새로운 애플 TV 앱"
+    },
+    "91429379-2aee-4795-94d2-b934a336a35f": {
+      "title": "애플, 디스플레이 베테랑 물러나고 연결성 엔지니어 3명 부사장 승진",
+      "short_summary": "애플은 기기를 무선 네트워크 및 인터넷에 연결하는 기술을 총괄하는 엔지니어링 리더 라제시 암바티(Rajesh Ambati), 루이 산귀네티(Louie Sanguinetti), 데릭 셰퍼(Derek Shaeffer)를 부사장으로 승진시켰다. 약 30년간 재직한 베테랑 디스플레이 임원 웨이 첸(Wei Chen)과 존 종(John Zhong)은 고문직으로 물러난다. 디스플레이 부문 리더 빅터 인(Victor Yin)이 해당 업무의 상당 부분을 총괄하게 된다 [macobserver.com#1][appleinsider.com#1][macrumors.com#1]. 이번 인사는 존 터너스(John Ternus) 최고경영자(CEO)가 경영 및 제품 개발 효율화를 추진하는 가운데, 하드웨어 엔지니어링과 하드웨어 기술 부문을 총괄하는 조니 스루지(Johny Srouji) 최고하드웨어책임자(CHO)가 주도하는 하드웨어 조직 개편의 일환이다 [macobserver.com#1][firstpost.com#1][macrumors.com#1].",
+      "talking_points[0]": "기타 인사: 애플은 또한 앱스토어를 총괄하는 부사장으로 카슨 올리버(Carson Oliver)를 승진시켰으며, 스티브 스미스(Steve Smith)가 기업 개발 부문을 맡게 되었다 [macobserver.com#1].",
+      "talking_points[1]": "지원 계획: 애플은 고객 지원 인력을 최대 5,000명까지 감축하고 문제 해결을 위해 AI 전화 및 웹 에이전트를 도입하는 방안을 검토 중인 것으로 알려졌다. AI 에이전트가 해결할 수 없는 경우 상담원에게 연결하는 방식이다 [firstpost.com#1]."
+    },
+    "f3536b9e-e8e6-41f7-8333-ae9db7a8cf97": {
+      "title": "우크라이나, 시속 400km 드론 추적 가능한 스타실드 속도 복구",
+      "short_summary": "우크라이나 국방부는 모니터링 결과 시속 400km 이상으로 비행하는 드론에 대해 스페이스X(SpaceX)의 스타링크(Starlink) 및 스타실드(Starshield) 위성 서비스 연결이 안정적으로 유지되고 있으며, 러시아의 제트 추진 공격용 드론을 추격하는 데 필요한 속도가 복구되었다고 밝혔다[thenextweb.com#1][kyivindependent.com#1]. 앞서 발생한 서비스 중단으로 시속 약 161km 이상의 속도에서 연결이 끊겨 러시아의 공습 당시 우크라이나의 드론 요격에 차질이 빚어진 바 있다[thenextweb.com#1][bbc.co.uk#1]. 속도 제한은 10월 14일부터 시작되었으며, 우크라이나 당국은 10월 24일 운영이 정상화되었다고 밝혔다. 국방부는 향후에도 연결 상태를 지속적으로 모니터링할 방침이다[thenextweb.com#1][kyivindependent.com#1]. 스타링크는 군사 작전 조율을 지원하며, 스타실드는 드론 운용자가 표적을 식별하고 요격용 드론을 제어할 수 있도록 돕는다[bbc.co.uk#1].",
+      "talking_points[0]": "더 넥스트 웹(The Next Web)은 누가 속도 제한을 지시했거나 해제했는지는 불분명하다고 보도했다. 머스크(Musk)는 미군과 최종적으로는 대통령이 스타실드에 대한 제한을 설정한다고 언급했다[thenextweb.com#1].",
+      "talking_points[1]": "예우헨 흐마라(Yevhenii Khmara) 국방장관은 이번 복구가 직접적인 대화와 볼로디미르 젤렌스키(Volodymyr Zelenskyy) 대통령의 일관된 입장 덕분이라고 평가했다[thenextweb.com#1].",
+      "perspectives[0].text": "세르히 스테르넨코(Serhii Sternenko) 전 우크라이나 국방부 자문위원은 이동식 단말기에는 특별 등록과 스타실드 연결이 필요하다고 지적했다. 그는 이러한 요구 사항 때문에 드론 임무에 상업용 스타링크를 사용한다는 주장은 기술적으로 불가능하다고 주장했다[kyivindependent.com#1].",
+      "timeline[0].content": "고속 드론의 연결을 방해하는 속도 제한 시작[thenextweb.com#1]",
+      "timeline[1].content": "우크라이나 당국, 드론이 시속 160km 이상에서 여전히 신호를 상실한다고 보고[thenextweb.com#1]",
+      "timeline[2].content": "우크라이나, 시속 400km 이상에서 스타링크 및 스타실드 속도 복구 보고[kyivindependent.com#1]",
+      "suggested_qna[0].question": "누가 속도 제한을 지시했고, 누가 이를 해제했는가?",
+      "suggested_qna[0].answer": "더 넥스트 웹은 누가 속도 제한을 지시했거나 해제했는지는 여전히 불분명하다고 보도했다. 머스크는 미군과 최종적으로는 대통령이 스타실드에 대한 제한을 설정한다고 언급했다[thenextweb.com#1].",
+      "primary_image.caption": "2023년 자포리자 지역에서 우크라이나 군인들이 러시아 점령지 상공의 드론을 운용하고 있다."
+    },
+    "12f8540e-1694-4ec1-953e-41d6b6b517fb": {
+      "title": "구글 정책, 연결된 Gmail 데이터로 맞춤형 광고 제공 허용",
+      "short_summary": "10월 16일 업데이트된 구글의 개인정보 처리방침에 따르면, 사용자가 Gmail, 드라이브(Drive), 포토(Photos)의 정보를 구글 검색이나 광고 맞춤화를 지원하는 제미나이(Gemini) AI 기능과 공유하도록 허용할 경우 해당 데이터가 맞춤형 광고에 활용될 수 있다[techspot.com#1][reddit.com#2][heise.de#1]. 이는 선택적 AI 맞춤화에 대한 예외 사항으로, 구글은 기본적으로 광고 타겟팅을 위해 콘텐츠를 사용하지 않는다고 밝히고 있으나, 지원 안내에 따르면 연결된 앱에서 추출한 요약, 발췌 및 추론 정보가 광고 선정에 기여할 수 있다. 광고주는 사용자의 받은 편지함이나 사진 라이브러리에 접근할 수 없으며, 구글은 건강, 종교, 성적 지향 등 민감한 범주는 광고 타겟팅에서 제외한다고 설명한다[techspot.com#1][heise.de#1]. 사용자는 '검색 서비스 맞춤화(Search Services Personalization)' 설정에서 앱 연결을 해제하거나 맞춤형 추천 기능을 끌 수 있으나, 테크스팟(TechSpot)은 광고 맞춤화만 비활성화하는 것으로는 연결된 앱이 AI 기능에 정보를 제공하는 것을 완전히 막지 못할 수 있다고 지적한다[techspot.com#1][reddit.com#2]. 이번 변경은 Gmail 및 포토와 같은 계정을 제미나이 및 검색의 AI 모드와 연결하는 '퍼스널 인텔리전스(Personal Intelligence)' 도입에 따른 것이다. 해당 기능은 유럽경제지역(EEA), 스위스, 영국을 포함한 일부 유럽 시장에서는 제공되지 않는다[techspot.com#1][heise.de#1].",
+      "quote": "사용자가 드라이브, Gmail, 포토의 데이터를 맞춤형 광고를 지원하는 다른 구글 서비스에서 사용할 수 있도록 선택하지 않는 한, 해당 서비스의 콘텐츠를 기반으로 맞춤형 광고를 표시하지 않는다.",
+      "quote_attribution": "테크스팟(TechSpot)",
+      "historical_background": "구글이 받은 편지함 스캔을 중단한 이후에도 수년간 Gmail 광고는 검색 및 유튜브(YouTube) 등 다른 구글 서비스의 활동을 기반으로 타겟팅될 수 있었다. 당시 스캔 관행은 소송과 개인정보 보호 관련 비판을 불러일으켰다[techspot.com#1].",
+      "talking_points[0]": "지역별 가용성: 구글 지원 정보는 나이지리아 또한 퍼스널 인텔리전스를 사용할 수 없는 시장으로 명시하고 있다[heise.de#1][the420.in#1].",
+      "industry_impact[0]": "디지털 광고: 구글은 퍼스널 인텔리전스를 활성화한 사용자를 대상으로 AI 모드 내 광고를 테스트하고 있다[techspot.com#1].",
+      "perspectives[0].text": "구글은 공유된 데이터를 수신하는 서비스가 해당 정보를 사용하는 방식에 대해 자체적인 정책과 설정을 적용한다고 밝히고 있다[heise.de#1][techspot.com#1].",
+      "timeline[0].content": "구글, 광고 맞춤화를 위한 무료 Gmail 계정 스캔 중단[techspot.com#1]",
+      "timeline[1].content": "구글, 제미나이에 퍼스널 인텔리전스 도입[techspot.com#1][the420.in#1]",
+      "timeline[2].content": "구글, AI 모드는 당분간 광고 없이 유지될 것이라고 발표[techspot.com#1]",
+      "timeline[3].content": "구글의 개정된 개인정보 처리방침 시행, 연결된 서비스 데이터에 대한 예외 조항 포함[techspot.com#1][reddit.com#2]",
+      "suggested_qna[0].question": "앱 연결을 해제하면 구글이 이미 접근한 데이터도 삭제되는가?",
+      "suggested_qna[0].answer": "반드시 그렇지는 않다. 하이제(Heise)는 서비스 연결을 해제해도 구글이 이전에 획득한 데이터는 삭제되지 않으며, 이메일이나 사진을 삭제하더라도 검색이나 제미나이에 이미 저장된 정보는 사라지지 않을 수 있다고 보도했다[heise.de#1]."
+    },
+    "66ee2503-a25b-4987-9a21-5fa72f38742b": {
+      "title": "AI 기반 메모리 비용 상승으로 카라치 스마트폰 가격 예산 초과",
+      "short_summary": "카라치의 스마트폰 브랜드들이 단말기 가격을 1만 5,000루피에서 3만 루피까지 인상하면서 기본 모델조차 많은 구매자의 예산을 넘어서고 있다. 작년에 약 2만 루피였던 램(RAM) 4GB, 저장용량 64GB 모델은 현재 3만 루피를 웃돌고 있다 [dawn.com#1][techjuice.pk#1]. 판매상과 제조사들은 이러한 가격 상승의 주된 원인으로 메모리 칩 비용 상승을 꼽으며, AI 시스템, 로봇 공학, 데이터 센터의 수요가 생산량을 앞질러 제조사들이 비용 부담을 감당하기 어려운 상황이라고 설명한다 [dawn.com#1][techjuice.pk#1]. 은행 업무, 교육, 업무, 정부 서비스 등을 위해 스마트폰에 의존하는 소비자들은 당국에 기본 스마트폰의 가격을 합리적인 수준으로 유지해 달라고 요구하고 있으며, 일부는 중고폰이나 키패드 폰을 고려하고 있다 [dawn.com#1].",
+      "quote": "내 월급과 현재의 물가 상승률을 고려하면 7,000~8,000루피를 한꺼번에 더 부담할 여력이 없어, 다음 달까지 기다리며 돈을 더 모으기로 했다.",
+      "quote_attribution": "돈(Dawn)",
+      "location": "파키스탄 카라치",
+      "talking_points[0]": "소매업계 부담: 상인들은 매출이 급감하고 가격 변동과 공급 부족이 지속되고 있다고 보고한다 [dawn.com#1].",
+      "talking_points[1]": "중고 대안: 일부 구매자들은 높은 관세를 피하기 위해 소매 포장 없이 대량으로 수입되는 '킷 폰(kit phones)'이라 불리는 리퍼비시 단말기로 눈을 돌리고 있으나, 소비자들은 이들의 신뢰성에 의문을 제기한다 [dawn.com#1][techjuice.pk#1].",
+      "talking_points[2]": "가격 사례: 한 구매자는 구매하려던 모델의 가격이 8월 2만 2,000~2만 3,000루피에서 약 3만 루피로 올랐고, 그 다음 달에 다시 인상되었다고 말했다 [dawn.com#1][techjuice.pk#1].",
+      "perspectives[0].text": "카라치 전자제품 판매자 협회(Karachi Electronics Dealers Association)의 무함마드 리즈완 이르판(Muhammad Rizwan Irfan) 회장은 세금 인상만으로는 이 정도 규모의 가격 상승을 설명할 수 없다고 말하며, 대신 칩 비용 상승을 원인으로 지목했다.",
+      "perspectives[1].text": "카라치의 한 스마트폰 고객은 정부가 제조사와 협약을 맺어 기본 단말기를 저렴한 가격에 공급할 것을 제안했다.",
+      "primary_image.caption": "사다르(Saddar) 전자 시장의 한 상점에서 고객이 중고 휴대전화를 살펴보고 있다. —파힘 시디키(Fahim Siddiqi)/화이트 스타(White Star)"
+    },
+    "89466b69-56e8-48e4-b965-4dcca70bd677": {
+      "title": "삼성 원 UI 9, 안정성 호평 속 AI 도구는 비판받아",
+      "short_summary": "안드로이드 17 기반의 삼성 원 UI(One UI) 9 인터페이스가 엇갈린 평가를 받고 있다. 안드로이드 오소리티(Android Authority)의 리뷰어는 안정성과 폴더블폰 기능은 높게 평가했으나, '나우 브리프(Now Brief)'나 '나우 너지(Now Nudge)'와 같은 갤럭시 AI 도구들은 구글 픽셀 소프트웨어보다 유용성과 직관성이 떨어진다고 지적했다 [androidauthority.com#1]. 별도의 리뷰에서는 격자 조절, 테마 아이콘, 파인더 검색창 등 인터페이스의 광범위한 홈 화면 사용자 지정 기능을 강조했다 [androidpolice.com#1]. 삼성의 인터페이스 명칭이 '갤럭시 OS'로 변경될 것이라는 소문에 대한 보고서는 해당 주장이 불분명한 번역에서 비롯되었으며, 최초 유출자가 원 UI가 대체되는 것은 아니라고 해명했다고 전했다 [engadget.com#1]. 삼성은 공식적으로 리브랜딩을 확인한 바 없으며, 해당 보고서에서도 이를 뒷받침할 증거는 발견되지 않았다 [engadget.com#1].",
+      "talking_points[0]": "위젯 스타일링: 원 UI를 통해 사용자는 많은 동적 위젯의 크기를 조절하여 레이아웃을 변경하고, 색상과 투명도를 조정하며, 스택형 카드에 독특한 디자인을 적용할 수 있다 [androidpolice.com#1]",
+      "talking_points[1]": "퀵 패널: 안드로이드 오소리티 리뷰어는 원 UI 9에서 추가된 퀵 패널 사용자 지정 기능을 환영하며, 이를 통해 자주 사용하는 토글에 더 쉽게 접근할 수 있게 되었다고 평가했다 [androidauthority.com#1]",
+      "talking_points[2]": "소문의 신뢰성: 엔가젯(Engadget)은 갤럭시 OS 주장이 신뢰할 만한 실적이 없는 계정이 인용한 모호한 익명의 소식통에 의존하고 있다고 지적했으며, 관련 보도들은 이 주장을 원 UI 10에 관한 별개의 모호한 소문과 연결 짓기도 했다 [engadget.com#1]"
+    },
+    "ba123b46-c437-4fa6-8a8c-bb2b83d02516": {
+      "title": "애플, 반품 사기 방지 위해 밀봉된 아이폰 박스 스캐너 도입",
+      "short_summary": "애플은 소매점에서 밀봉된 박스 상태의 아이폰을 스캔할 수 있는 장치를 도입하여, 직원이 포장을 뜯지 않고도 반품된 제품의 상태를 확인할 수 있게 했다[macobserver.com#1][macrumors.com#1][apfeltalk.de#1]. 이 시스템은 구매자가 액세서리나 부품, 혹은 기기 자체를 빼돌린 반품 사례를 적발하는 동시에, 재판매 가능한 제품이 불필요한 취급으로 인해 재고로 돌아가지 못하는 상황을 방지하기 위한 것이다[digitaltrends.com#1][forbes.com#1]. 애플은 10월 초부터 해당 장치를 매장에 배포하기 시작했으며, 블룸버그(Bloomberg)의 기자 마크 거먼(Mark Gurman)에 따르면 현재 매장에서 사용이 시작되었다[digitaltrends.com#1][macrumors.com#1]. 이 스캐너는 박스를 개봉하지 않고 아이폰을 준비하는 애플의 시스템인 '프레스토(Presto)'를 기반으로 한다. 애플은 새로운 진단 기능이 어떤 결함을 감지할 수 있는지, 혹은 다른 제품군으로 검사 범위를 확대할지에 대해서는 구체적으로 밝히지 않았다[macobserver.com#1][digitaltrends.com#1][apfeltalk.de#1].",
+      "quote": "그들은 때때로 이를 대량으로 수행한 뒤, 애프터마켓에서 해당 부품들을 재판매하는 사업을 구축하기도 한다.",
+      "quote_attribution": "포브스(Forbes)",
+      "talking_points[0]": "프레스토 기능: 애플의 기존 프레스토 장비는 박스 안의 아이폰을 무선으로 업데이트할 수 있으며, 아이폰 듀오(iPhone Duo)의 초기 설정 인사말을 개인화하는 데에도 사용되어 왔다[digitaltrends.com#1][macrumors.com#1].",
+      "talking_points[1]": "반품 절차: 이번에 보고된 변경 사항은 직원의 검사 방식에 관한 것이며, 고객의 반품 절차는 변경되지 않을 것으로 예상된다[apfeltalk.de#1].",
+      "technical_details[0]": "프레스토 캐비닛 용량: 애플의 초기 프레스토 장비는 한 번에 6개의 아이폰 박스를 수용할 수 있으며, 일반적으로 15분에서 30분 내에 소프트웨어 업데이트를 완료한다[macobserver.com#1]."
+    },
+    "c87732b8-18fe-421b-8ea4-98df4b62614a": {
+      "title": "삼성 엑시노스 2700, 퀄컴 칩 성능 20% 앞설 것으로 전망",
+      "short_summary": "삼성전자의 차기 엑시노스 2700이 내부 멀티코어 테스트에서 퀄컴의 스냅드래곤 8 엘리트 익스트림 6세대(Snapdragon 8 Elite Extreme Gen 6)보다 약 20% 높은 점수를 기록했다고 기술 매체들이 인용한 국내 보도가 전했다. 긱벤치 6.5(Geekbench 6.5) 기준 삼성 칩은 약 13,000점, 퀄컴 칩은 11,000점을 기록한 것으로 알려졌으며, 긱벤치 7에서도 엑시노스가 15% 앞선 것으로 전해졌다 [reddit.com#1][sammobile.com#1][log.com.tr#1]. 이 수치들은 독립적으로 검증되지 않았으며, 그래픽 테스트, 전력 소비, 지속 성능에 대한 세부 정보는 보도에서 제외되었다. 한 보고서는 엑시노스의 그래픽 프로세서가 특정 작업 부하에서는 약 20% 앞서지만, 게임 비교에서는 5% 우위에 그쳤다고 밝혔다 [reddit.com#1][wccftech.com#1]. 삼성은 갤럭시 S27 대부분의 모델에 이 칩을 탑재할 것으로 예상되며, S27 울트라는 스냅드래곤 프로세서를 유지할 전망이다 [sammobile.com#1][intomobile.com#1].",
+      "talking_points[0]": "표준 칩 비교: 엑시노스는 표준 스냅드래곤 8 엘리트 6세대와 비교해 긱벤치 6.5 멀티코어 테스트에서 44%, 긱벤치 7에서 36% 더 높은 점수를 기록한 것으로 알려졌다 [reddit.com#1][log.com.tr#1].",
+      "talking_points[1]": "그래픽 아키텍처: 해당 칩은 8개의 워크 그룹 프로세서(Work Group Processors)와 24MB의 시스템 레벨 캐시를 갖춘 엑스클립스(Xclipse) 970 그래픽 프로세서를 사용할 것으로 보인다 [reddit.com#1].",
+      "talking_points[2]": "생산 계획: 삼성은 이전 모델보다 약 10% 늘어난 규모로 해당 칩의 초기 생산을 시작한 것으로 알려졌다 [reddit.com#1].",
+      "technical_details[0]": "CPU 구성: 2개의 프라임 코어와 8개의 성능 코어를 결합한 1+4+1+4 코어 레이아웃이 적용되었으며, 최상위 C2-울트라(C2-Ultra) 코어는 4.24 GHz에 도달한다고 전해진다 [reddit.com#1].",
+      "technical_details[1]": "제조 및 메모리: 이 칩은 삼성의 2세대 2나노미터(nm) SF2P 공정으로 제작되며 LPDDR6 메모리를 지원할 가능성이 있다 [reddit.com#1].",
+      "perspectives[0].text": "Wccftech는 국내 언론이 퀄컴을 깎아내리기 위해 엑시노스가 더 우월한 것처럼 보도하고 있을 가능성을 제기했다. 해당 매체는 스냅드래곤의 오프셋 PoP(Offset PoP) 패키징이 스냅드래곤 8 엘리트 5세대보다 최대 온도 임계값에 도달하는 데 두 배 더 오래 걸린다는 독립적인 테스트 결과를 인용했다 [wccftech.com#1].",
+      "suggested_qna[0].question": "어떤 갤럭시 S27 모델에 엑시노스 칩이 탑재될 것으로 예상되는가?",
+      "suggested_qna[0].answer": "보도에 따르면 갤럭시 S27과 S27+는 대부분의 국가에서 엑시노스를 사용하고, S27 프로는 일부 지역에서 이를 채택할 것으로 보인다. 반면 S27 울트라는 전 세계적으로 스냅드래곤을 사용할 것으로 예상된다 [sammobile.com#1][intomobile.com#1]."
+    }
+  },
+  "stats": {
+    "storyCount": 12,
+    "translated": 11,
+    "failedStoryIds": [
+      {
+        "id": "3f147f46-dbab-4eb5-a2d3-f2fb32dac211",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 10849,
+      "out": 12009
+    }
+  }
+}
