@@ -4,7 +4,7 @@
   "categoryUuid": "84a88f82-d2af-40b1-afad-c3f956d110ff",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-26T16:47:34.232Z",
+  "createdAt": "2026-10-26T17:14:15.351Z",
   "stories": {
     "ba12e6ae-e77e-4710-a192-8a282956e560": {
       "title": "룰라, 브라질 대통령 4선 성공…볼소나루는 결과 무효화 추진",
@@ -256,20 +256,42 @@
       "suggested_qna[0].answer": "이스라엘 대통령이 의회 정당들과 협의하여 정부 구성에 가장 적합하다고 판단되는 의원을 지명한다. 협상이 실패할 경우, 다른 선거가 치러질 때까지 과도 정부가 유지될 수 있다 [brusselsmorning.com#1][clickondetroit.com#1].",
       "primary_image.caption": "2026년 10월 21일 수요일, 이스라엘 남부 디모나에서 열린 선거 유세 중 리쿠드당 대표인 베냐민 네타냐후 이스라엘 총리가 지지자들에게 손을 흔들고 있다. (AP 사진/오하드 츠비겐버그)",
       "secondary_image.caption": "2026년 10월 25일 이스라엘 브네이 브라크에서 이스라엘 총선을 앞두고 한 소년이 네타냐후의 리쿠드당 선거 현수막 옆 자전거에 앉아 있다. —로이터"
+    },
+    "e18e7ebe-23da-4611-a379-72654eb9659a": {
+      "title": "시진핑 2027년 4연임 앞두고 중국 공산당 기강 확립 회의 개막",
+      "short_summary": "중국 공산당이 월요일 베이징에서 4일간의 중앙위원회 전체회의를 시작했다. 시진핑(Xi Jinping) 주석은 당 기강을 강화하고 부패를 척결하며 관리들이 중앙의 지시를 철저히 이행하도록 하는 내용의 초안을 제시했다 [scmp.com#1][aljazeera.com#1][thehindu.com#1]. 비공개로 진행되는 이번 5중전회는 목요일에 종료될 예정이며, 회의 결과 요약이 발표될 것으로 보인다 [scmp.com#1][thehindu.com#1]. 2027년으로 예정된 당 대회에서 시 주석은 4연임을 노릴 것으로 예상되며, 이때 고위직 인사가 대대적으로 개편될 전망이다 [theguardian.com#1][channelnewsasia.com#1]. 전문가들은 이번 회의가 시 주석에게 정책에 대한 충성심과 복종을 강화할 기회라고 분석하는 한편, 최근 이어진 숙청으로 지도부 공석이 발생하고 참석률이 이례적으로 낮아졌다고 지적했다 [aljazeera.com#1][koreatimes.co.kr#1]. 위원회는 당 최고 군사 기구인 중앙군사위원회 인사를 확정하거나 해임안을 처리할 수 있으나, 시 주석이 내년 당 대회까지 인사를 미룰 가능성도 있다 [khan.co.kr#1][thehindu.com#1]. 중국은 현재 내수 부진, 장기화된 부동산 위기, 미국과의 관계 경색 등 여러 난제에 직면해 있다 [aljazeera.com#1][thehindu.com#1].",
+      "quote": "부패했다면 정치적으로 충성스러운 것이 아니며, 정치적으로 충성스럽다면 부패한 것이 아니다.",
+      "quote_attribution": "가디언(The Guardian)",
+      "location": "중국 베이징",
+      "historical_background": "시 주석의 반부패 캠페인은 지난 10여 년간 수천 명의 관리를 축출했다 [theguardian.com#1][aljazeera.com#1]. 5중전회는 당 대회 사이에 통상적으로 열리는 7번의 회의 중 5번째 회의를 의미한다 [theguardian.com#1].",
+      "talking_points[0]": "기강 규정: 당 기관지는 부적절한 식사와 음주, 규정을 위반한 선물 수수, 관리들의 정치적 실적을 쌓기 위한 전시성 사업에 대해 조치를 취할 것을 촉구했다 [scmp.com#1].",
+      "talking_points[1]": "군 공석: 중앙군사위원회 위원 7명 중 조사와 해임이 진행되면서 현재 시 주석과 장성민(Zhang Shengmin) 기율위원장만이 남은 상태다 [scmp.com#1][theguardian.com#1].",
+      "talking_points[2]": "참석률 추정: 아시아소사이어티 정책연구소(Asia Society Policy Institute)는 중앙위원 및 후보위원 376명 중 291명만이 참석할 것으로 추정했으며, 이는 77.4%로 1976년 이후 최저 수준일 가능성이 있다 [khan.co.kr#1].",
+      "talking_points[3]": "광범위한 감시: 전문가들은 주요 사업과 공공 지출에 대한 감사 강화, 부패 적발을 위한 기술 활용 확대, 당의 우선순위를 이행하지 않는 관리에 대한 처벌 강화를 예상하고 있다 [aljazeera.com#1][koreatimes.co.kr#1].",
+      "talking_points[4]": "조사 규모: 중국 사정 당국은 지난해 장관급 또는 성급 이상의 고위 관리 100여 명을 포함해 100만 명 이상을 조사했다 [theguardian.com#1].",
+      "perspectives[0].text": "토니 블레어 글로벌 변화 연구소(Tony Blair Institute for Global Change)의 루비 오스만(Ruby Osman) 선임 정책 고문은 이번 회의가 차세대 관리들이 중국의 기회와 위험에 대한 시 주석의 평가를 공유하도록 보장할 기회라고 말했다 [aljazeera.com#1][koreatimes.co.kr#1].",
+      "perspectives[1].text": "아시아소사이어티 정책연구소의 닐 토마스(Neil Thomas) 선임 연구원은 처벌 강화만으로는 관리들이 당보다 자신의 이익을 우선시하는 것을 막을 수 없다고 지적하며, 기강 강화는 지속적인 통치 방식의 일환이라고 설명했다 [theguardian.com#1].",
+      "perspectives[2].text": "중국 공산당: 관영 매체는 이번 캠페인이 당과 국가, 군 내부의 위험을 제거하기 위해 필수적이며, 감시 강화가 통치 능력과 당의 안정성을 개선할 것이라고 설명한다 [scmp.com#1].",
+      "timeline[0].content": "시 주석 집권 및 반부패 캠페인 시작 [theguardian.com#1]",
+      "timeline[1].content": "시 주석, 국가주석 임기 제한 철폐 [koreatimes.co.kr#1]",
+      "timeline[2].content": "현 중앙위원회 선출 [khan.co.kr#1]",
+      "timeline[3].content": "시 주석, 겉으로는 복종하는 척하면서 뒤로는 명령을 거부하는 관리들에 대해 경고 [aljazeera.com#1][koreatimes.co.kr#1]",
+      "timeline[4].content": "시 주석, 5중전회 개막 및 통치 관련 결정 초안 제시 [scmp.com#1][thehindu.com#1]",
+      "timeline[5].content": "4일간의 전체회의 종료 및 결과 요약 발표 예정 [scmp.com#1][thehindu.com#1]",
+      "timeline[6].content": "차기 당 대회에서 고위 지도부 구성 및 시 주석의 차기 임기 결정 예상 [theguardian.com#1][channelnewsasia.com#1]",
+      "suggested_qna[0].question": "이번 회의에서 당의 군 통제 방식이 바뀔 수 있는가?",
+      "suggested_qna[0].answer": "알자지라(Al Jazeera)는 시 주석이 이번 회의를 군에 대한 당의 통제력을 재편하는 데 활용할 수 있다고 보도했다 [aljazeera.com#1].",
+      "suggested_qna[1].question": "관리들이 직무를 수행하지 않아 징계를 받을 수 있는가?",
+      "suggested_qna[1].answer": "그렇다. 징계 조치는 형식주의와 관료주의를 겨냥해 확대되었으며, 직무 유기, 태만, 발전을 저해하는 무모한 행위 등이 포함된다 [koreatimes.co.kr#1]."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "e18e7ebe-23da-4611-a379-72654eb9659a",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 16628,
-      "out": 21343
+      "in": 18234,
+      "out": 23339
     }
   }
 }
