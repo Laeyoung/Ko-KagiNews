@@ -4,7 +4,7 @@
   "categoryUuid": "f3fe4589-8c52-4621-81f7-23eb25284f34",
   "categorySlug": "science",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-27T16:07:32.433Z",
+  "createdAt": "2026-10-27T16:39:34.347Z",
   "stories": {
     "ca21e67e-f4d7-46ef-98fb-06470e4333fa": {
       "title": "트라이아스기 갑주 양서류 화석, 완전한 해양 생활 시사",
@@ -103,36 +103,90 @@
       "talking_points[1]": "발사 인프라: 쿨라세카라파티남(Kulasekarapattinam)에 제안된 2,000에이커 규모의 소형 위성 발사체 단지 계획에는 발사대, 통합 건물, 철로 및 추적 시스템이 포함된다[reddit.com#1].",
       "talking_points[2]": "아르테미스 도킹: NASA가 계획한 리허설은 세 번의 연속 발사를 포함하며, 오리온(Orion) 우주선이 블루 오리진의 착륙선과 먼저 도킹한 뒤 스페이스X의 스타십(Starship)과 도킹할 예정이다[indiatimes.com#1].",
       "perspectives[0].text": "인도우주연구기구(ISRO): V. 나라야난 의장은 ISRO가 기술 전문 지식을 공유하여 스타트업과 민간 기업을 지원함으로써 경제 성장을 촉진하고 수천 개의 첨단 기술 일자리를 창출할 것이라고 밝혔다[reddit.com#1]."
+    },
+    "94fbf0a1-1681-4787-b280-355361802c83": {
+      "title": "캐나다 청년들, 연방 기후 정책 대상 권리 소송 제기",
+      "short_summary": "10월 26일 밴쿠버 연방 법원에서 캐나다 청년 15명이 캐나다의 기후 정책이 헌법상 보장된 생명권, 자유권, 안전권을 침해한다며 제기한 소송의 첫 변론이 시작되었다. '라 로즈 대 국왕(La Rose v. His Majesty the King)' 사건에서 이들은 연방 '넷제로 배출 책임법(Net-Zero Emissions Accountability Act)'과 2030 배출 계획에 이의를 제기하고 있다. 이들은 해당 정책이 권리를 침해했다는 선언과 과학적 근거에 기반한 기후 계획 수립을 요구하고 있다 [straitstimes.com#1][grist.org#1][nationalobserver.com#2]. 정부 측 변호인 BJ 레이(BJ Wray)는 기후 변화는 전 지구적 해결책이 필요한 문제이며 오타와 정부가 원고들이 요구하는 의무를 이행할 수는 없다고 주장했다. 또한 정부는 자국 정책이 원고들의 피해를 유발했는지에 대해서도 다투고 있다 [straitstimes.com#1][thenarwhal.ca#1]. 다만 기후 변화가 실재하며 피해를 유발한다는 사실 자체는 부정하지 않는다 [reddit.com#2]. 원고 측과 전문가 증인들은 기후 영향, 건강, 정책에 관한 증거를 제시하고 있다. 심리는 4~5주간 이어질 예정이며, 최종 변론은 2027년 2월, 판결은 같은 해 말에 나올 것으로 예상된다 [cbc.ca#1][grist.org#1].",
+      "quote": "기후 변화는 전 지구적 해결책으로만 해결할 수 있는 전 지구적 문제이다",
+      "quote_attribution": "스트레이츠 타임스(The Straits Times)",
+      "location": "캐나다 밴쿠버",
+      "historical_background": "2021년 독일 헌법재판소가 청년 기후 소송에서 더 강력한 배출 목표 설정을 명령한 사례와 2025년 국제사법재판소(ICJ)가 발표한 기후 관련 권고적 의견 등이 밴쿠버 재판의 참고 사례로 거론되고 있다 [blick.ch#1][reddit.com#2].",
+      "talking_points[0]": "배출 격차: 2023년 캐나다의 배출량은 2005년 대비 9% 감소했다. 연방 정부의 최선의 추정치에 따르면 2030년 감축 목표는 28%로, 기존 목표치인 40%~45%에 미치지 못한다 [nationalobserver.com#2].",
+      "talking_points[1]": "정책 변화: 카니(Carney) 정부는 소비자 탄소세와 계획되었던 석유·가스 배출 상한제를 폐지하는 한편, 액화천연가스(LNG) 생산 확대와 서부 해안 석유 파이프라인 건설을 추진하고 있다 [insideclimatenews.org#1][blick.ch#1].",
+      "talking_points[2]": "증인 증언: 원고 측은 기후변화에 관한 정부 간 협의체(IPCC) 주저자 2명을 포함해 총 8명의 전문가 증인을 신청할 계획이며, 정부 측은 기후 과학, 법률, 경제 분야에서 4명의 증인을 신청할 예정이다 [reddit.com#2].",
+      "talking_points[3]": "법원의 역할: 연방 정부 변호인단은 기후 행동은 법원의 관할 밖인 정치적 문제라고 주장하며, 선제적인 헌법적 의무를 인정할 경우 주거 문제 등 다른 사회적 문제로까지 사법 개입이 확대될 수 있다고 경고했다 [nationalobserver.com#2].",
+      "perspectives[0].text": "북부 지역 원고들: 리앤드리아 리브스(Leandrea Reeves)는 계절 변화와 수확물 감소가 타쿠 리버 틀링깃(Taku River Tlingit) 부족의 문화적 관습을 이어가는 데 위협이 된다고 말하며, 키라 영(Kira Young)은 강 여행 중 겪은 산불 연기에 대해 증언할 계획이다 [cbc.ca#1].",
+      "perspectives[1].text": "캐나다 연방 정부: 연방 정부 변호인단은 기후 정책은 법원의 역할이 아닌 정치적 사안이라고 주장하며, 선제적 보호를 의무화할 경우 정부가 주거를 포함한 다른 사회적 문제까지 해결해야 하는 의무를 지게 될 것이라고 경고한다 [nationalobserver.com#2].",
+      "perspectives[2].text": "기후법 전문가들: 컬럼비아 대학교 법학 교수 마이클 제라드(Michael Gerrard)는 한 국가의 판결이 다른 국가의 소송에 영감을 줄 수 있으며, 법조계가 이번 캐나다 재판을 예의주시할 것이라고 말했다 [grist.org#1].",
+      "timeline[0].content": "청년 15명이 헌법상 기후 소송을 제기했다 [grist.org#1].",
+      "timeline[1].content": "연방 판사가 재판 전 사건을 기각했다 [grist.org#1].",
+      "timeline[2].content": "항소 법원이 축소된 제7조 청구에 대해 재판 진행을 허용했다 [grist.org#1].",
+      "timeline[3].content": "밴쿠버 연방 법원에서 첫 변론이 시작되었다 [straitstimes.com#1][nationalobserver.com#2].",
+      "timeline[4].content": "양측 모두 최종 변론을 진행할 예정이다 [grist.org#1][cbc.ca#1].",
+      "suggested_qna[0].question": "승소할 경우 판사가 캐나다의 구체적인 기후 정책을 직접 선택해야 하는가?",
+      "suggested_qna[0].answer": "아니다. 원고들은 정부가 기후 접근 방식을 헌법에 부합하도록 조정하라는 판결을 요구하는 것이며, 원고 측 변호인은 특정 정책을 강제하려는 것은 아니라고 밝혔다 [thenarwhal.ca#1]."
+    },
+    "09d80fd5-b4cc-41e6-a966-61b5ac03218d": {
+      "title": "동물의 혈액 색깔은 산소 운반 단백질과 적응의 차이를 반영한다",
+      "short_summary": "노터러스(Nautil.us)와 ZME 사이언스(ZME Science)가 재게재한 노어러블 매거진(Knowable Magazine) 특집 기사에 따르면, 동물은 종마다 서로 다른 산소 운반 단백질이나 색소를 사용하기 때문에 혈액이 파란색, 보라색, 녹색, 혹은 흰색을 띨 수 있다[nautil.us#1][zmescience.com#1]. 문어, 오징어, 갑각류는 구리를 함유한 헤모시아닌을 사용한다. 일부 해양 벌레와 완족동물은 보라색 헤메리트린을 사용하며, 뉴기니 도마뱀은 녹색 빌리베르딘을 축적한다[nautil.us#1][zmescience.com#1]. 남극의 검은지느러미 빙어는 헤모글로빈과 적혈구가 없으며, 대신 혈액에 녹아 있는 산소와 커진 심장 및 모세혈관에 의존한다[nautil.us#1][zmescience.com#1]. 흡혈박쥐는 혈액만 먹고 사는 유일하게 알려진 포유류로, 특수화된 신장과 장내 미생물이 이러한 식단을 소화하도록 돕는다[snexplores.org#1].",
+      "talking_points[0]": "고지대 적응: 사슴쥐는 헤모글로빈이 산소와 강하게 결합하는 특성을 통해 해발 14,000피트 높이의 고지대에서도 살 수 있다. 이들은 산소 방출이 어려운 문제를 근육 섬유 내에 산소를 방출하는 미토콘드리아를 더 많이 보유함으로써 보완한다[nautil.us#1][zmescience.com#1].",
+      "talking_points[1]": "에너지 전략: 빙어는 먹이를 쫓아 빠르게 움직이는 대신 가만히 기다리는 인내심 강한 매복 포식자로, 에너지를 보존하고 산소 요구량을 줄인다[nautil.us#1][zmescience.com#1].",
+      "talking_points[2]": "부분적 흡혈: 암컷 모기는 알의 성숙을 돕는 단백질을 얻기 위해 피를 마시며, 찌르레기류인 옥스페커는 대형 포유류의 진드기를 제거한 후 상처에서 흐르는 피를 핥아먹기도 한다[snexplores.org#1].",
+      "scientific_significance[0]": "진화적 메커니즘: 연구진은 남극해의 풍부한 산소가 빙어에게 헤모글로빈을 불필요하게 만들었을 수 있다고 제안하지만, 헤모글로빈 상실의 진화적 원인은 아직 밝혀지지 않았다[nautil.us#1][zmescience.com#1].",
+      "scientific_significance[1]": "의학적 관련성 가능성: 해당 기사는 사슴쥐의 독특한 헤모글로빈 특성을 저산소증 치료법과, 빙어의 생물학적 특성을 빈혈 연구와 연결 짓는다. 이는 연구의 실마리일 뿐 확립된 치료법은 아니다[nautil.us#1][zmescience.com#1]."
+    },
+    "8a0fc498-9ea2-424c-81c1-271722b19d11": {
+      "title": "NASA, 3천만 달러 규모의 스위프트 망원경 구조 실패 후 임무 종료",
+      "short_summary": "NASA는 닐 게렐스 스위프트 관측소(Neil Gehrels Swift Observatory)의 궤도가 신뢰할 수 있는 관측을 수행하기에 너무 낮아지고, 민간 기업의 궤도 상승 시도가 실패함에 따라 해당 우주 망원경의 과학 임무를 종료했다. 스위프트는 10월 20일 마지막 과학 관측을 수행했으며, 앞으로 몇 주 내에 지구 대기권으로 재진입할 것으로 예상된다. NASA는 우주선 대부분이 대기권에서 타버릴 것이나 일부 잔해는 지상에 도달할 수 있다고 밝혔다 [space.com#1][livescience.com#1][lineadirectaportal.com#1]. 2004년 11월 2년 임무를 목표로 발사된 스위프트는 약 22년간 감마선 폭발과 기타 우주 현상을 추적해 왔다. 애리조나주에 본사를 둔 카탈리스트 스페이스(Katalyst Space)의 LINK 우주선이 관측소를 포획해 궤도를 높일 계획이었으나, 추진 및 자세 제어 문제로 구조에 실패했다. 스위프트는 2,000건 이상의 감마선 폭발과 1,400건 이상의 초신성을 관측했으며, 이 데이터는 약 7,000편의 과학 논문에 기여했다. NASA는 기존 망원경과 향후 임무를 통해 신속 대응 관측을 지속할 방법을 모색 중이다 [space.com#1][theregister.com#1][wp.pl#1].",
+      "quote": "스위프트는 감마선 폭발을 연구하기 위해 설계된 전용 위성이었다. 이 폭발은 너무 빠르게 나타났다 사라져 대형 망원경으로 조준해 더 자세히 연구하기가 불가능했다.",
+      "quote_attribution": "라이브 사이언스(Live Science)",
+      "historical_background": "스위프트에는 대기 항력을 상쇄할 추진기가 없었으며, 이전까지 서비스 목적으로 설계되지 않은 위성을 민간 우주선이 포획해 궤도를 높인 사례는 없었다. 이번 구조 시도는 이러한 기술적 난제와 함께 관측소의 궤도가 낮아짐에 따른 시간적 제약이라는 이중고를 겪었다 [space.com#1].",
+      "talking_points[0]": "재진입 구역: NASA는 통제되지 않은 재진입 경로가 멕시코 중부에서 남미 일부 지역 및 해양 구역에 걸쳐 있을 수 있다고 밝혔다. 또한 잔해가 지상에 도달하더라도 인명 피해를 일으킬 가능성은 낮다고 설명했다 [lineadirectaportal.com#1][aristeguinoticias.com#1].",
+      "talking_points[1]": "구조 시도: NASA는 2025년 9월 카탈리스트 스페이스와 3천만 달러 규모의 구조 계약을 체결했다. LINK는 2026년 7월 3일 발사되어 스위프트로부터 7.5~9.3마일 거리까지 접근했으나, 하드웨어 문제로 포획에 실패했다 [space.com#1].",
+      "talking_points[2]": "공개 아카이브: 스위프트는 약 12테라바이트 규모의 공개 아카이브를 남겼으며, 여기에는 지속적인 연구를 위해 활용 가능한 150만 장 이상의 자외선-광학 이미지가 포함되어 있다 [wp.pl#1][benchmark.pl#1].",
+      "talking_points[3]": "초기 발견: 스위프트가 2005년 관측한 0.03초 지속된 감마선 폭발의 잔광은 짧은 폭발이 중성자별 병합에서 기원할 수 있다는 이론을 뒷받침했다 [lineadirectaportal.com#1][benchmark.pl#1].",
+      "scientific_significance[0]": "광범위한 우주 조사: 스위프트는 감마선 폭발과 초신성 외에도 전천(all-sky) X선 조사를 수행했으며, 블랙홀에 의해 파괴되는 별들을 관측하기도 했다 [theregister.com#1].",
+      "timeline[0].content": "스위프트, 2년 임무를 목표로 궤도에 발사됨 [space.com#1][livescience.com#1]",
+      "timeline[1].content": "NASA, 카탈리스트 스페이스와 스위프트 궤도 상승 계약 체결 [space.com#1]",
+      "timeline[2].content": "카탈리스트의 LINK 서비스 우주선, 스위프트와의 랑데부를 위해 발사됨 [space.com#1]",
+      "timeline[3].content": "발사 약 3주 후, LINK가 추진 및 반작용 휠 문제를 겪으며 구조 실패 [space.com#1]",
+      "timeline[4].content": "스위프트, 고도 275km 이하로 떨어진 후 마지막 과학 데이터 수집 [livescience.com#1][wp.pl#1]",
+      "timeline[5].content": "NASA, 스위프트 임무 종료 발표 및 수주 내 재진입 예보 [space.com#1]",
+      "suggested_qna[0].question": "LINK 구조 우주선에는 어떤 문제가 발생했나?",
+      "suggested_qna[0].answer": "발사 약 3주 후, 추진 시스템과 반작용 휠 문제로 인해 LINK가 예기치 않게 회전하면서 스위프트를 포획해 궤도를 높이는 데 실패했다 [space.com#1].",
+      "primary_image.caption": "사진: NASA 고다드 우주비행센터(Goddard Space Flight Center) 개념 이미지 연구소"
+    },
+    "ab63f5c9-93b4-4e9f-8a34-e2f39b45e2e3": {
+      "title": "호주 깡충거미 연구, REM 수면 유사 단계 포함 두 가지 수면 단계 확인",
+      "short_summary": "본 대학(University of Bonn)의 행동생태학자 나디아 가이거(Nadja Geiger)와 다니엘라 C. 뢰슬러(Daniela C. Rößler)가 이끄는 연구진은 호주 깡충거미인 '포르티아 핌브리아타(Portia fimbriata)'에게서 두 가지의 뚜렷한 수면 단계가 있음을 발견했다. 그중 하나는 급속 안구 운동(REM) 수면과 유사한 안구 움직임과 근육 경련을 동반한다 [phys.org#1][sciencealert.com#1][abc.net.au#1]. 미국 국립과학원회보(PNAS)에 게재된 이 연구는 거미의 수면에 대한 최초의 포괄적인 행동학적 확인 사례를 제공한다 [phys.org#1][aawsat.com#1]. 거미들은 조용한 수면 단계와 REM 유사 수면 단계 모두에서 소리에 대한 반응성이 낮아졌으며, 수면이 방해받았을 때는 REM 유사 행동 시간을 늘려 이를 보충하는 모습을 보였다 [sciencealert.com#1][abc.es#1]. 이번 연구 결과는 뇌 활동을 직접 측정한 것이 아니라 행동 실험과 영상 관찰에 의존한 것이기에, 거미의 수면이 인간의 수면과 동일한 방식으로 작동한다고 단정할 수는 없다 [abc.es#1][aawsat.com#1]. 연구진은 향후 야생 거미와 실험실 거미의 수면을 비교하고 거미의 뇌에서 수면 중 어떤 일이 일어나는지 조사할 계획이다 [phys.org#1][abc.net.au#1].",
+      "quote": "이 논문은 지금까지 발표된 거미류의 수면에 관한 행동학적 근거 중 단연 가장 완벽한 사례이다.",
+      "quote_attribution": "ABC 뉴스",
+      "historical_background": "2022년, 다니엘라 C. 뢰슬러가 이끄는 연구팀은 깡충거미인 '에바르카 아르쿠아타(Evarcha arcuata)'에게서 REM 수면과 유사한 경련과 망막 움직임을 보고했으나, 당시에는 거미가 실제로 수면 상태에 있다는 것을 입증하지는 못했다 [sciencealert.com#1].",
+      "talking_points[0]": "수면 보충: 연구진이 거미 사육장에 살아있는 초파리 25마리를 넣어 수면을 방해하자, 거미들은 다음 날 밤 REM 유사 행동 시간을 약 80% 더 길게 보냈으며, 이는 주로 REM 유사 수면 횟수가 증가하면서 나타났다 [sciencealert.com#1].",
+      "talking_points[1]": "연구 방법: 연구팀은 다양한 조명 조건에서 거미를 기록하고, 야간에는 적외선 카메라를 사용했으며, 소리에 대한 반응을 테스트했다. 또한 실험을 통해 일주기 리듬과 수면 방해 후의 회복 과정을 평가했다 [phys.org#1][abc.es#1].",
+      "talking_points[2]": "인지적 의문: 연구진은 REM 유사 수면이 학습이나 기억을 지원하는지 여부는 아직 테스트하지 않았으나, 향후 수면과 거미의 인지 능력 사이의 관계를 연구할 계획이다 [sciencealert.com#1][phys.org#1].",
+      "talking_points[3]": "야생 조건: 퀸즐랜드 북부와 서호주에서 진행될 예정인 현장 연구에서는 인공 조명과 서식지 교란이 실험실 밖 거미의 수면에 어떤 영향을 미치는지 조사할 예정이다 [abc.net.au#1].",
+      "scientific_significance[0]": "수면 단계: 연구진은 거미에게서 두 가지 뚜렷한 수면 단계와 수면 보충 현상을 기록함으로써, 거미류에게서 REM 유사 수면이 존재한다는 행동학적 증거를 제시했다 [reddit.com#1][sciencealert.com#1].",
+      "scientific_significance[1]": "추가 연구: 연구팀은 다양한 거미 종을 대상으로 수면을 연구하여, REM 유사 상태를 포함한 수면이 거미류 내에서 어떻게 진화했는지 탐구할 계획이다 [phys.org#1][sciencealert.com#1].",
+      "perspectives[0].text": "시드니 대학교의 곤충학자 토마스 화이트(Thomas White)는 척추동물과 약 5억 년 전에 갈라진 동물들의 수면을 비교하는 것에 의문을 제기하는 시각이 있을 수 있다고 말했다. 그러나 그는 개, 고양이, 파충류에 대해서도 이미 유사한 행동학적 추론이 이루어지고 있다고 덧붙였다 [abc.net.au#1].",
+      "suggested_qna[0].question": "이번 연구로 거미가 꿈을 꾸는지 확인할 수 있는가?",
+      "suggested_qna[0].answer": "아니다. 연구팀은 깨어 있을 때의 활동이 수면 중에 재현되는 것이 하나의 가능성일 수는 있지만, 이것이 실제로 일어나는지 확인하려면 REM 유사 수면 중의 뇌 활동에 대한 연구가 필요하다고 밝혔다 [sciencealert.com#1].",
+      "primary_image.caption": "자신의 거미줄 아래에 거꾸로 매달려 휴식을 취하고 있는 포르티아 핌브리아타(Portia fimbriata) 거미.",
+      "secondary_image.caption": "과학자들이 깡충거미에게서 REM 수면의 행동학적 지표를 기록했다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 7,
+    "translated": 11,
     "failedStoryIds": [
       {
-        "id": "94fbf0a1-1681-4787-b280-355361802c83",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "09d80fd5-b4cc-41e6-a966-61b5ac03218d",
-        "reason": "retry_exhausted"
-      },
-      {
         "id": "2874e216-cba9-41da-84ba-f05d478b2f2f",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "8a0fc498-9ea2-424c-81c1-271722b19d11",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "ab63f5c9-93b4-4e9f-8a34-e2f39b45e2e3",
         "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 7096,
-      "out": 8249
+      "in": 11752,
+      "out": 14028
     }
   }
 }

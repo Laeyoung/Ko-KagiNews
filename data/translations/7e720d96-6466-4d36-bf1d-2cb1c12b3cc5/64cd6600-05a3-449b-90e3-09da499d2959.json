@@ -4,7 +4,7 @@
   "categoryUuid": "64cd6600-05a3-449b-90e3-09da499d2959",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-27T15:54:33.026Z",
+  "createdAt": "2026-10-27T16:35:19.024Z",
   "stories": {
     "05c9f6fc-8190-43e8-9b17-3f34a7bec63f": {
       "title": "트럼프가 부정선거 주장을 반복하는 가운데 볼소나루의 정당은 룰라의 승리를 수용하다",
@@ -261,20 +261,40 @@
       "suggested_qna[0].question": "캐나다는 유럽연합(EU)과 무엇을 추구하고 있는가?",
       "suggested_qna[0].answer": "우르줄라 폰데어라이엔(Ursula von der Leyen) 유럽연합 집행위원장은 캐나다가 EU의 첫 준회원국이 될 것을 제안했으나, 해당 지위의 구체적인 정의는 아직 내려지지 않았다 [thehindu.com#1].",
       "secondary_image.caption": "7월 말 개통된 다음 날, 미시간주 윈저와 디트로이트를 연결하는 고디 하우 국제교량(Gordie Howe International Bridge)을 트럭이 건너고 있다."
+    },
+    "4fc9f4e2-2f8b-4ce8-880b-659aad16dc42": {
+      "title": "네타냐후의 통치 끝날 수도 있는 이스라엘 총선 투표 시작",
+      "short_summary": "이스라엘은 하마스의 2023년 10월 7일 공격 이후 첫 총선 투표를 화요일 시작했다. 이번 선거를 통해 의회 의원 120명 전원을 선출하며, 베냐민 네타냐후(Benjamin Netanyahu) 총리는 가디 아이젠코트(Gadi Eisenkot) 전 군 참모총장 및 자신을 교체하려는 야권 연합과 맞붙는다 [al-monitor.com#1][reuters.com#1][theguardian.com#1][timescolonist.com#1]. 선거 직전 최종 여론조사 결과는 박빙이었으며, 네타냐후의 집권 연합과 야권 모두 과반 의석인 61석을 확보하지 못할 것으로 예상된다 [al-monitor.com#2][middleeastmonitor.com#1][bbc.co.uk#2]. 네타냐후는 10월 7일 공격 이전의 안보 실패와 3년간의 지역 전쟁을 이끄는 과정에서의 리더십에 대해 비판을 받고 있다. 선거 쟁점으로는 해당 실패에 대한 조사 여부, 군 복무 부담, 이스라엘의 정치적 방향 등이 포함되었다. 아이젠코트는 독립적인 국가 조사위원회 구성을 공약했으나, 네타냐후 정부는 이를 거부했다 [al-monitor.com#5][pbs.org#1][ft.com#1]. 이스라엘은 총리를 직접 선출하는 대신 정당 명부에 투표한다. 이츠하크 헤르조그(Isaac Herzog) 대통령은 정당 대표들과 협의한 뒤 연립정부 구성에 가장 적합하다고 판단되는 후보에게 구성을 요청할 예정이다 [reuters.com#1]. 로이터 통신은 최종 집계가 10월 30일까지, 공식 결과는 11월 4일에 발표될 것으로 예상되며 이후 연정 협상에 수주가 걸릴 수 있다고 보도했다 [reuters.com#1].",
+      "quote": "그가 제시하는 것은 영원한 전쟁이다",
+      "quote_attribution": "뉴스데이(Newsday)",
+      "historical_background": "이스라엘의 이번 선거는 수십 년간 정부가 4년 임기를 채우지 못했던 관례를 깨고 1988년 이후 처음으로 예정된 일정에 맞춰 치러지는 선거로 평가받는다 [middleeastmonitor.com#1].",
+      "talking_points[0]": "연정 규칙: 정당이 크네세트(Knesset, 의회)에 진입하려면 최소 3.25%의 득표율을 얻어야 한다. 약 12개의 정당 명부가 경쟁력 있는 것으로 간주되어 소수 정당의 의석수가 결정적인 변수가 된다 [reuters.com#1][newarab.com#1].",
+      "talking_points[1]": "아랍계 정당: 이스라엘 내 팔레스타인계 시민은 약 120만 명이며, 아랍계 주도 정당들은 14~16석을 확보할 것으로 예상된다. 다른 정당들이 협력에 동의할 경우 연정 협상에서 결정적인 역할을 할 가능성이 있다 [middleeastmonitor.com#1][scmp.com#1][france24.com#1].",
+      "talking_points[2]": "첫 투표자: 약 33만 명의 젊은 이스라엘인이 처음으로 투표권을 행사한다. 많은 이들이 의무 군 복무를 앞두고 있으며, 정당들은 초정통파 유대인 남성의 병역 면제 문제를 두고 논쟁을 벌이고 있다 [scmp.com#1][dw.com#1][wral.com#1].",
+      "talking_points[3]": "해외 거주 투표자: 약 6만 7천 명의 해외 거주 이스라엘인이 투표를 위해 귀국할 것으로 예상된다. 한 선거 캠페인 단체는 이들의 표가 대략 1.5석의 크네세트 의석에 해당할 수 있다고 밝혔다 [ynetnews.com#1][npr.org#2].",
+      "talking_points[4]": "요르단강 서안지구 문제: 야당들은 정착민 폭력에 대한 대응을 약속했으나 대부분 2국가 해법에는 반대하고 있다. 분석가들은 새 정부가 들어서더라도 정착촌 관련 정책을 늦추는 정도에 그칠 것으로 보고 있다 [pbs.org#2][ft.com#1].",
+      "international_reactions[0]": "🇺🇸 미국: 도널드 트럼프(Donald Trump) 대통령은 선거 전 네타냐후를 지지하며 이스라엘 국민들에게 그를 재선출할 것을 촉구했다 [al-monitor.com#2][hurriyetdailynews.com#1].",
+      "international_reactions[1]": "🇮🇷 이란: 에스마일 바가에이(Esmaeil Baghaei) 이란 외무부 대변인은 선거 결과가 테헤란에 아무런 차이를 만들지 않을 것이라고 말하며 이스라엘 후보들을 비난했다 [tass.com#1].",
+      "perspectives[0].text": "야당 지도자 가디 아이젠코트: 아이젠코트는 네타냐후가 선거 기간 동안 공포 조장, 거짓말, 위협에 의존하고 있다고 비난했다 [al-monitor.com#2].",
+      "perspectives[1].text": "베냐민 네타냐후 정부: 정부는 정치인들이 위원을 임명하는 초당적 위원회 구성을 제안했다 [al-monitor.com#5].",
+      "timeline[0].content": "리쿠드(Likud)당 주도의 우파 및 종교 연합이 과반을 차지하며 정부를 구성했다 [thehindu.com#2]",
+      "timeline[1].content": "사법 개혁안이 이스라엘 전역에서 대규모 시위를 촉발했다 [egyptindependent.com#1]",
+      "timeline[2].content": "이스라엘이 이란과의 두 차례 직접 전쟁 중 첫 번째 전쟁에서 테헤란을 타격했다 [thehindu.com#2]",
+      "timeline[3].content": "유권자들이 크네세트 의원 120명 전원을 선출하기 시작했다 [reuters.com#1]",
+      "timeline[4].content": "공식 발표에 앞서 최종 투표 집계가 예상되었다 [reuters.com#1]",
+      "timeline[5].content": "공식 선거 결과 발표가 예정되었다 [reuters.com#1]",
+      "suggested_qna[0].question": "대통령이 지명한 후보가 정부를 구성하지 못하면 어떻게 되는가?",
+      "suggested_qna[0].answer": "다른 의원에게 연정 구성 기회가 주어질 수 있으며, 정부가 구성되지 않을 경우 이스라엘은 다시 선거를 치를 수 있다 [reuters.com#1].",
+      "secondary_image.caption": "2026년 10월 24일 이스라엘 텔아비브에서 베냐민 네타냐후 이스라엘 총리(왼쪽)와 야샤르(Yashar)당 대표 가디 아이젠코트(오른쪽)의 모습이 담긴 '승부는 끝났다!'라는 문구의 선거 광고판 앞을 시민들이 지나가고 있다. 이스라엘은 2026년 10월 27일 제26대 크네세트 의원 120명을 선출하기 위한 총선을 실시한다. EPA / ABIR SULTAN"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "4fc9f4e2-2f8b-4ce8-880b-659aad16dc42",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 17108,
-      "out": 21931
+      "in": 18722,
+      "out": 24040
     }
   }
 }
