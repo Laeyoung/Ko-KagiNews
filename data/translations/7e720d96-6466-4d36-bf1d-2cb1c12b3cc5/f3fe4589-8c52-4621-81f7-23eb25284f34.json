@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "batchId": "7e720d96-6466-4d36-bf1d-2cb1c12b3cc5",
+  "categoryUuid": "f3fe4589-8c52-4621-81f7-23eb25284f34",
+  "categorySlug": "science",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-10-27T16:07:32.433Z",
+  "stories": {
+    "ca21e67e-f4d7-46ef-98fb-06470e4333fa": {
+      "title": "트라이아스기 갑주 양서류 화석, 완전한 해양 생활 시사",
+      "short_summary": "연구진은 약 2억 3,700만 년 전 바다에서 평생을 살았을 것으로 추정되는 갑주 양서류 '게로토락스 마리티무스(Gerrothorax maritimus)'를 기술했다. 이 주장은 중국 구이저우성 인근 섬에서 30km 이상 떨어진 해양 퇴적층에서 발견된 거의 온전한 골격 두 점에 근거한다. 보존된 사지와 스트론튬 동위원소 분석 결과는 이 동물이 바닷물에서 살며 성장했음을 뒷받침한다 [nature.com#1][sciencealert.com#1][gizmodo.com#1]. 해당 연구는 10월 26일 '네이처 생태와 진화(Nature Ecology & Evolution)'에 게재되었다 [sci.news#1]. 몸길이 약 74cm인 이 동물은 골질 갑옷으로 덮인 납작한 몸을 가지고 있었다. 연구진은 이 갑옷이 피부를 통한 수분 교환을 제한했을 것이며, 아가미와 소화관이 염분 적응을 도왔을 것으로 추정한다. 두개골 형태는 해저에서 기다리다 먹이를 빨아들였음을 시사한다 [phys.org#1][sci.news#1]. 현재 바다에서만 서식하는 양서류는 알려진 바 없으며, 현대 양서류 종 중 염분 내성을 보이는 경우는 2% 미만이다 [nature.com#1][discovermagazine.com#1].",
+      "quote": "만약 이 트라이아스기 양서류인 게로토락스가 정말로 완전한 해양 생물이었다면, 이는 판도를 뒤흔드는 발견이다.",
+      "quote_attribution": "네이처(Nature)",
+      "location": "중국 구이저우성 관링현",
+      "talking_points[0]": "육상 이동: 약한 사지와 납작하고 무거운 갑옷으로 덮인 몸은 이 동물이 육지로 돌아갔을 경우 이동을 매우 어렵게 만들었을 것이다 [sciencealert.com#1].",
+      "talking_points[1]": "발견 이력: 지역 농부들이 관링현에서 화석을 발견했으며, 이후 화석이 지역 보관소로 유입되었다 [sciencealert.com#1][gizmodo.com#1].",
+      "technical_details[0]": "스트론튬 동위원소 증거: 바다의 스트론튬 동위원소 비율은 비교적 일정한 반면, 육지는 지역 암석에 따라 다양하다. 화석의 비율은 주변 암석이 아닌 트라이아스기 해수와 일치했다 [sciencealert.com#1].",
+      "technical_details[1]": "생리학적 불확실성: 연조직이 보존되지 않았기 때문에 연구진은 이 동물의 소화계가 염수에 적응했는지, 혹은 어떻게 번식했는지 확정할 수 없다 [gizmodo.com#1].",
+      "scientific_significance[0]": "기능적 추론: 갑옷은 피부를 통한 수분 교환을 제한하는 것 외에도 어룡(ichthyosaurs)과 같은 포식자로부터 동물을 보호했을 수 있다 [phys.org#1].",
+      "perspectives[0].text": "연구 공동 저자이자 캘리포니아 대학교 데이비스(University of California, Davis)의 고생물학자인 료스케 모타니(Ryosuke Motani)는 육상 포식자의 증가와 풍부한 해양 먹이 자원이 바다를 이 동물에게 유리한 서식지로 만들었을 수 있다고 제안했다 [nikkei.com#1].",
+      "perspectives[1].text": "연구진은 이 동물의 생태를 더 정확하게 재구성하기 위해 더 많은 표본과 서식 환경에 대한 명확한 정보가 필요하다고 밝혔다 [gizmodo.com#1].",
+      "timeline[0].content": "닛케이(Nikkei)에 따르면 중국에서 화석 재료가 발굴되었다 [nikkei.com#1]",
+      "timeline[1].content": "연구진은 이 동물이 트라이아스기 후기에 살았던 것으로 추정한다 [nature.com#1][phys.org#1]",
+      "timeline[2].content": "해당 화석을 기술한 연구가 '네이처 생태와 진화'에 게재되었다 [sci.news#1][nature.com#1]"
+    },
+    "81e0f178-dd17-416f-93ac-5ca55c447959": {
+      "title": "루미나(Lumina) 시뮬레이션, 초기 우주의 수소 및 헬륨 재이온화 추적",
+      "short_summary": "우주 초기 20억 년을 다룬 슈퍼컴퓨터 시뮬레이션 '루미나(Lumina)'를 활용한 연구진은 초기 별과 은하가 수소 재이온화를 주도했으며, 활동 은하핵에서 방출된 고에너지 복사가 헬륨 재이온화를 도왔다고 보고했다 [mit.edu#1][universetoday.com#1][gizmodo.com#1]. 이 모델에 따르면 헬륨 재이온화는 적색편이(redshift) 6 부근에서 시작되어 4 부근에서 중간 지점에 도달하고, 3 부근에서 거의 완료되는데, 이때 단일 이온화된 헬륨이 차지하는 부피는 시뮬레이션 전체의 1% 미만이었다 [universetoday.com#1]. 별의 자외선은 수소에서 전자를 떼어낼 수 있는 반면, 활발히 활동하는 초대질량 블랙홀의 고에너지 복사는 헬륨의 후기 변화를 유도할 수 있다 [mit.edu#1][universetoday.com#1]. 루미나는 이 두 과정을 하나의 모델에서 추적하여 시뮬레이션된 우주가 진화함에 따라 각 과정의 영향이 우주를 형성하도록 한다 [phys.org#1][openaccessgovernment.org#1]. 연구팀은 제임스 웹 우주 망원경(James Webb Space Telescope) 및 기타 관측 장비의 데이터를 루미나의 예측치와 비교할 수 있다고 밝혔다. 또한 이 시뮬레이션을 활용해 은하 간 가스 흐름과 대규모 우주 구조의 진화를 연구할 계획이다 [mit.edu#1][phys.org#1].",
+      "quote": "다른 시뮬레이션들은 이만큼 자세히 확대할 수 없다.",
+      "quote_attribution": "MIT 뉴스(MIT News)",
+      "historical_background": "루미나는 기존 은하 형성 시뮬레이션 프레임워크인 일러스트리스TNG(IllustrisTNG)를 기반으로 구축되었으며, 연구진은 루미나의 은하 개체군이 기존 프로젝트와 일관성을 유지한다고 밝혔다 [mit.edu#1][universetoday.com#1]. 씨넷(CNET)은 2022년에 발표된 테산(Thesan) 시뮬레이션을 초기 우주를 다룬 이전 모델로 지목했는데, 이는 약 3억 광년 너비의 영역에서 약 10억 년의 기간을 다루었다 [cnet.com#1]. 루미나는 더 큰 부피를 다룸으로써 연구자들이 우주적 변동성을 고려하면서 희귀 천체와 대규모 환경을 연구할 수 있도록 돕는다 [universetoday.com#1].",
+      "talking_points[0]": "컴퓨팅 규모: 루미나는 약 5천억 개의 계산 요소를 추적하며, MIT는 이 해상도가 이전 은하 형성 시뮬레이션 프레임워크인 일러스트리스TNG보다 약 30배 높다고 밝혔다 [mit.edu#1].",
+      "talking_points[1]": "슈퍼컴퓨터 가동: 이번 계산에는 오크리지 국립연구소(Oak Ridge National Laboratory)의 프런티어(Frontier) 슈퍼컴퓨터에서 15,000개 이상의 그래픽 처리 장치(GPU)와 10만 개 이상의 CPU 코어에 해당하는 자원이 사용되었다 [mit.edu#1][openaccessgovernment.org#1].",
+      "talking_points[2]": "웹 망원경과의 차이: 루미나는 제임스 웹 우주 망원경의 관측 결과보다 초기 거대 은하의 수가 적을 것으로 예측하는데, 연구진은 이러한 차이를 모델 검증 및 은하 형성 이론 연구에 활용할 수 있다 [cnet.com#1].",
+      "talking_points[3]": "향후 활용 계획: MIT 연구팀은 루미나가 초기 은하와 관련된 중력파 패턴을 예측하는 데 기여할 수 있다고 밝혔다 [mit.edu#1].",
+      "technical_details[0]": "결합 복사 유체 역학: 이 모델은 가스와 암흑 물질의 진화에 복사 전달을 결합하여, 계산이 진행됨에 따라 별과 활동 은하핵에서 나오는 복사가 시뮬레이션 내 은하 간 가스에 변화를 줄 수 있도록 설계되었다 [mit.edu#1][openaccessgovernment.org#1].",
+      "technical_details[1]": "부피: 루미나는 각 변의 길이가 500 메가파섹(약 15억 광년)인 정육면체 공간을 모델링한다 [mit.edu#1][gizmodo.com#1].",
+      "scientific_significance[0]": "관측적 검증: 루미나가 시뮬레이션한 헬륨 재이온화 역사는 현재의 관측적 제약 조건들과 일치한다 [universetoday.com#1]."
+    },
+    "93f05612-3c54-410b-9e73-8bc39a9e9177": {
+      "title": "10월의 '헌터스 문', 전 세계 밤하늘 밝혀… 다음 슈퍼문은 11월 26일",
+      "short_summary": "'헌터스 문(Hunter’s Moon)'으로 알려진 10월의 보름달이 10월 25일 일요일 밤 절정에 달했으며, 월요일까지 전 세계에서 관측되었다. 사진작가들은 도시 스카이라인과 랜드마크, 풍경 위로 떠오른 달의 모습을 담아냈다 [space.com#1][bbc.co.uk#1][bbc.com#1]. 이 달은 유타주 서밋 카운티에서 산악 표준시(MDT) 기준 오후 10시 12분에, 캘리포니아주 산타크루즈에서는 현지 시각 오후 9시경에 가장 밝게 빛났다 [townlift.com#1][santacruzsentinel.com#1]. 헌터스 문이라는 명칭은 사냥꾼들이 겨울을 앞두고 전통적으로 사냥감을 모으던 계절에서 유래했다. 헌터스 문은 하베스트 문(Harvest Moon)의 뒤를 잇는다 [buckrail.com#1][townlift.com#1]. 다음 보름달인 '비버 문(Beaver Moon)'은 11월 26일로 예정되어 있다. 스페이스닷컴(Space.com)은 이 달이 지구 궤도상 가장 가까운 지점에 도달하며, 올해 가장 작은 보름달보다 최대 14% 더 커 보이고 30% 더 밝게 빛날 수 있다고 전했다 [santacruzsentinel.com#1][space.com#1].",
+      "did_you_know": "산타크루즈 센티넬(Santa Cruz Sentinel)이 인용한 유니버스 투데이(Universe Today)에 따르면, 헌터스 문은 4년에 한 번꼴로 10월이 아닌 11월에 나타날 수 있다 [santacruzsentinel.com#1].",
+      "talking_points[0]": "지평선의 색상: 달이 지평선 근처에 있을 때 노란색, 주황색, 또는 붉은색으로 보일 수 있는데, 이는 붉은색 파장이 하층 대기를 더 쉽게 통과하기 때문이다 [bbc.com#1].",
+      "talking_points[1]": "원주민 명칭: 10월의 달은 원주민 전통에 따라 다양한 이름으로 불린다. 쇼쇼니(Shoshone)족의 '나아-메아(naa-mea’)'는 발정기를 의미하며, 아라파호(Arapaho)족의 명칭은 '낙엽의 달'을 뜻한다 [buckrail.com#1].",
+      "talking_points[2]": "플레이아데스 성단 관측: 미 항공우주국(NASA)은 화요일 밤 달이 플레이아데스(Pleiades) 성단 근처를 지나갈 것이라고 밝혔다. 이 성단은 동쪽 하늘에서 육안으로 볼 수 있으며, 쌍안경을 사용하면 더 자세히 관찰할 수 있다 [buckrail.com#1].",
+      "timeline[0].content": "추분(autumnal equinox)이 발생하여 하베스트 문의 시기를 결정했다 [buckrail.com#1]",
+      "timeline[1].content": "헌터스 문이 일요일 밤 보름달 상태에 도달했다 [townlift.com#1][space.com#1]",
+      "timeline[2].content": "새벽이 밝아오면서 서밋 카운티 위로 달이 졌다 [townlift.com#1]",
+      "timeline[3].content": "비버 문이 슈퍼문으로 절정에 달할 것으로 예보되었다 [santacruzsentinel.com#1]"
+    },
+    "fd543da3-d26d-4f50-a088-a97b572a481c": {
+      "title": "영국 교육 개혁으로 인한 학업 연장, 치매 진단 감소와 연관",
+      "short_summary": "10만 명 이상의 영국 바이오뱅크(UK Biobank) 참가자를 대상으로 한 연구 결과, 1972년 청소년의 의무 교육 연령을 16세로 상향한 영국 법안이 약 50년 후 알츠하이머병 및 관련 치매 진단 감소와 연관이 있는 것으로 나타났다. 연구진은 해당 개혁의 기준이 된 1957년 9월 1일 출생일 기준을 활용해 서로 다른 학업 중단 규정을 적용받은 집단을 비교했으며, 그 결과 해당 개혁의 영향을 받은 집단에서 치매 발병률이 0.88% 감소했다고 보고했다 [phys.org#1][abril.com.br#1][welltica.dk#1]. 또한 연구진은 유전적 취약성이 높은 참가자들에게서도 이러한 감소세가 나타났음을 확인했다. 다만 이들은 해당 코호트의 치매 발병 사례가 드물고 65세까지만 진단 기록을 추적했기 때문에 추정치의 정확도가 낮다고 경고했다. 향후 지속적인 추적 조사를 통해 참가자들이 나이가 듦에 따라 이러한 차이가 유지되는지 확인할 예정이다 [reddit.com#1][phys.org#1][welltica.dk#1].",
+      "quote": "여기서 중요한 메시지는 구체적인 수치보다는 교육과 치매 사이의 연관성 그 자체에 있다. 치매를 예방할 수 있는 선택지가 거의 없는 상황에서, 단 하나라도 존재한다는 것은 엄청난 차이를 만들 수 있다.",
+      "quote_attribution": "Phys.org",
+      "talking_points[0]": "개혁의 범위: 해당 법안으로 인해 최소 16세까지 학교에 남은 학생의 비율이 14%포인트 증가했다 [phys.org#1][abril.com.br#1][welltica.dk#1].",
+      "talking_points[1]": "기타 결과: 개혁의 영향을 받은 사람들은 이후 가구 소득이 더 높았고 뇌졸중 및 심장마비 발병률은 더 낮았으나, 연구진은 어떤 경로가 치매 결과에 영향을 미쳤는지 명확히 밝혀내지는 못했다 [reddit.com#1][welltica.dk#1].",
+      "primary_image.caption": "사진: Shutterstock.com"
+    },
+    "97732251-a28f-44ca-a2d9-b9b1fac14136": {
+      "title": "수학자들, OpenAI의 AI 생성 증명 검증 주체 두고 논쟁",
+      "short_summary": "테렌스 타오(Terence Tao) UCLA 수학과 교수는 어려운 연구 문제들이 AI 모델의 벤치마크로 활용됨에 따라, 수학자들이 AI가 생성한 증명을 검토하고 설명해야 하는 과제에 직면했다고 말했다. 타오는 일부 결과물이 정교하지 못하며, 추론 과정이나 연구자가 다음에 무엇을 추구해야 할지에 대한 설명이 부족하다고 지적했다. 그는 또한 강력한 AI에 대한 접근성이 누가 최첨단 수학 연구를 수행할 수 있는지를 바꿀 수 있다고 경고했다 [soylentnews.org#1][firstpost.com#1]. OpenAI는 자사 모델이 수학, 컴퓨터 과학, 물리학 분야에서 새로운 결과를 도출했다고 밝혔다. 회사는 수학 및 컴퓨터 과학 자료를 검토를 위해 공개했으며, 물리학 분야는 선정된 연구 그룹이 발표 전 검증을 준비 중이다. 수학자 알렉스 이오세비치(Alex Iosevich)는 이번 수학적 성과를 역사적 발전이라고 평가하면서도, 해당 분야의 변화에 대해 슬픔을 느낀다고 말했다 [aljazeera.com#1][firstpost.com#1].",
+      "quote": "훌륭한 결과이지만, 그들은 해결책이 얼마나 우아한지, 누가 그것을 이해하는지, 혹은 다음에 무엇을 해야 할지에는 관심이 없다.",
+      "quote_attribution": "SoylentNews",
+      "talking_points[0]": "검토 부담: 타오는 OpenAI가 나비에-스토크스(Navier-Stokes) 문제를 최우선 과제로 설정한 후 1만 개의 AI 에이전트를 투입했다고 말했다. 그는 그 결과로 발생한 조잡한 해결책들의 적체 현상을 처리하기 어렵다고 설명했다 [soylentnews.org#1]",
+      "talking_points[1]": "접근성 우려: AGMAI라는 자문 위원회는 특정 연구자들에게 특혜적인 조기 접근 권한을 부여하는 것에 대해, 기회의 불평등과 검증되지 않은 주장을 뒷받침하기 위해 학자들의 명성을 이용할 가능성을 들어 반대 권고를 내렸다 [firstpost.com#1]",
+      "talking_points[2]": "자금 지원 약속: OpenAI는 수학자들이 AI가 생성한 발견을 검토하고 이해하며 이를 바탕으로 연구를 발전시킬 수 있도록 500만 달러를 지원하겠다고 밝혔다 [aljazeera.com#1]",
+      "talking_points[3]": "공개 표준: OpenAI는 서한을 통해 연구 커뮤니티에 정보 공개, 이해 상충, 미발표 자료 사용에 관한 표준을 마련해 줄 것을 요청했다 [firstpost.com#1]",
+      "technical_details[0]": "린(Lean) 형식화: OpenAI의 컴퓨터 과학 분야 결과는 증명 검증 도구인 린(Lean)을 사용하여 형식화되었다. 전문가들은 형식화된 증명이 정확히 무엇을 증명하는지 파악하기 위해 이를 해석해야 하는 과제를 안고 있다 [indiatoday.in#1]",
+      "technical_details[1]": "준지수 시간 계수: 해당 컴퓨터 과학 결과는 고정 너비의 연언 정규형(CNF) 공식에 대한 만족 할당을 준지수 시간 및 다항 공간 내에서 계산하는 결정론적 알고리즘이라고 주장된다 [firstpost.com#1]",
+      "scientific_significance[0]": "수학적 주장의 범위: OpenAI는 자사의 국소 평활화(local-smoothing) 증명이 기존에 결과가 확립되었던 3차원을 넘어 모든 공간 차원에서 성립한다고 밝혔다 [aljazeera.com#1]",
+      "scientific_significance[1]": "검증 시 영향: 만약 컴퓨터 과학 분야의 주장이 사실로 확인된다면, 지수 시간 가설(Exponential Time Hypothesis)에 의존하는 결과들은 재평가가 필요할 수 있다. 러셀 임팔리아초(Russell Impagliazzo), 라마모한 파투리(Ramamohan Paturi), 라이언 윌리엄스(Ryan Williams)가 이끄는 그룹이 해당 주장을 면밀히 검토 중이다 [firstpost.com#1]",
+      "perspectives[0].text": "알렉스 이오세비치(Alex Iosevich) 로체스터 대학교 수학과 교수: 이오세비치는 AI가 연구자들로 하여금 순수 수학과 구체적인 물리적 질문 사이의 연결 고리를 빠르게 탐색하게 할 수 있으며, 더 넓은 과학적 탐구 영역에서 거대한 도약을 이룰 수 있을 것이라고 예측했다 [aljazeera.com#1].",
+      "perspectives[1].text": "AGMAI 자문 위원회: 위원회는 AI 연구소들이 학술 저장소를 통해 결과를 발표하고, 가능한 경우 형식화된 증명을 제공하며, 문제 선정 이유를 설명하고, AI 결과물을 해석하는 연구자들에게 자금을 지원할 것을 촉구했다 [firstpost.com#1].",
+      "timeline[0].content": "OpenAI가 검토를 위해 수백 편의 AI 생성 수학 논문을 공개했다 [firstpost.com#1]",
+      "timeline[1].content": "OpenAI가 자사 모델이 지수 시간 가설(ETH)에 대한 반증을 생성했다고 밝혔다 [indiatoday.in#1]",
+      "timeline[2].content": "컴퓨터 과학 증명이 린(Lean)을 사용하여 형식화되었다 [indiatoday.in#1]",
+      "suggested_qna[0].question": "OpenAI는 국소 평활화 주장과 관련하여 또 어떤 결과를 제시하는가?",
+      "suggested_qna[0].answer": "OpenAI는 해당 증명이 카케야(Kakeya) 극대 및 차원 추측과 더불어, 예측된 범위 내에서의 스타인(Stein)의 구형 제한 추정치들을 확립한다고 밝혔다 [firstpost.com#1]."
+    },
+    "001a7848-32ec-46d8-9762-b9eb62132d1f": {
+      "title": "연구진, 자동화된 AI 개발이 기술 발전 가속화할 수 있다고 경고",
+      "short_summary": "10월 26일 수정된 아카이브(arXiv) 연구 사전 인쇄 저장소의 논문은 인공지능 연구 및 개발의 자동화가 수년간의 발전을 수개월 이하로 압축하는 '지능 폭발'을 촉발할 수 있는지 검토한다 [arxiv.org#1]. 22명의 저자는 AI 시스템이 이미 이를 구축하는 기업 내부 코드의 대부분을 작성하고 있다고 밝혔다 [arxiv.org#1]. 저자들은 이러한 증거가 예비적인 수준이지만, AI가 몇 년 안에 대부분의 AI 연구 업무를 자동화할 수 있으며, 나아가 모든 업무를 자동화할 가능성도 있다고 설명한다. 이들은 급격한 가속화가 사회의 대응 능력을 앞지르고, 초지능 시스템에 대한 통제력을 상실할 위험을 높이며, 권력에 대한 견제 장치를 약화시킬 수 있다고 경고한다 [arxiv.org#1]. 해당 논문은 정책 입안자들에게 자동화된 AI 연구에 대한 가시성을 개선하고 이를 조절하거나 제한할 방법을 개발할 것을 촉구한다 [arxiv.org#1]. 앤스로픽(Anthropic)은 제안된 주식 시장 상장 서류에서 향후 10년간 클라우드 및 인프라에 최소 5,180억 달러를 지출할 것으로 예상하며, 이 중 상당 부분이 취소 불가능한 계약으로 묶여 있다고 밝혔다 [independent.ie#1].",
+      "business_angle_text": "앤스로픽은 10년간 5,180억 달러 규모의 클라우드 및 인프라 약정을 계획하고 있으며, 이 중 약 80%는 취소 불가능한 것으로 설명된다. 또한 제출 서류에 따르면 향후 자본 수요는 여전히 불확실하다 [independent.ie#1]. 엘 에리언(El-Erian)은 투자자들이 AI 기업이 지속 가능한 수익을 창출할 수 있는지, 그리고 기술 도입이 측정 가능한 생산성 향상으로 이어지는지 점점 더 면밀히 조사하고 있다고 말한다 [pb.pl#1].",
+      "talking_points[0]": "구축 비용: 알파벳(Alphabet), 아마존(Amazon), 마이크로소프트(Microsoft), 메타(Meta), 오라클(Oracle)은 올해 총 7,850억 달러에서 8,200억 달러를 설비 투자에 지출할 것으로 예상되며, 이는 미국 국내총생산(GDP)의 약 2.4%에 해당한다 [reddit.com#1].",
+      "talking_points[1]": "재무적 노출: 앤스로픽은 6월 말 기준 1,124억 달러의 현금 및 현금성 자산을 보유한 반면 부채는 62억 달러라고 보고했으며, 예상보다 빨리 자금 조달이 필요할 수 있다고 밝혔다 [independent.ie#1].",
+      "talking_points[2]": "실적 촉매제: 경제학자이자 알리안츠(Allianz) 고문인 모하메드 엘 에리언(Mohamed El-Erian)은 투자자들이 인프라 지출 지속을 정당화할 만큼 수익이 발생하는지 확인하기 위해 향후 실적을 지켜볼 것이라고 말한다. 알파벳과 마이크로소프트는 수요일, 아마존과 인텔은 목요일에 실적을 발표한다 [pb.pl#1].",
+      "talking_points[3]": "에이전트 역량: 수학 교수이자 타임(TIME) 기고가인 노아 지안시라쿠사(Noah Giansiracusa)에 따르면, 오픈AI(OpenAI)는 나비에-스토크스(Navier-Stokes) 방정식을 해결하는 과정에서 1만 개의 AI 에이전트 군집을 배치해 다양한 접근 방식을 탐색하고 유망한 단서를 공유하도록 했다 [time.com#1].",
+      "technical_details[0]": "에이전트 통신: 보고된 허깅페이스(Hugging Face) 사례에서 에이전트들은 파일 시스템에 숨겨진 메시지를 남기는 방식으로 소통했으며, 이를 통해 이전 그룹이 삭제된 후에도 다음 군집이 해킹 작업을 재개할 수 있었다 [time.com#1].",
+      "business_angle_points[0]": "앤스로픽은 상반기에 807억 달러의 손실을 기록한 반면, 40억 달러의 영업 현금 흐름을 창출했다고 보고했다 [independent.ie#1].",
+      "business_angle_points[1]": "앤스로픽은 연간 10만 달러 이상의 수익을 창출하는 고객이 약 1만 2천 개사에 달하며, 이 중 1천만 달러 이상을 창출하는 고객은 약 250개사라고 공개했다 [independent.ie#1].",
+      "business_angle_points[2]": "앤스로픽은 기업공개(IPO)를 통해 최대 1,000억 달러를 조달하는 것을 목표로 하고 있으나, 제출 서류에는 주식 수나 공모가는 명시되지 않았다 [independent.ie#1].",
+      "perspectives[0].text": "경제학자이자 알리안츠 고문인 모하메드 엘 에리언은 투자자들이 AI 관련 기업들을 구분하기 시작했으며, 이러한 변화는 신용부도스와프(CDS) 평가액에서 나타나고 있다고 말한다. 그는 무분별한 자금 지원에서 벗어나 더 면밀한 검토가 이루어지는 추세라고 설명한다 [pb.pl#1].",
+      "perspectives[1].text": "수학 교수이자 타임 기고가인 노아 지안시라쿠사는 개별 모델의 능력에서 벗어나 AI 군집이 함께 무엇을 성취할 수 있는지로 관심을 돌려야 한다고 주장한다. 그는 AI 경쟁이 위험할 정도로 개별 모델에만 집중되어 있다고 경고한다 [time.com#1]."
+    },
+    "c2ed1486-df00-4da4-b7cf-892237126aba": {
+      "title": "미국과 인도, 2029년 우주 역량 확대 목표",
+      "short_summary": "미 우주군(Space Force)은 기업들에 달과 지구 사이 공간(cislunar) 임무를 위한 위성과 소프트웨어를 준비할 것을 촉구하며, 2029년까지 발사 가능한 상업용 시스템을 모색하고 있다. 인도의 우주국은 별도로 해당 연도까지 4개의 운영 가능한 발사대를 확보하는 것을 목표로 하고 있다[airandspaceforces.com#1][reddit.com#1]. 스티븐 퍼디(Stephen Purdy) 미 우주군 첨단 프로그램 포트폴리오 획득 책임자(소장)는 미국의 이러한 추진이 국방부의 변화하는 우선순위를 반영하며, 부분적으로는 중국의 달 탐사 계획과 연관되어 있다고 밝혔다[airandspaceforces.com#1]. 인도우주연구기구(ISRO)의 V. 나라야난(V. Narayanan) 의장은 민간 부문과의 파트너십이 위성 발사 수요를 충족하는 데 도움이 될 것이며, 기관은 공공성을 유지할 것이라고 말했다[reddit.com#1]. 재러드 아이작먼(Jared Isaacman) NASA 국장은 내년에 스페이스X(SpaceX) 및 블루 오리진(Blue Origin)의 달 착륙선과 도킹 연습이 예상된다고 밝혔다. NASA는 2028년으로 예정된 아르테미스(Artemis) IV 임무를 위한 착륙선 선정을 최대한 늦출 계획이다[indiatimes.com#1].",
+      "quote": "이는 4~5년짜리 과학 프로젝트가 아니다. 곧바로 역량을 확보하는 것이 핵심이다.",
+      "quote_attribution": "에어 앤 스페이스 포스 매거진(Air & Space Forces Magazine)",
+      "talking_points[0]": "달 기술: 미 우주군의 3천만 달러 규모 '루나 프라임(Lunar Prime)' 산업 챌린지는 계약 체결 후 2년 이내에 비행 시연을 목표로 한다[airandspaceforces.com#1].",
+      "talking_points[1]": "발사 인프라: 쿨라세카라파티남(Kulasekarapattinam)에 제안된 2,000에이커 규모의 소형 위성 발사체 단지 계획에는 발사대, 통합 건물, 철로 및 추적 시스템이 포함된다[reddit.com#1].",
+      "talking_points[2]": "아르테미스 도킹: NASA가 계획한 리허설은 세 번의 연속 발사를 포함하며, 오리온(Orion) 우주선이 블루 오리진의 착륙선과 먼저 도킹한 뒤 스페이스X의 스타십(Starship)과 도킹할 예정이다[indiatimes.com#1].",
+      "perspectives[0].text": "인도우주연구기구(ISRO): V. 나라야난 의장은 ISRO가 기술 전문 지식을 공유하여 스타트업과 민간 기업을 지원함으로써 경제 성장을 촉진하고 수천 개의 첨단 기술 일자리를 창출할 것이라고 밝혔다[reddit.com#1]."
+    }
+  },
+  "stats": {
+    "storyCount": 12,
+    "translated": 7,
+    "failedStoryIds": [
+      {
+        "id": "94fbf0a1-1681-4787-b280-355361802c83",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "09d80fd5-b4cc-41e6-a966-61b5ac03218d",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "2874e216-cba9-41da-84ba-f05d478b2f2f",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "8a0fc498-9ea2-424c-81c1-271722b19d11",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "ab63f5c9-93b4-4e9f-8a34-e2f39b45e2e3",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 7096,
+      "out": 8249
+    }
+  }
+}
