@@ -1,50 +1,50 @@
 {
   "version": 1,
   "batchId": "f0b29fe5-be45-4429-83e4-8323fdcab1b8",
-  "updatedAt": "2026-10-28T18:26:59.637Z",
+  "updatedAt": "2026-10-28T19:28:52.060Z",
   "categories": {
     "24782320-cc41-4f41-add6-44706e78ea85": {
       "slug": "tech",
       "status": "ok",
       "storyCount": 12,
-      "translated": 7,
-      "failed": 5,
+      "translated": 8,
+      "failed": 4,
       "tokens": {
-        "in": 9911,
-        "out": 12165
+        "in": 11509,
+        "out": 14297
       }
     },
     "3523dfe0-6332-4276-80c3-3e02085f207f": {
       "slug": "science",
       "status": "ok",
       "storyCount": 12,
-      "translated": 9,
-      "failed": 3,
+      "translated": 10,
+      "failed": 2,
       "tokens": {
-        "in": 9668,
-        "out": 11485
+        "in": 11197,
+        "out": 13349
       }
     },
     "d5ddc419-fa40-4b75-9553-738b31741b0e": {
       "slug": "business",
       "status": "ok",
       "storyCount": 12,
-      "translated": 9,
-      "failed": 3,
+      "translated": 10,
+      "failed": 2,
       "tokens": {
-        "in": 13491,
-        "out": 16911
+        "in": 14859,
+        "out": 18625
       }
     },
     "5aa0a92c-3513-4f9a-a441-de2bd448fbde": {
       "slug": "usa",
       "status": "ok",
       "storyCount": 12,
-      "translated": 5,
-      "failed": 7,
+      "translated": 7,
+      "failed": 5,
       "tokens": {
-        "in": 5796,
-        "out": 6936
+        "in": 8396,
+        "out": 10322
       }
     },
     "8a2e4d8d-6ac5-429d-ad86-38a38f15329d": {
@@ -62,11 +62,11 @@
       "slug": "world",
       "status": "ok",
       "storyCount": 12,
-      "translated": 8,
-      "failed": 4,
+      "translated": 9,
+      "failed": 3,
       "tokens": {
-        "in": 11063,
-        "out": 14039
+        "in": 12602,
+        "out": 16015
       }
     }
   },
@@ -74,9 +74,9 @@
     "status": "skipped"
   },
   "run": {
-    "attempted": 33,
-    "failed": 28,
-    "failureRatePct": 84.84848484848484,
+    "attempted": 28,
+    "failed": 22,
+    "failureRatePct": 78.57142857142857,
     "unresolvedSlugs": []
   }
 }

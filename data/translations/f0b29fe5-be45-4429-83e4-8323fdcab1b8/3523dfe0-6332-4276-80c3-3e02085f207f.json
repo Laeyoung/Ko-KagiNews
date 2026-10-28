@@ -4,7 +4,7 @@
   "categoryUuid": "3523dfe0-6332-4276-80c3-3e02085f207f",
   "categorySlug": "science",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-28T18:24:55.325Z",
+  "createdAt": "2026-10-28T19:27:29.263Z",
   "stories": {
     "eabdb7c3-ba79-495b-a733-b3859f180d6d": {
       "title": "트럼프, 450억 달러 절감 명분으로 석유·가스 메탄 규제 완화 제안",
@@ -138,11 +138,33 @@
       "talking_points[0]": "지역별 손실: 캘리포니아주 시에라네바다산맥의 빙하들은 부피의 77%를 잃었으며, 워싱턴주와 오리건주의 캐스케이드산맥 빙하들은 최근 수십 년간 13%가 감소했다 [oregoncapitalchronicle.com#1].",
       "talking_points[1]": "산불의 영향: 지구과학 교수 브라이언 메누노스(Brian Menounos)는 산불로 발생한 그을음과 먼지가 빙하 표면을 어둡게 만들어 햇빛 흡수율을 높이고 융해를 가속화한다고 설명했다 [reddit.com#1][presstelegram.com#1].",
       "scientific_significance[0]": "조사 방법: 연구진은 서부 빙하 1,331곳의 크기와 부피 데이터를 1950년부터 1980년까지의 미국 지질조사국(USGS) 빙하 지도와 비교했으며, 이번 조사에는 연방 정부가 공식 인정하지 않은 빙하들도 포함되었다 [oregoncapitalchronicle.com#1]."
+    },
+    "aff8f5af-e5e4-4acd-92d1-6bc6ebc022d4": {
+      "title": "랜싯 연구, 2025년 폭염으로 인한 노동 시간 손실 5,730억 시간 달해",
+      "short_summary": "랜싯 카운트다운(Lancet Countdown) 연구에 따르면 2025년 폭염으로 인해 전 세계적으로 5,730억 시간의 잠재적 노동 시간이 손실되었으며, 이에 따른 생산성 손실액은 1조 700억 달러에 달했다. 같은 해 전 세계 육지의 절반 이상이 최소 한 달 이상 가뭄의 영향을 받았다[abc.net.au#1][abc.com.py#1]. 이러한 손실은 저소득 및 중소득 국가와 농업, 건설업 등 야외 작업 부문에 가장 큰 타격을 입혔다[abc.net.au#1][abc.com.py#1]. 30개국 146명의 연구진이 작성한 이 보고서는 기후 변화를 전 세계적인 보건 비상사태로 다루고 보건 중심의 통합적 대응을 촉구했다[koreaherald.com#1][abc.com.py#1]. 보고서는 세계보건기구(WHO) 회원국 중 56개국이 보건 또는 조기 경보 시스템을 조정했으나, 기후 보건 연구 자금의 84%가 부유한 국가의 연구자들에게 집중되었다고 지적했다[koreaherald.com#1].",
+      "quote": "기후 관련 보건 위협의 증가 속도는 가속화되고 있으며, 기후 변화와 관련된 폭염 사망자는 사상 최고치를 기록했고, 경제적 피해는 취약한 부문과 지역사회에 가장 큰 타격을 주고 있다.",
+      "quote_attribution": "사이언스얼럿(ScienceAlert)",
+      "talking_points[0]": "대기 오염 사망: 보고서는 더 깨끗한 에너지 사용과 화석 연료로 인한 대기 오염 감소가 최소 77개국에서 약 32만 3,000명의 사망을 예방하는 데 기여한 것으로 추정했다[koreaherald.com#1][abc.com.py#1][huffingtonpost.fr#1].",
+      "talking_points[1]": "홍수 노출: 2016~2025년 사이 매년 평균 17.2%의 육지가 극한 강우의 영향을 받았으며, 이는 이전 10년간의 14.8%보다 증가한 수치로 홍수, 산사태, 수인성 질병의 위험을 높였다[abc.com.py#1].",
+      "talking_points[2]": "재생 에너지 성장: 전체 전력 생산에서 재생 에너지가 차지하는 비중은 2016년 5.5%에서 2023년 13.5%로 증가했으며, 청정 에너지 투자는 2025년 2조 1,000억 달러에 도달했다[abc.com.py#1][koreaherald.com#1].",
+      "talking_points[3]": "교통 전동화: 2016년부터 2023년까지 전 세계 교통 분야의 전기 사용량은 427% 증가했다[abc.net.au#1].",
+      "scientific_significance[0]": "귀속 분석 방법: 연구진은 인간 활동으로 인한 온난화가 없었을 때 예상되는 사망자 수를 관측된 폭염 관련 사망자 수에서 차감하는 방식으로 기후 변화에 기인한 폭염 사망자를 추정했다. 결과값은 직접적인 집계가 아닌 모델링된 반사실적 수치이다[koreaherald.com#1].",
+      "scientific_significance[1]": "가뭄의 결과: 보고서는 가뭄이 식량 및 물 안보 불안, 수질 및 대기질 저하, 정신 건강에 미치는 영향 등을 통해 보건 위협을 가중시키고 보건 시스템에 부담을 준다고 경고한다[abc.net.au#1][abc.com.py#1][sciencealert.com#1].",
+      "scientific_significance[2]": "화석 연료 계획: 보고서에 따르면 100대 석유 및 가스 기업들은 지구 온난화를 1.5°C 이내로 제한하는 목표와 일치하는 수준보다 2040년까지 150% 더 많은 화석 연료를 생산할 계획이다[sciencealert.com#1].",
+      "industry_impact[0]": "지역별 경제 영향: 추정 생산성 손실은 동남아시아 GDP의 3.9%, 아프리카의 3.2%에 해당하며, 유럽은 0.2%, 미주 지역은 1.5%를 기록했다[koreaherald.com#1][franceinfo.fr#1].",
+      "perspectives[0].text": "랜싯 카운트다운 연구진: 연구진은 화석 연료 로비와 업계 이익 단체 및 정치적 동맹들의 허위 정보가 더 깨끗한 에너지로의 전환을 방해하고 있다고 말한다[abc.net.au#1].",
+      "perspectives[1].text": "앤서니 코스텔로(Anthony Costello) 랜싯 카운트다운 공동 의장: 코스텔로는 보건 중심의 기후 행동이 이미 건강을 보호하고 있지만, 배출량 감축 속도가 피해 규모를 따라가지 못하고 있다고 지적했다[sciencealert.com#1].",
+      "timeline[0].content": "각국이 파리 기후 협정을 채택하고 온도 목표를 설정했다[lemonde.fr#1].",
+      "timeline[1].content": "기후 보건 연구 자금이 2016년 대비 7배 증가한 3억 1,600만 달러에 도달했다[koreaherald.com#1].",
+      "timeline[2].content": "가뭄의 영향을 받는 지역이 2006~2015년 대비 2016~2025년에 700% 이상 빠르게 증가했다[abc.com.py#1].",
+      "suggested_qna[0].question": "공식적인 전 세계 보건 비상사태 대응에는 무엇이 포함되는가?",
+      "suggested_qna[0].answer": "연구진은 세계보건기구(WHO)와 유엔(UN)이 기후 변화를 전 세계적 보건 비상사태로 선포하고, 각국 정부의 기후 결정을 보건 중심으로 조정하며, 기후 및 보건 이니셔티브에 대한 보조금 형태의 자금 지원을 늘릴 것을 요구한다[sciencealert.com#1].",
+      "secondary_image.caption": "관측 기록상 가장 더웠던 날인 2026년 6월 23일, 프랑스 보르도의 펠레그랭(Pellegrin) 대학 병원 응급실 복도에서 의료진이 환자를 이송하고 있다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 9,
+    "translated": 10,
     "failedStoryIds": [
       {
         "id": "bbb0a437-77a4-40ca-8301-0db3df68877f",
@@ -151,15 +173,11 @@
       {
         "id": "9ac8dec4-a740-4b9f-9f3e-52743746f4c2",
         "reason": "retry_exhausted"
-      },
-      {
-        "id": "aff8f5af-e5e4-4acd-92d1-6bc6ebc022d4",
-        "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 9668,
-      "out": 11485
+      "in": 11197,
+      "out": 13349
     }
   }
 }

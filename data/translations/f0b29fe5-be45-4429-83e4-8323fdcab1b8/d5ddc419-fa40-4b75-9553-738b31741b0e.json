@@ -4,7 +4,7 @@
   "categoryUuid": "d5ddc419-fa40-4b75-9553-738b31741b0e",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-28T18:22:50.856Z",
+  "createdAt": "2026-10-28T19:25:25.829Z",
   "stories": {
     "6e9faeed-2374-4ff1-b4c0-15214f5e278f": {
       "title": "연준, 금리 동결 전망… 인플레이션으로 12월 인상 베팅 확산",
@@ -205,16 +205,33 @@
       "timeline[1].content": "이란 전쟁 발발 및 이후 연료비 상승 [businessinsider.com#1][bbc.co.uk#1]",
       "timeline[2].content": "오디세이호, 5일간의 방문을 위해 시아누크빌에 정박 [apnews.com#1][lrytas.lt#1]",
       "timeline[3].content": "빌라 비, 운항 중단 발표 및 하선 조율 시작 [businessinsider.com#1][soha.vn#1]"
+    },
+    "8b04e22a-a303-4b01-94c3-9e74e60f0791": {
+      "title": "앤스로픽 창업자들, IPO 후에도 의결권 유지… 컴퓨팅 약정액 6,370억 달러 돌파",
+      "short_summary": "앤스로픽(Anthropic)의 기업공개(IPO) 계획 세부 사항에 따르면, 7명의 창업자가 의결권의 50.1%를 유지하게 되어 상장 후 다른 모든 주주를 합친 것보다 더 많은 의결권을 행사하게 된다. 벤처 투자자 토마스 퉁구즈(Tomasz Tunguz)에 따르면 앤스로픽의 장기 인프라 의무액은 해지 불가능한 계약을 포함해 6,370억 달러로 추산된다[businessinsider.com#2][axios.com#1]. 칩 제조사 브로드컴(Broadcom)은 앤스로픽이 자사의 AI 칩을 더 많이 구매할 수 있도록 630억 달러 규모의 은행 대출을 주선했으며, 해당 거래 가치의 80%를 보증하기로 합의했다고 밝혔다. 브로드컴은 자사가 대주나 차주가 아니라고 설명했다[yahoo.com#2]. 나스닥 상장을 통한 앤스로픽의 기업 가치는 1조 5,000억 달러에서 2조 달러 사이로 평가될 수 있으나, 회사 측은 주식 수나 가격 범위를 공개하지 않았다[cnbc.com#1][malaymail.com#1]. 앤스로픽은 상장 전 3분기 실적을 발표할 것으로 예상된다[malaymail.com#1].",
+      "quote": "악마는 디테일에 숨어 있는데, 우리는 아직 모든 세부 사항을 파악하지 못했다.",
+      "quote_attribution": "CNBC",
+      "business_angle_text": "아마존 웹 서비스(AWS), 구글 클라우드, 마이크로소프트 애저(Azure) 등 클라우드 플랫폼은 2026년 상반기 앤스로픽 매출의 48%를 차지했으며, 유통 수수료는 매출의 약 17%를 소비했다. 이들 제공업체는 앤스로픽과 경쟁 관계에 있으며, 고객 접근 권한과 용량 할당에 영향력을 행사하고 있다[heise.de#1].",
+      "talking_points[0]": "고객 성장: 앤스로픽은 연간 10만 달러 이상을 지출하는 고객이 11,900곳 이상이며, 이 중 1,000만 달러 이상을 지출하는 고객은 약 250곳이라고 보고했다[cnbc.com#1][latimes.com#1].",
+      "talking_points[1]": "현금 창출: 앤스로픽은 2026년 상반기에 39억 달러의 잉여현금흐름을 창출했으며, 포춘(Fortune)은 6월 기준 매출이 컴퓨팅 비용의 2배를 넘어섰다고 보도했다[fortune.com#1].",
+      "talking_points[2]": "가격 압박: 모닝스타(Morningstar)에 따르면 동일한 성능에서 텍스트를 처리하는 비용은 2024년 말 17달러에서 50센트로 하락했다[enca.com#1].",
+      "talking_points[3]": "창업자 승계: 각 창업자는 다른 구성원들의 승인을 전제로, 창업자 유한책임회사(LLC)의 의결권을 물려받을 잠재적 후계자를 최대 10명까지 기밀로 지정할 수 있다[businessinsider.com#3].",
+      "business_angle_points[0]": "전력 부족, 지역 사회의 반대, 데이터 센터 건설 유예 가능성 등이 인프라 확장을 지연시킬 수 있다[cnbc.com#2].",
+      "business_angle_points[1]": "앤스로픽의 상위 5개 고객사가 2026년 첫 9개월 매출의 약 4분의 1을 차지하고 있어, 이들 고객이 지출을 줄일 경우 위험에 노출될 수 있다[cnbc.com#1].",
+      "business_angle_points[2]": "브로드컴과의 계약은 칩 제조사가 고객의 자사 하드웨어 구매 자금을 지원하는 순환 금융에 대한 우려를 불러일으킬 수 있다[yahoo.com#2].",
+      "industry_impact[0]": "클라우드 제공업체: 앤스로픽은 향후 10년간 아마존 웹 서비스(AWS)에 최소 1,100억 달러를 지출하기로 약정했다. 아마존은 앤스로픽의 지분도 보유하고 있다[techcrunch.com#1].",
+      "industry_impact[1]": "IPO 접근성: 앤스로픽의 상장 신청서에는 스페이스X(SpaceX)의 20% 개인 투자자 할당과 달리, 개인 투자자를 위한 대규모 주식 배정은 포함되지 않았다[businessinsider.com#1].",
+      "perspectives[0].text": "데이비드 트레이너(David Trainer) 뉴 컨스트럭츠(New Constructs) 최고경영자는 이번 상장을 '거대한 월스트리트 사기'라고 규정하며, IPO 기업 가치에 대한 자사의 비관적인 견해를 드러냈다[cnbc.com#1].",
+      "perspectives[1].text": "트레버 노렌(Trevor Noren) 세이지 로드 리서치(Sage Road Research) 연구원은 특히 중국 AI 모델들과의 경쟁 심화가 앤스로픽의 가격 결정력을 약화시키고 있다고 말했다[latimes.com#1].",
+      "perspectives[2].text": "투자자이자 컨설턴트인 왈리드 디아브(Walid Diab)는 단기적인 IPO 투자를 고려하고 있으나, 앤스로픽을 장기 보유하기보다는 주식을 빠르게 매도할 계획이라고 밝혔다[businessinsider.com#1].",
+      "suggested_qna[0].question": "앤스로픽은 이번 상장을 통해 얼마를 조달할 수 있는가?",
+      "suggested_qna[0].answer": "언론 보도에 따르면 예상 조달액은 최대 1,000억 달러에 달한다[malaymail.com#1]."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 9,
+    "translated": 10,
     "failedStoryIds": [
-      {
-        "id": "8b04e22a-a303-4b01-94c3-9e74e60f0791",
-        "reason": "retry_exhausted"
-      },
       {
         "id": "80c8f2ec-c62b-4e6b-ac8f-4e563646a3b2",
         "reason": "retry_exhausted"
@@ -225,8 +242,8 @@
       }
     ],
     "tokens": {
-      "in": 13491,
-      "out": 16911
+      "in": 14859,
+      "out": 18625
     }
   }
 }

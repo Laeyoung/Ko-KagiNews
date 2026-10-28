@@ -4,7 +4,7 @@
   "categoryUuid": "1b3cfb3d-2f40-4df6-92ba-61ba4a1907b4",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-28T18:20:05.249Z",
+  "createdAt": "2026-10-28T19:23:07.586Z",
   "stories": {
     "2ebc2386-7f54-4d3c-8a18-d60c3a93c96e": {
       "title": "중국 스폰서들, 마오쩌둥 언급 논란으로 레알 마드리드 스타 음바페 후원 중단",
@@ -166,11 +166,35 @@
       "suggested_qna[1].answer": "공군의 76억 달러에는 파병 인력 지원, 공수, 기지 운영, 통신 및 전구 내 수송 비용이 포함된다[thehill.com#1].",
       "primary_image.caption": "파괴된 미 공군 E-3 조기경보통제기(AWACS). — AFP/자료사진",
       "secondary_image.caption": "미국의 이란 내 목표물 타격 중 토마호크 순항미사일을 발사하는 마이클 머피함(USS Michael Murphy). -- 로이터"
+    },
+    "78d8b80a-23ab-423b-9e8d-5224df1cd59b": {
+      "title": "세르비아 학생 주도 연합, 과반 의석 확보…부치치 14년 집권 종식",
+      "short_summary": "지도부 없는 학생 운동의 지지를 받는 세르비아 야당 '학생 연합(Student List)'이 10월 25일 총선에서 전체 250석 중 140석을 확보할 것으로 예상되며, 알렉산다르 부치치(Aleksandar Vučić) 전 대통령의 세르비아진보당(SNS)을 꺾었다. 지난달 SNS의 총선 승리를 이끌기 위해 대통령직에서 사임했던 부치치는 투표 후 패배를 인정했다. 잠정 집계 결과 학생 연합은 약 53%, SNS는 39%의 득표율을 기록했으며, 최종 결과는 인증을 기다리고 있다 [japantoday.com#1][newsday.com#1][lse.ac.uk#1]. 이번 승리는 2024년 11월 노비사드(Novi Sad)의 기차역 지붕이 붕괴해 16명이 사망한 사건으로 촉발된 약 2년간의 시위 끝에 이루어졌다. 학생들은 책임 규명과 부패 척결을 요구했으며, 이후 법치주의와 공공기관의 정상화로 운동의 범위를 넓혔다 [france24.com#1][politico.eu#1][lse.ac.uk#1]. 학생 연합 후보들은 국정 운영 경험이 거의 없으며, 정치적으로 다양한 지지층은 외교 정책에 대한 분열적인 문제들을 아직 해결하지 못했다. 세르비아 선거 절차상 결과가 확정되고 새 의회가 소집되기 전까지 이의 제기와 투표소 재투표가 가능하다. 이후 의원들은 90일 이내에 정부를 구성해야 한다. 부치치의 사임으로 별도의 대통령 선거가 필요하며, 연말 예산안도 통과시켜야 한다 [japantoday.com#1][newsday.com#1][deccanchronicle.com#1].",
+      "did_you_know": "뉴욕에 거주하는 일부 세르비아 유권자들은 해외 투표가 세르비아 현지 일정에 맞춰 진행됨에 따라 현지 시각 오전 1시에 투표소로 향했다 [lse.ac.uk#1].",
+      "quote": "외교 정책은 한 사람이나 그들을 대신해 결정을 내리는 극소수 집단의 의견이 아니라, 대다수 시민의 요구와 의지에 따라 형성되어야 한다.",
+      "quote_attribution": "자유유럽방송/자유라디오(Radio Free Europe/Radio Liberty)",
+      "location": "세르비아 베오그라드",
+      "talking_points[0]": "개혁 의제: 이 운동의 11개 항목 프로그램은 독립적인 검찰에 책임을 지는 경찰 부대 신설, 주요 정부 프로젝트에 대한 검토, 경찰 및 사법 감독 체계의 변화를 제안한다 [newsday.com#1][lavanguardia.com#1].",
+      "talking_points[1]": "선거 감시: 70%에 육박하는 투표율과 대규모 자원봉사자들의 투표소 감시 활동이 부정행위 가능성을 제한하는 데 기여했다. 유권자들은 비밀 투표 침해 및 신분증 없는 투표 등 부정 사례를 보고하기도 했다 [lse.ac.uk#1].",
+      "talking_points[2]": "언론 분쟁: 세르비아 언론인 협회들은 일부 단체가 방송국에 난입한 사건 이후, 국가 규제 당국에 친부치치 성향의 방송사 '인포머(Informer)'의 면허 취소를 요청했다 [newsday.com#1].",
+      "talking_points[3]": "외교 정책: 학생 연합은 코소보 승인을 반대하며, 러시아에 대한 제재를 부과하지 않겠다는 입장을 밝혔다 [rferl.org#1][arynews.tv#1].",
+      "talking_points[4]": "투자: 폴리티코(Politico) 보도에 따르면, 세르비아는 부치치 집권 10년 동안 서발칸반도 나머지 국가들을 합친 것보다 많은 300억 유로 이상의 외국인 직접 투자를 유치했다 [politico.eu#1].",
+      "international_reactions[0]": "🇪🇺 유럽연합(EU): 마르타 코스(Marta Kos) EU 확대 담당 집행위원은 EU가 차기 정부의 개혁 추진과 세르비아의 유럽 행보를 지원할 준비가 되어 있다고 밝혔다 [newsday.com#1].",
+      "international_reactions[1]": "🇷🇺 러시아: 드미트리 페스코프(Dmitry Peskov) 크렘린궁 대변인은 투표 후 부치치를 치켜세웠으나, 학생 연합에 대해서는 축하 인사를 건네지 않았다 [deccanchronicle.com#1][arynews.tv#1].",
+      "perspectives[0].text": "학생 연합: 일리야 스르다노비치(Ilija Srdanovic) 대표 후보는 세르비아가 유럽 통합에 전념할 것이며, 권리, 법치주의, 언론 자유에 관한 EU 가입 요건에 맞춰 국내 정책을 조정할 것이라고 밝혔다 [rferl.org#1].",
+      "perspectives[1].text": "유고슬라브 가시치(Jugoslav Gašić) 학생 연합 당선인: 가시치는 세르비아가 세르비아의 이익을 중심으로 EU와의 관계를 재설정해야 하며, 일방적인 접근 방식은 장기적인 협력을 촉진하지 못할 것이라고 경고했다 [politico.eu#1].",
+      "perspectives[2].text": "스르잔 마이스토로비치(Srdjan Majstorović) 유럽정책센터 의장: 마이스토로비치는 EU가 민주주의 퇴행 문제를 해결하지 못하고 다른 세르비아의 목소리를 배제한 채 부치치를 대체 불가능한 인물로 대우함으로써 스스로의 신뢰도를 훼손했다고 주장했다 [politico.eu#1].",
+      "perspectives[3].text": "학생 연합: 이 운동은 인포머에 대한 공격을 반대하며, 의회 내 제도적 투쟁을 통해 언론 자유를 추구할 것이라고 밝혔다 [newsday.com#1].",
+      "timeline[0].content": "노비사드 역 지붕 붕괴로 16명 사망 [nzz.ch#1][lse.ac.uk#1]",
+      "timeline[1].content": "학생들, 수개월간의 시위 끝에 조기 총선 요구 [lse.ac.uk#1]",
+      "timeline[2].content": "학생 운동의 요구에 따라 총선 실시 발표 [lse.ac.uk#1]",
+      "timeline[3].content": "학생 연합의 총선 승리 후 부치치 패배 인정 [lse.ac.uk#1][japantoday.com#1]",
+      "primary_image.caption": "한 젊은이가 베오그라드에서 일요일 치러진 세르비아 총선 결과를 축하하고 있다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 8,
+    "translated": 9,
     "failedStoryIds": [
       {
         "id": "a46f5e40-3621-4b0b-bbeb-a92fce824465",
@@ -181,17 +205,13 @@
         "reason": "retry_exhausted"
       },
       {
-        "id": "78d8b80a-23ab-423b-9e8d-5224df1cd59b",
-        "reason": "retry_exhausted"
-      },
-      {
         "id": "8e10126a-705f-4e64-989c-1978972929b4",
         "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 11063,
-      "out": 14039
+      "in": 12602,
+      "out": 16015
     }
   }
 }

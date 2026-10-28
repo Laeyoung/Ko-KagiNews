@@ -4,7 +4,7 @@
   "categoryUuid": "24782320-cc41-4f41-add6-44706e78ea85",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-28T18:24:13.512Z",
+  "createdAt": "2026-10-28T19:26:48.005Z",
   "stories": {
     "3544189c-5e79-46ea-8013-dbf628aa14bb": {
       "title": "애플, 아이맥 및 14인치 맥북 프로에 M6 칩 탑재",
@@ -153,18 +153,37 @@
       "timeline[0].content": "마이크로소프트, 미국 직원 약 9,000명 대상 자발적 퇴직 제안[techspot.com#1][rte.ie#1]",
       "timeline[1].content": "마이크로소프트, 엑스박스 관련 인력을 포함한 4,800명 감원 계획 발표[rte.ie#1][usatoday.com#1]",
       "timeline[2].content": "마이크로소프트, 직원 대상 새로운 자발적 퇴직 제안 발표[aaj.tv#1][news.kagi.com#1]"
+    },
+    "efd66d89-54a4-4e69-989b-1ada486e4254": {
+      "title": "엔비디아와 AMD, 메타의 AI 확장 사업에 40억 달러 투자",
+      "short_summary": "엔비디아(Nvidia)와 AMD가 메타(Meta)의 AI 시스템 협력을 확대함에 따라, 엔비디아는 30억 달러, AMD는 10억 달러를 메타의 주식 공모에 투자하기로 했다. 여기에는 메타의 AI 에이전트인 '뮤즈(Muse)'도 포함된다. 메타는 엔비디아 하드웨어 사용을 확대할 계획이며, 이미 AMD의 헬리오스(Helios) 랙 스케일 시스템을 테스트 중이다 [datacenterdynamics.com#1][techinasia.com#1][reddit.com#1]. 메타는 AI 구축 자금을 마련하기 위해 자금 조달 목표액을 975억 달러로 늘렸으며, 2026년 자본 지출은 1,350억 달러에서 1,450억 달러에 이를 것으로 전망했다 [indianexpress.com#1][mt.co.kr#1]. 9월에 출시된 뮤즈는 연결된 앱을 통해 작업을 수행하도록 설계되었다. 양사는 이번 협력이 더 빠른 학습 및 추론과 운영 비용 절감에 중점을 둘 것이라고 밝혔다 [deccanchronicle.com#1][datacenterdynamics.com#1]. 자금 조달 계획에는 250억 달러 규모의 보통주와 125억 달러 규모의 전환우선주가 포함되며, 2027년 1분기 거래 시작 이후 의결권이 없는 C종 주식을 통해 최대 600억 달러를 추가로 조달할 예정이다 [datacenterdynamics.com#1]. 엔비디아와 AMD는 이번 투자가 완료된 거래라고 설명하지는 않았다.",
+      "quote": "AI 에이전트는 새로운 컴퓨팅 패러다임을 의미합니다. 즉, 우리의 목표를 이해하고 추론하며 도구를 사용해 우리를 대신하여 업무를 완수하는 소프트웨어입니다.",
+      "quote_attribution": "데이터 센터 다이내믹스(Data Center Dynamics)",
+      "historical_background": "프리 프레스 저널(Free Press Journal)에 따르면, 메타는 지난 2월 인프라 계획의 일환으로 엔비디아와 약 500억 달러, AMD와 600억 달러 규모의 계약을 체결했다. 이번 신규 지분 투자는 기존 공급업체 관계에 금융적 유대를 더하는 것이다 [freepressjournal.in#1].",
+      "business_angle_text": "메타는 2026년 자본 지출을 1,350억 달러에서 1,450억 달러로 전망했으며, 주식 발행 계획을 통해 975억 달러를 조달할 수 있을 것으로 보인다 [mt.co.kr#1][datacenterdynamics.com#1]. 엔비디아와 AMD는 메타의 AI 구축을 위한 하드웨어를 공급하는 동시에 메타에 투자하고 있다 [freepressjournal.in#1][techspot.com#1]. 양사는 계획된 배포 내용을 설명했으며, 메타-AMD 기술 보고서에 따르면 인스팅트(Instinct) MI350X GPU에서 추천 모델 학습을 위해 워크로드별 최적화를 수행한 결과, 직접 포팅한 기준 대비 최대 1.5배의 엔드투엔드 처리량을 달성했다 [techgenyz.com#1][wccftech.com#1].",
+      "talking_points[0]": "에이전트 권한: 사용자는 뮤즈(Muse)에 이메일, 일정, 결제, 건강, 쇼핑 및 스마트 홈 앱에 대한 접근 권한을 부여할 수 있으며, 언제든 이를 철회할 수 있다 [indianexpress.com#1][samaa.tv#1].",
+      "talking_points[1]": "AMD 배포: 메타는 자사 인프라 전반에 걸쳐 수백만 개의 AMD 에픽(EPYC) 프로세서를 배포했으며, 이미 학습, 순위 지정 및 추천 워크로드를 위해 AMD 인스팅트(Instinct) GPU를 사용하고 있다고 밝혔다 [wccftech.com#1][reddit.com#1].",
+      "talking_points[2]": "보안 작업: 양사는 엔비디아의 오픈셸(OpenShell) 에이전트 프레임워크와 센트리(Sentry) 행동 모니터링 도구 도입을 검토 중이나, 아직 배포 계획을 확정하지는 않았다 [datacenterdynamics.com#1][techgenyz.com#1].",
+      "technical_details[0]": "AMD 학습 최적화: 메타-AMD 기술 보고서에 따르면 인스팅트(Instinct) MI350X GPU에서 추천 모델 학습을 위해 워크로드별 최적화를 수행한 결과, 직접 포팅한 기준 대비 최대 1.5배의 엔드투엔드 처리량을 달성했다 [wccftech.com#1].",
+      "technical_details[1]": "뮤즈 스파크 오픈(Muse Spark Open) 구성: 보고된 뮤즈 스파크 오픈 모델은 총 8,160억 개의 파라미터와 420억 개의 활성 파라미터를 보유하며 100만 토큰의 컨텍스트를 지원한다. AMD는 이 모델이 8개의 MI350X GPU를 탑재한 단일 노드에서 구동될 수 있다고 밝혔다 [wccftech.com#1].",
+      "business_angle_points[0]": "메타는 300억 달러 규모의 채권 발행과 블루 아울 캐피털(Blue Owl Capital)과의 270억 달러 규모 금융 거래 등 부채를 활용해 왔으며, 이번 주식 발행 외에도 추가적인 자금 조달 경로를 확보하고 있다 [freepressjournal.in#1].",
+      "perspectives[0].text": "메타: 마크 저커버그(Mark Zuckerberg) 최고경영자는 뮤즈(Muse)가 수십억 명의 사용자에게 개인용 AI 에이전트와 프런티어 모델을 제공하려는 회사의 노력 중 하나라고 설명했다 [neowin.net#1].",
+      "perspectives[1].text": "AMD: AMD는 메타에 테스트용 헬리오스(Helios) 랙 스케일 시스템을 설치했으며, 현재 및 미래 워크로드를 위한 제품 로드맵과 엔지니어링 결정을 조율 중이라고 밝혔다 [reddit.com#1].",
+      "timeline[0].content": "메타가 소비자용 AI 에이전트 뮤즈(Muse)를 공개했다 [datacenterdynamics.com#1].",
+      "timeline[1].content": "메타가 주식 공모 계획을 975억 달러로 상향 조정했다 [datacenterdynamics.com#1].",
+      "timeline[2].content": "엔비디아와 AMD가 투자 및 AI 파트너십 확대를 발표했다 [firstpost.com#1][reddit.com#1][techinasia.com#1].",
+      "suggested_qna[0].question": "헬리오스(Helios) 테스트 시스템 외에 계획된 AMD 하드웨어는 무엇인가?",
+      "suggested_qna[0].answer": "메타는 AMD의 인스팅트(Instinct) MI450 아키텍처의 초기 정의 고객이며, 자사 워크로드에 최적화된 맞춤형 인스팅트 GPU를 배포할 계획이다 [reddit.com#1].",
+      "suggested_qna[1].question": "메타가 여러 가속기 공급업체에 걸쳐 워크로드를 분산하는 이유는 무엇인가?",
+      "suggested_qna[1].answer": "메타는 비용을 절감하고 특정 공급업체에 대한 종속을 완화하기 위해 자사의 독자적인 MTIA 가속기와 함께 엔비디아 및 AMD GPU로 구성된 이기종 플릿(heterogeneous fleet)을 사용한다 [wccftech.com#1]."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 7,
+    "translated": 8,
     "failedStoryIds": [
       {
         "id": "1df8285c-c653-4614-a10c-f729642cdc56",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "efd66d89-54a4-4e69-989b-1ada486e4254",
         "reason": "retry_exhausted"
       },
       {
@@ -181,8 +200,8 @@
       }
     ],
     "tokens": {
-      "in": 9911,
-      "out": 12165
+      "in": 11509,
+      "out": 14297
     }
   }
 }
