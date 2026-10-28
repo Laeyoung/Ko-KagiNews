@@ -4,7 +4,7 @@
   "categoryUuid": "8a2e4d8d-6ac5-429d-ad86-38a38f15329d",
   "categorySlug": "ai",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-28T17:30:40.470Z",
+  "createdAt": "2026-10-28T18:26:59.562Z",
   "stories": {
     "8bc27a34-479b-4906-94d0-9ef7b60620db": {
       "title": "정부의 안전 규제 검토 속 AI 전문가의 맹신 현상 연구",
@@ -112,18 +112,37 @@
       "timeline[1].content": "지니 2는 시스템을 2D 장면에서 탐색 가능한 3D 세계로 확장했다 [appinn.com#1]",
       "timeline[2].content": "버전 기록에 따르면 지니 3는 실시간 상호작용 월드 생성을 도입했다 [appinn.com#1]",
       "primary_image.caption": "지니 4는 더욱 사실적인 시뮬레이션 세계를 생성한다."
+    },
+    "9e2e32df-902d-42ab-ad31-47ecfc914ef1": {
+      "title": "트럼프, 'AI' 용어 금지 선언… '슈퍼 인텔리전스' 명칭 사용 요구",
+      "short_summary": "도널드 트럼프 대통령은 자신의 행정부가 곧 '모든 관련 문서 및 기타 모든 것'에서 '인공지능(artificial intelligence)'이라는 용어를 금지할 것이라고 밝혔다. 그는 월스트리트저널(WSJ)에 자신이 선호하는 용어인 '슈퍼 인텔리전스(super intelligence)' 또는 'SI'를 사용할 것을 촉구했다[reuters.com#1][thehill.com#1]. 그는 '인공(artificial)'이라는 단어가 지능을 가짜처럼 들리게 한다며 기존 명칭이 부정확하다고 주장했다[thehill.com#1][independent.co.uk#1]. 이번 발표는 지난 9월 29일 연방 행정기관들이 법이 허용하는 범위 내에서 공식 통신 및 비법률적 자료의 '인공지능' 및 'AI'를 '슈퍼 인텔리전스' 및 'SI'로 대체하도록 지시한 행정명령을 확대한 것이다. 해당 명령은 기존 규정, 계약 또는 역사적 기록의 변경을 요구하지는 않는다[variety.com#1][biggo.com#1]. 트럼프의 게시물은 더 광범위한 금지 조치의 범위, 법적 근거 또는 집행 방식에 대해서는 설명하지 않았다[reuters.com#1][cnyes.com#1]. 이 명령에 따라 대통령 과학기술 보좌관은 60일 이내에 '슈퍼 인텔리전스'를 정의하고 기존 법률 개정을 권고하는 법안을 제출해야 한다[thehill.com#1][indiatimes.com#1]. 컬럼비아 대학교의 자말 그린(Jamal Greene) 법학 교수는 연방 행정 언어에 대한 대통령의 권한에는 한계가 있으며, 신문이나 일반 시민의 단어 사용까지 통제할 수는 없다고 지적했다[vnexpress.net#1].",
+      "did_you_know": "네오윈(Neowin)의 보도에 따르면, 지난 8월 구매자들은 2,000개 미만의 슬로베니아 .si 도메인을 등록했으나, 트럼프가 AI를 SI로 명명한 당일에는 10,000개 이상이 등록되었다[neowin.net#1].",
+      "quote": "정말 놀랍다. 하지만 우리는 조심해야 한다.",
+      "quote_attribution": "더 힐(The Hill)",
+      "historical_background": "스탠퍼드 대학교의 컴퓨터 과학자 존 매카시(John McCarthy)는 1955년 '인공지능'이라는 용어를 처음 만들었으며, 이를 지능형 기계를 만드는 과학 및 공학이라고 정의했다[independent.co.uk#1].",
+      "talking_points[0]": "기관별 변경 사항: NASA는 공공 웹사이트, 직함, 내부 시스템에서 'AI'를 교체하고 있으며, 국립보건원(NIH)은 생물의학 연구 데이터베이스인 펍메드(PubMed)에서 새로운 용어를 채택했다[neowin.net#1][newsbeast.gr#1].",
+      "talking_points[1]": "10월 초 워싱턴에서 열린 행사에서 엔비디아(Nvidia)의 젠슨 황(Jensen Huang) 최고경영자(CEO)는 'AI'라는 용어를 사용한 뒤 반복적으로 스스로를 정정하며 'SI'에 익숙해지려 노력 중이라고 말했다[thenationalnews.net#1].",
+      "talking_points[2]": "대중의 우려: 더 내셔널(The National)이 인용한 여론조사에 따르면 AI에 대한 미국 내 부정적 시각이 증가하고 있으며, 일자리 감소, 데이터 센터, 환경 비용에 대한 우려가 제기되고 있다. 데이터 센터 개발은 11월 3일 중간선거를 앞두고 지역 현안으로도 부상했다[thenationalnews.com#1][vg.no#1].",
+      "talking_points[3]": "기존 관례: AP 통신 스타일 가이드는 여전히 '인공지능'을 규정하고 있으며, 주요 미국 언론들은 계속해서 해당 용어를 사용하고 있다[newsbeast.gr#1][thenationalnews.com#1].",
+      "international_reactions[0]": "🇷🇺 러시아: 알렉산더 알리모프(Alexander Alimov) 러시아 외무차관은 이번 명칭 변경 추진이 전 세계적으로 기술적 입지를 강화하려는 미국의 전략 일부라며 우려를 표명했다[mediaindonesia.com#1].",
+      "technical_details[0]": "슈퍼인텔리전스의 의미: AI 연구에서 이 용어는 모든 영역에서 인간의 추론 및 인지 능력을 뛰어넘는 가상의 시스템을 설명하며, 현재의 모든 AI 시스템을 대체하는 확립된 동의어는 아니다[lefigaro.fr#1][globo.com#1].",
+      "technical_details[1]": "행정명령의 잠정적 정의: 트럼프의 9월 행정명령은 제안된 법안이 준비되는 동안 기존 연방법상의 '인공지능' 정의를 '슈퍼 인텔리전스' 및 'SI'에 일시적으로 적용하도록 했다[biggo.com#1].",
+      "industry_impact[0]": "세일즈포스(Salesforce)의 마크 베니오프(Marc Benioff) CEO는 자사의 AIForce 플랫폼을 SIForce로 변경했다고 밝혔으며, 마이크로소프트(Microsoft)의 사티아 나델라(Satya Nadella) CEO는 제품명 변경을 공식 발표하지 않은 채 '슈퍼 인텔리전스'라는 용어를 사용했다[kron4.com#1][variety.com#1].",
+      "perspectives[0].text": "백악관: 리즈 휴스턴(Liz Huston) 대변인은 이번 용어 변경이 혁신, 경제 성장, 그리고 첨단 기술을 활용해 미국인의 삶을 개선하려는 행정부의 의지를 반영한 것이라고 설명했다[vnexpress.net#1].",
+      "perspectives[1].text": "오픈AI(OpenAI)와 앤스로픽(Anthropic): 두 AI 기업은 트럼프가 선호하는 용어를 채택하는 대신 '인공지능'과 'AI'라는 용어를 계속 사용하고 있다[kron4.com#1].",
+      "perspectives[2].text": "일론 머스크(Elon Musk): 머스크는 이번 변경을 지지하며 스페이스X(SpaceX)의 AI 부서를 SpaceXSI로 개명하겠다고 밝혔다[variety.com#1].",
+      "timeline[0].content": "트럼프, 유엔 총회 연설 중 AI 명칭 변경 촉구[index.hu#1][suspilne.media#1]",
+      "timeline[1].content": "연방 기관에 '슈퍼 인텔리전스' 사용을 지시하는 행정명령 발동[variety.com#1][deadline.com#1]",
+      "timeline[2].content": "트럼프, 제이 클레이튼(Jay Clayton) 산하의 슈퍼 인텔리전스 포스(Super Intelligence Force) 발표[thehill.com#1][petapixel.com#1]",
+      "timeline[3].content": "트럼프, 트루스 소셜(Truth Social) 게시물을 통해 기존 용어 금지 위협[reuters.com#1][thehill.com#1]"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 5,
+    "translated": 6,
     "failedStoryIds": [
       {
         "id": "f682bb42-88ce-4734-a7a4-fd37918469f5",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "9e2e32df-902d-42ab-ad31-47ecfc914ef1",
         "reason": "retry_exhausted"
       },
       {
@@ -148,8 +167,8 @@
       }
     ],
     "tokens": {
-      "in": 7585,
-      "out": 9889
+      "in": 9126,
+      "out": 11912
     }
   }
 }
