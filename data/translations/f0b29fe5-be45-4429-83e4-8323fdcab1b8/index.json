@@ -1,7 +1,7 @@
 {
   "version": 1,
   "batchId": "f0b29fe5-be45-4429-83e4-8323fdcab1b8",
-  "updatedAt": "2026-10-28T17:00:38.887Z",
+  "updatedAt": "2026-10-28T17:30:40.549Z",
   "categories": {
     "24782320-cc41-4f41-add6-44706e78ea85": {
       "slug": "tech",
@@ -62,21 +62,21 @@
       "slug": "world",
       "status": "ok",
       "storyCount": 12,
-      "translated": 1,
-      "failed": 11,
+      "translated": 4,
+      "failed": 8,
       "tokens": {
-        "in": 1247,
-        "out": 1540
+        "in": 5304,
+        "out": 6714
       }
     }
   },
   "chaos": {
-    "status": "ok"
+    "status": "skipped"
   },
   "run": {
-    "attempted": 72,
-    "failed": 36,
-    "failureRatePct": 50,
+    "attempted": 36,
+    "failed": 33,
+    "failureRatePct": 91.66666666666666,
     "unresolvedSlugs": []
   }
 }
