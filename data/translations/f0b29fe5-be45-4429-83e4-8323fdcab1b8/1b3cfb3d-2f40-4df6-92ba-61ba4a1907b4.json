@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "batchId": "f0b29fe5-be45-4429-83e4-8323fdcab1b8",
+  "categoryUuid": "1b3cfb3d-2f40-4df6-92ba-61ba4a1907b4",
+  "categorySlug": "world",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-10-28T16:39:27.424Z",
+  "stories": {
+    "2ebc2386-7f54-4d3c-8a18-d60c3a93c96e": {
+      "title": "중국 스폰서들, 마오쩌둥 언급 논란으로 레알 마드리드 스타 음바페 후원 중단",
+      "short_summary": "프랑스 국가대표이자 레알 마드리드 공격수인 킬리안 음바페(Kylian Mbappé)가 마오쩌둥을 중국의 독재자로 지칭하는 듯한 영상이 유포되자, 중국 기업 3곳이 10월 27일 그와의 후원 계약을 종료했다. 중국 국영 방송사 또한 라리가(La Liga) 경기 중계를 중단하고 그가 등장하는 광고를 삭제했다[gmanetwork.com#1][pbs.org#1][dw.com#1]. 계약을 종료한 기업은 음료 제조사 둥펑(Dongpeng), 유제품 생산 기업 멍뉴(Mengniu), 치즈 제조사 밀크그라운드(Milkground)이다[pbs.org#1][rte.ie#1]. 해당 영상에는 음바페가 자신의 얼굴을 마오쩌둥의 몸에 합성한 인터넷 밈에 대해 논의하는 모습이 담겼다. 로이터 통신은 해당 영상의 진위 여부를 확인할 수 없다고 밝혔으며, 인터뷰는 지난 4월 프랑스 온라인 프로그램 '더 브리지(The Bridge)'를 위해 촬영된 것으로 알려졌다[gmanetwork.com#1][thewillnews.com#1]. 음바페는 프랑스어, 중국어, 영어로 사과하며 자신의 발언이 경솔했음을 인정하고 중국 국민과 그들의 역사를 존중한다고 밝혔다[franceinfo.fr#1][cnbc.com#1]. 중화인민공화국을 건국하고 1949년부터 1976년 사망할 때까지 통치한 마오쩌둥은 여전히 존경받는 동시에 정치적으로 민감한 인물이다. 중국 공산당은 그의 지도하에 실수가 있었음을 인정하면서도 그의 업적이 이를 상회한다고 평가한다[dw.com#1][pbs.org#1]. 중국 중앙방송(CMG)은 음바페의 사과를 고려하겠지만 향후 그의 행동을 지켜보겠다고 밝혔다[dw.com#1].",
+      "quote": "제 발언은 경솔했습니다. 제 발언이 중국과 전 세계 중국인 공동체에 많은 상처를 주었다는 점을 이제 이해합니다.",
+      "quote_attribution": "DW",
+      "historical_background": "마오쩌둥의 산업화 정책인 '대약진 운동'은 약 3,000만 명의 아사자를 낸 기근의 원인이 되었으며, 이는 권위주의적 통치와 재앙적인 정치 캠페인이라는 그의 유산 중 일부이다[pbs.org#1][dw.com#1].",
+      "talking_points[0]": "공식 항의: 중국축구협회는 레알 마드리드에 강력히 항의하며 구단과 음바페 양측의 공식적인 공개 사과를 요구했다[pbs.org#1].",
+      "talking_points[1]": "리그 대응: 라리가는 선수 및 구단을 위한 소통 프로토콜을 수립하고 유사한 사건을 방지하기 위해 중국 파트너들과 협력할 것이라고 밝혔다[pbs.org#1][espn.co.uk#1].",
+      "talking_points[2]": "소셜 미디어: 레드노트(RedNote)는 음바페와의 콘텐츠 파트너십이 2024년에 종료되었다고 밝히며 홍보 자료를 삭제하겠다고 발표했다. 또한 그의 계정은 신규 팔로워 확보가 차단되었다[pbs.org#1][rte.ie#1].",
+      "talking_points[3]": "온라인 반발: 가디언(The Guardian)에 따르면, 둥펑이 음바페와의 파트너십을 종료했다는 내용의 웨이보 토픽은 4억 3,000만 회의 조회수를 기록했다[theguardian.com#1].",
+      "industry_impact[0]": "브랜드 광고: 중국 언론은 온(On)과 디올(Dior)이 중국 내에서 음바페가 등장하는 홍보 콘텐츠를 삭제했다고 보도했으나, 두 브랜드 모두 글로벌 차원의 계약 종료를 발표하지는 않았다[cnbc.com#1].",
+      "perspectives[0].text": "둥펑, 멍뉴, 밀크그라운드: 이들 3개 기업은 중국 인민의 감정을 상하게 하는 언행에 대해 무관용 원칙을 고수하며 음바페와의 계약을 종료했다고 밝혔다[gmanetwork.com#1][france24.com#2].",
+      "perspectives[1].text": "라리가: 스페인 리그 측은 음바페가 개인 자격으로 발언한 것이며, 중국 팬들에게 불쾌감을 준 것에 대해 사과하고 중국 파트너들과 협력할 것을 약속했다고 전했다[espn.co.uk#1][pbs.org#1].",
+      "timeline[0].content": "대릴 모리(Daryl Morey)가 홍콩 시위대를 지지한 후 중국 국영 TV는 NBA 경기 중계를 중단했다[pbs.org#1].",
+      "timeline[1].content": "둥펑은 음바페를 자사 스포츠 음료 브랜드의 홍보대사로 발탁했다[cnbc.com#1].",
+      "timeline[2].content": "궈지쿤(Guo Jiakun) 외교부 대변인은 중국 인민의 감정을 상하게 하는 발언은 당연히 사회 전반의 반대에 직면할 것이라고 말했다[pbs.org#1].",
+      "timeline[3].content": "방송 재개 및 소셜 미디어 제한 해제 여부는 아직 확인되지 않았다[cnbc.com#1]."
+    }
+  },
+  "stats": {
+    "storyCount": 12,
+    "translated": 1,
+    "failedStoryIds": [
+      {
+        "id": "01984a88-9b24-4507-8f31-fd776a6af0a6",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "7fba813c-6b7b-4c33-8299-7d0aaa0f1b9c",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "306e086e-8c5f-493d-a4dc-174f57c756be",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "a46f5e40-3621-4b0b-bbeb-a92fce824465",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "75895650-79f7-43f5-a6c3-a9c51c576626",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "f06bea39-2554-4549-b153-7f81daec1f9f",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "78d8b80a-23ab-423b-9e8d-5224df1cd59b",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "8e10126a-705f-4e64-989c-1978972929b4",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "b7fc64b4-13b5-4fb2-aae5-0530fa1966ab",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "8f5a18c6-674d-4528-9b0a-474859766735",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "f86cad8a-4f40-4250-ba89-837f8bf9d9f1",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 1247,
+      "out": 1540
+    }
+  }
+}
