@@ -1,11 +1,11 @@
 {
   "version": 1,
   "batchId": "2321df47-049c-4f03-9f02-097188ab60cc",
-  "updatedAt": "2026-10-31T17:14:09.874Z",
+  "updatedAt": "2026-10-31T18:22:26.176Z",
   "categories": {
     "e181a03d-ba7c-491d-ba0a-61d3bfb9154f": {
       "slug": "world",
-      "status": "ok",
+      "status": "skipped",
       "storyCount": 12,
       "translated": 12,
       "failed": 0,
@@ -74,7 +74,7 @@
     "status": "skipped"
   },
   "run": {
-    "attempted": 6,
+    "attempted": 1,
     "failed": 1,
     "failureRatePct": null,
     "unresolvedSlugs": []
