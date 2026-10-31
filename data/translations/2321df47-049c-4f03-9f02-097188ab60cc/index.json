@@ -1,7 +1,7 @@
 {
   "version": 1,
   "batchId": "2321df47-049c-4f03-9f02-097188ab60cc",
-  "updatedAt": "2026-10-31T15:59:46.589Z",
+  "updatedAt": "2026-10-31T16:21:29.750Z",
   "categories": {
     "e181a03d-ba7c-491d-ba0a-61d3bfb9154f": {
       "slug": "world",
@@ -27,7 +27,7 @@
     },
     "b4a0efcc-a784-4d08-96fe-3218329eb35a": {
       "slug": "usa",
-      "status": "ok",
+      "status": "skipped",
       "storyCount": 12,
       "translated": 12,
       "failed": 0,
@@ -38,7 +38,7 @@
     },
     "5bec6375-5476-4273-9010-a98e20464bd6": {
       "slug": "ai",
-      "status": "ok",
+      "status": "skipped",
       "storyCount": 12,
       "translated": 12,
       "failed": 0,
@@ -49,7 +49,7 @@
     },
     "5cbc5999-5641-4048-abaf-77208879d4e6": {
       "slug": "tech",
-      "status": "ok",
+      "status": "skipped",
       "storyCount": 12,
       "translated": 12,
       "failed": 0,
@@ -60,7 +60,7 @@
     },
     "af74723f-3197-4c48-9c78-b3ac2fd8e994": {
       "slug": "business",
-      "status": "ok",
+      "status": "skipped",
       "storyCount": 12,
       "translated": 12,
       "failed": 0,
@@ -71,12 +71,12 @@
     }
   },
   "chaos": {
-    "status": "ok"
+    "status": "skipped"
   },
   "run": {
-    "attempted": 72,
+    "attempted": 6,
     "failed": 6,
-    "failureRatePct": 8.333333333333332,
+    "failureRatePct": null,
     "unresolvedSlugs": []
   }
 }
