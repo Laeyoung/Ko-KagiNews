@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "batchId": "2321df47-049c-4f03-9f02-097188ab60cc",
+  "categoryUuid": "42d9ff85-d541-4835-80c4-55288a6147a2",
+  "categorySlug": "science",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-10-31T15:53:45.865Z",
+  "stories": {
+    "60b63ee9-d235-4bab-a4a1-167575daa7ce": {
+      "title": "연구진, 기생 균류 및 뇌 조직 보존에 관한 2026년 연구 결과 발표",
+      "short_summary": "연구진은 2026년, 신체 밖에서 수년간 생존한 동물 조직과 냉동 보존 후 전기적 활동을 회복한 생쥐 뇌 절편을 포함한 이례적인 생물학적 및 행성 관련 발견들을 기록했다 [zmescience.com#1]. 5월에 발표된 연구에 따르면 붉은바다해삼(scarlet sea cucumber)의 촉수와 관족 파편이 자연 해수에서 3년 이상 생존했다. 3월에는 연구진이 다시 따뜻해진 생쥐 뇌 조직의 신경세포가 신호를 발화하고 시냅스를 통해 전달할 수 있음을 보고했다 [zmescience.com#1]. 이 연구는 기억이 보존되었거나 생쥐가 소생할 수 있음을 보여주지는 않았다. 별도로, 제임스 웹 우주 망원경(James Webb Space Telescope)이 관측한 암석형 외계행성 TOI-561 b는 입사하는 별빛의 약 4분의 3을 반사하며, 규산염 광물 구름이 이러한 효과에 기여하는 것으로 보인다 [space.com#1]. 이 행성은 11시간마다 항성을 공전하며 표면 온도는 섭씨 1,800도를 넘는다. 연구진은 행성에서 반사된 빛과 열 재분배를 통해 대기의 존재를 추론했으나 그 구성 성분은 밝혀내지 못했다. 연구진은 더 긴 파장에서의 관측이 다음 단계라고 밝혔다 [space.com#1].",
+      "did_you_know": "생존한 바다해삼 조직 파편은 주변 해수로부터 용해된 아미노산을 흡수했다 [zmescience.com#1].",
+      "quote": "우리는 행성의 공전 궤도 전반에 걸쳐 밝기와 열이 어떻게 변하는지 측정했다",
+      "quote_attribution": "Space.com",
+      "talking_points[0]": "기생 균류: 연구진은 개미를 감염시키는 균류와 연관되어 자라는 플레우로코르디셉스(Pleurocordyceps) 속의 보르네오 균류를 기술했는데, 이는 한 기생체가 다른 기생체를 이용하는 사례이다 [zmescience.com#1].",
+      "talking_points[1]": "거미 위장: 에콰도르에서 새로 발견된 거미 타크자노우스키아 와스카(Taczanowskia waska)는 거미를 감염시키는 균류의 자실체와 유사한 돌기를 가지고 있으며, 포식자 회피나 사냥에 대한 이점은 아직 검증되지 않았다 [zmescience.com#1].",
+      "talking_points[2]": "법의학적 흔적: 한 법의학 사례 연구에서 시신이 수습된 후 콘크리트에서 부패와 관련된 6가지 휘발성 화합물이 발견되었으나, 이 화학 물질만으로는 무슨 일이 일어났는지 식별할 수 없다 [zmescience.com#1].",
+      "talking_points[3]": "조석 고정: TOI-561 b는 한쪽 반구는 항성을 영구적으로 향하고 있어 낮 지역은 타는 듯 뜨겁고 밤 지역은 상대적으로 차갑다 [space.com#1].",
+      "technical_details[0]": "유리화: 생쥐 뇌 프로토콜은 보호 화학 물질과 제어된 냉각을 사용하여 조직을 유리 같은 상태로 만들었으며, 신경 구조를 파괴할 수 있는 얼음 결정 손상을 제한했다 [zmescience.com#1].",
+      "technical_details[1]": "장기 강화: 다시 따뜻해진 해마 조직은 학습의 세포 모델로 사용되는 시냅스 신호 강도의 지속적인 증가인 장기 강화(long-term potentiation)를 보였으나, 실험 결과가 기억 보존을 입증하지는 않았다 [zmescience.com#1].",
+      "technical_details[2]": "위상 곡선 관측: 거의 4번의 완전한 공전 궤도에 걸친 제임스 웹 우주 망원경 관측을 통해 연구팀은 TOI-561 b의 밤 지역을 처음으로 확인하고 열이 어떻게 재분배되는지 평가할 수 있었다 [space.com#1].",
+      "scientific_significance[0]": "뇌 보존: 이번 발견은 뇌 전체가 아닌 조직 절편에 관한 것이므로 전체 뇌 기능의 복원을 입증하는 것은 아니다 [zmescience.com#1].",
+      "scientific_significance[1]": "조직 생존의 한계: 연구에서 언급된 '자연 조직 불멸성(natural tissue immortality)'이라는 표현은 관찰된 현상을 설명할 뿐, 조직이 무기한 생존할 수 있음을 증명하는 것은 아니다 [zmescience.com#1].",
+      "timeline[0].content": "법의학 연구진, 지하실 콘크리트에 잔류한 부패 화합물 보고 [zmescience.com#1]",
+      "timeline[1].content": "연구진, 거미 감염 균류를 모방하는 거미 기술 [zmescience.com#1]",
+      "timeline[2].content": "연구진, 유리화된 생쥐 뇌 조직이 재가온 후 전기적 활동을 회복했다고 보고 [zmescience.com#1]",
+      "timeline[3].content": "연구진, 개미 감염 균류와 연관된 새로운 균류 기술 [zmescience.com#1]",
+      "timeline[4].content": "연구진, 바다해삼 조직 파편이 해수에서 수년간 생존했다고 보고 [zmescience.com#1]",
+      "suggested_qna[0].question": "연구진은 TOI-561 b에 대해 어떤 대기 구성을 고려하고 있는가?",
+      "suggested_qna[0].answer": "대기는 금성의 이산화탄소가 풍부한 대기나 이오(Io)의 이산화황이 풍부한 환경과 유사할 수 있다 [space.com#1].",
+      "primary_image.caption": "용암으로 갈라진 슈퍼지구 TOI-561 b의 상상도"
+    },
+    "b37d5260-de1c-4820-b514-f4c63ab97bbc": {
+      "title": "버진 갤럭틱, '아페이론' 우주선 인도… 2027년 여객 운항 목표",
+      "short_summary": "버진 갤럭틱(Virgin Galactic)은 첫 델타급 우주선인 '아페이론(Apeiron)'을 애리조나주 메사 제조 시설에서 뉴멕시코주 스페이스포트 아메리카(Spaceport America)로 이송해 2027년 2분기 상업 운항을 위한 준비 및 비행 시험에 돌입했다[space.com#1][kob.com#1][bug.hr#1]. 버진 갤럭틱의 여객 서비스는 이전 우주선인 VSS 유니티(VSS Unity)가 2024년 마지막 상업 비행을 마친 이후 중단된 상태다[reddit.com#1][space.com#1]. 아페이론은 최대 6명의 승객을 태울 수 있으며 유니티보다 더 자주 비행하도록 설계되었다. 버진 갤럭틱은 델타급 우주선이 주 2회 비행하며 기체 수명 동안 500회 이상의 임무를 수행할 수 있다고 밝혔다[space.com#1][kursors.lv#1][kob.com#1]. 회사는 시험 비행 후 고객 운송을 시작할 계획이며, 두 번째 델타급 기체는 2027년 하반기에 투입될 예정이다[kob.com#1][bug.hr#1].",
+      "quote": "모선 이브(Eve) 아래에서 아페이론이 스페이스포트 아메리카로 비행하는 모습을 보는 것은 수년간 준비해 온 순간이었다.",
+      "quote_attribution": "Space.com",
+      "historical_background": "운항 중단 이전, 블루 오리진(Blue Origin)의 뉴 셰퍼드(New Shepard)는 2021년 7월부터 총 14회의 유인 준궤도 비행을 수행한 바 있다[space.com#1].",
+      "business_angle_text": "버진 갤럭틱은 아페이론의 시험 비행을 완료한 뒤 예약된 고객들을 대상으로 운항을 시작할 계획이다[space.com#1][bug.hr#1]. 주 2회 비행 및 기체당 500회 이상 임무 수행이라는 목표는 아직 성능이 입증되지 않았다.",
+      "talking_points[0]": "비행 프로필: 승객 탑승 시 모선인 VMS 이브(VMS Eve)가 아페이론을 약 45,000피트 상공까지 운반한 뒤 분리한다. 이후 우주선은 로켓 모터를 점화해 준궤도 비행을 수행한다[space.com#1].",
+      "talking_points[1]": "승객 경험: 아페이론의 짧은 준궤도 여행은 수 분간의 무중력 상태와 지구 조망을 제공하도록 설계되었으며, 이후 스페이스포트 아메리카 활주로에 착륙한다[space.com#1][kursors.lv#1].",
+      "talking_points[2]": "100명 이상의 미래 여행객들이 초기 비행 준비를 시작했으며, 버진 갤럭틱이 두 번째 델타급 기체를 투입하면 더 많은 인원이 뒤따를 것으로 예상된다[reddit.com#1].",
+      "talking_points[3]": "개발 작업: 스페이스포트 아메리카의 엔지니어들은 비행 시험 시작에 앞서 항공 전자 소프트웨어를 통합하고 검증할 예정이다[kob.com#1][bug.hr#1].",
+      "technical_details[0]": "기체 구성: 각 델타급 기체는 2명의 조종사가 탑승하도록 설계되었다. 라트비아 언론 보도에 따르면 계획된 최대 고도는 약 87km로, 우주 경계선인 100km 카르만 라인(Kármán line) 아래이다[space.com#1][kursors.lv#1].",
+      "business_angle_points[0]": "Bug.hr는 1인당 75만 달러에 매진된 예약 건을 통해 최소 5,000만 달러의 운영 자금을 확보했다고 보도했다[bug.hr#1].",
+      "industry_impact[0]": "경쟁: 블루 오리진의 뉴 셰퍼드 운항 중단으로 인해, 아페이론이 투입되면 버진 갤럭틱은 준궤도 우주 관광 비행을 제공할 수 있는 유일한 기업이 된다[space.com#1][kursors.lv#1].",
+      "timeline[0].content": "VSS 유니티 상업 준궤도 비행 시작[space.com#1]",
+      "timeline[1].content": "VSS 유니티 마지막 상업 비행 완료[space.com#1][reddit.com#1]",
+      "timeline[2].content": "블루 오리진, 뉴 셰퍼드 여객 비행 최소 2년간 중단[kursors.lv#1]",
+      "timeline[3].content": "버진 갤럭틱, 아페이론 공개 및 뉴멕시코로 이송[space.com#1][kob.com#1]",
+      "timeline[4].content": "버진 갤럭틱, 두 번째 델타급 기체 운항 투입 예상[bug.hr#1][kob.com#1]"
+    },
+    "afbfa39a-f26b-4b4d-a4fa-7a6d540cc972": {
+      "title": "과학자들, 6천6백만 년 전 과일 섭취에 적응한 공룡 발견",
+      "short_summary": "연구진은 약 6천6백만 년 전 살았던 칠면조 크기의 이빨 없는 공룡 '인페르노갈루스 제임시(Infernogallus jamesi)'를 확인했으며, 이 공룡은 과일과 기타 부드러운 식물을 전문적으로 섭취한 것으로 보인다. 거의 완벽한 골격을 포함한 화석은 몬태나주와 노스다코타주에서 발견되었다. 부리와 턱은 부드러운 먹이를 으깨기에 적합하게 진화했으며, 이는 과일 위주의 식단에 특화된 증거를 가진 최초의 공룡으로 기록되었다 [reuters.com#1][annahar.com#1][ceskatelevize.cz#1][lifo.gr#1]. 네이처 커뮤니케이션스(Nature Communications)에 발표된 이번 연구의 주저자인 스토니브룩 대학교(Stony Brook University)의 고생물학자 그렉 펀스턴(Greg Funston)은 이 공룡의 해부학적 구조가 특수한 섭식 방식을 시사한다고 밝혔다. 연구진은 이 공룡이 베리류와 육질이 많은 과일을 먹었을 가능성이 있다고 보며, 대형 씨앗 식물의 확산에 기여했는지 여부는 아직 불확실하여 추가적인 증거가 필요하다고 설명했다 [reuters.com#1][ceskatelevize.cz#1][lifo.gr#1].",
+      "quote": "이는 우리가 공룡의 생활 방식이라고 생각했던 범위를 확실히 확장하며, 수각류가 얼마나 적응력이 뛰어났는지를 보여준다",
+      "quote_attribution": "로이터(Reuters)",
+      "historical_background": "꽃을 피우는 식물은 약 1억 3천만 년에서 1억 4천만 년 전 처음 등장했으며, 이후 침엽수와 은행나무가 우세했던 지역으로 퍼져나갔다 [reuters.com#1][ceskatelevize.cz#1]. 공동 저자인 토마스 더전(Thomas Dudgeon)은 이들이 새로운 먹이원을 제공함으로써 함께 살던 동물들에게 영향을 미쳤다고 말했다 [reuters.com#1].",
+      "talking_points[0]": "식단의 유연성: 펀스턴은 이빨을 잃고 부리가 발달하면 소화만 가능하다면 식물을 포함해 동물의 먹이 선택 폭이 넓어질 수 있다고 말했다 [reuters.com#1].",
+      "talking_points[1]": "이름과 발견지: 인페르노갈루스(Infernogallus)는 '지옥의 닭'을 의미하며, 새와 같은 외형과 화석이 발견된 헬 크릭(Hell Creek) 지층을 반영한 이름이다 [reuters.com#1].",
+      "talking_points[2]": "공유 생태계: 인페르노갈루스는 티라노사우루스(Tyrannosaurus), 트리케라톱스(Triceratops), 안킬로사우루스(Ankylosaurus)와 함께 아열대 해안 범람원에서 살았다 [reuters.com#1].",
+      "technical_details[0]": "3단계 섭식 구조: 턱 근육 배치는 앞뒤로 씹는 동작을 가능하게 했고, 가동 관절은 앞쪽 움직임을 허용했으며, 부리의 능선과 홈은 부드러운 식물을 으깨고 자르는 데 도움을 주었다. 현존하는 새와 거북은 이러한 특징을 각각 가지고 있지만, 모두 함께 갖추지는 않았다 [reuters.com#1][ceskatelevize.cz#1].",
+      "technical_details[1]": "저작 활동과 위석: 삼킨 돌인 위석으로 먹이를 갈았던 많은 초식 수각류와 달리, 인페르노갈루스는 카에나그나투스류(caenagnathids)에 속하며 먹이를 직접 씹어 먹었다 [reuters.com#1].",
+      "scientific_significance[0]": "백악기 비교: 포유류와 조류도 과일을 먹었을 가능성이 있지만, 과일 위주의 식단에 특화된 구조는 부족했다. 또한 이들은 몸집이 작아 아주 큰 씨앗을 먼 거리까지 퍼뜨리기에는 어려움이 있었다 [reuters.com#1].",
+      "suggested_qna[0].question": "이 공룡의 외형에 대해 밝혀지지 않은 증거는 무엇인가?",
+      "suggested_qna[0].answer": "발견된 화석에는 깃털이 보존되어 있지 않지만, 연구진은 가까운 친척 종의 화석을 근거로 이 공룡이 깃털을 가졌을 것으로 추정한다 [reuters.com#1][annahar.com#1][nezavisne.com#1].",
+      "suggested_qna[1].question": "어떤 과일을 먹었을 가능성이 있는가?",
+      "suggested_qna[1].answer": "연구진은 베리류와 복숭아, 체리처럼 씨가 있는 핵과류를 포함한 육질이 많은 과일을 먹었을 것으로 보고 있다 [reuters.com#1][ceskatelevize.cz#1]."
+    },
+    "fbf646f1-92b9-4af2-a33c-28b79fe1447c": {
+      "title": "칠레 루빈 천문대, 명왕성 너머 여섯 번째 왜소행성 후보 발견",
+      "short_summary": "칠레 베라 C. 루빈 천문대(Vera C. Rubin Observatory)를 사용하는 천문학자들이 해왕성 너머에 있는 얼음 천체 '2026 ED138'을 발견했다. 이 천체는 추가 관측을 통해 중력으로 인해 둥근 형태를 유지할 만큼 충분히 크다는 사실이 입증되면 태양계의 여섯 번째 공인 왜소행성이 될 수 있다[skyatnightmagazine.com#1][astronomy.com#1][adaderana.lk#1]. 현재 추정되는 지름은 600~1,500km이며, 태양으로부터의 거리는 지구 거리의 약 46배로 명왕성의 평균 궤도보다 더 멀리 떨어져 있다[astronomy.com#1][noi.md#1]. 천체물리학자 매튜 홀먼(Matthew Holman)은 10월 13일 루빈 천문대의 관측 데이터를 검색하던 중 움직이는 천체인 이 물체를 발견했다. 겉보기 밝기로 보아 거대한 천체일 가능성이 높지만, 정확한 크기 추정은 표면 반사율에 따라 달라진다. 천문학자들은 물리적 크기를 더 정밀하게 측정하기 위해 적외선 관측이 필요하다[cnet.com#1][adaderana.lk#1][sciencenews.org#1]. 루빈 천문대는 발견 전에도 이 천체를 반복적으로 기록했으며, 연구진은 이후 과거 망원경 기록 보관소에서도 이를 찾아냈다. 루빈 천문대의 10년 조사 프로젝트는 남반구 하늘을 계속 스캔할 예정이며, 천문학자들은 ED138에 대한 추가 측정을 진행할 계획이다[astronomy.com#1][sciencenews.org#1].",
+      "quote": "“우리가 해야 할 가장 중요한 일은 2026 ED138의 물리적 크기를 확정하는 것이다”",
+      "quote_attribution": "아다 데라나(Ada Derana)",
+      "location": "칠레 세로 파촌(Cerro Pachón)",
+      "historical_background": "국제천문연맹(IAU)은 2006년 행성이 궤도 주변의 천체를 청소해야 한다는 정의를 공식화한 후 명왕성을 왜소행성으로 재분류했다. 2005년 에리스(Eris)의 발견이 이러한 논의를 촉발하는 계기가 되었다[astronomy.com#1][noi.md#1]. 현재 공인된 왜소행성은 명왕성, 세레스(Ceres), 에리스, 하우메아(Haumea), 마케마케(Makemake) 등 5개이다[cnet.com#1][adaderana.lk#1].",
+      "talking_points[0]": "과거 관측 기록: 별도의 탐색 결과 1954년 촬영된 사진 건판에서 ED138이 발견되었으며, 또 다른 기록 보관소에는 1937년까지 거슬러 올라가는 자료가 있다[sciencenews.org#1][skyandtelescope.org#1].",
+      "talking_points[1]": "반복 탐지: 루빈 천문대는 2026년 3월 4일부터 7월 11일 사이 20일 동안 이 천체를 30회 포착했으며, 이를 통해 연구진은 궤도를 정밀하게 계산할 수 있었다[astronomy.com#1][sciencenews.org#1].",
+      "talking_points[2]": "발견의 어려움: ED138은 천천히 움직이며 태양을 한 바퀴 도는 데 약 280년이 걸린다. 현재는 별이 밀집된 은하수 영역을 지나고 있어 그동안 발견이 어려웠다[sciencenews.org#1][cnet.com#1].",
+      "talking_points[3]": "관측 역량: 루빈 천문대의 시공간 유산 조사(Legacy Survey of Space and Time)는 3,200만 화소 카메라를 사용하여 10년 동안 며칠 간격으로 남반구 하늘을 촬영한다[astronomy.com#1].",
+      "scientific_significance[0]": "궤도 이력: ED138의 궤도는 태양계 평면에서 약 25도 기울어져 있어 '핫 클래식(hot-classical)' 해왕성 너머 천체로 분류된다. 이러한 기울기는 해왕성과의 중력 상호작용을 반영할 가능성이 있다[skyatnightmagazine.com#1].",
+      "scientific_significance[1]": "표면 색상 단서: 루빈 천문대의 6개 필터 이미지 분석 결과, ED138은 하우메아 계열의 중성적인 색상과 달리 붉은색을 띠고 있어 하우메아 계열에 속할 가능성은 낮다[skyandtelescope.org#1].",
+      "perspectives[0].text": "리자이나 대학교(University of Regina)의 천문학자 샘 로러(Sam Lawler)는 루빈 천문대의 시야를 가로지르는 위성이 점점 많아지고 밝아짐에 따라 향후 새로운 발견이 더 어려워질 수 있다고 경고했다[sciencenews.org#1].",
+      "timeline[0].content": "암흑 에너지 카메라(Dark Energy Camera) 기록 보관소 이미지에서 ED138이 포착됨[cnet.com#1][astronomy.com#1]",
+      "timeline[1].content": "루빈 천문대의 ED138 관측 기록 시작[astronomy.com#1][sciencenews.org#1]",
+      "timeline[2].content": "홀먼이 루빈 천문대 데이터를 검색하던 중 해당 천체를 식별함[skyatnightmagazine.com#1][astronomy.com#1]",
+      "timeline[3].content": "연구진이 행성 과학 회의에서 ED138 연구 결과를 발표함[astronomy.com#1][sciencenews.org#1]"
+    },
+    "c8bc9ba2-e2d4-4fe8-88b8-38af735987a8": {
+      "title": "식단 및 운동 프로그램, 당뇨병 환자 54% 관해 유도 확인",
+      "short_summary": "집중적인 식단 및 운동 프로그램을 시행한 결과, 24주 후 참가자 50명 중 27명(54%)이 제2형 당뇨병 관해 상태에 도달했으며, 이는 일반적인 치료를 받은 46명 중 2명(약 4%)과 비교되는 결과이다. 이 무작위 대조 시험은 영국과 캐나다에 거주하는 18세에서 45세 사이의 비만 성인 96명을 대상으로 진행되었다[sciencedaily.com#1][newsbeast.gr#1]. 최종 평가를 완료한 참가자는 86명이었다[sciencedaily.com#1]. 처음 12주 동안 이 프로그램은 매일 800~900칼로리 섭취를 처방하고, 주 2회 감독하에 유산소 및 저항 운동을 실시하며 주 1회 자율 운동 세션을 갖도록 한 뒤 체중 유지 단계로 이어졌다[sciencedaily.com#1]. 관해 판정 기준은 당화혈색소(HbA1c) 수치가 6.5% 미만이어야 하며, 최소 12주 동안 혈당 강하제를 복용하지 않는 것이었다[sciencedaily.com#1][newsbeast.gr#1]. 연구진은 일상 환경에서도 이러한 결과가 지속되는지 확인하기 위해 장기적인 연구가 필요하다고 밝혔다[newsbeast.gr#1].",
+      "talking_points[0]": "체중 변화: 집중 프로그램 참가자들은 평균 8.4kg을 감량한 반면, 일반 치료 그룹은 1.2kg을 감량했으며, 조정된 차이는 7.5kg이었다[sciencedaily.com#1][newsbeast.gr#1].",
+      "talking_points[1]": "보고된 영향: 집중 프로그램 참가자 50명 중 43명과 일반 치료 참가자 46명 중 6명에게서 최소 한 건 이상의 이상 사례가 발생했다. 심각한 사례는 보고되지 않았으며, 흔한 증상으로는 변비, 두통, 어지럼증, 피로 등이 있었다[sciencedaily.com#1].",
+      "talking_points[2]": "등록: 해당 시험은 2021년 9월부터 2025년 6월까지 참가자를 모집했다[sciencedaily.com#1][newsbeast.gr#1].",
+      "technical_details[0]": "식단 구성: 제한 단계 동안 칼로리의 30%는 단백질, 50%는 탄수화물, 20%는 지방으로 구성되었으며, 참가자들은 매일 최소 2리터의 무칼로리 수분을 섭취하도록 권장받았다[sciencedaily.com#1][newsbeast.gr#1].",
+      "technical_details[1]": "시험 설계: 이 연구는 공개 라벨 방식으로 진행되어 참가자와 연구진 모두 치료 배정을 알고 있었으나, 주요 결과 평가는 눈가림 방식으로 이루어졌다. 관해 결과가 누락된 경우는 비관해로 간주되었다[sciencedaily.com#1].",
+      "perspectives[0].text": "시험 연구진: 연구진은 이번 연구 결과가 제2형 당뇨병 치료 방식을 재고하고, 관해를 목표로 하는 식단 및 운동 병행 중재의 활용을 확대할 근거를 뒷받침한다고 밝혔다[newsbeast.gr#1]."
+    },
+    "8d73c443-72a0-4225-b6e1-1e44bdb604a3": {
+      "title": "미국 중간선거, 전국 기후 정책 및 에너지 비용 재편 가능성",
+      "short_summary": "11월 3일 실시되는 미국 중간선거에서 유권자들은 하원의원 435명 전원과 상원의원 35명을 선출하며, 이번 선거 결과에 따라 도널드 트럼프 대통령의 기후 정책에 대한 의회의 감독권이 달라질 수 있다. 민주당은 이미 시행된 규제 완화를 되돌리거나 대통령의 거부권을 무력화할 입법을 추진할 수는 없다. 하원 다수당이 될 경우 예산 협상에서 영향력을 행사하고 조사를 착수할 수 있으며, 상원 다수당이 될 경우 인사 청문회에서 영향력을 발휘할 수 있다. 민주당이 상원 통제권을 확보하려면 최소 4석의 순증이 필요하다[time.com#1][theguardian.com#1]. 주 단위 선거와 주민 발의안 또한 기후 정책에 영향을 미칠 수 있다[time.com#1]. 초당적 '미국 경제성 및 일자리 법(Bipartisan American Affordability and Jobs Act)' 지지자들은 1월 신임 의원 임기 시작 전 레임덕 회기 중에 에너지 인허가 법안이 통과되기를 바라고 있다. 이 법안은 에너지 인프라 구축을 용이하게 하지만, 환경 운동가들 사이에서는 이 법안이 청정에너지 프로젝트를 가속화할지, 아니면 환경 보호를 약화시키고 화석 연료 개발을 촉진할지를 두고 의견이 갈린다[vox.com#1].",
+      "quote": "모두가 건설하기 쉬운 시스템은 현직이 아닌 사람에게 유리하게 작용할 것이다.",
+      "quote_attribution": "복스(Vox)",
+      "historical_background": "트럼프 대통령 임기 첫 2년 동안 행정부는 파리 기후변화협약에서 탈퇴하고, 연방 차원의 기후 위험 평가를 철회했으며, 공공 토지를 석유 및 가스 시추용으로 개방했다[time.com#1].",
+      "talking_points[0]": "에너지 법안: 네라(Nera)의 분석에 따르면 태양광 및 풍력 발전 배치에 대한 제약이 가해질 경우 2027년부터 2033년까지 가구당 연간 평균 에너지 비용이 116억 달러 증가할 것으로 예상되며, 텍사스주의 요금은 최대 22%까지 상승할 수 있다[theguardian.com#1].",
+      "talking_points[1]": "청정에너지 일자리: E2에 따르면 지난해 청정에너지 분야에서 약 37,000개의 일자리가 사라졌으며, 클라이밋 파워(Climate Power)는 트럼프 대통령 취임 이후 173,000개의 일자리가 감축되거나 지연된 것으로 추산한다[theguardian.com#1].",
+      "talking_points[2]": "지역 주민 발의안: 10개 주의 유권자들은 데이터 센터 개발 제한 여부를 검토할 예정이며, 콜로라도주 유권자들은 천연가스 구매 및 판매에 대한 헌법적 권리 확립 여부를 결정하게 된다[time.com#1].",
+      "talking_points[3]": "공공요금: 클라이밋 파워에 따르면 트럼프 대통령 취임 이후 가스 및 전기 유틸리티 기업들이 요금을 인상하거나 인상을 추진한 총액은 920억 달러가 넘으며, 1억 명 이상의 고객에게 영향을 미쳤다[theguardian.com#1].",
+      "technical_details[0]": "발전 용량: 복스(Vox)가 인용한 국립재생에너지연구소(NREL)의 추산에 따르면, 2035년까지 탄소 중립 전력망을 달성하기 위해 필요한 풍력 및 태양광 발전 용량은 현재 약 396기가와트 대비 약 2,000기가와트 수준이다[vox.com#1].",
+      "technical_details[1]": "송전망 확충: 동일한 분석에 따르면 2035년까지 100% 청정 전력망을 구축하려면 매년 1,400~10,000마일의 고압 송전선 건설이 필요하다[vox.com#1].",
+      "perspectives[0].text": "제레미 사이먼스(Jeremy Symons) 에너지환경분석센터 회장: 사이먼스는 현재의 인허가 제안이 당초 약속된 합의에서 벗어난 것이라며 반대하고, 환경 보호 조치를 후퇴시킬 것이라고 경고한다[vox.com#1].",
+      "perspectives[1].text": "케이틀린 로드너 서터(Katelyn Roedner Sutter) 환경보호기금(EDF) 캘리포니아 수석 디렉터: 로드너 서터는 캘리포니아주의 청정대기법(Clean Air Act) 권한이 위태롭다고 말한다. 그녀는 기존 법을 존중하는 의회 지도자들이 캘리포니아주의 엄격한 차량 배출 기준 설정 능력을 보호하는 데 도움을 줄 수 있다고 주장한다[politico.com#1].",
+      "timeline[0].content": "프린스턴대의 고도 전기화 시나리오, 풍력 및 태양광을 위한 광범위한 토지 수요 예상[vox.com#1]",
+      "timeline[1].content": "미국, 888마일의 고압 송전선 건설[vox.com#1]",
+      "timeline[2].content": "유권자들, 의회 의석 및 주 단위 기후 관련 선거 결과 결정[time.com#1][theguardian.com#1]",
+      "suggested_qna[0].question": "주 단위 투표에 부쳐진 다른 기후 관련 결정 사항은 무엇인가?",
+      "suggested_qna[0].answer": "미시간주 유권자들은 유틸리티 기업의 정치 캠페인 영향력을 제한하는 조치를 검토할 예정이며, 오리건주 유진시 유권자들은 기후 회복력 프로젝트 자금 조달을 위해 대형 소매업체에 세금을 부과할지 여부를 결정할 것이다[time.com#1]."
+    },
+    "4c6e7522-ff6d-4b60-9922-7a27d856e042": {
+      "title": "이텔루륨화 우라늄, 압력 하에서 초전도 상태 공존 확인",
+      "short_summary": "코넬 대학교 연구진은 위상 초전도체의 유력한 후보인 이텔루륨화 우라늄(UTe₂)이 압력 하에서 두 가지 서로 다른 초전도 상태를 동시에 가질 수 있음을 입증했다. 이번 발견이 해당 물질이 위상 물질임을 증명하는 것은 아니다[cornell.edu#1][nature.com#1]. 10월 30일 네이처 피직스(Nature Physics)에 게재된 이 연구는 기존의 상평형도가 열역학적 원리와 충돌한다는 지적에 따라 압력, 온도, 자기장에 따른 물질의 거동을 재구성했다[cornell.edu#1][nature.com#1]. 두 상태는 상평형도의 일부 영역에서 만나 경쟁하며, 온도가 낮아짐에 따라 한 상태가 다른 상태의 초전도성을 억제할 수 있다[cornell.edu#1][nature.com#1]. 연구진은 양자 컴퓨팅 응용까지는 아직 여러 단계가 남아 있으며, 아직 그 누구도 위상 초전도체를 확실하게 입증하지 못했다고 밝혔다[cornell.edu#1].",
+      "quote": "아직 위상 초전도체를 확실하게 입증한 사례는 없지만, 이제 우리는 이텔루륨화 우라늄이 적어도 이를 실현할 수 있는 적절한 요소를 갖추고 있다는 사실을 알게 되었다.",
+      "quote_attribution": "코넬 대학교",
+      "talking_points[0]": "극한의 압력: 압력에 의해 유도된 상태는 5밀리미터 너비의 영역에 약 18,000파운드의 힘을 가했을 때 나타났으며, 측정은 1~2켈빈(kelvin) 온도에서 수행되었다[cornell.edu#1].",
+      "talking_points[1]": "연구 현황: 지금까지 6,000개 이상의 초전도체가 목록화되었으나, 대부분은 동일한 기본 유형을 공유한다[cornell.edu#1].",
+      "technical_details[0]": "사중 임계점(Tetracritical point): 수정된 상평형도는 열역학적으로 불가능해 보였던 삼중점을 사중 임계점으로 대체했다[nature.com#1].",
+      "technical_details[1]": "위상 잠금(Phase locking): 공존 영역에서 질서 변수들이 위상 잠금 상태가 되며, 초전도 요동을 억제한다[nature.com#1]."
+    }
+  },
+  "stats": {
+    "storyCount": 12,
+    "translated": 7,
+    "failedStoryIds": [
+      {
+        "id": "48454107-ea1e-4a97-bf76-3dc0afda217c",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "5d77ebc8-4543-4168-85fa-14af0a833869",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "69639e38-940b-450e-8994-a8b9266a3d02",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "31e83d17-1ecb-41be-9c81-a68fc0c0080f",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "76477e6d-07aa-4799-aeb6-57b6ec6d5df0",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 8120,
+      "out": 9700
+    }
+  }
+}
