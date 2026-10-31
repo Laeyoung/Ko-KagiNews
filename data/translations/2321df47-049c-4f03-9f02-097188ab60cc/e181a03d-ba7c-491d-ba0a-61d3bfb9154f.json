@@ -4,7 +4,7 @@
   "categoryUuid": "e181a03d-ba7c-491d-ba0a-61d3bfb9154f",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-10-31T16:19:48.790Z",
+  "createdAt": "2026-10-31T17:12:54.072Z",
   "stories": {
     "982e7966-ed7a-4277-abe1-69a106470124": {
       "title": "폴란드 대통령, 헌법재판소장 직무정지 사태 속 청사 진입",
@@ -256,20 +256,44 @@
       "timeline[1].content": "휴전 이후 카타르와 파키스탄이 중재 시작 [dawn.com#1]",
       "timeline[2].content": "이란, 기뢰 접촉 후 최소 4척의 유조선이 멈춰 섰다고 발표 [channelstv.com#1][firstpost.com#1]",
       "timeline[3].content": "이란의 유조선 관련 사건 보고 속 오만이 리티호 선원 구조 [aljazeera.com#1][dawn.com#1]"
+    },
+    "69f307c2-4781-4922-ae9c-f4fff406abb5": {
+      "title": "러시아 독립 언론 노바야 가제타, 압박 끝에 11월 9일 폐간",
+      "short_summary": "러시아 내에서 활동하는 마지막 독립 신문 중 하나인 노바야 가제타(Novaya Gazeta)가 모스크바 사무실 사용권과 독자 후원 시스템을 상실함에 따라 11월 9일 운영을 중단한다고 밝혔다. 세르게이 소콜로프(Sergei Sokolov) 편집국장은 러시아 당국과 보안 기관이 편집국의 업무 중단을 강요했다고 전했다. 신문사는 마지막 호를 발행할 계획이다 [reuters.com#1][cbsnews.com#1][euronews.com#1]. 이번 폐간은 2022년 러시아의 우크라이나 전면 침공 이후 더욱 강화된 수년간의 규제 끝에 이루어졌다. 당국은 해당 신문의 미디어 라이선스를 취소하고 웹사이트를 차단했으며, 2026년 9월에는 '외국 대리인'으로 지정했다. 이번 달에는 경찰이 소콜로프 국장의 자택을 압수수색했으며, 탐사 보도 기자인 올레그 롤두긴(Oleg Roldugin)이 형사 사건으로 체포되었다 [reuters.com#1][theguardian.com#1][france24.com#2]. 노바야 가제타 측은 사무실과 자금줄이 끊겨 더 이상 운영을 지속할 수 없다고 밝혔다. 별도로 운영되는 자매지 노바야 가제타 유럽(Novaya Gazeta Europe)은 해외에서 계속 발행될 예정이다 [reuters.com#1][lemonde.fr#1]. 1993년에 창간된 이 신문은 부패와 인권 침해에 대한 탐사 보도로 명성을 얻었다. 체첸 전쟁을 취재했던 안나 폴리트코프스카야(Anna Politkovskaya)를 포함해 소속 기자 및 기고자 6명이 살해당했다 [rferl.org#1][scmp.com#1].",
+      "did_you_know": "노바야 가제타는 인쇄 라이선스를 상실한 후, 정식 미디어 라이선스 요건을 피하기 위해 1,000부 미만의 소규모 잡지 형태로 간헐적으로 발행했다 [theguardian.com#1].",
+      "quote": "우리는 전쟁과 유혈 사태에 반대하는 거대한 사회 구성원들의 이익을 대변한다. 그리고 그것이 바로 그들이 지금 우리에게 이런 짓을 저지르는 이유다.",
+      "quote_attribution": "로이터(Reuters)",
+      "location": "러시아 모스크바",
+      "historical_background": "미하일 고르바초프(Mikhail Gorbachev) 전 소련 지도자가 노벨 평화상 상금 일부를 기부해 신문 창간을 도왔다 [reuters.com#1][cbsnews.com#1]. 이 신문의 기자들은 300명 이상이 사망한 2004년 베슬란 학교 인질극 당시의 인권 침해 사례를 조사하고, 당국의 인질 위기 대응 및 구조 작전 과정을 면밀히 감시했다 [firstpost.com#1].",
+      "talking_points[0]": "직원 기소: 탐사 보도 기자 올레그 롤두긴은 컴퓨터 정보에 대한 불법 접근 혐의로 가택 연금 상태에서 재판을 기다리고 있으며, 로이터에 따르면 최대 10년의 징역형에 처해질 수 있다 [reuters.com#1].",
+      "talking_points[1]": "박물관 폐쇄: 뉴스룸 내 안나 폴리트코프스카야의 옛 사무실에 자리했던 안나 폴리트코프스카야 박물관도 직원들이 사무실을 비우게 됨에 따라 폐쇄될 예정이다 [cbsnews.com#1][euronews.com#1].",
+      "talking_points[2]": "독자들의 반응: 독자들은 모스크바 뉴스룸 밖에 모여 폴리트코프스카야를 기리는 추모비에 꽃을 헌화했다 [meduza.io#3].",
+      "international_reactions[0]": "🇺🇳 유엔(UN): 폴커 튀르크(Volker Türk) 유엔 인권최고대표는 이번 폐간이 러시아에 남아 있는 독립 언론에 가해진 치명적인 타격이라고 평가했다 [scmp.com#1].",
+      "international_reactions[1]": "🇳🇴 노르웨이 노벨 위원회: 위원회는 러시아 당국에 독립 언론에 대한 탄압을 중단할 것을 촉구하며, 이번 폐간이 표현의 자유와 대중의 알 권리를 훼손한다고 밝혔다 [scmp.com#1][deccanchronicle.com#1].",
+      "international_reactions[2]": "국경없는기자회(Reporters Without Borders): 티보 브뤼탱(Thibaut Bruttin) 사무총장은 노바야 가제타를 독립 저널리즘의 상징이자 언론계의 귀감이라고 칭했다 [scmp.com#1].",
+      "industry_impact[0]": "러시아 내 독립 언론: CBS 뉴스는 노바야 가제타의 폐간으로 러시아 내에서 운영되는 주요 독립 신문은 더 이상 존재하지 않게 되었다고 보도했다. 독립 라디오 방송국 에호 모스크비(Ekho Moskvy)와 TV 레인(TV Rain)은 이미 비슷한 압박을 받아 러시아 내 운영을 중단한 바 있다 [cbsnews.com#1].",
+      "perspectives[0].text": "드미트리 무라토프(Dmitry Muratov) 노바야 가제타 공동 창립자: 무라토프는 전쟁으로 사람들이 죽어가고 정치범들이 사망하는 상황에서, 뉴스룸은 자신들을 위해 슬퍼하기보다 짐을 싸고 있다고 말했다 [reuters.com#1].",
+      "perspectives[1].text": "러시아 정부: 크렘린궁은 앞서 러시아가 우크라이나를 둘러싸고 서방과 실존적 투쟁을 벌이고 있는 상황에서 검열은 불가피하다고 주장해 왔다. 당국은 신문 폐간에 대해 즉각적인 입장을 밝히지 않았다 [reuters.com#1].",
+      "perspectives[2].text": "예카테리나 포미나(Ekaterina Fomina) 전 노바야 가제타 기자: 포미나는 직원들이 러시아 내에서 억압과 고난에 직면한 사람들의 이야기를 계속해서 전해왔으며, 이제 그 보도 활동에 대한 처벌을 받고 있다고 말했다 [rferl.org#1].",
+      "timeline[0].content": "미하일 고르바초프 전 소련 지도자의 지원을 받아 노바야 가제타 창간 [reuters.com#1]",
+      "timeline[1].content": "안나 폴리트코프스카야 기자, 모스크바 자택 아파트에서 피살 [scmp.com#1]",
+      "timeline[2].content": "러시아의 우크라이나 침공 이후 신문 인쇄판 발행 중단 [cbsnews.com#1][lemonde.fr#1]",
+      "timeline[3].content": "모스크바 법원, 노바야 가제타의 미디어 라이선스 취소 [cbsnews.com#1][tagesschau.de#1]",
+      "timeline[4].content": "러시아 법무부, 해당 신문을 외국 대리인으로 지정 [firstpost.com#1]",
+      "timeline[5].content": "임대인, 직원들에게 뉴스룸 임대 계약 종료 통보 [firstpost.com#1][reuters.com#1]",
+      "timeline[6].content": "뉴스룸, 사무실을 떠나 서버 운영을 중단할 계획 [reuters.com#1][euronews.com#1]",
+      "suggested_qna[0].question": "노바야 가제타가 향후 복간될 수 있을까?",
+      "suggested_qna[0].answer": "세르게이 소콜로프 편집국장은 신문사가 이전에도 문을 닫은 적이 있으며, 상황이 허락할 때 복간을 시도할 것이라고 밝혔으나, 그 시기가 언제일지는 확답할 수 없다고 말했다 [meduza.io#2].",
+      "secondary_image.caption": "작년 모스크바 노바야 가제타 사무실에서 동료들과 함께한 노벨상 수상자 드미트리 무라토프(왼쪽에서 두 번째). 그는 금요일 \"우리에게는 이제 집도 돈도 없다\"고 말했다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "69f307c2-4781-4922-ae9c-f4fff406abb5",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 16665,
-      "out": 21383
+      "in": 18461,
+      "out": 23750
     }
   }
 }

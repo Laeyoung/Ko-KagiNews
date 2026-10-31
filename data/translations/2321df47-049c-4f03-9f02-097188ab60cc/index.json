@@ -1,28 +1,28 @@
 {
   "version": 1,
   "batchId": "2321df47-049c-4f03-9f02-097188ab60cc",
-  "updatedAt": "2026-10-31T16:21:29.750Z",
+  "updatedAt": "2026-10-31T17:14:09.874Z",
   "categories": {
     "e181a03d-ba7c-491d-ba0a-61d3bfb9154f": {
       "slug": "world",
       "status": "ok",
       "storyCount": 12,
-      "translated": 11,
-      "failed": 1,
+      "translated": 12,
+      "failed": 0,
       "tokens": {
-        "in": 16665,
-        "out": 21383
+        "in": 18461,
+        "out": 23750
       }
     },
     "42d9ff85-d541-4835-80c4-55288a6147a2": {
       "slug": "science",
       "status": "ok",
       "storyCount": 12,
-      "translated": 7,
-      "failed": 5,
+      "translated": 11,
+      "failed": 1,
       "tokens": {
-        "in": 8120,
-        "out": 9700
+        "in": 12665,
+        "out": 15126
       }
     },
     "b4a0efcc-a784-4d08-96fe-3218329eb35a": {
@@ -75,7 +75,7 @@
   },
   "run": {
     "attempted": 6,
-    "failed": 6,
+    "failed": 1,
     "failureRatePct": null,
     "unresolvedSlugs": []
   }
