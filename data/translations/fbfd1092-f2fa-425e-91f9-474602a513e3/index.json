@@ -1,7 +1,7 @@
 {
   "version": 1,
   "batchId": "fbfd1092-f2fa-425e-91f9-474602a513e3",
-  "updatedAt": "2026-11-02T20:45:00.028Z",
+  "updatedAt": "2026-11-02T20:54:05.250Z",
   "categories": {
     "89130e26-9aea-45d3-9b1c-d245031eeba9": {
       "slug": "tech",
@@ -16,7 +16,7 @@
     },
     "69104e77-b21e-4ac2-80fe-dd9de6b1bba4": {
       "slug": "world",
-      "status": "ok",
+      "status": "skipped",
       "storyCount": 12,
       "translated": 12,
       "failed": 0,
@@ -74,7 +74,7 @@
     "status": "skipped"
   },
   "run": {
-    "attempted": 9,
+    "attempted": 3,
     "failed": 3,
     "failureRatePct": null,
     "unresolvedSlugs": []
