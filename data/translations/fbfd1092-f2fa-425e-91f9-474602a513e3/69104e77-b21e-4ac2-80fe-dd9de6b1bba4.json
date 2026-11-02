@@ -4,7 +4,7 @@
   "categoryUuid": "69104e77-b21e-4ac2-80fe-dd9de6b1bba4",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-11-02T20:19:55.370Z",
+  "createdAt": "2026-11-02T20:42:43.887Z",
   "stories": {
     "5ec580cf-2d82-4952-8fde-2714f8eeb7e0": {
       "title": "우크라이나-러시아 6일간의 휴전 종료, 비상 앱 해킹 발생",
@@ -135,40 +135,135 @@
       "timeline[5].content": "미국 중간선거가 화요일로 예정됨 [france24.com#1]",
       "timeline[6].content": "중간선거 이후 군사 행동이 재개될 수 있다는 보도가 나옴 [timesofisrael.com#1]",
       "primary_image.caption": "2024년 9월 24일 이란 테헤란의 거리에서 열린 이란 방위 주간 행사 중 S-200 미사일 시스템이 전시되어 있다. — 로이터/파일"
+    },
+    "5f77e1e5-4d1e-4c4b-8c1a-e61f87fc229d": {
+      "title": "캐나다와 미국, 무역 협상 재개했으나 합의 조건은 미정",
+      "short_summary": "마크 카니(Mark Carney) 캐나다 총리와 도널드 트럼프(Donald Trump) 미국 대통령은 11월 1일 일요일, 건설적인 대화를 나눈 끝에 양국 실무진이 향후 몇 주간 무역 협정을 추진할 것이라고 밝혔다. 트럼프 대통령은 양측이 합의의 '개념'을 공유하고 있으며 '매우 근접한' 상태라고 언급했다. 카니 총리는 일자리를 창출하고 경제적 부담을 완화하며 캐나다의 언어, 문화, 주권을 존중하는 협정을 설명했으나, 두 정상 모두 구체적인 합의 조건은 발표하지 않았다[abcnews.com#1][pbs.org#1][cgtn.com#1]. 협상가들은 캐나다산 철강 및 자동차에 대한 미국의 관세 완화 문제를 논의해 왔다. 이번 협상 재개는 지난 8월 협상이 결렬된 이후 이루어진 것으로, 당시 캐나다는 카니 총리가 자국의 주권과 언어 보호, 자동차 산업을 위협한다고 판단한 미국의 요구를 거부한 바 있다. 이후 트럼프 대통령은 약 200억 달러 규모의 캐나다산 제품에 50% 관세를 부과했고, 캐나다 정부도 이에 보복 조치를 취했다[abcnews.com#1][aljazeera.com#1][king5.com#1]. 관세 분쟁은 11월 3일 미국 중간선거, 특히 미시간주와 메인주에서 주요 쟁점으로 떠올랐다. 카니 총리는 지난 10월 28일까지도 합의가 준비되지 않았다고 밝혔었다. 트럼프 대통령의 최근 발언으로 키스톤 XL(Keystone XL) 송유관 역할과 미국 농민을 위한 관세 철폐 가능성이 제기되었으나, 세부 사항은 여전히 미정인 상태다[news18.com#1][abcnews.com#1][pbs.org#1].",
+      "talking_points[0]": "트럭 분쟁: 미국의 관세 완화 조치가 중형 및 대형 차량을 포함할지 여부가 8월 협상 당시 쟁점 중 하나였다[straitstimes.com#1][spokesman.com#1].",
+      "talking_points[1]": "언어 규정: 캐나다 측은 미국 협상가들이 스트리밍 플랫폼의 프랑스어 콘텐츠 진흥 규정에 반대했다고 밝혔으나, 미국 당국은 해당 사안이 협상 결렬의 핵심은 아니었다고 부인했다[reddit.com#2].",
+      "talking_points[2]": "캐나다의 보복 조치: 캐나다의 보복 관세는 미국산 철강, 유제품, 가전제품, 농기계, 펄프 및 종이, 전자제품 등을 대상으로 했다[aljazeera.com#1].",
+      "talking_points[3]": "송유관 제안: 키스톤 XL은 앨버타주에서 오클라호마주 및 멕시코만 연안 정유소까지 하루 83만 배럴의 원유를 수송하도록 설계되었으나, 이를 어떻게 재개할지는 불분명하다[cgtn.com#1].",
+      "talking_points[4]": "선거 압박: 미시간주 공화당 상원의원 후보인 마이크 로저스(Mike Rogers)는 미시간과 메인주에서 선거 쟁점이 된 관세 분쟁을 끝낼 것을 촉구했다[abcnews.com#1][king5.com#1].",
+      "industry_impact[0]": "캐나다 원유 수출: CGTN에 따르면 캐나다는 원유 생산량의 90% 이상을 미국으로 수출한다[cgtn.com#1].",
+      "perspectives[0].text": "마크 카니 캐나다 총리는 캐나다의 이익에 부합하지 않는 합의를 서두르지 않을 것이라고 밝히며, 미국 외의 국가들과 관계를 확대함에 따라 캐나다의 선택지가 넓어지고 있다고 주장했다[cgtn.com#1].",
+      "perspectives[1].text": "피에르 폴리브르(Pierre Poilievre) 캐나다 보수당 야당 대표는 캐나다 국민들이 기다릴 여유가 없으며 총리가 선거 공약을 이행하지 못했다고 비판하며 카니 총리에게 조속한 합의를 촉구했다[pbs.org#1][reddit.com#1].",
+      "perspectives[2].text": "다니엘 벨랑(Daniel Béland) 맥길 대학교 정치학 교수는 최근 캐나다에 영향을 미치는 미국의 관세 조정은 백악관이 국경 지대 주들에서 이번 분쟁이 초래할 정치적 위험을 인식하고 있음을 보여준다고 분석했다[abcnews.com#1]."
+    },
+    "d77d628b-08d3-4d74-99e0-5339cd0660dd": {
+      "title": "바이낸스, 해킹 후 거래 재개하자 고객들 36억 4천만 달러 인출",
+      "short_summary": "세계 최대 암호화폐 거래소 바이낸스(Binance)가 63억 달러 규모의 도난 사고 이후 거래를 재개한 11월 1일 일요일, 고객들이 순액 기준 36억 4천만 달러를 인출했다. 미 연방수사국(FBI)은 이번 해킹의 배후로 북한 연계 해킹 그룹 '트레이더트레이터(TraderTraitor)'를 지목했다. 바이낸스는 거래 재개 후 첫 9시간 30분 동안 46억 4,900만 달러의 인출과 10억 1,000만 달러의 예금이 처리되었다고 밝혔다 [bbc.co.uk#1][theglobeandmail.com#1][pbs.org#1]. 이번 순유출액은 바이낸스가 운용 중인 자산 1,710억 달러의 약 2.1%에 해당한다. 거래소 측은 초기 급증 이후 인출세가 진정되었으며 예금 규모도 상당한 수준을 유지하고 있다고 전했다 [scmp.com#1][bworldonline.com#1]. 바이낸스는 회사 자금과 고객 보호 예비금, 선물 보험 기금을 활용해 도난 자산의 약 95%를 보전했다고 밝혔다. 나머지 토큰은 유동성이 낮아 확보하는 데 시간이 더 걸릴 수 있다고 덧붙였다 [ft.com#1][bworldonline.com#1]. 거래소는 네트워크와 자산을 점검하며 단계적으로 접근 권한을 복구하고 있다. 조사에 대한 최종 보고서는 11월 2일 월요일에 발표될 예정이었다 [theguardian.com#1][ft.com#1].",
+      "did_you_know": "블록체인 정보 분석 기업 TRM 랩스(TRM Labs)는 바이낸스 공격 준비가 도난 발생 약 36시간 전부터 시작된 정황을 발견했다 [upi.com#1].",
+      "quote": "이번 사건은 인터넷 속도로 벌어진 은행 강도 사건입니다.",
+      "quote_attribution": "PBS 뉴스아워(PBS NewsHour)",
+      "historical_background": "트레이더트레이터는 2025년 암호화폐 거래소 바이비트(Bybit)에서 발생한 15억 달러 규모의 도난 사건의 배후로도 지목되었으며, 이는 당시 기록상 최대 규모의 암호화폐 해킹이었다 [pbs.org#1][ft.com#2]. FBI는 바이낸스 공격자들이 탈중앙화 금융(DeFi) 및 즉시 교환 서비스를 통해 자금을 세탁할 것으로 예상한다고 밝혔다 [ft.com#2].",
+      "business_angle_text": "TRM 랩스의 아리 레드보드(Ari Redbord)에 따르면, 금요일 비트코인 현물 ETF에서 10월 중 최대 일일 유출액인 6억 4,300만 달러가 빠져나갔으며, 13억 달러 이상의 레버리지 포지션이 청산되었다 [theglobeandmail.com#1]. 보고된 수치가 이번 해킹으로 인해 직접적으로 발생한 것인지, 그렇다면 어느 정도 규모인지는 확인되지 않았다.",
+      "talking_points[0]": "동결 자산: 바이낸스는 금요일까지 약 30억 달러 규모의 자산 위치를 파악했다고 밝혔으나, 자산 동결이 곧 자금의 회수나 반환을 의미하는 것은 아니다 [bworldonline.com#1][upi.com#1].",
+      "talking_points[1]": "조사: 바이낸스는 엔지니어의 노트북이 해킹당했으며, 조사관들이 이후 추가적인 침입 경로를 발견했다고 밝혔다 [ft.com#1][ft.com#2].",
+      "technical_details[0]": "위임된 거래 승인: 파이낸셜 타임스(Financial Times)가 인용한 조사 결과에 따르면, 공격자들은 자동화 소프트웨어가 거래 승인 권한을 받을 수 있게 하는 기능을 악용하여 약 38억 달러 상당의 이더(Ether)를 탈취했다 [upi.com#1].",
+      "technical_details[1]": "자동화된 자금 이동: 체이널리시스(Chainalysis)는 공격자들이 거래소에서 인출한 도난 자금을 트론(Tron) 블록체인상에서 이동시키기 위해 자동화 기술을 사용했다고 밝혔다 [ft.com#2].",
+      "business_angle_points[0]": "바이낸스의 공동 CEO 이허(Yi He)는 회사가 10억 달러 규모의 사용자 보호 자산 펀드(SAFU) 중 50%를 사용하고, 해당 펀드를 다시 10억 달러 규모로 보충할 것이라고 밝혔다 [bworldonline.com#1].",
+      "business_angle_points[1]": "제이 코(Jay Koh)는 자신의 바이낸스 보유 자산 대부분이 해킹의 영향을 받지 않는 콜드 월렛에 보관되어 있다고 밝히며, 자산 노출도를 검토하고 수탁 방식을 다변화할 것을 권고했다 [theglobeandmail.com#1].",
+      "industry_impact[0]": "거래소 보안: 코인베이스(Coinbase)는 콜드 스토리지 시스템을 변경했고, 제미니(Gemini)는 자금 이동에 대한 경고 및 제한 조치를 추가했으며, 크라켄(Kraken)은 서비스가 정상적으로 유지되고 있다고 밝혔다 [ft.com#2].",
+      "perspectives[0].text": "바이낸스: 거래소 측은 디파이라마(DefiLlama)의 높은 유출 추정치에 대해 새로운 핫 월렛으로의 예금을 누락한 것이라고 반박하며, 자사 소셜 미디어 업데이트가 가장 정확한 수치를 제공한다고 주장했다 [theglobeandmail.com#1].",
+      "perspectives[1].text": "도널드 트럼프(Donald Trump) 대통령: 트럼프 대통령은 FBI의 공개적인 지목에도 불구하고 북한이 이번 사건의 책임자인지는 여전히 불분명하다고 말했다 [scmp.com#1][pbs.org#1].",
+      "perspectives[2].text": "아리 레드보드(Ari Redbord), TRM 랩스 최고 정책 책임자: 레드보드는 이번 인출 규모를 자본 도피가 아닌 예방적 대응으로 묘사했다 [indiatimes.com#1].",
+      "perspectives[3].text": "스타 쉬(Star Xu), OKX 최고경영자: 쉬는 암호화폐 기업들이 실시간 보안 경고를 공유하고 의심스러운 자금을 공동으로 모니터링하며 신속 대응 절차를 마련할 것을 촉구했다 [ft.com#2].",
+      "timeline[0].content": "바이낸스는 이 날짜 기준으로 1,710억 달러의 운용 자산을 보고했다 [scmp.com#1].",
+      "timeline[1].content": "도난은 목요일 늦게 시작되었으며, 대부분의 자금은 약 20분 만에 이동했다 [bworldonline.com#1][theglobeandmail.com#1].",
+      "timeline[2].content": "FBI는 이번 도난 사건의 배후로 북한 그룹 트레이더트레이터를 공개적으로 지목했다 [pbs.org#1][ft.com#2].",
+      "timeline[3].content": "바이낸스는 인출 기능을 단계적으로 재개했으며, 초기에는 15개 토큰을 대상으로 했고 도지코인(Dogecoin)과 아발란체(Avalanche) 인출은 이후 재개되었다 [ft.com#1][theguardian.com#1].",
+      "suggested_qna[0].question": "사용자들은 언제 바이낸스의 예비 자산 보유량을 독립적으로 확인할 수 있습니까?",
+      "suggested_qna[0].answer": "바이낸스는 영지식 증명(zero-knowledge proof) 생성 후 11월 3일 화요일부터 사용자들이 예비 자산 보유량을 독립적으로 검증할 수 있을 것이라고 밝혔으며, 이 과정에는 40~50시간이 소요될 것으로 예상되었다 [upi.com#1].",
+      "primary_image.caption": "2026년 10월 30일 촬영된 바이낸스 로고와 해커 코드 삽화. REUTERS/Dado Ruvic/Illustration",
+      "secondary_image.caption": "작년 암호화폐 컨퍼런스에 참석한 자오창펑(Changpeng Zhao) 바이낸스 창업자. 회사 측은 일요일, 운용 자산의 2.1%만이 인출되었다고 밝혔다."
+    },
+    "e50e5860-2cf4-4217-a265-6c7dbfe1e19c": {
+      "title": "젤렌스키, 미국 패트리어트 미사일 제공 시 한 달간 정유시설 공격 중단 제안",
+      "short_summary": "볼로디미르 젤렌스키 우크라이나 대통령은 11월 1일, 미국이 한 달간 패트리어트 방공 미사일을 공급한다면 우크라이나가 러시아 정유시설에 대한 공격을 한 달간 중단하겠다고 밝혔다. 그는 또한 도널드 트럼프 대통령이 양국에 에너지 시설 공격 중단을 요구한 것에 대해, 러시아가 우크라이나의 에너지 시스템을 표적으로 삼는 것을 멈춘다면 키이우 역시 공격을 중단할 수 있다고 언급했다 [straitstimes.com#1][ndtv.com#1][lesoir.be#1]. 트럼프 행정부는 10월 30일 우크라이나에 500기의 패트리어트 요격 미사일을 판매하는 21억 달러 규모의 잠재적 계약을 승인했으나, 젤렌스키 대통령은 인도까지 수년이 걸릴 수 있다고 경고했다. 우크라이나 당국자들은 미사일 재고가 줄어들고 있다고 경고해 왔으며, 젤렌스키 대통령은 동맹국들에 새로운 주문 물량을 기다리는 동안 각국의 비축분에서 미사일을 이전해 줄 것을 촉구했다 [rferl.org#1][semafor.com#1][voceabasarabiei.md#1]. 트럼프 대통령은 에너지 시설 휴전 추진을 에너지 가격 상승과 연계하고 있으며, 러시아의 공격은 우크라이나 전력 인프라에 피해를 입혔다 [straitstimes.com#1][theguardian.com#1]. 미국이 중재하는 러시아와 우크라이나 간의 회담은 미국과 이스라엘이 이란을 공격하기 시작한 2월 이후 사실상 중단되었다가 이번 달 재개될 것으로 예상된다 [straitstimes.com#1][hln.be#1].",
+      "quote": "우리는 만약 당신들이 우리가 러시아의 정유시설을 공격하지 않기를 원한다면, 그들도 우리의 에너지 시스템을 공격해서는 안 된다고 말했다. 또 다른 대안은 우리에게 패트리어트 미사일을 주는 것이다. 우리는 단순한 원조가 아니라 자금을 마련할 것이다.",
+      "quote_attribution": "더 스트레이츠 타임스(The Straits Times)",
+      "humanitarian_impact": "키이우의 핵심 화력 발전소가 피해를 입었으며, 이후 도시 전역에서 정전이 발생했다 [theguardian.com#1].",
+      "talking_points[0]": "자금 지원 파트너: 세마포(Semafor)에 따르면 캐나다, 독일, 노르웨이가 기부를 통해 구매 자금을 지원하고 있다 [semafor.com#1].",
+      "talking_points[1]": "부족 수치: 젤렌스키 대통령은 10월 23일 우크라이나가 매달 약 350기의 패트리어트 미사일이 필요하지만 지난 3개월간 24기를 받았다고 밝혔다 [vnexpress.net#1].",
+      "talking_points[2]": "공격 재개: 러시아 관영 매체는 우크라이나가 니즈니노브고로드와 사마라의 정유시설을 드론으로 공격했다고 보도했다 [theguardian.com#1].",
+      "talking_points[3]": "올레시키 대피: 현지에서 중재된 휴전 기간 동안 대피가 이루어진 후, 수백 명의 주민이 우크라이나 북부에서 친척들과 재회했다 [theguardian.com#1].",
+      "talking_points[4]": "정전 사태: 러시아의 공격으로 우크라이나 4개 지역 수십만 가구의 전력이 차단되었으며, 키이우에서는 8~10시간 동안 정전이 발생했다고 보고되었다 [theguardian.com#1].",
+      "technical_details[0]": "PAC-3 MSE 사거리: 브이엔익스프레스(VnExpress)는 항공기 대상 최대 사거리가 120km, 탄도 미사일 대상 사거리가 60km라고 보도했다 [vnexpress.net#1].",
+      "technical_details[1]": "요격 미사일 비용: 브이엔익스프레스는 PAC-3 MSE의 평균 가격을 기존 420만 달러에서 약 530만 달러로 인상된 것으로 추산했다 [vnexpress.net#1].",
+      "perspectives[0].text": "우크라이나 당국자들: 이들은 키이우 인디펜던트(Kyiv Independent)에 우크라이나가 재러드 쿠슈너(Jared Kushner)의 정유시설 공격 30일 중단 요청에 동의한 적이 없으며, 키이우가 백악관의 요구를 수용했다는 주장을 반박했다 [theguardian.com#1].",
+      "perspectives[1].text": "알렉스 플리트사스(Alex Plitsas) 애틀랜틱 카운슬(Atlantic Council) 연구원이자 전 국방부 관료: 그는 승인된 미사일 판매는 의미가 있지만 우크라이나의 즉각적인 필요를 충족시키지는 못할 것이라고 말했다. 그는 러시아의 에너지 인프라 공격으로 민간인들이 겨울 추위에 직면할 수 있다고 경고했다 [gazetaexpress.com#1].",
+      "perspectives[2].text": "전 나토(NATO) 주재 미국 대사: 전 대사는 이란과의 전쟁이 재개될 경우 미국 스스로 패트리어트 미사일이 필요할 수 있기 때문에 워싱턴이 단기적인 가용 물량을 제한하고 있을 가능성을 제기했다 [semafor.com#1].",
+      "perspectives[3].text": "크렘린궁 관계자들: 이들은 우크라이나가 러시아 정유시설에 대한 공격을 재개함에 따라 키이우가 미국의 바람을 “단순히 무시”하고 있다고 말했다 [theguardian.com#1].",
+      "timeline[0].content": "점령지 올레시키 주변에서 국지적 휴전이 시작되었다 [theguardian.com#1].",
+      "timeline[1].content": "워싱턴이 500기의 패트리어트 요격 미사일 판매 가능성을 승인했다 [rferl.org#1][semafor.com#1].",
+      "timeline[2].content": "인도주의적 지원과 민간인 대피를 가능하게 했던 올레시키 휴전이 종료되었다 [theguardian.com#1]."
+    },
+    "f9a148a2-c8f1-4bed-b6c7-f122c80faa0a": {
+      "title": "이스라엘 선거관리위원장, 부정선거 조사 결과 뒤집히지 않을 것",
+      "short_summary": "이스라엘 선거관리위원장은 11월 1일 일요일, 외국 개입 의혹에 대한 조사가 사실로 확인되더라도 지난주 실시된 총선 결과가 뒤집히지는 않을 것이라고 밝혔다. 중앙선거관리위원회 위원장인 노암 솔버그(Noam Sohlberg) 대법관은 선거가 적절하게 치러졌으며 결과는 유권자의 선택을 반영했다고 말했다. 이스라엘 국내 정보기관인 신베트(Shin Bet)는 카타르가 아랍계 정당인 라암(Ra’am)에 자금을 지원했는지 여부를 조사 중이다. 라암과 카타르 양측 모두 해당 의혹을 부인하고 있다 [thehindu.com#1][aljazeera.com#1][newarab.com#1]. 베냐민 네타냐후(Benjamin Netanyahu) 총리가 이끄는 리쿠드(Likud) 블록은 이스라엘 의회인 크네세트(Knesset) 120석 중 53석을 확보했고, 가디 아이젠코트(Gadi Eisenkot) 야샤르(Yashar)당 대표가 이끄는 야권 블록은 48석을 얻었다. 아랍계 정당인 라암과 공동명단(Joint List)은 합쳐서 19석을 차지했으며, 이로써 어느 주요 블록도 과반인 61석을 확보하지 못했다. 야권과 아랍계 정당들이 협력에 합의할 경우 총 67석을 확보할 수 있다 [aljazeera.com#1][aa.com.tr#1]. 조사는 계속 진행 중이며, 솔버그 위원장은 의혹이 곧 증거는 아니라고 말했다. 선거 결과는 이번 주 내로 확정될 예정이며, 이츠하크 헤르조그(Isaac Herzog) 대통령은 11월 4일 수요일부터 당선된 정당들과 협의를 시작할 예정이다. 새 크네세트는 다음 주에 취임하며 이후 연정 협상이 뒤따를 전망이다 [timesofisrael.com#2][pbs.org#1].",
+      "quote": "선거 결과를 부정하고, 대중의 의지를 훼손하며, 전체 공동체에 오명을 씌우고, 이스라엘을 또 다른 선거로 몰아넣으려는 비열하고 악의적인 시도는 실패했다.",
+      "quote_attribution": "더 힌두(The Hindu)",
+      "talking_points[0]": "투표율 기록: 선거관리위원회에 따르면 투표율은 77.9%를 기록해 1999년 이후 최고치를 달성했다 [aa.com.tr#1].",
+      "talking_points[1]": "뇌물 사건: 경찰은 10월 27일 투표 시작 전 활동가 3명을 체포했고, 이틀 뒤 4명을 추가로 체포했다. 이후 법원은 처음 체포된 3명 중 1명을 석방하고, 다른 1명은 가택 연금, 나머지 1명은 구금 기간을 이틀 연장하도록 명령했다 [pbs.org#1][japantoday.com#1].",
+      "talking_points[2]": "의석 차이: 리쿠드당은 라암이 우파 블록으로 넘어갈 수 있었던 의석을 차지하는 데 4,612표 차이가 있었다고 주장했다 [timesofisrael.com#2][haaretz.com#2].",
+      "talking_points[3]": "기밀 조사: 솔버그 위원장은 신베트의 조사가 기밀 정보에 의존하고 있으며 세부 사항은 아직 공개할 수 없다고 말했다 [timesofisrael.com#2].",
+      "perspectives[0].text": "리쿠드당: 당은 외국 개입 의혹이 결과에 영향을 미칠 수 없다는 선거관리위원장의 결론은 조사가 미완성 상태이므로 시기상조라고 밝혔다. 또한 선거 결과에 '먹구름'이 여전히 드리워져 있다고 주장했다 [timesofisrael.com#2][haaretz.com#2].",
+      "perspectives[1].text": "가디 아이젠코트 야샤르당 대표: 아이젠코트는 네타냐후 총리의 선거 결과 불복 시도가 국가 기관에 대한 대중의 신뢰를 더욱 훼손할 위험이 있다고 경고했다 [pbs.org#1][timesofisrael.com#2].",
+      "perspectives[2].text": "만수르 아바스(Mansour Abbas) 라암 대표: 아바스는 경찰이 라암과 연관 지어 활동가들을 체포한 것을 비민주적이며 선거에 영향을 미치려는 시도라고 비난했다 [aljazeera.com#1][pbs.org#1].",
+      "suggested_qna[0].question": "연정 협상이 결렬되면 어떻게 되는가?",
+      "suggested_qna[0].answer": "헤르조그 대통령은 다른 후보에게 정부 구성을 시도하도록 요청할 수 있으며, 협상이 계속 실패할 경우 이스라엘은 2027년 초에 또 다른 선거를 치를 수 있다 [japantoday.com#1][perthnow.com.au#1]."
+    },
+    "a831d487-2e94-4b32-bf47-cbe191949d58": {
+      "title": "인도 야당 지도자, 유권자 명부 조작 의혹으로 모디 총리 법적 대응 예고",
+      "short_summary": "라훌 간디(Rahul Gandhi) 국민회의(Congress) 대표는 일요일 뉴델리 집회에서 기아네시 쿠마르(Gyanesh Kumar) 중앙선거관리위원장의 사임을 촉구하며, 나렌드라 모디(Narendra Modi) 총리와 아미트 샤(Amit Shah) 내무장관에 대한 법적 대응에 나설 것이라고 밝혔다[dw.com#1][bbc.co.uk#1]. 간디 대표는 '투표 도둑질'을 주장했으며, 야당은 유권자 명부 변경이 모디 총리의 인도국민당(BJP)에 유리하게 작용할 수 있다고 비판했다. 반면 BJP와 선거관리위원회는 위법 행위를 부인하고 있다[dw.com#1][aljazeera.com#1][channelnewsasia.com#1]. '특별 집중 개정(Special Intensive Revision)'으로 알려진 유권자 명부 검토 과정에서 초안 명부에서 1억 3천만 명 이상의 이름이 삭제되었다. 야당은 이 검토가 무슬림과 기타 소수자 등 적격 유권자들에게 불균형적인 피해를 주었다고 주장한다. 선관위 관계자들은 중복, 사망, 자격 미달 등록자를 대상으로 한 것이며, 부당하게 제외된 유권자는 재등록을 신청할 수 있다고 밝혔다[bbc.co.uk#1][aljazeera.com#1]. 최근 두 명의 선거관리위원이 개정 절차, 등록 과정 및 디지털 시스템에 대해 내부 우려를 제기했다는 보도가 나오면서 논란이 더욱 거세졌다[channelnewsasia.com#1][bbc.co.uk#1]. 일요일 집회에는 수만 명이 참석했으며, 국민회의 고위 인사들과 지역 야당 지도자들이 간디 대표와 함께했다. BJP 고위 인사들은 이번 시위를 비난했고, 선관위는 절차의 정당성을 옹호했다[bbc.co.uk#1][france24.com#2][dw.com#1]. 차기 총선은 2029년으로 예정되어 있으며, 야당은 쿠마르 위원장의 사퇴를 계속 압박할 것이라고 밝혔다[aljazeera.com#1][bbc.co.uk#1].",
+      "quote": "기아네시 쿠마르가 없었다면 나렌드라 모디는 총리가 되지 못했을 것이고, 아미트 샤는 내무장관이 되지 못했을 것이다.",
+      "quote_attribution": "도이체벨레(Deutsche Welle)",
+      "location": "인도 뉴델리",
+      "historical_background": "람릴라 마이단(Ramlila Maidan)은 1975년 자야프라카시 나라얀(Jayaprakash Narayan)이 주도하여 인디라 간디(Indira Gandhi)의 비상사태에 대한 저항을 촉발한 집회를 포함해 대규모 정치 운동의 장이 되어 왔다. 2011년 이곳에서 열린 반부패 캠페인은 2014년 국민회의 주도 정부의 패배로 이어진 압력을 형성하는 데 기여했다[spokesman.com#1].",
+      "talking_points[0]": "청년 운동: 청년 단체 '바퀴벌레 자타당(Cockroach Janta Party)'은 집회를 지지했으나 직접 참석하지는 않았다. 창립자 아비지트 딥케(Abhijeet Dipke)는 기존 정당으로부터 독립적인 입장을 유지하고 싶다고 밝혔다[bbc.co.uk#1].",
+      "talking_points[1]": "법적 절차: 인도 중앙선거관리위원장은 공식적인 의회 절차를 통해서만 해임될 수 있으므로, 야당이 토요일에 진행한 상징적 탄핵은 법적 효력이 없다[bbc.co.uk#1][news.kagi.com#1].",
+      "talking_points[2]": "정부 대응: 아미트 샤 내무장관은 국민회의가 1984년 반(反)시크교 폭동 기념일에 집회를 개최한 것은 시크교 희생자들에 대한 결례라고 비난했다[dw.com#2].",
+      "talking_points[3]": "집회 조건: 델리 경찰은 주최 측에 오후 5시까지 집회를 종료하고, CCTV 카메라를 설치하며, 시위대를 지정된 구역 내에 머물게 할 것을 요구했다[bbc.co.uk#1].",
+      "talking_points[4]": "이전 시위 성과: AFP 통신에 따르면, 지난 7월 '바퀴벌레 자타당'이 시험 부정행위와 관련해 벌인 캠페인 이후 고위 교육부 장관이 사임한 바 있다[france24.com#2][lemonde.fr#1].",
+      "perspectives[0].text": "휴먼라이츠워치(Human Rights Watch): 이 인권 단체는 명부 삭제 과정을 '자의적이고 심각한 결함이 있다'고 비판하며, 소외 계층의 투표권과 기타 정부 서비스 접근권을 박탈하고 있다고 주장하면서 당국에 이를 폐기할 것을 촉구했다[nation.com.pk#1].",
+      "timeline[0].content": "전국 유권자 명부 개정 시작, 이후 1억 3천만 명 이상의 이름이 삭제됨[news.kagi.com#1]",
+      "timeline[1].content": "인디언 익스프레스(Indian Express) 보도를 통해 선거관리위원들의 개정 관련 우려 사항이 상세히 공개됨[bbc.co.uk#1]",
+      "timeline[2].content": "경찰이 시위 도중 '바퀴벌레 자타당' 지도부들을 구금함[news.kagi.com#1][bbc.co.uk#1]",
+      "timeline[3].content": "야당 지도자들이 기아네시 쿠마르에 대한 상징적 탄핵을 진행함[news.kagi.com#1][bbc.co.uk#1]",
+      "timeline[4].content": "야당 연합인 INDIA 블록이 델리에서 집회를 열고 쿠마르 위원장의 사퇴 요구를 재확인함[bbc.co.uk#1][dw.com#1]",
+      "primary_image.caption": "일요일 인도 뉴델리에서 라훌 간디 인도 야당 지도자가 람릴라 마이단을 향한 '민주주의 구하기' 행진에 참여하기 위해 도착하고 있다. -- 로이터",
+      "secondary_image.caption": "2026년 11월 1일 뉴델리 람릴라 마이단에서 열린 야당 연합 INDIA 블록(인도 국가 개발 포용 연합)의 시위 집회에서 인도 공산당의 농민 전선인 전인도농민협회(AIKS) 회원들이 '특별 집중 개정(SIR)'과 관련된 유권자 명부 부정 의혹을 이유로 기아네시 쿠마르 인도 중앙선거관리위원장의 사임을 요구하는 포스터를 들고 있다. — AFP"
+    },
+    "dba6afbe-97b8-4052-937c-a4b332f0251e": {
+      "title": "유엔, 안보리 교착 상태로 서사하라 평화유지군 임무 종료",
+      "short_summary": "서사하라 유엔평화유지군(MINURSO)이 안전보장이사회의 임무 연장 실패로 11월 1일부터 철수 절차에 돌입하면서, 해당 지역은 휴전 감시 임무를 잃게 되었다[france24.com#1][aljazeera.com#1][suspilne.media#1]. 10월 30일 미국이 주도한 결의안은 러시아의 거부권 행사로 무산되었고, 러시아가 제출한 맞대응 결의안 또한 통과되지 못했다. 이로써 MINURSO의 임무는 10월 31일 자정부로 종료되었다[urdupoint.com#1][taz.de#1]. 1991년 창설된 MINURSO는 휴전 감시와 자결권 행사를 위한 국민투표 준비를 목적으로 했다. 그러나 모로코와 독립을 주장하는 폴리사리오 전선(Polisario Front)이 투표권 자격을 두고 이견을 보이면서 투표는 무산되었다[abcnews.com#1][newarab.com#1]. 모로코는 임무 연장 무산을 환영한 반면, 폴리사리오와 알제리는 이번 결과와 미국 측 결의안에 반발했다[france24.com#1][straitstimes.com#1]. 유엔은 소규모 팀을 남겨 장비 반환 및 처분을 감독할 예정이며, 정치적 업무는 스테판 데 미스투라(Staffan de Mistura) 특사를 통해 계속될 것이라고 밝혔다[urdupoint.com#1][newarab.com#1].",
+      "quote": "MINURSO의 평화유지 활동은 종료되었으나, 유엔은 대화를 촉진하고 분쟁의 평화적 해결을 추구하기 위한 노력을 계속 지원할 준비가 되어 있다.",
+      "quote_attribution": "알자지라",
+      "historical_background": "모로코와 폴리사리오가 수용한 1988년 유엔-아프리카연합(OAU) 합의안은 독립과 모로코 통합 중 하나를 선택하는 투표를 실시할 것을 요구했다[urdupoint.com#1]. 양측은 투표권 자격을 두고 대립했는데, 폴리사리오는 스페인 식민지 시절의 인구 조사를 기준으로 삼아야 한다고 주장한 반면, 모로코는 자국이 통제하는 지역에 거주하는 사하라위인들을 포함해야 한다고 맞섰다[abcnews.com#1][newsday.com#1].",
+      "talking_points[0]": "임무 규모: MINURSO는 종료 시점에 35개국 이상에서 파견된 약 200명의 민간인, 군사 옵서버, 참모 장교로 구성되었으며, 9개의 팀 사이트와 알제리 틴두프에 연락 사무소를 두고 있었다[urdupoint.com#1].",
+      "talking_points[1]": "운영 비용: 해당 임무는 최대 534명의 인원을 승인받았으며 2026-27년 예산은 6,200만 달러를 상회했다. 35년간의 파병 기간 동안 20명의 MINURSO 인원이 사망했다[abcnews.com#1][newsday.com#1].",
+      "talking_points[2]": "안보 경고: 안토니우 구테흐스(António Guterres) 유엔 사무총장은 적대 행위가 고조될 위험을 경고하며, 긴장을 높일 수 있는 행동을 자제할 것을 당사자들에게 촉구했다[aljazeera.com#1][eleconomista.es#1].",
+      "talking_points[3]": "파키스탄의 입장: 파키스탄은 두 결의안 모두에 기권하며, 대화와 합의를 통한 상호 수용 가능한 정치적 해결책이 필요함을 강조했다[urdupoint.com#1].",
+      "perspectives[0].text": "모로코 왕실: 왕실은 이번 임무 연장 무산이 서사하라 문제를 안보리 의제에서 제외하는 중요한 단계라고 평가했다[aljazeera.com#1][aawsat.com#1].",
+      "perspectives[1].text": "나세르 부리타(Nasser Bourita) 모로코 외무장관: 그는 MINURSO가 국민투표를 언급하는 것은 '시대착오적'이라며, 라바트(Rabat)는 이번 미국 결의안 부결을 분쟁을 규율하는 규칙을 재검토할 기회로 보고 있다고 밝혔다[straitstimes.com#1].",
+      "perspectives[2].text": "미국: 마이크 월츠(Mike Waltz) 미국 대사는 해당 결의안이 자결권을 증진하고 장기화된 분쟁을 진전시킬 것이라고 주장하며, 현 상태는 용납할 수 없다고 지적했다[aljazeera.com#1][urdupoint.com#1].",
+      "perspectives[3].text": "러시아: 바실리 네벤쟈(Vassily Nebenzia) 러시아 대사는 미국 측 문안이 한쪽 편을 들고 있으며, 안보리가 주권을 미리 결정할 수는 없다고 주장했다[aljazeera.com#1].",
+      "timeline[0].content": "휴전 발효 및 유엔의 MINURSO 창설[newarab.com#1][urdupoint.com#1]",
+      "timeline[1].content": "모로코, 협상의 기초로 모로코 주권 하의 자치안 제안[urdupoint.com#1]",
+      "timeline[2].content": "충돌 발생 후 폴리사리오의 휴전 파기 및 적대 행위 재개[abcnews.com#1][eleconomista.es#1]",
+      "timeline[3].content": "러시아의 미국 결의안 거부권 행사 및 러시아의 맞대응 임무 연장안 부결[suspilne.media#1][taz.de#1]",
+      "timeline[4].content": "유엔의 MINURSO 철수 및 장비 회수 시작[france24.com#1][newarab.com#1]",
+      "suggested_qna[0].question": "임무 종료가 사하라위인의 자결권에 영향을 미치는가?",
+      "suggested_qna[0].answer": "아니다. 안토니우 구테흐스 유엔 사무총장은 MINURSO의 철수가 사하라위인의 양도할 수 없는 자결권을 무효화하는 것은 아니라고 밝혔다[urdupoint.com#1]."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 6,
-    "failedStoryIds": [
-      {
-        "id": "5f77e1e5-4d1e-4c4b-8c1a-e61f87fc229d",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "d77d628b-08d3-4d74-99e0-5339cd0660dd",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "e50e5860-2cf4-4217-a265-6c7dbfe1e19c",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "f9a148a2-c8f1-4bed-b6c7-f122c80faa0a",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "a831d487-2e94-4b32-bf47-cbe191949d58",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "dba6afbe-97b8-4052-937c-a4b332f0251e",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 8662,
-      "out": 10804
+      "in": 17050,
+      "out": 21412
     }
   }
 }
