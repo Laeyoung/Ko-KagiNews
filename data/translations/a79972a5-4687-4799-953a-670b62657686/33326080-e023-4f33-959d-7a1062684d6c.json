@@ -4,7 +4,7 @@
   "categoryUuid": "33326080-e023-4f33-959d-7a1062684d6c",
   "categorySlug": "usa",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-11-04T19:43:45.796Z",
+  "createdAt": "2026-11-04T20:42:14.450Z",
   "stories": {
     "e82763ce-208f-440a-b22a-5f87b29e38a4": {
       "title": "텍사스 민주당 제임스 탈라리코, 트럼프가 지지한 켄 팩스턴 꺾고 상원 의석 탈환",
@@ -242,20 +242,34 @@
       "timeline[2].content": "쿡 정치 리포트(The Cook Political Report)가 오하이오주 선거 판세를 '민주당 우세(Lean Democrat)'로 조정했다 [time.com#1]",
       "timeline[3].content": "AP 통신이 선거 당일 밤 액턴의 주지사 당선을 보도했다 [daytondailynews.com#1]",
       "primary_image.caption": "팬데믹 기간 오하이오주 최고 보건 책임자로 재직했던 민주당의 에이미 액턴 박사가 차기 주지사로 당선되며, 이 직책을 맡은 최초의 여성이 되었다."
+    },
+    "00321747-134e-449b-9c83-b0cdae41a8c7": {
+      "title": "캔자스주 목사 애덤 해밀턴, 공화당 로저 마셜 상원의원 꺾어",
+      "short_summary": "감리교 목사인 민주당의 애덤 해밀턴(Adam Hamilton)이 캔자스주에서 공화당 로저 마셜(Roger Marshall) 상원의원을 꺾고 수십 년간 공화당이 지켜온 의석을 탈환했다[npr.org#1][cbsnews.com#1][presstelegram.com#1]. 캔자스주는 1932년 이후 민주당 상원의원을 배출한 적이 없으며, 2024년 대선 당시 도널드 트럼프 대통령이 16%포인트 이상 격차로 승리했던 지역이다[npr.org#1][cbsnews.com#1]. 민주당은 다른 상원 경선에서도 의석을 확보했으며, CBS 뉴스는 이번 캔자스주 승리가 민주당의 상원 다수당 지위를 확정 짓는 데 기여했다고 보도했다[cbsnews.com#1]. 해밀턴은 경제적 부담 완화와 초당적 유권자 통합을 강조하는 중도주의 노선을 내세워 선거운동을 펼쳤다. 이란 전쟁으로 인한 유가 상승, 트럼프의 관세 정책, 마셜 의원이 과거 환자들을 상대로 의료비 미납 소송을 제기했던 전력 등이 선거 쟁점으로 부상했으며, 마셜은 트럼프 대통령의 정책을 지지한 점에 대해서도 비판을 받았다[rte.ie#1][aljazeera.com#1][koat.com#1]. 이번 선거에는 캔자스주 사상 최대 규모인 약 1억 1천만 달러의 선거 자금이 투입되었다. 트럼프와 JD 밴스(JD Vance) 부통령이 마셜을 지원한 반면, 해밀턴은 중도 성향 공화당원과 무당층의 지지를 얻었다. 마셜은 선거 후 위치타(Wichita)에서 패배를 인정했다[koat.com#1][presstelegram.com#1].",
+      "quote": "우리는 '플라이오버 컨트리(flyover country, 비행기로 지나쳐 가는 지역)'가 아닙니다. 우리는 이 나라의 심장부입니다.",
+      "quote_attribution": "AP 통신",
+      "talking_points[0]": "환자 부채: 뉴욕타임스 조사에 따르면 마셜 의원과 그의 의료기관은 미납된 의료비를 이유로 700명 이상의 전 환자를 고소했으며, 이 중 81건은 법원 출석일을 놓친 환자들이 체포된 사례였다[koat.com#1][presstelegram.com#1].",
+      "talking_points[1]": "광고 지출: 광고 추적 업체 애드임팩트(AdImpact)에 따르면 이번 선거에서 공화당은 TV 및 디지털 광고에 4천5백만 달러를, 민주당은 6천5백만 달러를 지출했다[koat.com#1].",
+      "talking_points[2]": "유권자층: AP 유권자 설문조사에 따르면 캔자스주 중도 성향 유권자 10명 중 7명가량이 해밀턴을 지지했으며, 30세 미만 유권자 10명 중 8명가량도 그를 지지했다[presstelegram.com#1].",
+      "talking_points[3]": "정책 대립: 해밀턴은 트럼프 대통령의 관세 정책 폐지와 새로운 관세 부과 시 의회 승인 의무화를 요구한 반면, 마셜은 관세 정책이 효과를 거두고 있다고 주장했다[rte.ie#1][ndtv.com#1].",
+      "talking_points[4]": "교회 조사: 해밀턴은 2005년 자신의 교회에서 발생한 청소년 캠프 학대 의혹을 사법 당국에 신고하지 않았고, 가해자로 지목된 자원봉사자가 이듬해 복귀했던 사실이 잘못이었음을 인정했다[koat.com#1][nypost.com#1].",
+      "perspectives[0].text": "애덤 해밀턴 민주당 상원의원 당선인: 해밀턴은 초당적 유권자들이 워싱턴의 분열에 불만을 느끼고 있으며, 캔자스 주민들이 의료 서비스 및 식량 지원 축소에 대해 우려하고 있다고 전했다[presstelegram.com#1].",
+      "perspectives[1].text": "로저 마셜 공화당 상원의원: 마셜은 의사로서의 자신의 이력에 대한 공격을 '심각한 왜곡'이라고 일축하며, 미납 의료비 추심 결정은 추심 업체가 처리한 것이라고 주장했다[koat.com#1][nypost.com#1].",
+      "perspectives[2].text": "캔자스 농부 및 목장주: 농부들은 연료비 상승과 대두 및 밀 수출에 대한 보복 관세로 어려움을 겪었으며, 목장주들은 트럼프의 쇠고기 수입 관세 완화 계획에 반대했다[rte.ie#1].",
+      "timeline[0].content": "조지 맥길(George McGill)이 캔자스주 상원의원으로 선출된 마지막 민주당원이 되었다[koat.com#1].",
+      "timeline[1].content": "공화당의 밥 돌(Bob Dole)이 2%포인트 미만의 격차로 재선에 성공했다[koat.com#1].",
+      "timeline[2].content": "마셜이 11%포인트 이상의 격차로 첫 상원의원 임기를 시작했다[npr.org#1].",
+      "timeline[3].content": "해밀턴이 캔자스주 상원의원 선거에서 마셜을 꺾었다[presstelegram.com#1][cbsnews.com#1].",
+      "primary_image.caption": "캔자스주 캔자스시티 지역의 중도파 목사인 애덤 해밀턴 목사는 지난 2월까지 공화당원으로 등록되어 있었다."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "00321747-134e-449b-9c83-b0cdae41a8c7",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 15392,
-      "out": 20321
+      "in": 16675,
+      "out": 21999
     }
   }
 }
