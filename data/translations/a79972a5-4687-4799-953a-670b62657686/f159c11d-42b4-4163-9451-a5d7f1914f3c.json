@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "batchId": "a79972a5-4687-4799-953a-670b62657686",
+  "categoryUuid": "f159c11d-42b4-4163-9451-a5d7f1914f3c",
+  "categorySlug": "world",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-11-04T18:12:52.646Z",
+  "stories": {
+    "16da1083-d1cd-41e8-b67c-c9119c8e20e7": {
+      "title": "민주당, 상·하원 장악…트럼프 임기 후반부 견제 본격화",
+      "short_summary": "화요일 치러진 미국 중간선거에서 민주당이 상·하원을 모두 장악하며 도널드 트럼프 대통령의 공화당으로부터 의회 주도권을 빼앗아 임기 후반부 국정 운영에 새로운 영향력을 확보했다 [dw.com#1][theguardian.com#1]. 민주당은 공화당 우세 지역이었던 텍사스, 사우스캐롤라이나, 노스캐롤라이나, 오하이오, 캔자스, 아이오와, 메인주 상원 선거에서 승리했으며, 일부 지역은 여전히 개표가 진행 중이다 [ft.com#1][aljazeera.com#1][semafor.com#2]. 유권자들은 높은 생활비와 연료비 문제를 우려했으며, 보도들은 이를 관세 및 트럼프의 이란 전쟁과 연관 지었다. 트럼프 대통령은 이란 문제가 패배의 원인 중 하나일 수 있음을 인정했다 [japantoday.com#1][straitstimes.com#1][japantoday.com#3]. 민주당은 새로운 다수당으로서 법안 및 상원 인준 차단, 위원회 통제, 행정부 조사 권한 확대 등의 힘을 갖게 되었다 [straitstimes.com#2][punchng.com#1]. 트럼프 대통령은 결과를 수용하고 민주당과 협력할 의사가 있다고 밝혔으나, 반대하는 법안에는 거부권을 행사하겠다고 경고했다 [theguardian.com#4][euronews.com#3]. 새로 선출된 의회는 1월에 임기를 시작하며, 민주당은 이때부터 위원회 및 감독 권한을 행사할 것으로 예상된다 [aljazeera.com#2][firstpost.com#2].",
+      "quote": "나는 그 결과를 전적으로 수용할 의사가 있다",
+      "quote_attribution": "가디언(The Guardian)",
+      "historical_background": "공화당은 2024년에 상원 통제권을 확보했다 [aljazeera.com#1].",
+      "talking_points[0]": "역사적 승리: 텍사스주에서는 제임스 탈라리코(James Talarico) 민주당 후보가 1988년 이후 처음으로 상원의원에 당선되었고, 캔자스주에서는 애덤 해밀턴(Adam Hamilton)이 1932년 이후 처음으로 민주당 상원의원이 되었다 [aljazeera.com#1][semafor.com#2].",
+      "talking_points[1]": "하원 지도부: 하킴 제프리스(Hakeem Jeffries) 민주당 하원 원내대표가 의장으로 선출될 것으로 예상되며, 이는 흑인 최초의 하원의장 탄생을 의미한다 [aljazeera.com#2][ft.com#1].",
+      "talking_points[2]": "주 단위 선거: 민주당은 조지아, 오하이오, 텍사스 주지사 선거에서도 승리했다. 조지아주의 키샤 랜스 보텀스(Keisha Lance Bottoms)는 미국 주지사로 선출된 최초의 흑인 여성이 되었다 [timesofisrael.com#1][france24.com#2][semafor.com#2].",
+      "talking_points[3]": "유권자 정서: 출구조사 결과 유권자의 62%가 트럼프 대통령을 부정적으로 평가했으며, 양당 모두 50% 이상의 호감도를 얻지 못했다 [csmonitor.com#1].",
+      "talking_points[4]": "미시간주의 이정표: 압둘 엘사예드(Abdul El-Sayed)가 공화당의 마이크 로저스(Mike Rogers)를 꺾고 미국 상원의원으로 당선된 최초의 무슬림이 되었다 [euronews.com#1].",
+      "perspectives[0].text": "도널드 트럼프 대통령: 트럼프 대통령은 이번 패배가 자신에 대한 심판이라고 보지 않는다며 개인적인 책임을 거부했다 [japantoday.com#3].",
+      "perspectives[1].text": "척 슈머(Chuck Schumer) 상원 민주당 원내대표: 슈머 원내대표는 민주당이 트럼프 대통령의 협조 여부와 관계없이 유권자들을 위한 성과를 낼 것이라고 말했다 [semafor.com#3].",
+      "perspectives[2].text": "하킴 제프리스 하원 민주당 원내대표: 제프리스 원내대표는 새 의회 첫날부터 조사를 시작할 것이며, 부패 혐의를 받는 공직자들에게 책임을 물을 것이라고 다짐했다 [firstpost.com#2].",
+      "perspectives[3].text": "보니 글레이저(Bonnie Glaser) 독일마샬펀드 인도-태평양 프로그램 상임이사: 글레이저 이사는 새 의회가 대만 정책에 대한 감독을 강화할 수 있으며, 지연된 무기 인도 보고서 및 신규 무기 판매 통보 등을 요구할 수 있다고 말했다 [scmp.com#2].",
+      "timeline[0].content": "공화당이 대통령직과 상·하원 모두를 장악했다 [aljazeera.com#2]",
+      "timeline[1].content": "트럼프 대통령이 이란과의 전쟁을 시작했고, 이로 인해 연료비가 상승했다 [japantoday.com#1]",
+      "timeline[2].content": "트럼프 대통령은 선거일 전 한 달 동안 20회 이상의 선거 유세를 진행했다 [3news.com#1][japantoday.com#1]",
+      "timeline[3].content": "유권자들이 의회 및 주 정부 선거를 위한 투표를 실시했다 [ft.com#1][firstpost.com#1]",
+      "timeline[4].content": "민주당의 승리로 상·하원 모두 민주당이 장악할 것으로 예측되었다 [dw.com#1][theguardian.com#2]",
+      "primary_image.caption": "2026년 11월 3일 미국 콜로라도주 커머스 시티에서 열린 미국 중간선거 개표 방송 행사에서 매니 루티넬(Manny Rutinel) 민주당 하원의원 후보의 지지자들이 모여 있다. — 로이터",
+      "secondary_image.caption": "2026년 11월 3일 조지아주 애틀랜타의 하얏트 리젠시에서 열린 중간선거 개표 시청 행사에서 안드레 디킨스(Andre Dickens) 애틀랜타 시장이 존 오소프(Jon Ossoff) 민주당 상원의원 지지자들에게 연설한 후 화면을 가리키고 있다. — AFP"
+    },
+    "0993bcf2-b667-4090-b276-d37a98484987": {
+      "title": "트럼프, 호르무즈 협상 교착 속 이란 추가 타격 계획 없다고 밝혀",
+      "short_summary": "도널드 트럼프 미국 대통령은 미국이 이란에 대한 추가 타격 계획을 당장 가지고 있지는 않다고 밝혔다. 다만 그는 케슘섬에 대한 제한적인 미군의 공격은 확인했으며, 추가 행동 가능성은 열어두었다. 워싱턴과 테헤란 간 8개월째 이어지는 갈등은 간접 협상의 중심지이자 주요 해상 운송로인 호르무즈 해협의 선박 운항을 위협하고 있다 [reuters.com#1][aljazeera.com#1][tass.com#1]. 트럼프 대통령은 파이낸셜타임스(FT)와의 인터뷰에서 미국이 원하는 것을 “모두 얻고 있다”며 미군은 필요시 행동할 준비가 되어 있다고 말했다. 그는 케슘섬 타격이 새로 완공된 이란의 대공 시설을 겨냥한 것이라고 설명했으며, 미 당국자들은 이를 주요 전투로의 복귀가 아닌 제한적인 방어 작전으로 규정했다 [reuters.com#1][aljazeera.com#1]. 모센 레자이 이란 국가안보최고회의 사무총장은 테헤란이 제시한 7가지 조건에 대한 워싱턴의 대응이 설득력이 없다고 비판했다. 이란은 호르무즈 해협 재개방의 조건으로 제재 해제, 미 해군 봉쇄 종료, 동결 자금 해제 등을 내걸었다. 카타르는 양측이 제안을 검토 중이라고 밝혔으나, 이란의 한 고위 관리는 로이터 통신에 합의와는 거리가 멀다고 전했다. 화요일에는 오만 인근에서 유조선이 발사체 두 발에 피격되었으나 인명 피해나 환경 오염은 보고되지 않았다 [aljazeera.com#1][reuters.com#1][cbsnews.com#1].",
+      "talking_points[0]": "유조선 피격: 영국 해사무역기구(UKMTO)는 당국이 오만 유조선 피격 사건을 조사하는 동안 선박들에 주의 깊게 항해하고 의심스러운 활동을 보고할 것을 권고했다 [cbsnews.com#1][aljazeera.com#1].",
+      "talking_points[1]": "핵 분쟁: 트럼프 대통령은 간접 협상에 이란의 약 1,000파운드 규모 농축 우라늄 비축분이 포함되어 있으며, 이는 여전히 방대한 잔해 아래 묻혀 있다고 말했다 [israelnationalnews.com#1][tribune.com.pk#1].",
+      "talking_points[2]": "카타르 중재: 협상 내용을 보고받은 한 관계자는 워싱턴과 테헤란이 36시간 이내에 제안에 대한 피드백을 제공할 것으로 예상했다 [reuters.com#1].",
+      "talking_points[3]": "지역 외교: 압바스 아락치 이란 외무장관은 외국 군사 개입을 배제하는 지역 안보 체제에 관해 사우디아라비아와 협상을 지속하고 있다고 밝혔다 [reuters.com#1][theglobeandmail.com#1].",
+      "talking_points[4]": "이집트의 호소: 바드르 압델라티 이집트 외무장관은 더 큰 군사적 확전을 막기 위해 이란에 자제를 촉구하고 협상에서 유연성을 보여줄 것을 당부했다 [cbsnews.com#1].",
+      "industry_impact[0]": "석유 시장: 전날 7% 이상 하락했던 유가는 외교적 전망을 저울질하는 투자자들로 인해 화요일 약 1.3% 상승했다 [theglobeandmail.com#1][reuters.com#1].",
+      "perspectives[0].text": "도널드 트럼프 미국 대통령: 그는 현재 미국의 입장이 워싱턴이 원하는 결과를 만들어내고 있으며 군사 행동이 필요하지 않을 수도 있다고 말하면서도, 미군은 타격 준비 태세를 유지하고 있다고 밝혔다 [reuters.com#1].",
+      "perspectives[1].text": "마수드 페제시키안 이란 대통령: 그는 재개된 전투가 누구에게도 이득이 되지 않으며 정부가 대화를 통해 해결책을 모색하고 있다고 말했다. 또한 이란 최고지도자가 기존에 금기시되었던 문제들에 대한 협상을 승인했다고 덧붙였다 [thehindu.com#2].",
+      "perspectives[2].text": "존 미어샤이머(John Mearsheimer): 미국 정치학자인 그는 단기 폭격 작전이 워싱턴의 목표를 달성할 수 있을지 의문을 제기하며, 이란의 보복이 미국을 더 긴 대결로 끌어들일 수 있다고 경고했다 [aljazeera.com#1].",
+      "timeline[0].content": "미국과 이스라엘의 이란 타격으로 분쟁 시작 [news.kagi.com#1]",
+      "timeline[1].content": "워싱턴과 테헤란, 중단을 촉구하는 양해각서 서명 [news.kagi.com#1]",
+      "timeline[2].content": "미국, 이란에 대한 대규모 타격 재개 [news.kagi.com#1]",
+      "primary_image.caption": "도널드 트럼프. -- 로이터 자료 사진",
+      "secondary_image.caption": "화요일 테헤란 중심가에 게시된 광고판. 왼쪽부터 스티브 위트코프(Steve Witkoff) 미국 중동 특사, 도널드 트럼프 미국 대통령, 베냐민 네타냐후 이스라엘 총리, JD 밴스(JD Vance) 미국 부통령이 부상을 입고 옷이 찢어진 모습으로 묘사되어 있다."
+    },
+    "aa864add-265a-4aa6-8d0b-1f6613203516": {
+      "title": "남아공 지방선거 실시, 서비스 실패로 ANC 지지 위협",
+      "short_summary": "남아프리카공화국 유권자들이 수요일 지방선거 투표를 시작했다. 이번 선거는 전국 8개 대도시와 수백 개의 지방 및 구 의회의 통제권을 결정한다. 유권자 수는 약 2,920만 명이다. 여론조사에 따르면 2021년 지방선거에서 45.6%로 득표율이 하락하고 2024년 총선에서 의회 과반 의석을 잃은 아프리카민족회의(ANC)가 이번 선거에서는 약 30%에서 40% 미만의 득표율을 기록할 것으로 전망된다 [aljazeera.com#1][theguardian.com#1][dw.com#1][sanews.gov.za#1]. 물 부족, 단전, 하수 처리, 범죄, 실업에 대한 분노가 이번 선거의 핵심 쟁점이다. 민주동맹(DA)은 헬렌 질레(Helen Zille) 전 당대표를 요하네스버그 시장 후보로 내세워 시 통제권 확보를 노리고 있으며, 제이콥 주마(Jacob Zuma) 전 대통령의 움콘토 웨 시즈웨(MK) 당은 더반 지역에서 도전을 이어가고 있다. 여론조사는 여러 주요 도시에서 연립정부 구성을 위한 협상이 필요할 것임을 시사한다 [straitstimes.com#1][abcnews.com#1][moneyweb.co.za#1]. 유권자들은 의원을 선출하고, 선출된 의원들이 시장을 뽑는다. 선거관리위원회는 11월 8일 일요일에 최종 결과가 나올 것으로 예상한다. ANC의 차기 당 지도부 선거는 2027년에, 총선은 2029년에 예정되어 있다 [enca.com#1][africanews.com#1][aljazeera.com#1].",
+      "quote": "지방 정부의 실패는 민주적 거버넌스에 대한 대중의 신뢰와 확신을 떨어뜨리는 원인이 되었다",
+      "quote_attribution": "스트레이츠 타임스(The Straits Times)",
+      "location": "남아프리카공화국 요하네스버그",
+      "historical_background": "2016년 ANC는 지방선거에서 53.91%를 득표하며 213개 의회 중 161곳에서 과반 의석을 확보했다 [dw.com#1].",
+      "business_angle_text": "머니웹(Moneyweb)은 투자자들이 포퓰리즘 야당에 대한 지지 급증 여부와 경제 성장 및 일자리 창출을 우선시해 온 ANC 주도 연립정부의 안정성에 미칠 영향을 주시할 것이라고 보도했다 [moneyweb.co.za#1]. 어느 정당도 과반 의석을 확보하지 못한 지방자치단체에서는 정당 간 통치 협상이 필요할 수 있다 [africanews.com#1].",
+      "talking_points[0]": "물 손실: 남아프리카공화국 인권위원회 조사 결과, 요하네스버그 수도관을 흐르는 물의 약 45%가 손실되는 것으로 나타났다. 보고서는 또한 취약한 지방 재정과 전문 인력 부족을 지적했다 [africanews.com#2].",
+      "talking_points[1]": "보안 강화: 선거관리위원회는 11월 2일 콰줄루나탈(KwaZulu-Natal)의 투표용지 보관소에서 정당 지지자들이 창고 운영을 방해한 사건 이후 보안을 강화했다. 경찰은 일요일 이후 21건의 선거 관련 사건을 접수했다 [allafrica.com#3][aljazeera.com#1].",
+      "talking_points[2]": "허위 정보 신고: 선거관리위원회는 망명 신청자도 투표할 수 있다는 허위 주장을 포함해 700건 이상의 허위 정보 신고를 조사 중이다. 남아공 법에 따라 망명 신청자, 난민, 영주권자는 투표할 수 없다 [dw.com#1].",
+      "talking_points[3]": "특별 투표: 승인된 특별 투표 신청자 260만 명 중 약 140만 명이 본 투표일 이전에 11월 2일과 3일에 투표를 마쳤다 [africanews.com#1][aljazeera.com#1].",
+      "talking_points[4]": "세 장의 투표용지: 지방자치단체 유권자들은 지역구 의원, 지방 비례대표, 구 비례대표를 뽑기 위한 투표용지를 받는다. 투표용지 수는 지자체마다 다르다 [enca.com#1].",
+      "business_angle_points[0]": "낮은 투표율은 지지자 동원력이 경쟁 정당보다 역사적으로 더 뛰어났던 DA에 유리하게 작용할 수 있다 [moneyweb.co.za#1].",
+      "business_angle_points[1]": "입소스(Ipsos) 여론조사에서 응답자의 절반은 자신들의 견해를 대변하는 정당이 없다고 답했으며, 68%는 정치인을 신뢰할 수 없다고 답했다 [moneyweb.co.za#1].",
+      "industry_impact[0]": "지방 상수도 시스템: 다다 모레로(Dada Morero) 요하네스버그 시장은 노후화된 시스템 보수에 수십억 랜드가 소요될 것이라고 밝혔으며, 월요일 기준 시 전체 저수율은 41%까지 회복되었다 [africanews.com#2].",
+      "perspectives[0].text": "헬렌 질레(Helen Zille) 민주동맹 요하네스버그 시장 후보: 질레는 BBC와의 인터뷰에서 “가장 잘 운영되는 마을과 도시는 DA가 통치하는 곳”이라며, 우리 당이 가장 강력한 지방 정부 대안을 제시한다고 주장했다 [bbc.co.uk#1].",
+      "perspectives[1].text": "사누샤 나이두(Sanusha Naidu) 글로벌 대화 연구소(Institute for Global Dialogue) 분석가: 나이두는 정당들의 물 공급 공약이 “거래적”이라고 지적하며, 후보들이 지방 예산이 접근성과 인프라에 대해 무엇을 의미하는지 충분히 다루지 않았다고 비판했다 [dw.com#1].",
+      "perspectives[2].text": "킹슬리 마쿠벨라(Kingsley Makhubela) 정치 분석가 겸 전 외교관: 마쿠벨라는 유권자들이 정치적 충성심보다는 물, 전기, 도로, 하수 처리와 같은 일상적 필요에 집중하고 있다고 말했다. 또한 연립정부가 정치적 관용을 장려할 수 있다고 주장했다 [africanews.com#1].",
+      "timeline[0].content": "ANC가 전체 45.59%를 득표하고 213개 의회 중 122곳에서 과반 의석 확보 [dw.com#1]",
+      "timeline[1].content": "ANC가 의회 과반 의석을 잃고 거국내각에 참여 [abcnews.com#1][aa.com.tr#1]",
+      "timeline[2].content": "마리안힐(Marianhill)에서 정당 지지자들이 투표용지 보관소 운영을 방해함 [allafrica.com#3]",
+      "timeline[3].content": "전국 지방선거 투표가 오전 7시부터 오후 9시까지 진행됨 [aljazeera.com#1][sanews.gov.za#1]",
+      "timeline[4].content": "최종 선거 결과가 일요일에 발표될 예정 [theguardian.com#1][africanews.com#1]",
+      "suggested_qna[0].question": "지방 연립정부와 시장 선출은 언제 마무리되는가?",
+      "suggested_qna[0].answer": "선거관리위원회는 최종 결과를 발표할 때까지 일주일의 시간이 있으며, 이후 각 정당은 2주 이내에 의회를 구성하고 시장을 선출해야 한다 [theguardian.com#1]."
+    },
+    "21b31c73-e9f5-40ee-863f-bbe75d0d1792": {
+      "title": "폴란드, 칼리닌그라드 인근 수상한 움직임 포착 후 보안군 배치",
+      "short_summary": "도날드 투스크(Donald Tusk) 폴란드 총리가 11월 3일 자정 직후 국경 근처에서 손전등을 든 사람들이 목격되었다고 밝힌 뒤, 폴란드는 러시아의 역외 영토인 칼리닌그라드와의 국경 지대에 경찰, 대테러 부대, 국경 수비대 및 군 특수부대를 추가 배치했다. 투스크 총리는 이번 움직임이 도발 시도일 수 있다고 언급했으나, 당국은 구체적인 의도를 확인하지 못했다. 폴란드 언론은 폴란드 영토로 넘어온 사람은 없다고 보도했다 [cbsnews.com#1][meduza.io#1][perthnow.com.au#1]. 이번 작전은 11월 상반기 중 사보타주(파괴 공작)나 무장 세력의 침입 가능성이 있다는 폴란드 및 동맹국 정보기관의 경고에 따른 것이다. 마레크 보론(Marek Boroń) 경찰청장은 주민과 기반 시설을 보호하기 위해 병력을 파견했다고 밝혔다. 화요일 오후까지 폴란드 당국은 구체적인 공격 계획에 대한 증거를 공개하지 않았다. 경찰이 주도하는 이번 작전은 최소 11월 8일까지 계속될 예정이다 [cbsnews.com#1][nytimes.com#1][perthnow.com.au#1].",
+      "quote": "물론, 우리가 이를 완전히 확인할 수는 없을 것이다.",
+      "quote_attribution": "CBS 뉴스",
+      "location": "폴란드, 셍포폴(Sępopol)",
+      "historical_background": "폴란드 당국은 최근 몇 달간 8월 드론 및 군사 부품 생산 공장 화재, 9월 스타링크(Starlink) 위성 지상국 방화 사건 등 여러 보안 사고를 보고했다. 폴란드 관리들은 방화 사건의 배후로 러시아를 지목했다 [cbsnews.com#1]. CBS 보도에 따르면 우크라이나 전쟁 중 러시아 드론이 동유럽의 나토(NATO) 영공을 반복적으로 침범하기도 했다 [cbsnews.com#1].",
+      "talking_points[0]": "지휘 센터: 경찰청에 설치된 특별 지휘 센터가 군, 국경 수비대, 정보기관과 협력하여 바르미아마주리주와 포들라스키주 전역의 작전을 조율하고 있다 [cbsnews.com#1][nv.ua#1].",
+      "talking_points[1]": "전략적 회랑: 폴란드는 칼리닌그라드와 232km에 달하는 국경을 맞대고 있으며, 인근의 수바우키(Suwałki) 회랑은 발트해 나토 국가들과 나머지 동맹국을 잇는 유일한 육로 연결 통로이다 [taz.de#1][cbsnews.com#1].",
+      "talking_points[2]": "국경 지역의 경찰력은 폴란드 타 지역에서 파견된 인력으로 보강되었다 [perthnow.com.au#1].",
+      "perspectives[0].text": "블라디미르 푸틴(Vladimir Putin) 러시아 대통령: 푸틴 대통령은 러시아가 다른 국가들을 위협하지 않는다고 주장하면서도, 칼리닌그라드를 포함한 러시아에 대한 직접적인 공격은 러시아의 무기 사용을 고려하게 만들 것이라고 경고했다 [tv2.dk#1].",
+      "timeline[0].content": "투스크 총리는 공동 기자회견에서 알렉서스 그린케위치(Alexus Grynkewich) 나토 사령관과의 최근 대화가 자신의 우려를 더욱 강화했다고 밝혔다 [cbsnews.com#1].",
+      "timeline[1].content": "폴란드가 칼리닌그라드 국경을 따라 특별 보안 작전을 시작했다 [cbsnews.com#1].",
+      "timeline[2].content": "투스크 총리가 자정 이후 국경 근처에서 손전등을 든 사람들을 목격했다고 보고했다 [meduza.io#1][cbsnews.com#1].",
+      "timeline[3].content": "경찰 작전이 최소한 이날까지 진행될 예정이었다 [cbsnews.com#1].",
+      "secondary_image.caption": "지난 10월의 도날드 투스크 총리. 그는 화요일, 러시아가 양국 국경에서 긴장을 고조시키고 있다고 비난했다."
+    }
+  },
+  "stats": {
+    "storyCount": 12,
+    "translated": 4,
+    "failedStoryIds": [
+      {
+        "id": "3cb01957-f8ef-4fba-87f2-10991a01d931",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "20864c52-cc08-406c-80ed-0159125f8af9",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "870006ef-745d-4c9c-bdc2-1e9a970f2b60",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "b1c11e10-5029-4d6b-b9b9-ff75a2d99f13",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "f7a3a272-c474-4c16-b08d-9b600eeeda05",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "19ffa53e-4137-47b5-aacd-7381ab2d2997",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "f239c639-76c6-4101-8416-b31cdf2246d3",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "8bcf4855-bf52-4fed-9e00-53c8ec43ed31",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 5562,
+      "out": 6967
+    }
+  }
+}
