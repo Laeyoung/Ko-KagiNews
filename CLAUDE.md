@@ -68,6 +68,7 @@ Route params are validated by matchers in `src/params/` (`batchId` accepts UUID,
 - **Gate**: loads only when `VITE_CLARITY_ENABLED=true` at build time — set it on the production environment only, since preview/CI builds are also `dev === false`. Not a runtime kill-switch: removing the var needs a redeploy.
 - **No cookie-consent gate exists yet.** Do not enable the flag before a consent gate and a privacy notice ship (GDPR Art.6/ePrivacy 5(3), PIPA Art.15/22, 28-8, 30).
 - **Masking**: the `data-clarity-mask="true"` attribute (masks a node and its descendants) is applied to the surfaces enumerated in the `clarity.ts` docstring — that docstring is the canonical list. Add the attribute when introducing UI that renders user input outside a real form field; dashboard masking mode is assumed to be **Strict** and only covers form fields on Balanced.
+- **CSP**: `kit.csp` (hash mode) is built by `src/lib/server/csp.js`. `script-src` allows only same-origin, hashed inline scripts (the `app.html` theme script is hashed automatically at build time) and `*.clarity.ms`. Adding a new third-party script or iframe host means adding it there, or the browser blocks it. Don't switch to nonce mode: SSR pages are CDN-cached (`hooks.server.ts`), so the nonce would be shared across visitors.
 - **Verifying it is live**: load production and confirm a `clarity.ms/tag/` request in the network panel, then check the Clarity dashboard's live sessions.
 
 ## Community data files (edited via PR, validated in CI)
