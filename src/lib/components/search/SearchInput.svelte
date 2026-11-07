@@ -123,7 +123,9 @@ $effect(() => {
       />
     </svg>
 
-    <div class="flex items-center flex-wrap gap-2 ps-10 pe-4 py-3">
+    <!-- data-clarity-mask: the query lives in a contenteditable, not an <input>,
+         so Clarity's form-field masking would not cover it. -->
+    <div class="flex items-center flex-wrap gap-2 ps-10 pe-4 py-3" data-clarity-mask="true">
       <!-- Filter chips -->
       {#each filters as filter, index}
         <span class="filter-chip inline-flex items-center gap-1 px-2 py-0.5 text-sm font-medium rounded-md select-none bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200">

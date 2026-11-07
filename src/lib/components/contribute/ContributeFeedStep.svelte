@@ -118,7 +118,11 @@ function handleAdd() {
 					{/if}
 				</button>
 				{#if showDuplicates}
-					<div class="mt-1.5 ml-5 space-y-0.5 text-[11px] font-mono text-amber-500 dark:text-amber-500">
+					<!-- data-clarity-mask: user-pasted feed URLs rendered as plain text. -->
+					<div
+						class="mt-1.5 ml-5 space-y-0.5 text-[11px] font-mono text-amber-500 dark:text-amber-500"
+						data-clarity-mask="true"
+					>
 						{#each duplicateFeeds as url}
 							<div class="truncate" title={url}>{url}</div>
 						{/each}
@@ -164,7 +168,11 @@ function handleAdd() {
 				<OverlayScrollbarsComponent
 					options={{ scrollbars: { autoHide: 'leave', autoHideDelay: 100 } }}
 				>
-					<div class="space-y-1" style="max-height: 18rem;">
+					<!-- data-clarity-mask: every entry renders the user's pasted URL and
+					     error text quoting it. Note this masks node *contents*; whether
+					     Clarity also redacts `title`/`aria-label` values is undocumented,
+					     so the tooltips below may still be uploaded. -->
+					<div class="space-y-1" style="max-height: 18rem;" data-clarity-mask="true">
 						{#each addedFeeds as feed (feed.url)}
 							<div class="flex items-center gap-2 py-1.5 px-2 rounded-md group
 								{feed.status === 'error' ? 'bg-red-50 dark:bg-red-900/10' : 'bg-primary-50'}">

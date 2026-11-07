@@ -416,7 +416,8 @@ onDestroy(() => {
           ? (s("contentFilter.linkedStoryFilteredBecause") || "The story you wanted to view is blocked by your content filter:")
           : (s("contentFilter.filteredBecause") || "Hidden due to filter:")}
       </span>
-      <div class="flex items-center gap-2">
+      <!-- data-clarity-mask: these are the user's own content-filter keywords. -->
+      <div class="flex items-center gap-2" data-clarity-mask="true">
         {#each filterKeywords.slice(0, 3) as keyword}
           <span
             class="text-xs font-semibold text-gray-800 dark:text-gray-200 bg-white/50 dark:bg-black/30 px-2 py-0.5 rounded"

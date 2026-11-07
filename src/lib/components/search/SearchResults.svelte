@@ -213,7 +213,10 @@ function highlightMatch(text: string, query: string): string {
 	while (index !== -1) {
 		// Add text before match
 		result += text.slice(lastIndex, index);
-		// Add highlighted match
+		// Add highlighted match. Masking is applied to the whole title/snippet
+		// node by the caller, not here: Clarity preserves a masked node's
+		// position and character count, so masking only this run would still
+		// reveal the query as knownPublicText.slice(offset, offset + length).
 		result +=
 			'<mark class="bg-yellow-200 dark:bg-yellow-800">' +
 			text.slice(index, index + query.length) +
@@ -314,7 +317,8 @@ function getSnippetWithHighlight(text: string, query: string, maxLength: number 
             {/if}
             {#if query}
               {s("search.for") || "for"}
-              <span class="font-medium">"{query}"</span>
+              <!-- data-clarity-mask: echoes the raw query outside the masked input row. -->
+              <span class="font-medium" data-clarity-mask="true">"{query}"</span>
             {/if}
           </div>
         {/if}
@@ -477,9 +481,12 @@ function getSnippetWithHighlight(text: string, query: string, maxLength: number 
                 {#if result.story.emoji}
                   <span class="text-lg mt-0.5">{result.story.emoji}</span>
                 {/if}
+                <!-- data-clarity-mask: highlight markup encodes the query's
+                     position and length inside otherwise-public text. -->
                 <h3
                   class="font-semibold text-gray-900 dark:text-white line-clamp-2 flex-1"
                   dir="auto"
+                  data-clarity-mask="true"
                 >
                   {@html highlightMatch(result.story.title || "", query)}
                 </h3>
@@ -493,12 +500,22 @@ function getSnippetWithHighlight(text: string, query: string, maxLength: number 
             </div>
 
             <!-- Summary/Snippet -->
+            <!-- data-clarity-mask: the snippet window is centred on the match,
+                 so both the highlight and the window position leak the query. -->
             {#if result.story.snippet}
-              <p class="text-sm text-gray-600 dark:text-gray-300 line-clamp-2" dir="auto">
+              <p
+                class="text-sm text-gray-600 dark:text-gray-300 line-clamp-2"
+                dir="auto"
+                data-clarity-mask="true"
+              >
                 {@html getSnippetWithHighlight(result.story.snippet, query)}
               </p>
             {:else if result.story.short_summary}
-              <p class="text-sm text-gray-600 dark:text-gray-300 line-clamp-2" dir="auto">
+              <p
+                class="text-sm text-gray-600 dark:text-gray-300 line-clamp-2"
+                dir="auto"
+                data-clarity-mask="true"
+              >
                 {@html getSnippetWithHighlight(
                   result.story.short_summary,
                   query,

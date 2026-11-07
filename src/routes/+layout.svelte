@@ -80,8 +80,16 @@ $effect(() => {
 });
 
 onMount(async () => {
-	// Analytics (no-op in dev)
-	initClarity();
+	// Analytics: scheduled up front but only *runs* once the main thread is idle,
+	// so it never competes with hydration or app init. Scheduling before the
+	// awaits below matters — a rejected `syncManager.initialize()` would
+	// otherwise skip it entirely, and only for logged-in users.
+	// No-op unless VITE_CLARITY_ENABLED=true.
+	if (typeof requestIdleCallback === 'function') {
+		requestIdleCallback(() => initClarity(), { timeout: 3000 });
+	} else {
+		setTimeout(() => initClarity(), 1000);
+	}
 
 	// Load all settings from localStorage
 	const isLoggedIn = !!data.session?.loggedIn;
