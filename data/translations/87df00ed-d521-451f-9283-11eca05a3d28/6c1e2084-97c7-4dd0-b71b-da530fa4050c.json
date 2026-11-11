@@ -4,7 +4,7 @@
   "categoryUuid": "6c1e2084-97c7-4dd0-b71b-da530fa4050c",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-11-11T18:49:36.259Z",
+  "createdAt": "2026-11-11T19:31:35.645Z",
   "stories": {
     "4a9fab5d-97c8-4d0f-9b85-74acb0d16adf": {
       "title": "미 하원 공화당, 헤그세스 국방장관 탄핵안 저지",
@@ -217,16 +217,34 @@
       "suggested_qna[1].answer": "교황은 그리스도와의 관계를 새롭게 하고, 청년들이 성소를 식별하며, 활기찬 본당과 설립자의 정신을 따르는 수도 공동체가 있는 생동감 넘치는 교회를 그려볼 것을 촉구했다 [vaticannews.va#1].",
       "primary_image.caption": "2026년 11월 10일 아르헨티나 코르도바의 군사항공학교에서 열린 미사 중 레오 14세 교황이 성모상과 아기 예수상 앞에 서 있다.",
       "secondary_image.caption": "2026년 11월 10일 부에노스아이레스 팔레르모 지구의 스페인 기념비에서 열리는 청년 철야 기도회로 향하는 교황 레오 14세가 교황 전용차에서 신자들에게 인사하고 있다. (사진: 후안 마브로마타 / AFP)."
+    },
+    "90c79757-94b8-444f-a4bb-bcea18864f66": {
+      "title": "미국, 이란 연계 영국 공군기지 테러 모의 혐의로 3명 기소",
+      "short_summary": "미 법무부는 11월 10일 미군이 사용하는 영국 공군기지인 RAF 페어포드(RAF Fairford)를 공격하려 모의하고 기타 공격에 가담한 혐의로 남성 3명을 기소했다. 피고인은 이란·이라크 이중국적자인 모하마드 바케르 사드 다우드 알 사디(Mohammad Baqer Saad Dawood al-Saadi), 이란 국적의 모센 모하지리(Mohsen Mohajeri), 이라크 국적의 모하마드 알리 알 하사니(Mohammad Ali al-Hassani)이다. 검찰은 이들이 이란 이슬람 혁명수비대와 이라크 무장단체 카타이브 헤즈볼라(Kata'ib Hezbollah)를 지원하기 위해 행동했다고 주장했다 [cbsnews.com#1][bbc.co.uk#1][japantoday.com#1]. 8개 혐의가 담긴 기소장에 따르면 알 하사니는 영국 내 공범들을 조직하고 연료를 실은 밴을 준비하는 등 사전 준비를 했으며, 알 사디는 뉴욕 교도소에서 친척들을 통해 암호화된 메시지를 보냈다. 검찰은 이 밴들이 기지에서 폭발할 예정이었다고 주장했으나, 영국 경찰은 폭발물을 발견하지 못했고 연료만 압수했다. 현재 알 사디만 미국에 구금되어 있으며, 나머지 두 명의 행방은 밝혀지지 않았다 [cbsnews.com#1][bbc.co.uk#1][aljazeera.com#1]. 기소장은 또한 이들이 유럽과 북미에서 발생한 약 20건의 유대인 공동체 및 기타 목표물에 대한 공격 또는 공격 시도와 연관되어 있다고 명시했다. 미국은 9월 사건 이후 페어포드에서 B-1 폭격기를 철수시켰으며, 이란은 관련 혐의를 부인했다 [al-monitor.com#1][japantoday.com#1][balkanweb.com#1].",
+      "quote": "이란과 이란이 지원하는 테러 단체들이 미국과 우리 동맹국에 가하는 위협은 가설이 아니라 매우 현실적이다.",
+      "quote_attribution": "AP 통신",
+      "location": "영국 잉글랜드 페어포드",
+      "talking_points[0]": "차량 준비: 검찰은 공범들이 염화칼륨을 포함한 화학 촉진제를 조사하고 밴을 연료 운송 차량이나 수영장 용품 공급 차량으로 위장하기 위해 데칼을 제작했다고 밝혔다. 최소 두 대의 밴이 보안 검문소에서 적발되었다 [bbc.co.uk#1][cbsnews.com#1].",
+      "talking_points[1]": "공격 캠페인: 미 법무부는 '하라카트 아샤브 알 야민 알 이슬라미야(Harakat Ashab al-Yamin al-Islamiya)'라는 단체가 2026년 봄 유럽에서 18건의 공격을 자행했으며, 그중 7건이 영국에서 발생했다고 밝혔다 [bbc.co.uk#1].",
+      "talking_points[2]": "런던 사건: 기소장에 따르면 피고인들은 영상 통화를 통해 런던의 한 유대인 자선단체에 대한 화염병 공격을 지켜봤으며, 다음 날 시나고그(유대교 회당)에 대한 별도의 공격을 지시했다 [timesofisrael.com#1][perthnow.com.au#1].",
+      "talking_points[3]": "영국 내 기소: 10월에는 별도의 국가 안보 사건으로 영국인 2명이 기소되었다. 한 명은 이란의 것으로 추정되는 외국 정보기관을 도운 혐의, 다른 한 명은 금지 구역에 침입한 혐의를 받았다 [dw.com#1][france24.com#1].",
+      "talking_points[4]": "두 번째 기지: 항공기 추적 데이터에 따르면 월스트리트저널(The Wall Street Journal)이 이란과 연관 지은 위협 이후 최소 12대의 미군 항공기가 RAF 밀든홀(RAF Mildenhall)을 떠난 것으로 나타났다 [france24.com#1][al-monitor.com#1].",
+      "perspectives[0].text": "이란 정부: 이란은 페어포드 사건에 대한 개입을 부인했으며, 런던 주재 이란 대사관은 테헤란을 연관 짓는 주장을 근거 없고 악의적인 추측이라며 일축했다.",
+      "perspectives[1].text": "앤디 번햄(Andy Burnham) 영국 총리: 번햄 총리는 10월, 해당 테러 모의가 이란에서 조정되었을 가능성이 '매우 높다'고 언급했다 [al-monitor.com#2].",
+      "perspectives[2].text": "모하마드 바케르 사드 다우드 알 사디의 변호인단: 10월 14일 법원 제출 서류에서 변호인단은 검찰의 통화 내용 해석에 이의를 제기하며, 암호 언어 주장은 의심스러운 아랍어 번역에 의존하고 있으며 해당 대화들은 일상적인 설명이 가능하다고 주장했다 [al-monitor.com#2].",
+      "timeline[0].content": "미 검찰, 광범위한 공격 캠페인 혐의로 알 사디를 처음 기소 [aljazeera.com#1][japantoday.com#1]",
+      "timeline[1].content": "알 사디, 혐의를 부인하며 자신을 '전쟁 포로'라고 주장 [japantoday.com#1][theglobeandmail.com#1]",
+      "timeline[2].content": "알 하사니, 공범에게 RAF 페어포드 외곽을 감시하도록 돈을 지불한 혐의 [bbc.co.uk#1][walesonline.co.uk#1]",
+      "timeline[3].content": "알 하사니, 밴 3대를 RAF 페어포드로 보내도록 지시한 혐의 [cbsnews.com#1][bbc.co.uk#1]",
+      "timeline[4].content": "기지 인근에서 의심스러운 밴 3대가 신고된 후 경찰이 출동 [japantoday.com#1][bbc.co.uk#1]",
+      "timeline[5].content": "미 법무부, 남성 3명에 대한 대체 기소장 발표 [cbsnews.com#1][al-monitor.com#1]",
+      "primary_image.caption": "2026년 9월 29일 영국 글로스터셔주 페어포드에서 경찰이 RAF 페어포드 공군기지 인근에 주요 사건을 선포하고 폭발물법 위반 혐의로 여러 남성을 체포한 후, 도로가 통제된 가운데 경찰관들이 현장을 경비하고 있다. 체포된 이들은 이후 보석으로 풀려났다. REUTERS/Toby Shepheard"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 9,
+    "translated": 10,
     "failedStoryIds": [
-      {
-        "id": "90c79757-94b8-444f-a4bb-bcea18864f66",
-        "reason": "retry_exhausted"
-      },
       {
         "id": "bddf9183-f393-4dfa-a7a2-23d0db704c86",
         "reason": "retry_exhausted"
@@ -237,8 +255,8 @@
       }
     ],
     "tokens": {
-      "in": 13926,
-      "out": 17913
+      "in": 17022,
+      "out": 21820
     }
   }
 }
