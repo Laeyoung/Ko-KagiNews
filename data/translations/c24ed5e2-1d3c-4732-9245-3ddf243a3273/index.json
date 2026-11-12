@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "batchId": "c24ed5e2-1d3c-4732-9245-3ddf243a3273",
+  "updatedAt": "2026-11-12T18:14:21.953Z",
+  "categories": {
+    "0af5c761-ac71-414f-9ce1-f75b1a6aa7ea": {
+      "slug": "science",
+      "status": "ok",
+      "storyCount": 12,
+      "translated": 11,
+      "failed": 1,
+      "tokens": {
+        "in": 13870,
+        "out": 16661
+      }
+    },
+    "f88b6313-9b09-40db-ba3d-ba0590cc236f": {
+      "slug": "world",
+      "status": "ok",
+      "storyCount": 12,
+      "translated": 12,
+      "failed": 0,
+      "tokens": {
+        "in": 21018,
+        "out": 26594
+      }
+    },
+    "560c810f-065e-440b-9b43-096ca7f922a9": {
+      "slug": "usa",
+      "status": "ok",
+      "storyCount": 12,
+      "translated": 12,
+      "failed": 0,
+      "tokens": {
+        "in": 14895,
+        "out": 18435
+      }
+    },
+    "6c487373-97b0-44e7-87cc-90edeb19ef74": {
+      "slug": "ai",
+      "status": "ok",
+      "storyCount": 12,
+      "translated": 12,
+      "failed": 0,
+      "tokens": {
+        "in": 15713,
+        "out": 20328
+      }
+    },
+    "8dbd3d73-5081-431a-85fa-7118c0698b7f": {
+      "slug": "business",
+      "status": "ok",
+      "storyCount": 12,
+      "translated": 12,
+      "failed": 0,
+      "tokens": {
+        "in": 17176,
+        "out": 21672
+      }
+    },
+    "7b40b1f5-14f7-4366-8629-4f2731483c2c": {
+      "slug": "tech",
+      "status": "ok",
+      "storyCount": 12,
+      "translated": 10,
+      "failed": 2,
+      "tokens": {
+        "in": 12596,
+        "out": 15567
+      }
+    }
+  },
+  "chaos": {
+    "status": "ok"
+  },
+  "run": {
+    "attempted": 72,
+    "failed": 3,
+    "failureRatePct": 4.166666666666666,
+    "unresolvedSlugs": []
+  }
+}
