@@ -4,7 +4,7 @@
   "categoryUuid": "fe4e0890-259c-49ac-9c0e-ed547ed38e63",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-11-13T17:41:20.771Z",
+  "createdAt": "2026-11-13T17:59:50.350Z",
   "stories": {
     "dac6d852-f032-40cf-8f21-7d17a3630c60": {
       "title": "젠슨 황 사임 후 엔비디아, 재무 책임자를 임시 CEO로 임명",
@@ -239,20 +239,38 @@
       "suggested_qna[0].question": "시청자들은 어디에서 이번 시도를 확인할 수 있는가?",
       "suggested_qna[0].answer": "스페이스X는 쉽 회수를 포함한 전체 이벤트를 X 계정을 통해 중계할 예정이며, Space.com에서도 라이브 스트리밍을 제공한다 [soylentnews.org#1][space.com#2].",
       "secondary_image.caption": "포획 후 스타십의 모습을 담은 상상도."
+    },
+    "55480912-4b41-4613-ae50-89e3b1263609": {
+      "title": "금값, 금리 인상 전망에 13개월 만에 최저치 기록 후 반등",
+      "short_summary": "11월 13일 금요일, 금값은 전날 1년여 만에 최저치로 떨어진 후 약 1% 상승해 온스당 약 3,915달러를 기록했다. 이번 주 전체로는 약 3.5% 하락한 상태다[zawya.com#1][bloomberg.com#1][urdupoint.com#2]. 목요일의 매도세는 미국의 강력한 인플레이션 지표와 국채 금리 상승, 달러 강세가 이어지면서 12월 연방준비제도(Fed·연준)의 금리 인상 기대감이 커진 데 따른 것이다[vnexpress.net#1][zawya.com#1][fxempire.com#1]. 금은 이자를 지급하지 않기 때문에 금리 인상은 금값에 하방 압력을 가할 수 있다[vnexpress.net#1][zawya.com#1]. 투자자들은 인플레이션과 연준의 다음 행보에 대한 단서를 얻기 위해 금요일 발표될 미국 생산자물가지수(PPI)를 주시하고 있었다[zawya.com#1][fxempire.com#1]. 시장 분석가들에 따르면 저가 매수세와 단기적인 시장 포지션 조정이 금값 반등에 기여했다. 은값도 금요일에 회복세를 보였으나 주간 단위로는 여전히 하락세를 유지했다[bloomberg.com#1][urdupoint.com#2][vnexpress.net#1].",
+      "quote": "어제의 급격한 하락 이후 여러 장중 단기 모멘텀 지표가 극단적인 과매도 수준에 도달했기 때문에, 오늘의 움직임은 포지션 조정의 성격이 더 강하다.",
+      "quote_attribution": "로이터(Reuters)",
+      "talking_points[0]": "금리 전망: CME의 페드워치(FedWatch) 도구에 따르면 시장은 12월 연준의 0.25%포인트 금리 인상 가능성을 89%, 0.5%포인트 인상 가능성을 11%로 반영했다[zawya.com#1].",
+      "talking_points[1]": "중국 소매 시장: 11월 12일, 중국의 주요 주얼리 브랜드들은 고시 가격을 그램당 11~16위안 인하했으며, 대부분의 가격이 그램당 1,200위안 아래로 떨어졌다[thepaper.cn#1].",
+      "talking_points[2]": "베트남 가격: 사이공 골드 주얼리 컴퍼니(Saigon Gold Jewelry Company)의 금괴 가격은 테일당 1억 3,800만 동으로 하락했으며, 이는 국제 시세보다 약 1,600만 동 높은 수준이다[vnexpress.net#1].",
+      "talking_points[3]": "은 시세: 금요일 현물 은은 온스당 50.49달러 근처에서 거래되었다. 분석가들은 50달러를 핵심 지지선으로 꼽으며, 이 선이 지속적으로 무너질 경우 45달러까지 하락할 수 있다고 언급했다[urdupoint.com#2][fxempire.com#1].",
+      "business_angle_points[0]": "미국 달러 강세는 타 통화를 사용하는 구매자들에게 달러로 표시되는 금을 더 비싸게 만들어, 미국 국채 금리 상승으로 인한 압박을 가중시킬 수 있다[fxstreet.com#1].",
+      "business_angle_points[1]": "베트남의 금괴는 국제 시세 대비 테일당 약 1,600만 동 높은 가격에 거래되었다[vnexpress.net#1].",
+      "perspectives[0].text": "켈빈 웡(Kelvin Wong) OANDA 수석 시장 분석가는 미국 국채 금리의 급격한 반전이 달러 상승세를 둔화시켜 금값을 지지할 수 있다고 말했다[zawya.com#1].",
+      "perspectives[1].text": "존 윌리엄스(John Williams) 뉴욕 연방준비은행 총재는 미국 중앙은행이 높은 인플레이션을 낮추기 위해 추가 금리 인상이 필요할 가능성이 높다고 밝혔다[zawya.com#1].",
+      "perspectives[2].text": "라지브 드 멜로(Rajeev De Mello) GAMA 자산운용 글로벌 매크로 포트폴리오 매니저는 장 후반의 하락세가 채권 금리 상승과 궤를 같이했다고 말했다. 그는 금요일의 상승세가 금값이 4,000달러 아래로 떨어진 후 준비금 관리자들의 매수세가 반영된 것일 수 있다고 분석했다[vnexpress.net#1].",
+      "timeline[0].content": "금값, 장중 사상 최고치인 온스당 5,598달러 기록[thepaper.cn#1]",
+      "timeline[1].content": "미국 고용 지표가 예상치를 상회하며 금리 인상 전망 강화[thepaper.cn#1]",
+      "timeline[2].content": "금값, 앞서 3% 가까이 하락한 후 1.1% 추가 하락[thepaper.cn#1]",
+      "timeline[3].content": "시장, 미국 생산자물가지수 발표를 앞두고 금값 반등[zawya.com#1][vnexpress.net#1]",
+      "suggested_qna[0].question": "미국 생산자물가지수(PPI)가 예상보다 높게 나올 경우 금값에 어떤 의미가 있는가?",
+      "suggested_qna[0].answer": "FxEmpire는 물가 지표가 높게 나올 경우 금값이 3,780달러까지 밀릴 수 있는 반면, 인플레이션이 완화되면 반등을 지지할 수 있다고 분석했다[fxempire.com#1].",
+      "suggested_qna[1].question": "어느 가격대에서 기술적 반등이 강해졌다고 볼 수 있는가?",
+      "suggested_qna[1].answer": "FxEmpire는 금값이 4,150달러를 돌파해야 강한 회복 신호로 볼 수 있으며, 다음 저항선은 4,400달러라고 밝혔다. 반면 주간 종가가 3,850달러를 밑돌 경우 3,500~3,600달러까지 추가 하락할 가능성이 열려 있다고 덧붙였다[fxempire.com#1]."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "55480912-4b41-4613-ae50-89e3b1263609",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 16303,
-      "out": 20919
+      "in": 17787,
+      "out": 22746
     }
   }
 }
