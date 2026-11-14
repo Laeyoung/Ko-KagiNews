@@ -1,11 +1,11 @@
 {
   "version": 1,
   "batchId": "d55d2194-6e67-48d4-9634-87ffbc7049cb",
-  "updatedAt": "2026-11-14T16:38:58.439Z",
+  "updatedAt": "2026-11-14T16:45:53.376Z",
   "categories": {
     "ba83a7ce-18ca-4483-ba83-dbd922477308": {
       "slug": "science",
-      "status": "ok",
+      "status": "skipped",
       "storyCount": 12,
       "translated": 12,
       "failed": 0,
@@ -16,7 +16,7 @@
     },
     "0af6f04a-aac6-4805-b087-3799bc1b58b9": {
       "slug": "usa",
-      "status": "ok",
+      "status": "skipped",
       "storyCount": 12,
       "translated": 12,
       "failed": 0,
@@ -27,7 +27,7 @@
     },
     "74889d4b-36c0-4ea5-bb12-5901d094590a": {
       "slug": "ai",
-      "status": "ok",
+      "status": "skipped",
       "storyCount": 12,
       "translated": 12,
       "failed": 0,
@@ -71,12 +71,12 @@
     }
   },
   "chaos": {
-    "status": "ok"
+    "status": "skipped"
   },
   "run": {
-    "attempted": 72,
+    "attempted": 3,
     "failed": 3,
-    "failureRatePct": 4.166666666666666,
+    "failureRatePct": null,
     "unresolvedSlugs": []
   }
 }
