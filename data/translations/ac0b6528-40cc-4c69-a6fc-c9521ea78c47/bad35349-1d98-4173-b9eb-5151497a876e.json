@@ -4,7 +4,7 @@
   "categoryUuid": "bad35349-1d98-4173-b9eb-5151497a876e",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-11-19T19:08:27.011Z",
+  "createdAt": "2026-11-19T19:27:38.535Z",
   "stories": {
     "06c3eb26-7ec1-46f6-99ee-25fb804c8c28": {
       "title": "GTA VI 다운로드로 뉴질랜드 네트워크 트래픽 기록 경신",
@@ -248,20 +248,28 @@
       "suggested_qna[0].question": "PC 버전과 온라인 멀티플레이어는 언제 출시되는가?",
       "suggested_qna[0].answer": "PC 출시 시점은 불분명하며, 락스타 게임즈와 퍼블리셔인 테이크투 인터랙티브(Take-Two Interactive)는 온라인 멀티플레이어 모드의 출시일을 발표하지 않았다[wired.com#1].",
       "primary_image.caption": "GTA 6 출시를 앞두고 큰 소동이 일고 있다. 마르쿠스 구스타프손(Marcus Gustavsson)은 학교를 빠지는 대신 밤새 게임을 즐길 예정이다."
+    },
+    "8864d456-04e2-4caa-97b8-6222efe7ce00": {
+      "title": "소니, GTA 6 출시 전후 발생한 플레이스테이션 네트워크 장애 복구",
+      "short_summary": "소니는 '그랜드 테프트 오토 VI(GTA VI)'가 출시된 11월 19일 전후로 이용자들이 로그인, 게임 실행, 네트워크 기능 사용에 어려움을 겪자 플레이스테이션 네트워크(PSN) 서비스를 복구했다. 소니의 상태 페이지는 11월 18일 문제를 인지했으며 당일 늦게 해결되었다고 공지했다. 출시 당일에는 플레이스테이션 4(PS4) 및 플레이스테이션 5(PS5)의 게임 스트리밍과 PS5 게임 및 소셜 기능에서 추가적인 문제가 보고되었으나, 오후 12시 57분(미 동부 표준시 기준)경 서비스가 정상화되었다고 밝혔다 [axios.com#1][techjuice.pk#1][mashable.com#1]. 이번 장애는 락스타 게임즈(Rockstar Games)의 신작이 전 세계에 순차적으로 출시되는 시점과 맞물렸으나, 소니는 출시 트래픽이 네트워크 문제의 원인인지 확인해주지 않았다. 이용자들은 로그인 실패, 다운로드 중단, 연결 오류 등을 보고했으나, 엑스박스(Xbox) 상태 페이지는 서비스가 정상 운영 중임을 나타냈다 [theguardian.com#1][80.lv#1][mashable.com#1]. GTA VI는 PS5 시스템 소프트웨어 업데이트를 필요로 하며, 이용자들은 초기 설정 및 활성화를 위해 인터넷 연결이 필요하다. 소니의 최신 상태 업데이트에 따르면 서비스는 다시 온라인 상태가 되었으나, 일부 이용자들은 여전히 간헐적인 문제를 보고하고 있다 [techjuice.pk#1][indianexpress.com#1].",
+      "quote": "이는 평균적인 가구가 한 달 동안 사용하는 데이터의 4분의 1이 넘는 양을 한 번에 사용하는 셈이다.",
+      "quote_attribution": "FOX8 WGHP",
+      "historical_background": "프랑드로이드(Frandroid)에 따르면 이번 장애는 2011년 플레이스테이션 네트워크가 해킹당해 23일간 서비스가 중단되었던 사건 이후 15년 만이다 [frandroid.com#1]. 더 가디언(The Guardian)에 따르면 그랜드 테프트 오토 VI는 13년 만에 출시된 시리즈의 첫 신작이다 [theguardian.com#1].",
+      "industry_impact[0]": "인터넷 서비스 제공업체: 컴캐스트(Comcast)는 48시간의 사전 다운로드 기간이 자사 네트워크 역사상 가장 큰 단일 이벤트였으며, 출시 당일 새로운 트래픽 기록을 세울 것으로 예상한다고 밝혔다 [techjuice.pk#1].",
+      "timeline[0].content": "소니, 출시 9일 전 GTA VI 사전 다운로드 시작 [techjuice.pk#1]",
+      "timeline[1].content": "소니, 필수 PS5 시스템 소프트웨어 업데이트 발표 [theguardian.com#1][indianexpress.com#1]",
+      "timeline[2].content": "플레이스테이션, 네트워크 문제 인지 후 해결 완료 공지 [axios.com#1][techjuice.pk#1]",
+      "timeline[3].content": "소니, 서비스 문제 재발 보고 후 정상화 공지 [mashable.com#1][techjuice.pk#1]",
+      "primary_image.caption": "역대 최대 규모의 엔터테인먼트 출시를 앞둔 비디오 게임 '그랜드 테프트 오토 6' 패키지. © ANP"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "8864d456-04e2-4caa-97b8-6222efe7ce00",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 16610,
-      "out": 21185
+      "in": 18466,
+      "out": 23127
     }
   }
 }
