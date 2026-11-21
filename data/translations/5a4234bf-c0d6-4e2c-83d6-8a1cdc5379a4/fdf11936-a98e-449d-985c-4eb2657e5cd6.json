@@ -4,7 +4,7 @@
   "categoryUuid": "fdf11936-a98e-449d-985c-4eb2657e5cd6",
   "categorySlug": "usa",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-11-21T17:45:43.184Z",
+  "createdAt": "2026-11-21T17:55:35.438Z",
   "stories": {
     "84d47ac4-12c3-471c-8db1-969e948a7ef7": {
       "title": "트럼프, 중국 10년 내 미국 핵전력 따라잡을 수 있다고 언급",
@@ -243,20 +243,35 @@
       "timeline[2].content": "방문객의 모자가 천장 선풍기에 튕겨 피오나의 서식지로 들어감 [news.kagi.com#1]",
       "timeline[3].content": "신시내티 동물원이 9세인 피오나의 폐사를 발표함 [abcnews.com#2][foxnews.com#1]",
       "timeline[4].content": "동물원은 동물 관리팀이 공간을 가질 수 있도록 주말 동안 하마 코브(Hippo Cove) 주변 구역을 폐쇄함 [foxnews.com#1]"
+    },
+    "8e73a382-5df8-45e4-bbfd-cece0ae0c276": {
+      "title": "연방 판사, 농무장관의 종교적 이메일 발송 제한",
+      "short_summary": "트리나 톰슨(Trina Thompson) 미 연방 지방법원 판사는 11월 19일, 브룩 롤린스(Brooke Rollins) 농무장관이 공식 통신 수단을 이용해 농무부(USDA) 직원들에게 종교적 메시지를 보내는 것을 제한하는 예비적 금지명령을 내렸다. 이번 명령은 롤린스 장관의 기독교 명절 이메일이 직원들에게 신앙 동조를 압박했다는 소송에 따른 것이다. 톰슨 판사는 롤린스 장관의 직권과 부서 전체를 대상으로 한 배포 방식, 그리고 공유된 신념을 암시하는 문구가 수정헌법 제1조와 관련된 우려를 낳는다고 판단했다 [kare11.com#1][christianpost.com#1][nextgov.com#1]. 이번 명령에 따라 롤린스 장관은 동료가 거부 의사를 밝힐 경우 종교적 대화를 중단해야 하며, 지속적이고 원치 않는 종교적 권유나 공식 권한을 이용해 부하 직원을 압박하는 행위가 금지된다. 다만, 관심 있는 동료와 신앙에 대해 대화하거나 개인 자격으로 발언하는 것은 금지되지 않는다 [ewtnnews.com#1][kare11.com#1]. 농무부는 이번 판결을 “내각 장관의 입을 막으려는 전례 없는 시도”라고 비판하며 항소를 검토 중이라고 밝혔다. 법원은 12월 17일 사건 관리 회의를 열 예정이며, 당사자들은 12월 10일까지 진술서를 제출해야 한다 [ewtnnews.com#1][nypost.com#1][nextgov.com#1].",
+      "quote": "연방 공무원은 공복이지, 상사의 개인적 종교 신념을 듣는 청중이 아니다.",
+      "quote_attribution": "넥스트고브(Nextgov)",
+      "location": "미국 캘리포니아주 샌프란시스코",
+      "historical_background": "트럼프 행정부의 다른 부처들도 종교 행사를 개최한 바 있다. 피트 헤그세스(Pete Hegseth) 국방장관은 2025년 5월부터 펜타곤에서 매달 기독교 예배를 주재했으며, 로리 차베스-디레머(Lori Chavez-DeRemer) 노동장관은 2025년 12월부터 매달 기도회를 시작했다가 사임했다 [reason.com#1].",
+      "talking_points[0]": "직원들의 우려: 불교 신자인 한 원고는 자신의 명절에 대해 논의하는 것이 불안하다고 느꼈고, 무신론자 원고는 침묵을 강요받았다고 느꼈으며, 이교도(Pagan) 원고는 승진을 위해 기독교인처럼 보여야 한다는 압박을 느꼈다고 밝혔다 [christianpost.com#1].",
+      "talking_points[1]": "업무용 이메일: 판사는 롤린스 장관의 공식 이메일에 부서 개편, 이전, 셧다운 계획 등에 관한 공지사항이 포함되어 있었기 때문에 직원들이 해당 메시지를 현실적으로 무시할 수 없었다고 지적했다 [agweek.com#1].",
+      "talking_points[2]": "청구 내용 축소: 톰슨 판사는 해당 이메일이 최종적인 행정 처분이 아니라고 판단하여 원고들이 행정절차법(Administrative Procedure Act)에 근거해 제기한 두 가지 청구는 기각했으나, 헌법상 권리에 관한 청구는 진행하도록 허용했다 [agweek.com#1].",
+      "talking_points[3]": "롤린스 장관의 선언: 롤린스 장관은 9월 보충 진술서에서 자신이 이 플랫폼을 제자 양성을 위해 사용한다고 밝히며 “나는 예수에 대해 말하는 것을 절대 멈추지 않을 것”이라고 선언했다 [agweek.com#1].",
+      "perspectives[0].text": "미 농무부: 농무부는 롤린스 장관의 이메일이 명절에 대한 개인적인 견해를 표현한 것일 뿐, 종교적 행위에 참여하거나 동조를 강요하려는 시도가 아니라고 주장했다 [myjoyonline.com#1].",
+      "perspectives[1].text": "라넷 디트리히(Lanette Dietrich), 농무부 직원 겸 원고: 디트리히는 자신이 이메일 수신 목록에서 제외될 수 없다는 통보를 받았으며, 계속해서 이의를 제기하면 “문제가 생길 수 있다”는 경고를 받았다고 말했다 [agweek.com#1].",
+      "timeline[0].content": "인사관리처(OPM), 직장 내 종교 표현에 관한 지침 발표 [reason.com#1][nextgov.com#1]",
+      "timeline[1].content": "농무부, 직장 내 종교 표현의 경계를 설정하는 메모 발표 [christianpost.com#1]",
+      "timeline[2].content": "농무부 직원들과 그들의 노조가 소송 제기 [christianpost.com#1][nextgov.com#1]",
+      "timeline[3].content": "톰슨 판사, 롤린스 장관에 대한 예비적 금지명령 승인 [ewtnnews.com#1][kare11.com#1]",
+      "primary_image.caption": "8월 20일 백악관 밖에서 기자회견을 하는 브룩 롤린스 농무장관. 일부 농무부 직원들은 그녀가 부활절을 기념하는 전체 직원 대상 이메일을 보낸 후 소송을 제기했다.",
+      "secondary_image.caption": "미국 농무부 청사."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "8e73a382-5df8-45e4-bbfd-cece0ae0c276",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 15415,
-      "out": 19735
+      "in": 19018,
+      "out": 24593
     }
   }
 }
