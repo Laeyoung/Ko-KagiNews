@@ -4,7 +4,7 @@
   "categoryUuid": "8f1a6a4e-5503-46b0-8dd1-8fd398707f48",
   "categorySlug": "usa",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-11-22T17:46:17.970Z",
+  "createdAt": "2026-11-22T17:59:44.420Z",
   "stories": {
     "361ee0a0-c636-4dcf-beaf-fb2ed1d25da0": {
       "title": "복면 쓴 미 이민세관단속국(ICE) 요원들, 시애틀 공항 탑승교에서 승객 2명 체포",
@@ -117,20 +117,26 @@
       "talking_points[3]": "밀러의 역할: 밀러는 행정부 이민 정책의 핵심 설계자 역할을 해왔다 [aktualne.cz#1][kurier.at#1].",
       "perspectives[0].text": "마즈 달가드 마드센(Mads Dalgaard Madsen) 테르마(Terma) 고문은 TV 2와의 인터뷰에서 트럼프가 팀 내 경쟁과 드라마를 즐기며, 이번 브리핑은 그러한 리더십 스타일과 부합한다고 말했다 [nyheder24.dk#1].",
       "secondary_image.caption": "도널드 트럼프 미국 대통령과 스티븐 밀러 신임 백악관 비서실장(왼쪽). 배경에는 JD 밴스 미국 부통령이 서 있다. - 재클린 마틴(Jacquelyn Martin) / AP"
+    },
+    "47387448-2552-44ec-bf34-9568be89eb32": {
+      "title": "공화당, 트럼프의 이란 전쟁 비용 당론 법안 두고 교착 상태",
+      "short_summary": "공화당 지도부는 최대 3,500억 달러 규모의 군사비 지출안을 포함해 도널드 트럼프 대통령의 우선순위 예산을 지원하는 당론 법안 통과 방안을 합의하지 못한 채 추수감사절 휴회기를 맞아 워싱턴을 떠났다[politicalwire.com#1][alternet.org#2]. 민주당은 이란 전쟁이 지속되는 동안 국방부 예산 지원에 반대하고 있으며, 공화당은 정부 폐쇄(셧다운) 위험을 피하기 위해 군사 및 정부 예산 지원을 두고 민주당과 협상을 저울질하고 있다[alternet.org#2]. 하원은 이미 당론 법안 추진을 위한 예산 결의안을 통과시켰으나, 상원 지도부는 실행 가능한 방안을 찾지 못했다고 밝혔다. 공화당은 또한 상원 내 의석 격차가 줄어든 상황에서 12월 11일 정부 폐쇄 시한을 앞두고 있다[alternet.org#2].",
+      "talking_points[0]": "하원 출석: 마이크 존슨(Mike Johnson) 하원의장은 저조한 출석률로 하원이 당론 법안을 통과시키지 못하자 공화당 의원들에게 향후 44일간 의정 활동에 전념할 것을 촉구했다[alternet.org#1].",
+      "talking_points[1]": "투표 기록: 얼터넷(AlterNet)이 인용한 보고서에 따르면 2025년 하원은 362회의 투표를 진행했으며, 이는 이번 세기 2년 임기 의회의 첫 회기 중 가장 적은 횟수이다[alternet.org#1].",
+      "perspectives[0].text": "론 존슨(Ron Johnson) 상원 예산위원장: 존슨 위원장은 공화당이 또 다른 조정(reconciliation) 법안을 추진할 경우 민주당이 정부 폐쇄를 하겠다고 위협했다고 밝혔다. 그는 그러한 접근 방식에는 단점이 있다고 언급했다[alternet.org#2].",
+      "timeline[0].content": "공화당은 법안 추진 방안에 합의하지 못한 채 추수감사절 휴회기에 들어갔다[politicalwire.com#1].",
+      "timeline[1].content": "의원들은 정부 폐쇄를 막기 위한 정부 예산 지원 시한을 앞두고 있다[alternet.org#2].",
+      "timeline[2].content": "셰로드 브라운(Sherrod Brown)이 오하이오주에서 존 허스테드(Jon Husted) 상원의원을 대신할 예정이다[alternet.org#2].",
+      "timeline[3].content": "민주당이 의회 주도권을 잡을 예정이다[politicalwire.com#1]."
     }
   },
   "stats": {
     "storyCount": 8,
-    "translated": 7,
-    "failedStoryIds": [
-      {
-        "id": "47387448-2552-44ec-bf34-9568be89eb32",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 8,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 7512,
-      "out": 9054
+      "in": 8269,
+      "out": 9848
     }
   }
 }
