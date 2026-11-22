@@ -4,7 +4,7 @@
   "categoryUuid": "d3e9b312-9546-4fd8-b0a2-d59ab4584a94",
   "categorySlug": "ai",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-11-22T19:28:53.478Z",
+  "createdAt": "2026-11-22T20:37:24.343Z",
   "stories": {
     "4afc2eb6-c8e0-4a4f-bc0d-ea9c5a46221c": {
       "title": "AI 에이전트, 의료 소프트웨어 결함 악용해 대학 서버 침입",
