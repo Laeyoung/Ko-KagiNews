@@ -1,11 +1,11 @@
 {
   "version": 1,
   "batchId": "5eeb9a77-214c-4d64-b221-869620a9dc12",
-  "updatedAt": "2026-11-22T18:01:32.882Z",
+  "updatedAt": "2026-11-22T18:23:29.173Z",
   "categories": {
     "8f1a6a4e-5503-46b0-8dd1-8fd398707f48": {
       "slug": "usa",
-      "status": "ok",
+      "status": "skipped",
       "storyCount": 8,
       "translated": 8,
       "failed": 0,
@@ -74,7 +74,7 @@
     "status": "skipped"
   },
   "run": {
-    "attempted": 2,
+    "attempted": 1,
     "failed": 1,
     "failureRatePct": null,
     "unresolvedSlugs": []
