@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "batchId": "f0090309-35cb-48c0-8288-f30458a9804e",
+  "categoryUuid": "c5711b1c-73c3-4bc9-8a25-a59fcd4e7dfa",
+  "categorySlug": "world",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-11-23T22:03:36.269Z",
+  "stories": {
+    "ab047e6d-2d52-4e96-a4be-e3fed09d8b80": {
+      "title": "이스라엘 정착민 방화 공격에 수사 착수 및 정치권 충돌",
+      "short_summary": "토요일 밤부터 일요일 사이 점령지 서안지구의 최소 4개 마을에서 이스라엘 정착민으로 추정되는 이들이 팔레스타인 차량 최소 12대와 주택 여러 채를 불태우고 인종차별적 구호를 낙서했다고 주민들과 이스라엘 당국이 밝혔다. 부상자는 보고되지 않았다. 경찰은 수사에 착수했으며, 이스라엘군은 데이르 아스수단, 데이르 아부 마샬, 카프르 말릭, 앗투와니에 병력을 배치했다[france24.com#1][theguardian.com#1][abc.net.au#1]. 차기 정부 구성을 맡은 야당 지도자 가디 아이젠코트(Gadi Eisenkot)는 이번 공격을 '유대인 테러'로 규정하고 체포와 강력한 제재를 촉구했다. 그는 이타마르 벤그비르(Itamar Ben-Gvir) 국가안보장관과 베잘렐 스모트리치(Bezalel Smotrich) 재무장관이 추진한 정책을 비판했다. 기데온 사르(Gideon Saar) 외무장관은 이번 공격을 규탄했으나, 벤그비르 장관은 아이젠코트가 수사 결과를 예단하고 아랍 정당의 지지를 구하려 한다고 비난했다[france24.com#1][ynetnews.com#1]. 10월 27일 선거 결과 베냐민 네타냐후(Benjamin Netanyahu) 총리는 의회 과반 의석을 확보하지 못했다. 이츠하크 헤르조그(Isaac Herzog) 대통령은 아이젠코트에게 정부 구성을 위임했으나 연정 협상은 난항을 겪고 있다. 아이젠코트는 12월 6일까지 과반 의석을 확보해야 하며, 14일간의 기한 연장이 가능하다. 정부 구성에 실패할 경우 내년에 재선거가 치러질 예정이다[newarab.com#1][brasildefato.com.br#1].",
+      "did_you_know": "카프르 말릭에서 발견된 '수스야(Susya)로부터의 인사'라는 낙서는 최근 철거된 정착민 전초기지를 언급한 것으로 보인다[abc.net.au#1].",
+      "quote": "현재로서는 이스라엘 당국이 이를 막으려는 실질적인 시도를 전혀 보이지 않고 있다. 규탄만으로는 충분하지 않다.",
+      "quote_attribution": "ABC 뉴스",
+      "historical_background": "이스라엘은 1967년부터 서안지구를 점령해 왔다. 50만 명이 넘는 이스라엘인이 약 300만 명의 팔레스타인인과 함께 정착촌에 거주하고 있으며, 유엔과 대부분의 국가는 이 정착촌을 불법으로 간주하지만 이스라엘은 이에 반대하는 입장이다[dw.com#1][scmp.com#1]. 2023년 10월 7일 하마스가 주도한 이스라엘 공격과 뒤이은 가자 전쟁 이후 서안지구 내 폭력 사태는 증가했다. AFP가 인용한 공식 집계에 따르면 그 이후 서안지구에서 최소 1,119명의 팔레스타인인과 51명의 이스라엘인이 사망했다[scmp.com#1].",
+      "talking_points[0]": "마을 피해: 주민들과 현지 보도에 따르면 카프르 말릭에서 차량 7대, 데이르 아부 마샬에서 3대, 데이르 아스수단에서 2대가 전소되었다[ynetnews.com#1].",
+      "talking_points[1]": "폭력 빈도: 유엔 인도주의업무조정국(OCHA)은 2026년 서안지구에서 하루 평균 6건의 정착민 공격이 발생했다고 기록했으며, CNN이 인용한 유엔 집계에 따르면 9월 이후 올리브 수확과 관련된 공격은 410건에 달한다[abc.net.au#1][krdo.com#1].",
+      "talking_points[2]": "보안 자원: 이스라엘 방위군(IDF)은 이번 사건들로 인해 대테러 작전을 포함한 다른 보안 업무에 투입되어야 할 군사 자원이 분산되었다고 밝혔다[washingtonpost.com#1][ynetnews.com#1].",
+      "talking_points[3]": "법 집행 논란: 인권단체 '베첼렘(B’Tselem)'의 야이르 드비르(Yair Dvir) 대변인은 이스라엘 당국이 공격을 막기 위한 실질적인 노력을 하지 않고 있다며 규탄만으로는 부족하다고 주장했다[abc.net.au#1].",
+      "talking_points[4]": "전초기지 언급: '수스야로부터의 인사'라는 낙서는 최근 서안지구 남부에서 철거된 이스라엘 정착민 전초기지를 지칭한 것으로 보인다[abc.net.au#1][thejc.com#1].",
+      "perspectives[0].text": "이타마르 벤그비르 이스라엘 국가안보장관: 벤그비르 장관은 아이젠코트의 규정을 거부하며, 그가 사건의 사실 관계나 수사 내용을 알지 못한다고 말했다. 그는 아이젠코트가 정부 구성을 위한 지지를 얻기 위해 아랍계 의원들에게 정치적 지원을 제안하고 있다고 비난했다[ynetnews.com#1].",
+      "perspectives[1].text": "기데온 사르 이스라엘 외무장관: 사르 장관은 가해자들을 법을 준수하는 주민들을 대표하지 않는 소수의 극단주의자로 묘사하며, 이스라엘 당국은 법 집행에 전념하고 있다고 밝혔다[france24.com#1].",
+      "perspectives[2].text": "야이르 골란(Yair Golan) 이스라엘 민주당 대표: 골란 대표는 정착민 폭력을 막지 못하면 제3차 인티파다로 이어질 수 있다고 경고하며, 현 정부가 폭력을 비호하고 지원하고 있다고 비판했다[theguardian.com#1].",
+      "perspectives[3].text": "야이르 드비르 베첼렘 대변인: 드비르 대변인은 공개적인 규탄이 이스라엘 당국의 정착민 공격 중단을 위한 의미 있는 노력으로 이어지지 않는다고 말했다[abc.net.au#1].",
+      "perspectives[4].text": "유세프 자바린(Yousef Jabareen) 이스라엘 공동명단(Joint List) 대표: 자바린 대표는 이번 공격의 원인을 점령과 정부 정책으로 돌리며, 이로 인해 팔레스타인인에 대한 폭력이 일상화되었다고 주장했다[scmp.com#1].",
+      "timeline[0].content": "하마스가 주도한 이스라엘 공격 이후 서안지구 내 폭력 사태가 고조되었다[scmp.com#1].",
+      "timeline[1].content": "이스라엘 선거 결과 네타냐후 총리가 과반 의석 확보에 실패했다[newarab.com#1].",
+      "timeline[2].content": "헤르조그 대통령이 아이젠코트에게 차기 정부 구성을 위임했다[presstelegram.com#1].",
+      "timeline[3].content": "새 정부 구성 없이 이스라엘 의회가 개원했다[newarab.com#1].",
+      "timeline[4].content": "경찰이 서안지구 4개 마을에서 발생한 화재 및 기물 파손 사건을 수사했다[france24.com#1][theguardian.com#1].",
+      "timeline[5].content": "아이젠코트가 정부 구성을 위한 1차 기한을 맞이한다[brasildefato.com.br#1].",
+      "primary_image.caption": "이스라엘 점령지 서안지구 라말라 인근 카프르 말릭에서 한 팔레스타인 남성이 이스라엘 정착민들에 의해 불태워졌다고 주장하는 파손된 차량들을 살펴보고 있다 © Reuters",
+      "secondary_image.caption": "가디 아이젠코트 이스라엘 야당 지도자가 점령지 서안지구에서 발생한 정착민들의 공격을 '유대인 테러'로 규정하고 이들에 대한 강력한 제재를 촉구했다..."
+    },
+    "7c09eeac-64e3-48fa-94d2-e3cf5c0d03f7": {
+      "title": "미국, 엔비디아 스캔들 당시 앨리스 황의 중국 정보기관 접촉 추적",
+      "short_summary": "정보 보고에 정통한 관계자들에 따르면, 미국 정보 당국은 앨리스 황이 젠슨 황(Jensen Huang) 전 엔비디아 최고경영자(CEO)와 관계를 맺던 시기인 2025년 봄부터 2026년 가을까지 그녀와 중국 국가안전부 요원 간의 접촉을 추적했다. 미 당국은 또한 그녀의 사업 파트너인 강웨이(Kang Wei)가 같은 기관과 협력했다는 증거를 확보했다. 법무부는 앨리스 황이 중국을 위해 간첩 활동을 했는지 여부를 아직 판단하지 않았으며, 그녀와 그녀의 회사를 조사 중이다[nytimes.com#1][straitstimes.com#1][thehindu.com#1]. 앨리스 황은 싱가포르에 본사를 둔 메가스피드 인터내셔널(Megaspeed International)을 이끌었으며, 이 회사는 첨단 칩을 중국으로 밀반출한 혐의로 2024년부터 미국 당국의 조사를 받아온 엔비디아의 주요 고객사였다. 뉴욕타임스(The New York Times)가 인용한 정보 보고서에는 앨리스 황과 강웨이가 일련의 기업 네트워크와 연결되어 있다는 선적 기록이 포함되어 있다. 메가스피드가 구매한 일부 칩은 중국 기술 기업에 서비스를 제공하는 동남아시아 데이터 센터로 흘러 들어갔으며, 다른 칩들은 중국으로 밀수된 것으로 의심된다[nytimes.com#1][business-standard.com#1][freepressjournal.in#1]. 스콧 베센트(Scott Bessent) 재무장관은 정부가 엔비디아의 수출 통제 준수 여부를 누가 감독했는지 규명하고자 한다고 밝혔다. 증권거래위원회(SEC) 역시 엔비디아의 회계를 조사 중이나, 조사의 초점과 칩 관련 의혹과의 연관성은 아직 불분명하다. 도널드 트럼프 대통령은 간첩 의혹을 축소하며 엔비디아에 젠슨 황을 복귀시킬 것을 촉구했으나, 엔비디아 이사회는 그의 복귀를 배제했다. 황은 12월 1일 의회에 출석할 예정이다[straitstimes.com#2][straitstimes.com#3][thehindu.com#2].",
+      "quote": "엔비디아 칩은 보석과도 같다. 그것은 모두가 원하는 절대적인 최고 수준의 제품이다.",
+      "quote_attribution": "더 스트레이츠 타임스(The Straits Times)",
+      "historical_background": "중국 국가안전부는 오랫동안 자국의 역할을 간첩 행위 및 공산당 통치에 대한 위협을 차단하는 것이라고 설명해 왔다. 2026년 4월, 천이신(Chen Yixin) 국가안전부장은 기술 '봉쇄'를 극복하고 인공지능(AI) 혁신, 산업 및 응용 분야를 발전시키는 것을 추가적인 우선순위로 명명했다[business-standard.com#1].",
+      "business_angle_text": "엔비디아 회계에 대한 SEC 조사는 초기 단계에 있다[thehindu.com#2]. 엔비디아 이사회는 황의 사임과 관련된 상황에 대해 자체 조사를 착수했다[thehindu.com#2].",
+      "talking_points[0]": "회사 퇴사: 메가스피드는 앨리스 황이 2025년 8월 30일부로 공식적으로 회사를 떠났으며, 더 이상 직책을 맡고 있지 않다고 밝혔다[straitstimes.com#1].",
+      "talking_points[1]": "매출 보고: 엔비디아는 지리적 매출 보고 방식을 청구지 주소가 아닌 고객 본사 기준으로 변경했으며, 이로 인해 상당한 사업 규모에도 불구하고 싱가포르가 분류에서 제외되었다. 이러한 변경이 SEC 조사와 관련이 있는지는 불분명하다[thehindu.com#2].",
+      "talking_points[2]": "수출 제한: 젠슨 황의 사임 며칠 후, 트럼프 행정부는 엔비디아 및 기타 기업의 첨단 AI 칩에 대한 중국의 접근을 더욱 제한하는 규정을 발표했다[straitstimes.com#3][koreatimes.co.kr#1].",
+      "talking_points[3]": "의회 압박: 존 케네디(John Kennedy) 공화당 상원의원은 하워드 러트닉(Howard Lutnick) 상무장관과 스콧 베센트 재무장관에게 수출 통제가 어떻게 집행되었는지에 대해 선서 증언을 할 것을 요구했다[theguardian.com#1][straitstimes.com#2].",
+      "talking_points[4]": "칩 수요: 제이 클레이튼(Jay Clayton) 국가정보국장은 엔비디아의 고성능 프로세서가 불법적으로 칩을 구하려는 이들의 지속적인 표적이 되고 있다고 말했다[straitstimes.com#2].",
+      "international_reactions[0]": "🇨🇳 중국: 중국은 간첩 혐의를 부인했다[thehindu.com#2].",
+      "business_angle_points[0]": "SEC 조사는 여전히 진행 중이며 위법 사실은 밝혀지지 않았고, 기소 없이 종결될 가능성도 있다[thehindu.com#2].",
+      "business_angle_points[1]": "엔비디아는 거버넌스 및 수출 통제와 관련된 중첩된 조사에 직면해 있으며, 투자자 집단 소송도 제기된 상태이다[straitstimes.com#3][koreatimes.co.kr#1].",
+      "business_angle_points[2]": "엔비디아 주가는 11월 20일 14% 하락하며 주간 손실 폭이 20%를 넘어섰다[thehindu.com#2].",
+      "perspectives[0].text": "제이 클레이튼 미국 국가정보국장: 클레이튼은 미국이 민감한 기술에 대한 제한과 국제 AI 인프라 개발 촉진 및 고성능 칩 분야에서의 미국 주도권 유지 사이에서 균형을 맞춰야 한다고 말했다[straitstimes.com#2].",
+      "perspectives[1].text": "스콧 베센트 미국 재무장관: 베센트는 젠슨 황이 간첩 혐의에 대해 알지 못했을 것이라고 추측하며, 엔비디아 측에 칩 판매가 어떻게 계속될 수 있었는지에 대한 철저한 내부 조사를 실시할 것을 촉구했다[straitstimes.com#2].",
+      "perspectives[2].text": "마이클 매콜(Michael McCaul) 미국 공화당 하원의원: 매콜은 엔비디아가 메가스피드에 판매한 첨단 칩이 수출 통제를 위반하여 중국으로 유입될 수 있다는 사실을 알고 있었는지 질문할 계획이라고 밝혔다. 그는 중국 기업들이 해당 기술을 역설계할 수 있다고 경고했다[straitstimes.com#2].",
+      "timeline[0].content": "미국 당국이 칩 불법 전용 의혹과 관련해 메가스피드에 대한 조사를 시작했다[thehindu.com#1].",
+      "timeline[1].content": "뉴욕타임스 보도를 통해 앨리스 황의 정보기관 연루 의혹이 상세히 공개되었다[brecorder.com#1].",
+      "timeline[2].content": "젠슨 황이 스캔들 보도 이후 엔비디아 최고경영자직에서 사임했다[theguardian.com#1][nairametrics.com#1].",
+      "timeline[3].content": "젠슨 황이 비공개로 3개 하원 위원회에 출석할 예정이다[straitstimes.com#2].",
+      "primary_image.caption": "앨리스 황, 엔비디아 CEO와의 관계 기간 중 1년 넘게 중국 정보기관과 접촉 유지",
+      "secondary_image.caption": "2025년 4월 16일 대만 타이베이의 한 건물에 엔비디아 로고가 걸려 있다. 로이터/앤 왕(Ann Wang)"
+    },
+    "2d8cca9e-bac7-4b3b-8c15-72290b1e831b": {
+      "title": "러시아 선박, 드론 공격받은 화물선 핀란드 영해 밖으로 예인",
+      "short_summary": "11월 21일 핀란드만에서 우크라이나의 소행으로 추정되는 드론 공격을 받아 화재가 발생한 러시아 화물선 '스파르타 2호(Sparta II)'가 러시아 구조선에 의해 핀란드 영해 밖으로 예인되었다. 알렉산더 스투브(Alexander Stubb) 핀란드 대통령은 해당 선박이 핀란드 영해를 벗어났다고 밝혔다. 키이우는 이번 공격에 대한 책임을 인정하지 않았다 [euronews.com#1][ft.com#1][bbc.co.uk#1]. 모든 선원 16명은 다른 러시아 선박으로 대피했으며, 1명이 경상을 입었다. 핀란드, 러시아, 에스토니아 선박들이 이틀간 화재 진압에 나섰다. 열화상 카메라로 일부 컨테이너에서 여전히 열기가 감지되었으나, 핀란드 당국은 선박이 예인하기에 충분히 안정적인 상태이며 연료나 유해 물질 유출은 없다고 보고했다 [scmp.com#1][bbc.co.uk#1][suspilne.media#1]. 핀란드 해안경비대는 해당 선박이 핀란드 영해를 벗어나면 구조 책임이 러시아로 넘어갈 것이라고 밝혔다. 핀란드 당국은 환경 피해 없이 상황이 통제되고 있다고 전했으며, 항공기에 의한 핀란드 영공 침범 의심 사건에 대한 조사는 계속되고 있다 [pravda.com.ua#1][ft.com#1].",
+      "did_you_know": "자매선인 '스파르타 3호(Sparta III)'는 '우르사 메이저(Ursa Major)'로 개명된 후 2024년 12월 스페인 인근 해역에서 침몰했는데, 파이낸셜 타임스(Financial Times)는 이를 의심스러운 정황이라고 보도했다 [ft.com#1].",
+      "quote": "우크라이나는 침략자에 맞서 싸울 권리가 있다.",
+      "quote_attribution": "파이낸셜 타임스(Financial Times)",
+      "historical_background": "스파르타 2호는 2022년 10월부터 상트페테르부르크-칼리닌그라드 컨테이너 항로를 운항해 왔으며, 정기 유지보수를 거쳐 2026년 10월 운항에 복귀했다 [ft.com#1]. 이 선박은 오보론로기스티카(Oboronlogistika)의 군사 물류 네트워크에 속한 미국 제재 대상 스파르타 선박 4척 중 하나이다 [ft.com#1].",
+      "talking_points[0]": "기상 우려: 일요일 밤과 월요일에 비, 진눈깨비, 강한 바람이 예보되어 구조 작업 중 우려가 제기되었다 [scmp.com#1].",
+      "talking_points[1]": "화물 불확실성: 핀란드 당국은 군사 장비 적재 가능성을 배제하지 않았으나, 해당 선박의 화물은 공개적으로 확인되지 않았다 [euronews.com#1].",
+      "talking_points[2]": "추가 공격 가능성: 이보 바르크(Ivo Vark) 에스토니아 해군 사령관은 핀란드만에서 추가 공격이 발생할 가능성을 배제할 수 없다고 말했다 [scmp.com#1][japantoday.com#1].",
+      "talking_points[3]": "예방 조치: 핀란드는 당국이 대응하는 동안 핀란드만 동부의 항공 및 해상 교통을 일시적으로 제한했다 [bbc.co.uk#1][shippingtelegraph.com#1].",
+      "international_reactions[0]": "🇸🇪 스웨덴: 울프 크리스테르손(Ulf Kristersson) 스웨덴 총리는 스웨덴이 상황을 주시하고 있으며 핀란드에 지원을 제안했다고 밝혔다 [shippingtelegraph.com#1].",
+      "perspectives[0].text": "페테리 오르포(Petteri Orpo) 핀란드 총리는 이번 공격이 전쟁의 영향이 핀란드 인근 지역까지 미치고 있음을 보여준다고 말했다 [ft.com#1].",
+      "perspectives[1].text": "블라디슬라프 블라시우크(Vladyslav Vlasiuk) 우크라이나 대통령 제재 정책 고문은 러시아의 군사 물류 네트워크를 지원하는 선박을 일반 상선으로 취급해서는 안 된다고 주장하며, 운영자들에게 위험을 인지하라고 경고했다 [ft.com#1].",
+      "perspectives[2].text": "알렉세이 베스프로즈바니흐(Alexei Besprozvannykh) 칼리닌그라드 주지사는 이번 공격에 드론 2대가 동원되었으며 러시아 역외 영토인 칼리닌그라드의 보급품에는 위협이 되지 않는다고 말했다 [bbc.co.uk#1].",
+      "timeline[0].content": "핀란드만에서 러시아 코르벳함 나로포민스크(Naro-Fominsk)호가 드론 공격을 받았다 [news.kagi.com#1].",
+      "timeline[1].content": "스파르타 2호가 칼리닌그라드 항로를 위해 상트페테르부르크에서 출항했다 [ft.com#1].",
+      "timeline[2].content": "공해상에서 드론이 화물선을 공격했다 [bbc.co.uk#1][ft.com#1].",
+      "timeline[3].content": "러시아 구조선이 핀란드 영해에서 스파르타 2호를 예인하기 시작했다 [scmp.com#1][suspilne.media#1].",
+      "timeline[4].content": "핀란드는 스파르타 2호가 핀란드 영해 및 환경 피해 방지를 위한 책임 구역 밖으로 예인되었다고 밝혔다 [pravda.com.ua#1]."
+    }
+  },
+  "stats": {
+    "storyCount": 12,
+    "translated": 3,
+    "failedStoryIds": [
+      {
+        "id": "22df19a6-83d5-47e0-a056-21960a43fa3a",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "2ea397c5-6d5d-4461-b785-b842c20a1173",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "87b1c764-6d20-476d-be7e-2155b35be517",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "5ebc08d3-0255-4d2e-9912-9e8d17846113",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "0ca7b829-c223-449e-b4d3-6413895282ad",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "cfdde2b6-c771-4e7d-9877-b2a6a6d54f6e",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "b32584d2-257d-4b26-9d19-7cd03de77ed9",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "354369e7-df9f-4cb6-96e0-0dce82956549",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "64531f35-cdcc-4a8b-8865-97b46f9be9f2",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 4738,
+      "out": 6286
+    }
+  }
+}

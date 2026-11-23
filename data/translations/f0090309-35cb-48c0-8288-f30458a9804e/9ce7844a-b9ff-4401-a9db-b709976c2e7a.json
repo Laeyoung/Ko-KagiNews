@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "batchId": "f0090309-35cb-48c0-8288-f30458a9804e",
+  "categoryUuid": "9ce7844a-b9ff-4401-a9db-b709976c2e7a",
+  "categorySlug": "business",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-11-23T22:16:30.315Z",
+  "stories": {
+    "645b9be2-8c09-4727-9f7f-61a1f11b74c0": {
+      "title": "미 정보당국 수장, 애틀랜타 델타항공 마비 사태 이후 추가 장애 경고",
+      "short_summary": "제이 클레이튼(Jay Clayton) 미국 국가정보국장은 일요일, 기업과 정부 기관들이 노후화된 시스템을 업그레이드하고 사이버 보안을 강화하는 과정에서 기술적 혼란이 지속될 수 있다고 경고했다. 이번 발언은 추수감사절을 앞두고 델타항공의 애틀랜타 허브에서 발생한 소프트웨어 오류로 항공편이 지연된 가운데 나왔으며, 최근 미국 항공편, 마이크로소프트 이메일, 은행권 및 국가안보국(NSA) 네트워크에서 발생한 일련의 장애에 뒤이어 발생했다 [reuters.com#1][cnbc.com#1][euronews.com#1]. 클레이튼 국장은 최근의 장애들이 조직적이거나 국가가 배후에 있는 공격의 결과라는 증거는 발견되지 않았으며, 업그레이드 과정에서 발생한 기술적 문제 때문이라고 설명했다 [reuters.com#1][theglobeandmail.com#1]. 델타항공은 중량 및 균형 계산 소프트웨어의 오류로 인해 엔지니어들이 시스템을 복구하는 동안 직원들이 수동 절차를 사용해야 했다고 밝혔다. 델타항공은 해당 도구가 일요일 늦게 온라인으로 복구되었으나 운항 일정은 여전히 차질을 빚고 있다고 전했다 [trtworld.com#1][euronews.com#1].",
+      "quote": "미국 국민들은 우리 시스템을 업그레이드하기 위한 막대한 투자에 대비해야 합니다. 사이버 보안에 대한 투자에도 대비해야 하며, 기술의 단계적 변화, 즉 컴퓨팅과 애플리케이션의 단계적 변화가 있을 때마다 그 과정에서 어려움이 따를 수 있다는 점을 인지해야 합니다.",
+      "quote_attribution": "CNBC",
+      "location": "미국 조지아주 애틀랜타",
+      "historical_background": "연방항공청(FAA)의 통신 현대화 작업은 현재 L3해리스(L3Harris)로 알려진 기업과 2002년 체결한 계약에 따라 시작되었으며, 구리선을 광케이블로 교체하는 작업이 진행되어 왔다 [theguardian.com#1]. 가디언(The Guardian)은 이 작업이 20년 넘게 이어져 왔으며, FAA가 중요 정보 처리에 사용되던 수십 년 된 플로피 디스크를 단계적으로 폐기하겠다고 발표한 것은 작년의 일이라고 보도했다 [theguardian.com#1].",
+      "talking_points[0]": "연방항공청(FAA) 장애: 라우터 업그레이드 과정에서 데이터 급증이 발생해 미국 내 항공기 출발이 4시간 이상 중단되었으며, 1만 8천 편 이상의 항공편이 결항되었다 [cnbc.com#1][theguardian.com#1][euronews.com#1].",
+      "talking_points[1]": "델타항공 지연: 플라이트어웨어(FlightAware) 데이터에 따르면 일요일 델타항공 운항 일정의 58%에 해당하는 약 2,000편이 지연되었고, 약 3%가 결항되었다 [euronews.com#1].",
+      "talking_points[2]": "마이크로소프트 장애: 마이크로소프트는 앞서 진행된 네트워크 용량 업그레이드가 아웃룩(Outlook) 이메일 서비스 장애를 유발했다고 밝혔다 [cnbc.com#1].",
+      "travel_advisory[0]": "여행: 델타항공은 애틀랜타 소프트웨어 장애로 운항 일정에 차질이 생겼으며, 영향을 받은 승객들을 재예약하고 필요시 식사와 숙박을 제공하며 결항 항공편에 대한 환불을 진행 중이라고 밝혔다 [euronews.com#1]. 여행 전 항공사를 통해 항공편 상태를 확인하고, 항공편에 차질이 생겼을 경우 재예약이나 환불에 대해 델타항공에 문의해야 한다.",
+      "industry_impact[0]": "항공 여행: 델타항공은 플라이트어웨어가 기록한 지연 및 결항의 약 70%가 소프트웨어 결함 때문이며 나머지는 악천후 때문이라고 밝혔다. FAA는 애틀랜타행 일부 항공편을 약 1시간 동안 일시적으로 대기시켰다 [euronews.com#1].",
+      "industry_impact[1]": "금융 및 기업 서비스: 국가안보국(NSA)은 의회에 보고하기를, 자사 네트워크 장애는 인공지능(AI)이 취약하다고 식별한 시스템에 대한 신속한 수정 조치 이후 발생했다고 밝혔다. JP모건 체이스(JPMorgan Chase)의 소프트웨어 버그는 거래 지연을 유발해 은행들과 고객들에게 연쇄적인 영향을 미쳤다 [theguardian.com#1].",
+      "perspectives[0].text": "스콧 베센트(Scott Bessent) 미국 재무장관: 베센트는 금융 기관의 보안에 대해 우려할 필요가 없다고 말하며, 은행의 보호용 소프트웨어 패치를 단기적인 불편을 초래할 수 있지만 회복력을 향상시키는 백신에 비유했다 [cnbc.com#1].",
+      "perspectives[1].text": "사이버 보안 전문가 제이미슨 오라일리(Jamieson O’Reilly): 오라일리는 AI로 발견되는 취약점의 속도와 규모가 커지면서 조직들이 소프트웨어 패치를 따라잡기가 더욱 어려워지고 있다고 말했다 [theguardian.com#1].",
+      "timeline[0].content": "결함이 있는 라우터가 전국적인 항공 통신 장애를 유발했다 [theguardian.com#1]",
+      "timeline[1].content": "은행, 애플(Apple), 국가안보국(NSA)도 기술적 장애를 겪었다 [theguardian.com#1]",
+      "timeline[2].content": "클레이튼 국장은 델타항공 항공편이 지연되는 가운데 업그레이드가 서비스 중단을 초래할 수 있다고 경고했다 [reuters.com#1][euronews.com#1]",
+      "suggested_qna[0].question": "델타항공의 애틀랜타 장애 당시 연방항공청(FAA)은 어떤 조치를 취했나?",
+      "suggested_qna[0].answer": "FAA는 애틀랜타행 일부 항공편을 약 1시간 동안 대기시킨 후 지상 지연 프로그램을 시행했다. FAA는 자사의 항공 교통 관제 기술과는 관련이 없다고 밝혔다 [euronews.com#1].",
+      "secondary_image.caption": "2026년 11월 13일 금요일, 로스앤젤레스 국제공항에서 항공편 지연으로 여행객들이 유나이티드 항공 터미널에서 대기하고 있다. (AP 사진/이선 스웁(Ethan Swope))"
+    },
+    "b27cc18a-2ca3-48ef-9935-e2a8476b9145": {
+      "title": "트럼프, 신용카드 금리 10% 상한제 재추진",
+      "short_summary": "도널드 트럼프 대통령은 신용카드 이자율을 10%로 제한하는 방안을 재추진하며, 이를 위해 새로 구성될 민주당 주도 의회와 협력하겠다고 밝혔다. 트럼프 대통령은 11월 21일 폭스뉴스(Fox News) 인터뷰에서 카드사들이 지나치게 많은 수익을 올리고 있다고 지적하며, 자유 시장 경제를 저해한다는 반대 의견에 맞서 금리 상한제의 필요성을 옹보했다 [wdsu.com#1][storm.mg#1]. 공화당이 의회를 장악했던 시기에는 이 법안이 큰 힘을 얻지 못했으나, 내년 1월부터는 민주당이 상·하원 모두를 주도하게 된다 [nbcwashington.com#1][king5.com#1]. 제안된 10% 상한선은 지난 8월 뉴욕 연방준비은행(New York Federal Reserve) 조사에서 나타난 신용카드 평균 금리 약 22.2%보다 훨씬 낮은 수준이다 [nbcwashington.com#1][king5.com#1]. 연구진은 10% 상한제가 시행될 경우 미국인들이 연간 약 1,000억 달러의 이자 비용을 절감할 수 있을 것으로 추산하며, 카드사들은 보상 혜택 등을 축소함으로써 수익성을 유지할 수 있을 것으로 분석했다 [wdsu.com#1][nbcwashington.com#1].",
+      "quote": "나는 그것을 추진할 것이다. 이 신용카드 회사들은 이미 많은 돈을 벌었다.",
+      "quote_attribution": "킹 5(KING 5)",
+      "talking_points[0]": "업계 경고: 은행권은 10% 금리 상한제가 특히 신용 점수가 낮은 차입자의 신용 접근성을 떨어뜨리고, 일부 소비자를 더 비용이 많이 드는 대안으로 내몰 수 있다고 주장한다 [wdsu.com#1][storm.mg#1].",
+      "talking_points[1]": "카드 보유자 규모: 미국 소비자금융보호국(CFPB)에 따르면 2024년 기준 약 1억 9,500만 명의 미국인이 신용카드를 보유하고 있으며, 해당 연도에 총 1,600억 달러의 이자를 지불했다 [nbcwashington.com#1][king5.com#1].",
+      "talking_points[2]": "초당적 지지: 공화당 조시 홀리(Josh Hawley) 상원의원은 의회에 신용카드 금리 상한제 법안 통과를 촉구했으며, 민주당 엘리자베스 워런(Elizabeth Warren) 상원의원 또한 소비자 부담을 줄이기 위한 금리 상한제 도입을 요구했다 [nbcwashington.com#1][king5.com#1].",
+      "industry_impact[0]": "보상 혜택 축소: 밴더빌트(Vanderbilt) 보고서에 따르면, 대출 기관이 신용 점수가 낮은 고객을 더 위험한 차입자로 간주하기 때문에 이들에 대한 카드 보상 혜택이 가장 크게 줄어들 수 있으나, 이자 절감액이 이러한 손실을 상쇄할 수 있다고 분석했다 [wdsu.com#1].",
+      "timeline[0].content": "트럼프, 신용카드 이자율 제한을 공약으로 내세움 [news.kagi.com#1]",
+      "timeline[1].content": "트럼프, 경제적 부담 완화 정책의 일환으로 1년간 10% 금리 상한제 제안 [news.kagi.com#1]",
+      "timeline[2].content": "트럼프, 새로 구성될 민주당 의회와 금리 상한제 협력 의사 표명 [wdsu.com#1][storm.mg#1]",
+      "timeline[3].content": "민주당, 상·하원 의회 주도권 확보 예정 [nbcwashington.com#1][king5.com#1]"
+    },
+    "974812cd-e5ab-4a03-92f3-16fb5a0f7488": {
+      "title": "미국 연말 쇼핑 지출, 부채 증가 속 1조 달러 돌파 전망",
+      "short_summary": "올해 미국 연말 소매 판매액이 사상 처음으로 1조 달러를 넘어설 것으로 전망되는 가운데, 소비자들의 생활비 부담이 커지면서 사이버 먼데이 지출액 또한 150억 달러를 상회할 것으로 예상된다 [nbcsandiego.com#1][clickorlando.com#1][cbsnews.com#1]. 전미소매협회(NRF)는 4.2%의 매출 성장을 예상했으나, 비자(Visa)는 연말 관련 물가가 약 3.4% 상승함에 따라 인플레이션을 반영한 실질 연말 지출 증가율은 1.1%에 그칠 것으로 추산했다 [nbcsandiego.com#1]. 최근 분기 가계 부채는 신용카드 잔액 220억 달러 증가를 포함해 약 2% 상승했다 [clickorlando.com#1]. 블룸버그가 설문한 경제학자들은 10월 인플레이션 조정 개인 소비 지출이 0.1% 증가했을 것으로 추정했으며, 정부 수치는 수요일 발표될 예정이었다 [bloomberg.com#1].",
+      "business_angle_text": "쇼핑 전문가 안드레아 워로치(Andrea Woroch)는 소비자들이 사이버 먼데이까지 기다리면 의류, 미용 제품, 신발 등에서 더 나은 할인 혜택을 찾을 수 있을 것이라고 조언했다 [clickorlando.com#1].",
+      "talking_points[0]": "선물 예산: 비자(Visa) 조사 결과, 소비자들은 올해 연말 선물로 평균 777달러를 지출할 계획인 것으로 나타났으며 이는 2025년의 736달러보다 증가한 수치이다. 연 소득 10만 달러 미만 소비자의 약 3분의 1은 저가 브랜드나 매장으로 소비를 전환할 계획이다 [nbcsandiego.com#1].",
+      "talking_points[1]": "할부 대출: 너드월렛(NerdWallet)은 미국인의 38%가 이번 연말 시즌 선물 구매를 위해 '선구매 후결제(BNPL)' 금융 서비스를 이용할 것으로 추산했다 [clickorlando.com#1].",
+      "talking_points[2]": "소매 전략: 소매업 분석가 R.J. 호토비(R.J. Hottovy)는 소비자들이 가치와 할인에 집중하고 있으며, 이에 따라 소매업체들이 이러한 기대치를 충족해야 한다는 압박을 받고 있다고 말했다 [clickorlando.com#1].",
+      "business_angle_points[0]": "연말 쇼핑객: 전미소매협회(NRF)는 추수감사절 연휴 기간 동안 약 1억 8,300만 명의 미국인이 쇼핑에 나설 것으로 전망했다 [clickorlando.com#1].",
+      "business_angle_points[1]": "선물 지출: 조 글래드스톤(Joe Gladstone) UC 샌디에이고 교수는 소비자들이 사회적 관계와 관련된 선물 지출을 줄이기보다는 외식이나 개인적인 사치품에 대한 지출을 먼저 줄일 가능성이 있다고 분석했다 [nbcsandiego.com#1].",
+      "industry_impact[0]": "소규모 소매업체: 쇼어 앤 세이지 웰니스 마켓(Shore & Sage Wellness Market)의 설립자 올리비아 스테드먼-올라디포(Olivia Steadman-Oladipo)는 휘발유, 식료품, 상품 가격 상승이 고객과 판매자 모두를 압박하고 있지만, 연말은 여전히 소상공인에게 가장 중요한 대목이라고 말했다 [nbcsandiego.com#1]."
+    },
+    "17cf974f-cbaa-46d5-8d57-648d4be1a2fe": {
+      "title": "트럼프의 세 번째 밈코인 만찬 리더보드, 860만 달러 보유액 기록",
+      "short_summary": "도널드 트럼프 대통령은 11월 22일 버지니아주 스털링에 위치한 자신의 골프 클럽에서 $TRUMP 암호화폐 보유자들을 위한 세 번째 만찬을 주최했다. 공개된 리더보드에는 총 860만 달러 상당의 토큰을 보유한 130개의 지갑이 등재되었으며, 주최 측은 185개의 지갑이 자격을 갖췄다고 밝혔다. 첫 번째 만찬 당시 리더보드에 등재된 보유액은 1억 4,800만 달러였다 [jpost.com#1][aljazeera.com#1][myjoyonline.com#1]. 소비자 권익 단체인 퍼블릭 시티즌(Public Citizen)이 로이터를 위해 작성한 블록체인 분석에 따르면, 등재된 지갑 중 절반 이상이 미국 사용자를 차단하는 암호화폐 거래소와 연결되어 있어 외국인 소유 가능성을 시사했다 [theguardian.com#1][jpost.com#1]. 암호화폐 플랫폼 에어드롭 얼럿(Airdrop Alert)의 설립자 모르텐 크리스텐슨(Morten Christensen)은 VIP 리셉션 자격을 얻기 위해 헤지 전략을 사용했으나, 기자들과 대화를 나눈 후 손목 밴드 착용을 거부당하고 퇴장당했다고 밝혔다 [jpost.com#1][bloomberg.com#1].",
+      "location": "미국 버지니아주 스털링",
+      "talking_points[0]": "헤지 전략을 통한 참가: 크리스텐슨은 $TRUMP를 매수하고 가격 하락에 대비해 무기한 선물로 헤지했다고 밝혔다. 그는 시간 가중 보유액 4만 1,000달러로 자격을 얻었으며, 이번에 6달러의 수익을 냈다고 블룸버그에 전했다 [jpost.com#1][bloomberg.com#1].",
+      "talking_points[1]": "접근 등급: 상위 29명의 대회 우승자에게는 VIP 리셉션과 선물 가방이 제공되었으며, 상위 4명에게는 트럼프 브랜드의 18K 금시계가 약속되었다 [theguardian.com#1][myjoyonline.com#1].",
+      "talking_points[2]": "대회 기간: 자격 요건은 단일 시점의 잔액이 아닌 9월 30일부터 11월 16일까지의 시간 가중 보유액을 기준으로 산정되었다 [jpost.com#1][aljazeera.com#1].",
+      "business_angle_points[0]": "만찬 관련 보도에 따르면 해당 코인은 75달러 근처의 최고점에서 1달러 미만으로 하락했다 [jpost.com#1][aljazeera.com#1].",
+      "perspectives[0].text": "민주당 상원의원들: 8명의 상원의원은 이번 행사가 윤리적 우려를 불러일으킨다고 지적하며 트럼프의 재정적 이해관계에 대한 철저한 조사를 요구했다 [aljazeera.com#1][theguardian.com#1].",
+      "perspectives[1].text": "백악관: 행정부는 이번 만찬을 정부 행사가 아닌 사적인 행사로 규정했으며, 참석이 공식적인 조치를 보장하는 것은 아니라고 밝혔다 [aljazeera.com#1].",
+      "timeline[0].content": "트럼프, 취임 전 $TRUMP 토큰 출시 [aljazeera.com#1]",
+      "timeline[1].content": "상위 보유자들, 첫 번째 비공개 $TRUMP 만찬 참석 [aljazeera.com#1]",
+      "timeline[2].content": "마라라고에서 두 번째 보유자 만찬 개최 [aljazeera.com#1]",
+      "timeline[3].content": "트럼프, 상위 토큰 보유자들을 위한 세 번째 만찬 주최 [aljazeera.com#1][jpost.com#1]"
+    }
+  },
+  "stats": {
+    "storyCount": 12,
+    "translated": 4,
+    "failedStoryIds": [
+      {
+        "id": "9ec3c12d-0bf5-46cf-90e0-ecd8cc4dfc98",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "1c48bffb-185a-4acf-ba97-b6d3b7b92341",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "f9492c49-cf3b-4e80-9897-030db2ce8db8",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "15737af8-4ff2-4953-97a9-bef3b3e95472",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "71dd6d8b-04c2-4d0e-af7a-9d4253dd8a26",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "e2d145e1-623c-42db-a4d4-a51f823e01c0",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "cde5bfcf-6dac-415d-9b08-d83df5d6d66a",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "00839b5c-2d24-45cd-a831-120c2406031a",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 4268,
+      "out": 5155
+    }
+  }
+}
