@@ -4,7 +4,7 @@
   "categoryUuid": "c5711b1c-73c3-4bc9-8a25-a59fcd4e7dfa",
   "categorySlug": "world",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-11-23T22:03:36.269Z",
+  "createdAt": "2026-11-23T23:05:49.045Z",
   "stories": {
     "ab047e6d-2d52-4e96-a4be-e3fed09d8b80": {
       "title": "이스라엘 정착민 방화 공격에 수사 착수 및 정치권 충돌",
@@ -78,34 +78,140 @@
       "timeline[2].content": "공해상에서 드론이 화물선을 공격했다 [bbc.co.uk#1][ft.com#1].",
       "timeline[3].content": "러시아 구조선이 핀란드 영해에서 스파르타 2호를 예인하기 시작했다 [scmp.com#1][suspilne.media#1].",
       "timeline[4].content": "핀란드는 스파르타 2호가 핀란드 영해 및 환경 피해 방지를 위한 책임 구역 밖으로 예인되었다고 밝혔다 [pravda.com.ua#1]."
+    },
+    "22df19a6-83d5-47e0-a056-21960a43fa3a": {
+      "title": "화석연료 분쟁으로 협상 난항… 유엔 기후변화협약 당사국 총회, 합의 없이 종료",
+      "short_summary": "튀르키예 안탈리아에서 열린 제31차 유엔 기후변화협약 당사국 총회(COP31)가 11월 22일, 약 200개국이 화석연료와 기후 재원 문제를 해결하지 못하면서 포괄적 합의에 이르지 못한 채 종료되었다. 이번 총회는 예정보다 이틀가량 길어지며 역대 최장기 COP 회의로 기록되었다. 최종 초안에서 화석연료에 대한 명시적 언급이 빠지자 유럽연합(EU), 영국, 파나마 및 취약한 도서 국가들이 이를 거부했다 [bbc.co.uk#1][theguardian.com#1][pbs.org#2]. 초안은 2023년 COP28에서 합의된 '화석연료로부터의 전환'을 간접적으로 언급했으나, 구체적인 이행 경로를 명시하거나 해당 문구를 재확인하지는 않았다. 사우디아라비아와 러시아 등 산유국들은 화석연료에 대한 명시적 언급에 반대했고, 빈곤국들은 해당 제안이 적응을 위한 구체적인 재원 규모를 설정하지 않았다고 반발했다. COP31 협상 의장인 크리스 보웬(Chris Bowen)은 화석연료와 재원 문제가 주요 걸림돌이었다고 밝혔으며, 무라트 쿠룸(Murat Kurum) 의장은 대체 초안을 제출하지 않겠다고 말했다 [mercopress.com#1][scmp.com#2][dawn.com#1]. 각국은 에너지 전환 과정에서 노동자와 지역사회를 지원하는 프로그램과 적응 진척도를 평가하는 계획 등 별도의 조치에는 합의했다. 80개국 이상이 2035년까지 전 세계 에너지 사용 중 전력 비중을 35%로 높이자는 튀르키예의 제안을 지지했으나, 이 목표는 채택된 포괄적 협정의 일부로 포함되지는 못했다. 사이먼 스틸(Simon Stiell) 유엔 기후변화협약 사무국장은 합의 기반의 협상 절차 개혁에 대한 자문을 구할 것이라고 밝혔다. 차기 총회는 아디스아바바에서 개최될 예정이다 [insideclimatenews.org#1][mercopress.com#1][bbc.co.uk#1][tass.com#1].",
+      "did_you_know": "제안된 협정의 초안에는 화석연료가 6번 언급되었으나, 이후 수정안에서는 직접적인 언급이 삭제되었다 [mercopress.com#1][wsws.org#1].",
+      "quote": "기온은 계속해서 기록을 경신하고 있다. 기후 극단 현상은 더욱 심화되고 있다. 배출량은 여전히 너무 높다. 그리고 모든 지연은 우리의 과업을 더 어렵고 비용이 많이 들게 만들 뿐이다.",
+      "quote_attribution": "PBS 뉴스아워(AP 통신)",
+      "location": "튀르키예 안탈리아",
+      "historical_background": "2015년 파리 협정은 지구 평균 기온 상승 폭을 산업화 이전 대비 1.5°C로 제한하는 목표를 설정했다 [npr.org#1][theconversation.com#2]. COP31은 2009년 코펜하겐 회의 이후 포괄적인 정치적 합의를 채택하지 못한 채 종료된 첫 번째 총회이다 [bbc.co.uk#1][scmp.com#2].",
+      "talking_points[0]": "재원 격차: 초안에서 연간 1,200억 달러 규모의 적응 재원 제안이 삭제되었으나, 남반구(Global South)의 연간 적응 필요액은 약 5,000억 달러로 추산된다 [theconversation.com#1][tass.com#1].",
+      "talking_points[1]": "미국의 부재: 도널드 트럼프 행정부가 파리 기후 협정에서 탈퇴한 이후, 미국은 2년 연속 대표단을 파견하지 않았다 [cbsnews.com#1][straitstimes.com#1].",
+      "talking_points[2]": "호주 내 파장: 앵거스 테일러(Angus Taylor) 호주 야당 대표는 크리스 보웬 기후변화에너지부 장관의 사임을 요구했으며, 앤서니 앨버니지(Anthony Albanese) 총리는 그를 해임할지 여부에 대해 언급하지 않았다 [straitstimes.com#2].",
+      "international_reactions[0]": "🇬🇧 영국: 미아타 판불레(Miatta Fahnbulleh) 영국 에너지부 장관은 합의 도출 실패가 매우 실망스럽다고 평가하면서도, 영국은 국제 파트너들과 계속 협력할 것이라고 밝혔다 [independent.co.uk#1].",
+      "international_reactions[1]": "🇦🇺 호주: 앤서니 앨버니지 총리는 이번 협상 결렬의 원인을 어려운 지정학적 상황 탓으로 돌렸다 [mercopress.com#1].",
+      "perspectives[0].text": "유럽연합: EU를 대표해 발언한 대런 오브라이언(Darragh O’Brien) 아일랜드 기후부 장관은 화석연료에 대한 언급이 없는 기후 결정은 과학적 근거나 필요한 행동을 반영하지 못한다며, 이를 지지하지 않겠다고 밝혔다 [pbs.org#1].",
+      "perspectives[1].text": "사우디아라비아 및 러시아: 모하마드 아유브(Mohammad Ayoub) 사우디아라비아 대표는 아랍 국가들이 성실하게 협상에 임했으며 역사적 배출량에서 차지하는 비중은 작다고 주장했고, 러시아는 화석연료로부터의 급격한 전환이 에너지 빈곤을 초래할 수 있다고 경고했다 [mercopress.com#1].",
+      "perspectives[2].text": "뜻을 같이하는 개발도상국(LMDC): 아만딥 가르그(Amandeep Garg) 인도 대표는 초안이 형평성, 역사적 책임, 선진국의 기후 재원 의무를 불충분하게 반영하고 있으며, 특히 제안된 글로벌 목표에서 그러하다고 지적했다 [firstpost.com#2].",
+      "perspectives[3].text": "튀르키예 COP31 의장국: 무라트 쿠룸 의장은 의장국이 문안을 강요하지 않았으며 국가 간 합의가 부족했음을 인정한다고 밝혔다. 또한 튀르키예 의장국은 협상 과정에서 특정 국가에 특혜를 주었다는 의혹을 부인했다 [pbs.org#1][al-monitor.com#3].",
+      "perspectives[4].text": "기후 협상 개혁 옹호자들: 국제환경법센터(CIEL)의 니키 라이시(Nikki Reisch)는 모든 세부 사항에 대해 모든 국가의 동의를 요구하는 방식은 기후 비상사태에 적합하지 않다고 주장했으며, 앨 고어(Al Gore) 전 부통령은 다수의 입장을 반영하는 절차를 도입할 것을 촉구했다 [dawn.com#2].",
+      "timeline[0].content": "튀르키예와 호주가 공동으로 협상을 주도하며 안탈리아에서 COP31이 개막했다 [tass.com#1].",
+      "timeline[1].content": "정치적 문안에 대한 합의 없이 총회 예정 종료일이 지났다 [bbc.co.uk#1][tass.com#1].",
+      "timeline[2].content": "대표단은 포괄적 합의안을 채택하지 못한 채 역대 최장기 총회를 마쳤다 [pbs.org#2][theguardian.com#1].",
+      "timeline[3].content": "COP32는 에티오피아 아디스아바바에서 개최될 예정이다 [tass.com#1].",
+      "suggested_qna[0].question": "이번 결렬로 이전 기후 총회에서 맺은 약속들이 취소되었는가?",
+      "suggested_qna[0].answer": "아니다. 포괄적 합의안 채택 실패가 이전 COP 결정이나 파리 협정에 따른 기존 약속을 무효화하지는 않는다 [abc.net.au#2][energylivenews.com#1].",
+      "suggested_qna[1].question": "각국은 어디에서 기후 협상을 재개하는가?",
+      "suggested_qna[1].answer": "각국은 아디스아바바에서 열릴 COP32에 앞서 본(Bonn)에서 열리는 중간 회의를 통해 미해결 과제를 논의할 것으로 예상된다 [tass.com#1].",
+      "primary_image.caption": "2026년 11월 22일 튀르키예 안탈리아에서 열린 유엔 기후변화협약 당사국 총회 폐회식 중 크리스 보웬 COP31 협상 의장 겸 호주 기후변화에너지부 장관(왼쪽), 무라트 쿠룸 COP31 의장, 사이먼 스틸 유엔 기후변화협약 사무국장의 모습.",
+      "secondary_image.caption": "2026년 11월 22일 튀르키예 안탈리아에서 열린 제31차 유엔 기후변화협약 당사국 총회(COP31) 폐회식장의 일부가 비어 있는 모습. —로이터"
+    },
+    "87b1c764-6d20-476d-be7e-2155b35be517": {
+      "title": "민주당, 하원 258석 확보하며 분점 정부 구성",
+      "short_summary": "민주당이 노스캐롤라이나주에서 척 허바드(Chuck Hubbard) 후보가 재검표 끝에 공화당의 버지니아 폭스(Virginia Foxx) 의원을 꺾으면서 미국 하원 435석 중 최소 258석을 확보해 1992년 이후 최대 의석을 차지하게 되었다. 공화당은 최소 173석을 유지하고 있으며 4곳의 선거구는 아직 결과가 나오지 않았다. 민주당은 상원에서도 56석을 확보해 1월부터 시작되는 도널드 트럼프(Donald Trump) 공화당 행정부 하에서 상·하원 모두를 장악하게 되었다[abcnews.com#1][bbc.co.uk#1][thehindu.com#1]. 민주당은 집권 초기 100일 동안 생활비와 의료 문제에 집중할 계획이며, 공화당의 메디케이드(Medicaid) 삭감 철회와 만료된 건강보험개혁법(ACA) 세액 공제 복원을 위한 표결을 추진할 예정이다. 또한 트럼프 대통령과 그 가족의 재정 및 행정부에 대한 조사도 계획하고 있다. 하원 의장직이 유력한 하킴 제프리스(Hakeem Jeffries) 민주당 원내대표는 추가 탄핵 가능성을 배제하지 않았다[scmp.com#1][ft.com#1]. 트럼프 대통령은 민주당이 다수를 차지한 의회에서 통과시킨 법안에 대해 거부권을 행사할 수 있다. 아직 결과가 확정되지 않은 하원 4곳은 미네소타주와 테네시주의 선거구, 그리고 12월로 예정된 루이지애나주의 결선 투표 2곳이며, 결과에 따라 민주당의 의석수는 더 늘어날 수 있다[bbc.co.uk#1][euronews.com#1].",
+      "quote": "이 직무에서 긴박감과 압박감, 그리고 국민을 위해 성과를 내야 한다는 절박함을 느끼지 못한다면, 당신은 이 의사당 돔 아래에 있을 자격이 없다.",
+      "quote_attribution": "사우스 차이나 모닝 포스트(South China Morning Post)",
+      "historical_background": "폭스 의원은 2005년부터 노스캐롤라이나 제5선거구를 대표해 왔으며 2024년 중간선거에서는 허바드 후보를 9%포인트 차로 이겼었다[bbc.co.uk#1][gandul.ro#1]. 이번 재검표를 통한 허바드의 승리로 공화당이 오랫동안 지켜온 지역구가 뒤집혔다[gandul.ro#1].",
+      "talking_points[0]": "근소한 차이의 재검표: 허바드 후보가 폭스 의원을 330표 차로 이겼으며, 노스캐롤라이나주 법은 격차가 1% 미만일 경우 재검표를 허용한다[bbc.co.uk#1][gandul.ro#1].",
+      "talking_points[1]": "원내 의견 차이: 트로이 카터(Troy Carter) 하원의원은 민주당이 “단일한 집단이 아니며” 의원들이 각기 다른 아이디어를 가지고 있다고 말했다[scmp.com#1].",
+      "talking_points[2]": "경합 지역구: 민주당 선거대책위원회 메모에 따르면 민주당은 격전지로 분류한 92개 하원 선거구 중 70곳에서 승리했다[folha.com.br#1].",
+      "talking_points[3]": "상원 지도부: 크리스 밴 홀런(Chris Van Hollen) 상원의원이 척 슈머(Chuck Schumer) 상원 민주당 원내대표에게 도전장을 내밀었다[aa.com.tr#1].",
+      "perspectives[0].text": "백악관: 행정부는 민주당이 제안한 조사가 “명백한 범죄 행위”에 해당할 수 있다고 경고했다[abcnews.com#1][ft.com#1].",
+      "perspectives[1].text": "마크 켈리(Mark Kelly) 상원의원: 애리조나주 민주당 의원인 그는 의회가 이란 전쟁의 전략과 지출을 조사해야 한다고 주장하며, 누가 목표를 설정했는지, 왜 수백억 달러 규모의 탄약이 사용되었는지 질문했다[ft.com#1].",
+      "perspectives[2].text": "도널드 트럼프 대통령: 선거 결과를 수용하고 민주당과 협력하겠다고 말한 후, 트럼프 대통령은 “거부권(VETO)”이라고 적힌 빨간 모자 이미지를 게시했다[thehindu.com#2][elpais.com#1].",
+      "perspectives[3].text": "짐 조던(Jim Jordan) 하원의원: 소수당이 된 하원 공화당을 이끌기로 선출된 오하이오주 공화당 의원은 당이 권력을 되찾기 위해 싸울 것이라고 말했다[euronews.com#1][business-standard.com#1].",
+      "timeline[0].content": "유권자들이 의회 중간선거 투표를 실시했다[thehindu.com#2][aa.com.tr#1].",
+      "timeline[1].content": "트럼프 대통령이 의회가 입수할 수 있는 정보를 제한하려는 행정명령을 내렸다[ft.com#1].",
+      "timeline[2].content": "허바드 후보가 재검표에서 330표 차로 승리하며 폭스 의원의 노스캐롤라이나 지역구를 탈환했다[abcnews.com#1][bbc.co.uk#1].",
+      "timeline[3].content": "상원 민주당 의원들이 당 지도부를 선출할 예정이다[aa.com.tr#1].",
+      "timeline[4].content": "제120대 의회가 개원한다[euronews.com#1][scmp.com#1].",
+      "suggested_qna[0].question": "민주당이 장악한 상원은 법안 통과 외에 무엇을 할 수 있는가?",
+      "suggested_qna[0].answer": "상원은 트럼프 대통령의 내각 및 사법부 지명자를 인준하거나 거부할 수 있다[bbc.co.uk#1][gandul.ro#1].",
+      "primary_image.caption": "워싱턴 DC - 11월 12일: 2026년 11월 12일 워싱턴 DC 미국 국회의사당 하원 계단에서 제120대 의회 초선 의원들이 단체 사진을 촬영한 후 척 허바드(민주·노스캐롤라이나) 하원 후보가 포즈를 취하고 있다. 100명이 넘는 신임 의원들이 의회 입성을 앞두고 역할을 준비하기 위한 오리엔테이션 프로그램에 참석 중이다. (사진: 앤드류 하닉/게티 이미지)"
+    },
+    "5ebc08d3-0255-4d2e-9912-9e8d17846113": {
+      "title": "인도네시아 사탕 공장 화재 참사, 사망자 24명 확인 및 수색 작업 지속",
+      "short_summary": "인도네시아 당국은 월요일 자카르타 서부 치칸데에 위치한 PT 포누사 아궁 물리아(PT Fonusa Agung Mulia) 사탕 공장에서 발생한 주말 화재로 24명이 사망하고 약 30명의 근로자가 실종 상태라고 확인했다 [aljazeera.com#1][thehindu.com#1][theguardian.com#1]. 구조대원들은 불안정한 건물 구조와 잔불로 인해 위험한 상황 속에서도 수색 작업을 이어가고 있으며, 입원 치료 중인 5명을 포함해 총 29명이 무사한 것으로 확인되었다 [aljazeera.com#1][thehindu.com#1]. 이 공장의 스티븐 어윈 위자야(Steven Erwin Wijaya) 최고경영자(CEO)는 토요일 근무 당시 공장 내에 약 300명이 있었다고 밝혔다 [thehindu.com#1][aljazeera.com#1]. 사이드 이크발(Said Iqbal) 대통령 노동 고문은 조사관들이 안전 수칙 준수 여부를 평가 중이라고 전했다. 그는 초기 정보에 따르면 에어컨 합선 가능성이 제기되었으나, 당국은 아직 정확한 화재 원인을 규명하지 못했다고 설명했다 [thehindu.com#1][aljazeera.com#1]. 화재로 인해 시신 상당수가 심하게 훼손되어 육안 식별이 어려운 상태이며, 이에 경찰은 유가족의 DNA 샘플과 개인 소지품을 수거하고 있다. 신원 확인에는 2~3주가 소요될 수 있다 [theguardian.com#1][aljazeera.com#1]. 현재 수색 작업과 안전 조사가 계속되고 있다 [thehindu.com#1][aljazeera.com#1].",
+      "quote": "이미 진압이 완료된 구역을 중심으로 수색을 진행하고 있다",
+      "quote_attribution": "가디언(The Guardian)",
+      "location": "인도네시아 반텐주 치칸데",
+      "talking_points[0]": "구조 작업: 군인, 경찰, 적십자 요원 및 자원봉사자를 포함한 500명 이상의 인력이 약 2,000제곱미터 규모의 구역을 수색했다 [japantoday.com#1].",
+      "talking_points[1]": "피해 지역: 당국은 화재가 시작된 것으로 추정되는 냉각 장치 인근 2층을 포함해 가장 큰 피해를 입은 구역에 63명이 있었던 것으로 추산했다 [japantoday.com#1].",
+      "talking_points[2]": "기업 개요: 해당 공장의 모기업은 약 5,000명의 직원을 고용하고 있으며, 밀키타(Milkita) 사탕 제품을 40개국 이상에 수출하고 있다 [thehindu.com#1][japantoday.com#1].",
+      "perspectives[0].text": "사이드 이크발 인도네시아 대통령 노동 문제 고문: 이크발 고문은 공장 최고경영자를 소환할 것이라고 밝혔다 [thehindu.com#1].",
+      "perspectives[1].text": "스티븐 어윈 위자야 공장 최고경영자: 위자야는 공장이 지역 소방대와 정기적으로 비상 대피 훈련을 실시해 왔다고 말했다. 그는 대피 경로와 화재 방지 시스템이 관련 기준을 충족하며 정상 작동 중이었다고 주장했다 [theguardian.com#1].",
+      "perspectives[2].text": "투바구스 마푸드(Tubagus Mahfud) 세랑 소방서 운영 책임자: 마푸드는 붕괴된 건물 잔해와 열악한 조명으로 인해 소방대원들이 신중하게 진입해야 했다고 말했다. 생산 자재가 재발화할 가능성이 있어 모든 구역에 진입하기 전 냉각 작업이 필요하다고 그는 설명했다 [theguardian.com#1].",
+      "timeline[0].content": "토요일 근무 시간 중 사탕 공장에서 화재 발생 [thehindu.com#1][news.kagi.com#1]",
+      "timeline[1].content": "야간 수색 중단과 함께 경찰이 시신 24구를 수습 [dawn.com#1]",
+      "timeline[2].content": "불안정한 잔해 속에서 수색이 계속되는 가운데 당국이 사망자 24명 확인 [thehindu.com#1][aljazeera.com#1]"
+    },
+    "0ca7b829-c223-449e-b4d3-6413895282ad": {
+      "title": "네타냐후와 아이젠코트 정당, 연정 합의 없이 협상 종료",
+      "short_summary": "이스라엘의 베냐민 네타냐후(Benjamin Netanyahu) 과도 총리가 이끄는 리쿠드당과 가디 아이젠코트(Gadi Eisenkot)의 야샤르당이 일요일 헤르츨리야에서 4시간 동안 진행한 연정 협상을 합의 없이 마쳤다. 아이젠코트는 10월 총선 결과가 불투명한 가운데 정부 구성을 시도하고 있다. 양측은 재회동하기로 했으나 구체적인 날짜는 정하지 않았다. 아이젠코트의 권한은 12월 6일에 만료되며, 14일간의 연장 가능성이 있다 [straitstimes.com#1][timesofisrael.com#1][ynetnews.com#1]. 협상단은 누가 거국 내각을 이끌지, 극우 성향의 이타마르 벤-그비르(Itamar Ben-Gvir) 국가안보장관의 참여 여부, 사법 관련 입법, 초정통파 유대인 남성의 군 복무 규정 등을 두고 이견을 보였다. 또한 2023년 10월 7일 하마스가 주도한 공격에 대한 조사 위원회 구성도 논의했으나 위원 임명 방식을 두고 합의에 이르지 못했다 [ynetnews.com#1][middleeastmonitor.com#1]. 아이젠코트 진영은 초정통파 정당들의 지지도 모색하고 있으며, 야이르 골란(Yair Golan) 민주당 대표는 아랍계 의원들의 지지를 받는 소수 정부 구성을 주장하고 있다. 타임스 오브 이스라엘(The Times of Israel)은 징집 문제와 관련해 토라 유대주의 연합(United Torah Judaism)과의 병행 협상에서 진전이 있었다고 보도했으나, 양측은 아직 구체적인 제안을 교환하지는 않았다. 아이젠코트는 이번 주 수정된 프레임워크를 제시할 것으로 예상된다 [timesofisrael.com#1].",
+      "quote": "네타냐후와 거국 내각을 구성하려는 사람은 누구든 자신의 유권자들 등에 칼을 꽂는 행위를 하는 것이다",
+      "quote_attribution": "타임스 오브 이스라엘(The Times of Israel)",
+      "location": "이스라엘 헤르츨리야",
+      "historical_background": "이스라엘은 과거 총리직 순환제를 시행한 바 있으며, 네타냐후는 아이젠코트와의 거국 내각 구성을 위해 이 모델을 제안하고 있다 [thehindu.com#1]. 이스라엘은 반복되는 정치적 교착 상태 속에서 2019년부터 2022년 사이에 5번의 총선을 치렀다 [spiegel.de#1].",
+      "talking_points[0]": "초안 제안: 토라 유대주의 연합의 영적 지도자들은 각 징집 대상 기수 중 3%의 예시바 학생을 면제하겠다는 아이젠코트의 이전 제안을 거부했으며, 아이젠코트는 이번 주 수정된 프레임워크를 제시할 것으로 예상된다 [timesofisrael.com#1].",
+      "talking_points[1]": "투표 전 요구 사항: 토라 유대주의 연합은 새 정부가 출범하기 전에 초정통파 군 복무 관련 법안이 통과되기를 원하고 있다 [timesofisrael.com#1].",
+      "talking_points[2]": "아랍 정당과의 관계: 골란은 라암(Ra’am)의 만수르 아바스(Mansour Abbas) 대표와의 '훌륭한 파트너십'을 언급하며, 정부에 참여할 의사가 없는 공동 명단(Joint List)과도 합의에 이를 수 있다고 말했다 [timesofisrael.com#1].",
+      "talking_points[3]": "협상단 구성: 리쿠드당 협상팀에는 오피르 카츠(Ofir Katz) 크네세트 원내대표와 네타냐후의 변호사인 마이클 라벨로(Michael Rabello)가 포함되었으며, 지난 회담에 참석했던 나프탈리 베넷(Naftali Bennett)의 정당은 일요일 회담에 불참했다 [timesofisrael.com#1].",
+      "perspectives[0].text": "리쿠드당: 연정 구성을 위한 당의 조건에는 아랍 정당 배제, 네타냐후에 대한 인신공격 중단, 팔레스타인 국가 수립 반대, 시리아·레바논·가자 지구 내 영토에 대한 이스라엘의 통제권 유지가 포함된다 [straitstimes.com#1].",
+      "perspectives[1].text": "토라 유대주의 연합: 해당 정당은 소속 파벌, 랍비, 대법관들로부터 지지를 얻을 수 있는 군 복무 면제 프레임워크가 무엇인지 검토 중이다 [ynetnews.com#1].",
+      "timeline[0].content": "총선 결과 어느 진영도 과반을 확보하지 못함 [timesofisrael.com#1]",
+      "timeline[1].content": "이츠하크 헤르초그(Isaac Herzog) 대통령이 아이젠코트에게 정부 구성 권한을 부여함 [timesofisrael.com#1]",
+      "timeline[2].content": "야샤르당과 리쿠드당의 첫 협상 보도 [straitstimes.com#1]",
+      "timeline[3].content": "리쿠드당과 야샤르당의 두 번째 회담이 합의 없이 종료됨 [ynetnews.com#1]",
+      "timeline[4].content": "아이젠코트의 정부 구성 권한 만료 예정 [timesofisrael.com#1]",
+      "suggested_qna[0].question": "아이젠코트가 기한 내에 정부를 구성하지 못하면 어떻게 되는가?",
+      "suggested_qna[0].answer": "이츠하크 헤르초그 대통령은 다른 정치인에게 정부 구성 권한을 부여할 수 있으며, 누구도 성공하지 못할 경우 이스라엘은 다시 총선을 치를 수 있다 [spiegel.de#1].",
+      "primary_image.caption": "이스라엘의 베냐민 네타냐후 과도 총리(왼쪽)와 그의 경쟁자인 가디 아이젠코트(오른쪽)의 모습. —로이터/AFP"
+    },
+    "cfdde2b6-c771-4e7d-9877-b2a6a6d54f6e": {
+      "title": "러시아군, 키이우 지역 공습으로 15명 사망… 구조대 잔해 수색 작업",
+      "short_summary": "우크라이나 당국은 일요일 러시아의 키이우 지역 전역에 걸친 공습으로 최소 15명이 사망했다고 밝혔다. 월요일 구조대원들은 디메르(Dymer)의 일부가 붕괴된 아파트 건물 잔해를 수색했다 [thehindu.com#1][euronews.com#1][lalibre.be#1]. 5층짜리 건물에서 11명이 사망했다. 비슈네베(Vyshneve)의 한 슈퍼마켓에 대한 공습으로 3명이 사망하고 어린이 3명을 포함해 15명이 부상을 입었으며, 빌라 체르크바(Bila Tserkva)의 주택에 대한 공습으로 1명이 추가로 사망했다 [thehindu.com#1][rte.ie#1]. 이번 공격은 기온이 영하로 떨어지는 가운데 드니프로페트로우스크(Dnipropetrovsk) 지역의 변전소도 타격했다. 우크라이나 당국은 러시아의 침공이 5년째 이어지는 가운데, 우크라이나가 또 한 번의 겨울을 맞이하면서 러시아가 에너지 기반 시설에 대한 공격을 강화하고 있다고 전했다 [scmp.com#1][rte.ie#1]. 볼로디미르 젤렌스키(Volodymyr Zelensky) 대통령은 지난주 러시아가 2,700대의 드론과 1,460발의 항공 폭탄을 발사했다고 밝혔다 [france24.com#1]. 젤렌스키 대통령에 따르면 디메르 구조 작업에는 130명 이상의 구조대원이 투입되었으며, 공습 경보가 재발령되면서 작업에 어려움을 겪었다. 키이우 지역은 11월 23일을 애도의 날로 선포했으며, 나토(NATO)는 월요일 회의에서 전쟁과 유럽에 미치는 영향에 대해 논의할 예정이었다 [rferl.org#2][lalibre.be#1].",
+      "quote": "세계는 외면을 멈춰야 한다. 이 테러를 규탄하고, 러시아에 책임을 물으며, 무고한 우크라이나인들의 살상을 멈추기 위해 지금 당장 행동하라.",
+      "quote_attribution": "사우스 차이나 모닝 포스트(South China Morning Post)",
+      "location": "우크라이나 디메르",
+      "humanitarian_impact": "친척과 이웃들은 구조대원들이 중장비와 탐지견을 동원해 디메르의 잔해를 수색하는 모습을 지켜보았다. 한 남성은 자유유럽방송(RFE/RL)에 자신의 가족이 딸에게 전화를 걸려 했으나 연락이 닿지 않았으며, 딸은 잔해 속에 갇힌 것으로 추정되고 이날 35번째 생일을 맞이할 예정이었다고 말했다 [rferl.org#2].",
+      "talking_points[0]": "해상 공격: 젤렌스키 대통령은 우크라이나군이 리비아 인근에서 우크라이나산 해상 드론 7대를 사용해 코르벳함 메르쿠리(Merkury)호를 침몰시켰으며, 화물선과 헬리콥터도 타격했다고 밝혔다 [france24.com#1].",
+      "talking_points[1]": "구조 작업: 구조대원들은 디메르 잔해 속에서 79세 여성과 어린이 한 명을 생존 상태로 구조했다 [thehindu.com#1].",
+      "talking_points[2]": "교량 공격: 우크라이나는 일주일 동안 크림 대교를 세 차례 타격하여 차량 통행 구간을 손상시키고 열차 운행을 중단시켰다 [thehindu.com#1][rte.ie#1].",
+      "perspectives[0].text": "키이우 지역 관계자인 티무르 트카첸코(Tymur Tkachenko)는 슈퍼마켓 공습이 평범한 장보기 길을 비극으로 바꾸어 놓았다고 말했다 [thehindu.com#1].",
+      "perspectives[1].text": "볼로디미르 젤렌스키 우크라이나 대통령은 이번 공격에 대해 반드시 대응할 것이라고 다짐했다 [rferl.org#2].",
+      "primary_image.caption": "월요일 당국이 발표한 최신 집계에 따르면, 러시아의 키이우 지역 공습으로 최소 15명이 사망했으며, 이 중 11명은 주거용 건물의 일부 붕괴로 인해 사망했다. ..."
+    },
+    "64531f35-cdcc-4a8b-8865-97b46f9be9f2": {
+      "title": "트럼프, $TRUMP 코인 1달러 밑으로 추락하자 보유자 초청 만찬 개최",
+      "short_summary": "도널드 트럼프 대통령은 11월 22일 일요일 버지니아주 스털링에 위치한 자신의 골프 클럽에서 자신의 밈 코인인 $TRUMP의 주요 보유자들을 위한 비공개 만찬을 주최했다. 트럼프는 참석자들에게 미국의 경제적 경쟁력을 강화하기 위해 암호화폐를 지지한다고 밝혔다. 한때 약 75달러까지 올랐던 해당 코인은 1달러 미만에서 거래되고 있다. 만찬 리더보드에 오른 130개 지갑의 총 보유액은 860만 달러로, 2025년 5월 만찬 당시 기록된 1억 4,800만 달러와 대비된다 [aljazeera.com#1][dawn.com#1][straitstimes.com#1]. 트럼프의 6월 재무 공개 자료에 따르면 트럼프 일가는 이 코인으로 최소 6억 3,500만 달러를 벌어들였으나, 로이터 분석에 따르면 트럼프 일가와 관련된 5개 암호화폐 프로젝트의 외부 투자자들은 50억 달러 이상의 손실을 본 것으로 나타났다 [theguardian.com#1][myjoyonline.com#1]. 중간선거에서 의회 양원 다수당을 차지한 민주당은 내년 신임 의원들이 임기를 시작하면 잠재적 이해 상충 문제에 대한 조사에 착수하겠다고 공언했다. 백악관은 이번 만찬이 정부 행사가 아닌 사적인 행사였다고 밝혔다 [aljazeera.com#1][theblock.co#1].",
+      "location": "미국 버지니아주 스털링",
+      "talking_points[0]": "해외 지갑: 소비자 권익 옹호 단체인 '퍼블릭 시티즌(Public Citizen)'이 로이터를 위해 작성한 분석에 따르면, 리스트에 오른 지갑의 절반 이상이 미국 거주자의 사용을 금지하는 암호화폐 거래소와 연결되어 있어 외국인과의 연관성을 시사한다 [dawn.com#1][straitstimes.com#1].",
+      "talking_points[1]": "접근권 분쟁: 암호화폐 플랫폼 '에어드롭 얼럿(Airdrop Alert)'의 설립자 모르텐 크리스텐슨(Morten Christensen)은 기자들과 대화를 나눈 뒤 VIP 손목밴드 발급을 거부당하고 퇴장당했다고 밝혔다 [dawn.com#1][straitstimes.com#1].",
+      "talking_points[2]": "낮아진 문턱: 워싱턴 포스트 분석을 인용한 더 블록(The Block) 보도에 따르면, 약 518달러 상당의 토큰을 보유한 179위 보유자가 자격을 얻었으며, 등록할 수 있었던 5,000명 이상의 보유자들은 등록하지 않았다 [theblock.co#1].",
+      "technical_details[0]": "무기한 선물 헤지: 크리스텐슨은 하이퍼리퀴드(Hyperliquid)의 무기한 선물을 통해 거의 동일한 금액을 숏(매도) 포지션으로 취함으로써 $TRUMP를 매수했다고 밝혔다. 그는 이를 통해 토큰 가격 변동에 따른 노출을 대부분 상쇄했으며, 펀딩 수수료로 약 6달러의 수익을 냈다고 전했다 [theblock.co#1].",
+      "perspectives[0].text": "백악관: 행정부는 만찬 참석이 공식적인 조치를 보장하는 것은 아니라고 밝혔다 [aljazeera.com#1][theblock.co#1].",
+      "perspectives[1].text": "민주당 상원의원들: 애덤 쉬프(Adam Schiff)를 필두로 한 8명의 상원의원은 이번 행사가 '돈을 내고 접근권을 사는(pay-to-play)' 방식처럼 보인다며 백악관에 명단 공개를 요구했다 [theblock.co#1].",
+      "perspectives[2].text": "리처드 블루멘탈(Richard Blumenthal) 상원의원: 민주당 소속인 그는 해당 코인과 관련 거래가 백악관에 '매매' 팻말을 붙이는 격이라며 의회 차원의 감독을 촉구했다 [krdo.com#1].",
+      "timeline[0].content": "트럼프, 두 번째 취임식 전 $TRUMP 밈 코인 출시 [aljazeera.com#1]",
+      "timeline[1].content": "첫 보유자 만찬에 220명의 투자자가 참여했으며, 1억 4,800만 달러가 기록됨 [aljazeera.com#1][dawn.com#1]",
+      "timeline[2].content": "마라라고에서 두 번째 비공개 보유자 행사 개최 [aljazeera.com#1]",
+      "timeline[3].content": "최근 보유자 만찬이 트럼프의 버지니아 골프 클럽에서 열림 [aljazeera.com#1][straitstimes.com#1]",
+      "suggested_qna[0].question": "민주당은 어떤 다른 조치를 제안했는가?",
+      "suggested_qna[0].answer": "민주당은 밈 코인 갈라와 같은 활동을 금지하는 법안을 추진할 계획이라고 밝혔다 [theguardian.com#1].",
+      "suggested_qna[1].question": "규제 당국이 해당 코인에 사기 혐의가 있다고 판단했는가?",
+      "suggested_qna[1].answer": "아니다. 상품선물거래위원회(CFTC) 직원들이 출시 직후 조사에 착수했으나, 위법 행위 여부를 판단할 만큼 충분히 진전되지 않았다 [theblock.co#1].",
+      "primary_image.caption": "자료 사진: 공화당 대통령 후보이자 전 미국 대통령인 도널드 트럼프가 2024년 7월 27일 미국 테네시주 내슈빌에서 열린 '비트코인 2024' 행사에서 연설하고 있다. REUTERS/Kevin Wurm/자료 사진/2026-01-14 04:38:16/ <저작권자 ⓒ 1980-2026 ㈜연합뉴스. 무단 전재 재배포 금지, AI 학습 및 활용 금지>",
+      "secondary_image.caption": "도널드 트럼프 미국 대통령이 2026년 9월 2일 미국 워싱턴 DC 백악관 로즈가든에서 만찬을 주최하며 연설하고 있다. —Reuters/자료"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 3,
+    "translated": 9,
     "failedStoryIds": [
       {
-        "id": "22df19a6-83d5-47e0-a056-21960a43fa3a",
-        "reason": "retry_exhausted"
-      },
-      {
         "id": "2ea397c5-6d5d-4461-b785-b842c20a1173",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "87b1c764-6d20-476d-be7e-2155b35be517",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "5ebc08d3-0255-4d2e-9912-9e8d17846113",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "0ca7b829-c223-449e-b4d3-6413895282ad",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "cfdde2b6-c771-4e7d-9877-b2a6a6d54f6e",
         "reason": "retry_exhausted"
       },
       {
@@ -115,15 +221,11 @@
       {
         "id": "354369e7-df9f-4cb6-96e0-0dce82956549",
         "reason": "retry_exhausted"
-      },
-      {
-        "id": "64531f35-cdcc-4a8b-8865-97b46f9be9f2",
-        "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 4738,
-      "out": 6286
+      "in": 13080,
+      "out": 17004
     }
   }
 }

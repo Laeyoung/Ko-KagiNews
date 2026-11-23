@@ -4,7 +4,7 @@
   "categoryUuid": "862041d1-2026-4b81-806e-a90e4f920600",
   "categorySlug": "usa",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-11-23T22:10:38.892Z",
+  "createdAt": "2026-11-23T23:08:42.264Z",
   "stories": {
     "507820f3-d0cc-4a26-95a2-5c8eed561664": {
       "title": "노스캐롤라이나 재검표 결과, 민주당 하원 의석 258석 확보",
@@ -150,20 +150,35 @@
       "talking_points[2]": "당 전략: 많은 공화당원은 실질적으로 다른 정책 의제를 제시하기보다는 민주당이 의회 조사에서 무리수를 두거나 물가 인하에 실패하기를 기대하고 있다 [alternet.org#1].",
       "perspectives[0].text": "도널드 트럼프 대통령: 트럼프 대통령은 이민 문제에서 다소 과했을 수 있음을 인정하면서도, 자신이 원했던 조치를 통과시키지 못한 의원들에게 책임을 돌렸다 [alternet.org#1].",
       "primary_image.caption": "트럼프 대통령의 임기 마지막 2년을 앞두고 공화당은 불확실한 전환기를 맞이하고 있다."
+    },
+    "b456e4cf-dc34-4ecb-b5a1-ab9791ced36e": {
+      "title": "미 육군, 아이오와 폭파 작업 수요일로 연기… 농민들 납 먼지 위험 우려",
+      "short_summary": "아이오와주 미들타운 인근 농민들은 가축과 사료, 장비를 실내나 다른 곳으로 옮기라는 권고를 받았으며, 인근 주민들은 폭파 작업 중 실내에 머물고 작업 후에는 표면을 물로 닦아낼 것을 안내받았다 [straitstimes.com#1][spokesman.com#1]. 미 육군은 아이오와 육군 탄약 공장에서 납 성분이 포함된 먼지 구름이 확산할 수 있다고 밝혔으며, 아이오와와 일리노이 지역 사회는 노출 위험을 우려하고 있다 [krdo.com#1][channel3000.com#1]. 미 육군은 법원이 환경보호청(EPA) 허가에 제동을 걸었음에도 불구하고 11월 25일 수요일 공장에서 노후화된 아지드화납 드럼 68개를 폭파할 계획이다. 법무부는 육군이 별도의 비상 권한에 따라 작업을 진행할 수 있다는 입장이며, 육군은 기온이 낮아지는 상황에서 우발적인 폭발보다 통제된 폭파가 더 안전하다고 주장한다 [cbsnews.com#2][straitstimes.com#1]. 당초 금요일로 예정되었던 이 작업은 반복적으로 연기되었다. 육군은 수요일이 기상 조건이 더 좋고 완화 조치를 설치할 시간을 확보할 수 있다고 설명했다 [krdo.com#1][cbsnews.com#2]. 킴 레이놀즈(Kim Reynolds) 아이오와 주지사는 주 비상대책본부를 가동했으며, 연방항공청(FAA)은 월요일부터 수요일까지 미들타운 주변의 비행을 제한했다 [krdo.com#1].",
+      "quote": "충분한 정보가 공유되지 않았다.",
+      "quote_attribution": "스트레이츠 타임스(The Straits Times)",
+      "location": "미국 아이오와주 미들타운",
+      "historical_background": "1941년 문을 연 아이오와 육군 탄약 공장은 중구경 및 대구경 탄약을 생산한다 [cbsnews.com#2][t-online.de#1]. 육군은 이후 안전 문제를 이유로 화학적 중화 방식을 제안했던 무니렘 인바이런멘탈(MuniRem Environmental)과의 계약을 취소했다 [krdo.com#1].",
+      "talking_points[0]": "납 건강 위험: 보건 당국은 납 노출에 안전한 수준이란 없으며, 특히 어린이나 임산부에게 매우 위험할 수 있다고 경고한다 [washingtonpost.com#1].",
+      "talking_points[1]": "폭파 준비: 계획된 폭파는 모래 방벽 뒤의 흙으로 덮인 콘크리트 벙커에서 진행되며, 먼지 비산을 막기 위해 물이 사용된다 [t-online.de#1].",
+      "talking_points[2]": "불발탄: 육군은 법원 제출 서류를 통해 통제된 폭파가 공장 밖으로 불발탄 파편이 튀어 나중에 폭발할 위험을 줄여줄 것이라고 밝혔다 [cbsnews.com#2].",
+      "talking_points[3]": "농가 우려: 농민들은 아이오와 환경 위원회에 가축을 실내에 가두는 것은 현실적인 대안이 아니라고 토로했다 [straitstimes.com#1].",
+      "perspectives[0].text": "미 육군: 육군 지침은 대피할 수 없는 사람들에게 외부 공기를 유입시키는 냉난방 시스템을 끄라고 권고했다 [straitstimes.com#1].",
+      "perspectives[1].text": "아이오와 환경 위원회, 시에라 클럽 및 어스저스티스: 이 단체들은 대안이 충분히 검토되었는지 의문을 제기하며, 육군의 비상 조치가 사법 절차를 우회하는 것이라고 비판했다. 이들은 위험 평가에 이의를 제기하는 전문가 및 지방 정부의 진술서를 추가하기 위해 법원에 서류를 제출했다 [cbsnews.com#2][channel3000.com#1].",
+      "perspectives[2].text": "패트릭 오쇼네시(Patrick O’Shaughnessy) 아이오와 대학교 환경보건학 교수: 오쇼네시 교수는 해당 물질에 대한 평가가 수십 년 전에 이루어졌어야 했다고 지적하며, 현재의 위험을 고려할 때 현장 폭파가 차악의 선택이라고 설명했다 [krdo.com#1].",
+      "perspectives[3].text": "제레미 앳워터(Jeremy Atwater) 오거스타 주민: 앳워터는 먼지 구름이 남쪽으로 이동해 자신의 마을을 통과할 것으로 예상되어 서쪽으로 대피할 계획이라고 말했다 [straitstimes.com#1].",
+      "timeline[0].content": "육군 감시 결과 보관 중인 드럼에서 분해된 아지드화납 발견 [krdo.com#1]",
+      "timeline[1].content": "육군, 11월 말 폭파 가능성에 대한 지역 사회 회의 개최 [krdo.com#1]",
+      "timeline[2].content": "육군, 예정된 폭파 계획을 다음 주 금요일로 발표 [krdo.com#1]",
+      "timeline[3].content": "육군, 기상 조건과 완화 조치 필요성을 이유로 수요일 폭파 계획 발표 [straitstimes.com#1][cbsnews.com#2]"
     }
   },
   "stats": {
     "storyCount": 10,
-    "translated": 9,
-    "failedStoryIds": [
-      {
-        "id": "b456e4cf-dc34-4ecb-b5a1-ab9791ced36e",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 10,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 9602,
-      "out": 11574
+      "in": 10867,
+      "out": 13137
     }
   }
 }

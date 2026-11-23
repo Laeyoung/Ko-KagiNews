@@ -4,7 +4,7 @@
   "categoryUuid": "9ce7844a-b9ff-4401-a9db-b709976c2e7a",
   "categorySlug": "business",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-11-23T22:16:30.315Z",
+  "createdAt": "2026-11-23T23:11:14.217Z",
   "stories": {
     "645b9be2-8c09-4727-9f7f-61a1f11b74c0": {
       "title": "미 정보당국 수장, 애틀랜타 델타항공 마비 사태 이후 추가 장애 경고",
@@ -67,48 +67,163 @@
       "timeline[1].content": "상위 보유자들, 첫 번째 비공개 $TRUMP 만찬 참석 [aljazeera.com#1]",
       "timeline[2].content": "마라라고에서 두 번째 보유자 만찬 개최 [aljazeera.com#1]",
       "timeline[3].content": "트럼프, 상위 토큰 보유자들을 위한 세 번째 만찬 주최 [aljazeera.com#1][jpost.com#1]"
+    },
+    "9ec3c12d-0bf5-46cf-90e0-ecd8cc4dfc98": {
+      "title": "AI 관련주 급락에 아시아 규제 당국 시장 방어 나서",
+      "short_summary": "11월 23일 월요일, 인공지능(AI) 관련주에 대한 매도세가 이어지자 중국, 한국, 대만 규제 당국이 증시 부양책을 발표했다. 대만은 공매도 제한을 강화하고, 한국은 증시안정펀드 가동을 준비하며, 중국은 주식 매수자의 증거금 요건을 완화하는 등의 조치를 취했다. 나스닥이 2020년 3월 이후 최악의 주간 하락세를 기록한 뒤 미국 주가지수 선물은 상승했다 [cnbc.com#1][reuters.com#1][ft.com#1]. 투자자들은 데이터 센터와 기타 AI 인프라에 대한 부채 기반 지출이 높은 밸류에이션을 정당화할 만큼 빠르게 수익을 창출할 수 있을지 의문을 제기하고 있다. 매도세는 칩 제조업체를 넘어 확산되어, 금요일 엔비디아(Nvidia) 주가는 14% 하락했고, 신규 상장된 AI 기업 앤스로픽(Anthropic)은 첫 거래일 종가 기준 8.5% 하락했다 [bursa.ro#1][scmp.com#1]. 아시아 시장은 주요 지수가 칩 제조업체와 AI 데이터 센터 공급업체에 크게 편중되어 있어 특히 취약한 상태다 [ft.com#1]. 한국은 11월 24일부터 3개월간 상장사의 일일 자사주 매입 한도를 완화하고 필요시 증시안정펀드를 가동할 준비를 하고 있다. 중국의 최저 증거금 요건 완화는 11월 30일부터 시행된다 [cnbc.com#1][ft.com#1]. 대만은 투자자들이 AI 기업의 예상 수익을 재평가함에 따라 공매도 제한을 강화하고 있다 [yna.co.kr#1][reuters.com#1].",
+      "quote": "(중앙은행의) 정책 전환이 없다면 위험 선호 심리 패닉이 지속적인 반등으로 이어질 촉매제는 없다.",
+      "quote_attribution": "로이터(Reuters)",
+      "historical_background": "CNBC에 따르면 한국의 증권시장 안정펀드는 2020년 코로나19 팬데믹 당시 조성되었다 [cnbc.com#1]. 연합뉴스가 인용한 현지 언론 보도에 따르면 이 펀드가 마지막으로 사용된 것은 2008년 글로벌 금융위기 당시였다 [yna.co.kr#1]. 중국은 2026년 1월 신용 거래 주식 매수를 위한 최저 증거금 비율을 80%에서 100%로 인상했으나, 이번 거래소의 하향 조정으로 10개월 만에 인상분을 되돌리게 되었다 [donga.com#1].",
+      "business_angle_text": "구리는 데이터 센터 건설이 전력 인프라 수요를 끌어올릴 것이라는 기대감에 상승했으나, 월요일 오전 거래에서 톤당 1만 2,000달러 아래로 떨어졌다 [ft.com#2]. 엔비디아의 리더십 변화는 이 칩 제조업체가 AI 고객에 대한 자금 지원을 계속할 것인지에 대한 의문을 불러일으켰다. 분석가들은 이러한 지원이 끊길 경우 인프라 기업들이 현금 흐름 압박과 차입 비용 상승에 직면할 수 있다고 경고했다 [businessinsider.com#1].",
+      "talking_points[0]": "시장 손실: 파이낸셜타임스(FT) 추산에 따르면 대만 가권지수(Taiex)는 한 주 동안 5,000억 달러 이상의 시가총액이 증발했으며, 한국 코스피(Kospi)는 6월 고점 대비 1조 8,000억 달러 이상 감소했다 [ft.com#1].",
+      "talking_points[1]": "AI 지출: 가트너(Gartner)는 2026년 2조 7,000억 달러, 2027년 3조 6,000억 달러의 전 세계 AI 관련 투자가 이루어질 것으로 전망했다 [aljazeera.com#1].",
+      "talking_points[2]": "중국의 매수 조치: 중국 거래소들은 거래 수수료 인하를 발표했으며, 선전 거래소는 차이넥스트(ChiNext) 보드에 대한 시장 조성자 메커니즘을 제안했다 [cnbc.com#1].",
+      "talking_points[3]": "투자자 흐름: 골드만삭스(Goldman Sachs) 데이터에 따르면 헤지펀드들은 3주 연속 글로벌 주식을 매도했으며, 공매도 규모가 매수 규모보다 1.5대 1 비율로 많았다 [bloomberg.com#9].",
+      "talking_points[4]": "정책 주시: 투자자들은 휴일로 단축된 이번 주 수요일에 발표될 미국 10월 개인소비지출(PCE) 물가 지표를 기다리고 있다 [indiatimes.com#1].",
+      "technical_details[0]": "중국 증거금 융자: 거래소의 최저 증거금 비율을 100%에서 80%로 낮춘다는 것은 100만 위안을 가진 투자자가 이론적으로 125만 위안 상당의 주식을 매수할 수 있을 만큼 빌릴 수 있게 되어, 레버리지와 매수 여력이 모두 증가함을 의미한다 [yna.co.kr#1].",
+      "technical_details[1]": "한국의 증시안정펀드: 금융회사와 기타 기관들은 급격한 시장 하락기에 시장을 방어하기 위해 약 80억 달러 규모인 10조 7,600억 원의 펀드를 조성했다. 정부는 즉각적인 가동을 위해 펀드를 준비 중이라고 밝혔다 [cnbc.com#1].",
+      "business_angle_points[0]": "한 투자자는 삼성전자와 SK하이닉스가 선행 주가수익비율(PER) 3~4배 수준에서 거래되는 반면, 앤스로픽은 예상 매출의 20배 수준에서 거래되는 점을 들어 칩 공급업체와 AI 개발사를 구분해야 한다고 지적했다 [businessinsider.com#2].",
+      "industry_impact[0]": "반도체: 한국의 삼성전자와 SK하이닉스는 AI 애플리케이션용 메모리 칩의 주요 공급업체로, 이로 인해 코스피는 AI 수요 전망 변화에 특히 민감하게 반응한다 [ft.com#2][lefigaro.fr#1].",
+      "industry_impact[1]": "인접 인프라: 매도세는 데이터 센터 연결 및 전력을 공급하는 광학 제품 제조업체 코닝(Corning)과 전력 공급업체 블룸 에너지(Bloom Energy)에도 영향을 미쳤다 [bursa.ro#1].",
+      "perspectives[0].text": "한국 기획재정부 및 금융 당국: 당국은 장기적인 AI 성장 기대는 여전히 유효하다며 과도한 불안이나 투매를 자제할 것을 당부했다 [ft.com#1].",
+      "perspectives[1].text": "딜린 우(Dillin Wu) 페퍼스톤(Pepperstone) 전략가: 우 전략가는 이번 부양책이 일시적으로 가격을 안정시킬 수는 있지만, AI 관련 밸류에이션에 대한 재평가를 뒤집거나 외국인 투자자를 다시 불러들이기는 어려울 것이라고 말했다 [yna.co.kr#1].",
+      "perspectives[2].text": "JP모건(JPMorgan) 분석가들: 이 은행 분석가들은 이번 조정을 주로 AI 관련 디레버리징(부채 축소)으로 평가하며, 낮은 레버리지와 개선된 포지셔닝을 근거로 AI 성장 주기는 여전히 견고하다고 보았다 [indiatimes.com#1].",
+      "timeline[0].content": "미국 기술주 매도세 속에 엔비디아 주가가 14% 하락했다 [bursa.ro#1].",
+      "timeline[1].content": "한국이 증시안정펀드 가동 준비 계획을 발표했다 [cnbc.com#1].",
+      "timeline[2].content": "코스피는 장중 최대 5.8% 하락 후 낙폭을 줄였고, 대만 가권지수는 2.5% 반등했다 [aljazeera.com#1].",
+      "timeline[3].content": "한국의 한시적 자사주 매입 규제 완화 조치가 시작될 예정이다 [yna.co.kr#1].",
+      "timeline[4].content": "중국의 최저 증거금 비율 인하 조치가 시행될 예정이다 [cnbc.com#1].",
+      "suggested_qna[0].question": "대만의 매도세가 완화되고 있음을 보여주는 지표는 무엇인가?",
+      "suggested_qna[0].answer": "대만 알리안츠(Allianz) 투자팀은 클라우드 기업들이 자본 지출과 서버 주문을 유지하는지, TSMC와 같은 주요 종목이 안정세를 보이는지, 외국인 매도와 신용 융자가 진정되는지, 그리고 기술주 외의 종목으로 상승세가 확산되는지를 지켜봐야 한다고 조언했다 [cnyes.com#1].",
+      "primary_image.caption": "로이터(Reuters)"
+    },
+    "1c48bffb-185a-4acf-ba97-b6d3b7b92341": {
+      "title": "델타항공, 시스템 오류로 1,000편 이상 지연 후 항공기 적재 시스템 복구",
+      "short_summary": "델타항공(Delta Air Lines)은 추수감사절 여행 성수기가 시작되던 11월 22일 일요일, 항공기 중량 및 균형 자동화 시스템 오류로 전국에서 1,000편 이상의 항공편이 지연된 후 해당 시스템을 복구했다[apnews.com#1][ft.com#1]. 이 시스템은 이륙 전 항공기의 중량과 하중 분포를 계산하는 역할을 하며, 델타항공은 자동화 복구 작업 중 수동 절차를 사용했다[businessinsider.com#1][firstpost.com#1]. 미국 연방항공청(FAA)은 델타항공의 최대 허브인 하츠필드-잭슨 애틀랜타 국제공항으로 향하는 일부 항공편을 일시적으로 제한했으나, 자사의 항공 교통 시스템과는 무관하다고 밝혔다[apnews.com#1][firstpost.com#1]. 플라이트어웨어(FlightAware)는 일요일 저녁까지 약 2,000건의 델타항공 지연 사례를 보고했으며, 델타항공은 운항 차질의 약 70%가 시스템 문제 때문이며 나머지는 기상 악화 때문이라고 설명했다[apnews.com#1][business-standard.com#1]. 델타항공은 일요일 늦게 시스템이 정상 작동 중이라고 밝혔으나, 적체된 업무를 처리하는 과정에서 항공편 차질은 계속되었다. 델타항공은 필요한 경우 예약 변경, 식사 및 호텔 객실을 제공하고, 결항으로 인해 여행을 포기한 고객에게는 환불을 제공했다[apnews.com#1][masslive.com#1]. 이번 장애는 11월 13일 FAA의 전국적인 이륙 금지 조치와 11월 16일 유나이티드 항공(United Airlines)의 시스템 장애에 이어 발생했다. 올해 추수감사절은 목요일이다[ft.com#1][masslive.com#1]. 델타항공은 일요일 운항 일정 완수에 집중하고 있다고 밝혔으며, FAA는 해당 항공사의 문제가 자사의 항공 교통 시스템과는 관련이 없다고 재차 강조했다[masslive.com#1][abcnews.com#1].",
+      "quote": "“성능 향상과 사이버 보안을 위해 업그레이드될 것이다. 그리고 그러한 지속적인 업그레이드의 일환으로, 우리는 결함, 공백, 서비스 중단을 겪게 될 것이다.”",
+      "quote_attribution": "파이낸셜 타임스(Financial Times)",
+      "location": "미국 조지아주 애틀랜타",
+      "historical_background": "FAA는 이후 11월 13일의 장애가 노후화된 통신 네트워크와 관련이 있을 가능성이 높다고 밝혔으며, 11월 16일에 발생한 유나이티드 항공의 별도 장애는 150편 미만의 항공편에 영향을 미쳤다[firstpost.com#1].",
+      "business_angle_text": "델타항공은 추수감사절 여행 성수기 동안 출발 계획 시스템을 복구하는 과정에서 수동 적재 절차를 사용했다[firstpost.com#1][apnews.com#1].",
+      "talking_points[0]": "연휴 수요: 하츠필드-잭슨 공항 관계자들은 11월 19일부터 12월 1일 사이 애틀랜타를 통과하는 승객이 작년 같은 기간보다 5% 증가한 400만 명 이상일 것으로 예상했다[nation.com.pk#1].",
+      "talking_points[1]": "수동 적재: 자동화 시스템이 작동하지 않자 델타항공 직원들은 이륙 전 수하물을 직접 세고 적재 보고서를 작성해야 했다[firstpost.com#1][businessinsider.com#1].",
+      "talking_points[2]": "이전 중단 사태: 델타항공은 11월 13일 FAA의 이륙 금지 조치로부터 회복하기 위해 항공기와 승무원 재배치가 필요했다고 밝혔다[finchannel.com#1].",
+      "business_angle_points[0]": "델타항공은 필요한 경우 예약 변경, 식사 및 호텔 객실을 제공했다[apnews.com#1][masslive.com#1].",
+      "business_angle_points[1]": "이번 차질이 발생하기 전, 델타항공의 연간 전망치는 조정 주당순이익 5.10~5.60달러, 잉여현금흐름 약 25억 달러였다[finchannel.com#1].",
+      "industry_impact[0]": "플라이트어웨어는 해당 일자 델타항공 미국 출발편의 약 4%에 해당하는 202편의 결항을 기록했다[firstpost.com#1].",
+      "industry_impact[1]": "애틀랜타 공항: 관계자들은 이번 차질이 델타항공 및 그 지역 항공사에 국한되었으며 공항 운영 전반에는 영향을 미치지 않았다고 밝혔다[firstpost.com#1].",
+      "perspectives[0].text": "델타항공: 해당 항공사는 다른 모든 방안을 소진한 후 결항은 최후의 수단이 될 것이라고 밝혔다[masslive.com#1].",
+      "perspectives[1].text": "미국 의원들: 파이낸셜 타임스 보도에 따르면, 여러 민주당 의원들이 최근 항공 시스템 장애에 대한 해명을 요구했으며, 사이버 위협 방어를 위한 업그레이드가 추가적인 차질을 야기할 수 있다고 경고했다[ft.com#1].",
+      "perspectives[2].text": "스콧 베센트(Scott Bessent) 미국 재무장관: 그는 보안 패치를 '백신'으로 간주해야 한다고 촉구하며, 일시적인 결함이 장기적인 회복력을 강화할 수 있다고 주장했다[ft.com#1].",
+      "timeline[0].content": "유나이티드 항공의 중량 및 균형 시스템 문제로 1,000편 이상의 항공편 지연[firstpost.com#1]",
+      "timeline[1].content": "FAA 네트워크 장애로 4시간 이상 지속된 전국적인 이륙 금지 조치 발령[ft.com#1][finchannel.com#1]",
+      "timeline[2].content": "유나이티드 항공의 별도 시스템 장애로 출발 항공편 지연 발생[masslive.com#1]",
+      "timeline[3].content": "델타항공의 중량 및 균형 자동화 시스템 오류로 전국 항공편 지연[apnews.com#1][ft.com#1]",
+      "primary_image.caption": "델타항공이 항공기의 중량과 균형을 계산하는 시스템 오류로 인해 주요 허브인 애틀랜타행 모든 항공편을 지연시켰다.",
+      "secondary_image.caption": "자료 사진 - 2021년 7월 12일 보스턴 로건 국제공항에서 델타항공 여객기가 게이트를 떠나고 있다."
+    },
+    "f9492c49-cf3b-4e80-9897-030db2ce8db8": {
+      "title": "COP31 결렬, 투자자들 새로운 글로벌 기후 합의 없이 남겨져",
+      "short_summary": "COP31 기후 정상회의가 최종 초안에서 화석 연료에 대한 언급이 삭제되고 유럽연합(EU) 및 기타 국가들이 이를 거부함에 따라 포괄적인 협정 없이 종료되었다. 분석가들은 이전 기후 정상회의들이 기업 투자를 유도하고 재생 에너지 및 전기차 분야의 발전을 촉진하는 데 기여했다고 평가했다 [investing.com#1]. 이번 회의는 11월 22일 튀르키예 안탈리아에서 대체 문안 제시 없이 막을 내렸다 [ft.com#1][investing.com#1]. 이번 결렬이 파리 협정이나 이전 기후 정상회의에서 맺은 약속을 무효화하는 것은 아니지만, 각국은 새로운 정치적 선언을 채택하지 못했다 [investing.com#1][businessday.co.za#1]. 각국은 화석 연료와 기후 금융을 둘러싼 갈등을 2027년 에티오피아 아디스아바바에서 열릴 차기 COP로 넘기게 되었다 [businessday.co.za#1].",
+      "quote": "UAE 컨센서스를 약화시키지 않는 선에서 명시적인 문구를 포함했다면, 오히려 커지는 모멘텀을 강화하고 시장과 정책 입안자들에게 중요한 신호를 보냈을 것이다.",
+      "quote_attribution": "타임(TIME)",
+      "location": "튀르키예 안탈리아",
+      "business_angle_text": "약 25개국이 화석 연료에서 벗어나기 위한 로드맵을 발표하거나 공개했다. 이러한 국가 차원의 계획은 교착 상태에 빠진 컨센서스 협상과는 별개로 진행되었다 [ft.com#2].",
+      "talking_points[0]": "별도의 서약: 90개국 이상이 별도의 전력화 서약에 서명했다. 튀르키예는 전 세계 최종 에너지 소비에서 전기가 차지하는 비중을 현재 약 23%에서 2035년까지 35%로 높일 것을 제안했다 [energylivenews.com#1][investing.com#1].",
+      "talking_points[1]": "행동 의제: 공식 협상 외에도 약 80개의 공식 행사와 회의가 석유, 가스, 석탄으로부터의 전환을 다루었다 [ft.com#2].",
+      "talking_points[2]": "금융 격차: 최종 문안에는 2025년 400억 달러인 적응 금융을 2035년까지 1,200억 달러로 늘리겠다는 제안이 누락되었으며, 구체적인 자금 조달 기준이나 수치도 제시되지 않았다 [businessday.co.za#1].",
+      "talking_points[3]": "전환 논쟁: 전력화 제안은 새로운 전력 공급이 반드시 재생 에너지에서 나와야 한다는 조건을 명시하지 않았다. 비평가들은 화석 연료 발전이 추가적인 수요를 충당하는 데 사용될 수 있다고 경고했다 [rfi.fr#1][energylivenews.com#1].",
+      "perspectives[0].text": "사우디아라비아 등 산유국들은 각국이 에너지 경로에 대한 유연성을 유지해야 한다고 주장하며, 석유·가스·석탄 생산 지속을 제한할 수 있는 문구에 저항했다. 에너지 라이브 뉴스(Energy Live News)는 산유국들이 이러한 제한이 가격 상승, 공급 부족, 에너지 빈곤을 초래할 수 있다고 경고했다고 보도했다 [ft.com#2][energylivenews.com#1].",
+      "perspectives[1].text": "아프리카 협상 그룹(African Group of Negotiators): 가나의 협상가 자네토 아기에만-롤링스(Zanetor Agyeman-Rawlings)는 아프리카 국가들이 다자주의를 보존하기 위해 금융 조항에 대한 불만에도 불구하고 해당 문안을 채택할 준비가 되어 있었다고 밝혔다 [businessday.co.za#1].",
+      "perspectives[2].text": "앨 고어(Al Gore) 전 미국 부통령은 COP31의 실패를 분노할 일이라고 비판하며, 소수 산유국의 거부권 행사는 협상 절차의 개혁이 필요함을 보여준다고 주장했다 [ft.com#2].",
+      "timeline[0].content": "호주의 개회 초안, 화석 연료의 더 빠른 단계적 폐지 촉구 [aljazeera.com#1]",
+      "timeline[1].content": "목요일 초안에서 화석 연료에 대한 모든 명시적 언급 삭제 [aljazeera.com#1]",
+      "timeline[2].content": "프랑스와 파나마, 명확한 전환 문구 삽입 촉구 [euronews.com#1]",
+      "timeline[3].content": "COP31, 포괄적 협정 채택 없이 종료 [investing.com#1][ft.com#1]",
+      "secondary_image.caption": "2026년 11월 22일 튀르키예 안탈리아에서 열린 유엔 COP31 본회의에서 크리스 보웬(Chris Bowen) 호주 기후변화부 장관 겸 COP31 의장이 지켜보고 있다. 사진: 로이터/무라드 세제르(Murad Sezer)"
+    },
+    "15737af8-4ff2-4953-97a9-bef3b3e95472": {
+      "title": "호주 재무장관, 성장 둔화로 실업률 5% 상회 경고",
+      "short_summary": "짐 찰머스(Jim Chalmers) 호주 재무장관은 11월 23일, 10월 실업률이 4.9%를 기록한 데 이어 향후 몇 달간 실업률이 5%를 넘어설 것이며, 향후 2년간 경제 성장률이 2%를 크게 밑돌 수 있다고 경고했다[reuters.com#1][businesstimes.com.sg#1][theconversation.com#1]. 그는 호주중앙은행(RBA)의 5차례 금리 인상이 노동 시장 약화의 원인이 되었으며, 고금리와 인플레이션이 소비를 짓누르고 있다고 설명했다. 유가 상승으로 인플레이션이 높은 수준을 유지할 것으로 예상됨에 따라 정부는 다음 달 예산 업데이트에서 5월에 발표한 성장 전망치를 하향 조정할 방침이다[reuters.com#1][bloomberg.com#2][perthnow.com.au#1]. AMP의 수석 이코노미스트 셰인 올리버(Shane Oliver)는 주택 가격 하락, 심리 위축, 모기지 부담, 감원 및 기업 파산을 근거로 경기 침체 가능성을 40%로 제시했다. 찰머스 장관은 재무부와 중앙은행 모두 경제 역성장을 전망하지는 않는다고 밝혔다. 이번 예산 업데이트에서는 순저축 방안이 제시될 예정이나, 향후 몇 년간은 더 큰 재정 적자가 발생할 가능성이 높다. 10월 인플레이션 수치는 수요일에 발표될 예정이며, 올해 마지막 중앙은행 금리 결정은 12월 초에 이루어질 전망이다[bloomberg.com#1][theconversation.com#1][perthnow.com.au#1].",
+      "quote": "이는 우려스러운 수치다. 우리는 이를 축소하거나 무시하지 않지만, 이 모든 상황에도 불구하고 중앙은행과 재무부 모두 우리 경제가 후퇴할 것으로 전망하지는 않는다.",
+      "quote_attribution": "비즈니스 타임스(The Business Times)",
+      "location": "호주 캔버라",
+      "historical_background": "지난 5월, 예산안은 명목 경제 성장률 4.25%, 실업률 정점 4.75%를 전망한 바 있다[bloomberg.com#2][theconversation.com#1].",
+      "business_angle_text": "단기 세수는 다소 증가했으나, 재무부는 이를 퇴직연금 및 투자 수익에서 발생한 일시적인 고수익의 영향으로 분석했다. 정부 세입은 향후 몇 년간 약화될 것으로 예상된다[theconversation.com#1].",
+      "talking_points[0]": "예산 압박: 명목 경제 규모 축소로 인해 향후 정부 세입이 감소할 것으로 예상되는 반면, 물가 연동제 및 실업 관련 지출은 재정 적자를 확대할 수 있다[theconversation.com#1].",
+      "talking_points[1]": "투자 전망: 재무부는 기업 투자 전망치를 대폭 상향 조정할 가능성이 있다. 투자는 작년에 8% 이상 증가했으며 올해도 5% 추가 상승할 수 있다[theconversation.com#1].",
+      "talking_points[2]": "의약품 비용: 정부는 의약품 혜택 제도(Pharmaceutical Benefits Scheme)의 본인 부담금을 10년 말까지 A$25로 동결한다고 발표했다[theconversation.com#1].",
+      "perspectives[0].text": "짐 찰머스 재무장관: 찰머스 장관은 정부가 필수 서비스를 삭감하지 않으면서 순저축을 추진할 것이라고 밝혔으며, 생활비 지원만으로는 누적된 물가 상승을 완전히 되돌릴 수 없다고 경고했다[perthnow.com.au#1][theconversation.com#1].",
+      "perspectives[1].text": "팀 윌슨(Tim Wilson) 예비 재무장관: 윌슨 의원은 정부가 가계, 근로자, 소상공인의 상황을 악화시키고 있다고 비판하며, 재무장관의 전망치가 빠르게 구식이 되고 있다고 주장했다[perthnow.com.au#1].",
+      "timeline[0].content": "실업률 4.9% 기록, 5년 만에 최고치 도달[reuters.com#1][theconversation.com#1]",
+      "timeline[1].content": "찰머스 장관, 의회에서 성장 둔화 및 실업률 상승 경고[businesstimes.com.sg#1][theconversation.com#1]",
+      "timeline[2].content": "정부, 연중 예산 업데이트 발표 예정[perthnow.com.au#1][theconversation.com#1]",
+      "suggested_qna[0].question": "2027년 인플레이션과 임금은 어떻게 될 것으로 예상되는가?",
+      "suggested_qna[0].answer": "찰머스 장관은 유가 상승으로 인해 인플레이션이 최소 2027년 중반까지 3%를 상회할 수 있으며, 실질 임금은 2027년에 다시 상승세로 돌아설 것으로 전망된다고 밝혔다[perthnow.com.au#1][theconversation.com#1]."
+    },
+    "71dd6d8b-04c2-4d0e-af7a-9d4253dd8a26": {
+      "title": "네덜란드 법원, 디펜더 디자인 침해 이유로 BYD SUV 유럽 판매 금지",
+      "short_summary": "헤이그 지방법원은 중국 자동차 제조사 BYD의 7인승 SUV 'Ti7'이 재규어 랜드로버(JLR)의 디펜더(Defender) EU 디자인권을 침해했다고 판결하며 유럽연합(EU) 내 판매를 일시적으로 금지했다. 이번 명령으로 소송이 진행되는 동안 BYD의 헝가리 신규 공장에서의 해당 SUV 생산도 중단된다[theguardian.com#1][scmp.com#1]. 금요일 판결 이후 1주일 뒤부터 효력이 발생한다. 법원은 BYD가 EU 내 Ti7 출시를 위한 구체적인 계획을 가지고 있지 않다고 밝혔으며, 2027년 1월 인도가 예정된 영국 사업에 대해서는 관할권이 없다고 판시했다[theguardian.com#1][dr.dk#1]. BYD는 항소할 방침이며 Ti7은 독자적으로 설계되었다고 주장하는 반면, JLR은 지식재산권 보호를 위해 법적 대응에 나선 것이라는 입장이다[ft.com#1][theguardian.com#1]. 침해 여부에 대한 최종 결정은 내년에 나올 것으로 예상된다[ft.com#1]. BYD는 중국 내 수익성 압박을 상쇄하기 위해 해외 시장을 확장하며 해당 모델을 유럽에 출시할 계획이었다[ft.com#1].",
+      "quote": "중국 자동차 제조사들은 해외로 확장함에 따라 법적 리스크에 더 많은 주의를 기울여야 한다.",
+      "quote_attribution": "사우스 차이나 모닝 포스트(South China Morning Post)",
+      "location": "네덜란드 헤이그",
+      "historical_background": "JLR은 앞서 3년간의 법정 공방 끝에 2019년 중국 장링자동차(Jiangling Motors Corporation)가 디펜더를 모방한 차량을 판매하지 못하도록 승소한 바 있다[theguardian.com#1]. 가디언(The Guardian)에 따르면 유럽 자동차 제조사들이 디자인권 분쟁을 법원으로 가져가는 경우는 드물며, 중국 경쟁사를 상대로 한 소송 사례도 거의 없었다[theguardian.com#1].",
+      "business_angle_text": "Ti7은 BYD가 기존 라인업을 보완하기 위해 유럽에 선보일 가장 큰 모델로 기대받았다[ft.com#1]. BYD는 헝가리에서 대량 생산을 준비 중이며 스페인이나 프랑스에 제2 공장 설립을 검토하고 있다[ft.com#1].",
+      "talking_points[0]": "주가 변동: 이번 판결 이후 월요일 BYD의 홍콩 상장 주가는 최대 4% 하락했다[ft.com#1].",
+      "talking_points[1]": "시장 점유율: 유럽자동차공업협회(ACEA)에 따르면 올해 BYD의 EU 및 영국 합산 시장 점유율은 2.7%로 작년 1.2%에서 상승했으며, JLR의 0.9%를 앞질렀다[ft.com#1].",
+      "talking_points[2]": "디자인 판결: 네덜란드 법원은 Ti7의 특징적이고 독창적인 디자인 요소를 지적했으며, 보고된 유사점으로는 박스형 차체, 평평한 지붕, 사각형 휠 아치 및 테일게이트 등이 있다[vnexpress.net#1][scmp.com#1].",
+      "talking_points[3]": "영국 가격: BYD는 영국에서 Ti7을 47,995파운드에 판매하고 있는데, 이는 동급 디펜더보다 20,000파운드 이상 저렴한 가격이다[theguardian.com#1].",
+      "business_angle_points[0]": "BYD는 2026년 첫 10개월 동안 해외에서 151만 대 이상의 차량을 판매했으며, 이는 전년 대비 93.8% 증가한 수치이다[scmp.com#1].",
+      "perspectives[0].text": "재규어 랜드로버: JLR은 BYD가 디펜더를 역설계(reverse-engineering)하여 지식재산권을 침해했을 가능성을 제기했다. 또한 2025년 전 세계적으로 10만 대 이상 판매된 모델의 권리를 보호하기 위해 법적 조치를 취했다[scmp.com#1].",
+      "perspectives[1].text": "해외 확장 중인 중국 자동차 제조사들: 상하이 밍량(Shanghai Mingliang) 자동차 서비스 컨설팅의 천진주(Chen Jinzhu) CEO는 다른 중국 자동차 그룹들이 더 많은 모델의 해외 출시를 준비함에 따라 이번 분쟁을 면밀히 지켜볼 것이라고 말했다[scmp.com#1].",
+      "timeline[0].content": "법원이 승인한 집행관들이 디자인 기록을 확보하기 위해 BYD 네덜란드 사무소를 급습했다[scmp.com#1].",
+      "timeline[1].content": "헤이그 법원은 JLR에 급습 당시 압수한 문서를 파기하라고 명령했다[scmp.com#1].",
+      "timeline[2].content": "법원은 EU 내 판매 및 생산에 대한 예비 금지 명령을 내렸다[vnexpress.net#1][theguardian.com#1].",
+      "suggested_qna[0].question": "임시 판매 금지가 효력을 잃게 되는 경우는 무엇인가?",
+      "suggested_qna[0].answer": "vc.ru에 따르면 JLR이 6개월 이내에 본안 소송을 시작하지 않으면 예비 금지 명령은 효력을 잃게 된다[vc.ru#1]."
+    },
+    "e2d145e1-623c-42db-a4d4-a51f823e01c0": {
+      "title": "인도, 11월 PMI 제조업 성장세가 서비스업 둔화 상쇄",
+      "short_summary": "S&P 글로벌이 집계하고 HSBC가 발표한 11월 예비 구매관리자지수(PMI)에 따르면, 인도 민간 부문 활동은 제조업 수요와 생산이 늘어나면서 서비스업 성장 둔화를 상쇄해 소폭 상승했다. 복합 지수는 10월 56.2에서 56.3으로 올랐고, 제조업 지수는 9개월 만에 최고치인 56.0을 기록했다. 지수가 50을 넘으면 경기 확장을 의미한다 [reuters.com#1][bloomberg.com#1][firstpost.com#1]. 제조업체들은 7개월 만에 가장 빠른 속도로 인력을 충원했으나, 서비스 기업들은 거의 1년 만에 처음으로 일자리를 줄였다 [reuters.com#1][business-standard.com#1]. 로이터 설문조사에 따르면 10~12월 분기 경제 성장세는 둔화할 것으로 보이며, 과거 세금 감면 효과가 사라지고 차입 비용이 상승하면서 소비에 부담을 줄 것으로 예상된다 [reuters.com#1][thehindubusinessline.com#1].",
+      "quote": "제조업 활동은 생산과 신규 주문이 가속화되면서 탄력을 받았다. 신규 주문 증가는 내수 강세가 견인했으며, 신규 수출 주문은 다소 완만해졌다.",
+      "quote_attribution": "비즈니스 스탠다드(Business Standard)",
+      "business_angle_text": "이번 조사에서는 미처리 업무가 2개월 연속 감소한 것으로 나타났는데, 서비스업의 미처리 업무는 줄어든 반면 제조업체들은 소폭 증가했다고 보고했다 [business-standard.com#1].",
+      "talking_points[0]": "수출 수요: 신규 수출 주문은 4개월 만에 가장 빠른 속도로 증가했으며, 상품 수출 성장세는 완만해졌음에도 서비스 수출 성장세는 가속화되었다 [business-standard.com#1][freepressjournal.in#1].",
+      "talking_points[1]": "재고 확충: 제조업체들은 5월 이후 가장 빠른 속도로 투입재 구매를 늘렸으며, 완제품 재고는 2005년 3월 조사가 시작된 이래 가장 큰 폭으로 증가했다 [business-standard.com#1][freepressjournal.in#1].",
+      "talking_points[2]": "기업 신뢰도: 향후 1년간의 기업 활동에 대한 신뢰도는 5월 이후 최고 수준에 도달했으나, 장기 평균치에는 미치지 못했다 [business-standard.com#1][firstpost.com#1].",
+      "talking_points[3]": "가격 압력: 운영 비용은 소폭 상승하는 데 그쳤으나, 기업들은 10월보다 더 빠른 속도로 판매 가격을 인상했다. 이번 조사에서는 물가 상승률이 역사적 기준에서 볼 때 완만한 수준이라고 평가했다 [business-standard.com#1][freepressjournal.in#1].",
+      "business_angle_points[0]": "총 신규 사업은 제조업 수요에 힘입어 6월 이후 가장 빠른 속도로 성장했으며, 서비스 부문의 신규 사업 성장세는 10월과 동일했다 [business-standard.com#1].",
+      "perspectives[0].text": "프란줄 반다리(Pranjul Bhandari) HSBC 인도 담당 수석 이코노미스트는 신규 수출 사업이 급증했음에도 서비스업 성장세는 둔화했다고 말했다 [business-standard.com#1]."
+    },
+    "00839b5c-2d24-45cd-a831-120c2406031a": {
+      "title": "타타 스틸, 280억 루피 규모 거래로 APL 아폴로 지분 인수 및 사업부 매각",
+      "short_summary": "타타 스틸(Tata Steel)은 APL 아폴로 튜브스(APL Apollo Tubes)의 창업자 지분 26.6%를 약 155억 1,000만 루피에 인수하고 추가로 26%에 대한 공개 매수를 진행할 예정이다. 또한 자사의 강관 사업부와 타타 스틸 컬러즈(Tata Steel Colors)를 APL 아폴로에 총 280억 루피에 매각하기로 했다 [business-standard.com#1][thehindubusinessline.com#1]. 공개 매수가 완전히 성사될 경우, 타타 스틸은 상장된 해당 철강 제품 제조사의 과반 지분을 보유하게 된다 [firstpost.com#1][news18.com#1]. 이번 거래를 통해 타타 스틸의 튜브 및 컬러 코팅 사업과 APL 아폴로의 유통 및 제조 운영이 결합되며, APL 아폴로의 다운스트림 제품 사업이 확장되고 타타 스틸의 지분율도 확대될 전망이다 [business-standard.com#1][indianexpress.com#1]. 타타 스틸은 규제 당국의 승인을 전제로 2027 회계연도 내에 지분 거래가 완료될 것으로 예상하고 있다. 사업 양수도 역시 승인이 필요하며, 최종 기한은 2028년 3월 31일로 명시되었다 [thehindubusinessline.com#1][indianexpress.com#1].",
+      "quote": "우리는 지난 1년간 부가가치 분야에서 공격적으로 성장하고 다운스트림 입지를 유기적 및 비유기적으로 확장하겠다는 전략적 의지를 강조해 왔다.",
+      "quote_attribution": "비즈니스 스탠다드(Business Standard)",
+      "business_angle_text": "양사는 이번 거래를 통해 조달 효율성 개선, 설비 가동률 향상, 공동 프로젝트 개발 등의 시너지 효과를 기대하고 있다 [thehindubusinessline.com#1][business-standard.com#1].",
+      "talking_points[0]": "공개 매수 가격: 타타 스틸은 공개 매수 가격을 주당 2,301.40 루피로 책정했으며, 이는 창업자 지분 매입가인 주당 2,100 루피와 비교된다 [business-standard.com#1][thehindubusinessline.com#1].",
+      "talking_points[1]": "생산 능력 목표: APL 아폴로는 2035년까지 튜브 900만 톤과 컬러 코팅 제품 650만 톤을 포함해 총 1,550만 톤의 연간 생산 능력을 확보하는 것을 목표로 한다 [business-standard.com#1][thehindubusinessline.com#1].",
+      "talking_points[2]": "위탁 제조: 창업자 관련 기업인 SG 테크 엔지니어링(SG Tech Engineering)과의 계약에 따라 인도 전역의 모듈식 시설에서 500만 톤 규모의 컬러 코팅 생산 능력을 구축하기로 했으며, 첫 100만 톤은 24개월 이내에 달성하는 것을 목표로 한다 [thehindubusinessline.com#1][business-standard.com#1].",
+      "talking_points[3]": "자금 조달 계획: APL 아폴로는 280억 루피 규모의 매입 자금을 초기에는 인수 금융으로 조달한 뒤, 이후 장기 자본으로 대체할 계획이다 [thehindubusinessline.com#1][business-standard.com#1].",
+      "industry_impact[0]": "철강 제품: 이번 제안된 결합을 통해 타타 스틸의 연간 170만 톤 규모 튜브 사업과 80만 톤 규모의 표면 코팅 코일 생산 능력이 기존 APL 아폴로의 생산 능력과 통합될 예정이다 [thehindubusinessline.com#1].",
+      "industry_impact[1]": "운영 거점: 양도되는 튜브 사업은 잠셰드푸르(Jamshedpur), 호수르(Hosur), 코폴리(Khopoli), 사히바바드(Sahibabad)에 위치한 시설을 포함하며, 관련 공장 및 부대 활동도 영업양수도 방식으로 이전된다 [business-standard.com#2].",
+      "perspectives[0].text": "타타 스틸: 카우식 채터지(Koushik Chatterjee) 최고재무책임자(CFO)는 APL 아폴로의 창업자 팀이 민첩성, 속도, 효율성을 바탕으로 다운스트림 생산 능력을 구축하는 능력을 입증해 왔다고 평가하며, 이번 파트너십이 양사 모두에게 전략적으로 중요하다고 설명했다 [business-standard.com#1].",
+      "suggested_qna[0].question": "어떤 승인이 추가로 필요한가?",
+      "suggested_qna[0].answer": "이번 거래는 인도 경쟁위원회(Competition Commission of India)의 승인을 포함한 규제 당국의 허가가 필요하며, APL 아폴로 주주들은 특별 결의를 통해 해당 인수를 승인해야 한다 [indianexpress.com#1]."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 4,
+    "translated": 11,
     "failedStoryIds": [
       {
-        "id": "9ec3c12d-0bf5-46cf-90e0-ecd8cc4dfc98",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "1c48bffb-185a-4acf-ba97-b6d3b7b92341",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "f9492c49-cf3b-4e80-9897-030db2ce8db8",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "15737af8-4ff2-4953-97a9-bef3b3e95472",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "71dd6d8b-04c2-4d0e-af7a-9d4253dd8a26",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "e2d145e1-623c-42db-a4d4-a51f823e01c0",
-        "reason": "retry_exhausted"
-      },
-      {
         "id": "cde5bfcf-6dac-415d-9b08-d83df5d6d66a",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "00839b5c-2d24-45cd-a831-120c2406031a",
         "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 4268,
-      "out": 5155
+      "in": 13755,
+      "out": 16738
     }
   }
 }
