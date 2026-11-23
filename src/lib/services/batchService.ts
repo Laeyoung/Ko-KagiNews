@@ -83,7 +83,9 @@ class BatchService {
 				totalReadCount = providedBatchInfo.totalReadCount || 0;
 			} else if (currentBatchId) {
 				// Time travel mode - use specific batch
-				const batchResponse = await fetch(`${this.baseUrl}/batches/${currentBatchId}`);
+				const batchResponse = await fetch(`${this.baseUrl}/batches/${currentBatchId}`, {
+					credentials: 'omit',
+				});
 				if (!batchResponse.ok) {
 					throw new Error(`Failed to get batch ${currentBatchId}: ${batchResponse.statusText}`);
 				}
@@ -94,7 +96,9 @@ class BatchService {
 				totalReadCount = batch.totalReadCount || 0;
 			} else {
 				// Live mode - get latest batch
-				const batchResponse = await fetch(`${this.baseUrl}/batches/latest?lang=${lang}`);
+				const batchResponse = await fetch(`${this.baseUrl}/batches/latest?lang=${lang}`, {
+					credentials: 'omit',
+				});
 				if (!batchResponse.ok) {
 					throw new Error(`Failed to get latest batch: ${batchResponse.statusText}`);
 				}
@@ -106,7 +110,9 @@ class BatchService {
 			}
 
 			// Step 2: Get categories for that batch with language parameter
-			const response = await fetch(`${this.baseUrl}/batches/${batchId}/categories?lang=${lang}`);
+			const response = await fetch(`${this.baseUrl}/batches/${batchId}/categories?lang=${lang}`, {
+				credentials: 'omit',
+			});
 			if (!response.ok) {
 				throw new Error(`Failed to load categories: ${response.statusText}`);
 			}
@@ -139,7 +145,9 @@ class BatchService {
 			// Step 3: Load chaos index for this batch
 			let chaosData = null;
 			try {
-				const chaosResponse = await fetch(`${this.baseUrl}/batches/${batchId}/chaos?lang=${lang}`);
+				const chaosResponse = await fetch(`${this.baseUrl}/batches/${batchId}/chaos?lang=${lang}`, {
+					credentials: 'omit',
+				});
 				if (chaosResponse.ok) {
 					chaosData = await chaosResponse.json();
 				}

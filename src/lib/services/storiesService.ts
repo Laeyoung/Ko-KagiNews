@@ -1,7 +1,8 @@
 import { dev } from '$app/environment';
 import { prefetchFavicons } from '$lib/services/faviconService';
-import type { Story } from '$lib/types';
+import type { BatchStoriesResponse, Story } from '$lib/types';
 import { extractDomainFromUrl } from '$lib/utils/domainUtils';
+import { loadStaticStories } from './staticStories';
 
 /**
  * Service for loading story data
@@ -19,14 +20,15 @@ class StoriesService {
 		lang: string = 'default',
 	): Promise<{ stories: Story[]; readCount: number; timestamp: number }> {
 		try {
-			// Load stories for this category with language parameter
-			const response = await fetch(
-				`${this.baseUrl}/batches/${batchId}/categories/${categoryUuid}/stories?limit=${limit}&lang=${lang}`,
-			);
-			if (!response.ok) {
-				throw new Error(`Failed to load stories: ${response.statusText}`);
+			let data = await loadStaticStories(batchId, categoryUuid, limit, lang);
+			if (!data) {
+				const response = await fetch(
+					`${this.baseUrl}/batches/${batchId}/categories/${categoryUuid}/stories?limit=${limit}&lang=${lang}`,
+					{ credentials: 'omit' },
+				);
+				if (!response.ok) throw new Error(`Failed to load stories: ${response.statusText}`);
+				data = (await response.json()) as BatchStoriesResponse;
 			}
-			const data = await response.json();
 
 			// Prefetch favicons for all story sources in the background
 			this.prefetchStoryFavicons(data.stories);

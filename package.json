@@ -35,7 +35,10 @@
 		"test:integration": "vitest run --config vitest.config.integration.ts",
 		"test:all": "vitest run",
 		"translate:batch": "bun scripts/translate-batch.ts",
-		"translate:locale": "bun scripts/generate-ko-locale.ts"
+		"translate:locale": "bun scripts/generate-ko-locale.ts",
+		"prebuild": "node scripts/prepare-static-news.mjs",
+		"predev": "node scripts/prepare-static-news.mjs",
+		"snapshots:generate": "bun scripts/generate-news-snapshots.ts"
 	},
 	"dependencies": {
 		"@anthropic-ai/sdk": "^0.71.2",

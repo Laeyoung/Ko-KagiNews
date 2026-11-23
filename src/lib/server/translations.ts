@@ -1,8 +1,6 @@
 import { readFile, stat } from 'node:fs/promises';
 import { join, resolve, sep } from 'node:path';
 import { env } from '$env/dynamic/private';
-import { applySegments } from '$lib/translation/translatable';
-import type { BatchStoriesResponse, Story } from '$lib/types';
 import { bundledSidecars } from './bundledSidecars';
 
 const BATCH_ID =
@@ -133,23 +131,7 @@ export async function readChaosSidecar(batchId: string): Promise<ChaosSidecar | 
 	return fromFs ?? readBundledSidecar<ChaosSidecar>(batchId, 'chaos.json');
 }
 
-export function applyTranslations(
-	body: BatchStoriesResponse,
-	sidecar: Sidecar,
-): BatchStoriesResponse {
-	if (!body?.stories) return body;
-	const stories = body.stories.map((story) => {
-		if (story.sourceLanguage === 'ko') return story; // native-Korean guard
-		const entry = story.id ? sidecar.stories[story.id] : undefined;
-		if (!entry) return story;
-		const merged = applySegments(story, entry) as Story;
-		merged.selectedLanguage = 'ko';
-		merged.translationAvailable = true;
-		merged.translationInfo = { model: sidecar.model, translatedAt: sidecar.createdAt };
-		return merged;
-	});
-	return { ...body, stories };
-}
+export { applyTranslations } from '../translation/applyTranslations';
 
 type ChaosResponse = { chaosDescription?: string; chaosLastUpdated?: string; [k: string]: unknown };
 

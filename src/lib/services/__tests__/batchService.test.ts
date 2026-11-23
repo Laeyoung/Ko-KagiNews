@@ -64,9 +64,15 @@ describe('BatchService', () => {
 
 			const result = await batchService.loadInitialData('en');
 
-			expect(fetch).toHaveBeenNthCalledWith(1, '/api/batches/latest?lang=en');
-			expect(fetch).toHaveBeenNthCalledWith(2, '/api/batches/latest-batch/categories?lang=en');
-			expect(fetch).toHaveBeenNthCalledWith(3, '/api/batches/latest-batch/chaos?lang=en');
+			expect(fetch).toHaveBeenNthCalledWith(1, '/api/batches/latest?lang=en', {
+				credentials: 'omit',
+			});
+			expect(fetch).toHaveBeenNthCalledWith(2, '/api/batches/latest-batch/categories?lang=en', {
+				credentials: 'omit',
+			});
+			expect(fetch).toHaveBeenNthCalledWith(3, '/api/batches/latest-batch/chaos?lang=en', {
+				credentials: 'omit',
+			});
 
 			expect(result).toEqual({
 				batchId: 'latest-batch',
@@ -119,7 +125,9 @@ describe('BatchService', () => {
 
 			const result = await batchService.loadInitialData('en');
 
-			expect(fetch).toHaveBeenNthCalledWith(1, '/api/batches/historical-batch');
+			expect(fetch).toHaveBeenNthCalledWith(1, '/api/batches/historical-batch', {
+				credentials: 'omit',
+			});
 			expect(result.batchId).toBe('historical-batch');
 			expect(result.hasOnThisDay).toBe(false);
 			expect(result.chaosIndex).toBeUndefined();
