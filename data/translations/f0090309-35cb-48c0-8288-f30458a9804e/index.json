@@ -1,7 +1,7 @@
 {
   "version": 1,
   "batchId": "f0090309-35cb-48c0-8288-f30458a9804e",
-  "updatedAt": "2026-11-24T01:32:25.323Z",
+  "updatedAt": "2026-11-24T02:42:19.740Z",
   "categories": {
     "c5711b1c-73c3-4bc9-8a25-a59fcd4e7dfa": {
       "slug": "world",
@@ -60,7 +60,7 @@
     },
     "254ce136-7b21-44ad-94ba-8286f1896c62": {
       "slug": "ai",
-      "status": "ok",
+      "status": "skipped",
       "storyCount": 12,
       "translated": 12,
       "failed": 0,
@@ -74,7 +74,7 @@
     "status": "skipped"
   },
   "run": {
-    "attempted": 4,
+    "attempted": 2,
     "failed": 2,
     "failureRatePct": null,
     "unresolvedSlugs": []
