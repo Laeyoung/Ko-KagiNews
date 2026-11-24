@@ -4,7 +4,7 @@
   "categoryUuid": "254ce136-7b21-44ad-94ba-8286f1896c62",
   "categorySlug": "ai",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-11-23T23:48:33.436Z",
+  "createdAt": "2026-11-24T01:32:25.206Z",
   "stories": {
     "3159c09e-0153-4acf-9e07-87eecb3726d7": {
       "title": "OpenAI 과학자, 최첨단 AI 개발에 대한 공동 제한 제안",
@@ -237,20 +237,37 @@
       "timeline[1].content": "입소스(Ipsos), 스위스 거주자 1,000명을 대상으로 사이버 범죄 경험 설문조사 실시 [20min.ch#1]",
       "timeline[2].content": "스위스 사이버 보안국, 가짜 쇼핑몰 및 택배 관련 메시지 신고 증가 경고 [20min.ch#1]",
       "timeline[3].content": "영국과 호주에서 블랙 프라이데이 쇼핑 행사 예정 [theguardian.com#1][smh.com.au#1]"
+    },
+    "21bffc90-e985-4c09-a267-386acbeb69e2": {
+      "title": "중국 국가안전부, 최소 2년간 AI 칩 확보 공작 전개",
+      "short_summary": "뉴욕타임스(NYT)가 인용한 외국 안보 및 정보 당국자들에 따르면, 중국 국가안전부는 중국 기업들이 첨단 인공지능(AI) 칩을 확보하고 반도체 산업 관련 정보를 수집하도록 돕기 위해 최소 2년간 공작을 벌였다. 국가안전부는 베이징이 핵심적이라고 판단하는 기술에 대한 서방의 수출 통제를 극복하기 위해 천이신(Chen Yixin) 부장에게 직접 보고하는 팀에 이 임무를 맡겼다 [nytimes.com#1][casrai.org#1]. 미국 당국은 엔비디아(Nvidia)의 주요 고객이었던 싱가포르 소재 메가스피드 인터내셔널(Megaspeed International)을 포함한 동남아시아 네트워크를 조사 중이다. 당국은 이 네트워크를 통해 구매된 엔비디아의 첨단 프로세서가 중국으로 유출되었는지 확인하고 있다. 일부는 중국 기술 기업에 서비스를 제공하는 지역 데이터 센터에서 사용되었고, 나머지는 중국으로 밀수된 것으로 의심된다. 미국 정보 보고서는 앨리스 황(Alice Huang)과 그녀의 사업 파트너 강웨이(Kang Wei)를 이 네트워크와 연관 지었으나, 정보 활동의 범위는 여전히 조사 중이다 [dailymaverick.co.za#1][business-standard.com#1][nytimes.com#2]. 11월 16일 발표된 미국 상무부 규정에 따라 제한된 관할 구역의 기업에 제공되는 특정 원격 컴퓨팅 서비스는 허가를 받아야 한다 [casrai.org#1]. 스콧 베센트(Scott Bessent) 재무장관은 행정부가 여전히 엔비디아 측에 수출 통제 준수 여부와 회사 내 책임자에 대한 답변을 요구하고 있다고 밝혔다. 엔비디아의 젠슨 황(Jensen Huang)은 12월 초 상원 은행위원회 및 하원 소위원회에서 증언하기로 합의했다 [cbsnews.com#1].",
+      "quote": "그 정도 규모의 거래에서 흔적을 남기지 않는 악수 거래란 존재할 수 없다.",
+      "quote_attribution": "CBS 뉴스",
+      "historical_background": "미국은 2022년 말부터 엔비디아의 최첨단 칩에 대한 중국 직접 수출을 금지하기 시작했다 [casrai.org#1]. 천이신은 그해 국가안전부장이 되었으며, 1년여 후 국가안전부는 AI가 가까운 미래에 국가 안보 지형을 근본적으로 변화시킬 가능성이 매우 높다고 경고했다 [casrai.org#1]. 보도에 인용된 공식 문건에 따르면, 2026년 1월 시진핑 주석은 우선순위 분야에서 핵심 기술을 개발하기 위해 비상 조치를 취할 것을 촉구했다 [casrai.org#1].",
+      "business_angle_text": "엔비디아 주가는 이번 스캔들에 관한 초기 보도 이후 급락했다. 젠슨 황의 퇴진 이후 콜레트 크레스(Colette Kress) 최고재무책임자(CFO)가 경영을 맡았다 [dailymaverick.co.za#1][cbsnews.com#1].",
+      "talking_points[0]": "컴퓨팅 임계값: 이 규정은 1,200만 이상의 총 처리 성능을 제공하는 연결 또는 개별 데이터 센터를 대상으로 한다 [casrai.org#1].",
+      "talking_points[1]": "실사 의무: 데이터 센터, 해외 파운드리 및 칩 수출업체는 고객이 제한된 관할 구역의 인물에 의해 직간접적으로 소유 또는 통제되는지 여부를 포함한 실사를 수행해야 한다. 기존 계약은 규정 발효 후 90일 이내에 허가를 받아야 한다 [casrai.org#1].",
+      "talking_points[2]": "제한 대상국: 이 규정은 인도네시아, 말레이시아, 싱가포르, 태국, 브라질에 대한 첨단 반도체 수출 시 허가를 요구한다 [casrai.org#1].",
+      "talking_points[3]": "정책 구조: 2023년 시진핑 주석이 설립한 비밀 당 조직인 중앙과학기술위원회는 광범위한 기술 추진을 조정하며, 딩쉐샹(Ding Xuexiang) 정치국 상무위원이 이끌고 있다. 위원회의 예산과 계획은 공개되지 않는다 [casrai.org#1].",
+      "talking_points[4]": "응답 기한: 베센트 장관은 행정부가 수출 통제 준수에 대한 답변을 10일 이내에 제출할 것을 요청했으나 엔비디아로부터 답변을 받지 못했다고 밝혔다 [cbsnews.com#1].",
+      "technical_details[0]": "이 규정은 상업적 추천 시스템에만 사용되는 원격 컴퓨팅 액세스는 제외하며, 산업안보국(BIS)에 제출해야 한다 [casrai.org#1].",
+      "business_angle_points[0]": "메가스피드는 한때 수십억 달러 규모의 칩 매출을 차지하던 엔비디아의 주요 구매자였다 [dailymaverick.co.za#1].",
+      "perspectives[0].text": "스콧 베센트 재무장관: 베센트는 젠슨 황의 퇴진 이후 콜레트 크레스 CFO가 경영을 맡은 상황에서 엔비디아가 외부 인사를 리더로 영입할 것을 촉구했다 [cbsnews.com#1].",
+      "perspectives[1].text": "알렉스 조스케(Alex Joske) 가노 글로벌(Garnaut Global) 안보 실무 담당 상무이사: 조스케는 천이신이 기술 봉쇄 극복을 공개적으로 강조한 것은 중국 국가안전부가 미국과의 AI 경쟁을 장기적인 우선순위로 다루고 있음을 시사한다고 말했다 [casrai.org#1].",
+      "perspectives[2].text": "중국 정부: 보도에 따르면 중국은 앨리스 황과 관련된 간첩 혐의를 \"완전한 날조\"라며 부인했다 [casrai.org#1].",
+      "timeline[0].content": "미국 당국, 칩 밀수 혐의로 메가스피드 조사 착수 [dailymaverick.co.za#1]",
+      "timeline[1].content": "천이신, 기술 봉쇄 극복을 국가안전부 우선순위로 공개 추가 [casrai.org#1]",
+      "timeline[2].content": "미국 정보 보고서, 이 기간 앨리스 황과 국가안전부 요원의 접촉 포착 [business-standard.com#1]",
+      "primary_image.caption": "앨리스 황, 엔비디아 최고경영자 스캔들 기간 중 1년 넘게 중국 정보기관과 연락 유지"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 11,
-    "failedStoryIds": [
-      {
-        "id": "21bffc90-e985-4c09-a267-386acbeb69e2",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 15453,
-      "out": 19865
+      "in": 16968,
+      "out": 21747
     }
   }
 }

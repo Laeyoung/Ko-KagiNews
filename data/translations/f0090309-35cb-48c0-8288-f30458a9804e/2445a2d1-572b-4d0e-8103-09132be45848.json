@@ -4,7 +4,7 @@
   "categoryUuid": "2445a2d1-572b-4d0e-8103-09132be45848",
   "categorySlug": "tech",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-11-23T23:47:52.254Z",
+  "createdAt": "2026-11-24T01:32:19.301Z",
   "stories": {
     "34291868-2ce9-4e43-9715-a734b550b0c7": {
       "title": "애플의 컴퓨터 제어 AI 에이전트, 2027년 말 출시 전망",
@@ -201,24 +201,38 @@
       "timeline[1].content": "앤스로픽, 615억 달러 기업 가치로 시리즈 E에서 35억 달러 조달 [cryptobriefing.com#1]",
       "timeline[2].content": "GIC가 앤스로픽의 시리즈 F에 참여, 기업 가치 1,830억 달러로 발표 [techcrunch.com#1]",
       "timeline[3].content": "베일리 기퍼드의 앤스로픽 투자 기간 종료 [cryptobriefing.com#1]"
+    },
+    "1aba36dd-8d8d-4761-8583-55dcfd82711c": {
+      "title": "트럼프, 해외 데이터센터 건설하는 미국 기업에 관세 부과 경고",
+      "short_summary": "도널드 트럼프 대통령은 해외에 데이터센터를 건설하는 미국 기업들에 대해 \"엄청난 세금\"을 부과하겠다고 위협하며, 미국은 이를 허용하지 않을 것이라고 밝혔다. 그는 해당 제안에 대한 세부 사항을 밝히지 않았으며, 스콧 베센트(Scott Bessent) 재무장관은 트럼프 대통령과 구체적인 내용을 논의한 바 없다고 말했다[tribune.com.pk#1][ndtv.com#1][bug.hr#1]. 트럼프 대통령은 이번 조치가 인공지능(AI) 분야에서 중국과의 경쟁력을 강화하기 위한 방안이라고 설명했다. 중국 기업들은 미국산 첨단 칩 구매가 허용된 국가들의 데이터센터 내 컴퓨팅 자원에 접근해 왔다[tribune.com.pk#1][bug.hr#1]. 브래드 스미스(Brad Smith) 마이크로소프트 사장은 정책적으로 가장 앞선 AI 모델을 학습시키는 시설과 해외 고객을 위한 클라우드 시설을 구분해야 한다고 말했다. 그는 후자의 경우 비디오 스트리밍, 게임, 비즈니스 애플리케이션과 같은 서비스를 위해 사용자 근처에 위치해야 한다고 덧붙였다[ndtv.com#1]. 2026~2029년 인도에 계획된 마이크로소프트의 175억 달러 규모 투자가 검토 대상에 포함되어 있으나, 스미스 사장은 투자 변경 계획을 발표하지 않았으며 제안된 제한 조치에서 인도가 특정 대상으로 지목되지는 않았다[ndtv.com#1].",
+      "did_you_know": "퍼스나우(PerthNow)가 인용한 보고서에 따르면, 호주에서 제안된 9개의 데이터센터가 재생 에너지 요건 없이 운영될 경우 호주 내 가장 오염도가 높은 석탄 화력 발전소 3곳과 맞먹는 수준의 배출량을 발생시킬 수 있다고 한다[perthnow.com.au#1].",
+      "location": "미국 워싱턴 DC",
+      "historical_background": "팩스 실리카(Pax Silica) 선언은 서명국들에게 과도한 의존도를 줄이고 신뢰할 수 있는 기술 공급망을 구축할 것을 촉구하고 있으며, 중국은 서명국이 아니다[perthnow.com.au#1].",
+      "business_angle_text": "트럼프 대통령은 해외에 데이터센터를 건설하는 미국 기업에 세금을 부과하겠다고 위협했다. 브래드 스미스 마이크로소프트 사장은 해외 클라우드 시설은 고객과 가까운 곳에 있어야 한다고 말했다[tribune.com.pk#1][ndtv.com#1].",
+      "talking_points[0]": "기존 현황: 알파벳(Alphabet), 아마존(Amazon), 메타(Meta), 마이크로소프트, 오라클(Oracle)은 이미 해외에서 데이터센터를 운영하고 있으며, 해외 거점은 현지 데이터 저장 규정을 준수하는 데 도움이 될 수 있다[waikatotimes.co.nz#1][bug.hr#1].",
+      "talking_points[1]": "산업 노출도: 데이터센터 개발업체인 에퀴닉스(Equinix)와 디지털 리얼티(Digital Realty)는 미국 외 지역에서 운영 중이며, 장거리 데이터 전송은 비용을 증가시킬 수 있다[tribune.com.pk#1].",
+      "talking_points[2]": "호주의 입장: 호주는 데이터센터 개발을 위한 국가 규제를 여전히 검토 중이며, 연말 이전에 관련 법안 초안이 나올 것으로 예상된다[perthnow.com.au#1].",
+      "talking_points[3]": "지역 비용: 호주 장관들은 데이터센터의 전기 및 물 사용량에 대한 대중의 우려에 직면해 있다[perthnow.com.au#1].",
+      "perspectives[0].text": "스콧 베센트 미국 재무장관: 베센트 장관은 트럼프 대통령의 우려를 대규모 기술 해외 유출을 방지하려는 의도로 해석했다. 그는 기술 기업들이 미국인들에게 자신들의 계획을 더 잘 설명하고 데이터센터를 유치하는 지역사회와의 신뢰를 재구축해야 한다고 말했다[ndtv.com#1].",
+      "perspectives[1].text": "리처드 말스(Richard Marles) 호주 부총리: 말스 부총리는 해외 인프라가 미국에 중복성을 제공할 것이라며, 호주가 이를 유치하는 데 도움을 주어야 한다고 주장했다[perthnow.com.au#1].",
+      "perspectives[2].text": "토니 버크(Tony Burke) 호주 내무장관: 버크 장관은 데이터센터가 외국 간섭을 유발할 수 있다고 언급하며 호주 내 데이터센터의 소유 구조에 대한 조사를 촉구했다[perthnow.com.au#1].",
+      "timeline[0].content": "미국, 호주, 유럽연합 및 기타 24개국이 팩스 실리카 선언에 서명했다[perthnow.com.au#1]",
+      "timeline[1].content": "미국 상무부가 일부 동남아시아 국가에 대한 첨단 AI 칩 수출 제한 조치를 취했다[tribune.com.pk#1]",
+      "timeline[2].content": "트럼프 대통령이 해외에 데이터센터를 건설하는 미국 기업에 대한 제재를 경고했다[tribune.com.pk#1][ndtv.com#1]"
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
+    "translated": 11,
     "failedStoryIds": [
       {
         "id": "79f8ec68-52c6-4ec9-a379-aa605c2cfe44",
         "reason": "retry_exhausted"
-      },
-      {
-        "id": "1aba36dd-8d8d-4761-8583-55dcfd82711c",
-        "reason": "retry_exhausted"
       }
     ],
     "tokens": {
-      "in": 13216,
-      "out": 16253
+      "in": 14431,
+      "out": 17764
     }
   }
 }
