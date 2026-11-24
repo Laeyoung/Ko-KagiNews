@@ -24,7 +24,7 @@ class StoriesService {
 			if (!data) {
 				const response = await fetch(
 					`${this.baseUrl}/batches/${batchId}/categories/${categoryUuid}/stories?limit=${limit}&lang=${lang}`,
-					{ credentials: 'omit' },
+					{ credentials: 'same-origin' },
 				);
 				if (!response.ok) throw new Error(`Failed to load stories: ${response.statusText}`);
 				data = (await response.json()) as BatchStoriesResponse;

@@ -25,6 +25,6 @@ it('falls back to the anonymous live API when snapshot is unavailable', async ()
 	expect(await storiesService.loadStories('batch', 'category', 12, 'ko')).toEqual(data);
 	expect(fetcher).toHaveBeenCalledWith(
 		'/api/batches/batch/categories/category/stories?limit=12&lang=ko',
-		{ credentials: 'omit' },
+		{ credentials: 'same-origin' },
 	);
 });

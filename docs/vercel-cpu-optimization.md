@@ -2,9 +2,11 @@
 
 ## Implementation
 
-- Public batch metadata/category/chaos requests and the story API fallback use
-  `credentials: 'omit'`. Auth, sync and contribution requests keep their existing
-  behavior. The server's credentialed-request shared-cache guard remains intact.
+- Browser requests retain same-origin cookies so authenticated Vercel previews work.
+  For public GET `/api/batches` routes only, the server strips `_clck`/`_clsk`
+  analytics cookies before upstream forwarding and cache-eligibility checks.
+  Auth/unknown cookies and Authorization still prevent creating shared cache
+  responses. Other routes keep their existing behavior.
 - `scripts/generate-news-snapshots.ts` fetches anonymous English story responses
   (12 stories) and applies the same Korean merge function as the live API. It runs
   after daily translation/pruning in GitHub Actions, not on Vercel requests.
@@ -13,9 +15,11 @@
   in the upstream response. Snapshots for pruned batches are removed. Changed
   sidecars whose fetch fails lose their old snapshot and fall back to the API;
   successful partial results are committed before the workflow reports failure.
-- The offline `prebuild` step checks sidecar hashes and emits content-addressed
+- The offline `prebuild` step validates response identity/shape and sidecar hashes and emits content-addressed
   JSON files plus a manifest in `static/news`. Generated files are not committed.
-  On Vercel these are static assets, not Function responses.
+  On Vercel these are static assets, not Function responses. Corrupt snapshots are
+  skipped individually, so other categories still publish and the affected category
+  falls back to the API. The generator repairs invalid cached snapshots on its next run.
 - The browser checks the manifest at most once per five minutes and uses static
   content only for `lang=ko, limit=12`. Other languages/limits, absent snapshots,
   invalid responses, timeouts and unavailable files fall back to the existing API.
@@ -30,7 +34,8 @@ The snapshot's read count/timestamp reflect generation time, not live popularity
 Chaos and batch metadata remain on the live API. Snapshots are generated again when
 translation content changes; they are not a continuously refreshed upstream mirror.
 
-`TRANSLATIONS_ENABLED=false` at build time emits an empty static manifest. For a
+`TRANSLATIONS_ENABLED=false` at build time (including Vite mode-specific `.env`
+files, with shell environment taking precedence) emits an empty static manifest. For a
 Vercel deployment, change the environment setting and redeploy. For a self-hosted
 build, rebuild when changing this flag: switching only the running Node process's
 environment cannot retract already published static files.

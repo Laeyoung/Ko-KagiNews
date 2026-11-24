@@ -37,7 +37,7 @@
 		"translate:batch": "bun scripts/translate-batch.ts",
 		"translate:locale": "bun scripts/generate-ko-locale.ts",
 		"prebuild": "node scripts/prepare-static-news.mjs",
-		"predev": "node scripts/prepare-static-news.mjs",
+		"predev": "node scripts/prepare-static-news.mjs --mode development",
 		"snapshots:generate": "bun scripts/generate-news-snapshots.ts"
 	},
 	"dependencies": {

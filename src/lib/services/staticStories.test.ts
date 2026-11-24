@@ -3,7 +3,16 @@ import { afterEach, describe, expect, it, vi } from 'vitest';
 const batch = 'example-batch';
 const category = 'example-category';
 const url = `/news/${'a'.repeat(64)}.json`;
-const body = { batchId: batch, stories: [{ id: 'story', title: '한국어' }], readCount: 7 };
+const body = {
+	batchId: batch,
+	categoryId: category,
+	categoryName: 'World',
+	stories: [{ id: 'story', title: '한국어', short_summary: '요약', articles: [] }],
+	readCount: 7,
+	timestamp: 123,
+	totalStories: 1,
+	domains: [],
+};
 const json = (value: unknown) => new Response(JSON.stringify(value));
 async function setup() {
 	vi.resetModules();
@@ -18,14 +27,14 @@ async function setup() {
 afterEach(() => vi.unstubAllGlobals());
 
 describe('static stories', () => {
-	it('loads Korean snapshot without invoking API or forwarding cookies', async () => {
+	it('loads Korean snapshot with same-origin credentials for protected previews', async () => {
 		const { fetcher, load } = await setup();
 		fetcher
 			.mockResolvedValueOnce(json({ [`${batch}/${category}`]: url }))
 			.mockResolvedValueOnce(json(body));
 		expect(await load()).toEqual(body);
 		expect(fetcher).toHaveBeenCalledTimes(2);
-		for (const call of fetcher.mock.calls) expect(call[1].credentials).toBe('omit');
+		for (const call of fetcher.mock.calls) expect(call[1].credentials).toBe('same-origin');
 	});
 	it('bypasses snapshots for other languages and nonstandard limits', async () => {
 		const { fetcher, load } = await setup();
@@ -39,6 +48,7 @@ describe('static stories', () => {
 		'network',
 		'invalid',
 		'wrong-batch',
+		'wrong-category',
 	])('falls back for %s', async (failure) => {
 		const { fetcher, load } = await setup();
 		fetcher.mockResolvedValueOnce(
@@ -47,7 +57,30 @@ describe('static stories', () => {
 		if (failure === 'network') fetcher.mockRejectedValueOnce(new Error('offline'));
 		else if (failure === '404') fetcher.mockResolvedValueOnce(new Response('', { status: 404 }));
 		else if (failure === 'invalid') fetcher.mockResolvedValueOnce(new Response('<html>'));
+		else if (failure === 'wrong-category')
+			fetcher.mockResolvedValueOnce(json({ ...body, categoryId: 'other' }));
 		else fetcher.mockResolvedValueOnce(json({ ...body, batchId: 'other' }));
+		expect(await load()).toBeNull();
+	});
+	it.each([
+		['timestamp', undefined],
+		['timestamp', '123'],
+		['timestamp', -1],
+		['readCount', undefined],
+		['readCount', '7'],
+		['readCount', -1],
+		['totalStories', undefined],
+		['totalStories', -1],
+		['categoryName', undefined],
+		['domains', undefined],
+		['stories', []],
+		['stories', [null]],
+		['stories', [{ title: 'Missing body' }]],
+	])('falls back for invalid %s metadata (%s)', async (field, value) => {
+		const { fetcher, load } = await setup();
+		fetcher
+			.mockResolvedValueOnce(json({ [`${batch}/${category}`]: url }))
+			.mockResolvedValueOnce(json({ ...body, [field as string]: value }));
 		expect(await load()).toBeNull();
 	});
 	it('does not fetch external URLs from a malformed manifest', async () => {
