@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "batchId": "56bd9a7b-ac43-4249-a83f-4dc7339b4db1",
+  "categoryUuid": "3f3a00e4-8819-45b4-9e58-b699559adb0e",
+  "categorySlug": "usa",
+  "model": "gemini-3.1-flash-lite",
+  "createdAt": "2026-11-25T20:15:44.598Z",
+  "stories": {
+    "300f0aa6-6597-46aa-bd53-73857e00904a": {
+      "title": "CIA 침해 사고, 미국 내 여행 및 서비스 마비시키는 사이버 사건 목록에 추가돼",
+      "short_summary": "미국 정보망에 영향을 미친 침해 사고는 항공 여행, 금융, 정부 서비스를 마비시킨 한 달간의 사이버 사건 및 기술 장애 중 가장 최근 사례다 [securityweek.com#1][wtsp.com#1]. 중앙정보국(CIA)과 국가정보국장실(ODNI)은 오픈소스 정보 분석에 사용되는 시스템에서 일부 비기밀 정보가 노출된 침입을 발견했다. 이 사건에 정통한 한 관계자는 AP 통신에 해당 침해 사고가 해결되었으며 기밀 정보는 포함되지 않았다고 전했다 [securityweek.com#1][cyberscoop.com#1]. 이번 침해 사고는 항공 교통 관제사가 조종사와의 통신에 어려움을 겪은 후 발생한 전국적인 이륙 금지 조치, 주요 기업의 서비스 중단, 국가안보국(NSA) 기밀 네트워크의 며칠간 이어진 중단 사태에 뒤이어 발생했다 [securityweek.com#1][nypost.com#1]. 연방수사국(FBI) 또한 국가 법 집행 데이터베이스에 대한 침해 의심 사례를 조사 중이며, 농무부도 별도의 사건을 보고했다 [securityweek.com#1][dailysignal.com#1]. 트럼프 행정부는 이번 서비스 중단 사태가 조직적인 사이버 공격으로 보이지 않는다고 밝혔다. 제이 클레이튼(Jay Clayton) 국가정보국장은 많은 장애의 원인을 서두른 소프트웨어 패치와 업그레이드 탓으로 돌리며, 해커들의 고급 인공지능 도구 사용이 시스템에 가해지는 압박을 가중시키고 있다고 말했다 [securityweek.com#1][scmp.com#1]. 션 케언크로스(Sean Cairncross) 백악관 사이버보안 책임자는 이러한 혼란에 대한 비판이 거세지면서 지난주 해임되었다 [scmp.com#1][aawsat.com#1].",
+      "quote": "분석가들이 무엇을 검색하고 어떤 주제를 추적하는지 알 수 있다면, 기밀 파일을 전혀 건드리지 않고도 미국의 정보 우선순위와 사각지대를 확실하게 파악할 수 있다",
+      "quote_attribution": "CyberScoop",
+      "talking_points[0]": "오픈소스 정보 보안: 헌트리스(Huntress)의 사이버보안 자문 관리자인 벤 번스타인(Ben Bernstein)은 이러한 네트워크가 공용 인터넷에 개방된 상태를 유지해야 하기 때문에 보안 확보가 어렵다고 말했다 [cyberscoop.com#1].",
+      "talking_points[1]": "기타 기관: 뉴욕타임스는 다른 정부 기관의 정보도 노출되었을 가능성이 있다고 보도했으나, 어떤 자료가 노출되었는지와 침해 규모는 여전히 불분명하다 [dailysignal.com#1][redlakenationnews.com#1].",
+      "talking_points[2]": "지리공간 정보: 라이브민트(LiveMint)가 인용한 관계자들에 따르면 국립지리공간정보국(NGA)도 영향을 받았다 [livemint.com#1].",
+      "industry_impact[0]": "마이크로소프트(Microsoft) 서비스: 11월 12~13일 발생한 서비스 중단 사태는 아웃룩(Outlook), 팀즈(Teams), 익스체인지 온라인(Exchange Online), 코파일럿(Copilot)에 영향을 미쳤으며, 호주, 일본, 미국의 정부 운영을 마비시켰다 [news18.com#1].",
+      "industry_impact[1]": "기타 연방 기관: 최근 사이버 사건에는 국방부와 국토안보부도 연루되었다고 보도되었다 [dailysignal.com#1][alarabiya.net#1].",
+      "perspectives[0].text": "국가정보국장실: 해당 기관은 이번 침해 사고로 인해 핵심 역량이나 기밀 시스템에 대한 장애는 발생하지 않았다고 밝혔다 [thehindu.com#1].",
+      "primary_image.caption": "버지니아주 랭리에 위치한 CIA 본부인 조지 부시 정보 센터."
+    },
+    "490f7a9a-8f75-434c-95a9-88f2041d6079": {
+      "title": "추수감사절 항공편 지연시킨 레이더 장애 후 오헤어 공항 이착륙 중단 해제",
+      "short_summary": "미 연방항공청(FAA)은 11월 24일 화요일, 공항 지상에서 항공기와 차량을 추적하는 장비에 장애가 발생함에 따라 시카고 오헤어 국제공항의 일부 항공편 운항을 일시 중단했다. 이후 기술진이 복구 작업을 진행하는 동안 이착륙 중단 조치를 지연 프로그램으로 대체했다. FAA는 이번 문제가 오헤어 공항에 국한된 것이며 다른 공항이나 FAA 시스템에는 영향을 미치지 않았다고 밝혔다 [fox32chicago.com#1][thehill.com#1][thehindu.com#1]. FAA는 평균 47분의 지연이 발생할 것으로 추산했다. 로이터 통신에 따르면 시카고로 향하는 214편을 포함해 공항 전체 운항의 12%에 해당하는 약 350편의 항공편이 지연되었다. 이 지연 프로그램은 화요일 늦게 종료되었으며, 이는 해당 공항에서 이틀 연속으로 발생한 운항 차질이었다 [thehindu.com#1][wxyz.com#1][wfrv.com#1]. 이번 장애는 추수감사절 여행 성수기에 발생했으며, 미국자동차협회(AAA)는 연휴 기간 동안 596만 명이 국내선 항공편을 이용할 것으로 전망했다 [foxnews.com#1][thehill.com#1].",
+      "quote": "완전히 안전하지만, 그 상태를 유지하기 위해 다소 천천히 움직여야 합니다.",
+      "quote_attribution": "더 힐(The Hill)",
+      "location": "미국 일리노이주 시카고",
+      "historical_background": "조사관들은 11월 13일 발생한 라우터 고장이 인적 오류, 설치 실수, 혹은 장비 결함 중 무엇에서 비롯되었는지 아직 밝혀내지 못했다 [wxyz.com#1].",
+      "talking_points[0]": "초기 이착륙 중단: 이번 중단 조치는 미니애폴리스, 밀워키, 그린베이, 디모인에서 오헤어 공항으로 향하는 항공편에 적용되었다 [thehill.com#1].",
+      "talking_points[1]": "연휴 비용: 더 힐(The Hill) 보도에 따르면, AAA는 예상보다 저조한 연휴 항공 여행 수요의 원인 중 하나로 가격을 꼽았다. 국내선 왕복 항공권 가격은 평균 800달러로 전년 대비 17% 상승했다 [thehill.com#1].",
+      "talking_points[2]": "기타 운항 차질: 11월 13일 장애 발생 3일 후, 유나이티드 항공의 기술적 결함으로 전체 항공편의 20%가 지연되었다. 이번 주에는 델타 항공의 항공기 중량 계산 시스템 문제로 약 2,000편의 항공편이 지연되고 전체 서비스의 3%가 결항되었다 [gazeteoksijen.com#1].",
+      "travel_advisory[0]": "영향을 받은 도착편: 지연 프로그램은 캐나다 일부 공항을 포함한 24개 다른 공항에서 출발하는 도착편에 적용되었다 [wxyz.com#1].",
+      "industry_impact[0]": "항공사: 번스타인(Bernstein)은 11월 13일 발생한 전국적인 장애와 복구 작업으로 미국 4대 항공사가 총 3억 4,500만 달러의 손실을 입은 것으로 추산했다 [9news.com#1].",
+      "industry_impact[1]": "광범위한 여행: AAA는 추수감사절 전 화요일부터 연휴 후 월요일까지 8,150만 명이 집에서 최소 50마일 이상 떨어진 곳으로 여행할 것으로 전망했다 [9news.com#1].",
+      "user_action_items[0]": "오헤어 공항으로 출발하기 전 항공사의 현재 운항 상태를 확인해야 한다. 화요일의 지연 프로그램은 일부 도착편에 영향을 미쳤으며 운항 일정 조정을 유발했다 [fox32chicago.com#1][wxyz.com#1].",
+      "perspectives[0].text": "숀 더피(Sean Duffy) 교통부 장관은 FAA의 노후화된 통신 인프라에서 발생한 11월 13일 통신 장애의 원인이 결함이 있는 라우터일 수 있다고 밝혔다 [wxyz.com#1][9news.com#1].",
+      "timeline[0].content": "11,500편의 항공편에 영향을 미친 통신 장애로 인해 FAA의 전국적인 이착륙 중단 조치가 내려짐 [gazeteoksijen.com#1][wxyz.com#1]",
+      "timeline[1].content": "인력 부족으로 인해 오헤어 공항에서 약 90분간 이착륙 중단 조치가 시행됨 [wfrv.com#1][thehill.com#1]",
+      "timeline[2].content": "이착륙 중단은 오후 3시 6분에 시작되어 오후 4시 2분에 종료되었으며, 지연 프로그램은 오후 11시 59분까지의 도착편에 적용됨 [fox32chicago.com#1]"
+    },
+    "820bf22f-36f8-41fc-b8a3-6f5a58d4d94d": {
+      "title": "미 국방부, 캐나다의 국방비 지출·F-35 검토 및 군 대비태세 경고",
+      "short_summary": "미 국방부는 월요일 캐나다가 북대서양조약기구(NATO·나토)가 설정한 2035년 지출 목표를 달성하기 위한 신뢰할 수 있고 비용이 완전히 산정된 계획이 부족하며, 2029년 선거 이후로 주요 증액을 미루고 있다며 국방 파트너로서의 역할을 다하지 못하고 있다고 비판했다[abcnews.com#1][pbs.org#1]. 또한 미 국방부는 캐나다군의 대비태세 수치를 언급하며, 캐나다 정부가 계획 중인 미국산 F-35 전투기 88대 도입 사업에 대한 검토를 비판했다. 국방부는 혼합된 기종 운용이 인력에 부담을 주고 북미항공우주방위사령부(NORAD·노라드)를 통한 양국 간 협력을 복잡하게 만들 수 있다고 지적했다[euronews.com#1][time.com#1]. 캐나다는 군 재건을 위해 5년간 818억 캐나다 달러를 투입하기로 약속했으며 나토 목표 달성을 위한 궤도에 머물러 있다고 밝혔다[abcnews.com#1][pbs.org#1]. 데이비드 맥귄티(David McGuinty) 국방장관은 캐나다는 주권 국가이며 노라드, 나토 및 군사 간 협력에는 변함이 없다고 말했다[boston.com#1][theguardian.com#1]. 한편 미 국방부 고위 관계자는 캐나다군을 신뢰할 수 없을 경우 미국이 추가 조치를 취할 수 있다고 경고했으나 구체적인 내용은 밝히지 않았다[theglobeandmail.com#1].",
+      "quote": "캐나다는 주권 국가입니다. 아주 직설적으로 말하겠습니다. 우리는 미국에 보고하지 않습니다.",
+      "quote_attribution": "Boston.com",
+      "location": "캐나다 토론토",
+      "talking_points[0]": "지출 경로: 맥귄티 장관은 캐나다가 2030년까지 국방 및 안보 지출을 GDP의 4%까지 늘리는 것을 목표로 하고 있으며, 나토 동맹국들은 2029년에 5% 공약 사항을 검토할 것이라고 말했다[boston.com#1][newsday.com#1].",
+      "talking_points[1]": "예산 검토: 캐나다의 최신 예산안은 2027~28년까지 국방 및 안보 지출을 GDP의 4.1%(핵심 국방비 2.6% 포함)로 전망하고 있으나, 의회 예산 감시 기구는 캐나다 정부가 어떻게 5%를 달성할 것인지 의문을 제기했다[time.com#1][pbs.org#1].",
+      "talking_points[2]": "군 대비태세: 미 국방부는 2025~26년 캐나다 공군 전력의 41.9%, 해군 전력의 53.9%만이 가동 가능했으며, 육군 대비태세는 48%였다고 보고했다[abcnews.com#1][euronews.com#1].",
+      "talking_points[3]": "포럼 제한: 미군 제복 군인들은 행정부의 제한 조치에 따라 2년 연속 핼리팩스 국제안보포럼(Halifax International Security Forum)에 참석하지 않았다[newsday.com#1][coloradopolitics.com#1].",
+      "perspectives[0].text": "미 국방부: 국방부는 피트 헤그세스(Pete Hegseth) 국방장관이 수십 년간 미국 납세자들이 캐나다의 국방비를 부담해 온 상황을 끝내고 캐나다군의 현대화에 집중하고 있다고 밝혔다[abcnews.com#1].",
+      "perspectives[1].text": "마이크 라운즈(Mike Rounds) 상원의원: 공화당 소속인 라운즈 의원은 헤그세스 장관의 지침이 주로 군 관계자들의 싱크탱크 및 사교 행사 참석을 제한하는 수준이며, 합동 작전이나 정보 공유에는 변화가 없어야 한다고 말했다[time.com#1][pbs.org#1].",
+      "perspectives[2].text": "안드레아 샤론(Andrea Charron): 매니토바 대학교 국방안보연구소장은 가까운 동맹국을 공개적으로 망신 주는 행위는 다른 파트너십을 냉각시키고 미국의 적들에게 동맹 간 분열의 증거를 제공할 수 있다고 경고했다[time.com#1].",
+      "timeline[0].content": "캐나다는 국방비 지출 공약을 이행하기까지 거의 20년이 걸렸다[theguardian.com#1].",
+      "timeline[1].content": "러시아의 크림반도 병합 이후, 3개의 나토 회원국이 GDP 대비 2% 지출 가이드라인을 충족했다[theguardian.com#1].",
+      "timeline[2].content": "마크 카니(Mark Carney) 총리는 계획된 F-35 도입 사업을 검토 대상으로 지정했다[time.com#1][eurasiantimes.com#1].",
+      "timeline[3].content": "미 국방부는 오랜 기간 유지해 온 미-캐나다 국방자문위원회의 활동을 중단했다[abcnews.com#1][pbs.org#1].",
+      "suggested_qna[0].question": "나토의 5% 지출 목표는 어떻게 구성되어 있는가?",
+      "suggested_qna[0].answer": "2035년 공약은 GDP의 최소 3.5%를 핵심 국방비로, 최대 1.5%를 관련 안보 투자로 지출할 것을 요구한다[boston.com#1][newsday.com#1].",
+      "suggested_qna[1].question": "미 국방부의 새로운 대(對)캐나다 군사 접촉 제한 조치는 무엇을 요구하는가?",
+      "suggested_qna[1].answer": "국방부 관계자가 캐나다 관련 행사에 참석하기 위해서는 해당 참여가 미국 정부의 목표를 증진하는지 평가할 수 있도록 국방부 정책실의 승인을 받아야 한다[theglobeandmail.com#1].",
+      "secondary_image.caption": "2026년 11월 17일 벨기에 브뤼셀 나토 본부에서 열린 우크라이나 국방연락그룹 회의 당일, 데이비드 맥귄티 캐나다 국방장관이 언론과 인터뷰하고 있다. REUTERS/Stephanie Lecocq"
+    },
+    "34fe54c8-86f0-4dc4-8aca-29b9ac011742": {
+      "title": "알래스카 공화당 댄 설리번, 메리 펠톨라에게 상원의원 선거 패배 인정",
+      "short_summary": "공화당 소속 댄 설리번 상원의원은 11월 24일, 메리 펠톨라 민주당 후보가 50.14%를 득표하고 설리번 의원이 45.78%를 득표했다는 주 정부의 공식 인증 결과가 나오자 알래스카 상원의원 선거 패배를 인정했다 [thehill.com#1][seattletimes.com#1][evrensel.net#1]. 설리번 의원은 11월 23일 진행된 결과 인증을 기다리겠다고 밝힌 바 있다. 그는 결과를 수용하며 남은 의문점들은 주 및 연방 차원의 조사를 통해 해결될 것이라고 말했다 [thehill.com#1][evrensel.net#1]. 공화당 측은 현직 의원과 이름이 비슷한 무소속 다니엘 J. 설리번 주니어 후보가 유권자를 혼란에 빠뜨리고 표를 분산시키기 위해 영입되었다고 주장했다. 펠톨라 후보와 민주당 전국위원회는 이를 부인했다. 법무부는 설리번 의원이 패배할 경우 결과 인증을 막기 위해 소송을 제기했으나, 연방 판사가 선거일 이전에 이를 기각했고 트럼프 행정부는 이후 소송을 포기했다 [thehill.com#1][seattletimes.com#1][evrensel.net#1]. 시애틀 타임스(The Seattle Times)에 따르면 펠톨라 후보의 승리로 민주당은 전국적으로 56석의 상원 의석을 확보하게 되었으며, 그녀는 알래스카 원주민 여성 최초로 상원의원에 당선되었다 [seattletimes.com#1][evrensel.net#1].",
+      "quote": "지난 12년간 미국 상원에서 알래스카를 위해 봉사한 것은 평생의 영광이었으며, 이 기회를 준 모든 알래스카 주민께 감사드린다.",
+      "quote_attribution": "더 힐(The Hill)",
+      "talking_points[0]": "공식 인증 득표수: 펠톨라 후보 144,583표, 설리번 의원 132,022표, 무소속 다니엘 J. 설리번 주니어 후보 4,767표 [evrensel.net#1].",
+      "talking_points[1]": "순위 선택 투표: 시애틀 타임스가 인용한 뉴욕 타임스 분석에 따르면, 다니엘 J. 설리번 주니어 후보를 1순위로 선택한 유권자 중 설리번 의원보다 펠톨라 후보를 2순위로 선택한 비율이 더 높았다 [seattletimes.com#1].",
+      "talking_points[2]": "주 선거 결과: 민주당 조나단 크라이스-톰킨스 후보가 알래스카 주지사 선거에서 승리했으며, 공화당 닉 베기치 하원의원은 주 전체 선거구에서 의석을 유지했다 [thehill.com#1].",
+      "talking_points[3]": "격차: 펠톨라 후보의 승리 격차는 다니엘 J. 설리번 주니어 후보와 공화당 제럴드 L. 헤이크스 후보의 득표율 합계를 넘어섰다 [seattletimes.com#1].",
+      "perspectives[0].text": "댄 설리번 상원의원: 그는 알래스카 주민들이 \"선거의 공정성에 대한 신뢰\"를 가질 자격이 있다고 말했다 [seattletimes.com#1].",
+      "perspectives[1].text": "메리 펠톨라: 그녀는 설리번 의원의 득표율을 희석하기 위해 다니엘 J. 설리번 주니어 후보를 투표용지에 올리려는 시도가 있었다는 사실을 알지 못했다고 부인했다 [seattletimes.com#1].",
+      "timeline[0].content": "알래스카 주민들이 본선거 투표를 실시했다 [evrensel.net#1].",
+      "timeline[1].content": "알래스카 선거관리국이 상원의원 선거 결과를 공식 인증했다 [thehill.com#1][evrensel.net#1].",
+      "timeline[2].content": "설리번 의원이 펠톨라 후보에게 패배를 인정했다 [thehill.com#1][seattletimes.com#1].",
+      "primary_image.caption": "댄 S. 설리번 상원의원은 화요일 소셜 미디어를 통해 결과를 수용하겠다고 밝혔다."
+    },
+    "25b4ae09-6b6c-4d3d-841c-e0e823cccc81": {
+      "title": "테네시 민주당 후보의 이변, 1992년 이후 최대 하원 의석 확보",
+      "short_summary": "11월 24일 테네시주에서 민주당의 빅토리아 브로데릭(Victoria Broderick) 후보가 8선 현역인 공화당의 스콧 데자를레(Scott DesJarlais) 하원의원을 꺾으면서, 민주당은 1992년 이후 선거에서 가장 많은 259석의 하원 의석을 확보하게 되었다. 브로데릭 후보는 약 19만 6천 표 중 400표 미만의 차이로 승리하며 11월 3일 중간선거에서 민주당의 의석 확대를 견인했다 [abcnews.com#1][nytimes.com#1][thehindu.com#1]. 2027년 1월 새 회기가 시작되면 도널드 트럼프 대통령이 백악관을 지키는 가운데 민주당이 의회 양원을 모두 장악하게 된다. 당 지도부는 생활비 문제와 의회 감독 기능에 집중할 계획이라고 밝혔다. 아직 3곳의 하원 선거구 결과가 확정되지 않았으며, 11월 30일 미네소타주 재검표와 12월 루이지애나주 결선 투표가 남아 있다 [thehindu.com#1][abcnews.com#1].",
+      "quote": "당연히, 우리는 압박감을 느껴야 한다",
+      "quote_attribution": "더 힌두(The Hindu)",
+      "location": "미국 워싱턴 DC",
+      "historical_background": "브로데릭 후보와 데자를레 의원은 2024년에도 맞붙었으며, 당시에는 데자를레 의원이 큰 격차로 승리한 바 있다 [abcnews.com#1][hotnews.ro#1]. 이번 2026년 결과는 공화당 소속 주 의원들이 멤피스 내 민주당 우세 지역구를 뒤집기 위해 데자를레 의원의 선거구 경계를 조정하는 등 선거구를 재획정한 이후에 나왔다 [abcnews.com#1][hotnews.ro#1].",
+      "talking_points[0]": "선거 자금: 브로데릭 후보 캠프는 9만 달러를 조금 넘게 지출한 반면, 데자를레 의원은 약 50만 8천 달러를 지출했다. 브로데릭 후보 캠프가 TV 광고를 집행했다는 기록은 없다 [vietnamplus.vn#1][hotnews.ro#1][nytimes.com#1].",
+      "talking_points[1]": "선거구 성향: 2024년 대선 당시 트럼프 대통령이 해당 선거구에서 24%포인트 차이로 승리했다 [abcnews.com#1][vietnamplus.vn#1].",
+      "talking_points[2]": "상원 다수당: 민주당은 상원 100석 중 56석을 차지하며 10여 년 만에 최대 의석 우위를 점했다 [thehindu.com#1].",
+      "talking_points[3]": "당 의석 확대: 민주당은 선거일 기준 대비 45석의 하원 의석을 추가로 확보했으며, 이는 트럼프 대통령의 첫 중간선거였던 2018년 당시보다 5석 더 많은 수치이다 [thehindu.com#1][skynewsarabia.com#1].",
+      "perspectives[0].text": "하킴 제프리스(Hakeem Jeffries) 하원 민주당 원내대표는 트럼프 대통령에 대한 세 번째 탄핵 추진 가능성을 배제하지 않았다 [thehindu.com#1].",
+      "perspectives[1].text": "톰 수오지(Tom Suozzi) 하원의원: 뉴욕주 민주당 소속인 그는 당이 시간의 75%를 경제적 부담 완화에, 25%를 책임 규명에 할애해야 하며, 각종 조사를 국민의 가계 경제에 미치는 영향과 연계해야 한다고 주장했다 [thehindu.com#1].",
+      "perspectives[2].text": "알렉산드리아 오카시오-코르테스(Alexandria Ocasio-Cortez) 하원의원: 뉴욕주 민주당 소속인 그녀는 새로 당선된 대규모 의원들을 두고 '변화에 대한 명령'이라고 평가했다 [thehindu.com#1].",
+      "timeline[0].content": "의회 및 주 정부 선거를 위한 중간선거 투표 실시 [gazeteoksijen.com#1]",
+      "timeline[1].content": "브로데릭 후보의 승리로 민주당 하원 의석수 259석으로 증가 [abcnews.com#1][thehindu.com#1]",
+      "timeline[2].content": "미네소타주 제1선거구 재검표 시작 예정 [abcnews.com#1]",
+      "timeline[3].content": "루이지애나주 하원 의석 2곳에 대한 결선 투표 예정 [abcnews.com#1][lavanguardia.com#1]",
+      "primary_image.caption": "이달 워싱턴에서 제120대 의회 신임 의원들이 하원 의사당 계단에서 단체 사진을 촬영한 후, 테네시주 당선자인 빅토리아 브로데릭 하원의원이 개인 사진 촬영에 임하고 있다."
+    }
+  },
+  "stats": {
+    "storyCount": 12,
+    "translated": 5,
+    "failedStoryIds": [
+      {
+        "id": "aa8aea8e-8b91-453d-bd3a-504a9a790979",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "a8ab5112-748d-420c-a5db-003d0dc6081d",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "a5bce026-62b3-4606-8463-b6adb5e83e99",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "dfaa4202-45f6-46e1-a27f-66089e4231dc",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "f3fae370-20f0-4d06-ac3d-5fece027c559",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "92a987bb-403a-4035-b42d-9be6b7e4450c",
+        "reason": "retry_exhausted"
+      },
+      {
+        "id": "6fd7cc93-03cb-448c-a6c6-12b661388aee",
+        "reason": "retry_exhausted"
+      }
+    ],
+    "tokens": {
+      "in": 6108,
+      "out": 7323
+    }
+  }
+}
