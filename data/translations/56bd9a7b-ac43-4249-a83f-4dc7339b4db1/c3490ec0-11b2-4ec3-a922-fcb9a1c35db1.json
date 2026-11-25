@@ -4,7 +4,7 @@
   "categoryUuid": "c3490ec0-11b2-4ec3-a922-fcb9a1c35db1",
   "categorySlug": "ai",
   "model": "gemini-3.1-flash-lite",
-  "createdAt": "2026-11-25T20:31:58.264Z",
+  "createdAt": "2026-11-25T21:37:33.552Z",
   "stories": {
     "4cff82c9-c0fe-48de-ac63-7ad824e35225": {
       "title": "앤스로픽, 클로드 사용자가 AI로 만든 도구를 맥 및 윈도우 앱으로 설치할 수 있게 지원",
@@ -207,24 +207,66 @@
       "timeline[0].content": "유니버설 트랜스포머(Universal Transformer) 연구에서 신경망의 레이어 재사용 방식 탐구 [venturebeat.com#1]",
       "timeline[1].content": "싱킹 머신즈 랩(Thinking Machines Lab), 루프형 트랜스포머 '잉클링 2 미니(Inkling 2 Mini)' 출시 [simonwillison.net#1]",
       "timeline[2].content": "Z.ai, 자사 최초의 플래그십 루프형 트랜스포머 GLM-5.4 발표 [incrypted.com#1][scmp.com#1]"
+    },
+    "1cd4999d-38ce-4b39-9b25-f36d8cddcc20": {
+      "title": "AI 시장 불안감 재점화에 앤스로픽 주가 IPO 가격 밑으로 하락",
+      "short_summary": "클로드(Claude) 개발사인 앤스로픽(Anthropic)이 나스닥 상장 4거래일 만에 주가가 공모가인 83달러를 밑돌았다. 앤스로픽 주가는 화요일 6.5% 하락한 81.91달러에 마감했다[reuters.com#1][bloomberg.com#1]. 11월 19일 111.50달러로 거래를 시작했던 주가는 화요일 장중 76.60달러까지 떨어졌으며, 로이터는 이번 하락으로 약 2,000억 달러 규모의 시장 가치가 위협받고 있다고 보도했다[reuters.com#1]. 투자자들은 AI 기업들의 밸류에이션과 컴퓨팅 인프라 비용을 재평가하고 있으며, 금리 인상 기조가 자금 조달에 대한 우려를 더하고 있다[reuters.com#1][apnews.com#1]. 앤스로픽은 엔비디아(Nvidia)가 젠슨 황(Jensen Huang)을 최고경영자로 재선임한 이후 이어진 월요일의 AI 주가 상승세에도 동참하지 못했다. 화요일 나스닥 지수는 1.5%, S&P 500 지수는 0.5% 하락한 반면 다우 지수는 0.9% 상승했다[reuters.com#1][apnews.com#1]. 한편 비즈니스 인사이더와 마켓워치는 앤스로픽과 경쟁사인 오픈AI(OpenAI) 내부에서 가장 강력한 미공개 모델을 안전하게 출시할 수 있는지에 대한 의문이 제기되고 있다고 보도했다[businessinsider.com#1][marketwatch.com#1]. 앤스로픽은 최근 보안 강화를 위해 새로운 프런티어 모델의 사전 학습을 한 달 이상 연기했다고 밝혔다[marketwatch.com#1].",
+      "did_you_know": "메두자(Meduza)에 따르면 앤스로픽 직원 약 5,300명 중 5,100명가량이 상장 첫날 이후 100만 달러 이상의 가치를 지닌 지분을 보유하게 되었다[meduza.io#1].",
+      "quote": "데이터 센터 구축 속도가 둔화된다면, 이는 앤스로픽의 개발 속도에 영향을 미칠 수 있으며 결과적으로 향후 매출과 기업 가치에도 영향을 줄 수 있다.",
+      "quote_attribution": "뉴스18(로이터)",
+      "historical_background": "로이터는 앤스로픽의 공모가 하회 사례와 관련해 두 가지 주요 사례를 언급했다. 스페이스X(SpaceX)는 상장 후 공모가 밑으로 떨어지는 데 약 한 달이 걸렸고[reuters.com#1], 페이스북(현 메타 플랫폼스)은 2012년 상장 이틀 만에 공모가를 밑돌았다[reuters.com#1].",
+      "business_angle_text": "투자자들은 앤스로픽의 성장이 인프라 투자 비용을 정당화할 수 있을지 저울질하고 있다. 두 번째 수정된 S-1 서류에 따르면 총 지출 약정액은 약 9,009억 달러에 달한다[forbes.com#1][reuters.com#1]. 또한 앤스로픽은 저가형 AI 대안들 사이에서 프리미엄 가격 정책을 유지할 수 있을지에 대한 검증에 직면해 있다. CFRA의 애널리스트 재니스 퀙(Janice Quek)은 고객들이 더 저렴한 제품에도 불구하고 앤스로픽의 서비스를 계속 사용하고 있다고 평가하면서도, 오픈 웨이트(open-weight) 모델과의 경쟁을 위험 요소로 지목했다[cnyes.com#2].",
+      "talking_points[0]": "지수 편입: MSCI는 11월 30일 장 마감 후 앤스로픽을 글로벌 표준 지수에 편입할 예정이며, 한 분석에 따르면 연말까지 패시브 펀드 수요가 IPO 주식의 30%에 달할 수 있다는 전망이 나왔다[cnyes.com#3].",
+      "talking_points[1]": "옵션 거래: 화요일 정오까지 약 50만 건의 옵션 계약이 거래되었으며 약 2억 5,000만 달러의 프리미엄이 발생했다. 풋옵션이 콜옵션보다 약 30만 대 20만 건으로 더 많았으며, 대규모 거래들은 시장의 엇갈린 전망을 시사했다[cnbc.com#1].",
+      "talking_points[2]": "IPO 공급: 파이낸셜 타임스는 주관사들이 상장 첫날 그린슈(초과배정옵션)를 전량 행사해 122억 달러를 추가로 조달했으며, 창업자가 아닌 내부자 보유 주식 3억 1,500만 주가 상장 첫날부터 매도 가능했다고 보도했다[ft.com#1].",
+      "talking_points[3]": "기관 배정: IPO 주문을 넣은 기관 투자자 중 약 절반은 주식을 배정받지 못했으며, 이들 기관은 주가 하락 시기에 서둘러 매수에 나서지 않는 것으로 보인다[cnbc.com#2].",
+      "talking_points[4]": "임원 매도: 공시 자료에 따르면 다리오 아모데이(Dario Amodei) CEO는 공개 시장이 아닌 IPO 주관사를 통해 약 2억 8,000만 달러 상당의 주식 337만 주 이상을 매도했다[yahoo.com#3].",
+      "business_angle_points[0]": "앤스로픽의 잉여현금흐름 개선 여부를 주시해야 한다. 맨 그룹(Man Group)은 앤스로픽이 이미 현금을 창출하고 있으며 잉여현금흐름 손익분기점에 근접했다고 평가했다[cnbc.com#5].",
+      "business_angle_points[1]": "경영진이 순차적 매출 성장 둔화에 대해 설명할 수 있는지 추적해야 한다. 씨포트 리서치(Seaport Research)의 제이 골드버그(Jay Goldberg)는 매출 성장률이 2분기 144%에서 3분기 44%로 하락했다고 지적했다[benzinga.com#1].",
+      "perspectives[0].text": "웨드부시 증권(Wedbush Securities): 이갈 아루니안(Ygal Arounian) 애널리스트는 앤스로픽에 대해 '아웃퍼폼(Outperform)' 등급과 목표 주가 120달러를 제시했다. 그는 프런티어 AI가 기존 소프트웨어 예산을 넘어 훨씬 더 큰 규모의 지식 노동 시장을 공략할 수 있다고 주장하며, 앤스로픽의 시장 침투율이 1% 미만이라고 추정했다.",
+      "perspectives[1].text": "CFRA 리서치: 재니스 퀙(Janice Quek) 주식 애널리스트는 '매수(Buy)' 등급을 유지하며, 고객들이 더 저렴한 AI 제품에도 불구하고 앤스로픽의 서비스를 계속 사용하고 있다고 평가했다. 다만 오픈 웨이트 모델과의 경쟁 심화는 여전히 위험 요소라고 경고했다.",
+      "timeline[0].content": "앤스로픽이 공모가 83달러로 나스닥 거래를 시작했다[reuters.com#1].",
+      "timeline[1].content": "엔비디아가 젠슨 황을 최고경영자로 재선임하며 AI 관련주가 상승했다[cnyes.com#2][apnews.com#1].",
+      "timeline[2].content": "앤스로픽 주가가 상장 후 처음으로 공모가를 밑돌며 마감했다[reuters.com#1][bloomberg.com#1].",
+      "timeline[3].content": "장 마감 후 MSCI 글로벌 표준 지수 편입이 예정되어 있다[cnyes.com#3].",
+      "primary_image.caption": "상장 첫날인 11월 19일, 앤스로픽 주가는 17% 이상 급등했다.",
+      "secondary_image.caption": "뉴욕 나스닥 시장에서 앤스로픽 상장식에 참석한 다리오 아모데이 CEO와 다니엘라 아모데이(Daniela Amodei) 사장."
+    },
+    "9ff9f5cd-74ad-47be-a143-5a6c9c1d19b9": {
+      "title": "분석가들, 앤스로픽의 '클로드 쉽'에 독립적인 코드 안전장치 도입 촉구",
+      "short_summary": "소프트웨어 분석가와 엔지니어들은 깃허브(GitHub) 코드 변경 사항을 검토하고 문제를 수정하며 팀이 작성한 정책에 따라 일상적인 풀 리퀘스트(pull request)를 승인할 수 있는 앤스로픽(Anthropic)의 베타 서비스 '클로드 쉽(Claude Ship)'에 대해 신중한 태도를 보이고 있다. 이 서비스는 코드 리뷰(Code Review)와 두 개의 베타 에이전트인 PR 스튜어드(PR Steward), 클로드 어프로벌스(Claude Approvals)를 결합하여 코드의 병합 준비 여부를 평가한다 [infoworld.com#1][theregister.com#1]. 분석가들은 코드를 생성하고 검토하는 AI 시스템이 동일한 사각지대를 공유할 수 있으며, 자동화된 승인 방식은 결함이 있는 변경 사항에 대해 누가 책임을 져야 하는지 모호하게 만들 수 있다고 경고한다. IDC의 아시아 태평양 AI 플랫폼 및 자문 담당 부사장인 디피카 기리(Deepika Giri)는 팀이 보안 스캔과 지속적 통합(CI) 검사를 AI 리뷰어와 독립적으로 유지하고 모든 병합에 인간 소유자를 지정해야 한다고 조언했다 [infoworld.com#1]. 가트너(Gartner)의 수석 분석가 니티시 티아기(Nitish Tyagi)는 모델의 비결정성 때문에 AI를 유일한 품질 관문으로 사용하는 것은 부적절하다고 지적했다 [infoworld.com#1]. 앤스로픽은 에이전트가 병합을 차단하거나 승인하지 않고 결정 사항만 보고하는 '관찰 전용 모드'로 승인 기능을 먼저 실행할 것을 권장한다. 앤스로픽은 자사의 클로드 코드(Claude Code) 팀의 결과를 인용하면서도, 클로드 리뷰는 더 광범위한 프로세스 중 하나의 단계일 뿐이라고 밝혔다. 분석가들은 팀이 배포를 평가할 때 배포 속도뿐만 아니라 결함 및 재작업 비율을 추적해야 한다고 강조한다 [helpnetsecurity.com#1][decrypt.co#1][infoworld.com#1].",
+      "quote": "AI 모델은 본질적으로 비결정적이므로 유일한 품질 관문으로 사용하기에는 부적절하다",
+      "quote_attribution": "인포월드(InfoWorld)",
+      "historical_background": "디크립트(Decrypt)가 인용한 동료 평가 연구에 따르면, 오픈AI(OpenAI)와 앤스로픽 모델은 AI가 생성한 코드보다 사람이 작성한 코드의 취약점을 식별하고 수정하는 데 약간 더 나은 성능을 보였다 [decrypt.co#1]. 지난 4월, 한 스타트업 창업자는 클로드 코딩 에이전트가 API 호출 한 번으로 프로덕션 데이터베이스와 볼륨 수준의 백업을 삭제했다고 보고했다 [decrypt.co#1]. 10월의 한 엔지니어링 보고서에서는 작성자가 개입하기 전까지 하룻밤 사이에 50회 이상의 자동 검토 및 수정 과정을 거친 변경 제안 사례가 기술되기도 했다 [decrypt.co#1].",
+      "business_angle_text": "분석가들은 클로드 쉽 배포를 평가할 때 리뷰 속도 및 풀 리퀘스트 처리량과 함께 결함, 복구, 재작업 비율을 측정할 것을 권장한다 [infoworld.com#1]. 토큰 기반 과금 체계로 인해 비용은 변동적이다. IDC의 디피카 기리는 배포를 확대하기 전에 병합된 풀 리퀘스트당 비용과 배포 품질을 추적할 것을 권고한다 [infoworld.com#1][helpnetsecurity.com#1].",
+      "talking_points[0]": "사용 비용: 클로드 쉽은 토큰 사용량에 따라 요금을 부과한다. 비용은 풀 리퀘스트의 크기와 규모, 리뷰 깊이, PR 스튜어드의 수정 작업에 따라 달라지며, 관리자는 코드 리뷰와 PR 스튜어드의 지출 한도를 설정할 수 있다 [helpnetsecurity.com#1][infoworld.com#1].",
+      "talking_points[1]": "접근 제한: 이 베타 서비스는 클로드 팀 및 엔터프라이즈 고객의 깃허브 저장소를 지원하지만, 데이터 보존 제로(Zero Data Retention), HIPAA 구성 또는 고객 관리 암호화 키를 사용하는 조직은 제외된다 [technology.org#1][helpnetsecurity.com#1].",
+      "talking_points[2]": "플랫폼 경쟁: 옴디아(Omdia)의 분석가 리안 지 수(Lian Jye Su)는 클로드 쉽이 기존 클로드 코드 고객에게 매력적일 수 있다고 언급했으며, IDC의 디피카 기리는 깃허브와 깃랩(GitLab)이 자체 개발 플랫폼과의 긴밀한 통합을 통해 이점을 누릴 것이라고 지적했다 [infoworld.com#1].",
+      "talking_points[3]": "파일럿 피드백: 카바나(Carvana)의 엔지니어링 임원 알렉스 데브카(Alex Devkar)는 PR 스튜어드 파일럿을 통해 리뷰 피드백을 처리하는 데 드는 시간을 줄였으며, 팀이 변경 사항을 제안하고 구성하는 방식을 맞춤화할 수 있게 되었다고 밝혔다 [helpnetsecurity.com#1].",
+      "talking_points[4]": "벤치마킹: IDC의 디피카 기리는 초기 저장소를 넘어 배포를 확대하기 전에 병합된 풀 리퀘스트당 비용, 사이클 타임, 변경 실패율, 복구 비율 및 개발자 만족도를 추적할 것을 권장했다 [infoworld.com#1].",
+      "technical_details[0]": "승인 대 병합: 클로드 어프로벌스는 승인 결정을 내릴 수 있지만, 병합 여부는 여전히 깃허브의 브랜치 보호 규칙, 필수 검사 및 개발자의 권한에 따라 결정된다 [technology.org#1][theregister.com#1].",
+      "technical_details[1]": "저장소 정책 파일: 승인 정책은 저장소에 저장되며 해당 파일이 기본 브랜치에 도달하면 활성화된다. 팀은 코드 리뷰 결과를 사용자 정의 자연어 분류기와 결합하여 사용할 수 있다 [helpnetsecurity.com#1][technology.org#1].",
+      "business_angle_points[0]": "배포 속도와 함께 결함 및 재작업이 증가한다면 병합 횟수가 많다는 것만으로는 비용 절감을 증명할 수 없다 [infoworld.com#1].",
+      "business_angle_points[1]": "토큰 소비량은 풀 리퀘스트의 규모, 크기, 리뷰 깊이 및 수행된 수정 작업에 따라 달라지므로 구매자는 저장소 수준의 비용 통제 수단이 필요하다 [infoworld.com#1][helpnetsecurity.com#1].",
+      "perspectives[0].text": "디피카 기리, IDC 아시아 태평양 AI 플랫폼 및 자문 담당 부사장: 기리는 코드를 생성하고 검토하는 모델이 동일한 사각지대를 공유할 수 있다고 경고했다. 그녀는 자동화된 승인을 저위험 변경 사항으로 제한하고, 독립적인 보안 검사를 유지하며, 모든 병합에 인간 소유자를 지정할 것을 권장했다 [infoworld.com#1].",
+      "perspectives[1].text": "니티시 티아기, 가트너 수석 분석가: 티아기는 AI의 비결정적 행동으로 인해 AI가 유일한 품질 관문 역할을 해서는 안 된다고 말하며, 풀 리퀘스트에 책임이 있는 개발자나 팀과 연결된 별도의 에이전트 식별자를 사용할 것을 권장했다 [infoworld.com#1].",
+      "perspectives[2].text": "리안 지 수, 옴디아 수석 분석가: 수는 앤스로픽의 클로드 코드 통합이 이미 코딩 도구를 사용 중인 기업들에게 매력적일 수 있지만, 에이전트가 일부 산업의 변화하는 보안 및 규정 준수 요구 사항을 완전히 반영하지 못할 수 있다고 경고했다 [infoworld.com#1].",
+      "perspectives[3].text": "카바나 엔지니어링 팀: 엔지니어링 및 분석 담당 수석 부사장 알렉스 데브카는 파일럿 프로그램을 통해 팀이 리뷰 피드백을 처리하는 시간을 단축했으며, 도구를 기존 프로세스에 맞게 조정할 수 있었다고 밝혔다 [helpnetsecurity.com#1].",
+      "timeline[0].content": "앤스로픽, 코드 리뷰를 연구용 프리뷰로 도입 [news.kagi.com#1]",
+      "timeline[1].content": "코드 리뷰 정식 출시 [news.kagi.com#1]",
+      "timeline[2].content": "앤스로픽, 클로드 쉽 발표 및 베타 롤아웃 시작 [news.kagi.com#1]",
+      "timeline[3].content": "자격 요건을 갖춘 엔터프라이즈 고객이 이 기한까지 크레딧을 청구할 수 있음 [helpnetsecurity.com#1]",
+      "suggested_qna[0].question": "일부 엔터프라이즈 고객에게 제공되는 크레딧 혜택은 무엇인가?",
+      "suggested_qna[0].answer": "자격을 갖춘 클로드 엔터프라이즈 조직은 2027년 1월 15일까지 최소 1만 달러의 사용 크레딧을 청구할 수 있으며, 청구 후 30일 이내에 사용해야 한다 [helpnetsecurity.com#1][technology.org#1]."
     }
   },
   "stats": {
     "storyCount": 12,
-    "translated": 10,
-    "failedStoryIds": [
-      {
-        "id": "1cd4999d-38ce-4b39-9b25-f36d8cddcc20",
-        "reason": "retry_exhausted"
-      },
-      {
-        "id": "9ff9f5cd-74ad-47be-a143-5a6c9c1d19b9",
-        "reason": "retry_exhausted"
-      }
-    ],
+    "translated": 12,
+    "failedStoryIds": [],
     "tokens": {
-      "in": 13256,
-      "out": 16664
+      "in": 16805,
+      "out": 21495
     }
   }
 }
