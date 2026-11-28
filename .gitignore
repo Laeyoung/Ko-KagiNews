@@ -51,3 +51,7 @@ reviewdog-input.json
 # Vercel project link
 .vercel
 .gstack/
+
+# Generated static news assets (rebuilt offline from versioned snapshots)
+static/news/
+data/news-snapshots/*.tmp

@@ -409,7 +409,7 @@ if (TRANSLATIONS_ENABLED === 'false' || !wantsKorean(lang)) → 기존 createPro
 else → fetchUpstreamJSON() → readSidecar() → applyTranslations() → json 응답
 ```
 
-`TRANSLATIONS_ENABLED` 킬 스위치(§8.2)는 이 분기의 최상단에서 평가한다 — `'false'`면 사이드카 유무·`wantsKorean` 결과와 무관하게 기존 프록시 경로로만 흘러 전 콘텐츠가 영어로 서빙되므로, 계통적 번역 결함 발견 시 데이터/코드 변경 없이 즉시 롤백된다.
+`TRANSLATIONS_ENABLED` 킬 스위치(§8.2)는 이 분기의 최상단에서 평가한다 — `'false'`면 사이드카 유무·`wantsKorean` 결과와 무관하게 기존 프록시 경로로만 흘러 전 콘텐츠가 영어로 서빙되므로, API 오버레이를 끌 수 있다. 정적 뉴스 JSON 경로를 함께 끄려면 해당 환경변수로 재빌드·재배포해야 한다. 런타임 환경변수 변경만으로 이미 게시된 정적 파일은 회수되지 않는다.
 
 **에러 처리**: 한국어 경로에서도 업스트림이 비-200을 반환하거나 응답이 JSON으로 파싱되지 않으면 **원 응답을 상태 코드 그대로 통과**시킨다(기존 프록시 동작 보존). 사이드카 읽기/병합 중 예외 발생 시에도 업스트림 원문으로 폴백하고 서버 로그만 남긴다 — 번역 계층의 어떤 실패도 서비스 장애로 이어지지 않아야 한다.
 
@@ -507,7 +507,7 @@ translationInfo?: { model: string; translatedAt: string };
 | `GEMINI_MODEL` | `gemini-3.1-flash-lite` | 모델 ID 오버라이드 |
 | `TRANSLATIONS_DIR` | `./data/translations` | 사이드카 저장 경로 (크론과 서버가 공유). **프로덕션에서는 절대 경로 명시 필수** — 아래 cwd 불일치 주의 참조 |
 | `KITE_API_BASE` | `https://kite.kagi.com/api` | 업스트림 오버라이드 (테스트용) |
-| `TRANSLATIONS_ENABLED` | `true` | 서빙 킬 스위치. `'false'`면 서버가 사이드카 존재 여부와 무관하게 한국어 오버레이를 no-op화해 전 콘텐츠를 영어로 서빙(불량 프롬프트·오염 병합 등 계통적 번역 결함의 즉시 롤백용 — 파일 삭제/코드 리버트 없이 env 변경 + 재시작만으로 복구). 크론/스크립트에는 무관 |
+| `TRANSLATIONS_ENABLED` | `true` | 서빙 중단 설정. `'false'`면 API 한국어 오버레이를 비활성화한다. 정적 한국어 뉴스도 중단하려면 env 변경 후 재빌드·재배포가 필요하다. Node 프로세스 재시작만으로 기존 정적 파일은 비활성화되지 않는다. 번역 크론에는 무관 |
 | `WAIT_POLL_INTERVAL_MS` | `30000` | 대기 모드(§4.3 1단계)의 `latest` 폴링 주기(ms). 크론/스크립트 전용, 주로 테스트용 오버라이드. 미설정·비정상 값(NaN, ≤ 0)이면 경고 후 기본값으로 폴백 |
 
 **운영 참고**: `@sveltejs/adapter-node` 빌드(`node build`)는 `.env`를 **자동 로드하지 않는다**. 프로덕션에서는 `node -r dotenv/config build` 로 실행하거나 systemd `EnvironmentFile=`/컨테이너 env로 주입한다. bun 스크립트는 cwd의 `.env`를 자동 로드하므로 크론 쪽(§4.3 crontab이 `cd /opt/ko-kaginews`를 선행)은 추가 조치가 불필요하다.

@@ -1,4 +1,5 @@
 import type { RequestHandler } from '@sveltejs/kit';
+import { publicRequestHeaders } from './publicRequestHeaders';
 
 export const KITE_API_BASE = process.env.KITE_API_BASE ?? 'https://kite.kagi.com/api';
 
@@ -24,7 +25,7 @@ export function createProxy(endpoint: string): RequestHandler {
 			// Create proxy request with same method, headers, and body
 			const proxyRequest = new Request(targetUrl.toString(), {
 				method: request.method,
-				headers: request.headers,
+				headers: publicRequestHeaders(request, url.pathname),
 				body:
 					request.method !== 'GET' && request.method !== 'HEAD' ? await request.blob() : undefined,
 			});

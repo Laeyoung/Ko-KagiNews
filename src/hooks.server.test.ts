@@ -77,3 +77,26 @@ describe('hooks.server handle', () => {
 		expect(res.headers.get('cache-control')).toBeNull();
 	});
 });
+
+it('caches anonymous public batches with only Clarity cookies', async () => {
+	const response = await run('https://x.test/api/batches/latest', new Response('{}'), {
+		headers: { cookie: '_clck=analytics; _clsk=analytics' },
+	});
+	expect(response.headers.get('cache-control')).toContain('s-maxage=300');
+});
+it('still protects sessions mixed with analytics cookies', async () => {
+	const response = await run(
+		'https://x.test/api/batches/latest',
+		new Response('{}', { headers: { 'cache-control': 'private' } }),
+		{
+			headers: { cookie: '_clck=analytics; session=secret' },
+		},
+	);
+	expect(response.headers.get('cache-control')).toBe('private');
+});
+it('does not ignore analytics-named cookies on SSR pages', async () => {
+	const response = await run('https://x.test/', new Response('page'), {
+		headers: { cookie: '_clck=value' },
+	});
+	expect(response.headers.get('cache-control')).toBeNull();
+});
